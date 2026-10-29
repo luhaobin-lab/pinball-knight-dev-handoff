@@ -32,6 +32,14 @@
     "talents": 133,
     "pngFiles": 616,
     "atlasPages": 7,
-    "runtimeZip": "dist/pinball-knight-handdrawn-v6-runtime.zip"
+    "runtimeZip": "dist/pinball-knight-handdrawn-v6-runtime.zip",
+    "runtimeZipBundled": false,
+    "runtimeZipGenerationCommand": "python3 -B scripts/package.py"
+  },
+  "publicHandoff": {
+    "pixelMasters": "pixel-master-map.json",
+    "highResolutionMothersIncluded": false,
+    "rawArchive": "Local archive only; no public mother download.",
+    "existingPNGVariantsPreserved": true
   }
 }

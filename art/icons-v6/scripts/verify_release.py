@@ -14,14 +14,20 @@ def sha(path):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--require-mothers', action='store_true', help='Fail if the optional mother archive has not been extracted.')
+    parser.add_argument('--mother-dir', type=Path, help='Optional local high-resolution source archive, outside the public package.')
+    parser.add_argument('--require-mothers', action='store_true', help='Fail unless every original high-resolution mother exists in --mother-dir.')
     args = parser.parse_args()
+    mother_dir = args.mother_dir.expanduser().resolve() if args.mother_dir else ROOT / 'mothers'
     manifest = json.loads((ROOT / 'manifest.json').read_text())
     briefs = json.loads((ROOT / 'data/briefs.json').read_text())
     anchor_hashes = json.loads((ROOT / 'data/approved-anchor-hashes.json').read_text())
     assert len(manifest['icons']) == len(briefs) == 308
     assert not manifest['missingIds']
     assert not json.loads((ROOT / 'qa/technical-validation.json').read_text())['issues']
+    master_map = json.loads((ROOT / 'pixel-master-map.json').read_text())
+    assert master_map['highResolutionMothersIncluded'] is False
+    master_records = {row['id']: row for row in master_map['icons']}
+    assert len(master_records) == 308
     source = {brief['id']: brief for brief in briefs}
     assert set(source) == {r['id'] for r in manifest['icons']}
     assert sum(r['category'] == 'item' for r in manifest['icons']) == 175
@@ -34,11 +40,17 @@ def main():
     missing_mothers = []
     for record in manifest['icons']:
         brief = source[record['id']]
+        master = master_records[record['id']]
+        assert master['pixelMaster'] == record['files']['256']
+        for size, value in master['variants'].items():
+            assert value['file'] == record['files'][size]
+            for key in ['width', 'height', 'bytes', 'sha256', 'pixelSha256']:
+                assert value[key] == record['variants'][size][key]
         for key in ['name', 'slot', 'description', 'sourceFlags']:
             assert record[key] == brief[key], (record['id'], key)
         assert (ROOT / record['prompt']).is_file()
         receipt = json.loads((ROOT / 'receipts' / (record['id'] + '.json')).read_text())
-        mother = ROOT / record['mother']
+        mother = mother_dir / (record['id'] + '.png')
         if mother.is_file():
             assert sha(mother) == receipt['motherSha256'], record['id'] + ' mother hash'
             mother_matches += 1
@@ -63,7 +75,7 @@ def main():
             assert hashlib.sha256(image.tobytes()).hexdigest() == variant['pixelSha256']
             assert sha(path) == variant['sha256']
             assert set(image.getchannel('A').tobytes()) == {0, 255}
-            visible_colors = {pixel[:3] for pixel in image.getdata() if pixel[3]}
+            visible_colors = {pixel[:3] for pixel in image.get_flattened_data() if pixel[3]}
             assert len(visible_colors) == variant['colors'] <= {'128': 64, '256': 96}[size]
             bounds = image.getbbox()
             assert min(bounds[0], bounds[1], image.width - bounds[2], image.height - bounds[3]) >= image.width // 32
@@ -81,11 +93,12 @@ def main():
         anchors[identity] = all(sha(ROOT / 'pixels' / size / (identity + '.png')) == value['sha256'] for size, value in baseline['variants'].items())
         assert anchors[identity]
     if args.require_mothers and missing_mothers:
-        parser.error('Mother files are missing. Extract icon-mothers.zip from release handoff-2026-10-29 into art/icons-v6/; PNGs and the catalogue work without it.')
+        parser.error('Original mothers are not included in public packages. Supply --mother-dir PATH only when you own the local high-resolution source archive. The 616 delivered PNGs and pixel-master-map.json work independently.')
     report = {
-        'status': 'pass', 'icons': 308, 'PNGVariantsVerified': total,
+        'status': 'pass', 'icons': 308, 'PNGVariantsVerified': total, 'editablePixelMastersMapped': len(master_records),
         'exactAtlasCropsMatched': 308, 'packagedMotherHashesMatched': mother_matches,
         'optionalMotherFilesMissing': missing_mothers,
+        'highResolutionMothersIncludedInPublicPackage': False,
         'productionVisualReviewsRecorded': reviewed, 'userApprovedAnchors': 3,
         'atlasPages': len(pages), 'protectedAnchorsUnchanged': anchors,
         'anchorBaseline': 'data/approved-anchor-hashes.json, recorded from the approved V6 delivery',

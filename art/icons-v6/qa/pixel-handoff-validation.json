@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "highResolutionMothersIncluded": false,
+  "highResolutionSourcesRetainedOnlyInOriginalLocalWorkshop": true,
+  "formalMotherCopiesRemoved": 308,
+  "formalMotherBytesRemoved": 498562878,
+  "rejectedHighResolutionCopiesRemoved": 7,
+  "rejectedHighResolutionBytesRemoved": 12329117,
+  "PNGVariantsUnchanged": 616,
+  "PNGVariantBytes": {
+    "128": 1576766,
+    "256": 5776676,
+    "bothVariants": 7353442
+  },
+  "editablePixelMastersMapped": 308,
+  "pixelMasterMapCreatesDuplicateImages": false,
+  "atlasPages": 7,
+  "atlasPNGBytes": 19922799,
+  "sameArtPNGsAsOriginalWorkshop": 626,
+  "missingRawRebuildExitCode": 2,
+  "missingRawRebuildExplainsBoundary": true,
+  "optionalOriginalRawProbe": {
+    "id": "I001",
+    "exactPNGVariants": 2
+  },
+  "historicalFullRawVerification": "qa/handoff-rebuild-validation.json",
+  "currentReleaseValidation": "qa/release-validation.json",
+  "currentBrowserValidation": "qa/browser-validation.json",
+  "nestedZIPsIncluded": 0,
+  "noNewArtGeneration": true,
+  "originalWorkshopModified": false,
+  "boundary": "Existing pixel editing sources and file/browser validation. Original high-resolution art and exact raw conversion require the original local workshop; game integration and player recognition are untested."
+}

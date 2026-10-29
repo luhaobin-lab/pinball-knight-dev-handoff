@@ -35,16 +35,15 @@ async def main():
     for zoom in [1,2]:
      await page.locator(f'[data-zoom="{zoom}"]').click();im=page.locator('.stage img');await im.evaluate('im=>im.decode()');dims=await im.evaluate('im=>({w:im.getBoundingClientRect().width,h:im.getBoundingClientRect().height,nw:im.naturalWidth,nh:im.naturalHeight})');assert dims['w']==size*zoom and dims['h']==dims['nh']*zoom;assert await page.evaluate('document.documentElement.scrollWidth<=innerWidth')
   await page.locator('[data-zoom="1"]').click()
-  mothers_available=(ROOT/'mothers/I156.png').is_file()
-  if mothers_available:
-   await page.locator('[data-mode="mother"]').click();await page.locator('.stage img').evaluate('im=>im.decode()');assert await page.locator('.stage img').evaluate('im=>im.naturalWidth>256');await page.locator('[data-mode="pixel"]').click()
+  assert await page.locator('[data-mode="mother"]').count()==0
+  assert await page.get_by_role('link',name='像素编辑母版索引',exact=True).count()==1
   for bg in ['light','check','dark']:
    await page.locator(f'[data-bg="{bg}"]').click()
    if bg=='light':await page.screenshot(path=str(ROOT/'qa/browser-mobile-light.png'),full_page=True)
   await page.screenshot(path=str(ROOT/'qa/browser-mobile.png'),full_page=True)
   await page.goto((ROOT/'index.html').as_uri());await page.wait_for_function('window.galleryState');assert await page.locator('.card').count()==expected;await page.locator('.stage img').first.evaluate('im=>im.decode()')
   assert not errors,errors
-  result={'status':'pass','iconsInCatalogue':expected,'PNGVariantsDecodedInChrome':decoded,'searchAndCategoryFilters':True,'sourceDetails':True,'downloadBytesMatch':True,'integerScaling1440And390':True,'backgroundControls':True,'motherControlValidated':mothers_available,'motherRequiredForDefaultCatalogue':False,'offlineFilePreview':True,'errors':errors,'boundary':'Browser library validation, not import into the target game.'};(ROOT/'qa/browser-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result,ensure_ascii=False));await browser.close()
+  result={'status':'pass','iconsInCatalogue':expected,'PNGVariantsDecodedInChrome':decoded,'searchAndCategoryFilters':True,'sourceDetails':True,'downloadBytesMatch':True,'integerScaling1440And390':True,'backgroundControls':True,'highResolutionMotherControlsOffered':False,'pixelMasterMapLinked':True,'motherRequiredForDefaultCatalogue':False,'offlineFilePreview':True,'errors':errors,'boundary':'Browser library validation, not import into the target game.'};(ROOT/'qa/browser-validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(result,ensure_ascii=False));await browser.close()
 try:
  asyncio.run(main())
 finally:

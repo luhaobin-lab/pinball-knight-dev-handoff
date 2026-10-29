@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "PNGsChecked": 616,
+  "losslessReencodeMethod": "Pillow 12.2.0, optimize=True, compress_level=9; in-memory only",
+  "sameFileBytesAfterReencode": 616,
+  "possibleByteSavingsWithThisMethod": 0,
+  "publishedPNGsModified": false,
+  "sizes": {
+    "128": 1576766,
+    "256": 5776676,
+    "bothVariants": 7353442
+  },
+  "decision": "Keep existing frozen PNGs and protected anchor hashes. Remove 498562878-byte high-resolution source archive from public packages. No lossy changes or new art generation."
+}

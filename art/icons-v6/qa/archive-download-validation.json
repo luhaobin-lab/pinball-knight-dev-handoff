@@ -3,5 +3,8 @@
   "httpStatus": 200,
   "bytes": 27420667,
   "sha256": "d863d773009a4a659796c1c71c012788cf6dd3c4ee015c680b4a0fb7138780f4",
-  "matchesLocalArchive": true
+  "matchesLocalArchive": true,
+  "historicalEvidence": true,
+  "archiveNotBundled": true,
+  "noteForCurrentHandoff": "Validation of a previously generated runtime archive. Current public project delivery keeps expanded PNG and atlas files without a duplicate nested ZIP; package.py can generate a new runtime ZIP on demand."
 }

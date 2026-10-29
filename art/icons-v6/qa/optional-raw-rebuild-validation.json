@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "mode": "verify-only",
+  "icons": 1,
+  "PNGVariantsReproducedWithExactBytesAndPixels": 2,
+  "mismatches": [],
+  "source": "Optional local high-resolution mother archive; not included in public packages. No network or image generation API used.",
+  "boundary": "Reproducible conversion and file integrity; no new visual or gameplay acceptance."
+}

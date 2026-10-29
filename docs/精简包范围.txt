@@ -1,0 +1,25 @@
+开发精简包制作说明
+
+使用 tools/build_lite.py 从完整仓库生成 pinball-knight-development-lite.zip。
+正式构建：python3 tools/build_lite.py --out /绝对路径/发布目录
+只读预检：python3 tools/build_lite.py --dry-run
+只读估算：python3 tools/build_lite.py --dry-run --estimate-zip
+
+所有原始资料保持不变。脚本只在系统临时目录建立stage，完成后自动清理。
+保留game全部源码、tests、必要fixtures、spec、studio、delivery和当前migration-validation；省略其他旧artifacts。
+design全保留。ICON保留616张PNG、7页图集、256档像素编辑母版、提示词/回执/脚本/参考/全部QA JSON；排除高分辨率原稿、qa大图、dist与缓存。
+UI保留12张交付PNG原字节、清单、说明、提示词/生成记录、研究与核对文本；省略生成中间图、参考截图、对照大图。
+research保留video研究JSON/CSV/XLSX与使用说明、根来源文本；省略截图、source-data和source-docs重复历史资料。
+archive不带。根文档与docs保留；stage生成精简总入口、UI图库、研究导航和范围说明，不改原viewer。
+
+精简包根目录为pinball-knight-development-lite，带PACKAGE_PROFILE.json(profile=development-lite)、独立MANIFEST.json和SHA256SUMS.txt。
+打包时调用标准verify_handoff.py，核对入口本地链接、ZIP CRC及每个ZIP成员SHA256。
+发布目录新增zip、lite-release.json（file/bytes/sha256/members单对象）和lite-profile.json，不覆盖full的release-files.json或SHA256SUMS.txt。
+完整打包器看到精简profile会拒绝把它误标完整包。重新制作完整包须使用完整资料或Git克隆。
+
+256档只作为后续像素编辑母版，不等于高分辨率原始母稿；两档既有PNG保持原字节，不能宣称256可精确重建原稿或原128档。
+任何公开profile都不带高分辨率图标原稿。UI过程、前后比较、旧验证截图和视频证据截图在完整资料包中。
+数据与回执中的原始/对照路径保留作来源索引，精简viewer不会请求被省略的图片。
+完整包入口默认使用现有GitHub Release链接，可通过--full-package-url指定。
+
+脚本只依赖Python标准库。当前仅做只读预检，未执行正式精简ZIP打包。

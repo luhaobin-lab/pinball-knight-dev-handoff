@@ -5,5 +5,7 @@
   "PNGVariantsReproducedWithExactBytesAndPixels": 616,
   "mismatches": [],
   "source": "Saved mothers; no network or image generation API used.",
-  "boundary": "Reproducible conversion and file integrity; no new visual or gameplay acceptance."
+  "boundary": "Reproducible conversion and file integrity; no new visual or gameplay acceptance.",
+  "historicalEvidence": true,
+  "currentPublicBoundary": "Recorded before high-resolution mothers were removed from the handoff. Current public package contains 616 PNGs and 308 existing 256-wide pixel masters; no raw mother archive is publicly provided."
 }

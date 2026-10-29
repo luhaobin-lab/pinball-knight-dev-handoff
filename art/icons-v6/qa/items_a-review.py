@@ -1,7 +1,12 @@
 from pathlib import Path
 from PIL import Image,ImageDraw,ImageFont
-import json,hashlib,numpy as np
+import json,hashlib,numpy as np,argparse
 R=Path(__file__).resolve().parents[1]
+ap=argparse.ArgumentParser(description='Historical optional original-source QA, requires the local workshop mothers.')
+ap.add_argument('--mother-dir',type=Path)
+args=ap.parse_args()
+M=args.mother_dir.expanduser().resolve() if args.mother_dir else R/'mothers'
+if not M.is_dir():raise SystemExit('Original high-resolution mothers are not included in public packages. Use --mother-dir only when you own the original local workshop archive; verify_release.py validates the delivered pixels without it.')
 q=json.loads((R/'data/queue-items_a.json').read_text())
 issues=[];records=[];seen={128:{},256:{}}
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
@@ -11,9 +16,9 @@ for e in q:
   r=json.loads((R/'receipts'/f'{id}.json').read_text())
   if r['id']!=id:bad.append('receipt ID mismatch')
   if not r.get('visualReview','').startswith('passed:'):bad.append('visual review missing')
-  p=R/r['mother']
+  p=M/f'{id}.png'
   if sha(p)!=r['motherSha256']:bad.append('mother hash mismatch')
-  src=R/r['source']
+  src=M/f'{id}.png'
   if not src.exists():bad.append('original generated source missing')
   elif sha(src)!=sha(p):bad.append('mother differs from generated original')
   mi=Image.open(p).convert('RGBA');a=np.array(mi)[:,:,3]

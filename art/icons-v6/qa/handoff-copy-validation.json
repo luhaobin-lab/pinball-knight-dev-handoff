@@ -18,5 +18,7 @@
     "qa/browser-desktop.png",
     "qa/browser-mobile.png"
   ],
-  "scope": "Copied binary art, portable paths, metadata cleanup; prior artwork preserved."
+  "scope": "Copied binary art, portable paths, metadata cleanup; prior artwork preserved.",
+  "historicalEvidence": true,
+  "currentPublicBoundary": "Recorded before high-resolution mothers were removed from the handoff. Current public package contains 616 PNGs and 308 existing 256-wide pixel masters; no raw mother archive is publicly provided."
 }

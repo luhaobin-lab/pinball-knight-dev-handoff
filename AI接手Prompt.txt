@@ -1,9 +1,9 @@
 请接手这个游戏项目的开发。先完整阅读项目，不要马上改代码或重新生图。
 
 仓库：https://github.com/luhaobin-lab/pinball-knight-dev-handoff
-推荐下载Release handoff-2026-10-29的 pinball-knight-complete-handoff.zip（含图标母图），或克隆仓库再按需补下icon-mothers.zip。
+推荐下载Release handoff-2026-10-29的 pinball-knight-development-lite.zip 开发；需完整研究证据与制作沿革时下载 pinball-knight-complete-handoff.zip 或克隆仓库。高分辨率母图按用户要求仅留原电脑，公开包复用pixels/256作为像素编辑母版（见pixel-master-map.json），不另下载大母图。
 
-第一步阅读 README.md、AGENTS.md、docs/目录与版本权威.txt、docs/项目进度与下一步.txt、design/设计权威与进度.txt 和 art/美术制作流程.txt。随后浏览 design 的全部正式规则/配置/算法/验收，research 的来源与数据索引，art/ui-v10的12张原图、提示词和生成记录，以及art/icons-v6的说明、清单、图集、提示词和处理脚本。建立完整文件清单，按目录分批读，不要只读README就声称熟悉全部项目；大图和表格按索引实际查看。
+第一步阅读 README.md、AGENTS.md、docs/目录与版本权威.txt、docs/项目进度与下一步.txt、design/设计权威与进度.txt 和 art/美术制作流程.txt。随后浏览 design 的全部正式规则/配置/算法/验收，research 的来源与数据索引，art/ui-v10的12张原图、提示词和生成记录，以及art/icons-v6的说明、清单、图集、提示词和处理脚本。先辨认当前是精简包还是完整包；精简包未包含的大批原始证据/旧图按清单从完整包查，不把缺少归档误判为运行代码缺失。建立完整文件清单，按目录分批读，不要只读README就声称熟悉全部项目；大图和表格按索引实际查看。
 
 当前真实状态：game仅是可操作的独立单场弹射战斗；新循环、100怪、50附魔、UI v10和ICON v6还没有完成整合。静态图、数据离线检查不能当成运行/平衡/手机体验验收。无尽是产品方向，两层是首个完整验证切片；100怪是80普通+20精英，不含Boss。其设计值是测试配置。
 

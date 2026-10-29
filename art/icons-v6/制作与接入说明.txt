@@ -1,100 +1,92 @@
-正式V6图标：制作方式、离线重建与游戏接入
+正式V6图标：像素编辑母版、制作流程与游戏接入
 交接日期：2026-10-29
 
-1. 当前状态
-308件：I001—I175共175件物品，T001—T133共133项天赋。
-128和256两档共616张PNG，256档另有7页图集。
-这里128/256是整件画布的像素宽度，对应每个逻辑格64/128像素；不是每件图标都为正方形。
-pixels/128下：98张128×64、192张128×128、18张128×192。
-pixels/256下：98张256×128、192张256×256、18张256×384。
-母稿为98张1774×887、192张1254×1254、18张1024×1536，保留原始生成尺寸。既有艺术内容未改动。
-UI v10与这批图标尚未集成到游戏；本目录是已交付资源和制作过程。
-I005、I047、I106是用户已认可的V5样稿，已用冻结哈希保护。
-其他305件保存了原制作阶段的逐件图像生成与目视记录；接手验证不冒充重新审美验收。
+1. 当前公开交付
+308件：I001—I175共175物品，T001—T133共133天赋。
+616张原有PNG全部保留，最终像素、文件哈希和三件认可锚点均未改变。
+pixels/128：308张，共1,576,766字节；98张128×64、192张128×128、18张128×192。
+pixels/256：308张，共5,776,676字节；98张256×128、192张256×256、18张256×384。
+两档合计7,353,442字节（约7.35MB）。7页256档图集共19,922,799字节。
+这里128/256是整件画布宽度，对应每格64/128像素，不是全部物品都使用正方形。
+完整交接包和精简开发包均保留这616张PNG、图集、提示词与必要制作记录。
+UI v10与这批图标尚未集成到游戏实际界面。
 
-2. 完整文件在哪里
-Git仓库含PNG、图集、索引、数据、脚本、提示词、参考来源、回执和QA。
-308张大尺寸母稿放在GitHub Release handoff-2026-10-29的icon-mothers.zip。
-Release页面：https://github.com/luhaobin-lab/pinball-knight-dev-handoff/releases/tag/handoff-2026-10-29
-在仓库根目录解压icon-mothers.zip；压缩包含art/icons-v6/mothers，结果应为art/icons-v6/mothers/I001.png。
-完整项目交接ZIP已含母稿，无需再次下载。
-母稿总计308张、498562878字节；逐件SHA256见receipts，交接二进制基线见qa/handoff-binary-baseline.json。
-缺母稿时index.html、catalog.js、PNG与图集仍可离线使用；再生成像素文件才需要母稿。
+2. 308件后续编辑母版
+pixel-master-map.json直接映射到已有pixels/256/ID.png，不再额外复制图像。
+映射记录每件名称、ID、分类、占格，以及128/256两档的尺寸、字节数、文件SHA256和解码像素SHA256。
+需要改图时以256档为像素底稿，先另存工作副本，再用支持透明和最近邻缩放的像素编辑器修改。
+保留原画布尺寸、占格比例、留白和稳定ID；两个分辨率各自检查，不自动覆写已认可锚点。
+编辑之后要重新目视确认、更新相应回执与哈希，并通过索引、PNG和图集检查。
+现有256图不能精确反推出高分辨率原稿；将256缩成128也不保证等于最初独立转换的128档。
+因此两档发布PNG都保留，不把“像素编辑母版”说成可精确恢复全部原稿的无损源文件。
 
-3. 原制作方法
-先保留名称、功能、占格和未知项，再写每件独立提示词。
-以已认可的三件样稿或风格板，以及《风暴怕死队》官方裁图约束墨线、色块、形体和阴影。
-使用内置image_gen逐件生成透明高分辨率母稿；不是用程序几何替代具体物品。
-像素化采用预乘透明的等比Lanczos缩放、轻微锐化、无抖动Median-cut限色、alpha阈值128。
-128档最多64个可见色，256档最多96个可见色，透明值只保留0/255。
-每边至少留宽度1/32的透明边距；2×1、2×2、2×3按画布比例保留。
-最后核对PNG尺寸、透明、边距、哈希、逐件画面与图集切片。
-references保存实际裁图与来源；不把官方人物、UI、功能或资源当成可运行资产使用。
+3. 高分辨率原稿边界
+原先308张高分辨率母图共498,562,878字节，已移出公开交接副本。
+原始母图只在原电脑的图标工坊/editions/v6-handdrawn-production/mothers/留存，原制作源目录未改。
+本机发布索引记载原稿位置；不再为交接额外复制约499MB归档。
+QA淘汰记录中的7张高分辨率源图也已在核对原工坊同名SHA后移出交接副本，共12,329,117字节；
+它们仍在原工坊qa/rejected/，公开包保留像素尺寸淘汰稿和检查JSON。
+公开完整包、精简包与GitHub Release都不再提供高分辨率母图附件。
+历史manifest的mother路径及receipts里的motherSha256用于追溯，不意味着公开包带有这些文件。
+qa/handoff-rebuild-validation.json保存移出之前从高分辨率原图重现616张PNG的历史检查。
+该记录不能被解释成当前公开包在没有原稿时仍能精确重建两档PNG。
 
-4. 跨机环境
-使用Python 3.11+，在当前目录执行：
+4. 压缩检查
+616张发布PNG已经是限色索引PNG，只含IHDR、PLTE、tRNS、IDAT、IEND标准块。
+用当前Pillow 12.2.0在内存以optimize=True、compress_level=9重新无损保存，616张字节完全相同，
+这一方法没有额外压缩收益。因此保留原文件，避免无意义地改动冻结哈希及QA链。
+压缩检查见qa/pixel-compression-check.json。减小公开包的主要措施是移除约499MB高分辨率原稿。
+
+5. 原制作流程仍保留
+先保留名称、功能、占格和未知项，再写逐件提示词。
+原流程用已认可的三件样稿/风格板和《风暴怕死队》官方裁图，约束墨线、色块、形体与阴影。
+通过内置image_gen逐件生成透明高分辨率母图，再做算法像素化。
+转换为预乘透明等比Lanczos缩放、轻微锐化、无抖动Median-cut限色、alpha阈值128。
+128档最多64个可见色，256档最多96色；透明为0/255，每边至少宽度1/32留白。
+这是具有手绘观感的生成式美术与算法像素化，不宣称逐像素人工绘制。
+prompts、references和receipts保存提示词、参考出处、生成job标识、哈希和原目视检查。
+官方参考图不作为游戏运行时素材；不能按美术造型反向补写游戏机制。
+
+6. 环境与现成资源检查（无需高分辨率原稿）
+使用Python 3.11+，在icons-v6目录执行：
   python3 -m venv .venv
   .venv/bin/python -m pip install -r requirements.txt
-Windows将后续python3换成.venv\Scripts\python.exe；macOS/Linux可使用.venv/bin/python。
-为便于阅读，下文统一写python3；应使用刚安装依赖的解释器。
-Pillow与NumPy版本固定为本轮实际验证版本，避免算法/压缩器漂移。
-无需登录原作者电脑、无需API密钥，也无需连接图像服务即可重建既有PNG。
-
-5. 只验证现有资源（无需母稿）
+Windows使用.venv\Scripts\python.exe；后续python3应替换为安装了依赖的解释器。
   python3 -B scripts/verify_release.py
-它检查308个ID、616张PNG、透明和颜色、7页图集与全部308区域、三个锚点、原资料一致性。
-母稿存在时一并核对母稿哈希；不存在则明确记录未检查，不影响已有PNG校验。
-如要强制确认已带齐母稿：
-  python3 -B scripts/verify_release.py --require-mothers
-
-6. 从保存母稿离线重建
-先进行不写PNG的完整重现核对：
-  python3 -B scripts/rebuild_pngs.py --verify-only
-它从308张母稿在内存重做616张PNG，同时对比文件字节和解码像素哈希。
-若需恢复已有发布PNG：
-  python3 -B scripts/rebuild_pngs.py --write
-仅当输出与冻结发布清单完全一致时才写对应PNG；不覆盖视觉验收记录。
-可加 --id I001 仅处理一个ID。缺失母稿会退出并提示Release解压位置。
-若在其他平台出现字节或像素差异，先按requirements版本检查；不要把差异当作自动通过。
-
-7. 重建索引与图集（不需母稿）
+它检查308个ID、616张PNG、透明/颜色/边距、7图集全部308区域、三个锚点与原资料。
+当前公开包缺少308张原始母图是预期状态，会明确记入报告，不计作现成PNG故障。
   python3 -B scripts/build.py
-生成manifest.json、catalog.js、atlas和联系图；不调用外部图像服务。
-联系图中文字体可用ICON_FONT环境变量指向本机合法字体文件；否则依次寻找系统中文字体，
-缺中文字体时降级字体仅影响QA联系图文字，不影响PNG、图集或浏览器中系统字体显示。
-运行build后再执行verify_release.py，确认PNG与图集一致。
-制作模块study_pixelize.py仅供脚本导入，不再依赖原来的V5平行目录。
+此命令从现成PNG重建manifest、catalog、atlas与联系图，不需要原始母图或图像服务。
+联系图字体可用ICON_FONT环境变量指向本机中文字体；字体降级只影响QA联系图文字。
+之后再次运行verify_release.py，确认图集区域与现成PNG一致。
 
-8. 导入新母稿以修改单件
-先备份原图及回执，保持data/briefs.json中的ID、名称和机制不变。
-  python3 -B scripts/process_asset.py --id I001 --source path/to/new-mother.png --generation-job YOUR_JOB_ID
-它重导两种尺寸、保留包内母图位置和生成job来源，并将视觉检查状态设为pending。
-只记录生成job标识和源文件名；不要把账户令牌、会话ID或私人缓存路径写入公开回执。
-必须重新目视确认主体、结构、完整轮廓与小尺寸辨识，并更新receipts中的实际检查结果。
-之后执行build.py、verify_release.py、browser_qa.py，再package.py。
-三个已认可锚点禁止被process_asset.py覆盖；恢复原图请走rebuild_pngs.py。
-重新调用生成服务不保证得到相同母稿；可重复的是已保存母稿的算法转换。
+7. 仅供持有本机原始归档时使用的历史转换
+公开包默认不具备运行下列转换所需的高分辨率源文件。
+  python3 -B scripts/rebuild_pngs.py --verify-only --mother-dir path/to/local/icon-mothers
+  python3 -B scripts/rebuild_pngs.py --write --mother-dir path/to/local/icon-mothers
+--verify-only仅在内存转换并对比两档PNG文件字节和解码像素；--write只接受与冻结清单相同的输出。
+也可加--id I001限制到一件。缺原稿时会明确退出，不改用256档冒充原始母图。
+  python3 -B scripts/verify_release.py --require-mothers --mother-dir path/to/local/icon-mothers
+重新调用图像生成服务不保证得到相同母图；历史可重复性只针对确实持有的原始保存文件。
+若导入全新高分辨率源图，可使用process_asset.py；它会将新回执视觉检查重置为pending。
+该工具是新增源图导入工具，不是从已交付256像素母版还原旧原稿的工具。
 
-9. 浏览器QA与运行时ZIP
-可直接离线双击index.html，无需服务器。
-可选安装浏览器测试依赖：
+8. 浏览器与按需运行时打包
+index.html可直接离线打开。可选自动检查：
   python3 -m pip install playwright
   python3 -m playwright install chromium
   python3 -B scripts/browser_qa.py
-已装Chrome时可加 --browser-channel chrome；也可用 --url 指向自行启动的静态服务器。
-脚本默认自建仅本机的临时HTTP服务器测试下载，然后另测file://离线打开，不依赖固定端口。
-测试搜索、分类、616张图片解码、下载字节、桌面/手机整数缩放和离线浏览。
-随后：
+已装Chrome时加--browser-channel chrome；脚本自建本机临时HTTP端口测下载，再测file://离线打开。
+测试搜索、分类、616张图片解码、下载字节、桌面/手机整数缩放；不提供已移除的原稿预览按钮。
+运行时ZIP可按需生成：
   python3 -B scripts/package.py
-它只在当前目录dist/生成pinball-knight-handdrawn-v6-runtime.zip，不写父目录。
-运行时ZIP只含PNG、图集、简化manifest与类型，不含大尺寸母稿和制作参考。
+只在当前dist/生成轻量运行时ZIP，不含高分辨率原图，不写父目录。
+公开项目包不必嵌套这份重复ZIP；已保留展开后的全部PNG与图集。
 
-10. 游戏接入规则与待验证项
-优先以稳定ID读取runtime/manifest.json中的files["256"]或atlas.page/frame。
-manifest中的资源路径相对于icons-v6资源根；runtime/manifest.json文件本身位于子目录，
-不要误将pixels路径解释成runtime/pixels。
-使用sRGB、Nearest/Point、Clamp，关闭mipmap，保留画布比例与透明边距。
-图集坐标原点左上，未裁边未旋转，中心锚点(0.5,0.5)。
-设备中实际UI缩放、触控布局、图标识别和游戏引擎纹理设置需在接入后验证。
-文件技术验证、原有代理目视记录与用户/玩家体验验证是三个不同层级。
-美术不能反向决定游戏机制；I035名称及sourceFlags里的未知项继续保留。
+9. 游戏接入
+用稳定ID读取runtime/manifest.json的files["256"]或atlas.page/frame。
+资源路径相对于icons-v6根，不是runtime/子目录。
+使用sRGB、Nearest/Point、Clamp、关闭mipmap；保留占格比例、透明留白和整数显示倍率。
+图集原点左上，未裁边未旋转，4px padding，中心锚点(0.5,0.5)。
+实际引擎导入、设备UI缩放和玩家辨识仍需接入后验证。
+I035名称及sourceFlags中的未知项继续保留；文件验证不等于玩法或审美验收。

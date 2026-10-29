@@ -109,6 +109,7 @@
         }
       },
       "mother": "mothers/I001.png",
+      "pixelMaster": "pixels/256/I001.png",
       "prompt": "prompts/I001.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -210,6 +211,7 @@
         }
       },
       "mother": "mothers/I002.png",
+      "pixelMaster": "pixels/256/I002.png",
       "prompt": "prompts/I002.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -307,6 +309,7 @@
         }
       },
       "mother": "mothers/I003.png",
+      "pixelMaster": "pixels/256/I003.png",
       "prompt": "prompts/I003.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -406,6 +409,7 @@
         }
       },
       "mother": "mothers/I004.png",
+      "pixelMaster": "pixels/256/I004.png",
       "prompt": "prompts/I004.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -517,6 +521,7 @@
         }
       },
       "mother": "mothers/I005.png",
+      "pixelMaster": "pixels/256/I005.png",
       "prompt": "prompts/I005.txt",
       "approval": "approved-anchor",
       "atlas": {
@@ -614,6 +619,7 @@
         }
       },
       "mother": "mothers/I006.png",
+      "pixelMaster": "pixels/256/I006.png",
       "prompt": "prompts/I006.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -713,6 +719,7 @@
         }
       },
       "mother": "mothers/I007.png",
+      "pixelMaster": "pixels/256/I007.png",
       "prompt": "prompts/I007.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -814,6 +821,7 @@
         }
       },
       "mother": "mothers/I008.png",
+      "pixelMaster": "pixels/256/I008.png",
       "prompt": "prompts/I008.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -917,6 +925,7 @@
         }
       },
       "mother": "mothers/I009.png",
+      "pixelMaster": "pixels/256/I009.png",
       "prompt": "prompts/I009.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1014,6 +1023,7 @@
         }
       },
       "mother": "mothers/I010.png",
+      "pixelMaster": "pixels/256/I010.png",
       "prompt": "prompts/I010.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1115,6 +1125,7 @@
         }
       },
       "mother": "mothers/I011.png",
+      "pixelMaster": "pixels/256/I011.png",
       "prompt": "prompts/I011.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1212,6 +1223,7 @@
         }
       },
       "mother": "mothers/I012.png",
+      "pixelMaster": "pixels/256/I012.png",
       "prompt": "prompts/I012.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1311,6 +1323,7 @@
         }
       },
       "mother": "mothers/I013.png",
+      "pixelMaster": "pixels/256/I013.png",
       "prompt": "prompts/I013.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1410,6 +1423,7 @@
         }
       },
       "mother": "mothers/I014.png",
+      "pixelMaster": "pixels/256/I014.png",
       "prompt": "prompts/I014.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1511,6 +1525,7 @@
         }
       },
       "mother": "mothers/I015.png",
+      "pixelMaster": "pixels/256/I015.png",
       "prompt": "prompts/I015.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1612,6 +1627,7 @@
         }
       },
       "mother": "mothers/I016.png",
+      "pixelMaster": "pixels/256/I016.png",
       "prompt": "prompts/I016.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1713,6 +1729,7 @@
         }
       },
       "mother": "mothers/I017.png",
+      "pixelMaster": "pixels/256/I017.png",
       "prompt": "prompts/I017.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1812,6 +1829,7 @@
         }
       },
       "mother": "mothers/I018.png",
+      "pixelMaster": "pixels/256/I018.png",
       "prompt": "prompts/I018.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -1917,6 +1935,7 @@
         }
       },
       "mother": "mothers/I019.png",
+      "pixelMaster": "pixels/256/I019.png",
       "prompt": "prompts/I019.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2018,6 +2037,7 @@
         }
       },
       "mother": "mothers/I020.png",
+      "pixelMaster": "pixels/256/I020.png",
       "prompt": "prompts/I020.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2117,6 +2137,7 @@
         }
       },
       "mother": "mothers/I021.png",
+      "pixelMaster": "pixels/256/I021.png",
       "prompt": "prompts/I021.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2214,6 +2235,7 @@
         }
       },
       "mother": "mothers/I022.png",
+      "pixelMaster": "pixels/256/I022.png",
       "prompt": "prompts/I022.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2311,6 +2333,7 @@
         }
       },
       "mother": "mothers/I023.png",
+      "pixelMaster": "pixels/256/I023.png",
       "prompt": "prompts/I023.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2406,6 +2429,7 @@
         }
       },
       "mother": "mothers/I024.png",
+      "pixelMaster": "pixels/256/I024.png",
       "prompt": "prompts/I024.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2503,6 +2527,7 @@
         }
       },
       "mother": "mothers/I025.png",
+      "pixelMaster": "pixels/256/I025.png",
       "prompt": "prompts/I025.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2600,6 +2625,7 @@
         }
       },
       "mother": "mothers/I026.png",
+      "pixelMaster": "pixels/256/I026.png",
       "prompt": "prompts/I026.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2697,6 +2723,7 @@
         }
       },
       "mother": "mothers/I027.png",
+      "pixelMaster": "pixels/256/I027.png",
       "prompt": "prompts/I027.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2794,6 +2821,7 @@
         }
       },
       "mother": "mothers/I028.png",
+      "pixelMaster": "pixels/256/I028.png",
       "prompt": "prompts/I028.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2895,6 +2923,7 @@
         }
       },
       "mother": "mothers/I029.png",
+      "pixelMaster": "pixels/256/I029.png",
       "prompt": "prompts/I029.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -2990,6 +3019,7 @@
         }
       },
       "mother": "mothers/I030.png",
+      "pixelMaster": "pixels/256/I030.png",
       "prompt": "prompts/I030.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3089,6 +3119,7 @@
         }
       },
       "mother": "mothers/I031.png",
+      "pixelMaster": "pixels/256/I031.png",
       "prompt": "prompts/I031.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3184,6 +3215,7 @@
         }
       },
       "mother": "mothers/I032.png",
+      "pixelMaster": "pixels/256/I032.png",
       "prompt": "prompts/I032.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3285,6 +3317,7 @@
         }
       },
       "mother": "mothers/I033.png",
+      "pixelMaster": "pixels/256/I033.png",
       "prompt": "prompts/I033.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3380,6 +3413,7 @@
         }
       },
       "mother": "mothers/I034.png",
+      "pixelMaster": "pixels/256/I034.png",
       "prompt": "prompts/I034.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3481,6 +3515,7 @@
         }
       },
       "mother": "mothers/I035.png",
+      "pixelMaster": "pixels/256/I035.png",
       "prompt": "prompts/I035.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3582,6 +3617,7 @@
         }
       },
       "mother": "mothers/I036.png",
+      "pixelMaster": "pixels/256/I036.png",
       "prompt": "prompts/I036.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3683,6 +3719,7 @@
         }
       },
       "mother": "mothers/I037.png",
+      "pixelMaster": "pixels/256/I037.png",
       "prompt": "prompts/I037.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3786,6 +3823,7 @@
         }
       },
       "mother": "mothers/I038.png",
+      "pixelMaster": "pixels/256/I038.png",
       "prompt": "prompts/I038.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3881,6 +3919,7 @@
         }
       },
       "mother": "mothers/I039.png",
+      "pixelMaster": "pixels/256/I039.png",
       "prompt": "prompts/I039.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -3978,6 +4017,7 @@
         }
       },
       "mother": "mothers/I040.png",
+      "pixelMaster": "pixels/256/I040.png",
       "prompt": "prompts/I040.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4077,6 +4117,7 @@
         }
       },
       "mother": "mothers/I041.png",
+      "pixelMaster": "pixels/256/I041.png",
       "prompt": "prompts/I041.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4176,6 +4217,7 @@
         }
       },
       "mother": "mothers/I042.png",
+      "pixelMaster": "pixels/256/I042.png",
       "prompt": "prompts/I042.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4273,6 +4315,7 @@
         }
       },
       "mother": "mothers/I043.png",
+      "pixelMaster": "pixels/256/I043.png",
       "prompt": "prompts/I043.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4370,6 +4413,7 @@
         }
       },
       "mother": "mothers/I044.png",
+      "pixelMaster": "pixels/256/I044.png",
       "prompt": "prompts/I044.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4467,6 +4511,7 @@
         }
       },
       "mother": "mothers/I045.png",
+      "pixelMaster": "pixels/256/I045.png",
       "prompt": "prompts/I045.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4564,6 +4609,7 @@
         }
       },
       "mother": "mothers/I046.png",
+      "pixelMaster": "pixels/256/I046.png",
       "prompt": "prompts/I046.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4661,6 +4707,7 @@
         }
       },
       "mother": "mothers/I047.png",
+      "pixelMaster": "pixels/256/I047.png",
       "prompt": "prompts/I047.txt",
       "approval": "approved-anchor",
       "atlas": {
@@ -4758,6 +4805,7 @@
         }
       },
       "mother": "mothers/I048.png",
+      "pixelMaster": "pixels/256/I048.png",
       "prompt": "prompts/I048.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4855,6 +4903,7 @@
         }
       },
       "mother": "mothers/I049.png",
+      "pixelMaster": "pixels/256/I049.png",
       "prompt": "prompts/I049.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -4952,6 +5001,7 @@
         }
       },
       "mother": "mothers/I050.png",
+      "pixelMaster": "pixels/256/I050.png",
       "prompt": "prompts/I050.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5051,6 +5101,7 @@
         }
       },
       "mother": "mothers/I051.png",
+      "pixelMaster": "pixels/256/I051.png",
       "prompt": "prompts/I051.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5152,6 +5203,7 @@
         }
       },
       "mother": "mothers/I052.png",
+      "pixelMaster": "pixels/256/I052.png",
       "prompt": "prompts/I052.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5247,6 +5299,7 @@
         }
       },
       "mother": "mothers/I053.png",
+      "pixelMaster": "pixels/256/I053.png",
       "prompt": "prompts/I053.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5344,6 +5397,7 @@
         }
       },
       "mother": "mothers/I054.png",
+      "pixelMaster": "pixels/256/I054.png",
       "prompt": "prompts/I054.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5443,6 +5497,7 @@
         }
       },
       "mother": "mothers/I055.png",
+      "pixelMaster": "pixels/256/I055.png",
       "prompt": "prompts/I055.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5540,6 +5595,7 @@
         }
       },
       "mother": "mothers/I056.png",
+      "pixelMaster": "pixels/256/I056.png",
       "prompt": "prompts/I056.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5637,6 +5693,7 @@
         }
       },
       "mother": "mothers/I057.png",
+      "pixelMaster": "pixels/256/I057.png",
       "prompt": "prompts/I057.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5734,6 +5791,7 @@
         }
       },
       "mother": "mothers/I058.png",
+      "pixelMaster": "pixels/256/I058.png",
       "prompt": "prompts/I058.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5831,6 +5889,7 @@
         }
       },
       "mother": "mothers/I059.png",
+      "pixelMaster": "pixels/256/I059.png",
       "prompt": "prompts/I059.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -5928,6 +5987,7 @@
         }
       },
       "mother": "mothers/I060.png",
+      "pixelMaster": "pixels/256/I060.png",
       "prompt": "prompts/I060.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6027,6 +6087,7 @@
         }
       },
       "mother": "mothers/I061.png",
+      "pixelMaster": "pixels/256/I061.png",
       "prompt": "prompts/I061.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6124,6 +6185,7 @@
         }
       },
       "mother": "mothers/I062.png",
+      "pixelMaster": "pixels/256/I062.png",
       "prompt": "prompts/I062.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6221,6 +6283,7 @@
         }
       },
       "mother": "mothers/I063.png",
+      "pixelMaster": "pixels/256/I063.png",
       "prompt": "prompts/I063.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6318,6 +6381,7 @@
         }
       },
       "mother": "mothers/I064.png",
+      "pixelMaster": "pixels/256/I064.png",
       "prompt": "prompts/I064.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6415,6 +6479,7 @@
         }
       },
       "mother": "mothers/I065.png",
+      "pixelMaster": "pixels/256/I065.png",
       "prompt": "prompts/I065.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6516,6 +6581,7 @@
         }
       },
       "mother": "mothers/I066.png",
+      "pixelMaster": "pixels/256/I066.png",
       "prompt": "prompts/I066.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6613,6 +6679,7 @@
         }
       },
       "mother": "mothers/I067.png",
+      "pixelMaster": "pixels/256/I067.png",
       "prompt": "prompts/I067.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6710,6 +6777,7 @@
         }
       },
       "mother": "mothers/I068.png",
+      "pixelMaster": "pixels/256/I068.png",
       "prompt": "prompts/I068.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6807,6 +6875,7 @@
         }
       },
       "mother": "mothers/I069.png",
+      "pixelMaster": "pixels/256/I069.png",
       "prompt": "prompts/I069.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -6904,6 +6973,7 @@
         }
       },
       "mother": "mothers/I070.png",
+      "pixelMaster": "pixels/256/I070.png",
       "prompt": "prompts/I070.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7001,6 +7071,7 @@
         }
       },
       "mother": "mothers/I071.png",
+      "pixelMaster": "pixels/256/I071.png",
       "prompt": "prompts/I071.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7096,6 +7167,7 @@
         }
       },
       "mother": "mothers/I072.png",
+      "pixelMaster": "pixels/256/I072.png",
       "prompt": "prompts/I072.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7193,6 +7265,7 @@
         }
       },
       "mother": "mothers/I073.png",
+      "pixelMaster": "pixels/256/I073.png",
       "prompt": "prompts/I073.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7294,6 +7367,7 @@
         }
       },
       "mother": "mothers/I074.png",
+      "pixelMaster": "pixels/256/I074.png",
       "prompt": "prompts/I074.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7391,6 +7465,7 @@
         }
       },
       "mother": "mothers/I075.png",
+      "pixelMaster": "pixels/256/I075.png",
       "prompt": "prompts/I075.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7490,6 +7565,7 @@
         }
       },
       "mother": "mothers/I076.png",
+      "pixelMaster": "pixels/256/I076.png",
       "prompt": "prompts/I076.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7591,6 +7667,7 @@
         }
       },
       "mother": "mothers/I077.png",
+      "pixelMaster": "pixels/256/I077.png",
       "prompt": "prompts/I077.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7690,6 +7767,7 @@
         }
       },
       "mother": "mothers/I078.png",
+      "pixelMaster": "pixels/256/I078.png",
       "prompt": "prompts/I078.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7791,6 +7869,7 @@
         }
       },
       "mother": "mothers/I079.png",
+      "pixelMaster": "pixels/256/I079.png",
       "prompt": "prompts/I079.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7892,6 +7971,7 @@
         }
       },
       "mother": "mothers/I080.png",
+      "pixelMaster": "pixels/256/I080.png",
       "prompt": "prompts/I080.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -7993,6 +8073,7 @@
         }
       },
       "mother": "mothers/I081.png",
+      "pixelMaster": "pixels/256/I081.png",
       "prompt": "prompts/I081.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8092,6 +8173,7 @@
         }
       },
       "mother": "mothers/I082.png",
+      "pixelMaster": "pixels/256/I082.png",
       "prompt": "prompts/I082.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8191,6 +8273,7 @@
         }
       },
       "mother": "mothers/I083.png",
+      "pixelMaster": "pixels/256/I083.png",
       "prompt": "prompts/I083.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8286,6 +8369,7 @@
         }
       },
       "mother": "mothers/I084.png",
+      "pixelMaster": "pixels/256/I084.png",
       "prompt": "prompts/I084.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8381,6 +8465,7 @@
         }
       },
       "mother": "mothers/I085.png",
+      "pixelMaster": "pixels/256/I085.png",
       "prompt": "prompts/I085.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8476,6 +8561,7 @@
         }
       },
       "mother": "mothers/I086.png",
+      "pixelMaster": "pixels/256/I086.png",
       "prompt": "prompts/I086.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8571,6 +8657,7 @@
         }
       },
       "mother": "mothers/I087.png",
+      "pixelMaster": "pixels/256/I087.png",
       "prompt": "prompts/I087.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8666,6 +8753,7 @@
         }
       },
       "mother": "mothers/I088.png",
+      "pixelMaster": "pixels/256/I088.png",
       "prompt": "prompts/I088.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8761,6 +8849,7 @@
         }
       },
       "mother": "mothers/I089.png",
+      "pixelMaster": "pixels/256/I089.png",
       "prompt": "prompts/I089.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8856,6 +8945,7 @@
         }
       },
       "mother": "mothers/I090.png",
+      "pixelMaster": "pixels/256/I090.png",
       "prompt": "prompts/I090.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -8951,6 +9041,7 @@
         }
       },
       "mother": "mothers/I091.png",
+      "pixelMaster": "pixels/256/I091.png",
       "prompt": "prompts/I091.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9046,6 +9137,7 @@
         }
       },
       "mother": "mothers/I092.png",
+      "pixelMaster": "pixels/256/I092.png",
       "prompt": "prompts/I092.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9141,6 +9233,7 @@
         }
       },
       "mother": "mothers/I093.png",
+      "pixelMaster": "pixels/256/I093.png",
       "prompt": "prompts/I093.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9236,6 +9329,7 @@
         }
       },
       "mother": "mothers/I094.png",
+      "pixelMaster": "pixels/256/I094.png",
       "prompt": "prompts/I094.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9331,6 +9425,7 @@
         }
       },
       "mother": "mothers/I095.png",
+      "pixelMaster": "pixels/256/I095.png",
       "prompt": "prompts/I095.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9426,6 +9521,7 @@
         }
       },
       "mother": "mothers/I096.png",
+      "pixelMaster": "pixels/256/I096.png",
       "prompt": "prompts/I096.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9521,6 +9617,7 @@
         }
       },
       "mother": "mothers/I097.png",
+      "pixelMaster": "pixels/256/I097.png",
       "prompt": "prompts/I097.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9616,6 +9713,7 @@
         }
       },
       "mother": "mothers/I098.png",
+      "pixelMaster": "pixels/256/I098.png",
       "prompt": "prompts/I098.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9711,6 +9809,7 @@
         }
       },
       "mother": "mothers/I099.png",
+      "pixelMaster": "pixels/256/I099.png",
       "prompt": "prompts/I099.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9806,6 +9905,7 @@
         }
       },
       "mother": "mothers/I100.png",
+      "pixelMaster": "pixels/256/I100.png",
       "prompt": "prompts/I100.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9901,6 +10001,7 @@
         }
       },
       "mother": "mothers/I101.png",
+      "pixelMaster": "pixels/256/I101.png",
       "prompt": "prompts/I101.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -9996,6 +10097,7 @@
         }
       },
       "mother": "mothers/I102.png",
+      "pixelMaster": "pixels/256/I102.png",
       "prompt": "prompts/I102.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10091,6 +10193,7 @@
         }
       },
       "mother": "mothers/I103.png",
+      "pixelMaster": "pixels/256/I103.png",
       "prompt": "prompts/I103.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10186,6 +10289,7 @@
         }
       },
       "mother": "mothers/I104.png",
+      "pixelMaster": "pixels/256/I104.png",
       "prompt": "prompts/I104.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10283,6 +10387,7 @@
         }
       },
       "mother": "mothers/I105.png",
+      "pixelMaster": "pixels/256/I105.png",
       "prompt": "prompts/I105.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10378,6 +10483,7 @@
         }
       },
       "mother": "mothers/I106.png",
+      "pixelMaster": "pixels/256/I106.png",
       "prompt": "prompts/I106.txt",
       "approval": "approved-anchor",
       "atlas": {
@@ -10473,6 +10579,7 @@
         }
       },
       "mother": "mothers/I107.png",
+      "pixelMaster": "pixels/256/I107.png",
       "prompt": "prompts/I107.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10570,6 +10677,7 @@
         }
       },
       "mother": "mothers/I108.png",
+      "pixelMaster": "pixels/256/I108.png",
       "prompt": "prompts/I108.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10667,6 +10775,7 @@
         }
       },
       "mother": "mothers/I109.png",
+      "pixelMaster": "pixels/256/I109.png",
       "prompt": "prompts/I109.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10762,6 +10871,7 @@
         }
       },
       "mother": "mothers/I110.png",
+      "pixelMaster": "pixels/256/I110.png",
       "prompt": "prompts/I110.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10857,6 +10967,7 @@
         }
       },
       "mother": "mothers/I111.png",
+      "pixelMaster": "pixels/256/I111.png",
       "prompt": "prompts/I111.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -10952,6 +11063,7 @@
         }
       },
       "mother": "mothers/I112.png",
+      "pixelMaster": "pixels/256/I112.png",
       "prompt": "prompts/I112.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11049,6 +11161,7 @@
         }
       },
       "mother": "mothers/I113.png",
+      "pixelMaster": "pixels/256/I113.png",
       "prompt": "prompts/I113.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11146,6 +11259,7 @@
         }
       },
       "mother": "mothers/I114.png",
+      "pixelMaster": "pixels/256/I114.png",
       "prompt": "prompts/I114.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11243,6 +11357,7 @@
         }
       },
       "mother": "mothers/I115.png",
+      "pixelMaster": "pixels/256/I115.png",
       "prompt": "prompts/I115.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11342,6 +11457,7 @@
         }
       },
       "mother": "mothers/I116.png",
+      "pixelMaster": "pixels/256/I116.png",
       "prompt": "prompts/I116.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11437,6 +11553,7 @@
         }
       },
       "mother": "mothers/I117.png",
+      "pixelMaster": "pixels/256/I117.png",
       "prompt": "prompts/I117.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11532,6 +11649,7 @@
         }
       },
       "mother": "mothers/I118.png",
+      "pixelMaster": "pixels/256/I118.png",
       "prompt": "prompts/I118.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11629,6 +11747,7 @@
         }
       },
       "mother": "mothers/I119.png",
+      "pixelMaster": "pixels/256/I119.png",
       "prompt": "prompts/I119.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11724,6 +11843,7 @@
         }
       },
       "mother": "mothers/I120.png",
+      "pixelMaster": "pixels/256/I120.png",
       "prompt": "prompts/I120.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11819,6 +11939,7 @@
         }
       },
       "mother": "mothers/I121.png",
+      "pixelMaster": "pixels/256/I121.png",
       "prompt": "prompts/I121.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -11914,6 +12035,7 @@
         }
       },
       "mother": "mothers/I122.png",
+      "pixelMaster": "pixels/256/I122.png",
       "prompt": "prompts/I122.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12009,6 +12131,7 @@
         }
       },
       "mother": "mothers/I123.png",
+      "pixelMaster": "pixels/256/I123.png",
       "prompt": "prompts/I123.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12104,6 +12227,7 @@
         }
       },
       "mother": "mothers/I124.png",
+      "pixelMaster": "pixels/256/I124.png",
       "prompt": "prompts/I124.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12201,6 +12325,7 @@
         }
       },
       "mother": "mothers/I125.png",
+      "pixelMaster": "pixels/256/I125.png",
       "prompt": "prompts/I125.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12298,6 +12423,7 @@
         }
       },
       "mother": "mothers/I126.png",
+      "pixelMaster": "pixels/256/I126.png",
       "prompt": "prompts/I126.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12393,6 +12519,7 @@
         }
       },
       "mother": "mothers/I127.png",
+      "pixelMaster": "pixels/256/I127.png",
       "prompt": "prompts/I127.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12492,6 +12619,7 @@
         }
       },
       "mother": "mothers/I128.png",
+      "pixelMaster": "pixels/256/I128.png",
       "prompt": "prompts/I128.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12587,6 +12715,7 @@
         }
       },
       "mother": "mothers/I129.png",
+      "pixelMaster": "pixels/256/I129.png",
       "prompt": "prompts/I129.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12682,6 +12811,7 @@
         }
       },
       "mother": "mothers/I130.png",
+      "pixelMaster": "pixels/256/I130.png",
       "prompt": "prompts/I130.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12777,6 +12907,7 @@
         }
       },
       "mother": "mothers/I131.png",
+      "pixelMaster": "pixels/256/I131.png",
       "prompt": "prompts/I131.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12874,6 +13005,7 @@
         }
       },
       "mother": "mothers/I132.png",
+      "pixelMaster": "pixels/256/I132.png",
       "prompt": "prompts/I132.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -12971,6 +13103,7 @@
         }
       },
       "mother": "mothers/I133.png",
+      "pixelMaster": "pixels/256/I133.png",
       "prompt": "prompts/I133.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13068,6 +13201,7 @@
         }
       },
       "mother": "mothers/I134.png",
+      "pixelMaster": "pixels/256/I134.png",
       "prompt": "prompts/I134.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13165,6 +13299,7 @@
         }
       },
       "mother": "mothers/I135.png",
+      "pixelMaster": "pixels/256/I135.png",
       "prompt": "prompts/I135.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13260,6 +13395,7 @@
         }
       },
       "mother": "mothers/I136.png",
+      "pixelMaster": "pixels/256/I136.png",
       "prompt": "prompts/I136.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13355,6 +13491,7 @@
         }
       },
       "mother": "mothers/I137.png",
+      "pixelMaster": "pixels/256/I137.png",
       "prompt": "prompts/I137.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13454,6 +13591,7 @@
         }
       },
       "mother": "mothers/I138.png",
+      "pixelMaster": "pixels/256/I138.png",
       "prompt": "prompts/I138.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13551,6 +13689,7 @@
         }
       },
       "mother": "mothers/I139.png",
+      "pixelMaster": "pixels/256/I139.png",
       "prompt": "prompts/I139.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13648,6 +13787,7 @@
         }
       },
       "mother": "mothers/I140.png",
+      "pixelMaster": "pixels/256/I140.png",
       "prompt": "prompts/I140.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13745,6 +13885,7 @@
         }
       },
       "mother": "mothers/I141.png",
+      "pixelMaster": "pixels/256/I141.png",
       "prompt": "prompts/I141.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13842,6 +13983,7 @@
         }
       },
       "mother": "mothers/I142.png",
+      "pixelMaster": "pixels/256/I142.png",
       "prompt": "prompts/I142.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -13941,6 +14083,7 @@
         }
       },
       "mother": "mothers/I143.png",
+      "pixelMaster": "pixels/256/I143.png",
       "prompt": "prompts/I143.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14042,6 +14185,7 @@
         }
       },
       "mother": "mothers/I144.png",
+      "pixelMaster": "pixels/256/I144.png",
       "prompt": "prompts/I144.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14141,6 +14285,7 @@
         }
       },
       "mother": "mothers/I145.png",
+      "pixelMaster": "pixels/256/I145.png",
       "prompt": "prompts/I145.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14238,6 +14383,7 @@
         }
       },
       "mother": "mothers/I146.png",
+      "pixelMaster": "pixels/256/I146.png",
       "prompt": "prompts/I146.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14335,6 +14481,7 @@
         }
       },
       "mother": "mothers/I147.png",
+      "pixelMaster": "pixels/256/I147.png",
       "prompt": "prompts/I147.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14434,6 +14581,7 @@
         }
       },
       "mother": "mothers/I148.png",
+      "pixelMaster": "pixels/256/I148.png",
       "prompt": "prompts/I148.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14533,6 +14681,7 @@
         }
       },
       "mother": "mothers/I149.png",
+      "pixelMaster": "pixels/256/I149.png",
       "prompt": "prompts/I149.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14632,6 +14781,7 @@
         }
       },
       "mother": "mothers/I150.png",
+      "pixelMaster": "pixels/256/I150.png",
       "prompt": "prompts/I150.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14733,6 +14883,7 @@
         }
       },
       "mother": "mothers/I151.png",
+      "pixelMaster": "pixels/256/I151.png",
       "prompt": "prompts/I151.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14832,6 +14983,7 @@
         }
       },
       "mother": "mothers/I152.png",
+      "pixelMaster": "pixels/256/I152.png",
       "prompt": "prompts/I152.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -14933,6 +15085,7 @@
         }
       },
       "mother": "mothers/I153.png",
+      "pixelMaster": "pixels/256/I153.png",
       "prompt": "prompts/I153.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15032,6 +15185,7 @@
         }
       },
       "mother": "mothers/I154.png",
+      "pixelMaster": "pixels/256/I154.png",
       "prompt": "prompts/I154.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15129,6 +15283,7 @@
         }
       },
       "mother": "mothers/I155.png",
+      "pixelMaster": "pixels/256/I155.png",
       "prompt": "prompts/I155.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15226,6 +15381,7 @@
         }
       },
       "mother": "mothers/I156.png",
+      "pixelMaster": "pixels/256/I156.png",
       "prompt": "prompts/I156.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15325,6 +15481,7 @@
         }
       },
       "mother": "mothers/I157.png",
+      "pixelMaster": "pixels/256/I157.png",
       "prompt": "prompts/I157.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15422,6 +15579,7 @@
         }
       },
       "mother": "mothers/I158.png",
+      "pixelMaster": "pixels/256/I158.png",
       "prompt": "prompts/I158.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15519,6 +15677,7 @@
         }
       },
       "mother": "mothers/I159.png",
+      "pixelMaster": "pixels/256/I159.png",
       "prompt": "prompts/I159.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15620,6 +15779,7 @@
         }
       },
       "mother": "mothers/I160.png",
+      "pixelMaster": "pixels/256/I160.png",
       "prompt": "prompts/I160.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15721,6 +15881,7 @@
         }
       },
       "mother": "mothers/I161.png",
+      "pixelMaster": "pixels/256/I161.png",
       "prompt": "prompts/I161.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15822,6 +15983,7 @@
         }
       },
       "mother": "mothers/I162.png",
+      "pixelMaster": "pixels/256/I162.png",
       "prompt": "prompts/I162.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -15919,6 +16081,7 @@
         }
       },
       "mother": "mothers/I163.png",
+      "pixelMaster": "pixels/256/I163.png",
       "prompt": "prompts/I163.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16018,6 +16181,7 @@
         }
       },
       "mother": "mothers/I164.png",
+      "pixelMaster": "pixels/256/I164.png",
       "prompt": "prompts/I164.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16117,6 +16281,7 @@
         }
       },
       "mother": "mothers/I165.png",
+      "pixelMaster": "pixels/256/I165.png",
       "prompt": "prompts/I165.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16214,6 +16379,7 @@
         }
       },
       "mother": "mothers/I166.png",
+      "pixelMaster": "pixels/256/I166.png",
       "prompt": "prompts/I166.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16311,6 +16477,7 @@
         }
       },
       "mother": "mothers/I167.png",
+      "pixelMaster": "pixels/256/I167.png",
       "prompt": "prompts/I167.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16408,6 +16575,7 @@
         }
       },
       "mother": "mothers/I168.png",
+      "pixelMaster": "pixels/256/I168.png",
       "prompt": "prompts/I168.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16505,6 +16673,7 @@
         }
       },
       "mother": "mothers/I169.png",
+      "pixelMaster": "pixels/256/I169.png",
       "prompt": "prompts/I169.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16604,6 +16773,7 @@
         }
       },
       "mother": "mothers/I170.png",
+      "pixelMaster": "pixels/256/I170.png",
       "prompt": "prompts/I170.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16705,6 +16875,7 @@
         }
       },
       "mother": "mothers/I171.png",
+      "pixelMaster": "pixels/256/I171.png",
       "prompt": "prompts/I171.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16804,6 +16975,7 @@
         }
       },
       "mother": "mothers/I172.png",
+      "pixelMaster": "pixels/256/I172.png",
       "prompt": "prompts/I172.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -16905,6 +17077,7 @@
         }
       },
       "mother": "mothers/I173.png",
+      "pixelMaster": "pixels/256/I173.png",
       "prompt": "prompts/I173.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17006,6 +17179,7 @@
         }
       },
       "mother": "mothers/I174.png",
+      "pixelMaster": "pixels/256/I174.png",
       "prompt": "prompts/I174.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17105,6 +17279,7 @@
         }
       },
       "mother": "mothers/I175.png",
+      "pixelMaster": "pixels/256/I175.png",
       "prompt": "prompts/I175.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17190,6 +17365,7 @@
         }
       },
       "mother": "mothers/T001.png",
+      "pixelMaster": "pixels/256/T001.png",
       "prompt": "prompts/T001.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17279,6 +17455,7 @@
         }
       },
       "mother": "mothers/T002.png",
+      "pixelMaster": "pixels/256/T002.png",
       "prompt": "prompts/T002.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17368,6 +17545,7 @@
         }
       },
       "mother": "mothers/T003.png",
+      "pixelMaster": "pixels/256/T003.png",
       "prompt": "prompts/T003.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17453,6 +17631,7 @@
         }
       },
       "mother": "mothers/T004.png",
+      "pixelMaster": "pixels/256/T004.png",
       "prompt": "prompts/T004.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17538,6 +17717,7 @@
         }
       },
       "mother": "mothers/T005.png",
+      "pixelMaster": "pixels/256/T005.png",
       "prompt": "prompts/T005.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17627,6 +17807,7 @@
         }
       },
       "mother": "mothers/T006.png",
+      "pixelMaster": "pixels/256/T006.png",
       "prompt": "prompts/T006.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17718,6 +17899,7 @@
         }
       },
       "mother": "mothers/T007.png",
+      "pixelMaster": "pixels/256/T007.png",
       "prompt": "prompts/T007.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17807,6 +17989,7 @@
         }
       },
       "mother": "mothers/T008.png",
+      "pixelMaster": "pixels/256/T008.png",
       "prompt": "prompts/T008.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17898,6 +18081,7 @@
         }
       },
       "mother": "mothers/T009.png",
+      "pixelMaster": "pixels/256/T009.png",
       "prompt": "prompts/T009.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -17987,6 +18171,7 @@
         }
       },
       "mother": "mothers/T010.png",
+      "pixelMaster": "pixels/256/T010.png",
       "prompt": "prompts/T010.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18076,6 +18261,7 @@
         }
       },
       "mother": "mothers/T011.png",
+      "pixelMaster": "pixels/256/T011.png",
       "prompt": "prompts/T011.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18165,6 +18351,7 @@
         }
       },
       "mother": "mothers/T012.png",
+      "pixelMaster": "pixels/256/T012.png",
       "prompt": "prompts/T012.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18254,6 +18441,7 @@
         }
       },
       "mother": "mothers/T013.png",
+      "pixelMaster": "pixels/256/T013.png",
       "prompt": "prompts/T013.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18343,6 +18531,7 @@
         }
       },
       "mother": "mothers/T014.png",
+      "pixelMaster": "pixels/256/T014.png",
       "prompt": "prompts/T014.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18428,6 +18617,7 @@
         }
       },
       "mother": "mothers/T015.png",
+      "pixelMaster": "pixels/256/T015.png",
       "prompt": "prompts/T015.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18517,6 +18707,7 @@
         }
       },
       "mother": "mothers/T016.png",
+      "pixelMaster": "pixels/256/T016.png",
       "prompt": "prompts/T016.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18602,6 +18793,7 @@
         }
       },
       "mother": "mothers/T017.png",
+      "pixelMaster": "pixels/256/T017.png",
       "prompt": "prompts/T017.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18687,6 +18879,7 @@
         }
       },
       "mother": "mothers/T018.png",
+      "pixelMaster": "pixels/256/T018.png",
       "prompt": "prompts/T018.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18776,6 +18969,7 @@
         }
       },
       "mother": "mothers/T019.png",
+      "pixelMaster": "pixels/256/T019.png",
       "prompt": "prompts/T019.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18865,6 +19059,7 @@
         }
       },
       "mother": "mothers/T020.png",
+      "pixelMaster": "pixels/256/T020.png",
       "prompt": "prompts/T020.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -18954,6 +19149,7 @@
         }
       },
       "mother": "mothers/T021.png",
+      "pixelMaster": "pixels/256/T021.png",
       "prompt": "prompts/T021.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19043,6 +19239,7 @@
         }
       },
       "mother": "mothers/T022.png",
+      "pixelMaster": "pixels/256/T022.png",
       "prompt": "prompts/T022.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19128,6 +19325,7 @@
         }
       },
       "mother": "mothers/T023.png",
+      "pixelMaster": "pixels/256/T023.png",
       "prompt": "prompts/T023.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19219,6 +19417,7 @@
         }
       },
       "mother": "mothers/T024.png",
+      "pixelMaster": "pixels/256/T024.png",
       "prompt": "prompts/T024.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19304,6 +19503,7 @@
         }
       },
       "mother": "mothers/T025.png",
+      "pixelMaster": "pixels/256/T025.png",
       "prompt": "prompts/T025.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19393,6 +19593,7 @@
         }
       },
       "mother": "mothers/T026.png",
+      "pixelMaster": "pixels/256/T026.png",
       "prompt": "prompts/T026.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19478,6 +19679,7 @@
         }
       },
       "mother": "mothers/T027.png",
+      "pixelMaster": "pixels/256/T027.png",
       "prompt": "prompts/T027.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19567,6 +19769,7 @@
         }
       },
       "mother": "mothers/T028.png",
+      "pixelMaster": "pixels/256/T028.png",
       "prompt": "prompts/T028.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19656,6 +19859,7 @@
         }
       },
       "mother": "mothers/T029.png",
+      "pixelMaster": "pixels/256/T029.png",
       "prompt": "prompts/T029.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19747,6 +19951,7 @@
         }
       },
       "mother": "mothers/T030.png",
+      "pixelMaster": "pixels/256/T030.png",
       "prompt": "prompts/T030.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19836,6 +20041,7 @@
         }
       },
       "mother": "mothers/T031.png",
+      "pixelMaster": "pixels/256/T031.png",
       "prompt": "prompts/T031.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -19921,6 +20127,7 @@
         }
       },
       "mother": "mothers/T032.png",
+      "pixelMaster": "pixels/256/T032.png",
       "prompt": "prompts/T032.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20010,6 +20217,7 @@
         }
       },
       "mother": "mothers/T033.png",
+      "pixelMaster": "pixels/256/T033.png",
       "prompt": "prompts/T033.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20099,6 +20307,7 @@
         }
       },
       "mother": "mothers/T034.png",
+      "pixelMaster": "pixels/256/T034.png",
       "prompt": "prompts/T034.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20190,6 +20399,7 @@
         }
       },
       "mother": "mothers/T035.png",
+      "pixelMaster": "pixels/256/T035.png",
       "prompt": "prompts/T035.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20279,6 +20489,7 @@
         }
       },
       "mother": "mothers/T036.png",
+      "pixelMaster": "pixels/256/T036.png",
       "prompt": "prompts/T036.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20370,6 +20581,7 @@
         }
       },
       "mother": "mothers/T037.png",
+      "pixelMaster": "pixels/256/T037.png",
       "prompt": "prompts/T037.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20459,6 +20671,7 @@
         }
       },
       "mother": "mothers/T038.png",
+      "pixelMaster": "pixels/256/T038.png",
       "prompt": "prompts/T038.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20544,6 +20757,7 @@
         }
       },
       "mother": "mothers/T039.png",
+      "pixelMaster": "pixels/256/T039.png",
       "prompt": "prompts/T039.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20633,6 +20847,7 @@
         }
       },
       "mother": "mothers/T040.png",
+      "pixelMaster": "pixels/256/T040.png",
       "prompt": "prompts/T040.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20722,6 +20937,7 @@
         }
       },
       "mother": "mothers/T041.png",
+      "pixelMaster": "pixels/256/T041.png",
       "prompt": "prompts/T041.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20811,6 +21027,7 @@
         }
       },
       "mother": "mothers/T042.png",
+      "pixelMaster": "pixels/256/T042.png",
       "prompt": "prompts/T042.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20904,6 +21121,7 @@
         }
       },
       "mother": "mothers/T043.png",
+      "pixelMaster": "pixels/256/T043.png",
       "prompt": "prompts/T043.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -20993,6 +21211,7 @@
         }
       },
       "mother": "mothers/T044.png",
+      "pixelMaster": "pixels/256/T044.png",
       "prompt": "prompts/T044.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21084,6 +21303,7 @@
         }
       },
       "mother": "mothers/T045.png",
+      "pixelMaster": "pixels/256/T045.png",
       "prompt": "prompts/T045.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21175,6 +21395,7 @@
         }
       },
       "mother": "mothers/T046.png",
+      "pixelMaster": "pixels/256/T046.png",
       "prompt": "prompts/T046.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21266,6 +21487,7 @@
         }
       },
       "mother": "mothers/T047.png",
+      "pixelMaster": "pixels/256/T047.png",
       "prompt": "prompts/T047.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21355,6 +21577,7 @@
         }
       },
       "mother": "mothers/T048.png",
+      "pixelMaster": "pixels/256/T048.png",
       "prompt": "prompts/T048.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21440,6 +21663,7 @@
         }
       },
       "mother": "mothers/T049.png",
+      "pixelMaster": "pixels/256/T049.png",
       "prompt": "prompts/T049.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21525,6 +21749,7 @@
         }
       },
       "mother": "mothers/T050.png",
+      "pixelMaster": "pixels/256/T050.png",
       "prompt": "prompts/T050.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21616,6 +21841,7 @@
         }
       },
       "mother": "mothers/T051.png",
+      "pixelMaster": "pixels/256/T051.png",
       "prompt": "prompts/T051.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21705,6 +21931,7 @@
         }
       },
       "mother": "mothers/T052.png",
+      "pixelMaster": "pixels/256/T052.png",
       "prompt": "prompts/T052.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21794,6 +22021,7 @@
         }
       },
       "mother": "mothers/T053.png",
+      "pixelMaster": "pixels/256/T053.png",
       "prompt": "prompts/T053.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21879,6 +22107,7 @@
         }
       },
       "mother": "mothers/T054.png",
+      "pixelMaster": "pixels/256/T054.png",
       "prompt": "prompts/T054.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -21968,6 +22197,7 @@
         }
       },
       "mother": "mothers/T055.png",
+      "pixelMaster": "pixels/256/T055.png",
       "prompt": "prompts/T055.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22057,6 +22287,7 @@
         }
       },
       "mother": "mothers/T056.png",
+      "pixelMaster": "pixels/256/T056.png",
       "prompt": "prompts/T056.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22148,6 +22379,7 @@
         }
       },
       "mother": "mothers/T057.png",
+      "pixelMaster": "pixels/256/T057.png",
       "prompt": "prompts/T057.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22239,6 +22471,7 @@
         }
       },
       "mother": "mothers/T058.png",
+      "pixelMaster": "pixels/256/T058.png",
       "prompt": "prompts/T058.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22328,6 +22561,7 @@
         }
       },
       "mother": "mothers/T059.png",
+      "pixelMaster": "pixels/256/T059.png",
       "prompt": "prompts/T059.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22419,6 +22653,7 @@
         }
       },
       "mother": "mothers/T060.png",
+      "pixelMaster": "pixels/256/T060.png",
       "prompt": "prompts/T060.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22508,6 +22743,7 @@
         }
       },
       "mother": "mothers/T061.png",
+      "pixelMaster": "pixels/256/T061.png",
       "prompt": "prompts/T061.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22599,6 +22835,7 @@
         }
       },
       "mother": "mothers/T062.png",
+      "pixelMaster": "pixels/256/T062.png",
       "prompt": "prompts/T062.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22690,6 +22927,7 @@
         }
       },
       "mother": "mothers/T063.png",
+      "pixelMaster": "pixels/256/T063.png",
       "prompt": "prompts/T063.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22779,6 +23017,7 @@
         }
       },
       "mother": "mothers/T064.png",
+      "pixelMaster": "pixels/256/T064.png",
       "prompt": "prompts/T064.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22870,6 +23109,7 @@
         }
       },
       "mother": "mothers/T065.png",
+      "pixelMaster": "pixels/256/T065.png",
       "prompt": "prompts/T065.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -22963,6 +23203,7 @@
         }
       },
       "mother": "mothers/T066.png",
+      "pixelMaster": "pixels/256/T066.png",
       "prompt": "prompts/T066.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23052,6 +23293,7 @@
         }
       },
       "mother": "mothers/T067.png",
+      "pixelMaster": "pixels/256/T067.png",
       "prompt": "prompts/T067.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23141,6 +23383,7 @@
         }
       },
       "mother": "mothers/T068.png",
+      "pixelMaster": "pixels/256/T068.png",
       "prompt": "prompts/T068.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23230,6 +23473,7 @@
         }
       },
       "mother": "mothers/T069.png",
+      "pixelMaster": "pixels/256/T069.png",
       "prompt": "prompts/T069.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23319,6 +23563,7 @@
         }
       },
       "mother": "mothers/T070.png",
+      "pixelMaster": "pixels/256/T070.png",
       "prompt": "prompts/T070.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23404,6 +23649,7 @@
         }
       },
       "mother": "mothers/T071.png",
+      "pixelMaster": "pixels/256/T071.png",
       "prompt": "prompts/T071.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23495,6 +23741,7 @@
         }
       },
       "mother": "mothers/T072.png",
+      "pixelMaster": "pixels/256/T072.png",
       "prompt": "prompts/T072.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23584,6 +23831,7 @@
         }
       },
       "mother": "mothers/T073.png",
+      "pixelMaster": "pixels/256/T073.png",
       "prompt": "prompts/T073.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23673,6 +23921,7 @@
         }
       },
       "mother": "mothers/T074.png",
+      "pixelMaster": "pixels/256/T074.png",
       "prompt": "prompts/T074.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23764,6 +24013,7 @@
         }
       },
       "mother": "mothers/T075.png",
+      "pixelMaster": "pixels/256/T075.png",
       "prompt": "prompts/T075.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23855,6 +24105,7 @@
         }
       },
       "mother": "mothers/T076.png",
+      "pixelMaster": "pixels/256/T076.png",
       "prompt": "prompts/T076.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -23944,6 +24195,7 @@
         }
       },
       "mother": "mothers/T077.png",
+      "pixelMaster": "pixels/256/T077.png",
       "prompt": "prompts/T077.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24035,6 +24287,7 @@
         }
       },
       "mother": "mothers/T078.png",
+      "pixelMaster": "pixels/256/T078.png",
       "prompt": "prompts/T078.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24126,6 +24379,7 @@
         }
       },
       "mother": "mothers/T079.png",
+      "pixelMaster": "pixels/256/T079.png",
       "prompt": "prompts/T079.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24219,6 +24473,7 @@
         }
       },
       "mother": "mothers/T080.png",
+      "pixelMaster": "pixels/256/T080.png",
       "prompt": "prompts/T080.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24308,6 +24563,7 @@
         }
       },
       "mother": "mothers/T081.png",
+      "pixelMaster": "pixels/256/T081.png",
       "prompt": "prompts/T081.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24399,6 +24655,7 @@
         }
       },
       "mother": "mothers/T082.png",
+      "pixelMaster": "pixels/256/T082.png",
       "prompt": "prompts/T082.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24488,6 +24745,7 @@
         }
       },
       "mother": "mothers/T083.png",
+      "pixelMaster": "pixels/256/T083.png",
       "prompt": "prompts/T083.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24577,6 +24835,7 @@
         }
       },
       "mother": "mothers/T084.png",
+      "pixelMaster": "pixels/256/T084.png",
       "prompt": "prompts/T084.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24666,6 +24925,7 @@
         }
       },
       "mother": "mothers/T085.png",
+      "pixelMaster": "pixels/256/T085.png",
       "prompt": "prompts/T085.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24755,6 +25015,7 @@
         }
       },
       "mother": "mothers/T086.png",
+      "pixelMaster": "pixels/256/T086.png",
       "prompt": "prompts/T086.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24846,6 +25107,7 @@
         }
       },
       "mother": "mothers/T087.png",
+      "pixelMaster": "pixels/256/T087.png",
       "prompt": "prompts/T087.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -24935,6 +25197,7 @@
         }
       },
       "mother": "mothers/T088.png",
+      "pixelMaster": "pixels/256/T088.png",
       "prompt": "prompts/T088.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25030,6 +25293,7 @@
         }
       },
       "mother": "mothers/T089.png",
+      "pixelMaster": "pixels/256/T089.png",
       "prompt": "prompts/T089.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25121,6 +25385,7 @@
         }
       },
       "mother": "mothers/T090.png",
+      "pixelMaster": "pixels/256/T090.png",
       "prompt": "prompts/T090.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25206,6 +25471,7 @@
         }
       },
       "mother": "mothers/T091.png",
+      "pixelMaster": "pixels/256/T091.png",
       "prompt": "prompts/T091.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25291,6 +25557,7 @@
         }
       },
       "mother": "mothers/T092.png",
+      "pixelMaster": "pixels/256/T092.png",
       "prompt": "prompts/T092.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25382,6 +25649,7 @@
         }
       },
       "mother": "mothers/T093.png",
+      "pixelMaster": "pixels/256/T093.png",
       "prompt": "prompts/T093.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25473,6 +25741,7 @@
         }
       },
       "mother": "mothers/T094.png",
+      "pixelMaster": "pixels/256/T094.png",
       "prompt": "prompts/T094.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25564,6 +25833,7 @@
         }
       },
       "mother": "mothers/T095.png",
+      "pixelMaster": "pixels/256/T095.png",
       "prompt": "prompts/T095.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25655,6 +25925,7 @@
         }
       },
       "mother": "mothers/T096.png",
+      "pixelMaster": "pixels/256/T096.png",
       "prompt": "prompts/T096.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25740,6 +26011,7 @@
         }
       },
       "mother": "mothers/T097.png",
+      "pixelMaster": "pixels/256/T097.png",
       "prompt": "prompts/T097.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25829,6 +26101,7 @@
         }
       },
       "mother": "mothers/T098.png",
+      "pixelMaster": "pixels/256/T098.png",
       "prompt": "prompts/T098.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -25914,6 +26187,7 @@
         }
       },
       "mother": "mothers/T099.png",
+      "pixelMaster": "pixels/256/T099.png",
       "prompt": "prompts/T099.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26003,6 +26277,7 @@
         }
       },
       "mother": "mothers/T100.png",
+      "pixelMaster": "pixels/256/T100.png",
       "prompt": "prompts/T100.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26094,6 +26369,7 @@
         }
       },
       "mother": "mothers/T101.png",
+      "pixelMaster": "pixels/256/T101.png",
       "prompt": "prompts/T101.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26179,6 +26455,7 @@
         }
       },
       "mother": "mothers/T102.png",
+      "pixelMaster": "pixels/256/T102.png",
       "prompt": "prompts/T102.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26268,6 +26545,7 @@
         }
       },
       "mother": "mothers/T103.png",
+      "pixelMaster": "pixels/256/T103.png",
       "prompt": "prompts/T103.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26357,6 +26635,7 @@
         }
       },
       "mother": "mothers/T104.png",
+      "pixelMaster": "pixels/256/T104.png",
       "prompt": "prompts/T104.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26446,6 +26725,7 @@
         }
       },
       "mother": "mothers/T105.png",
+      "pixelMaster": "pixels/256/T105.png",
       "prompt": "prompts/T105.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26531,6 +26811,7 @@
         }
       },
       "mother": "mothers/T106.png",
+      "pixelMaster": "pixels/256/T106.png",
       "prompt": "prompts/T106.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26620,6 +26901,7 @@
         }
       },
       "mother": "mothers/T107.png",
+      "pixelMaster": "pixels/256/T107.png",
       "prompt": "prompts/T107.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26709,6 +26991,7 @@
         }
       },
       "mother": "mothers/T108.png",
+      "pixelMaster": "pixels/256/T108.png",
       "prompt": "prompts/T108.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26798,6 +27081,7 @@
         }
       },
       "mother": "mothers/T109.png",
+      "pixelMaster": "pixels/256/T109.png",
       "prompt": "prompts/T109.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26887,6 +27171,7 @@
         }
       },
       "mother": "mothers/T110.png",
+      "pixelMaster": "pixels/256/T110.png",
       "prompt": "prompts/T110.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -26980,6 +27265,7 @@
         }
       },
       "mother": "mothers/T111.png",
+      "pixelMaster": "pixels/256/T111.png",
       "prompt": "prompts/T111.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27073,6 +27359,7 @@
         }
       },
       "mother": "mothers/T112.png",
+      "pixelMaster": "pixels/256/T112.png",
       "prompt": "prompts/T112.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27164,6 +27451,7 @@
         }
       },
       "mother": "mothers/T113.png",
+      "pixelMaster": "pixels/256/T113.png",
       "prompt": "prompts/T113.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27255,6 +27543,7 @@
         }
       },
       "mother": "mothers/T114.png",
+      "pixelMaster": "pixels/256/T114.png",
       "prompt": "prompts/T114.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27340,6 +27629,7 @@
         }
       },
       "mother": "mothers/T115.png",
+      "pixelMaster": "pixels/256/T115.png",
       "prompt": "prompts/T115.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27429,6 +27719,7 @@
         }
       },
       "mother": "mothers/T116.png",
+      "pixelMaster": "pixels/256/T116.png",
       "prompt": "prompts/T116.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27522,6 +27813,7 @@
         }
       },
       "mother": "mothers/T117.png",
+      "pixelMaster": "pixels/256/T117.png",
       "prompt": "prompts/T117.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27611,6 +27903,7 @@
         }
       },
       "mother": "mothers/T118.png",
+      "pixelMaster": "pixels/256/T118.png",
       "prompt": "prompts/T118.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27700,6 +27993,7 @@
         }
       },
       "mother": "mothers/T119.png",
+      "pixelMaster": "pixels/256/T119.png",
       "prompt": "prompts/T119.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27785,6 +28079,7 @@
         }
       },
       "mother": "mothers/T120.png",
+      "pixelMaster": "pixels/256/T120.png",
       "prompt": "prompts/T120.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27874,6 +28169,7 @@
         }
       },
       "mother": "mothers/T121.png",
+      "pixelMaster": "pixels/256/T121.png",
       "prompt": "prompts/T121.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -27959,6 +28255,7 @@
         }
       },
       "mother": "mothers/T122.png",
+      "pixelMaster": "pixels/256/T122.png",
       "prompt": "prompts/T122.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28050,6 +28347,7 @@
         }
       },
       "mother": "mothers/T123.png",
+      "pixelMaster": "pixels/256/T123.png",
       "prompt": "prompts/T123.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28141,6 +28439,7 @@
         }
       },
       "mother": "mothers/T124.png",
+      "pixelMaster": "pixels/256/T124.png",
       "prompt": "prompts/T124.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28230,6 +28529,7 @@
         }
       },
       "mother": "mothers/T125.png",
+      "pixelMaster": "pixels/256/T125.png",
       "prompt": "prompts/T125.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28319,6 +28619,7 @@
         }
       },
       "mother": "mothers/T126.png",
+      "pixelMaster": "pixels/256/T126.png",
       "prompt": "prompts/T126.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28408,6 +28709,7 @@
         }
       },
       "mother": "mothers/T127.png",
+      "pixelMaster": "pixels/256/T127.png",
       "prompt": "prompts/T127.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28497,6 +28799,7 @@
         }
       },
       "mother": "mothers/T128.png",
+      "pixelMaster": "pixels/256/T128.png",
       "prompt": "prompts/T128.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28586,6 +28889,7 @@
         }
       },
       "mother": "mothers/T129.png",
+      "pixelMaster": "pixels/256/T129.png",
       "prompt": "prompts/T129.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28675,6 +28979,7 @@
         }
       },
       "mother": "mothers/T130.png",
+      "pixelMaster": "pixels/256/T130.png",
       "prompt": "prompts/T130.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28766,6 +29071,7 @@
         }
       },
       "mother": "mothers/T131.png",
+      "pixelMaster": "pixels/256/T131.png",
       "prompt": "prompts/T131.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28855,6 +29161,7 @@
         }
       },
       "mother": "mothers/T132.png",
+      "pixelMaster": "pixels/256/T132.png",
       "prompt": "prompts/T132.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -28944,6 +29251,7 @@
         }
       },
       "mother": "mothers/T133.png",
+      "pixelMaster": "pixels/256/T133.png",
       "prompt": "prompts/T133.txt",
       "approval": "production-candidate",
       "atlas": {
@@ -29016,5 +29324,11 @@
     }
   ],
   "missingIds": [],
-  "boundary": "Generated reference-conditioned mothers, algorithmically pixelized. Technical validation is not target-engine or user aesthetic acceptance."
+  "authoring": {
+    "pixelMasterMap": "pixel-master-map.json",
+    "highResolutionMothersIncluded": false,
+    "historicalMotherField": "Optional local archive path; not a bundled resource.",
+    "reconstructionBoundary": "Original 128 and 256 PNGs are delivered separately; 256 pixels cannot exactly reconstruct the original mother or original 128 variant."
+  },
+  "boundary": "Generated reference-conditioned mothers, algorithmically pixelized. Public packages keep editable 256-wide pixel masters and both PNG variants. Technical validation is not target-engine or user aesthetic acceptance."
 }

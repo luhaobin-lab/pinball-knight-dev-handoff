@@ -27,5 +27,7 @@
     "boundary": "Browser library validation, not import into the target game."
   },
   "temporaryCopyRemovedAfterCheck": true,
-  "boundary": "Portable file/index/browser behavior; no game engine integration or new visual acceptance."
+  "boundary": "Portable file/index/browser behavior; no game engine integration or new visual acceptance.",
+  "historicalEvidence": true,
+  "currentPublicBoundary": "Recorded before high-resolution mothers were removed from the handoff. Current public package contains 616 PNGs and 308 existing 256-wide pixel masters; no raw mother archive is publicly provided."
 }

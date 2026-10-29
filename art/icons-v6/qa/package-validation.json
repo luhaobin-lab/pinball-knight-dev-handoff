@@ -8,5 +8,8 @@
   "atlasPages": 7,
   "allArchiveFilesByteMatched": true,
   "highResolutionSourcesIncluded": false,
-  "sourceFolder": "."
+  "sourceFolder": ".",
+  "historicalEvidence": true,
+  "archiveNotBundled": true,
+  "noteForCurrentHandoff": "Validation of a previously generated runtime archive. Current public project delivery keeps expanded PNG and atlas files without a duplicate nested ZIP; package.py can generate a new runtime ZIP on demand."
 }

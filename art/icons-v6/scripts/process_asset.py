@@ -23,7 +23,7 @@ def process(identity, source, generation_job=None):
         raise ValueError('Approved anchors are immutable. To reproduce their saved release PNGs, use rebuild_pngs.py.')
     source = Path(source).expanduser().resolve()
     if not source.is_file():
-        raise ValueError('Mother file not found. Supply --source path/to/new-mother.png; saved release mothers are available in icon-mothers.zip.')
+        raise ValueError('Mother file not found. Supply --source path/to/new-mother.png; the public package contains editable pixels/256 masters, not high-resolution mothers. This import command requires a newly supplied source image.')
     brief = briefs[identity]
     destination = ROOT / 'mothers' / (identity + '.png')
     image = Image.open(source).convert('RGBA')
