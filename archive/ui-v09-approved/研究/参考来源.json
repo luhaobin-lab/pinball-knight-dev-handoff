@@ -1,0 +1,63 @@
+[
+  {
+    "id": 0,
+    "file": "archive/ui-v09-approved/参考原图/PTF_00_战斗HUD_官方.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/168149747394239f3ac7ca930cc8d0a8c6bf36a6/ss_168149747394239f3ac7ca930cc8d0a8c6bf36a6.1920x1080.jpg?t=1792462945",
+    "size": [
+      1920,
+      1080
+    ],
+    "source": "Steam官方商店发布者截图",
+    "actualContent": "记忆碎片弹窗与底层战斗HUD，文件名仅作索引"
+  },
+  {
+    "id": 8,
+    "file": "archive/ui-v09-approved/参考原图/PTF_08_秘宝对比_官方.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/6ad53335f5065b510ad879e4143fe59704e76e66/ss_6ad53335f5065b510ad879e4143fe59704e76e66.1920x1080.jpg?t=1792462945",
+    "size": [
+      1920,
+      1080
+    ],
+    "source": "Steam官方商店发布者截图"
+  },
+  {
+    "id": 9,
+    "file": "archive/ui-v09-approved/参考原图/PTF_09_奖励选中_官方.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/4c9e61f5dd862561de3688d141d1dd23b6312ab6/ss_4c9e61f5dd862561de3688d141d1dd23b6312ab6.1920x1080.jpg?t=1792462945",
+    "size": [
+      1920,
+      1080
+    ],
+    "source": "Steam官方商店发布者截图"
+  },
+  {
+    "id": 11,
+    "file": "archive/ui-v09-approved/参考原图/PTF_11_武器对比_官方.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/f8a1f916ff58e82dec19b3b030f4b4ae94a2041c/ss_f8a1f916ff58e82dec19b3b030f4b4ae94a2041c.1920x1080.jpg?t=1792462945",
+    "size": [
+      1920,
+      1080
+    ],
+    "source": "Steam官方商店发布者截图"
+  },
+  {
+    "id": 17,
+    "file": "archive/ui-v09-approved/参考原图/PTF_17_铁匠面板_官方.jpg",
+    "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3561220/72f5511741ee0462c1d163d5b267f29e70874926/ss_72f5511741ee0462c1d163d5b267f29e70874926.1920x1080.jpg?t=1792462945",
+    "size": [
+      1920,
+      1080
+    ],
+    "source": "Steam官方商店发布者截图"
+  },
+  {
+    "file": "archive/ui-v09-approved/参考原图/PTF_原生中文TAB与图鉴_官方.png",
+    "url": "https://clan.akamai.steamstatic.com/images/45893627/33029e26010b51bef2a1a37d9ba12522354365fb.png",
+    "source": "官方中文首发公告",
+    "sourcePage": "https://steamcommunity.com/games/3561220/announcements/detail/685260284824125667?l=schinese",
+    "size": [
+      1920,
+      1080
+    ]
+  }
+]

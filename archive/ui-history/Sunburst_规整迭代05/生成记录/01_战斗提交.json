@@ -1,0 +1,60 @@
+{
+  "input": {
+    "prompt": "Generate ONE COMPLETE FINISHED 3200x1440 20:9 mobile game screen, with ALL of its UI rendered into the image by you. This is the final battle art master.\nREFERENCE PRIORITY:\nImage1 is the generated grayscale layout master. Its GEOMETRY is binding. Keep the exact outer header, three tabs, four resource positions, equal-width left/right sidebars, sidebar headers, item rows, TWO-COLUMN backpack cells, margins, baselines and scene boundary. Do NOT rearrange, enlarge or move any shared component.\nImage2 is the Darkest Dungeon merchant UI, Image3 its battle art: use their disciplined authored drawing, ink shapes and restrained hierarchy ONLY, NOT their layout, character designs, extra game features or frame decorations.\nImage4 is our real battle scene: keep the room footprint and four actors (one small white/brass-helmet knight and exactlythree red-robed enemies); keep our oblique/top-down bounce battle, never a side-view lineup. Render the original room as the central playable area, not a photograph pasted into an elaborate new stage.\nDESIGN CORRECTION: the rejected previous batch was cluttered with statues, candles, banners, skulls, multi-layer frames and random wear. Do not reproduce that habit. The goal is an authored, orderly GAME INTERFACE with a GOTHIC/CULT sensibility. Its professional quality comes from proportion, consistent components, negative space, clear silhouettes and deliberate material, NOT from additional detail.\nPaint the FINAL art into the fixed structure. A cohesive pixel-art/ink language, with a stable pixel scale across the scene, item icons and UI. Darkest Dungeon-like decisive black contour and a few hard shadow planes; crisp purposeful pixel clusters, dry bone highlights, oxblood accents and restrained grey-green. No photoreal shading, no jewelry sparkle, no soft brush-painted bottle mixed with a tiny pixel knight, no noisy texture pretending to be handcrafted. Each material has 3-5 coherent value steps, not hundreds of random flecks.\nThe UI surfaces are broad, matte, nearly black fields. One simple straight thin edge per container. Small chamfered corners are allowed but consistent. NO corner filigree, ornate double frames, gold bevels, hanging chains over the UI, huge crests, stone windows carved around every slot, foreground skulls, piles of candles or wallpapers around the battlefield. Keep at least two-thirds of each UI surface visually quiet. Gothic character through severe lettering, iron/ink material, a small repeated ritual motif ONLY at the page title, and the atmospheric world itself. No repeated pentagrams.\nTypography: coherent clear Chinese, title style can be slightly severe/serif but body never spindly or artificially stretched. Selected tab has a bone-readable title and a muted oxblood accent, not a shiny red plaque. Fixed three labels “装备栏位 / 英雄属性 / 装备图鉴”. Same large visual scale as layout master; no reducing labels to make space for art.\nLeft items in their same three full-width merged rows: “凝血毒剂” single corked green vial; “灵魂香菇” one recognizable pale mushroom with ONE main cap/stem, not a changing mushroom cluster; “淬毒利刃” simple silver diagonal dagger, dark leather grip, small brass crossguard. Consistent 128px icon footprints; enrich their designed pixels inside those footprints without enlarging them. Store these precise silhouettes as the identity for the subsequent screens. No flavor sentences in the cards. Only dagger has an EMPTY “0 / 100” charge indicator.\nHeader status unchanged: 生命180/180,体力100/100,腐化0/100,金币4. HP redfull, stamina mutedtealfull, corruption EMPTY. No extra badges, minimap, capacity count, decorative statistics or resource. Right backpack title “背包” and exactlytwo columns, same square grid as left empty row, weak grid and small vertical scrollbar.\nCentral label “遗迹”, concise bottom cue “按住瞄准 · 松手弹射”. No new combat buttons or extra religious UI modules. The recognizable original room gets the available central space; no added border architecture shrinking it.\nDeliver a fully finished elegant GOTHIC/CULT mobile game image. Preserve the grayscale master's geometry while transforming its visual quality. It must look like an intentionally authored indie game interface, not a generic UI kit or a densely decorated AI fantasy painting.",
+    "images": [
+      "archive/ui-history/Sunburst_规整迭代05/结构母版/00_灰度结构母版.png",
+      "archive/ui-history/Sunburst_规整迭代05/参考原图/DD_商人与补给面板.jpg",
+      "archive/ui-history/Sunburst_规整迭代05/参考原图/DD_战斗与黑墨分区.jpg",
+      "archive/ui-history/Sunburst_规整迭代05/参考原图/目标游戏_真实战斗无UI.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2b69e87ada5af0ddcac87\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2b69e87ada5af0ddcac87",
+      "raw": {
+        "id": "6ae2b69e87ada5af0ddcac87",
+        "object_id": "6ae2b69e87ada5af0ddcac87",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T10:59:42.069000+08:00",
+        "updateTime": "2026-10-29T10:59:42.134000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I074",
+  "name": "蛛后毒囊",
+  "status": "generated-normalized",
+  "source": "mothers/I074.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I074.png",
+  "motherSha256": "fe0f48f74f68c3df1d90283291974010b6dc2a6758d6b9ea01a65677e8deb412",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I074.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5926,
+      "sha256": "fd4a047b167a415501df3b754c6bd425be4f555b801349ec37b55d657b1d5575",
+      "pixelSha256": "b66ed818c802ea64a1105a9fd16eab3789eb2836ec77811d2f954cedcba7d9bc",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          30,
+          26,
+          1238,
+          1210
+        ],
+        "fitSize": [
+          120,
+          118
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.09933774834437085
+      }
+    },
+    "256": {
+      "file": "pixels/256/I074.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21795,
+      "sha256": "8baef7ecd852cbf2115de43a45ed4c1f9b7aa332648a275a59ed675d91f3e7ee",
+      "pixelSha256": "450898e3bf50f0e876f47affa0c4730f195146ccfa349d53f9c4b9306a1678aa",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        245
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          30,
+          26,
+          1238,
+          1210
+        ],
+        "fitSize": [
+          240,
+          235
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.1986754966887417
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "I074重做俯视八足清晰可数；成对浴火拳套、裂缝圆盾主体通过。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-f5d8611b-59fa-43fc-bce3-11c5d71bd684.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f5d8611b-59fa-43fc-bce3-11c5d71bd684"
+  }
+}

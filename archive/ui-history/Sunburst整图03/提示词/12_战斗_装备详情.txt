@@ -1,0 +1,7 @@
+COMPLETE battle equipment-detail screen. Same battle master, keep the visible real battle behind a restrained dim layer, left equipped build and empty right backpack. The selected owned “淬毒利刃” stays in its original left-side equipped row; the central detail portrait is a VIEW of that item, not a second item.
+Create a generously sized, beautifully designed readable dark-blue/purple item detail surface with an excellent large pixel-art dagger and prominent title “淬毒利刃”, subtle “已装备”, charge “0 / 100” with an EMPTY bar. Render the current instance's accurate effects:
+“下3次攻击在3回合内造成30剧毒伤害。”
+“每8次剧毒伤害，施加2层易伤。”
+“提升20%生命上限。”
+Do NOT substitute the bronze catalogue's15 poison /1 vulnerability /30% crit. No fake rarity name, sale price, buy/sell, enhance, upgrade or unequip button. It is read-only DURING BATTLE. Add a short “战斗中仅可查看” and a comfortably sized “返回战斗” control.
+Model-design every part of the composition, lettering, material, icon and backdrop into the finished image. No web-dashboard styling. The world and all UI should be visually cohesive and ready for a premium indie game art review.

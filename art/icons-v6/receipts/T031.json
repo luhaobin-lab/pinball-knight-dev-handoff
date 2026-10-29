@@ -1,0 +1,86 @@
+{
+  "id": "T031",
+  "name": "血祭之力",
+  "status": "generated-normalized",
+  "source": "mothers/T031.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T031.png",
+  "motherSha256": "90725fd8393873cefde3396e13d1eee6f77aa03e98275434ffb89ef49c23f289",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T031.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5255,
+      "sha256": "1510b80bdff113eaf2609ed3a274852033cc992e1e3b42156867d36fefd71218",
+      "pixelSha256": "807ba9ffaf9bbf64954629b42f37ec13095da152bb6ce4cbe651749034f1624d",
+      "alphaBounds": [
+        11,
+        4,
+        116,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          129,
+          3,
+          1220,
+          1250
+        ],
+        "fitSize": [
+          105,
+          120
+        ],
+        "position": [
+          11,
+          4
+        ],
+        "scale": 0.09623095429029671
+      }
+    },
+    "256": {
+      "file": "pixels/256/T031.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 19477,
+      "sha256": "a900eaf3424940933c7a99eaacafc690682fb20c0ac592c5fd9a6c3a20f53e40",
+      "pixelSha256": "f9ad8934191d81c93f436e12073302045ea78a019918d5566e2fe109c77cebc6",
+      "alphaBounds": [
+        23,
+        8,
+        233,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          129,
+          3,
+          1220,
+          1250
+        ],
+        "fitSize": [
+          210,
+          240
+        ],
+        "position": [
+          23,
+          8
+        ],
+        "scale": 0.19246190858059342
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-d2fe2139-de08-4267-a7af-2be832f1185a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-d2fe2139-de08-4267-a7af-2be832f1185a"
+  }
+}

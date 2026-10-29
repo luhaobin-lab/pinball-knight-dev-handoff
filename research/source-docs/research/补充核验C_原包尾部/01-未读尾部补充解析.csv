@@ -1,0 +1,3 @@
+﻿包,导出对象,导出序号,包内导出起点,导出字节数,原解析已读字节,包内尾部起点,尾部字节数,尾部SHA256,字段解释,版本与证据边界,原包定位,补充解析剩余字节
+/Game/CatapultHero/BP/环境/蓝图_动态网格,DynamicMesh,2,5947,171,18,5965,153,319e9db1da2786df401b71b14ff3df34109107cc44cb0e6ca3b713bbb12d1aac,空动态网格+已存在的空UV/法线/材质ID属性容器,字节/偏移/哈希确定；解释使用本机UE5.7.4语法参照，非认证同编译源码,"TOC[2724], package[5965:6118]",0
+/Game/CatapultHero/精灵片/ABP_Actor_Base,Default__ABP_Actor_Base_C,0,4114,168,164,4278,4,df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119,0值FPackageIndex，与空SerializedSparseClassDataStruct引用相符,字节/偏移/哈希确定；解释使用本机UE5.7.4语法参照，非认证同编译源码,"TOC[756], package[4278:4282]",0

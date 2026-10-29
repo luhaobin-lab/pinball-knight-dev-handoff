@@ -1,0 +1,102 @@
+独立数据评审
+日期：2026-10-29
+范围：03_数值与配置/items.json、monsters.json、talents.json、source_contract.json；02_设计文档/01_核心GDD.txt与02_房间怪物与难度.txt。
+方法：重新只读打开两份原始XLSX，逐项比对ID、原行名、物理表名、行范围和视频说明；另查既有审计JSON的标签、成长及证据边界。只写本评审，不修改配置、设计正文或原表。主代理仍在完善交付，本文件记录该次检查时点，不自动代表后续版本。
+
+结论
+14件物品与11个天赋的稳定ID、原表行号和显示名称均对应真实源记录。6种怪物的源行名、基础HP与基础Attack也均正确。
+存在一个明确的工作表定位错误，以及来源字段混用、标签消费和附件引用需要补齐的问题。没有发现设计正文01/02把来源静态数据或算术代理称为实战证明。
+
+1. 必须修复：monsters.json引用了不存在的工作表
+位置：monsters.json第7、24、41、58、75、92行，6条source_sheet均为“怪物基础与经验”。
+原始工作簿实际工作表名为“敌人经验及基础配置”。当前这6个引用不能按书面位置找到源数据。
+修法：全部改为“敌人经验及基础配置”，补source_workbook=Ricochet_Abyss_Demo_R3_01数值与机制.xlsx。现有source_range不需改。
+核实后的对应关系：
+M_GRUNT 眼球虫：RowName=眼球，A12:AA12，原HP30/Attack30，ROW-fcd7df86ee96。
+M_FAST 血蛆：RowName=大肠，A15:AA15，原HP30/Attack25，ROW-21cf474e2669。
+M_RANGED 活体结晶：RowName=结晶，A21:AA21，原HP30/Attack20，ROW-07782d5227c2。
+M_GUARD 重生傀儡：RowName=重生傀儡，A26:AA26，原HP100/Attack30，ROW-3c0df6600720。
+M_HEALER 浮游脑：RowName=水母脑，A24:AA24，原HP30/Attack20，ROW-812318189ef8。
+M_BRUTE 结晶骑士：RowName=结晶骑士，A23:AA23，原HP100/Attack30，ROW-dbba62191d78。
+这些ROW ID来自同一原始工作簿“敌人总表”相同行的A列。建议增设source_row_id，并同时保存id来源表及范围，避免把经验表A列的RowName误说成ROW ID。
+
+2. 必须补齐：source_description实际是视频情境，不是所列原表的原文模板
+items.json的14条source_description逐字等于视频总表“装备物品”的说明原文；已列video_sheet/video_range，关联正确。但source_description与旁边source_workbook/source_sheet/source_range的命名组合，会误导施工者把展开后数字当原表模板。
+talents.json的11条source_description也逐字来自视频“天赋”说明原文，当前没有video_sheet/video_range，并缺source_workbook/source_sheet。source_table是UE物理DataTable名，不能代替Excel工作表名。
+修法：将展开说明改名video_description_snapshot；为两类记录补video_workbook；保留source_template和source_description_kind。talents统一补source_workbook=Ricochet_Abyss_Demo_R3_01数值与机制.xlsx、source_sheet=天赋总表。已有source_range和source_row_id正确。
+天赋视频范围（video_workbook=视频内容研究总表.xlsx，video_sheet=天赋）：
+T014力量 A19:P19；T016体质 A21:P21；T017敏捷 A22:P22；T015强韧 A20:P20；T003博学 A8:P8；T021锋芒毕露 A26:P26；T024临阵强固 A29:P29；T034活力 A39:P39；T040防御姿态 A45:P45；T054猎头 A59:P59；T059撕裂技巧 A64:P64。
+原始天赋模板在源表F列，例如力量F137为“提升{0}基础伤害。”，不是“提升30基础伤害。”；源P0=L、引用y基础伤害，与本GDD每级+3明确是不同数值规则。
+talents各条value_policy已正确标为本GDD覆盖值，故没有将新per_rank冒称为原表数值；需要补的是来源定位和字段语义。
+
+3. 必须明确：撕裂技巧在当前14物品池中的目标判定
+talents.json第234–240行保留T059撕裂技巧，effect=bleed_item_charge_fraction。
+当前items.json的14条tags没有任何bleed标签；I113旧匕首仅weapon、charged。若实现按tags选择流血物品，这个天赋在整个prototype掉落池都无受益对象。
+注意：原包旧匕首标签本身也没有“流血”，虽然视频效果确实会造成流血。不能声称源标签遗漏后直接“恢复bleed”。
+修法三选一并明确标为新适配规则：A 给I113增加本GDD运行标签bleed（独立保存source_tags，说明新增依据为其实际伤害效果）；B 用能力效果类型判定流血物品，并给出该判定契约；C 首版不开放T059直到存在已验收目标。
+同样请明确armor_item_charge_fraction与现有defense标签的映射。源“护甲/强固”标签和新UI分类defense不是天然同义；应保存source_tags与runtime_tags两个字段，列出哪些物品匹配。
+
+4. 交付检查待完成：source_contract的审计文件引用当时未落盘
+source_contract.json第3行audit_file=../01_研究与依据/data_inventory.json。
+本次检查时01_研究与依据目录无文件，路径不存在，因此不能实际核验交付内审计哈希。
+原工作区outputs/新循环设计/GDD_v0.2_研究/data_inventory.json的SHA256为7d70970ce41b0dc71d59762559ec39f9e9dd298f7e7a456ce95aee881e653014，与source_contract.audit_sha256相同。没有发现哈希写错；这是尚未复制的交付依赖。
+修法：复制最终审计JSON到约定位置，完成后按source_contract相对路径重读并核验SHA256；不要只核验原工作区路径。若之后修改审计文件，要同步更新contract哈希。
+selected_item_count=14与items实际数量相等；selected_talent_count=11与talents相等。四条原始工作簿workspace相对路径均真实存在。
+
+5. 需防止实现误用的动态数值
+items.json第386行生命药剂快照含“治愈22”，来源确实为视频I106，视频生命150时15%最大生命的显示情境。源ID选的是ROW-0bf3ef881ddd（生命药剂），没有误选新手关同名ROW-ede12aef5186，正确。
+effect_policy已经写“动态值不得硬抄视频快照”；但配置还没有明确药剂效果的结构化数值契约。建议加effect_rule或适配表：治愈按当前maxHP×0.15计算，舍入/治疗修正依据项目最终规则，消耗一次耐久。新基础HP180时不能仍固定治愈22。若选整数向下取整，裸身应为27，后续体质成长后应重新计算。此项是防止歧义，不是已发现运行时固定22的证据。
+旧手套的source_charge_per_bounce=null、tags不含charged，与视频无充能栏一致，没有把源行动力20误接成每次充能+5。
+物品高度、源逻辑宽1、新base-cell宽2分列，未发现把新网格宽度冒充原Demo占格的情况。仍须按正文落实单位换算。
+
+6. 设计正文01/02证据边界复核
+01_核心GDD第3行明确是提案、数值为第一轮测试值；第60行将心流结构标为设计推论并声明没有原作全流程盲玩；第81行说目标需要实测；第91行分开配置检查与完整战斗/输入/画面/盲玩证据。这些表述没有把源资料当实测。
+02_房间怪物与难度第3行明确公式为本项目提案；第26行仅将32%称为HP预算算术代理，并否认它等于实际难度下降68%；第37行明确新怪物数值与AI不得叠加旧随机技能/旧成长；第76行明确幽冥骑士源HP150改为180。这些边界正确。
+原幽冥骑士Attack30、HP150、体力100、距离500可由源表核实。反弹上限4来自视频状态；若写“保留源默认”应补基础角色/游戏模式读取点，当前正文只说保留，未作全角色默认断言。
+重生傀儡和结晶骑士在源表带首领标签，本GDD将其外观/行名用于普通卫士、重击模板。正文已说明新AI，但实现时必须按模板的新isBoss/role判定，不能直接继承源首领标签，否则猎头加成、精英筛选和死亡奖励会改变。建议在适配规则中显式写source_boss=true、prototype_is_boss=false。
+没有在01/02发现把生命药剂22、力量30等视频情境直接定义为新通用数值；相关风险来自JSON来源字段命名与未结构化的效果契约。
+
+7. 本次验证的具体覆盖
+items：14/14源稳定ID正确，14/14原行名正确，14/14源sheet/range可定位，14/14视频ID/range正确，14/14说明与视频原文逐字一致。
+talents：11/11源稳定ID正确，11/11原物理表名正确，11/11源行号中的名称正确，11/11说明与视频原文逐字一致；11/11缺Excel工作簿/工作表字段和视频定位字段。
+monsters：6/6源行名与指定行一致，6/6基础HP一致，6/6基础Attack一致；0/6 source_sheet存在。
+source_contract：物品/天赋数量通过；原审计哈希通过；交付内审计文件当时缺失。
+未检查：新增实施代码、真实战斗、外观模型是否已导出、碰撞与动画可用性、全物品动态路径、两层通关率。本评审也没有重新研究网页；Dungeonbound引用准确性由专门网页研究负责。
+
+原始工作簿
+/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/视频内容研究总表.xlsx
+/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/原始仓库表格/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx
+
+参考审计
+/Users/haobinlu/Desktop/提取过程/outputs/新循环设计/GDD_v0.2_研究/data_inventory.json
+
+复核一：配置重建后的修复确认（2026-10-29）
+
+以下状态覆盖上文初检结论。初检正文保留，便于追踪问题；不应把上文已修问题继续计作未解决缺陷。
+
+已修1：6/6怪物source_sheet已改为“敌人经验及基础配置”，补齐source_workbook。原行号、HP和Attack保持正确。来源RowName+工作簿+sheet/range已足以唯一定位；ROW ID可作为以后统一schema的增强项，不再视为阻断。
+已修2：14物品与11天赋均分成source_template、video_description，并提供两份工作簿各自的sheet/range。重新对25条记录逐项比对：原模板25/25一致、视频正文25/25一致、视频坐标25/25一致。天赋value_policy继续明确新覆盖，不把新每级值冒称原值。
+已修3：I113旧匕首tags新增bleed。tag_policy与05文档明确这是依据实际流血效果新增的本GDD运行标签，不声称原表带有该标签。T059现在具有明确的候选受益对象。仅确认数据接线条件，未证明运行监听已实现。
+已修4：约定路径01_研究与依据/data_inventory.json已存在；从source_contract.audit_file解析后计算SHA256，与audit_sha256完全相同，值为7d70970ce41b0dc71d59762559ec39f9e9dd298f7e7a456ce95aee881e653014。
+已修5：6条普通怪均设prototype_is_boss=false、inherits_source_boss_tags=false。05文档进一步指明M_GUARD/M_BRUTE不得沿用原首领身份，Boss单独显式标识。
+
+05_原数据适配与边界.txt专项结果
+没有发现把原静态数据、旧core存在或离线生成样例当作实战验证的严重误写。
+正确区分：幽冥骑士150→180、XP150→60、天赋+3/+5%、新经济、格子附魔、固定疲劳+2和连锁上限是新规则；来源原模板与视频情境分开；旧匕首bleed为新适配；源格挡扣层及DOT N+1保持边界；第39行明确DOT运行未验证；第49行明确离线生成不能替代真实战斗。
+旧剑的3次额外伤害和旧手套30→35→30被写为待验收场景，没有声称已经在游戏中通过。生命药剂依最大HP的要求继续保留，未把视频22固化为新基础180时的治疗值。
+
+两个低优先级文字澄清建议（已发给主代理）
+1. 第13行“其余11节点”在列出力量与体质后，应改“其余9节点”或“全部11节点”，避免数量误解。
+2. 第36行“当前基础伤害×(1+额外伤害等适用乘算桶)”可改为“当前基础伤害×Π(1+各适用独立乘区)”或直接列出乘区，避免被实现成多个乘区在一个括号里相加。这里是表达式精度问题，尚无运行错误证据。
+
+剩余实施边界，不计作来源不实
+防御姿态effect=armor_item_charge_fraction与runtime tags中的defense应给出显式筛选契约。05文档已说明sourceTags与runtimeTags分离，当前JSON将运行标签放在tags，源标签保存在审计inventory；实施时仍需完成命名映射。
+原Q/L“固定在基准适配值”需落实具体基准数值；药剂15%最大HP、舍入、上限修饰等需变成可执行效果契约。当前文档要求按消费者核对，故不把这些未完成实现工作说成源事实错误。
+本次复核仍没有运行战斗，也没有证明充能、DOT、装备光环、伤害和药剂动态路径的实现正确。
+
+本次复核配置快照SHA256
+items.json cde4b2e111abecc45dd8d21cc6b76cdc9a2cc5170b7f57e5ca439221cc72d5c8
+talents.json 64c17a37566f94207faede01d289fe869095d2ae44ce16a0a7186118a57f1fa4
+monsters.json 0fa03aa1c3ba86867002e8931dd7e07da9422681da3d3ca1931b6850dbeb5dbc
+source_contract.json a6e2ab5513c5489a5d2d21a0c8daeabcb6c935f27569d7ff212651133e1821c2
+05_原数据适配与边界.txt 7f87dd64208ef9b72ef1046724b848a05d5d45f3b5484433c896bd8734632556

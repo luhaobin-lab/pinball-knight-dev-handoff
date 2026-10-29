@@ -1,0 +1,95 @@
+{
+  "id": "I075",
+  "name": "药丸蜗牛",
+  "status": "generated-normalized",
+  "source": "mothers/I075.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I075.png",
+  "motherSha256": "6ccfe2fa7c9a40ede606c28f104108df07115891a3be410c6a07c377a3f4ab24",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I075.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5296,
+      "sha256": "4a554df29e59f26231eb1f767e3cfca7cc9bec3aaf9e8c8326c5209bac4a8123",
+      "pixelSha256": "a8c3f01cec95dffcdc36d8fe1e75fd564ba694579c6cf90c3dc65a6f911370fb",
+      "alphaBounds": [
+        4,
+        17,
+        124,
+        110
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          29,
+          171,
+          1235,
+          1107
+        ],
+        "fitSize": [
+          120,
+          93
+        ],
+        "position": [
+          4,
+          17
+        ],
+        "scale": 0.09950248756218906
+      }
+    },
+    "256": {
+      "file": "pixels/256/I075.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 19471,
+      "sha256": "4b03d4cbc8112fc20d54fddcff840a0661741c48e8fec243ec2000cc9712a12a",
+      "pixelSha256": "53f5499adfbba36fe899c3f827ef202755a22875b428f992f1f817d99a0001fc",
+      "alphaBounds": [
+        8,
+        35,
+        248,
+        221
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          29,
+          171,
+          1235,
+          1107
+        ],
+        "fitSize": [
+          240,
+          186
+        ],
+        "position": [
+          8,
+          35
+        ],
+        "scale": 0.19900497512437812
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "缝合眼面具或药丸壳蜗牛主体完整清楚，轮廓未裁切。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-d5345d24-c99b-41ed-9b80-4e54ca6061a2.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-d5345d24-c99b-41ed-9b80-4e54ca6061a2"
+  }
+}

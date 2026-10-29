@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Precise single-detail correction. Image1 is the complete target encyclopedia screen; Image2 supplies ONLY the missing backpack lock icon. Return the complete Image1 at 3200x1440. In Image1, the right-hand 背包 panel currently has four empty horizontal slots. Restore ONE gray closed-padlock symbol at the center of the BOTTOM FOURTH slot, exactly matching the lock symbol in the corresponding bottom-right slot of Image2. The right backpack must read THREE EMPTY SLOTS plus ONE LOCKED BOTTOM SLOT. Keep the bottom slot border and surface unchanged. This is the ONLY change. Do not add any lock or any new slot to the left item encyclopedia list. Keep the left list at exactly three collected items, with plain unframed empty space below the mushroom. Preserve all of Image1's typography, item art, 15 poison / 1 vulnerability / 30% critical chance numbers, selection, three hanging tabs, header resources, return button, scene, panel positions, borders and colors. Do not use Image2's battle layout; use only its tiny gray padlock design.",
+    "images": [
+      "archive/ui-v09-approved/原始生成图/03_战斗_装备图鉴_清理空框.png",
+      "archive/ui-v09-approved/原始生成图/01_战斗_风暴UI.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2e74f7a23e72106dcbda7\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2e74f7a23e72106dcbda7",
+      "raw": {
+        "id": "6ae2e74f7a23e72106dcbda7",
+        "object_id": "6ae2e74f7a23e72106dcbda7",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T14:27:27.101000+08:00",
+        "updateTime": "2026-10-29T14:27:27.123000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

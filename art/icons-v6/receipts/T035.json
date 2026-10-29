@@ -1,0 +1,86 @@
+{
+  "id": "T035",
+  "name": "浴血奋战",
+  "status": "generated-normalized",
+  "source": "mothers/T035.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T035.png",
+  "motherSha256": "9876c6c7d4a82926f639a0d1c386aff37acd774af9e7d87a18c9ba4638ef6ab6",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T035.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6391,
+      "sha256": "95c77cd0ece863cc2ac9e161301cffcea1af917325dc49ac25c44a0a19ee7bc5",
+      "pixelSha256": "e64bae8304a00578ec4efbdfd9d56c62b6cea3456a90325a08e2795310736c83",
+      "alphaBounds": [
+        5,
+        4,
+        122,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          52,
+          31,
+          1220,
+          1233
+        ],
+        "fitSize": [
+          117,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.09983361064891846
+      }
+    },
+    "256": {
+      "file": "pixels/256/T035.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23310,
+      "sha256": "6c213dce8271824b53d62f7b045296b7f307038b6c98cbdc33e1bffe841515eb",
+      "pixelSha256": "3631bf916ca2679080798899cea2c8053e4bc00aa9191a8b05feeca1fcb221ed",
+      "alphaBounds": [
+        12,
+        8,
+        244,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          52,
+          31,
+          1220,
+          1233
+        ],
+        "fitSize": [
+          233,
+          240
+        ],
+        "position": [
+          11,
+          8
+        ],
+        "scale": 0.19966722129783693
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-c7f8e12b-5395-4235-8a18-78ef55a56c06.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-c7f8e12b-5395-4235-8a18-78ef55a56c06"
+  }
+}

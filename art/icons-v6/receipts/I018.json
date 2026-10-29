@@ -1,0 +1,86 @@
+{
+  "id": "I018",
+  "name": "凝神连弩",
+  "status": "generated-normalized",
+  "source": "mothers/I018.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I018.png",
+  "motherSha256": "1abc68747c8501b3c2a2c80f312a940094ca4ca78b5d73a922bfc47d1e9ae9dc",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I018.png",
+      "width": 128,
+      "height": 192,
+      "colors": 63,
+      "bytes": 7923,
+      "sha256": "1fc974f1f5bc30ee8bf4d3150bf774bb15dbb6e7dd0dc4afa494200f404a0a40",
+      "pixelSha256": "f3e26c84224b0558080c6d49c8fe3d11f33bdb3e1f09d12c5fc5e3124b9461c7",
+      "alphaBounds": [
+        4,
+        6,
+        124,
+        185
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          48,
+          999,
+          1490
+        ],
+        "fitSize": [
+          120,
+          179
+        ],
+        "position": [
+          4,
+          6
+        ],
+        "scale": 0.12422360248447205
+      }
+    },
+    "256": {
+      "file": "pixels/256/I018.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 29507,
+      "sha256": "aed64b7a9fa9e49e1889dd62b740c2e7e61713f3a5bdb9815085f98d66fc022f",
+      "pixelSha256": "00ac3aa46f95936217a574b63812ecb978f9ce489553c390fde6c1b49c1e17e1",
+      "alphaBounds": [
+        9,
+        13,
+        248,
+        371
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          48,
+          999,
+          1490
+        ],
+        "fitSize": [
+          240,
+          358
+        ],
+        "position": [
+          8,
+          13
+        ],
+        "scale": 0.2484472049689441
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and normalized PNG viewed; complete correct single subject; I016 has exposed roots and no bottle",
+  "sourceProvenance": {
+    "sourceFilename": "exec-b3a6b909-df3d-46bd-8c6e-151fc370b557.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b3a6b909-df3d-46bd-8c6e-151fc370b557"
+  }
+}

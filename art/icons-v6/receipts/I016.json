@@ -1,0 +1,86 @@
+{
+  "id": "I016",
+  "name": "瘟疫花",
+  "status": "generated-normalized",
+  "source": "mothers/I016.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I016.png",
+  "motherSha256": "0437a6a88185b00d1aa106704153360ca17197a90a918ff3ce77f928a3f24d78",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I016.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 9138,
+      "sha256": "a06c9f0fc781c09add4e5a715c08bf678a44cbf937a14842d9e7072795b40617",
+      "pixelSha256": "b17e7a0c322d5e6d17c2bbaab43a18566764efc0cbd7b08920d02af7dc7c2e2e",
+      "alphaBounds": [
+        8,
+        4,
+        120,
+        187
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          61,
+          22,
+          980,
+          1529
+        ],
+        "fitSize": [
+          112,
+          184
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.12209688122096882
+      }
+    },
+    "256": {
+      "file": "pixels/256/I016.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 32862,
+      "sha256": "aafe603776e4db54beff35aa8ef6692b39bdf4ee4426625e0983c7ef45aa3c11",
+      "pixelSha256": "dfe3b6528f6c70dfdccf391a483683d22b3432018d4d655671c68f42daaf42b6",
+      "alphaBounds": [
+        16,
+        8,
+        240,
+        375
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          61,
+          22,
+          980,
+          1529
+        ],
+        "fitSize": [
+          224,
+          368
+        ],
+        "position": [
+          16,
+          8
+        ],
+        "scale": 0.24419376244193763
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and normalized PNG viewed; complete correct single subject; I016 has exposed roots and no bottle",
+  "sourceProvenance": {
+    "sourceFilename": "exec-85c02793-c8fa-48f2-8302-4b5972bf8002.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-85c02793-c8fa-48f2-8302-4b5972bf8002"
+  }
+}

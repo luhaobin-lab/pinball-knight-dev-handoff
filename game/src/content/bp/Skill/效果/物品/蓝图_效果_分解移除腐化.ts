@@ -1,0 +1,12 @@
+/** Source L89: pass p0 directly (normally negative) to the corruption facade, once per拆解event. */
+import { 蓝图_效果 } from '../../../../../core/ability/effect.ts';
+import { 函数库_技能 } from '../../../../../core/bp/index.ts';
+import type { BP_Actor_Card } from '../../../../../core/sim/card.ts';
+import type { AssetPath, Tag } from '../../../../../core/sim/types.ts';
+export class 蓝图_效果_分解移除腐化 extends 蓝图_效果 {
+  static override readonly path: AssetPath = 'CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解移除腐化';
+  词条名 = '元素伤害%'; 所有牌: (BP_Actor_Card | null)[] = [];
+  override 持续中触发(时机: Tag): void {
+    if (时机 === '效果.时机.分解后') this.world.mode.增加腐化(函数库_技能.获取技能参数(this, this.来自技能, 0, false, '').参数值, true, this.拥有者);
+  }
+}

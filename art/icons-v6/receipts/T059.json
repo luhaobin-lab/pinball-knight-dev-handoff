@@ -1,0 +1,86 @@
+{
+  "id": "T059",
+  "name": "撕裂技巧",
+  "status": "generated-normalized",
+  "source": "mothers/T059.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T059.png",
+  "motherSha256": "103ccbfbce8aa41db8a6b644546ce2a4f8c95ebb180d723449cb07a536feb341",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T059.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4553,
+      "sha256": "bd14468f8b4d0663f5f3a41b9ecd91752e9d424757f3cb611d82b1e379f7e91c",
+      "pixelSha256": "2b081eb44011b9bcdea6fc9c13c2cb5ed6e89ebe2ed4205714da28a6dadacd56",
+      "alphaBounds": [
+        8,
+        5,
+        119,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          116,
+          21,
+          1239,
+          1232
+        ],
+        "fitSize": [
+          111,
+          120
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.0990916597853014
+      }
+    },
+    "256": {
+      "file": "pixels/256/T059.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 16432,
+      "sha256": "7cc254a84e3529450bf23b89ae6fb2a082be0f4cb02719b4159b8c9ec08d9486",
+      "pixelSha256": "7c32833d8fc0904c98b856e762bfb80a926d2c8d5604d099d209ec208e73c1d2",
+      "alphaBounds": [
+        16,
+        8,
+        239,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          116,
+          21,
+          1239,
+          1232
+        ],
+        "fitSize": [
+          223,
+          240
+        ],
+        "position": [
+          16,
+          8
+        ],
+        "scale": 0.1981833195706028
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-c4796fd4-cea9-44a8-865a-5bcf9b50b17f.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-c4796fd4-cea9-44a8-865a-5bcf9b50b17f"
+  }
+}

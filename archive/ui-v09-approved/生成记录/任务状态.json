@@ -1,0 +1,160 @@
+{
+  "phase": "delivered_12_static_images",
+  "jobs": {
+    "10": {
+      "id": "10",
+      "name": "商店_出售详情",
+      "jobId": "6ae2e45f7a23e72106dcbd60",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2e5dc7a23e72106dcbd84"
+      ],
+      "message": "",
+      "path": "archive/ui-v09-approved/原始生成图/10_商店_出售详情.png"
+    },
+    "11": {
+      "id": "11",
+      "name": "战利品_宝箱领取",
+      "jobId": "6ae2e1c798d303820bdcb580",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2e22198d303820bdcb587"
+      ],
+      "path": "archive/ui-v09-approved/原始生成图/11_战利品_宝箱领取.png"
+    },
+    "12": {
+      "id": "12",
+      "name": "战斗_装备详情",
+      "jobId": "6ae2e1cdf5157103dedcc776",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2e343f5157103dedcc7aa"
+      ],
+      "path": "archive/ui-v09-approved/原始生成图/12_战斗_装备详情.png"
+    },
+    "02": {
+      "id": "02",
+      "name": "战斗_英雄属性与天赋",
+      "jobId": "6ae2e413f5157103dedcc7c7",
+      "status": "completed",
+      "initial": {
+        "jobId": "6ae2e1aef5157103dedcc765",
+        "path": "archive/ui-v09-approved/原始生成图/02_战斗_英雄属性与天赋.png",
+        "images": [
+          "mivo://image/6ae2e328f5157103dedcc7a4"
+        ]
+      },
+      "images": [
+        "mivo://image/6ae2e587f5157103dedcc817"
+      ],
+      "message": "",
+      "path": "archive/ui-v09-approved/原始生成图/02_战斗_英雄属性与天赋_清理空框.png"
+    },
+    "03": {
+      "id": "03",
+      "name": "战斗_装备图鉴",
+      "jobId": "6ae2e74f7a23e72106dcbda7",
+      "status": "completed",
+      "initial": {
+        "jobId": "6ae2e1b2f5157103dedcc767",
+        "path": "archive/ui-v09-approved/原始生成图/03_战斗_装备图鉴.png",
+        "images": [
+          "mivo://image/6ae2e329f5157103dedcc7a5"
+        ]
+      },
+      "images": [
+        "mivo://image/6ae2e8ca7a23e72106dcbde6"
+      ],
+      "message": "",
+      "path": "archive/ui-v09-approved/原始生成图/03_战斗_装备图鉴_恢复锁槽.png",
+      "beforeLockCorrection": {
+        "jobId": "6ae2e416f5157103dedcc7c9",
+        "path": "archive/ui-v09-approved/原始生成图/03_战斗_装备图鉴_清理空框.png",
+        "images": [
+          "mivo://image/6ae2e58bf5157103dedcc818"
+        ]
+      }
+    },
+    "04": {
+      "id": "04",
+      "name": "营地_冒险准备",
+      "jobId": "6ae2e1b7f5157103dedcc769",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2e223f5157103dedcc787"
+      ],
+      "path": "archive/ui-v09-approved/原始生成图/04_营地_冒险准备.png"
+    },
+    "08": {
+      "id": "08",
+      "name": "营地_地牢选择",
+      "jobId": "6ae2e1bdf5157103dedcc76b",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2e33af5157103dedcc7a6"
+      ],
+      "path": "archive/ui-v09-approved/原始生成图/08_营地_地牢选择.png"
+    },
+    "09": {
+      "id": "09",
+      "name": "商店_购买详情",
+      "jobId": "6ae2e2b298d303820bdcb592",
+      "status": "completed",
+      "initial": {
+        "jobId": "6ae2e1c2f5157103dedcc76e",
+        "path": "archive/ui-v09-approved/原始生成图/09_商店_购买详情.png",
+        "images": [
+          "mivo://image/6ae2e236f5157103dedcc78a"
+        ]
+      },
+      "images": [
+        "mivo://image/6ae2e42d98d303820bdcb5af"
+      ],
+      "path": "archive/ui-v09-approved/原始生成图/09_商店_购买详情_图标统一.png"
+    },
+    "07": {
+      "id": "07",
+      "name": "营地_保险箱存取",
+      "jobId": "6ae2e2adf5157103dedcc798",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2e30ef5157103dedcc7a1"
+      ],
+      "path": "archive/ui-v09-approved/原始生成图/07_营地_保险箱存取.png"
+    },
+    "05": {
+      "id": "05",
+      "name": "营地_天赋解锁",
+      "jobId": "6ae2e40887ada5af0ddcadf6",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2e58087ada5af0ddcae02"
+      ],
+      "message": "",
+      "path": "archive/ui-v09-approved/原始生成图/05_营地_天赋解锁.png"
+    },
+    "06": {
+      "id": "06",
+      "name": "营地_天赋升级",
+      "jobId": "6ae2e40ef5157103dedcc7c2",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2e46df5157103dedcc7d4"
+      ],
+      "message": "",
+      "path": "archive/ui-v09-approved/原始生成图/06_营地_天赋升级.png"
+    },
+    "01": {
+      "id": "01",
+      "name": "战斗_装备栏位",
+      "jobId": "6ae2dc867a23e72106dcbce2",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2dcf17a23e72106dcbcea"
+      ],
+      "path": "archive/ui-v09-approved/原始生成图/01_战斗_风暴UI.png"
+    }
+  },
+  "batchSize": 12,
+  "validation": "原图内容与图库检查已完成；不是游戏运行或真人盲测验证"
+}

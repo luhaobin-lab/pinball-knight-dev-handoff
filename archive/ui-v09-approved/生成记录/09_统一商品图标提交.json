@@ -1,0 +1,57 @@
+{
+  "input": {
+    "prompt": "Precise localized edit of this finished 3200x1440 merchant purchase screen. Change ONLY TWO SMALL STOCK ICONS in the CENTRAL LEFT merchandise list. The second stock entry 凝血毒剂 must use a GREEN bottle identical in silhouette, stopper, liquid color and illustration style to the green equipped vial already visible in the FAR LEFT first card, scaled to the existing merchandise icon bounds. Replace the incorrect red round bottle. The third stock entry 灵魂香菇 must use the PALE IVORY mushroom identical in shape, color and illustration style to the equipped mushroom in the FAR LEFT second card, scaled to the existing merchandise icon bounds. Replace the incorrect luminous purple mushroom. Keep every text, number, frame, title, price, button, merchant and all other artwork unchanged. Prices stay2 for all three stock entries, selected dagger price2, enabled 购买 · 2金币, gold4. Do not modify the selected bronze dagger, shared sidebars, large top status icons or hanging tabs. Return one complete screenshot.",
+    "images": [
+      "archive/ui-v09-approved/原始生成图/09_商店_购买详情.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2e2b298d303820bdcb592\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2e2b298d303820bdcb592",
+      "raw": {
+        "id": "6ae2e2b298d303820bdcb592",
+        "object_id": "6ae2e2b298d303820bdcb592",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T14:07:46.877000+08:00",
+        "updateTime": "2026-10-29T14:07:46.896000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

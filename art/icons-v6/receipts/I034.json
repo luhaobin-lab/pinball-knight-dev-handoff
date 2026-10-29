@@ -1,0 +1,86 @@
+{
+  "id": "I034",
+  "name": "增生肉瘤",
+  "status": "generated-normalized",
+  "source": "mothers/I034.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I034.png",
+  "motherSha256": "4de8cb67c9a954c335f83d0bf79de2d773b55233f49667c6eec629efda202b4f",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I034.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3183,
+      "sha256": "ce5e1422aff1ccc8f7549897ab96fe14fbb7da1510b7166412246ca43f48aa1e",
+      "pixelSha256": "ad030454bf1edd84b4f5e482abb898d10031d8cca9179c1621317ff05cd40569",
+      "alphaBounds": [
+        4,
+        7,
+        124,
+        56
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          20,
+          86,
+          1757,
+          799
+        ],
+        "fitSize": [
+          120,
+          49
+        ],
+        "position": [
+          4,
+          7
+        ],
+        "scale": 0.0690846286701209
+      }
+    },
+    "256": {
+      "file": "pixels/256/I034.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 11917,
+      "sha256": "c417cafd5bdad0e3470a6eeba029f1831c6a533e229cb09bc93d0e66064505fe",
+      "pixelSha256": "758d63a3ce4c0c0780014e81fe73f0411cf75fecbee81a04be55cb11510f8d48",
+      "alphaBounds": [
+        8,
+        14,
+        248,
+        113
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          20,
+          86,
+          1757,
+          799
+        ],
+        "fitSize": [
+          240,
+          99
+        ],
+        "position": [
+          8,
+          14
+        ],
+        "scale": 0.1381692573402418
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; complete correct art brief, no unintended container or extra asset; I035 source identity remains unknown",
+  "sourceProvenance": {
+    "sourceFilename": "exec-417eb7d3-21a0-43a6-8eee-69e7c4853ce1.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-417eb7d3-21a0-43a6-8eee-69e7c4853ce1"
+  }
+}

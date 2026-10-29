@@ -1,0 +1,86 @@
+{
+  "id": "I063",
+  "name": "灌能护腕",
+  "status": "generated-normalized",
+  "source": "mothers/I063.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I063.png",
+  "motherSha256": "1cd6d69aaf9f7d287174cee4e8f344d8145a8563c0d142a458b5530fbd9efd59",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I063.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6218,
+      "sha256": "a2ad69f601f989ac1f971fddcf90dd10d61fe2ec88821989834566e288268966",
+      "pixelSha256": "71660c80183c79e24410da8efe56c9a529f140f17aab98821aa330edbd024a58",
+      "alphaBounds": [
+        4,
+        6,
+        124,
+        121
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          51,
+          89,
+          1217,
+          1207
+        ],
+        "fitSize": [
+          120,
+          115
+        ],
+        "position": [
+          4,
+          6
+        ],
+        "scale": 0.10291595197255575
+      }
+    },
+    "256": {
+      "file": "pixels/256/I063.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23137,
+      "sha256": "6af8c5014a31ed2dead28065027ab7c0876de8aa9a653a83311948a39f0e3afe",
+      "pixelSha256": "f311843d7695743ccbefffb6aa48081ecf6647646ceb2e1c498935108411796e",
+      "alphaBounds": [
+        8,
+        13,
+        248,
+        243
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          51,
+          89,
+          1217,
+          1207
+        ],
+        "fitSize": [
+          240,
+          230
+        ],
+        "position": [
+          8,
+          13
+        ],
+        "scale": 0.2058319039451115
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; recognizable distinct cloak / phantom boots / open energy bracer with complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-b18e78e5-051c-4618-852c-c615038db298.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b18e78e5-051c-4618-852c-c615038db298"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "artifact": "Sunburst generation prompt only",
+  "requestedModel": "gpt-image-2.5-sunburst",
+  "size": "3200x1440",
+  "ratio": "20:9",
+  "references": {
+    "Image1": "生成的战斗主稿：面板字体物品规模权威",
+    "Image2": "生成的营地主稿：场景和共享组件",
+    "Image3": "暗黑地牢商店参考：仅氛围，无功能授权"
+  },
+  "sourceConstraints": "archive/ui-history/全集01/最新设计约束.json",
+  "sourceMasterPrompt": "archive/ui-history/全集01/提示词/01_战斗_装备栏位.txt",
+  "contentSamples": "archive/ui-history/批次01/真实内容样本.json",
+  "contentSampleSha256": "30b193adb81e0c2582846d86f5e6d93b40cb11b25e7e36e53215ca04ef0fe29d",
+  "sharedTopSample": {
+    "hp": "180/180",
+    "stamina": "100/100",
+    "corruption": "0/100",
+    "gold": 4
+  },
+  "sharedTopScope": "视觉样例的操作前状态，不代表新初始经济或实际存档",
+  "geometry": {
+    "screen": [
+      3200,
+      1440
+    ],
+    "safeMargin": 32,
+    "topStatus": [
+      32,
+      32,
+      3136,
+      112
+    ],
+    "left": [
+      32,
+      176,
+      480,
+      1232
+    ],
+    "center": [
+      544,
+      176,
+      2112,
+      1232
+    ],
+    "right": [
+      2688,
+      176,
+      480,
+      1232
+    ],
+    "baseCell": 180,
+    "fullWidthItem": 360,
+    "tabsHeight": 64
+  },
+  "screen": "营地地牢选择",
+  "sampleState": "第1层已通关可重打；第2层可进入且选中；第3层锁定",
+  "rules": [
+    "线性层选择，无分叉地图",
+    "仅选择不立即进入"
+  ],
+  "samplePointers": [],
+  "unknownNumbers": [
+    "其他层数",
+    "入场费用",
+    "解锁费用",
+    "奖励金额"
+  ],
+  "clicks": {
+    "floor1": "选择重打第1层",
+    "floor2": "选择第2层",
+    "floor3": "锁定不可进入",
+    "enter": "进入当前选中层",
+    "return": "返回营地"
+  },
+  "promptWordCountWhitespace": 880,
+  "promptSha256": "3237962e9587b06d52a2ad430af23f5c854576dde5795daaf9ce5bcda978029f",
+  "unknownValueDisplay": "不编写未知数字；省略未定价格行与结果余额；不输出待核对开发说明",
+  "implementationStatus": "视觉候选生成提示词，不表示已实现或通过交互验证"
+}

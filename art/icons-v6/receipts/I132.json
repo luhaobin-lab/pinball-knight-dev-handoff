@@ -1,0 +1,95 @@
+{
+  "id": "I132",
+  "name": "活脑",
+  "status": "generated-normalized",
+  "source": "mothers/I132.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I132.png",
+  "motherSha256": "4d8d21ef9f2ff7e64e93ecf0e83faa71ccec69311f2856cec98dd33e45bd9ce8",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I132.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3250,
+      "sha256": "12f678f8002e4dae4afdc6e0097ddba7a2e2cd87a994f8dae2700b0a91538e6c",
+      "pixelSha256": "7dd71baf6a0cb90cc569e9cc77b6ca22954756e6303b5aac39584c5315dddd54",
+      "alphaBounds": [
+        11,
+        4,
+        117,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          156,
+          53,
+          1663,
+          849
+        ],
+        "fitSize": [
+          106,
+          56
+        ],
+        "position": [
+          11,
+          4
+        ],
+        "scale": 0.07035175879396985
+      }
+    },
+    "256": {
+      "file": "pixels/256/I132.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 12003,
+      "sha256": "aa06c69afe2c9d076591f5ef70d7f483b0cca044439dd79bedd7706b17eb5467",
+      "pixelSha256": "0e34e7c907cdbc9423e637ae2b5836c13c4a23e623adeb3e56b320c03b8db91d",
+      "alphaBounds": [
+        22,
+        8,
+        234,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          156,
+          53,
+          1663,
+          849
+        ],
+        "fitSize": [
+          212,
+          112
+        ],
+        "position": [
+          22,
+          8
+        ],
+        "scale": 0.1407035175879397
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "活脑左右脑叶与短脑干、触手复制芽、圣徽骨翼主体分别通过；器官无额外容器。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-58d6d862-4d0f-49ad-870f-a5498b71ceea.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-58d6d862-4d0f-49ad-870f-a5498b71ceea"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I027",
+  "name": "旧鞋",
+  "status": "generated-normalized",
+  "source": "mothers/I027.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I027.png",
+  "motherSha256": "3407cf5160e2b7714ccfcd85360ee2b1f0b383fe34f778b36090e6245a88f424",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I027.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6484,
+      "sha256": "e073cdfeea0d3d1513da0778566d2e4d37899122a80da5c248a6a16da7d7c6d6",
+      "pixelSha256": "bea3eb40b5db2c1ea0e1a966b7d9ae3ba37235b853acb3f8a3f2f8ccd1c6930a",
+      "alphaBounds": [
+        4,
+        8,
+        124,
+        119
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          87,
+          1239,
+          1200
+        ],
+        "fitSize": [
+          120,
+          111
+        ],
+        "position": [
+          4,
+          8
+        ],
+        "scale": 0.09950248756218906
+      }
+    },
+    "256": {
+      "file": "pixels/256/I027.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23854,
+      "sha256": "b3757e7967dd05d9ca0fe46075e21dae13d2901f5895d7e10c0bb442805f2ee1",
+      "pixelSha256": "1fe22a4482fc02a35ca8aa72101912cba8245f12171d6a1aadc60469d27ebcc7",
+      "alphaBounds": [
+        8,
+        17,
+        248,
+        238
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          87,
+          1239,
+          1200
+        ],
+        "fitSize": [
+          240,
+          221
+        ],
+        "position": [
+          8,
+          17
+        ],
+        "scale": 0.19900497512437812
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; coherent shoes/garment asset, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-bae7362c-f951-4c9c-8f96-b34722a768b0.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-bae7362c-f951-4c9c-8f96-b34722a768b0"
+  }
+}

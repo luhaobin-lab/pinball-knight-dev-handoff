@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Generate ONE complete 3200x1440 finished landscape mobile game screen. Image1 is the NEW modern dark-occult HD-pixel battle art master. Preserve the ENTIRE shared UI from Image1: header, three tabs, resources, both matching vertical card lanes, card artwork, badges, locks, exact boundaries, type scale and spacing. Replace ONLY the central page content. Image2 is an official gothic art reference, subordinate to Image1; it may inform scene craft but never change the master's UI or game rules.\n\nAbsolute latest rule: BACKPACK IS THE SAME FULL-WIDTH VERTICAL CARD SYSTEM AS EQUIPMENT. Same card width, height, border, surface, row spacing and lock style on left and right. No two-column grid, no split square cells. Right bag is empty. Keep the same existing empty cards as Image1, with no cloned items or invented values.\nKeep exactly 装备栏位 / 英雄属性 / 装备图鉴, first selected. Header remains 生命180/180, 体力100/100, 腐化0/100 EMPTY, 金币4. Left card art remains one green vial, one pale single-cap mushroom, one diagonal silver dagger, no permanent item-name paragraphs. Badges remain vial8/1, mushroom recycle4 only, dagger30/2 and empty charge0/100 with one small edge enchant mark. These values describe equipped samples, not merchandise prices.\n\nKeep the master's FINE, high-density pixel craftsmanship and rich, coherent material lighting. Glass has thickness; metal has facets; stone has mass; cloth has deep restrained color. Clear shapes and controlled highlights, no coarse enlarged sprites or random stipple. Quiet functional surfaces, slim precise edges, modern clean Chinese text. No old RPG bevel stacks, full-screen stone wallpaper, giant Song/Ming type or glowing UI flourishes. Dark occult character is carried by the world and deliberate forms. Preserve the master's overall tonal and color relationships rather than applying a fresh unrelated color grade.\n\nInside the central region, retain the title baseline. Bottom controls share one consistent row and common height, aligned with each other. Primary action anchors at bottom-right, secondary action at bottom-left. Keep labels readable and large. Empty space must remain UNFRAMED negative space, not a blank button, card or placeholder. No additional resources, fees, timers, branding or game systems. Fully finished generated game screenshot only, no process annotation or comparison board.\n\nCENTRAL PAGE 出发前准备.\nUpper central scene uses about45% of the central body: a crafted gothic sanctuary with a modest stone ritual lectern, one iron-bound chest and the SAME small white/brass-helmet knight from the battle master. Keep the knight's proportions and identity. Let a directional cool shaft of light define the chest and stone edge, with one limited warm ritual light supplying a meaningful contrast. Deliberate foreground/midground/background separation, controlled fine pixel detail, believable contact shadows and material response. One understated original ritual mark; no massive statue, repeated banners or candle piles. The sanctuary should have the specific atmosphere of a finished contemporary occult game location, not a fantasy backdrop assembled from decorative stock motifs.\nBelow scene: three equal floor choices in one aligned row, 第1层 / 已通关, 第2层 / 已选择, 第3层 / 未解锁. Refined short labels, second selected by the master's selected-state language, third clearly locked. These are concept progression states; no other floors, costs, stars or rewards. Keep secondary choices below the primary action in emphasis.\nBottom action row contains THREE real buttons, all same height: 保险箱 on left, 天赋培养 in middle, 进入第2层 on right as primary. Same edge style and type as master, no massive serif plaques. Do not attach labels to scene props. Preserve both full-width vertical card lanes exactly from Image1.",
+    "images": [
+      "archive/ui-history/Sunburst_现代CULT06/原始生成图/01_战斗_现代CULT.png",
+      "archive/ui-history/Sunburst_现代CULT06/参考原图/TheLastFaith_02_暗红水面与石像_官方.jpg"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2c3f798d303820bdcb4ce\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2c3f798d303820bdcb4ce",
+      "raw": {
+        "id": "6ae2c3f798d303820bdcb4ce",
+        "object_id": "6ae2c3f798d303820bdcb4ce",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T11:56:39.370000+08:00",
+        "updateTime": "2026-10-29T11:56:39.421000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

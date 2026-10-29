@@ -1,0 +1,21 @@
+import fs from'node:fs';import path from'node:path';import assert from'node:assert/strict';import{execFileSync}from'node:child_process';import{createHash}from'node:crypto';
+import{ROOT,buildCheckout,serve,launchChrome,runTool,watchPage,waitReady}from'../lib/harness.mjs';
+const out=process.argv[2];assert(out?.startsWith('D:/TAPTAPGAME_codex/studio/'));assert(!fs.existsSync(out));fs.mkdirSync(out,{recursive:true});
+const git=(...a)=>execFileSync('git',a,{cwd:ROOT,encoding:'utf8'}).trim(),r={head:git('rev-parse','HEAD'),dirty:git('status','--short'),scope:'Explicit QA skipPrologue; natural shared-policy source acquisition then actual mouse loot selection, detailed existing kit icon on ordinary equipment/backpack. No state/item/HP/gold/RNG injection.',errors:[],shots:[],commands:[],cleanup:{server:false,browser:false},complete:false};
+try{await runTool(async cleanup=>{const dist=await buildCheckout(),server=await serve(dist);cleanup(async()=>{await server.close();r.cleanup.server=true});const{browser}=await launchChrome();cleanup(async()=>{await browser.close();r.cleanup.browser=true});const p=await browser.newPage({viewport:{width:1920,height:1080}});watchPage(p,r.errors,'itemicons');
+ await p.addInitScript(()=>{let q=new Map(),id=0,t=0;window.requestAnimationFrame=f=>{q.set(++id,f);return id};window.cancelAnimationFrame=i=>q.delete(i);window.__step=(n=1)=>{for(let j=0;j<n;j++){t+=1000/60;const old=q;q=new Map();for(const f of old.values())f(t)}}});
+ await p.goto(server.url+'?inspect=1&seed=1&bot=scripted&skipPrologue=1');await waitReady(p,30000);await p.evaluate(()=>window.__shell.stats.stopped=true);
+ let acquired=false;
+ for(let i=0;i<150&&!acquired;i++){
+  const action=await p.evaluate(()=>{const s=window.__shell,g=s.game;g.runUntilInput();s.frame(0);window.__step(20);const v=g.view,l=g.legal();if(v.screen==='runEnd')return{end:true};
+   if(v.modal?.kind==='loot'){const ids=l.find(c=>c.type==='loot.take')?.params.item??[],target=v.modal.cells.find(c=>ids.includes(c.item)&&['灵魂香菇','寂静法杖','投手之握','瘟疫花','虚空工具盒','肢体袋','活脑'].includes(c.row));if(target){let page=s.stack.top,dx=0;while(page?.inner||page?.menu||page?.page){dx+=page.dx??0;page=page.inner??page.menu??page.page}const rect=page.regions.list.find(x=>x.target.kind==='item'&&Number(x.target.item.id)===target.item)?.rect;if(!rect)throw Error('No source offereditem rect');const c=s.pageLayer.canvas,b=c.getBoundingClientRect(),f=s.pageFrame;return{target,point:{x:b.left+(f.x+dx+rect.x+rect.w/2)*b.width/c.width,y:b.top+(f.y+rect.y+rect.h/2)*b.height/c.height}};}}
+   const cmd=s.policy.next(v,l);if(!cmd)throw Error('No policy input at '+v.phase);return{cmd};});
+  if(action.end)break;
+  if(action.target){r.target=action.target;await p.screenshot({path:path.join(out,'01-natural-offer.png')});await p.mouse.click(action.point.x,action.point.y);await p.evaluate(()=>window.__step(30));
+   const state=await p.evaluate(id=>{const s=window.__shell,g=s.game;const card=[...g.view.inventory.equip,...g.view.inventory.backpack].find(c=>c.id===id);return{card,equip:s.hud.model?.state?.items??s.hud.state?.items,view:g.view,stats:s.stats}},action.target.item);assert(state.card,'actualmouse must acquire the source item');r.after=state;
+   if(state.view.modal?.kind==='loot')await p.evaluate(()=>{const s=window.__shell;if(s.game.legal().some(c=>c.type==='loot.close'))s.send({type:'loot.close'});window.__step(30)});
+   await p.screenshot({path:path.join(out,'02-ordinary-item-kit.png')});acquired=true;
+  }else{r.commands.push(action.cmd);const ok=await p.evaluate(cmd=>{const s=window.__shell,ok=s.send(cmd);window.__step(1);return ok},action.cmd);assert(ok,'naturalcommand rejected '+JSON.stringify(action.cmd));}
+ }
+ assert(acquired,'bounded natural route must acquire an item previously collapsed to orb');assert.deepEqual(r.errors,[]);r.complete=true;
+});}catch(e){r.failure=String(e.stack??e);process.exitCode=1;}finally{r.complete&&=Object.values(r.cleanup).every(Boolean);r.shots=fs.readdirSync(out).filter(n=>n.endsWith('.png')).map(n=>({file:path.join(out,n),sha256:createHash('sha256').update(fs.readFileSync(path.join(out,n))).digest('hex')}));fs.writeFileSync(path.join(out,'report.json'),JSON.stringify(r,null,2));console.log(JSON.stringify({out,complete:r.complete,failure:r.failure,errors:r.errors}));}

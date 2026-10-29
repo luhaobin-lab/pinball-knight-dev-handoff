@@ -1,0 +1,31 @@
+{
+  "engine": "LibreOffice Calc26.8.1 headless;isolatedtaskprofile",
+  "explicitCalculateAll": true,
+  "changedInputExpectedOutputs": [
+    {
+      "sheet": "公式验证例",
+      "cell": "F6",
+      "value": 500
+    },
+    {
+      "sheet": "实体科学属性",
+      "cell": "I6",
+      "value": 300
+    }
+  ],
+  "source": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+  "roundtrip": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\calc-engine-input\\calc-input-change-forced.xlsx",
+  "originalFormulaCount": 10662,
+  "matchingOriginalFormulaResults": 10662,
+  "roundtripFormulaCount": 118609,
+  "literalBooleansConvertedByCalcToEquivalentTRUEFALSEFormulas": 107947,
+  "explanation": "Calc serializes literal boolean cells as TRUE()/FALSE() formulas; every added formula was checked against the original boolean cell. The engine copy is not the delivered file.",
+  "sourceSha256": "a8633c42977acd06c87cb3321b578fe11330c00be30ec0b5f7269c80aa69e532",
+  "roundtripSha256": "916a0c65ea7fa0f48a12fe94b5520afef2c26a8c2723a30f3c2cc03c9806e77c",
+  "errorsBefore": [],
+  "errorsAfter": [],
+  "issues": [],
+  "passed": true,
+  "finalWorkbookReplaced": false,
+  "scope": "Original10662formula outputs; no claim all source-derived algorithm constants are Excel formulas."
+}

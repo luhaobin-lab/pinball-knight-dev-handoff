@@ -1,0 +1,87 @@
+{
+  "id": "I168",
+  "name": "汲取拳套",
+  "status": "generated-normalized",
+  "source": "[original-local-file]/exec-f1f24427-c1e7-45c2-9dd5-9520510cce93.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I168.png",
+  "motherSha256": "9ba31403e354775f7a37aeee1bf625627e862f14e37257dbe631008441b078bf",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I168.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3608,
+      "sha256": "8a92a1da191d630dbca4d6c26c8c8447dea419816ad76750b1bfc8fa8177c387",
+      "pixelSha256": "b6276140663a30e25d699487c970128c821644a5aeab83058290f2bde22227b2",
+      "alphaBounds": [
+        5,
+        4,
+        123,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          100,
+          78,
+          1686,
+          831
+        ],
+        "fitSize": [
+          118,
+          56
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.07436918990703852
+      }
+    },
+    "256": {
+      "file": "pixels/256/I168.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 13431,
+      "sha256": "aa787c4782ddec9c13f775e06bdc01ff790430d3246ad602005f2bc414406979",
+      "pixelSha256": "adebd5ee947024f22ec83dcadcd79c52a8fd82954b90c7905be15d9faa5412ac",
+      "alphaBounds": [
+        10,
+        8,
+        246,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          100,
+          78,
+          1686,
+          831
+        ],
+        "fitSize": [
+          236,
+          112
+        ],
+        "position": [
+          10,
+          8
+        ],
+        "scale": 0.14873837981407703
+      }
+    }
+  },
+  "visualReview": "issue: independent native256 review; At native256 the finger-end suction cups read as multiple gun barrels. The palm and thumb are unclear; inspecting the mother confirms the silhouette ambiguity. This weakens the gauntlet identity even though the blood-eye suction motif is present.",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "issue",
+    "contactSheet": "qa/root-independent-contact-01.png",
+    "pixelSha256": "adebd5ee947024f22ec83dcadcd79c52a8fd82954b90c7905be15d9faa5412ac",
+    "note": "At native256 the finger-end suction cups read as multiple gun barrels. The palm and thumb are unclear; inspecting the mother confirms the silhouette ambiguity. This weakens the gauntlet identity even though the blood-eye suction motif is present."
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I033",
+  "name": "弑神虫卵",
+  "status": "generated-normalized",
+  "source": "mothers/I033.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I033.png",
+  "motherSha256": "c20bf4367ab1e04478e63288e259c613f29de2aa669e894aaa98740c6fc8a3d9",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I033.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6753,
+      "sha256": "11a60f47a3028556ed4ea088b004446d1942faa8de5bb96bbfd99eaf8f9c2fa6",
+      "pixelSha256": "a9001b81b8a8ab5543a62ec99c01aafefcbcfc1f7e171e26ddc9c22acd60cbc5",
+      "alphaBounds": [
+        13,
+        4,
+        115,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          169,
+          62,
+          1134,
+          1202
+        ],
+        "fitSize": [
+          102,
+          120
+        ],
+        "position": [
+          13,
+          4
+        ],
+        "scale": 0.10526315789473684
+      }
+    },
+    "256": {
+      "file": "pixels/256/I033.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 25403,
+      "sha256": "e6e031a8591c446695a2fe07ee215b9ef7597c9341258a567337420dee37974a",
+      "pixelSha256": "ef5d45dfd4e8e277146949aa177f15562d52f41de96c02eba3e18f2d91f475e2",
+      "alphaBounds": [
+        26,
+        8,
+        229,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          169,
+          62,
+          1134,
+          1202
+        ],
+        "fitSize": [
+          203,
+          240
+        ],
+        "position": [
+          26,
+          8
+        ],
+        "scale": 0.21052631578947367
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; complete correct art brief, no unintended container or extra asset; I035 source identity remains unknown",
+  "sourceProvenance": {
+    "sourceFilename": "exec-560b44c4-bb88-41a7-bd2e-7812723afce2.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-560b44c4-bb88-41a7-bd2e-7812723afce2"
+  }
+}

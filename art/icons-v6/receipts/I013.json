@@ -1,0 +1,86 @@
+{
+  "id": "I013",
+  "name": "血舞斗篷",
+  "status": "generated-normalized",
+  "source": "mothers/I013.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I013.png",
+  "motherSha256": "6b1baf8794d72367e8cd7f34dd92674c8df6a54b90e581b5c74e4f3582e5fc60",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I013.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 8605,
+      "sha256": "2a90f70d604f6faef0f30d4dcbc4dd6cf314e0b4fd0852386021ea7b0cc2e985",
+      "pixelSha256": "5d300ee25cadc2b08b22e6d221e34ff96c6ec2b25f2f718165af81ad1e1145f9",
+      "alphaBounds": [
+        4,
+        4,
+        124,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          37,
+          22,
+          1003,
+          1505
+        ],
+        "fitSize": [
+          120,
+          184
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.12407282535401214
+      }
+    },
+    "256": {
+      "file": "pixels/256/I013.png",
+      "width": 256,
+      "height": 384,
+      "colors": 95,
+      "bytes": 30794,
+      "sha256": "24b12b143ddb99d98ab8bbff6d0870e39f5f0ebf63a280a43da7825a5f7a4326",
+      "pixelSha256": "f6c0b5fe549c54ae24f193d41cafed9a4496248d2e38dda0213fe03b60f67c64",
+      "alphaBounds": [
+        8,
+        8,
+        248,
+        376
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          37,
+          22,
+          1003,
+          1505
+        ],
+        "fitSize": [
+          240,
+          368
+        ],
+        "position": [
+          8,
+          8
+        ],
+        "scale": 0.24814565070802427
+      }
+    }
+  },
+  "visualReview": "passed: original generated subject visually inspected; correct single asset and complete silhouette; normalized PNG also viewed",
+  "sourceProvenance": {
+    "sourceFilename": "exec-2f2c0083-0ecb-415c-a425-4108f0f74274.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-2f2c0083-0ecb-415c-a425-4108f0f74274"
+  }
+}

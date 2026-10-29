@@ -1,0 +1,86 @@
+{
+  "id": "I069",
+  "name": "猩红壁垒",
+  "status": "generated-normalized",
+  "source": "mothers/I069.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I069.png",
+  "motherSha256": "77b327e8be4125675d8796877e96e6c897dbc791cc09aff5dd7cfad1ec192f6b",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I069.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5207,
+      "sha256": "93ecc33676505ec53587000f24271ee170206025566e39637bbeac1d543d22a9",
+      "pixelSha256": "f402430b0602681aae50cb4ec819d28349656180b406194bda7f3e11d9c17620",
+      "alphaBounds": [
+        19,
+        4,
+        109,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          182,
+          12,
+          1091,
+          1218
+        ],
+        "fitSize": [
+          90,
+          120
+        ],
+        "position": [
+          19,
+          4
+        ],
+        "scale": 0.09950248756218906
+      }
+    },
+    "256": {
+      "file": "pixels/256/I069.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 19449,
+      "sha256": "07feb6214dbcfaad27f26b020be4a3ed18cb81d5b16968ea136931a40c2c23b0",
+      "pixelSha256": "5dff51f62ee3ff5599302420e7960c3995bf95d5a6e2b8e1778a7932fb71e29a",
+      "alphaBounds": [
+        38,
+        8,
+        218,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          182,
+          12,
+          1091,
+          1218
+        ],
+        "fitSize": [
+          181,
+          240
+        ],
+        "position": [
+          37,
+          8
+        ],
+        "scale": 0.19900497512437812
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-89e96a74-9269-4ed2-b760-55649c63eeaf.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-89e96a74-9269-4ed2-b760-55649c63eeaf"
+  }
+}

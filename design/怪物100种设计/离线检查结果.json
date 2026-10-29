@@ -1,0 +1,198 @@
+{
+  "date": "2026-10-29",
+  "status": "offline_design_checks_passed",
+  "checks": [
+    {
+      "name": "100条稳定ID、80普通/20精英、名称唯一",
+      "pass": true,
+      "detail": "",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "20家族各4普通与1精英",
+      "pass": true,
+      "detail": "",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "实体数值仅4个已核字段，行为参数与运行状态分离",
+      "pass": true,
+      "detail": "hp/attack/heal/fortify；范围/计数属于AI参数；全部100条标未运行验证",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "外观候选均有正式源记录，未使用测试/宝箱行冒充怪物",
+      "pass": true,
+      "detail": "记录存在不等于视觉/动画已验收",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "伤害来源和类型只使用已存在枚举",
+      "pass": true,
+      "detail": "",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "变体按实际编队标签计数，远程变体不冒充前排",
+      "pass": true,
+      "detail": "射线姿态、复生射手、瞬移射手都提前占远程名额；具体字段不是数值属性",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "伤害分支来源有明确映射且沿用已有枚举",
+      "pass": true,
+      "detail": "",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "20精英父型有效，基型值未预乘，额外机制有说明",
+      "pass": true,
+      "detail": "层/波/精英各乘一次；治疗/强固不额外乘精英或波",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "行为定义有独立配置与同族差异，不以生命/伤害值区分",
+      "pass": true,
+      "detail": "这是结构检查；实际策略差异仍须逐条场景验证",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "生前周期与一次事件分支分开，重复事件不重新触发",
+      "pass": true,
+      "detail": {
+        "event_branches": 12,
+        "boundary": "仅调度定义，未执行真实死亡/复生消费者"
+      },
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "严格血量阈值、完整事件预警与同轮取消保留一次账本",
+      "pass": true,
+      "detail": "等于阈值不触发；出生当次只预警；同轮重复推进不会屏蔽取消",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "末只根怪死亡仍等待分裂/复生，终止后才可清波",
+      "pass": true,
+      "detail": "只测清波门；实际死亡、实体注册与事件账本须在运行时同一事务内更新",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "复生射手切换声明的第二形态周期",
+      "pass": true,
+      "detail": "阶段选择参考；尚未运行投射物和角色重建",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "1至100层有限且单调，F1/F2锚点不变",
+      "pass": true,
+      "detail": {
+        "1": {
+          "hp": 1.0,
+          "attack": 1.0
+        },
+        "2": {
+          "hp": 1.45,
+          "attack": 1.22
+        },
+        "5": {
+          "hp": 1.6176209015082499,
+          "attack": 1.2776564270993032
+        },
+        "10": {
+          "hp": 1.9411450818098999,
+          "attack": 1.3798689412672471
+        },
+        "20": {
+          "hp": 2.7952489178062554,
+          "attack": 1.6094791330941176
+        },
+        "50": {
+          "hp": 8.346568544586791,
+          "attack": 2.5540411096212248
+        },
+        "100": {
+          "hp": 51.67975245957619,
+          "attack": 5.5139831956235925
+        }
+      },
+      "scope": "数值算术；不等于深层平衡"
+    },
+    {
+      "name": "同基型下层开场的生命/伤害倍率低于上层第6波",
+      "pass": true,
+      "detail": "换怪种和房间后的真实压力仍需实测",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "非法层数明确拒绝，未静默钳制",
+      "pass": true,
+      "detail": "",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "全部100条在解锁后都有合法预算/占位配对",
+      "pass": true,
+      "detail": "至少有一个普通前排/第二成员配对；不证明实际空间安全",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "多层编队符合预算、实体预留、数量、精英与禁配限制",
+      "pass": true,
+      "detail": {
+        "seeds": 200,
+        "floors": [
+          1,
+          2,
+          3,
+          5,
+          8,
+          12,
+          20,
+          50,
+          100
+        ],
+        "encounters": 10800,
+        "observed_definitions": 100,
+        "unobserved_ids": []
+      },
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "波奖励按初始成员分摊守恒，后代无独立奖励",
+      "pass": true,
+      "detail": "137金币/89经验固定边界输入；实际波总额由原经济模块提供",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "确定性随机重放与保存恢复一致",
+      "pass": true,
+      "detail": "FNV-1a UTF-8 + xorshift32，独立domain，不读取玩家战力",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "强固按0.5分担而非全额护盾",
+      "pass": true,
+      "detail": "数学参考；实际消费者缺键初始化仍待接入",
+      "scope": "离线设计与参考算法"
+    },
+    {
+      "name": "CSV完整保留100条、稳定ID及一次事件分支",
+      "pass": true,
+      "detail": "",
+      "scope": "离线设计与参考算法"
+    }
+  ],
+  "checks_passed": 22,
+  "encounters_checked": 10800,
+  "elite_waves_observed": 1014,
+  "definitions_observed": 100,
+  "not_validated": [
+    "real combat ability execution",
+    "real collision and safe trajectories",
+    "native persistent save crash recovery",
+    "100 independent art assets",
+    "player fun and deep-floor balance"
+  ],
+  "data_sha256": "e0c0a91f2a5a481f603bf9af9c75cc8549875ae544bcbb71ec6556b49122599d"
+}

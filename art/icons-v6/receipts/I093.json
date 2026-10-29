@@ -1,0 +1,95 @@
+{
+  "id": "I093",
+  "name": "附魔-治愈Ⅱ",
+  "status": "generated-normalized",
+  "source": "mothers/I093.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I093.png",
+  "motherSha256": "1bf9d7671f6ce228fd576e9d49b1be1326e8b4777dc48cd31155d7f3a55b84c9",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I093.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2839,
+      "sha256": "3c5f6c1941ba43fb92585fa84c8771f208df153393d21c5621db4deed85c4fb2",
+      "pixelSha256": "16facbafcc90278109eabadea3eaa6239dc4d9700a62eed4f81e8c4c3d3b4de8",
+      "alphaBounds": [
+        8,
+        4,
+        120,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          10,
+          6,
+          1766,
+          882
+        ],
+        "fitSize": [
+          112,
+          56
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.0639269406392694
+      }
+    },
+    "256": {
+      "file": "pixels/256/I093.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10089,
+      "sha256": "e7da8dd944be1408d9f1a1f9b1b060ef01b124e54b5aaafec638c0d3eb6fc755",
+      "pixelSha256": "e2c031ab7111f3554d43581640cb7c7f44632cf5bedfef46ce3c2efcfdb1b3d5",
+      "alphaBounds": [
+        15,
+        8,
+        240,
+        119
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          10,
+          6,
+          1766,
+          882
+        ],
+        "fitSize": [
+          225,
+          112
+        ],
+        "position": [
+          15,
+          8
+        ],
+        "scale": 0.1278538812785388
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "治愈十字或强固盾形主体清晰完整；I/II通过构图区分，刻线数量未作为严格等级标记验证。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-0eea20be-fa20-4a8d-8e08-7b3a7f6aeeaf.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-0eea20be-fa20-4a8d-8e08-7b3a7f6aeeaf"
+  }
+}

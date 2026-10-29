@@ -1,0 +1,6 @@
+PAGE12 EQUIPPED DAGGER DETAIL DURING BATTLE. First tab selected. Preserve both sidebars and all their contents exactly; keep battle dimly visible in the center. Title 遗迹. Open one large central detail card using the official relic-card proportions and the master's materials. Selected dagger remains physically in left row3; central illustration is a detail view, not a second owned item.
+Exact title 淬毒利刃, status 已装备. Charge0/100 with EMPTY bar and one small enchantment mark. Exact CURRENT-INSTANCE effects in clear large lines:
+下3次攻击在3回合内造成30剧毒伤害。
+每8次剧毒伤害，施加2层易伤。
+提升20%生命上限。
+This is NOT the bronze catalogue/shop item: no15,1易伤 or30%会心. Show 战斗中仅可查看 and one large 返回战斗 button. No buy/sell price, unequip, upgrade, craft or reorder action. Remove the underlying aiming cue while detail view is open. Preserve the large top icons and exact full-width side-card alignment.

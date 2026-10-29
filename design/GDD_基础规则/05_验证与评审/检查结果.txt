@@ -1,0 +1,34 @@
+最终离线检查
+
+PASS 3000 complete six-wave plans: room, composition, budget, reward conservation and shop constraints 18000 encounters
+PASS all six templates and six enemy roles reached 
+PASS tutorial services and forced rare/Boss chest 500 seeds, both floors for chests
+PASS ordinary floor can contain zero enchant services {'seed': 25, 'run_id': 'zero-enchant-proof', 'special_kinds': [None, None, 'forge', None, 'forge', None]}
+PASS same seed/input/version produces identical plans after unrelated shop random draws 
+PASS xorshift32 public reference vector seed=1 [270369, 67634689, 2647435461, 307599695, 2398689233]
+PASS RNG save/restore repeats next result exactly 
+PASS special probability zero yields no ordinary random service 
+PASS special probability one yields a service 
+PASS XP threshold and skill points are configurable 
+PASS forge attempt cap is configurable 
+PASS chest count and pick limit read configuration 
+PASS shop shelf count reads configuration 
+PASS all configured buy/sell/merge loops have negative direct gold return This does not simulate every source item effect; money-producing items excluded
+PASS forge 3000 result transitions and failure boundaries 
+PASS death/abandon/victory settlement retention and duplicate protection in reference aggregate No real disk crash test performed
+PASS rune lifecycle configuration preserves victory and clears death/abandon 
+PASS victory to next adventure preserves row runes; later death/abandon clears them without replay resurrection Empty equipment, independent aggregates, transient reset and start/finish idempotency
+PASS Boss chest resolves before transfer and first-clear reward cannot repeat 
+PASS rune top anchor and explicit external compatibility adapter boundary Stub checks definition selection only; none of the 50 combat effects is implemented here
+PASS all 50 self-contained enchants enabled in design with effects and unresolved adapter information 18/14/9/6/3; not a runtime readiness claim
+PASS all tiers have nonzero floor1 probability and higher-tier tail probability grows by floor {1: [90.0, 9.0, 0.8999999999999999, 0.09, 0.01], 2: [85.00239069223822, 12.750358603835732, 1.9125537905753598, 0.28688306858630397, 0.047813844764384], 5: [70.12622720897616, 21.037868162692845, 6.311360448807854, 1.8934081346423561, 0.6311360448807855], 10: [47.15760793033773, 25.936684361685753, 14.265176398927165, 7.84584701940994, 4.794684289639408]}
+PASS each choice draws a tier then a distinct within-roll ID; all 50 IDs observed 2000 offer pairs at floor10 plus controlled same-tier/mixed-tier fixtures
+PASS saved offers reopen without reroll; paid rerolls are atomic, cost 10/20/40 and reset per node Insufficient gold and fourth reroll preserve wallet, offers, count and RNG; duplicates charge once
+PASS no rare pity or loadout filtering; cross-roll IDs can repeat 100 empty-equipment service sequences; initial draw plus three paid rolls
+PASS free one-time claim, explicit overwrite confirmation, three-row cap and cross-row duplicates Cancel is unchanged, paid rolls are not refunded, full board may overwrite, three legendary rows allowed
+PASS invalid rows, ID, stale offers/revisions, replacement and phase reject without mutation No wallet, node, RNG or command-ledger changes
+PASS floor scaling and Boss cycling finite to floor100, with extension label No balance or numeric-runtime precision claim beyond floor2
+PASS unsupported floor fails explicitly 
+PASS next-floor opening HP-budget proxy below previous last wave 0.3195592286501377
+
+边界：real combat damage/physics/AI；runtime item effect adapters；actual persistent save transactions/crash recovery；UI input/screenshots；blind player flow/fun；win rates or endless balance。

@@ -1,0 +1,86 @@
+{
+  "id": "I015",
+  "name": "增生触手",
+  "status": "generated-normalized",
+  "source": "mothers/I015.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I015.png",
+  "motherSha256": "9d04fad38669827c952cb4424b15f02841d3918bca50f22c02ee8a18ee02a80f",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I015.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 8487,
+      "sha256": "18d387ec32b7c2925c1ad61d5393df835bbd611b3589a8520650b3149d0914e5",
+      "pixelSha256": "d0c79ff04cf1be7717d03a3f257079aa2ac4f1d7ea6fc88a3c86394a1e00b7eb",
+      "alphaBounds": [
+        8,
+        4,
+        120,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          74,
+          33,
+          969,
+          1500
+        ],
+        "fitSize": [
+          112,
+          184
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.125426039536469
+      }
+    },
+    "256": {
+      "file": "pixels/256/I015.png",
+      "width": 256,
+      "height": 384,
+      "colors": 94,
+      "bytes": 31154,
+      "sha256": "fd4a49ac6c4632ab81ce25544a94528153c80abe13fc5c90cb4cb3ed676d62b1",
+      "pixelSha256": "2b7d8bcaeb71994d4e98329d4e509437c564274ff0c2bd0aab72b7a763901520",
+      "alphaBounds": [
+        16,
+        9,
+        239,
+        376
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          74,
+          33,
+          969,
+          1500
+        ],
+        "fitSize": [
+          225,
+          368
+        ],
+        "position": [
+          15,
+          8
+        ],
+        "scale": 0.250852079072938
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and normalized PNG viewed; single complete hooked tentacle with visible suckers",
+  "sourceProvenance": {
+    "sourceFilename": "exec-2f55eb02-3d49-4cc6-a046-e34c4d6e8bc2.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-2f55eb02-3d49-4cc6-a046-e34c4d6e8bc2"
+  }
+}

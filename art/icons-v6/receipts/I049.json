@@ -1,0 +1,86 @@
+{
+  "id": "I049",
+  "name": "精核盾",
+  "status": "generated-normalized",
+  "source": "mothers/I049.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I049.png",
+  "motherSha256": "7522f5abe673a75ade8640f44e051e9cb51eb7e05b73dab1830c21cf3fcea51e",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I049.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6097,
+      "sha256": "fee5af0e843e9f863d7f6a1230c082a50a9ec3d0558160e7691c6c0f4b0a398d",
+      "pixelSha256": "a27e902bb0c3322535453720e5e3d9f1569a74644465906f746bd5fe299ad70c",
+      "alphaBounds": [
+        4,
+        4,
+        124,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          20,
+          12,
+          1234,
+          1216
+        ],
+        "fitSize": [
+          120,
+          119
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.09884678747940692
+      }
+    },
+    "256": {
+      "file": "pixels/256/I049.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 22306,
+      "sha256": "f9dcd45135480019ab9b6ecd2eb9365b4f666c9584fb300edbd5ebac7f73c020",
+      "pixelSha256": "72a7f2b4b6a6b6a70f4428b36096e55c683091fc06c7f0996975a08092b80e19",
+      "alphaBounds": [
+        8,
+        9,
+        247,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          20,
+          12,
+          1234,
+          1216
+        ],
+        "fitSize": [
+          240,
+          238
+        ],
+        "position": [
+          8,
+          9
+        ],
+        "scale": 0.19769357495881384
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; coherent core shield / forging hammer / shield axe, clear joined functional parts",
+  "sourceProvenance": {
+    "sourceFilename": "exec-2e341517-659e-46f0-9997-9a6bf57977e3.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-2e341517-659e-46f0-9997-9a6bf57977e3"
+  }
+}

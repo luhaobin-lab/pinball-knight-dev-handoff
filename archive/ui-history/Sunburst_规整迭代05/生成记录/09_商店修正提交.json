@@ -1,0 +1,57 @@
+{
+  "input": {
+    "prompt": "Make ONE very small correction to this exact finished game screenshot. Output the same 3200x1440 complete screen. At the bottom of the CENTRAL SHOP PANEL there are three button-shaped positions. LEFT is 离开商店; RIGHT is 购买所选装备. The MIDDLE position is an empty framed rectangle with no text. REMOVE that empty middle button and its border entirely, replacing it with the plain dark background of the shop panel. This middle area must be visibly unframed negative space, not a disabled button, not another card, not a placeholder. Keep both real buttons exactly in place, with their current sizes and labels. Do not stretch the left or right buttons to fill the gap.\nEvery other pixel-level design decision is already approved for this edit: retain the header, three global tabs, resource bars, left equipment illustrations and badges, right backpack, shop title, local buy/sell tabs, stock items, bronze dagger and effect text. No new elements and no other redesign. The only change is erasing the unlabelled middle button frame. Render the complete corrected image with the same art, typography and geometry.",
+    "images": [
+      "archive/ui-history/Sunburst_规整迭代05/原始生成图/09_商店_纵向卡槽.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2be0bf5157103dedcc423\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2be0bf5157103dedcc423",
+      "raw": {
+        "id": "6ae2be0bf5157103dedcc423",
+        "object_id": "6ae2be0bf5157103dedcc423",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T11:31:23.530000+08:00",
+        "updateTime": "2026-10-29T11:31:23.556000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

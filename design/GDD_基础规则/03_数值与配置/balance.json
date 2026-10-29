@@ -1,0 +1,387 @@
+{
+  "version": "0.2.0-discussion",
+  "date": "2026-10-29",
+  "status": "新设计初始测试值；不代表Dungeonbound隐藏公式或实战平衡已验证",
+  "confirmed": {
+    "death_loses": "all_carried_items",
+    "retains": [
+      "gold",
+      "xp",
+      "level",
+      "skill_points",
+      "talents",
+      "stash",
+      "unlocked_floors"
+    ],
+    "enchant_lifetime": "until_death_or_abandon",
+    "forge_failure": "minus_one_honing_level_min_zero"
+  },
+  "hero": {
+    "source_row": "幽冥骑士",
+    "hp": 180,
+    "attack": 30,
+    "stamina": 100,
+    "corruption": 0,
+    "gold": 0,
+    "level": 1,
+    "skill_points": 0,
+    "equipment_rows": 8,
+    "bag_rows": 12,
+    "stash_rows": 40,
+    "base_cell_width": 2,
+    "base_bounce_limit": 4,
+    "base_bounce_distance": 500
+  },
+  "recovery": {
+    "after_wave_hp_fraction": 0.08,
+    "after_wave_stamina": 30,
+    "before_boss_hp_fraction": 0.15,
+    "camp_full_restore": true,
+    "turn_stamina_cost": 5,
+    "fatigue_at_zero_corruption": 2,
+    "corruption_limit": 100,
+    "corruption_limit_outcome": "death"
+  },
+  "waves": {
+    "count": 6,
+    "budget": [
+      4,
+      5,
+      6,
+      7.5,
+      9,
+      11
+    ],
+    "hp_factor": [
+      0.8,
+      0.9,
+      1,
+      1.1,
+      1.2,
+      1.32
+    ],
+    "attack_factor": [
+      0.8,
+      0.85,
+      0.92,
+      1,
+      1.08,
+      1.16
+    ],
+    "gold": [
+      12,
+      15,
+      18,
+      21,
+      25,
+      29
+    ],
+    "xp": [
+      25,
+      30,
+      35,
+      45,
+      55,
+      70
+    ],
+    "enemy_count_max": 6,
+    "ranged_max": 2,
+    "healer_max": 1,
+    "elite_probability": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0.25,
+      0.3
+    ],
+    "elite_per_floor_max": 2,
+    "elite_consecutive": false
+  },
+  "floors": {
+    "prototype_count": 2,
+    "hp_growth": 1.45,
+    "attack_growth": 1.22,
+    "reward_growth": 1.35,
+    "enemy_budget_growth": 1,
+    "elite_hp": 1.6,
+    "elite_attack": 1.2,
+    "elite_cost": 1.6,
+    "elite_reward": 1.5
+  },
+  "bosses": [
+    {
+      "id": "B01",
+      "source_visual_row": "守门人",
+      "name": "守门人·试炼形态",
+      "floor": 1,
+      "hp": 450,
+      "light_attack": 10,
+      "heavy_attack": 22,
+      "phase2_hp_fraction": 0.5,
+      "adds_cap": 2
+    },
+    {
+      "id": "B02",
+      "source_visual_row": "结晶骑士",
+      "name": "结晶骑士·试炼形态",
+      "floor": 2,
+      "hp": 680,
+      "light_attack": 13,
+      "heavy_attack": 28,
+      "phase2_hp_fraction": 0.5,
+      "adds_cap": 2
+    }
+  ],
+  "boss_rewards": {
+    "gold": 100,
+    "xp": 150,
+    "chest_choices": 3,
+    "chest_picks": 2,
+    "min_tier": 2,
+    "first_clear_bonus_gold": 40
+  },
+  "progression": {
+    "level_cap": 12,
+    "xp_threshold_base": 60,
+    "xp_threshold_growth": 1.5,
+    "points_each_level": 1,
+    "level_up_heals": false,
+    "level_up_stat_gain": false,
+    "talent_unlock_points": 1,
+    "talent_unlock_rank": 1,
+    "rank_upgrade_gold": [
+      30,
+      50,
+      80,
+      120,
+      170,
+      230,
+      300
+    ],
+    "respec": "camp_only_free_full_refund"
+  },
+  "loot": {
+    "normal_choices": 3,
+    "normal_picks": 1,
+    "elite_choices": 3,
+    "elite_picks": 2,
+    "tier_weights_floor1": [
+      [
+        86,
+        13,
+        1
+      ],
+      [
+        83,
+        15.5,
+        1.5
+      ],
+      [
+        80,
+        18,
+        2
+      ],
+      [
+        77,
+        20.5,
+        2.5
+      ],
+      [
+        74,
+        23,
+        3
+      ],
+      [
+        71,
+        25.5,
+        3.5
+      ]
+    ],
+    "tier_weights_floor2": [
+      [
+        64,
+        31,
+        5
+      ],
+      [
+        61,
+        33,
+        6
+      ],
+      [
+        58,
+        35,
+        7
+      ],
+      [
+        55,
+        37,
+        8
+      ],
+      [
+        52,
+        39,
+        9
+      ],
+      [
+        49,
+        41,
+        10
+      ]
+    ],
+    "pity_low_chests": 3,
+    "pity_min_tier": 2,
+    "first_chest_guaranteed_weapon": true,
+    "category_weights": {
+      "weapon": 40,
+      "defense": 25,
+      "support": 20,
+      "consumable": 15
+    },
+    "luck_cap": 0.5,
+    "choice_identity_unique": true,
+    "tier_scalar": [
+      1,
+      1.22,
+      1.48
+    ]
+  },
+  "shop": {
+    "equipment_offers": 4,
+    "consumable_offers": 2,
+    "refresh_limit": 2,
+    "refresh_cost": [
+      8,
+      14
+    ],
+    "tier_price_factor": [
+      1,
+      1.7,
+      2.8
+    ],
+    "sale_fraction": 0.3,
+    "discount_cap": 0.2,
+    "sells_to_camp": true,
+    "refresh_excludes_consumables": true,
+    "heal_service_price": 10,
+    "heal_service_fraction": 0.25,
+    "heal_service_limit": 1,
+    "free_refresh": false,
+    "buyback": false
+  },
+  "forge": {
+    "max_honing": 3,
+    "success_chance": [
+      0.85,
+      0.65,
+      0.45
+    ],
+    "cost": [
+      12,
+      24,
+      40
+    ],
+    "magnitude_per_rank": 0.15,
+    "failure_rank_delta": -1,
+    "failure_floor": 0,
+    "attempts_per_visit": 3,
+    "sale_bonus": 0,
+    "pity": false
+  },
+  "merge": {
+    "enabled": true,
+    "requires": "same_definition_and_tier",
+    "tier_cap": 3,
+    "cost_per_input_tier": 10,
+    "result_honing": "max_of_inputs",
+    "reset_charge_progress": true,
+    "consumables_allowed": false
+  },
+  "special": {
+    "base_probability": 0.5,
+    "maximum_misses": 2,
+    "kind_weights": {
+      "forge": 1,
+      "enchant": 1
+    },
+    "repeated_kind_limit": 2,
+    "service_choice": false,
+    "w6_is_eligible": true
+  },
+  "enchant": {
+    "rule_revision": "enchant50-v1",
+    "catalog_file": "enchants.json",
+    "enabled_count": 50,
+    "status": "全部50种设计启用；战斗效果均待适配与运行验证，参考算法只覆盖抽选和交易",
+    "slot_unit": "whole_row",
+    "activation": "item_top_anchor_row_only",
+    "offered_choices": 2,
+    "price": 0,
+    "claims_per_visit": 1,
+    "refresh_limit": 3,
+    "refresh_costs": [
+      10,
+      20,
+      40
+    ],
+    "refresh_cost_status": "首轮可调测试值；每次翻倍；每节点独立计数",
+    "tier_base_weights": [
+      9000,
+      900,
+      90,
+      9,
+      1
+    ],
+    "floor_factor_growth": 0.5,
+    "tier_weight_rule": "base_weight * floor_factor ** tier_index",
+    "tier_weight_status": "首轮可调测试公式；按层，不叠波次、幸运、战力；第三层后不代表游戏平衡已验证",
+    "draw_rule": "each_choice_draws_tier_then_uniform_remaining_id",
+    "same_roll_unique_ids": true,
+    "cross_roll_repeats": true,
+    "cross_node_repeats": true,
+    "rarity_pity": false,
+    "loadout_filter": false,
+    "enchanted_rows_max": 3,
+    "replace_allowed": true,
+    "replace_requires_confirmation": true,
+    "duplicate_ids_across_rows": true,
+    "cross_row_rarity_limit": null,
+    "refresh_after_claim": false,
+    "cancel_replacement_consumes_claim": false,
+    "paid_refreshes_refundable": false,
+    "lifetime": "until_death_or_abandon",
+    "outcome_rules": {
+      "victory": "preserve_rows",
+      "death": "clear_rows",
+      "abandon": "clear_rows"
+    },
+    "legacy_rune_id_policy": "旧R_*无对应迁移表时拒绝解释，不猜测映射为E001-E050"
+  },
+  "rng": {
+    "algorithm": "xorshift32",
+    "seed_hash": "FNV-1a UTF-8",
+    "domains": [
+      "layout",
+      "encounter",
+      "elite",
+      "loot",
+      "shop",
+      "special",
+      "forge",
+      "combat",
+      "enchant_offer"
+    ],
+    "save_states": true,
+    "restore_never_rerolls": true,
+    "content_version_in_seed": true
+  },
+  "endless": {
+    "enabled_in_prototype": false,
+    "formula_extension_tested_to_floor": 100,
+    "theme_cycle": 2,
+    "boss_wave": 7,
+    "tier_cap_in_prototype": 3,
+    "growth_problem": "有限装备和天赋上限下不能保证任意深度可通关；无尽指持续生成，不指难度已平衡"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "version": "monster100-v1",
+  "date": "2026-10-29",
+  "status": "新设计测试配置；静态与生成检查不等于战斗、操作或平衡验证",
+  "catalog_counts": {
+    "normal": 80,
+    "elite": 20,
+    "families": 20,
+    "ordinary_variants_per_family": 4
+  },
+  "scope": "扩展普通/精英怪物设计。Boss保留原独立模块，不计入100；不改角色成长、装备附魔、商店和永久资产规则。",
+  "growth": {
+    "floor1_hp": 1.0,
+    "floor1_attack": 1.0,
+    "floor2_hp": 1.45,
+    "floor2_attack": 1.22,
+    "floors_per_growth_step": 5,
+    "hp_growth_per_step": 1.2,
+    "attack_growth_per_step": 1.08,
+    "formula_hp": "F=1用1；F>=2用1.45*1.20^((F-2)/5)",
+    "formula_attack": "F=1用1；F>=2用1.22*1.08^((F-2)/5)",
+    "support_growth": "治疗和强固随HP层倍率，不再乘波倍率或精英倍率；防御比例、移动范围、次数不随层无界增加",
+    "rounding": "非负数floor(x+0.5)。每个实体属性合并层/波/精英乘因子后取整一次；主动作参考伤害再用已取整基础伤害乘动作倍率并取整一次。零治疗/强固保持零。",
+    "reference_floor_limit": 100,
+    "beyond_reference": "公式不设玩法层数封顶；101层以后须经科学数与精度适配、内容和经济验证再开放，离线参考明确拒绝超范围输入，不静默钳制",
+    "balance_boundary": "前两层沿用原层倍率锚点；第3层起替换旧1.45/1.22逐层指数为较慢冲层曲线。玩家成长有限，仍有最终冲层上限风险，不承诺无限可通关。"
+  },
+  "waves": {
+    "count": 6,
+    "budget": [
+      4,
+      5,
+      6,
+      7.5,
+      9,
+      11
+    ],
+    "hp_factor": [
+      0.8,
+      0.9,
+      1.0,
+      1.1,
+      1.2,
+      1.32
+    ],
+    "attack_factor": [
+      0.8,
+      0.85,
+      0.92,
+      1.0,
+      1.08,
+      1.16
+    ],
+    "elite_probability": [
+      0,
+      0,
+      0.1,
+      0.2,
+      0.25,
+      0.3
+    ]
+  },
+  "elite": {
+    "hp_factor": 1.6,
+    "attack_factor": 1.2,
+    "cost_factor": 1.6,
+    "extra_mechanisms": 1,
+    "per_wave_max": 1,
+    "per_floor_max": 2,
+    "consecutive_waves": false,
+    "random_extra_affixes": false,
+    "ratio_note": "80:20是内容条数，不是每波出怪比例；精英仍按波概率、预算与排布限制抽取。"
+  },
+  "generation": {
+    "actor_slots_max": 6,
+    "initial_member_contract": "固定至少2个初始成员，其中至少一名前排（可为精英）；否则内容配置报错",
+    "same_definition_per_wave_max": 1,
+    "same_family_per_wave_max": 2,
+    "ranged_damage_sources_max": 2,
+    "heavy_max": 1,
+    "controller_max": 1,
+    "first_wave_family_whitelist": [
+      "F01"
+    ],
+    "theme_order": [
+      "血肉",
+      "结晶",
+      "幽魂"
+    ],
+    "theme_block_floors": 3,
+    "theme_match_weight": 1.6,
+    "other_theme_weight": 1.0,
+    "family_base_weight": 100,
+    "repeat_previous_wave_id_weight": 0.5,
+    "forbidden_family_pairs": [
+      [
+        "F11",
+        "F14"
+      ],
+      [
+        "F11",
+        "F15"
+      ],
+      [
+        "F11",
+        "F16"
+      ],
+      [
+        "F18",
+        "F08"
+      ],
+      [
+        "F18",
+        "F19"
+      ]
+    ],
+    "combined_family_caps": [
+      {
+        "families": [
+          "F11",
+          "F12",
+          "F13"
+        ],
+        "max": 1
+      },
+      {
+        "families": [
+          "F14",
+          "F15",
+          "F16"
+        ],
+        "max": 1
+      },
+      {
+        "families": [
+          "F08",
+          "F18",
+          "F19"
+        ],
+        "max": 1
+      }
+    ],
+    "reserved_entity_slots": "成员的实体占位=1+附属实体预留数。卵、幼体、分裂体、可拆障碍、复生残骸都预留；预留是保守的同时占位上界，预算包含其贡献，不额外塞免费强度。",
+    "allocation_order": "先过滤层/波，再抽精英请求；枚举可与另一普通成员组成至少2人且含至少一名前排（可为精英）、满足预算/预留/家族互斥的精英候选；补齐成员与前排后，再按主题/重复修正逐只填充。",
+    "failed_elite_request": "若合法精英池为空则记录无候选并按普通编队生成，不暗加精英、不额外花预算。当前100库需验证各可出精英有非零可达机会。",
+    "unused_budget": "剩余预算无法满足限制时停止，不额外加HP或伤害；未花满预算不减少既定波奖励。",
+    "spatial_gate": "出生间隔、掩体通路和预告共同安全区由真实碰撞/发射引擎验收。配置生成通过只证明预算/标签/计数约束，不证明路线可解。",
+    "retries": 20,
+    "fallback_ids": [
+      "MON_N001",
+      "MON_N002"
+    ],
+    "fallback_note": "空间生成最多20次失败后，回退开阔房与两个合法基础前排；记录原因、保留原波奖励。",
+    "tag_classification": "使用每条定义的generation_tags计前排、远程伤害、重击和控制，不以家族替代实际行为。N038射线姿态、N064复生射手、N066瞬移射手提前计入远程，不能充当前排。"
+  },
+  "combat": {
+    "room_tile_world_units": 256,
+    "maximum_damage_actions_per_enemy_phase": 1,
+    "same_action_multiple_hit_policy": "同一怪同一动作对同一英雄只结算一次；重叠图形取最大单次伤害，不能叠成多段；保留真实来源ID。",
+    "warning_window": "危险攻击/区域至少留一个完整玩家回合；死亡危险区在下一次发射前只预警，不在击杀当次立即伤害。",
+    "event_turn_clock": "死亡/阈值事件保存born_player_turn。触发当次尚在进行的玩家回合不算完整预警；N回合致死，1回合预警最早在N+1敌方阶段执行，2回合最早N+2。每个敌方阶段只推进一次，重载/重复tick不得快进。",
+    "basic_pursuit": "F01的move_melee在玩家输入开放前锁定并显示具体世界路径、动作分支、终点和攻击区域；敌方响应只能执行该计划，不读取玩家发射后停点重新追击。按条目固定先击后移、先移后击或无伤后撤。攻击须同时处于已锁区域和角色当前真实可达范围；路径被挡则截断并取消到不了的攻击，不挪圈、不远程伤害旧终点。源被位移按origin_geometry_lock取消，不能把可达包络当作动态追瞄授权。",
+    "target_loss": "按实体ID锁定的目标失效时，取消该目标行为并恢复，不临时换未预告新目标。明确声明固定区域模式的N042/N046在执行时筛选仍在已锁世界区域内的合法同伴；最初圈心候选死亡不平移区域，也不必取消区域内其他合法目标。判断以条目target_rule为准，不能混用ID锁定与区域筛选。",
+    "origin_geometry_lock": "锁定射线、冲锋、重击、牵引等时保存真实起点、方向和世界几何。执行前若源演员被实际碰撞移离起点超过1世界单位，取消该次伤害/牵引并进入恢复，不从新位置偷偷重算危险区；纯表现抖动不改物理位置。普通追击仍不得超出已显示包络。1单位是实现容差，不是怪物属性。",
+    "origin_geometry_balance_test": "真实测试基础碰撞推移量与预告攻击被取消比例；不能把长期碰撞压制导致怪物始终空过误判为难度合格。不得新增未定义韧性属性补救。",
+    "fortify_absorption_fraction": 0.5,
+    "fortify_initialization": "显式创建既有加算词条强固减伤%=0.5；原敌人缺键，不能用忽略缺键的添加函数假装成功。此值借用源英雄合法值，是项目适配。",
+    "new_mode_base_modifiers": {
+      "暴击率%": 0,
+      "额外伤害%": 0,
+      "伤害减免%": 0,
+      "治愈效果%": 0,
+      "强固效果%": 0,
+      "投射伤害%": 0,
+      "持续伤害%": 0
+    },
+    "modifier_initialization_note": "这些都是已证实的既有词条，作为新模式起始来源置0，防止从原敌人偷偷继承未计入本表的暴击/增伤。号令、防御姿态等再按来源ID添加临时修饰并在到期移除。表内动作伤害仅为无临时增益、目标减伤前的参考值，非实战上限。",
+    "fortify_damage_rule": "在原消费者包含护甲分支，强固消耗=min(当前强固,已算入减伤等的伤害*0.5)，生命损失=伤害-强固消耗。穿透护甲等仍服从原伤害数据。",
+    "general_damage_reduction_cap": 0.75,
+    "reduction_cap_source": "本项目GDD约束，必须在新模式适配层实现，不能声称core已有clamp",
+    "forbidden_new_stats": [
+      "魔法抗性",
+      "火抗",
+      "冰抗",
+      "酸抗",
+      "韧性",
+      "破甲值",
+      "命中率",
+      "仇恨值",
+      "护盾能量",
+      "召唤能量",
+      "精英能量"
+    ],
+    "descendant_rewards": "召唤、分裂、复生和残骸无独立金币、经验、物品或材料；根成员奖励事件ID只结算一次。",
+    "reward_accounting": "使用原波级金币/经验总额，按初始成员有效预算成本分摊；不为100怪编独立定额掉落。击杀入pending后随回合/死亡批次提交。",
+    "source_scaling_override": "新怪物与后代禁用原敌人层成长、随机普通/精英技能和源首领标签，使用本表层参数；Boss仍独立，不加通用精英倍率。",
+    "damage_source_mapping": "damage_source是主动作默认；damage_source_by_action列出具体分支覆盖。fallback_melee只说明已声明回退近战的来源，不凭空赋予没有该行为的怪物。复生射手生前攻击、复生后投射物。",
+    "wave_clear_gate": "清波必须同时满足：没有存活敌对实体、没有可能生成敌对实体的待执行分裂/孵化/复生分支或卵/残骸。根怪致死时先在同一事务登记pending事件再从活体移除，不能在两步间结算胜利。分支完成并注册子体、被取消、残骸/卵被毁或无合法落点而终止后，才移除对应pending。每次更新后重新检查；不能为等事件生成一个无血条的假敌人。"
+  },
+  "rng": {
+    "seed_hash": "FNV-1a UTF-8",
+    "algorithm": "xorshift32",
+    "domains": [
+      "monster100_elite",
+      "monster100_composition",
+      "monster100_spawn"
+    ],
+    "key": "version|seed|runId|floor|wave|domain|index",
+    "integer_selection": "拒绝采样，无简单取模偏差",
+    "reload": "生成后保存成员、生成参数与随机状态；重载不重抽，商店和附魔随机不消耗本域"
+  }
+}

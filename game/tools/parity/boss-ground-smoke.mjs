@@ -1,0 +1,35 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+import {ROOT,buildCheckout,serve,launchChrome,runTool,watchPage,waitReady} from '../lib/harness.mjs';
+const out=process.argv.includes('--out')?path.resolve(process.argv[process.argv.indexOf('--out')+1]):'D:/TAPTAPGAME_codex/studio/shots/parity-boss-runtime-committed';fs.mkdirSync(out,{recursive:true});
+const report={head:execFileSync('git',['rev-parse','HEAD'],{cwd:ROOT,encoding:'utf8'}).trim(),diff:execFileSync('git',['diff','--stat'],{cwd:ROOT,encoding:'utf8'}),scope:'Controlled source boundary in real ordinary-route room: real boot/first-room then spawned source boss and direct skill selection. Not natural boss traversal.',errors:[],shots:[],cleanup:false};
+try{await runTool(async cleanup=>{
+ const dist=await buildCheckout();report.build=dist;const js=fs.readdirSync(path.join(dist,'assets')).find(x=>x.endsWith('.js'));report.bundleSha256=createHash('sha256').update(fs.readFileSync(path.join(dist,'assets',js))).digest('hex');
+ const server=await serve(dist);cleanup(server.close);const {browser,gpu}=await launchChrome();report.gpu=gpu;cleanup(()=>browser.close());
+ const context=await browser.newContext({viewport:{width:1920,height:1080}});cleanup(()=>context.close());const page=await context.newPage();watchPage(page,report.errors,'boss-boundary');
+ await page.addInitScript(()=>{let q=new Map(),id=1,t=0;window.requestAnimationFrame=fn=>{q.set(id,fn);return id++;};window.cancelAnimationFrame=id=>q.delete(id);window.__frame=(n=1)=>{for(let i=0;i<n;i++){t+=1000/60;const a=q;q=new Map();for(const fn of a.values())fn(t);}};});
+ await page.goto(server.url+'?inspect=1&seed=3');await waitReady(page,30000);
+ report.boot=await page.evaluate(()=>{const s=window.__shell,g=s.game;g.runUntilInput();g.send({type:'title.newRun'});g.runUntilInput();g.send({type:'hero.start'});g.runUntilInput();const v=g.view,map=v.map.cells.find(c=>c.enterable);g.send({type:'map.enter',cell:map.id});g.runUntilInput();window.__frame(90);return{screen:g.view.screen,phase:g.view.phase};});
+ if(report.boot.screen!=='room')throw Error('ordinary first room failed');
+ report.fixture=await page.evaluate(()=>{const s=window.__shell,g=s.game,w=g.world,m=w.mode;
+  for(const a of [...m.场上所有])if(a){w.destroy(a);}m.场上所有=[];m.敌方场上=[];m.中立场上=[];w.modal.close();
+  const boss=w.sys.turn.函数库_技能.召唤角色到场上(m,m,'CatapultHero/数据表/角色/数据表_敌人_普通','守门人',{x:180,y:0,z:117},true,false,true).召唤出来的;
+  m.添加到战场(boss);boss.被揭示();boss.K2_SetActorLocation({x:180,y:0,z:117});boss.开启碰撞();boss.更新运动数据();
+  for(const h of boss.角色配置.固定技能)if(!boss.拥有的主动能力.some(a=>a?.能力名===h.RowName)&&!boss.拥有的被动能力.some(a=>a?.能力名===h.RowName))boss.添加技能(h,1,0);
+  m.玩家角色.K2_SetActorLocation({x:-230,y:0,z:56});m.玩家角色.更新运动数据();m.当前环节='进行战斗';
+  window.__boss=boss;window.__hammer=boss.拥有的主动能力.find(a=>a.能力名==='首领_守门人_重锤');boss.当前能力=window.__hammer;window.__hammer.被选中();
+  return{boss:boss.id,skills:boss.拥有的主动能力.map(s=>s.能力名)};
+ });
+ const snap=async(name,n)=>{await page.evaluate(n=>window.__frame(n),n);await page.waitForTimeout(100);const file=path.join(out,name+'.png');await page.screenshot({path:file});const state=await page.evaluate(()=>{const s=window.__shell,v=s.game.view;return{time:v.time,terrain:v.terrain,stage:s.controller.stage?.terrainStage.group.userData,hero:v.hero?.position,fields:v.field.map(a=>({row:a.row,position:a.position}))};});report.shots.push({name,file,state});};
+ await snap('hammer-warning',95);
+ await page.evaluate(()=>{const s=window.__shell,w=s.game.world,group=window.__hammer.地形管理组;w.mode.当前环节='回合开始';for(const c of group.拥有的地形){c.持续效果();c.销毁效果();}});
+ await snap('hammer-eruption',15);await snap('hammer-settled',90);
+ await page.evaluate(()=>{const b=window.__boss;b.技能指示?.关闭指示('地形区域（固定）');const s=b.拥有的主动能力.find(a=>a.能力名==='首领_守门人二阶_撕咬搜寻');b.当前能力=s;s.被选中();});
+ await snap('leap-target',1);
+ await page.evaluate(()=>{const s=window.__shell,w=s.game.world,b=window.__boss;b.技能指示?.关闭指示('指定位置（固定）');s.frame(0);const cfg={...window.__hammer.地形选取,选取方式:'选取范围地形格（矩形）',起始范围:1,结束范围:1};const p=w.sys.ability.previewTerrain(w,cfg,{x:-64,y:140,z:0});s.controller.stage.setSkillPreview({origin:w.mode.玩家角色.当前位置,end:{x:-64,y:140,z:0},radius:64,row:'source-boundary',terrain:p.cells,indicatorType:4});s.o.renderer.render(0);});
+ const preview=path.join(out,'type4-preview.png');await page.screenshot({path:preview});report.shots.push({name:'type4-preview',file:preview,scope:'pure preview geometry only; no runtime terrain spawned'});
+ });report.cleanup=true;
+}catch(e){report.failure=e.stack??String(e);report.cleanup=true;process.exitCode=1;}
+fs.writeFileSync(path.join(out,'browser.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({out,shots:report.shots.length,errors:report.errors,failure:report.failure,cleanup:report.cleanup}));

@@ -1,0 +1,93 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "name": "100 initial rows",
+      "pass": true
+    },
+    {
+      "name": "20 elite rows",
+      "pass": true
+    },
+    {
+      "name": "one elite per family",
+      "pass": true
+    },
+    {
+      "name": "mechanism expanded",
+      "pass": true
+    },
+    {
+      "name": "once-only event shown",
+      "pass": true
+    },
+    {
+      "name": "stable ID search",
+      "pass": true
+    },
+    {
+      "name": "F2 W6 projection",
+      "pass": true
+    },
+    {
+      "name": "invalid floor rejected",
+      "pass": true
+    },
+    {
+      "name": "first wave only two initial definitions",
+      "pass": true
+    },
+    {
+      "name": "no page overflow at desktop/tablet/phone",
+      "pass": true
+    },
+    {
+      "name": "local link 怪物100种_设计总表.xlsx",
+      "pass": true
+    },
+    {
+      "name": "local link 怪物100种_完整表.csv",
+      "pass": true
+    },
+    {
+      "name": "local link 怪物100种_数据.json",
+      "pass": true
+    },
+    {
+      "name": "local link 怪物层级与生成规则.json",
+      "pass": true
+    },
+    {
+      "name": "local link 怪物算法参考.py",
+      "pass": true
+    },
+    {
+      "name": "local link 字段与能力依据.json",
+      "pass": true
+    },
+    {
+      "name": "local link 离线检查结果.json",
+      "pass": true
+    },
+    {
+      "name": "no browser script errors",
+      "pass": true
+    }
+  ],
+  "dimensions": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 800,
+      "scrollWidth": 800
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390
+    }
+  ],
+  "errors": [],
+  "scope": "Offline document browsing only; no game execution or gameplay QA"
+}

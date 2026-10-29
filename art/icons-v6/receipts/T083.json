@@ -1,0 +1,93 @@
+{
+  "id": "T083",
+  "name": "毒性加速",
+  "status": "generated-normalized",
+  "source": "mothers/T083.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T083.png",
+  "motherSha256": "d053ec79e0afe8b06e2d74c0b04dd3988b76ab800741779d6da2a4a67ddc1c4f",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T083.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5776,
+      "sha256": "f15d97c66dc57f28c6d7e36d4591afcfa76cfa28d952f92959c0ffec21f4c43e",
+      "pixelSha256": "1789eed005930575f5c921f0d600394abd358d35d03d041b12da153604961a0f",
+      "alphaBounds": [
+        4,
+        12,
+        124,
+        116
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          27,
+          109,
+          1235,
+          1156
+        ],
+        "fitSize": [
+          120,
+          104
+        ],
+        "position": [
+          4,
+          12
+        ],
+        "scale": 0.09933774834437085
+      }
+    },
+    "256": {
+      "file": "pixels/256/T083.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 20989,
+      "sha256": "96f9e0c285283ece9ba3d1ae1aecd9ebbdd0a92ea82c015931b5f410f3f52f2b",
+      "pixelSha256": "49103e11394e6783791cc5939fcd46c89ec58890e7dc610b840e683006aa3318",
+      "alphaBounds": [
+        8,
+        24,
+        248,
+        232
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          27,
+          109,
+          1235,
+          1156
+        ],
+        "fitSize": [
+          240,
+          208
+        ],
+        "position": [
+          8,
+          24
+        ],
+        "scale": 0.1986754966887417
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-03.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-03.png",
+    "pixelSha256": "49103e11394e6783791cc5939fcd46c89ec58890e7dc610b840e683006aa3318",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-dc5c6dc7-a31d-467a-a216-8117dee2339e.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-dc5c6dc7-a31d-467a-a216-8117dee2339e"
+  }
+}

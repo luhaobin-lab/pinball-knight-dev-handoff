@@ -1,0 +1,86 @@
+{
+  "id": "I056",
+  "name": "激素腰带",
+  "status": "generated-normalized",
+  "source": "mothers/I056.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I056.png",
+  "motherSha256": "3f0862b8929277ad31d6a498c669d5cd01ed05aa12179495bdb3c2fbb7688674",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I056.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6514,
+      "sha256": "bdbea0a6d225e16f87f2e9cedc7ccfe8074dd8aa8e0cd38f8a75d7e2199a0a2e",
+      "pixelSha256": "08ec6b6761b693b48511df718bf6df440530f0a078398b87cffce2acaf1011b1",
+      "alphaBounds": [
+        4,
+        13,
+        124,
+        114
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          41,
+          144,
+          1225,
+          1144
+        ],
+        "fitSize": [
+          120,
+          101
+        ],
+        "position": [
+          4,
+          13
+        ],
+        "scale": 0.10135135135135136
+      }
+    },
+    "256": {
+      "file": "pixels/256/I056.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 24451,
+      "sha256": "afca707400a6badc5c2a835f71f92e820aa2a9254f6f38faf0e1e61f3d552e56",
+      "pixelSha256": "754493d1c0eea7deffb071c2e54aa5eb7668e00bbff9bd619cb05a30116eb856",
+      "alphaBounds": [
+        8,
+        26,
+        248,
+        229
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          41,
+          144,
+          1225,
+          1144
+        ],
+        "fitSize": [
+          240,
+          203
+        ],
+        "position": [
+          8,
+          26
+        ],
+        "scale": 0.20270270270270271
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; complete mining tool / vial belt / hand-cranked grindstone with coherent joins",
+  "sourceProvenance": {
+    "sourceFilename": "exec-4cc8a47a-88ad-4576-8add-e21b1fe3872a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-4cc8a47a-88ad-4576-8add-e21b1fe3872a"
+  }
+}

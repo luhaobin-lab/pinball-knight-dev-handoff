@@ -1,0 +1,50 @@
+本轮：保留第六轮已认可布局，重绘表面画法（2026-10-29）
+
+生成方式
+全部界面由 Mivo 的 gpt-image-2.5-sunburst 整图生成/编辑，quality=max，3200×1440。交付原图是生成文件的原字节复制；没有用代码绘制UI，没有后期拼贴字、框、物品。目视缩小图仅供检查。
+
+阅读顺序
+交付原图/01_战斗.png
+交付原图/04_营地.png
+交付原图/09_商店.png
+提示词/：实际提交提示词。
+研究/：一手来源、原文方法、项目应用与证据边界。
+生成记录/：模型、输入图片和jobId。
+交付清单.json：最终选图、尺寸、SHA-256和静态复核范围。
+
+研究实际影响的三件事
+1. 先组织大明暗与物体体积，再放细节。针对上一轮的随机碎点、统一湿亮感，重新整理石面、玻璃、金属和布料。
+Derek Yu，PIXEL ART: COMMON MISTAKES
+https://www.derekyu.com/makegames/pixelart2.html
+
+2. 细节形成有方向的像素色块；边缘随形体变化，不把噪点平均撒满全图。
+Saint11 / Pedro Medeiros，Cluster Sketching and Painting
+https://saint11.art/pixel_art_articles/article2/
+Saint11 / Pedro Medeiros，Basic Shading
+https://saint11.art/pixel_art_articles/article4/
+
+3. 把明确缺陷作为局部修整目标，反复对照原稿；保持同一媒介，减少无关风格词。
+Adobe设计师实际工作流
+https://adobe.design/ideas/ask-adobe-design-how-are-you-using-adobe-firefly
+Adobe / Jesús Ramirez海报修图课
+https://www.adobe.com/learn/photoshop/web/retouching-composite-movie-poster
+Invoke官方提示词指南
+https://invoke.ai/concepts/prompting-guide/
+
+这些来源提供绘制和修整方法，不是针对本项目的“去AI味”受控实验。具体采用暗铁框、降低前景装饰对比等，是本轮设计判断。
+
+本轮选择过程
+首稿只变得更清楚，旧亮框、碎点和前景失焦仍在，未作为交付母版。
+第二次定向重绘明确替换框体表面、地面碎点和模糊前景后，才扩展营地/商店。
+战斗边缘额外收细；营地针对旧银亮框另做局部统一。
+
+静态内容检查
+保留三全局页签；生命180/180，体力100/100，腐化0/100空条，金币4。
+装备角标：凝血毒剂8/1；灵魂香菇仅回收4；淬毒利刃30/2，空充能0/100，单个附魔标记。
+背包与装备为相同的整宽纵向单列卡槽；背包三个空槽及底部锁槽。
+营地三个楼层状态和三个底部按钮；商店三个商品、青铜利刃效果和两个底部按钮，无新增价格。
+
+边界
+这是视觉候选原图。页签、资源和主要内容经静态目视复核；没有做真实触控或新用户测试。生成模型保留了整体布局关系，但不应将“保留布局”理解为精确到每像素的生产组件。
+本轮已减少连续亮边、均匀碎纹理和摄影式前景失焦；物品图像仍比部分场景柔滑，绘制语言尚未完全统一。不能据此声称已达到顶级游戏品质或完全消除AI感。
+

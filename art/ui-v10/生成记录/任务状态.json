@@ -1,0 +1,315 @@
+{
+  "phase": "delivered_12_static_images",
+  "jobs": {
+    "10": {
+      "id": "10",
+      "name": "商店_出售详情",
+      "jobId": "6ae2f387f5157103dedccb75",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f509f5157103dedccbea"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/10_商店_出售详情.png"
+    },
+    "11": {
+      "id": "11",
+      "name": "战利品_宝箱领取",
+      "jobId": "6ae2f23e87ada5af0ddcaee1",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f3b687ada5af0ddcaef7"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/11_战利品_宝箱领取_修正.png",
+      "initial": {
+        "id": "11",
+        "name": "战利品_宝箱领取",
+        "jobId": "6ae2ef737a23e72106dcbef0",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2f0f57a23e72106dcbf3a"
+        ],
+        "message": "",
+        "path": "art/ui-v10/原始生成图/11_战利品_宝箱领取.png"
+      },
+      "reason": "清除右下遮挡"
+    },
+    "12": {
+      "id": "12",
+      "name": "战斗_装备详情",
+      "jobId": "6ae2f243f5157103dedccb34",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f3c2f5157103dedccba1"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/12_战斗_装备详情_修正.png",
+      "initial": {
+        "id": "12",
+        "name": "战斗_装备详情",
+        "jobId": "6ae2ef76f5157103dedcca7b",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2f0fbf5157103dedccaf0"
+        ],
+        "message": "",
+        "path": "art/ui-v10/原始生成图/12_战斗_装备详情.png"
+      },
+      "reason": "去遮挡与恢复本项目背景"
+    },
+    "01": {
+      "id": "01",
+      "name": "战斗_装备栏位",
+      "jobId": "6ae2ee9187ada5af0ddcaeaa",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f00887ada5af0ddcaebe"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/01_战斗_装备栏位_去遮挡.png",
+      "initial": {
+        "id": "01",
+        "name": "战斗_装备栏位",
+        "jobId": "6ae2ec2787ada5af0ddcae95",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2edae87ada5af0ddcaea1"
+        ],
+        "message": "",
+        "path": "art/ui-v10/原始生成图/01_战斗_装备栏位.png"
+      }
+    },
+    "02": {
+      "id": "02",
+      "name": "战斗_英雄属性与天赋",
+      "jobId": "6ae2f226f5157103dedccb22",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f292f5157103dedccb42"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/02_战斗_英雄属性与天赋_修正.png",
+      "initial": {
+        "id": "02",
+        "name": "战斗_英雄属性与天赋",
+        "jobId": "6ae2ef5a7a23e72106dcbee7",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2f0d97a23e72106dcbf38"
+        ],
+        "message": "",
+        "path": "art/ui-v10/原始生成图/02_战斗_英雄属性与天赋.png"
+      },
+      "reason": "恢复宽属性页"
+    },
+    "03": {
+      "id": "03",
+      "name": "战斗_装备图鉴",
+      "jobId": "6ae2f22bf5157103dedccb24",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f305f5157103dedccb59"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/03_战斗_装备图鉴_修正.png",
+      "initial": {
+        "id": "03",
+        "name": "战斗_装备图鉴",
+        "jobId": "6ae2ef60f5157103dedcca6c",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2f0e2f5157103dedccae7"
+        ],
+        "message": "",
+        "path": "art/ui-v10/原始生成图/03_战斗_装备图鉴.png"
+      },
+      "reason": "清除右下遮挡"
+    },
+    "04": {
+      "id": "04",
+      "name": "营地_冒险准备",
+      "jobId": "6ae2f230f5157103dedccb26",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f3aaf5157103dedccb89"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/04_营地_冒险准备_修正.png",
+      "initial": {
+        "id": "04",
+        "name": "营地_冒险准备",
+        "jobId": "6ae2ef667a23e72106dcbeec",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2f0e77a23e72106dcbf39"
+        ],
+        "message": "",
+        "path": "art/ui-v10/原始生成图/04_营地_冒险准备.png"
+      },
+      "reason": "清除右下遮挡"
+    },
+    "08": {
+      "id": "08",
+      "name": "营地_地牢选择",
+      "jobId": "6ae2f236f5157103dedccb2a",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f29cf5157103dedccb44"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/08_营地_地牢选择_修正.png",
+      "initial": {
+        "id": "08",
+        "name": "营地_地牢选择",
+        "jobId": "6ae2ef6987ada5af0ddcaeb1",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2eff587ada5af0ddcaebd"
+        ],
+        "message": "",
+        "path": "art/ui-v10/原始生成图/08_营地_地牢选择.png"
+      },
+      "reason": "清除右下遮挡"
+    },
+    "09": {
+      "id": "09",
+      "name": "商店_购买详情",
+      "jobId": "6ae2f23bf5157103dedccb2e",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f29ff5157103dedccb45"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/09_商店_购买详情_修正.png",
+      "initial": {
+        "id": "09",
+        "name": "商店_购买详情",
+        "jobId": "6ae2ef6e87ada5af0ddcaeb3",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2f0ef87ada5af0ddcaed1"
+        ],
+        "message": "",
+        "path": "art/ui-v10/原始生成图/09_商店_购买详情.png"
+      },
+      "reason": "清除右下遮挡"
+    },
+    "05": {
+      "id": "05",
+      "name": "营地_天赋解锁",
+      "jobId": "6ae2f379f5157103dedccb6e",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f4f5f5157103dedccbe5"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/05_营地_天赋解锁.png"
+    },
+    "06": {
+      "id": "06",
+      "name": "营地_天赋升级",
+      "jobId": "6ae2f380f5157103dedccb73",
+      "status": "completed",
+      "images": [
+        "mivo://image/6ae2f4fdf5157103dedccbe9"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/06_营地_天赋升级.png"
+    },
+    "07": {
+      "id": "07",
+      "name": "营地_保险箱存取",
+      "jobId": "6ae2fc0398d303820bdcb813",
+      "status": "completed",
+      "supersededSingleChest": {
+        "id": "07",
+        "name": "营地_保险箱存取",
+        "jobId": "6ae2f5c67a23e72106dcbfde",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2f9a67a23e72106dcc06f"
+        ],
+        "path": "art/ui-v10/原始生成图/07_营地_保险箱存取.png"
+      },
+      "images": [
+        "mivo://image/6ae2fda398d303820bdcb854"
+      ],
+      "path": "art/ui-v10/原始生成图/07_营地_保险箱存取_滚动栏位.png"
+    }
+  },
+  "fixes": {
+    "11": {
+      "jobId": "6ae2f23e87ada5af0ddcaee1",
+      "status": "completed",
+      "reason": "清除右下遮挡",
+      "images": [
+        "mivo://image/6ae2f3b687ada5af0ddcaef7"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/11_战利品_宝箱领取_修正.png"
+    },
+    "12": {
+      "jobId": "6ae2f243f5157103dedccb34",
+      "status": "completed",
+      "reason": "去遮挡与恢复本项目背景",
+      "images": [
+        "mivo://image/6ae2f3c2f5157103dedccba1"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/12_战斗_装备详情_修正.png"
+    },
+    "02": {
+      "jobId": "6ae2f226f5157103dedccb22",
+      "status": "completed",
+      "reason": "恢复宽属性页",
+      "images": [
+        "mivo://image/6ae2f292f5157103dedccb42"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/02_战斗_英雄属性与天赋_修正.png"
+    },
+    "03": {
+      "jobId": "6ae2f22bf5157103dedccb24",
+      "status": "completed",
+      "reason": "清除右下遮挡",
+      "images": [
+        "mivo://image/6ae2f305f5157103dedccb59"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/03_战斗_装备图鉴_修正.png"
+    },
+    "04": {
+      "jobId": "6ae2f230f5157103dedccb26",
+      "status": "completed",
+      "reason": "清除右下遮挡",
+      "images": [
+        "mivo://image/6ae2f3aaf5157103dedccb89"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/04_营地_冒险准备_修正.png"
+    },
+    "08": {
+      "jobId": "6ae2f236f5157103dedccb2a",
+      "status": "completed",
+      "reason": "清除右下遮挡",
+      "images": [
+        "mivo://image/6ae2f29cf5157103dedccb44"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/08_营地_地牢选择_修正.png"
+    },
+    "09": {
+      "jobId": "6ae2f23bf5157103dedccb2e",
+      "status": "completed",
+      "reason": "清除右下遮挡",
+      "images": [
+        "mivo://image/6ae2f29ff5157103dedccb45"
+      ],
+      "message": "",
+      "path": "art/ui-v10/原始生成图/09_商店_购买详情_修正.png"
+    }
+  },
+  "batchSize": 12,
+  "validation": "原图内容与图库检查已完成；不是游戏运行或真人盲测验证"
+}

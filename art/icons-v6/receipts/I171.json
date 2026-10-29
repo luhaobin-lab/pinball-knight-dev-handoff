@@ -1,0 +1,93 @@
+{
+  "id": "I171",
+  "name": "火山药水",
+  "status": "generated-normalized",
+  "source": "mothers/I171.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I171.png",
+  "motherSha256": "d123dc8b2892e96947b9002b715a9612e87d388df87c5e6d6a11e2612918de09",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I171.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3104,
+      "sha256": "c3afddfad12e5d3a85a80dd6d9f40ff88c0cc939eda214d57533a19e3ada7e82",
+      "pixelSha256": "46b1aae4d3f4f9851e779243c4d6ff2056a1e53821b9eb623d4c81deb7083e71",
+      "alphaBounds": [
+        5,
+        4,
+        123,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          57,
+          51,
+          1731,
+          843
+        ],
+        "fitSize": [
+          118,
+          56
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.0707070707070707
+      }
+    },
+    "256": {
+      "file": "pixels/256/I171.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 11342,
+      "sha256": "72a9437034a1866970c16a45f806d47579cd9eca0ea0037d26773e2b7a646127",
+      "pixelSha256": "a870e3ab8413be23305b976dc478f146b0f576fb80bc925c42e69c8dcbfe0db1",
+      "alphaBounds": [
+        9,
+        8,
+        246,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          57,
+          51,
+          1731,
+          843
+        ],
+        "fitSize": [
+          237,
+          112
+        ],
+        "position": [
+          9,
+          8
+        ],
+        "scale": 0.1414141414141414
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-01.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-01.png",
+    "pixelSha256": "a870e3ab8413be23305b976dc478f146b0f576fb80bc925c42e69c8dcbfe0db1",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-231a1ea5-4c0b-4cd4-9b2e-2001be8255d1.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-231a1ea5-4c0b-4cd4-9b2e-2001be8255d1"
+  }
+}

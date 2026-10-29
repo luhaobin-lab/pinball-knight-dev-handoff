@@ -1,0 +1,86 @@
+{
+  "id": "I003",
+  "name": "旧盔甲",
+  "status": "generated-normalized",
+  "source": "mothers/I003.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I003.png",
+  "motherSha256": "3deb87a24e06ebe645187c8b2a09180efe362118bb8e7c64410f0fb923cfb313",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I003.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 10208,
+      "sha256": "4003444fb017485f3f8eeadc8095d8fd3d021912f816feb4153664d209987ebd",
+      "pixelSha256": "26611ecbd4434c2a464d412603088ac64766d1eaa7fa2cd31b0be88169877d65",
+      "alphaBounds": [
+        10,
+        4,
+        117,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          73,
+          5,
+          958,
+          1534
+        ],
+        "fitSize": [
+          107,
+          184
+        ],
+        "position": [
+          10,
+          4
+        ],
+        "scale": 0.12034009156311315
+      }
+    },
+    "256": {
+      "file": "pixels/256/I003.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 38997,
+      "sha256": "d256958a378cdeb16c694157d32fbd2cde32670205eea1b1a078f99b08edaf71",
+      "pixelSha256": "efc316faa93d8570e79220d52d2d320768d8a93dde6be395951c0f03be05fb09",
+      "alphaBounds": [
+        22,
+        8,
+        234,
+        375
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          73,
+          5,
+          958,
+          1534
+        ],
+        "fitSize": [
+          213,
+          368
+        ],
+        "position": [
+          21,
+          8
+        ],
+        "scale": 0.2406801831262263
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; correct recognizable single subject; complete silhouette; no visible background residue in normalized PNG",
+  "sourceProvenance": {
+    "sourceFilename": "exec-9023cab1-17ef-4be6-a336-ad3b9bcce830.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-9023cab1-17ef-4be6-a336-ad3b9bcce830"
+  }
+}

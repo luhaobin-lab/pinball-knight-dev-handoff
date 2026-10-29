@@ -1,0 +1,95 @@
+{
+  "id": "I151",
+  "name": "幻影轻弩",
+  "status": "generated-normalized",
+  "source": "mothers/I151.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I151.png",
+  "motherSha256": "8f5daa2e7e60ed8342a0e1b91e816ffd8ceffe4429adcbfcd0c5661aba5839ef",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I151.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2751,
+      "sha256": "9dc3eea4316b3ff9ad6e5c9af3884c7c1266faeac896d3e166bf7b4321ce0e3c",
+      "pixelSha256": "0f309536d9e64931e02200eedf9d2a90be47debbeeb8d782d49a3720b267a9d5",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          23,
+          60,
+          1757,
+          843
+        ],
+        "fitSize": [
+          120,
+          54
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.06920415224913495
+      }
+    },
+    "256": {
+      "file": "pixels/256/I151.png",
+      "width": 256,
+      "height": 128,
+      "colors": 95,
+      "bytes": 9676,
+      "sha256": "469e8440ce9c6f95594dd510ba981f249381e36d797992ad3f3db84180754879",
+      "pixelSha256": "e5266a4d80ac8816f0c8f083b839f0ba7e93d66bb86f8d15767fc2aea61ead4a",
+      "alphaBounds": [
+        8,
+        10,
+        247,
+        118
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          23,
+          60,
+          1757,
+          843
+        ],
+        "fitSize": [
+          240,
+          108
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.1384083044982699
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "骨箍血剂瓶、轻弩短臂、刀腹大口主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-d7aa0184-8191-4d4b-92bc-0471d526fd8a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-d7aa0184-8191-4d4b-92bc-0471d526fd8a"
+  }
+}

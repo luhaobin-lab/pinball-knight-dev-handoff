@@ -1,0 +1,171 @@
+{
+  "status": "bounded-independent-byte-and-claim-review-passed",
+  "sourceSha256": "ccd1db79c2eb3668242c4c10d271234963bc9dc1efa3ec0afddace444d1afcab",
+  "method": "Independent Python stdlib PE-section/import parsing; no author decoder imported; current code bytes/relative calls/imports re-read",
+  "cacheRanges": [
+    {
+      "name": "CfromP",
+      "start": "0x1445ac2e0",
+      "bytes": 1188,
+      "sha256": "9933c92b9467fe71637b9be1c87d23cfa60a8c0f996295775e8a0214fa1f5766"
+    },
+    {
+      "name": "MapInsertPair",
+      "start": "0x1445a49c0",
+      "bytes": 575,
+      "sha256": "5d0b7fbe297acca0cbd2e535c2170e8b11ad8e038c759cc31da8f7a954db3a79"
+    },
+    {
+      "name": "SparseRemove",
+      "start": "0x141156d10",
+      "bytes": 175,
+      "sha256": "2a849f472a46a8c9a6acb96eb7558aa0e143405d3a4c279258152d258aaf91c6"
+    },
+    {
+      "name": "QueueGrow",
+      "start": "0x141144f30",
+      "bytes": 192,
+      "sha256": "00a8a792140d3ae515b8da53846cb667b53200b53299990193c275a15c2308a9"
+    },
+    {
+      "name": "MapRehash",
+      "start": "0x1445b0fd0",
+      "bytes": 409,
+      "sha256": "efd3cbba6ac88804a2d287a91a13c24e6a97476df9e83befaf7215848a6564f3"
+    }
+  ],
+  "umgRanges": [
+    {
+      "name": "PanelWidgetAddChild",
+      "start": "0x14348a090",
+      "bytes": 478,
+      "sha256": "24203d736bd2ae7b284f8bc10f707eeac20ed71339df1b3cac72d10425fe2b52"
+    },
+    {
+      "name": "UniformGridAddChild",
+      "start": "0x14348aba0",
+      "bytes": 740,
+      "sha256": "39b86a09298cd5adcd66b3161487db6cc2446f435e51623b5dc7f30a17ecb895"
+    },
+    {
+      "name": "NewObjectWrapper",
+      "start": "0x141385200",
+      "bytes": 227,
+      "sha256": "a8ded1ef934e6be83cd1045a78d6c6d00c9da645becfeb9e873c8c79a447ea22"
+    },
+    {
+      "name": "StaticConstructControlFlow",
+      "start": "0x141503f30",
+      "bytes": 777,
+      "sha256": "70d733dcabbafd05ec6a0845ad936e278872bb7be1b3093cf0cd0a9e4201a9d1"
+    },
+    {
+      "name": "StaticAllocateControlFlow",
+      "start": "0x1415033e0",
+      "bytes": 2537,
+      "sha256": "e8ca51d64a28640cde343a93d12e2ddc965ca3c6fa56fe21e0946b38afd4dae3"
+    },
+    {
+      "name": "ZeroingCall",
+      "start": "0x141503bd3",
+      "bytes": 27,
+      "sha256": "710ef8e07e12a42dd630555389c2c49c408949363552950186c92dce85d52a65"
+    },
+    {
+      "name": "MemsetImportStub",
+      "start": "0x146a3a082",
+      "bytes": 6,
+      "sha256": "8928dcb491554885b0490466090aa940bca52ced4a51f5728c644b97188db3c0"
+    },
+    {
+      "name": "ObjectInitializerDestructor",
+      "start": "0x1414e9340",
+      "bytes": 492,
+      "sha256": "94be36f10addbd001b8f9222e7e77b7231f0c87d0f7d4229ea73111539f630ba"
+    },
+    {
+      "name": "PostConstructControlFlow",
+      "start": "0x1414faf10",
+      "bytes": 1165,
+      "sha256": "9fc02a8d0591367ab78e8993e06885155fbc90aba0fc5816a8893d679a2520ba"
+    },
+    {
+      "name": "InitPropertiesControlFlow",
+      "start": "0x1414f7730",
+      "bytes": 926,
+      "sha256": "4585b3e83b724023a418f85b07f3bb64f24ff088974f5139f20423c8c18c1154"
+    },
+    {
+      "name": "CreateDefaultVirtualTrampoline",
+      "start": "0x1413f1150",
+      "bytes": 10,
+      "sha256": "af5166af7be9bbfe83e669a113a574aab733135001fafdc8aae21fadff77e480"
+    },
+    {
+      "name": "UniformGridNativeConstructor",
+      "start": "0x14342dfc0",
+      "bytes": 61,
+      "sha256": "883304e953e5391668e95efd94b05decf266ac8274f64a4ef7db8ca0d77b4282"
+    },
+    {
+      "name": "PanelSlotStaticClass",
+      "start": "0x143418840",
+      "bytes": 174,
+      "sha256": "217e790193f3cab00dc46c4a0c8ee8e7ce34ead30c06014a8f69be8b27f04d22"
+    },
+    {
+      "name": "UniformGridStaticClass",
+      "start": "0x14341cf90",
+      "bytes": 174,
+      "sha256": "3277ca1ad07dd62afccc0344ec7efb756990e5db30e09bbc2f7e60aa514e646f"
+    },
+    {
+      "name": "ObjectPostInitProperties",
+      "start": "0x1414fb3a0",
+      "bytes": 71,
+      "sha256": "010627199289336396ce9177ec992d6b750518d2445c449c556e93e4c3f35b59"
+    }
+  ],
+  "umgDirectCalls": [
+    {
+      "at": "0x14348a16c",
+      "target": "0x141385200"
+    },
+    {
+      "at": "0x14348ad16",
+      "target": "0x141385200"
+    },
+    {
+      "at": "0x141385294",
+      "target": "0x141503f30"
+    },
+    {
+      "at": "0x14150404d",
+      "target": "0x1415033e0"
+    },
+    {
+      "at": "0x141503be9",
+      "target": "0x146a3a082"
+    },
+    {
+      "at": "0x1415041e1",
+      "target": "0x1414e9340"
+    },
+    {
+      "at": "0x1414e945a",
+      "target": "0x1414faf10"
+    },
+    {
+      "at": "0x1414fb0b9",
+      "target": "0x1414f7730"
+    }
+  ],
+  "cacheConclusion": "Conditional return-value invariant only under valid container and stable FP environment; no original TLS/wrapper execution and no new game outcome claimed",
+  "umgConclusion": "Actual zeroing import and constructor/default-copy call chain narrowed; unresolved CDO/virtual postinit prevents filling unrecorded Row/Column as0",
+  "wholeExactnessGapClosed": false,
+  "originalGameLaunched": false,
+  "nativeCodeExecuted": false,
+  "proposals": [],
+  "needs": [],
+  "reviewedAt": "2026-10-27T18:12:34.034217+00:00"
+}

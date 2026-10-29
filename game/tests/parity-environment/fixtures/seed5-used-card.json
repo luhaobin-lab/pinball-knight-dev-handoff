@@ -1,0 +1,1146 @@
+{
+  "provenance": {
+    "commit": "e543f13",
+    "source": "D:\\TAPTAPGAME_codex\\studio\\shots\\parity-environment-natural-r4\\seed-5-commands.json",
+    "sha256": "557c6d3bfdd606fd51e1e25f40da5d3778e5a8117fcb2edab54a8d088b8b29d3",
+    "scope": "historical exact natural browser prefix; source use687 at command46, rejected empty row6 at57; not regenerated or claimed current natural route"
+  },
+  "seed": 5,
+  "commands": [
+    {
+      "command": {
+        "type": "title.newRun"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "title",
+        "phase": "进入营地",
+        "time": 1.0333333333333334,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "hero.start"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "heroSelect",
+        "phase": "进入营地",
+        "time": 1.5333333333333334,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "map.enter",
+        "cell": "r1c0"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 0,
+        "time": 2.9833333333333334,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "interact",
+        "actor": 219
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 1,
+        "time": 3.566666666666667,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": 2048.0000000000005,
+          "y": 3291.2400539010605
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 1,
+        "time": 4.083333333333333,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "modal.pick",
+        "option": 0
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "选择路口",
+        "floor": 1,
+        "time": 5.75,
+        "modal": {
+          "kind": "multiChoice",
+          "source": "initialReward",
+          "title": "天赋",
+          "options": [
+            {
+              "row": "锋芒毕露",
+              "title": "锋芒毕露",
+              "text": "<强调>武器</>提升 <天赋>20%</> <强调>会心</>几率。",
+              "level": 4,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_25"
+            },
+            {
+              "row": "轻装上阵",
+              "title": "轻装上阵",
+              "text": "如果装备的物品数量不大于 <天赋>5</> ，受到的伤害减少 <天赋>40%</> 。",
+              "level": 4,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_22"
+            },
+            {
+              "row": "下肢力量",
+              "title": "下肢力量",
+              "text": "最下方伤害物品提升 <天赋>24</> 伤害。",
+              "level": 4,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_20"
+            }
+          ],
+          "reroll": null,
+          "canSkip": true
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "map.enter",
+        "cell": "r2c1"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 1,
+        "time": 6.783333333333333,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "interact",
+        "actor": 335
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 2,
+        "time": 7.366666666666666,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "loot.take",
+        "item": 348
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 2,
+        "time": 7.883333333333334,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "item.dismantle",
+        "item": 348
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "选择路口",
+        "floor": 2,
+        "time": 8.4,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "map.enter",
+        "cell": "r3c1"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 2,
+        "time": 9.416666666666666,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": 2995.624761832123,
+          "y": -2665.465282815993
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 3,
+        "time": 10.433333333333334,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "panel.continue"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "战斗统计",
+        "floor": 3,
+        "time": 11.990296861111425,
+        "modal": {
+          "kind": "panel",
+          "result": "victory",
+          "lines": [
+            {
+              "label": "造成伤害",
+              "value": "120"
+            }
+          ],
+          "canRetry": false,
+          "characters": [
+            {
+              "id": 35,
+              "kind": "hero",
+              "position": {
+                "x": 456,
+                "y": -454.5034195602182,
+                "z": 56
+              },
+              "width": 56,
+              "stats": {
+                "damage": "120"
+              }
+            }
+          ],
+          "backpackClosed": true
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "loot.take",
+        "item": 493
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "物品盒子",
+        "floor": 3,
+        "time": 13.006963527778034,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "item.dismantle",
+        "item": 493
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "选择路口",
+        "floor": 3,
+        "time": 13.52363019444467,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "map.enter",
+        "cell": "r4c0"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 3,
+        "time": 14.54029686111128,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": 3937.3279065633533,
+          "y": -1001.0106094264311
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 4,
+        "time": 16.523630194444543,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "modal.pick",
+        "option": 0
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "回合开始",
+        "floor": 4,
+        "time": 23.566929236285894,
+        "modal": {
+          "kind": "multiChoice",
+          "source": "levelUp",
+          "title": "天赋",
+          "options": [
+            {
+              "row": "治愈专精",
+              "title": "治愈专精",
+              "text": "<强调>治愈</>物品提升 <天赋>15%</> 充能速度。",
+              "level": 1,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_21"
+            },
+            {
+              "row": "下肢力量",
+              "title": "下肢力量",
+              "text": "最下方伤害物品提升 <天赋>6</> 伤害。",
+              "level": 1,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_20"
+            },
+            {
+              "row": "下肢耐力",
+              "title": "下肢耐力",
+              "text": "最下方<强调>治愈</>物品提升 <天赋>10</> <强调>治愈</>。",
+              "level": 1,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_22"
+            }
+          ],
+          "reroll": {
+            "cost": 3,
+            "currency": "精核"
+          },
+          "canSkip": true
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": -3941.0616739488087,
+          "y": -1325.343249313734
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 4,
+        "time": 24.066929236285972,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "panel.continue"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "战斗统计",
+        "floor": 4,
+        "time": 25.43808473914965,
+        "modal": {
+          "kind": "panel",
+          "result": "victory",
+          "lines": [
+            {
+              "label": "造成伤害",
+              "value": "299.99999999999994"
+            }
+          ],
+          "canRetry": false,
+          "characters": [
+            {
+              "id": 35,
+              "kind": "hero",
+              "position": {
+                "x": 456,
+                "y": -483.0162278007519,
+                "z": 56
+              },
+              "width": 56,
+              "stats": {
+                "damage": "300"
+              }
+            }
+          ],
+          "backpackClosed": true
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "loot.take",
+        "item": 687
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "物品盒子",
+        "floor": 4,
+        "time": 26.454751405816477,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "item.move",
+        "item": 687,
+        "to": {
+          "grid": "equip",
+          "row": 8,
+          "col": 0
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "选择路口",
+        "floor": 4,
+        "time": 26.954751405816555,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.move",
+        "item": 687,
+        "to": {
+          "grid": "backpack",
+          "row": 9,
+          "col": 0
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "选择路口",
+        "floor": 4,
+        "time": 27.454751405816634,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.move",
+        "item": 687,
+        "to": {
+          "grid": "equip",
+          "row": 6,
+          "col": 0
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 4,
+        "time": 27.95475140581671,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "map.enter",
+        "cell": "r5c0"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 4,
+        "time": 28.45475140581679,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.move",
+        "item": 687,
+        "to": {
+          "grid": "backpack",
+          "row": 2,
+          "col": 0
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "创建房间",
+        "floor": 5,
+        "time": 28.954751405816868,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.move",
+        "item": 687,
+        "to": {
+          "grid": "equip",
+          "row": 6,
+          "col": 0
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 29.454751405816946,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "interact",
+        "actor": 775
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 29.954751405817024,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": -768.7555688047863,
+          "y": -4045.571443077684
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 30.454751405817102,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "interact",
+        "actor": 775
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 31.20475140581722,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "loot.take",
+        "item": 802
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 31.704751405817298,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "loot.take",
+        "item": 806
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 32.20475140581733,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "loot.take",
+        "item": 808
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 32.704751405817305,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "loot.close"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 33.22141807248394,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "interact",
+        "actor": 779
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 33.73808473915058,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": -987.7787285464511,
+          "y": 3526.851204068164
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 34.25475140581722,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "interact",
+        "actor": 779
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 35.17141807248383,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "loot.take",
+        "item": 823
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 35.68808473915047,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "loot.take",
+        "item": 827
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 36.204751405817106,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "loot.close"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 36.72141807248374,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "interact",
+        "actor": 783
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 37.23808473915038,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": -4090.344700585558,
+          "y": -1509.2293754456364
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 37.75475140581702,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "interact",
+        "actor": 783
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 39.15475140581694,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "loot.close"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 5,
+        "time": 39.671418072483576,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "item.use",
+        "item": 687
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "选择路口",
+        "floor": 5,
+        "time": 40.18808473915021,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.use",
+        "item": 687
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "选择路口",
+        "floor": 5,
+        "time": 40.70475140581685,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.use",
+        "item": 687
+      },
+      "accepted": true,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 5,
+        "time": 41.22141807248349,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "map.enter",
+        "cell": "r6c0"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 5,
+        "time": 41.738084739150125,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.dismantle",
+        "item": 806
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "创建房间",
+        "floor": 6,
+        "time": 42.25475140581676,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.dismantle",
+        "item": 827
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "创建房间",
+        "floor": 6,
+        "time": 42.7714180724834,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": 1859.5450869331837,
+          "y": 3521.5627230755545
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 6,
+        "time": 43.28808473915004,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "modal.pick",
+        "option": 0
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "回合开始",
+        "floor": 6,
+        "time": 51.644077902195825,
+        "modal": {
+          "kind": "multiChoice",
+          "source": "levelUp",
+          "title": "天赋",
+          "options": [
+            {
+              "row": "生命成长",
+              "title": "生命成长",
+              "text": "每装备一个<强调>治愈</>物品，提升 <天赋>5%</> 生命上限。",
+              "level": 1,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_22"
+            },
+            {
+              "row": "博学",
+              "title": "博学",
+              "text": "获得的经验值提升 <天赋>12.5%</> 。",
+              "level": 1,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_24"
+            },
+            {
+              "row": "敏捷",
+              "title": "敏捷",
+              "text": "提升 <天赋>25</> 弹射距离。",
+              "level": 1,
+              "icon": "CatapultHero/精灵片/技能/SkillIcon2_Sprite_23"
+            }
+          ],
+          "reroll": {
+            "cost": 3,
+            "currency": "精核"
+          },
+          "canSkip": true
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "aim.release",
+        "aim": {
+          "x": 3303.0528255463587,
+          "y": 1790.200516718015
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "交互场牌",
+        "floor": 6,
+        "time": 52.16074456886246,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "panel.continue"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "战斗统计",
+        "floor": 6,
+        "time": 53.77160105470137,
+        "modal": {
+          "kind": "panel",
+          "result": "victory",
+          "lines": [
+            {
+              "label": "造成伤害",
+              "value": "419.99999999999994"
+            },
+            {
+              "label": "治愈生命",
+              "value": "7.499999999999973"
+            }
+          ],
+          "canRetry": false,
+          "characters": [
+            {
+              "id": 35,
+              "kind": "hero",
+              "position": {
+                "x": -200,
+                "y": 413.768506854229,
+                "z": 56
+              },
+              "width": 56,
+              "stats": {
+                "damage": "420"
+              }
+            },
+            {
+              "id": 687,
+              "kind": "item",
+              "position": {
+                "x": 312,
+                "y": 22,
+                "z": 5
+              },
+              "width": 0,
+              "stats": {
+                "heal": "7"
+              }
+            }
+          ],
+          "backpackClosed": true
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "item.dismantle",
+        "item": 823
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "物品盒子",
+        "floor": 6,
+        "time": 54.28826772136801,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "loot.close"
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "物品盒子",
+        "floor": 6,
+        "time": 54.804934388034646,
+        "modal": {
+          "kind": "loot",
+          "title": "",
+          "cells": [],
+          "reroll": null,
+          "exp": null,
+          "canTakeAll": false
+        }
+      }
+    },
+    {
+      "command": {
+        "type": "item.move",
+        "item": 808,
+        "to": {
+          "grid": "backpack",
+          "row": 6,
+          "col": 0
+        }
+      },
+      "accepted": true,
+      "before": {
+        "screen": "room",
+        "phase": "选择路口",
+        "floor": 6,
+        "time": 55.32160105470128,
+        "modal": null
+      }
+    },
+    {
+      "command": {
+        "type": "item.move",
+        "item": 808,
+        "to": {
+          "grid": "equip",
+          "row": 6,
+          "col": 0
+        }
+      },
+      "accepted": false,
+      "before": {
+        "screen": "map",
+        "phase": "选择地图",
+        "floor": 6,
+        "time": 55.83826772136792,
+        "modal": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I026",
+  "name": "淬炼宝石",
+  "status": "generated-normalized",
+  "source": "mothers/I026.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I026.png",
+  "motherSha256": "817e5aaff55a853d619fb7d69ce4fd7d4489481fc83ebd6b585aaa269a396d03",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I026.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5364,
+      "sha256": "76e76f94e91504cf3b9fce3c8984118d1f607025bf755bc26e406e554f800ccd",
+      "pixelSha256": "1ea2dcb1b0340206843c8b8f332a698ff1033263b68437357b55db77c0c2c887",
+      "alphaBounds": [
+        17,
+        4,
+        111,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          161,
+          15,
+          1112,
+          1233
+        ],
+        "fitSize": [
+          94,
+          120
+        ],
+        "position": [
+          17,
+          4
+        ],
+        "scale": 0.09852216748768473
+      }
+    },
+    "256": {
+      "file": "pixels/256/I026.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 20058,
+      "sha256": "9bf278714267228884b537294b05ca74a423179d9ab51c7a40dd538fd94e28b3",
+      "pixelSha256": "81f0b268fda88ef9e5e10dd6471b36109b988f30cf6910467f64df020668c0a1",
+      "alphaBounds": [
+        34,
+        8,
+        221,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          161,
+          15,
+          1112,
+          1233
+        ],
+        "fitSize": [
+          187,
+          240
+        ],
+        "position": [
+          34,
+          8
+        ],
+        "scale": 0.19704433497536947
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; correct complete single subject and clean normalized silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-f3416ce2-bee8-483f-8762-da174a5d00ff.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f3416ce2-bee8-483f-8762-da174a5d00ff"
+  }
+}

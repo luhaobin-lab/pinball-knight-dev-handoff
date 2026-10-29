@@ -1,0 +1,86 @@
+{
+  "id": "T041",
+  "name": "盾牌专精",
+  "status": "generated-normalized",
+  "source": "mothers/T041.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T041.png",
+  "motherSha256": "675492ea0ca30732676dd4fd6df72a8161ebdc80f34172a40a947b4dcf0e1df0",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T041.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6450,
+      "sha256": "8d95f1d7c97bd326afdf74a39660c9ca4205e3716bd90aa91a7a7b4920076e53",
+      "pixelSha256": "a819e35d0ee1627f8fb54b02c9c4ba2130fc7616d8ace0fa1550477ca609faba",
+      "alphaBounds": [
+        8,
+        4,
+        119,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          77,
+          29,
+          1185,
+          1224
+        ],
+        "fitSize": [
+          111,
+          120
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.100418410041841
+      }
+    },
+    "256": {
+      "file": "pixels/256/T041.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 24097,
+      "sha256": "7fd7f052620370090e8a46dfd04c48ace85f01a9874d9bdc113a9611da2778da",
+      "pixelSha256": "576df34b9ea41d5c63defda60b0ed4fb280d02d561fd2e1d9875de4750f82db7",
+      "alphaBounds": [
+        16,
+        8,
+        238,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          77,
+          29,
+          1185,
+          1224
+        ],
+        "fitSize": [
+          223,
+          240
+        ],
+        "position": [
+          16,
+          8
+        ],
+        "scale": 0.200836820083682
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-18688b64-802c-443c-ba2f-42d2ff43f7a5.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-18688b64-802c-443c-ba2f-42d2ff43f7a5"
+  }
+}

@@ -1,0 +1,10 @@
+Command: npm exec vitest -- run tests/battle-start.test.ts tests/battle-pause.test.ts tests/parity-tutorial/entry.test.ts --maxWorkers=4
+
+ RUN  v5.0.5 <LOCAL_HOME>/Desktop/提取过程/outputs/项目交接_2026-10-29/game
+
+
+ Test Files  3 passed (3)
+      Tests  16 passed (16)
+   Start at  17:09:48
+   Duration  9.50s (tests 48%, transform 43%, import 8%)
+

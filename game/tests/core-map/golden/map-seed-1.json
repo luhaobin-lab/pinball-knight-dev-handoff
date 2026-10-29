@@ -1,0 +1,164 @@
+[
+ {
+  "row": 0,
+  "col": 0,
+  "name": "空",
+  "reward": null,
+  "level": 0,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 0,
+  "col": 1,
+  "name": "营地",
+  "reward": null,
+  "level": 0,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 0,
+  "col": 2,
+  "name": "空",
+  "reward": null,
+  "level": 0,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 1,
+  "col": 0,
+  "name": "第一层",
+  "reward": "初始奖励A",
+  "level": 1,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 1,
+  "col": 1,
+  "name": "第一层",
+  "reward": "初始奖励B",
+  "level": 1,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 1,
+  "col": 2,
+  "name": "第一层",
+  "reward": "初始奖励C",
+  "level": 1,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 2,
+  "col": 0,
+  "name": "空",
+  "reward": null,
+  "level": 0,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 2,
+  "col": 1,
+  "name": "宝箱房",
+  "reward": "获取物品_废料",
+  "level": 1,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 2,
+  "col": 2,
+  "name": "探索房",
+  "reward": "无奖励",
+  "level": 1,
+  "variant": 3,
+  "nextBoss": false
+ },
+ {
+  "row": 3,
+  "col": 0,
+  "name": "简单战斗",
+  "reward": "复合奖励",
+  "level": 1,
+  "variant": 4,
+  "nextBoss": false
+ },
+ {
+  "row": 3,
+  "col": 1,
+  "name": "空",
+  "reward": null,
+  "level": 0,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 3,
+  "col": 2,
+  "name": "探索房",
+  "reward": "无奖励",
+  "level": 1,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 4,
+  "col": 0,
+  "name": "普通战斗",
+  "reward": "复合奖励",
+  "level": 2,
+  "variant": 2,
+  "nextBoss": false
+ },
+ {
+  "row": 4,
+  "col": 1,
+  "name": "空",
+  "reward": null,
+  "level": 0,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 4,
+  "col": 2,
+  "name": "宝箱房",
+  "reward": "获取物品_非武器",
+  "level": 1,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 12,
+  "col": 0,
+  "name": "空",
+  "reward": null,
+  "level": 0,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 12,
+  "col": 1,
+  "name": "首领战斗",
+  "reward": "复合奖励",
+  "level": 4,
+  "variant": 0,
+  "nextBoss": false
+ },
+ {
+  "row": 12,
+  "col": 2,
+  "name": "空",
+  "reward": null,
+  "level": 0,
+  "variant": 0,
+  "nextBoss": false
+ }
+]

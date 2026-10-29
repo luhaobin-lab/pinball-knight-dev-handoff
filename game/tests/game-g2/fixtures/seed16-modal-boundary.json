@@ -1,0 +1,352 @@
+{
+  "source": "D:/TAPTAPGAME_codex/studio/tmp/determinism-seed16-baseline.json",
+  "baseline": "894c73a",
+  "seed": 16,
+  "note": "First 64 real commands, including item.use -> subframe talent modal -> reroll. Original frame replay stopped one ULP before callback seq20335 at command63.",
+  "commands": [
+    {
+      "type": "title.newRun"
+    },
+    {
+      "type": "hero.start"
+    },
+    {
+      "type": "map.backpack",
+      "open": 1
+    },
+    {
+      "type": "map.backpack",
+      "open": 0
+    },
+    {
+      "type": "map.enter",
+      "cell": "r1c2"
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -4020.7449434016316,
+        "y": -1037.5536450623272
+      }
+    },
+    {
+      "type": "interact",
+      "actor": 210
+    },
+    {
+      "type": "loot.take",
+      "item": 230
+    },
+    {
+      "type": "map.enter",
+      "cell": "r2c2"
+    },
+    {
+      "type": "interact",
+      "actor": 310
+    },
+    {
+      "type": "loot.take",
+      "item": 323
+    },
+    {
+      "type": "map.enter",
+      "cell": "r3c2"
+    },
+    {
+      "type": "item.use",
+      "item": 323
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 428.1485855443066,
+        "y": -4073.561683428448
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 969.2286967985312,
+        "y": -3575.456184652533
+      }
+    },
+    {
+      "type": "item.use",
+      "item": 323
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -2473.201854700218,
+        "y": 3104.340547864473
+      }
+    },
+    {
+      "type": "modal.pick",
+      "option": 1
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -4490.4750853830365,
+        "y": 206.13982036963935
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -3033.8939444685393,
+        "y": 3358.245994264992
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -4465.797801408233,
+        "y": 761.4802781817898
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 1160.9787172031988,
+        "y": 3872.7138496942284
+      }
+    },
+    {
+      "type": "item.use",
+      "item": 230
+    },
+    {
+      "type": "item.use",
+      "item": 323
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -1767.4335412557612,
+        "y": -3157.8821945040936
+      }
+    },
+    {
+      "type": "item.use",
+      "item": 323
+    },
+    {
+      "type": "item.use",
+      "item": 230
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -2743.512030476605,
+        "y": 3855.468058455631
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 2956.7029423145414,
+        "y": -1999.10998053396
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 2215.8845308763193,
+        "y": -3144.703731870805
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -175.96873438202675,
+        "y": -3647.8667216765793
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3320.183095573467,
+        "y": 1722.9369468018049
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 2133.6033433500174,
+        "y": 3752.8463628794725
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -1215.6632714815971,
+        "y": 3679.188668681483
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3446.443645709707,
+        "y": 3429.3206854000528
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 4342.690555890735,
+        "y": 1142.260175148601
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 1787.593978564392,
+        "y": 3998.9815913319317
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -2462.835443449947,
+        "y": 2706.188763519881
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -3292.675601620687,
+        "y": -1653.1315656841382
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3388.8273458912054,
+        "y": -1646.0923689217566
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -3267.8639721266845,
+        "y": -2221.4113104893163
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -2802.6593491835356,
+        "y": 2790.1378929003818
+      }
+    },
+    {
+      "type": "item.use",
+      "item": 323
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -4115.843564900564,
+        "y": -2016.6913092136126
+      }
+    },
+    {
+      "type": "panel.continue"
+    },
+    {
+      "type": "loot.take",
+      "item": 722
+    },
+    {
+      "type": "map.enter",
+      "cell": "r4c2"
+    },
+    {
+      "type": "interact",
+      "actor": 800
+    },
+    {
+      "type": "loot.take",
+      "item": 845
+    },
+    {
+      "type": "loot.take",
+      "item": 843
+    },
+    {
+      "type": "loot.take",
+      "item": 837
+    },
+    {
+      "type": "loot.take",
+      "item": 829
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r5c1"
+    },
+    {
+      "type": "interact",
+      "actor": 922
+    },
+    {
+      "type": "loot.take",
+      "item": 935
+    },
+    {
+      "type": "item.move",
+      "item": 843,
+      "to": {
+        "grid": "equip",
+        "row": 4,
+        "col": 0
+      }
+    },
+    {
+      "type": "map.backpack",
+      "open": 1
+    },
+    {
+      "type": "map.enter",
+      "cell": "r6c1"
+    },
+    {
+      "type": "item.move",
+      "item": 722,
+      "to": {
+        "grid": "equip",
+        "row": 1,
+        "col": 0
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -1265.7336089597843,
+        "y": 3639.5274907449493
+      }
+    },
+    {
+      "type": "item.move",
+      "item": 843,
+      "to": {
+        "grid": "equip",
+        "row": 2,
+        "col": 0
+      }
+    },
+    {
+      "type": "item.use",
+      "item": 935
+    },
+    {
+      "type": "modal.reroll"
+    }
+  ]
+}

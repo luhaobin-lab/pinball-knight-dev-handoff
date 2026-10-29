@@ -1,0 +1,95 @@
+{
+  "id": "I080",
+  "name": "焚天兜帽",
+  "status": "generated-normalized",
+  "source": "mothers/I080.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I080.png",
+  "motherSha256": "51d21a31ab2dd83c51fd1ffb3108eb6e465afaccf47162cae9d420f9ff163c5b",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I080.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6311,
+      "sha256": "763fff094a6a30bdb7a225555160478141e1a58d238cb84902d543257f60dd5d",
+      "pixelSha256": "bba1e709ed5f9c9af7121c112d6a7b198d62a4cfef4751ba9f7d05b7a263051d",
+      "alphaBounds": [
+        6,
+        4,
+        121,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          36,
+          10,
+          1219,
+          1244
+        ],
+        "fitSize": [
+          115,
+          120
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.09724473257698542
+      }
+    },
+    "256": {
+      "file": "pixels/256/I080.png",
+      "width": 256,
+      "height": 256,
+      "colors": 95,
+      "bytes": 23107,
+      "sha256": "cf1987f788dd9f3aa62a359be4e2e64e27f29a6adc8b3285f68624381abd7357",
+      "pixelSha256": "73ba9c19448799cecd7457635432f7ee041101e2da8c47b2bf94cc5133981420",
+      "alphaBounds": [
+        13,
+        8,
+        243,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          36,
+          10,
+          1219,
+          1244
+        ],
+        "fitSize": [
+          230,
+          240
+        ],
+        "position": [
+          13,
+          8
+        ],
+        "scale": 0.19448946515397084
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "完整燃烧兜帽，主体及边界通过"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-533ca01a-7f2f-4916-a1ad-6cd546fff95f.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-533ca01a-7f2f-4916-a1ad-6cd546fff95f"
+  }
+}

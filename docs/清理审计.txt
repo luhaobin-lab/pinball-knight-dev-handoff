@@ -1,0 +1,91 @@
+这是清理前的独立审计快照；实际删除结果以清理与未打包清单.json为准。
+
+工作区公开发布与清理审计
+2026-10-29；审计根目录：当前“提取过程”工作区
+
+结论
+1. 原工作区按扫描时普通文件逻辑大小约5,057,225,382字节（4.71GiB），不宜原样作为一个Git提交或整包公开。
+2. 当前认可的v10完整保留。新交接目录独立整理为game、art/ui-v10、design、research、docs、archive；本审计不删除原项目。
+3. 确认可重建或逐字节重复的优先清理项为node_modules、.DS_Store、__pycache__、outputs/01a18142重复研究目录及9个旧ZIP。具体条件与位置见下方。
+4. 原视频、来源仓库快照、原始截图证据、人工校正记录均不是“垃圾”；不在公开包内重复带入，不等于删除本地原件。
+5. 常见密钥规则扫描未命中凭据候选；本机绝对路径和内部Mivo元数据较多，需要在公开副本中去掉或改为可迁移相对路径。不能将规则扫描表述为绝对安全证明。
+
+一、顶层用途与体量（扫描时；未计后续新建交接目录）
+- 属性物品天赋视频.mp4：2,315,372,543字节（约2.16GiB）。视频提取/OCR的原始证据，非battle-scene运行资产。outputs/视频内容研究资料/使用说明.txt、视频提取数据.json及work处理脚本引用它。保留本地原件；公开交接优先给已整理数据、必要证据截图及来源说明。
+- outputs：1,426,747,934字节，2209文件。研究交付、UI历次生成、GDD/怪物等内容包及ZIP。当前UI权威为Sunburst_质感精修10；旧版本只作为制作沿革，不与v10并列为当前成品。
+- work：911,913,006字节，9235文件。抽帧、OCR、候选面板、人工校正中间数据、打包/审计脚本。不是运行资产目录。可发布必要可复现脚本与核验记录，批量中间图片通常不进主仓库。
+- battle-scene：233,610,429字节，5149文件。其中node_modules为114,419,013字节；spec约82.88MB；src约9.91MB；artifacts约13.75MB；delivery约6.33MB。它是当前可编辑的独立战斗提取版，应作为交接game基础。
+- taptapgame-abyss-archive：150,230,436字节，1556文件。其中game约99.05MB、.git约27.55MB、data约14.85MB。它是来源快照/研究归档，不是本项目当前开发入口。
+- 地牢搜打撤_GDD_2026-10-29：19,342,838字节，47文件。项目设计、数值配置、算法与AI实施交接，建议保留并区分外部资料与项目自定规则。
+- logs、scripts：扫描时为空。
+- 顶层.DS_Store：8196字节，系统目录元数据。
+
+二、来源与第三方边界
+- taptapgame-abyss-archive/README.md与docs/provenance/PUBLICATION.json说明它是公开的原型源码快照与派生研究归档，来源Ricochet Abyss Demo的具体研究版本。不能把整个目录误称为原版游戏安装包，也不能把它全部当成当前项目独立原创资产。
+- README明确公开派生包未分发原版安装EXE或完整PAK/UCAS/UTOC。本次文件名扫描在排除依赖及新交接目录后，也未发现这些完整安装载荷扩展名。
+- battle-scene/AGENTS.md、README.md、SOURCE_AND_VALIDATION.json明确其从archive/game提取。当前游戏逻辑、美术和UI仍有来源继承，公开时应保留来源说明与已有许可文件；未发现根级通用LICENSE，不应自行替第三方材料授予新的许可。
+- battle-scene/src/ui/font/fusion-pixel-12px-proportional-zh_hans.subset.woff2及font/licenses中的三个OFL文件属于需要保留许可说明的字体材料。
+- UI历次参考原图中的官方Pass the Fear等截图属于视觉参考，不是拟投入本游戏的原始资产包。当前v10完整本地保留；公开包若带参考截图，应明确来源与用途，不能伪装成自己的可商用资产。
+- 原视频是本次抽取证据，不是游戏运行所需资源。公开游戏包无需包含2.3GB视频；本地原件不删除。
+
+三、确认可再生垃圾与精确去重
+A. 可直接从交接包排除，也可按用户清理授权删除的缓存：
+- **/node_modules：当前原工作区仅battle-scene/node_modules，3639文件、114,419,013字节；package.json与package-lock.json保留，跨电脑npm ci重建。不要复制macOS专用二进制依赖到另一台电脑。
+- **/.DS_Store：7文件、53,276字节。
+- **/__pycache__/*.pyc：10文件、229,967字节。保留对应.py源文件。
+- 新包构建产生的node_modules、dist和本机临时构建缓存也在验证后排除；delivery单文件成品必须保留。
+B. 已逐文件SHA256证明的重复目录：
+- outputs/01a18142与outputs/视频内容研究资料：731个有效文件的相对路径、长度和SHA256完全一致；重复152,857,246字节。差别仅中文目录另有.DS_Store。保留中文命名目录后，旧ID目录可作为确认重复副本处理。
+C. 已逐ZIP成员读取并与留存文件核验的9个全等旧包（有效成员均一致）：
+- outputs/01a18335/怪物100种设计.zip：386645字节，16成员。
+- outputs/HUD重构_AI交接包/开发源码.zip：9033140字节，1455成员；对应battle-scene来源文件。
+- outputs/HUD重构_AI交接包.zip：13122376字节，26成员。
+- outputs/UI视觉迭代/Sunburst_GOTHIC_CULT_三张原图.zip：19513464字节，15成员。
+- outputs/UI视觉迭代/Sunburst_去AI质感07_三张原图与提示词.zip：15795570字节，14成员。
+- outputs/UI视觉迭代/Sunburst_规整卡槽05_三张原图.zip：13753605字节，21成员。
+- outputs/UI视觉迭代/Sunburst_风暴怕死队09_12张原图与提示词.zip：65668697字节，58成员。
+- outputs/UI视觉迭代/手机UI_第二轮.zip：81489523字节，119成员。
+- outputs/视频内容研究资料包.zip：128281770字节，731成员。
+这9包共347,044,790字节。清理条件是其核验对应的源文件仍被留存；不能先删源目录再按本结论删ZIP。
+D. 不能直接视为全等重复的当前v10 ZIP：
+- outputs/UI视觉迭代/Sunburst_质感精修10_12张原图与前后对照.zip：71,534,334字节，96有效成员；95成员与目录一致。
+- 唯一不同文件为Sunburst_质感精修10/目视核对/最终交付验证.json；差异只在archiveBytes与archiveSha256两个字段（打包自描述结果更新）。没有发现独有图片，但仍不是字节完全相同的重复包。建议保留当前v10完整目录与交付记录，再由主线程决定重建单一最新包。
+E. 只作为压缩空间提示，默认不破坏当前UI交付结构：
+- v09的12张交付原图与清单指向的原始生成图全等，重复66,450,889字节。
+- v10的12张交付原图与清单指向的原始生成图全等，重复60,877,323字节。当前v10仍完整保留，不能直接删图导致清单/查看器断链。
+- battle-scene与archive/game有1459个同路径文件全等，98,985,666字节；另有9文件不同及独立战斗新增文件。两个目录不等价，不能整目录互相替换。
+
+四、体量大但不应直接删除的中间证据
+- work/transitions：2554文件，382,397,128字节。
+- work/frames：929文件，259,314,485字节。
+- work/clip_audit：208文件，75,791,203字节。
+- work/repo_audit：34文件，34,963,818字节。
+- work/items_first与items_last：合计约53.55MB；包含人工选择/校正与图片，不是纯缓存。
+- work/ocr-transitions：2554文件，11,089,845字节；work/ocr-full：929文件，4,201,503字节。
+这些多为原视频派生产物，公开主包可以排除。删除本地前必须保留原视频、抽帧时点/索引、OCR脚本、人工校正数据、正式证据截图并确认没有独有证据。跨系统OCR不保证逐字节再现，不能简单当作node_modules一样的缓存。
+
+五、发布文本风险与处理建议
+- 扫描8851个文本文件/ZIP文本成员；未命中常见API/GitHub/云凭据格式、私钥块、字面量secret赋值、Bearer长令牌、签名/凭据查询URL规则。
+- personal_absolute_path：191文件/成员、2986处。主要为work脚本、来源说明、数据索引、验证报告与UI生成记录。公开副本应改相对路径、来源标识或占位根，不把个人目录写进可运行命令。
+- machine_app_or_runtime_path：15文件/成员、16处。实际运行影响较大的位置包括battle-scene/tools/battle-smoke.mjs:12、battle-outcome.mjs:14、skill-web-game-client.mjs:268；在交接副本统一为环境变量/Playwright浏览器选择。
+- internal_mivo_resource：17文件/成员、202处。v10集中审核.html、交付清单.json、生成记录/任务状态.json等有内部资源引用；资源ID不是已确认的凭据，但不应作为跨电脑可用下载入口。公开副本使用相对图片路径，原始内部记录保留本地。
+- provider_task_metadata：127文件/成员、346处。包括生成job/task/resource字段，也含通用schema中的字段名，不能一律视为秘密。公开交付可去掉内部任务追踪字段，保留模型、提示词、生成时间与本地文件哈希即可。
+- private_or_loopback_url：3文件/成员、6处，均为harness本地测试服务器及其副本，不是发现了私有互联网服务凭据。
+- 不把.git数据库/日志、个人凭据目录、node_modules、旧自动调度任务带入新的公开仓库。archive/.git约27.55MB，建议留本地，公开包只写来源commit即可。
+- 扫描未覆盖Git历史数据库、媒体二进制、XLSX内部XML或所有未知格式，不能给出“绝无敏感信息”的结论。ZIP有效文本成员已扫描；二进制成员仅用于重复完整性核验。
+
+六、跨电脑运行检查与最低命令
+- Node要求>=24，npm依赖版本以package-lock.json为准。运行路径基于脚本自身位置，Vite base为相对路径；单文件package工具会检查外部src/href引用。
+- package:battle不需要原始视频、OCR目录或完整商业游戏安装包。
+- 保留game/delivery/独立战斗场景.html并从交接副本.gitignore移除delivery/，使下载后可离线打开。
+- 默认浏览器采用Playwright Chromium；可用CHROME_PATH或BATTLE_CHROME_PATH指定本机浏览器。环境变量仅放在执行环境，不把测试机绝对路径写进包。
+- 最低安装/运行：npm ci；npm run dev。默认浏览器自动化前，如尚未安装浏览器，执行npx playwright install chromium。
+- 核心单场检查：npm exec vitest -- run tests/battle-start.test.ts tests/battle-pause.test.ts --maxWorkers=4。
+- 打包：npm run package:battle。鼠标smoke：node tools/battle-smoke.mjs。
+- 全量检查：npm run check。当前旧测试包含外部D盘伪码依赖与基线失败，不能将历史报告的256通过当作这次全量检查结果。
+- 不运行data:import。原始源码与研究模型已生成；该命令依赖旧外部提取目录，可能覆盖来源数据。
+- 新包只修改必要工具路径及浏览器选择，核心src不变。当前验证详情另存交接包docs/game-validation.json、txt及日志；旧SOURCE_AND_VALIDATION.json与原artifacts均属于历史证据。
+
+七、执行边界
+本审计没有删除、上传或更改原工作区项目文件。经后续主线程授权，只在新交接包game中进行工具可迁移性修复、依赖安装及验证，并输出新验证报告。本报告下附完整命中文件位置，未记录任何凭据匹配值。
+

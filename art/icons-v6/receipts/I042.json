@@ -1,0 +1,86 @@
+{
+  "id": "I042",
+  "name": "幽焰龙尾",
+  "status": "generated-normalized",
+  "source": "mothers/I042.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I042.png",
+  "motherSha256": "9e7667e086d94016104d710eef3e7cbd8e9422094d8e48fb363ae3cff323fbc0",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I042.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4927,
+      "sha256": "e5cd02e570fbbaa3bae47d64fdaf7bb072fa8468645ea11d39d5e3382b599c88",
+      "pixelSha256": "385eb3b2cda509b3cdf03dc2db63c73c4723054834c0c0a22f97283877761235",
+      "alphaBounds": [
+        5,
+        4,
+        122,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          43,
+          11,
+          1240,
+          1240
+        ],
+        "fitSize": [
+          117,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.09764035801464606
+      }
+    },
+    "256": {
+      "file": "pixels/256/I042.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 18241,
+      "sha256": "22b0a18e43932873e23130c78085f7c20bea67c5a83f0a7bd35c6bc3528b7b3e",
+      "pixelSha256": "3825db8fb439cc57c3c8ae150753307f6fedded417257ccd0b9583d83f06c260",
+      "alphaBounds": [
+        11,
+        8,
+        245,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          43,
+          11,
+          1240,
+          1240
+        ],
+        "fitSize": [
+          234,
+          240
+        ],
+        "position": [
+          11,
+          8
+        ],
+        "scale": 0.19528071602929212
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; complete recognizable tail / crown / shroud, no unrelated extra object",
+  "sourceProvenance": {
+    "sourceFilename": "exec-ece73d59-ea87-4505-945c-37dab58b5fdf.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-ece73d59-ea87-4505-945c-37dab58b5fdf"
+  }
+}

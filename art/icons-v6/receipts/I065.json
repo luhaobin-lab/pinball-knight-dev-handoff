@@ -1,0 +1,86 @@
+{
+  "id": "I065",
+  "name": "虚空工具盒",
+  "status": "generated-normalized",
+  "source": "mothers/I065.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I065.png",
+  "motherSha256": "2d9195ec26c21961cd37fa73dcf5dc5a91b386b36ab553a912a4c0947e5b6f78",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I065.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 7078,
+      "sha256": "eb03f0b2cbc1b4d2879a3b6cb2158d6bb52f50eab6dd79af6ccf745798250e88",
+      "pixelSha256": "aec020551c5a11f5b056b4afce731f0be8be3b0ae2211779c1b1658223c2b57f",
+      "alphaBounds": [
+        5,
+        4,
+        122,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          57,
+          36,
+          1199,
+          1203
+        ],
+        "fitSize": [
+          117,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.10282776349614396
+      }
+    },
+    "256": {
+      "file": "pixels/256/I065.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 27007,
+      "sha256": "0fbe78fcba1e53d2cde3aa6c3002b2191d4422307290f0fee2f3c77b3728da86",
+      "pixelSha256": "1be085ad43aa6386ef10dde6c20f75d77e0a4416a48d0cf1aa660c47e20057b5",
+      "alphaBounds": [
+        10,
+        8,
+        245,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          57,
+          36,
+          1199,
+          1203
+        ],
+        "fitSize": [
+          235,
+          240
+        ],
+        "position": [
+          10,
+          8
+        ],
+        "scale": 0.20565552699228792
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; twin crystal cluster / populated tool box / bent cloth hat correctly distinct and complete",
+  "sourceProvenance": {
+    "sourceFilename": "exec-61b72a87-924a-43ff-bf15-31cfa396c27a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-61b72a87-924a-43ff-bf15-31cfa396c27a"
+  }
+}

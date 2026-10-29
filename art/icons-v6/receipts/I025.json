@@ -1,0 +1,86 @@
+{
+  "id": "I025",
+  "name": "巨神兵大剑",
+  "status": "generated-normalized",
+  "source": "mothers/I025.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I025.png",
+  "motherSha256": "f61e662ba53673164f7718c17e7ae2cd09aed7814a1f5f3b047b54a65ffde317",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I025.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 3581,
+      "sha256": "0faab4ebda8875d2294bb4efddb889b2ae99fa6374c148baac07752158b54197",
+      "pixelSha256": "503a62a291a04fd653ed6ffe11a0dd73568b18dc692446e0ab110cae0cb20d0f",
+      "alphaBounds": [
+        4,
+        4,
+        124,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          14,
+          24,
+          1234,
+          1243
+        ],
+        "fitSize": [
+          120,
+          120
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.09836065573770492
+      }
+    },
+    "256": {
+      "file": "pixels/256/I025.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 13082,
+      "sha256": "19055d5ec695f6957505d67e590aadcd5e4b90ed3f474b3aabef7487cc6ed192",
+      "pixelSha256": "b97a9cd6296c51d893a54ea64d64fe4dd5a8158496c0ae41ac393852340e86e0",
+      "alphaBounds": [
+        9,
+        8,
+        248,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          14,
+          24,
+          1234,
+          1243
+        ],
+        "fitSize": [
+          240,
+          240
+        ],
+        "position": [
+          8,
+          8
+        ],
+        "scale": 0.19672131147540983
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; correct complete single subject and clean normalized silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-4b01434b-03d9-495e-a9b5-811f3613ba93.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-4b01434b-03d9-495e-a9b5-811f3613ba93"
+  }
+}

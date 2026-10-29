@@ -1,0 +1,95 @@
+{
+  "id": "I102",
+  "name": "附魔石",
+  "status": "generated-normalized",
+  "source": "mothers/I102.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I102.png",
+  "motherSha256": "9f6d9f9151e5a7e22a1f058c0c17e18c3c52411073ccc13a55be72173c0f4fcc",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I102.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3183,
+      "sha256": "6c4ecc155be2114867b1214665322e56245a600ce412aa29dfc23b898c6bfb19",
+      "pixelSha256": "93c88a41d4f3f9625ac47d447278e80a9af283cfda77af1edf2ebd470813eb8b",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          77,
+          79,
+          1725,
+          821
+        ],
+        "fitSize": [
+          120,
+          54
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.07281553398058252
+      }
+    },
+    "256": {
+      "file": "pixels/256/I102.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 11684,
+      "sha256": "3e7601c50eac4e4f41fa3798392dda947372d468c13e3737c423d7caca89362e",
+      "pixelSha256": "943513382f5ae8f3bca4097bb3fb8cedb6c2d78645e3800bca3fd227fd0f89b0",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        118
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          77,
+          79,
+          1725,
+          821
+        ],
+        "fitSize": [
+          240,
+          108
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.14563106796116504
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "力量拳印、双列箭头或无刻印切面石主体可读完整，无文字。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-f10d8182-8e6c-436d-a1cd-c47d224df413.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f10d8182-8e6c-436d-a1cd-c47d224df413"
+  }
+}

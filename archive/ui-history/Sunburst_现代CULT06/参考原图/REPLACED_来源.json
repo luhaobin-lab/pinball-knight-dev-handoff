@@ -1,0 +1,26 @@
+[
+  {
+    "file": "REPLACED_01_现代像素光影_官方.png",
+    "sourcePage": "https://thunderfulgames.com/games/replaced/",
+    "imageUrl": "https://thunderfulgames.com/wp-content/uploads/2025/08/REPLACED_SadCatStudios_Screenshots-ThumbnailsScreenshot4NoCar-scaled.png",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "sha256": "4320e489e4884011e79cbabb9b16c13a8595d977930d3981c9c9bc8702a64496",
+    "purpose": "主光方向、剪影和景深层次；不用科幻题材、电影黑边、颗粒滤镜",
+    "visuallyInspected": true
+  },
+  {
+    "file": "REPLACED_02_细节层次_官方.png",
+    "sourcePage": "https://thunderfulgames.com/games/replaced/",
+    "imageUrl": "https://thunderfulgames.com/wp-content/uploads/2025/08/REPLACED_SadCatStudios_Screenshots-Thumbnails_Screenshot2-1.png",
+    "dimensions": [
+      3840,
+      2160
+    ],
+    "sha256": "4b94e41567aa61d4f60469556bbe6d2572a892df7ea1c1d43dd3914349940518",
+    "purpose": "冷暗环境、局部暖光、细密材质；不用道路车辆及赛博朋克符号",
+    "visuallyInspected": true
+  }
+]

@@ -1,0 +1,86 @@
+{
+  "id": "I007",
+  "name": "重生傀儡之臂",
+  "status": "generated-normalized",
+  "source": "mothers/I007.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I007.png",
+  "motherSha256": "bda1b86165abc0f6d74a08fa110e3a7bddd6c03da525128a5f04e9a01eed7d1a",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I007.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 7348,
+      "sha256": "a25936ef8f71c2fc5a278ee77c3e4d176411cced754804b1bd68336ecbb99f06",
+      "pixelSha256": "f9457c25d8c92c996c7aaea78c28fc8a0ca61a07342c2d41af355dd8d18f6c7d",
+      "alphaBounds": [
+        4,
+        7,
+        124,
+        185
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          16,
+          32,
+          1016,
+          1513
+        ],
+        "fitSize": [
+          120,
+          178
+        ],
+        "position": [
+          4,
+          7
+        ],
+        "scale": 0.12
+      }
+    },
+    "256": {
+      "file": "pixels/256/I007.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 27253,
+      "sha256": "9d098345dd600187e2664fdbf6518ff5e9bc61e216e09914e54a3c4d703a7406",
+      "pixelSha256": "97a84cfe36f88d6b24d65f6cf47d6e991c1d65a1b3d8a63b72afc38a8183a048",
+      "alphaBounds": [
+        8,
+        14,
+        248,
+        369
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          16,
+          32,
+          1016,
+          1513
+        ],
+        "fitSize": [
+          240,
+          355
+        ],
+        "position": [
+          8,
+          14
+        ],
+        "scale": 0.24
+      }
+    }
+  },
+  "visualReview": "passed: single complete articulated electric puppet arm viewed in mother and normalized PNG; no visible normalized background residue",
+  "sourceProvenance": {
+    "sourceFilename": "exec-f11d2237-5232-4556-b3e6-de4ec3e46409.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f11d2237-5232-4556-b3e6-de4ec3e46409"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "artifact": "Sunburst generation prompt only",
+  "requestedModel": "gpt-image-2.5-sunburst",
+  "size": "3200x1440",
+  "ratio": "20:9",
+  "references": {
+    "Image1": "生成的战斗主稿：面板字体物品规模权威",
+    "Image2": "生成的营地主稿：场景和共享组件",
+    "Image3": "暗黑地牢商店参考：仅氛围，无功能授权"
+  },
+  "sourceConstraints": "archive/ui-history/全集01/最新设计约束.json",
+  "sourceMasterPrompt": "archive/ui-history/全集01/提示词/01_战斗_装备栏位.txt",
+  "contentSamples": "archive/ui-history/批次01/真实内容样本.json",
+  "contentSampleSha256": "30b193adb81e0c2582846d86f5e6d93b40cb11b25e7e36e53215ca04ef0fe29d",
+  "sharedTopSample": {
+    "hp": "180/180",
+    "stamina": "100/100",
+    "corruption": "0/100",
+    "gold": 4
+  },
+  "sharedTopScope": "视觉样例的操作前状态，不代表新初始经济或实际存档",
+  "geometry": {
+    "screen": [
+      3200,
+      1440
+    ],
+    "safeMargin": 32,
+    "topStatus": [
+      32,
+      32,
+      3136,
+      112
+    ],
+    "left": [
+      32,
+      176,
+      480,
+      1232
+    ],
+    "center": [
+      544,
+      176,
+      2112,
+      1232
+    ],
+    "right": [
+      2688,
+      176,
+      480,
+      1232
+    ],
+    "baseCell": 180,
+    "fullWidthItem": 360,
+    "tabsHeight": 64
+  },
+  "screen": "商店购买详情",
+  "sampleState": "商人青铜淬毒利刃样例选中；左当前装备三件不变；背包空；交易前金币4",
+  "rules": [
+    "购买和出售均已授权",
+    "商人样例与左侧已拥有利刃为不同实例",
+    "价格未知不推断可负担性"
+  ],
+  "samplePointers": [
+    "/items/2/videoCatalogueSample/description"
+  ],
+  "unknownNumbers": [
+    "新商店购买价格",
+    "可负担状态",
+    "购买后金币余额"
+  ],
+  "priceBoundary": "不得将分解所得1、原始价格4或当前拥有物品价格2用作购买价格",
+  "clicks": {
+    "stock": "查看详情",
+    "buy": "以实际报价核验金币和空间后执行，失败保留资金物品",
+    "sellTab": "切换出售详情",
+    "leave": "回到房间"
+  },
+  "promptWordCountWhitespace": 896,
+  "promptSha256": "cf37932c05ba80de36d5660d672e5abab53105c2c1cfb83f5a888ce9dfcee51e",
+  "unknownValueDisplay": "不编写未知数字；省略未定价格行与结果余额；不输出待核对开发说明",
+  "implementationStatus": "视觉候选生成提示词，不表示已实现或通过交互验证"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I019",
+  "name": "风火权杖",
+  "status": "generated-normalized",
+  "source": "mothers/I019.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I019.png",
+  "motherSha256": "5a75eab2b6c593fedd1214c3f0963ec3f235d34c6e611d3aa125ce0e63946027",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I019.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 6849,
+      "sha256": "17479178b532a9cead5fec6ebf8ed66c9a00ab66da0714fe78050451deb33cec",
+      "pixelSha256": "62043d68ae8b57eeda7eb1a644ddca0930ae84cb6b78f306eee1ef734558cea0",
+      "alphaBounds": [
+        13,
+        4,
+        115,
+        187
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          143,
+          4,
+          989,
+          1532
+        ],
+        "fitSize": [
+          102,
+          184
+        ],
+        "position": [
+          13,
+          4
+        ],
+        "scale": 0.12041884816753927
+      }
+    },
+    "256": {
+      "file": "pixels/256/I019.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 24952,
+      "sha256": "01bd643280404d4d71e881ee225f9712e4a5a3b81d8ddea564cd5504e971f479",
+      "pixelSha256": "2b886e9556eecf3a3a0fc234d753b07ee06d0a60ef9cb7584bf7128511bade46",
+      "alphaBounds": [
+        26,
+        9,
+        229,
+        375
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          143,
+          4,
+          989,
+          1532
+        ],
+        "fitSize": [
+          204,
+          368
+        ],
+        "position": [
+          26,
+          8
+        ],
+        "scale": 0.24083769633507854
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and normalized PNG viewed; correct complete single subject; I017 is now contiguous functional bow with continuous taut string",
+  "sourceProvenance": {
+    "sourceFilename": "exec-086b50ab-8b87-4d81-896b-671f5dbfbe37.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-086b50ab-8b87-4d81-896b-671f5dbfbe37"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I009",
+  "name": "旋风杖",
+  "status": "generated-normalized",
+  "source": "mothers/I009.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I009.png",
+  "motherSha256": "aefdb4c83323eb5f651dcf4b7189445aeebc0534e1421c77ebff6de30442072c",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I009.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 5943,
+      "sha256": "1d196d7ef5dbb7d1f2632983242f3c8c8a5f3964b4fcdbfb839c0cd8aa67135a",
+      "pixelSha256": "55ca506c959183137ceb5cea3ace62a37d2a620094737891deba1d1701454176",
+      "alphaBounds": [
+        14,
+        4,
+        113,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          153,
+          23,
+          957,
+          1515
+        ],
+        "fitSize": [
+          99,
+          184
+        ],
+        "position": [
+          14,
+          4
+        ],
+        "scale": 0.12332439678284182
+      }
+    },
+    "256": {
+      "file": "pixels/256/I009.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 21678,
+      "sha256": "b6786176baa3c7956b9aa80cec52db68027a12cc9088d1b22c888e45f976e7a5",
+      "pixelSha256": "7269ebb22d712c9092cddad77b032aaca6201b4116744d19fcb7386c42b1d936",
+      "alphaBounds": [
+        29,
+        8,
+        226,
+        375
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          153,
+          23,
+          957,
+          1515
+        ],
+        "fitSize": [
+          198,
+          368
+        ],
+        "position": [
+          29,
+          8
+        ],
+        "scale": 0.24664879356568364
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; distinct correct subject, complete outline, no visible normalized background residue",
+  "sourceProvenance": {
+    "sourceFilename": "exec-4c71b1e6-1abe-4833-86de-ece381788039.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-4c71b1e6-1abe-4833-86de-ece381788039"
+  }
+}

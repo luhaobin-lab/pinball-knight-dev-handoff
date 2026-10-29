@@ -1,0 +1,29 @@
+Use case: ui-mockup. Generate ONE finished, restrained dark-fantasy game HUD concept screenshot, exactly 3200 × 1440 pixels, 20:9 ultrawide landscape. This is a polished implementable screen, not a poster, wireframe, device mockup, montage, or perspective presentation.
+
+REFERENCE ROLES, in this exact order:
+Image 1 is the APPROVED GEOMETRY guide. Preserve its screen regions and its TWO-COLUMN SQUARE GRIDS ON BOTH SIDES. Its grey rectangles and explanatory center text are not the finished art.
+Image 2 is the real game scene captured without UI. Preserve the actual irregular crypt floor, stone blocks, candles, teal corruption, purple circular objects, one small white-and-gold horned knight and exactly THREE red-hooded enemies. Fit the entire existing room into the center gameplay region without cropping its edges. Do not replace this scene with a generic dungeon, another game's characters, or an illustration.
+Image 3 is the old actual game UI: use only to identify the three actual item icons and the knight, NOT its old one-column inventory or old layout.
+Image 4 (Blasphemous) supplies restrained worn-metal edges and subtle gothic detail ONLY.
+Image 5 (Darkest Dungeon character panel) supplies charcoal surfaces, clean bone-white text hierarchy and controlled ink-like contrast ONLY. Do not import its character classes, resistances, skills, horizontal skill bar, portraits, or wording.
+
+MOST IMPORTANT USER CORRECTION:
+Left EQUIPPED ITEMS and right CARRIED INVENTORY must use EXACTLY THE SAME regular square cell module, cell size, gap, frame thickness, and icon scale. BOTH panels have exactly TWO equal columns and FIVE clearly visible rows in this screen. No long horizontal list rows on the left. No tiny bag cells paired with oversized equipment cards. Both grid top edges align. The same item must visually fit the same cell on either side. Think disciplined inventory grid, not ornamental trading cards.
+
+LAYOUT:
+A slim full-width top status strip. Three horizontal pieces of information with real readable Chinese:
+“生命 180 / 180” with a dark crimson filled bar;
+“体力 100 / 100” with a muted cool teal filled bar;
+“腐化 0 / 100” with a subdued violet corruption indicator at zero.
+Also show “幽冥骑士” at left and “金币 4” at right. Do not add mana, hunger, gems, currencies, or duplicate status bars inside the side panels.
+Left sidebar: title “装备”, small subtitle “已装备”. Two columns of identical square cells matching the right. In reading order the first SIX cells are locked, represented with small simple dull padlock glyphs rather than huge chains. Seventh cell empty; eighth shows the actual green-bottle icon for 凝血毒剂; ninth the actual green mushroom icon for 灵魂香菇; tenth the actual silver-blade-and-gold-hilt icon for 淬毒利刃. These three names may appear in small clean captions if they fit; icon recognition and uncluttered cells matter more. Use actual item appearance from Image 3; do not invent additional equipment.
+Below the equipment grid place exactly TWO compact square icon buttons side by side: a helmet/head silhouette labeled “属性”, and an open illustrated book labeled “图鉴”. They are small icon controls, not full-width text buttons, not extra inventory cells. Make them easy to identify, with a precise restrained outline. The book opens a read-only equipment/talent catalogue; do not add a plus, skill-point spending badge or upgrade arrow here.
+Right sidebar: title “随身背包”. SAME two-column five-row square grid, empty in this baseline state. A thin vertical scrollbar and bottom continuation cue clearly imply vertical scrolling. Do not label it safe storage, stash, or an insurance vault. Do not add a third column.
+Center: keep the real room and all four characters fully visible, with generous separation from the sidebars. Do not enclose every piece of the room in additional boxes. Preserve the pixel-art scale and original hero proportions. No enemy health bars are required in this initial neutral presentation; do not invent attacks or moving projectiles.
+Small unobtrusive bottom-center copy: “战斗中不可调整装备” and “移动鼠标瞄准 · 左键松开发射”.
+
+VISUAL DIRECTION:
+Premium and restrained: near-black matte panels, thin dark oxidized metal outlines, sparse old-gold accents at only the main panel corners, clean rectangular grids, faint wear. UI must belong beside the real pixel dungeon. Bone-white Chinese labels, muted secondary text, a consistent crisp Chinese typeface, clear normal numerals. Do NOT give every slot skull ornaments, cathedral arches, deep bevels, glossy gold, magical swirls, jewelry framing, or bright glows. No glassmorphism, large rounded SaaS cards, heavy texture behind text, modern neon.
+The user's priority is regularity and legibility. The original game-style inventory structure should remain immediately recognizable, only more coherent and carefully finished.
+No developer notes, diagram text, annotation arrows, watermark, artboard label, character card illustration, promotional title, forge, enchantment, crafting station, shop, talent-upgrade panel, route map, quests, daily rewards, or new features. Do not render any explanatory placeholder text from the center of Image 1.
+Final result must be a single coherent 20:9 game screen ready for visual review.

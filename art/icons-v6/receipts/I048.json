@@ -1,0 +1,86 @@
+{
+  "id": "I048",
+  "name": "固甲石",
+  "status": "generated-normalized",
+  "source": "mothers/I048.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I048.png",
+  "motherSha256": "6043fe0935aab0cae33a910ef20760649ce7ff7158725e0cede501456e43d60e",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I048.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6175,
+      "sha256": "435726365104aef0c317102d7fab724e5b20ac482eb304dd5464dcc5117b2639",
+      "pixelSha256": "d044c626fadf9627663fb9f44ea35b71e0ccfb448d2d70a1aed3411613d1cdc4",
+      "alphaBounds": [
+        12,
+        4,
+        116,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          123,
+          51,
+          1138,
+          1219
+        ],
+        "fitSize": [
+          104,
+          120
+        ],
+        "position": [
+          12,
+          4
+        ],
+        "scale": 0.10273972602739725
+      }
+    },
+    "256": {
+      "file": "pixels/256/I048.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23070,
+      "sha256": "bb373065e2db832beafc5f8193a41f184065175b54e461942fd1cb4d80fabe66",
+      "pixelSha256": "ae074a1d1d0e83186dc7158e2b5259394e2642d6b68559f62aefc4c5ab6b87ec",
+      "alphaBounds": [
+        23,
+        8,
+        232,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          123,
+          51,
+          1138,
+          1219
+        ],
+        "fitSize": [
+          209,
+          240
+        ],
+        "position": [
+          23,
+          8
+        ],
+        "scale": 0.2054794520547945
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; correct complete core sword / energy amulet / armor stone",
+  "sourceProvenance": {
+    "sourceFilename": "exec-f65ddf8f-1415-4c65-9bf7-e2664a99ccf0.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f65ddf8f-1415-4c65-9bf7-e2664a99ccf0"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "status": "pass-bounded-native-followup-after-coverage-wording-correction",
+  "reviewedAt": "2026-10-27T17:22:53.434818+00:00",
+  "target": {
+    "scope": "Frozen native-followup only; original copied math versus reconstructed guard and static cache claims",
+    "forbidden": [
+      "No R3 edits",
+      "No native/game execution by reviewer",
+      "No source installation changes"
+    ]
+  },
+  "checks": {
+    "PEhash": "ccd1db79c2eb3668242c4c10d271234963bc9dc1efa3ec0afddace444d1afcab",
+    "originalMathBlocksRehashed": [
+      {
+        "start": "0x1445ac449",
+        "endExclusive": "0x1445ac4e1",
+        "bytes": 152,
+        "sha256": "f01a8c08667cb1432d192bbdf476a5f28b0ff3a1e9c6e33458147faede2ebedb"
+      },
+      {
+        "start": "0x1445ac52f",
+        "endExclusive": "0x1445ac5df",
+        "bytes": 176,
+        "sha256": "065daaf8d93234c6a6e1294fea4e49c3c9a2ff615bd452e35805aa5d4b0c9ae1"
+      }
+    ],
+    "independentInstructionsAudited": 72,
+    "RIP32ConstantRelocationsVerified": [
+      {
+        "VA": "0x1445ac463",
+        "sourceConstant": "0x146e4cce0",
+        "localConstant": 8192,
+        "raw16matches": true
+      },
+      {
+        "VA": "0x1445ac48c",
+        "sourceConstant": "0x146b25a90",
+        "localConstant": 8208,
+        "raw16matches": true
+      },
+      {
+        "VA": "0x1445ac49b",
+        "sourceConstant": "0x146b258f8",
+        "localConstant": 8224,
+        "raw16matches": true
+      }
+    ],
+    "privateImageSize": 16384,
+    "originalFiniteImportIdentified": {
+      "dll": "api-ms-win-crt-math-l1-1-0.dll",
+      "name": "_finite",
+      "IAT": "0x146aedb10"
+    },
+    "storedOutputComparisons": 1052,
+    "bitwiseMismatches": 0,
+    "callsByExecutedPath": {
+      "guardShimOnly": 8,
+      "originalMathBody": 1044
+    }
+  },
+  "findings": [
+    {
+      "id": "NATIVE-FOLLOWUP-01",
+      "priority": 2,
+      "state": "resolved",
+      "fix": "Results,comparison,findings and each case row now distinguish1044 copiedPE math executions plus8 ABIguard-only cases;1052 totalcomparison count. Originalrawvectorbytes preserved with correct metadata interpretation."
+    }
+  ],
+  "scopeDecisions": {
+    "clamp": "Original minsd at0x1445ac452 is inside copied block; finite P>1 clamp is actual copied arithmetic coverage.",
+    "finiteAndCutoff": "The original wrapper imports _finite and uses comisd/jbe. Harness recreates dispatch/early-return branches in ABI shim using same imported function and copied compare opcode;8 early-return outputs are shim validation, not execution of original wrapper control flow.",
+    "mathBlocks": "72 original instructions match current PE bytes and saved private image; only3RIPdisp32 relocations differ, constants match PE16bytes. No originalTLS/cache code copied into selectedpath.",
+    "cache": "128-entry insertion-order/FIFO rather thanLRU is supported by static hit-return and insertion ring code. Native hit/miss,collision chaining,allocation,eviction not dynamically tested.",
+    "collisions": "Four collision pairs test repeated puremath only; no originalcache semantics proof."
+  },
+  "guardOnlyVectors": [
+    {
+      "index": 0,
+      "PbitsLE": "000000000000f0ff",
+      "CbitsLE": "0000000000000000"
+    },
+    {
+      "index": 1,
+      "PbitsLE": "000000000000f0bf",
+      "CbitsLE": "0000000000000000"
+    },
+    {
+      "index": 2,
+      "PbitsLE": "0000000000000080",
+      "CbitsLE": "0000000000000000"
+    },
+    {
+      "index": 3,
+      "PbitsLE": "0000000000000000",
+      "CbitsLE": "0000000000000000"
+    },
+    {
+      "index": 4,
+      "PbitsLE": "2c431cebe2360a3f",
+      "CbitsLE": "0000000000000000"
+    },
+    {
+      "index": 5,
+      "PbitsLE": "2d431cebe2360a3f",
+      "CbitsLE": "0000000000000000"
+    },
+    {
+      "index": 26,
+      "PbitsLE": "000000000000f07f",
+      "CbitsLE": "0000000000000000"
+    },
+    {
+      "index": 27,
+      "PbitsLE": "000000000000f87f",
+      "CbitsLE": "0000000000000000"
+    }
+  ],
+  "remainingLimits": [
+    "No reviewer native-codeexecution; storedvectors independentlyrecomputed andcopiedbytesaudited",
+    "1052testedcases notallDoublevalues formalproof",
+    "CompleteTLS/cachewrapper andfullsessionRNGinterleaving remainoutsidecoverage"
+  ],
+  "sourceHashes": {
+    "algorithms/native-followup/result.json": "12d3716332a2706b0005ac6077957ad4bbde364f71ab9ac12147c4a83476590a",
+    "algorithms/native-followup/findings.md": "ba07dffce3da846ff34ad5cb9a26558c7d076a8c5068c88a8ef06a34b4a1e9e5",
+    "algorithms/native-followup/followup-tables.json": "db481dd872e5a5e500f41da38052847e9c04794f53042234366956e157280685",
+    "algorithms/native-followup/comparison.json": "08d3d18db6307432a9c18ace13cfc5452655b2d33d06eecf62823804c10d0fc1",
+    "algorithms/native-followup/cfromp_math_oracle.py": "ed2736894b6992ba5402c5bece04f250f58f1736dcb482ec0a64560a3e428b11",
+    "algorithms/native-followup/verify_cfromp.py": "122e9dcfef582fb6ac0ead48dbb0fe3d8b561bc3c0a55405d85a6407e72d6408",
+    "algorithms/native-followup/native-math-final-02/manifest.json": "17bf12e61fe8835a94f66d6edb58b360135c3ee5676fd27e4d7353a7e3a8af55",
+    "algorithms/native-followup/native-math-final-02/copy-audit.json": "09142faa0ab48051082ddc4a43f6e32fe410d59de3b7cf80e110e6d449dca21e",
+    "algorithms/native-followup/native-math-final-02/private-code-image.bin": "09b75825af03035e4e6bc6aaff0dd17ef914fa5b11d67bc8a4013961d45a0207",
+    "algorithms/native-followup/native-math-final-02/vectors.json": "cb4a6df32040059c10c7814767e419dc10b3742c3bfe14fbef0f6406225bdd87"
+  },
+  "proposals": [],
+  "needs": [],
+  "supersedes": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\semantic\\native-followup-review.json",
+  "finalMetadataChecks": {
+    "counts": {
+      "inputCases": 1028,
+      "copiedMathInputCases": 1020,
+      "abiGuardOnlyCases": 8,
+      "hashCollisionInputPairs": 4,
+      "repeatedMathSequenceCalls": 24,
+      "copiedMathExecutions": 1044,
+      "totalHarnessBitwiseComparisons": 1052
+    },
+    "tableExecutionCategories": {
+      "仅重建ABI保护分支": 8,
+      "复制原数学块": 1020
+    },
+    "rawVectorsUnchanged": true,
+    "fileManifestHashesMatch": true,
+    "originalGuardStaticOnlyExplicit": true,
+    "cacheNotExecutedExplicit": true
+  }
+}

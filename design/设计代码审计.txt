@@ -1,0 +1,101 @@
+设计与代码只读审计
+日期：2026-10-29
+审计源工作区：提取过程
+范围：正式GDD、outputs/01a18335正式交付、outputs/新循环设计、battle-scene源码与现存验证证据。
+本次没有修改原项目、运行游戏、重跑游戏测试、删除文件或上传。设计文件仅复制到交接包design目录；仅对复制后的制作脚本调整相对数据路径。
+
+一、当前权威判断
+最新设计覆盖关系见 设计权威与进度.txt；已逐页核对“继续整理视频装备与属性”指定线程的相关用户请求。
+100怪物最终包替代旧6怪作为普通/精英内容范围；50附魔最终JSON与GDD enchants.json一致。
+无尽是目标、两层是初步验证切片，不应强行二选一。100怪专项明确不改其他循环模块。
+设计ID不等于已实现内容，现100怪runtime_validation全部是not_yet_verified。
+
+二、代码实际状况
+battle-scene/README.md 与 AGENTS.md明确：从 FilthyFrost/taptapgame-abyss-archive 的game/提取，来源提交 a183844a62b4835a634c404c66f758cab531fba7。
+当前工作区根目录和battle-scene都没有.git。git -C battle-scene status --short返回“not a git repository”；不能报告工作树干净或把它当已提交的新项目。
+相邻taptapgame-abyss-archive有.git，但本次没有改动或借用其历史进行提交。
+
+src/main.ts：
+  默认动态加载battle.ts；带?scene=才进入debug路由。
+src/game/battle-start.ts：
+  createBattleGame(seed=1)通过createGame和合法命令经过选人、初始奖励、选房，进入有敌人的真实核心战斗；没有把展示占位场景当真实战斗。
+  默认记录为旧游戏floor=4、幽冥骑士、3只齐刘海、凝血毒剂/灵魂香菇/淬毒利刃。
+  此floor是原房间推进字段，不可直接当新模式“地牢第4层”。
+src/battle.ts：
+  Shell创建时没有save callback，不读写普通冒险浏览器存档。
+  鼠标瞄准、松开发射、重开/全屏入口、UI事件隔离和文本状态接口存在。
+  game.view.screen离开room即finish，显示单场完成/结束；重开用页面reload。
+src/core/与src/content/：
+  保留原有弹射、伤害、回合、物品、天赋、商店、合并、制造、物品附魔、地图与仓库的实现和数据，是可复用底盘。
+  搜索没有发现MON_N001..MON_N080、MON_E001..MON_E020、monster100新模式导入或E050新格子附魔接入；不能把已有同名基础系统等同新设计完成。
+src/procgen/：
+  说明明确几何、纹理、图标由代码/种子程序化构造；当前运行视觉不是新增Sunburst UI/ICON批次已经集成的证据。
+
+三、明确的新旧实现差距
+1. 新节点推进：旧src/core/sys/map/仍依赖map.enter选路；需要营地→战斗→宝箱→必经商店→随机特殊节点→Boss→结算的独立推进器。
+2. 永久成长：src/core/sys/run/index.ts的英雄死亡后初始化将当前经验清零、金币设8、英雄等级设1、升级点清零；返回营地调用新的轮回。这与新规则保留金币/等级/经验/技能点冲突。
+3. 营地天赋：src/core/sys/talents/levelup.ts在回合开始消耗升级点并触发随机天赋选择；没有新营地技能点解锁/金币升级的完整路径。
+4. 保险箱：src/core/sys/camp/stash.ts使用10×14旧格网、永恒神像/教学门槛及遗产限制；并非新个人保险箱单列滚动列表。UI新07只说明新目标。
+5. 商店卖出：旧shop/index.ts有商品购买；未找到独立item.sell。craft/dismantle是分解及其事件，不能只换文案当出售。
+6. 格子附魔：旧sys/enchant处理物品附魔石和提取；新50种绑定行、顶部锚点、免费二选一、付费ROLL、通关继承/死亡清空及防回路事件合同都需要接线。
+7. 100怪：需要加载器、源字段初始化、禁用源随机技能/Boss标签/旧层成长、预告锁定、实际移动/命中、事件时钟、后代奖励账本与空间门。参考Python没有执行真实碰撞。
+8. UI/输入：当前默认界面仍旧HUD与鼠标控制。三TAB、整宽纵向卡、营地只读/可操作状态及真实触控须按新UI权威实施。静态图片不证明控件、滚动、购买或存档。
+9. 深层：新普通/精英公式只覆盖相关数值；深层Boss、经济、玩家成长上限、科学数和可达落点仍需联合验证。
+
+四、启动、导出和检查命令
+在代码目录执行：
+  node --version
+  npm ci
+  npm run dev
+默认开发地址由vite.config.ts指定为 http://127.0.0.1:5190/ 。
+
+要求Node.js >=24。审计时普通shell的node是v20.20.0，npm为10.8.2，不能直接用这个node宣称构建环境满足要求。
+package.json锁定依赖：three 0.186.1、@types/three 0.186.0、playwright 1.64.1、typescript 7.0.2、vite 8.3.5、vitest 5.0.5。package-lock.json应随源码保留，使用npm ci。
+
+常用命令：
+  npm run build
+  npm run check
+  npm exec vitest -- run tests/battle-start.test.ts tests/battle-pause.test.ts --maxWorkers=4
+  npm run package:battle
+package:battle导出delivery/独立战斗场景.html；.gitignore忽略delivery，所以公开交接包若要同时携带离线版，应单独纳入发布文件或显式保留，不能以git add默认结果当作已经上传。
+
+已有浏览器QA脚本：
+  node tools/battle-smoke.mjs
+  node tools/battle-outcome.mjs
+两者硬编码macOS Chrome路径。换电脑须先调整副本或统一传入浏览器路径；skill-web-game-client.mjs支持BATTLE_CHROME_PATH，不能误认为其他脚本也支持同一变量。
+tools/lib/harness.mjs使用TAPTAP_STUDIO_DIR或系统临时目录；带有旧Windows目录的历史fallback，不应执行旧调度流程。
+npm run data:import / data:check依赖外部原始dump，默认D:/TAPTAPGAME_codex/reference/dump；它们不是新机器启动必需步骤。不要为运行游戏而重新抓取、覆盖已生成数据。
+部分内容roundtrip/source测试在原dump不存在时会跳过；测试全绿不代表这些外部来源核对已经执行。
+GDD build_config.py会重建初始配置，人工调过JSON后不要随意运行；其旧两层基线也不能用于覆盖100怪专项。
+
+五、现存验证证据与本次验证边界
+battle-scene/SOURCE_AND_VALIDATION.json、progress.md记录2026-10-28的256项相关测试通过、项目与无DOM核心TypeScript检查通过、Chrome file://实际鼠标操作和胜利/失败路径。
+现存artifacts/battle-smoke/report.json、battle-outcome/report.json为通过，记录无页面错误与外部请求；它们是历史运行证据，本次没有重跑。
+本次只读计算了当前离线HTML：
+  字节数6327018
+  SHA256 f235193b40af35bc71965004f727efc355cf83eed6ef92376ccb66e5158d651a
+与SOURCE_AND_VALIDATION.json记录完全一致，所以该HTML仍是记录中的候选文件。此检查不等于重新运行代码或验证新循环。
+
+正式GDD manifest列44项，怪物manifest列15项；本次逐项读取并复算SHA256均匹配。
+GDD现存最终报告为30项离线检查、18,000编队样本；100怪为22项、10,800样本。这些是生成、字段、预算、事件与账本参考检查，不证明玩法平衡或真实战斗。
+附魔最终JSON与GDD副本逐字节一致，50条设计启用；100怪JSON实际计数80+20，全部标未运行验证。
+
+六、建议纳入公开交接包
+源码主体：battle-scene/src、tests、tools、index.html、package.json、package-lock.json、vite.config.ts、tsconfig.json、AGENTS.md、README.md、SOURCE_AND_VALIDATION.json、progress.md、.gitignore。
+保留运行字体以及src/ui/font/OFL.txt、licenses/，不能只拷字体文件。
+保留精简的历史验证证据和离线HTML，明确日期/候选哈希与范围。
+tests/tools-review/style.test.ts实际读取studio/golden/*.png；若保留该测试，必须保留所需golden图或显式调整打包测试范围，不能删掉整个studio后声称完整check可复现。
+spec/launch-feel*与相关真实测试规格可保留；spec/parity/catalog/catalog.json约50.6MB，index.html约30.8MB，主要是原作研究索引，可独立研究附件交付，不应无差别放进主要源码包。
+设计主体：本design目录的三个正式包、权威说明、用户规则依据、必要生成/核查脚本、来源清单。
+原始表格副本在GDD中保留来源/哈希。是否公开派生原作数据，应由主交接的来源清单如实标明；其既有公开归档不等于新许可证。
+
+七、建议排除或单独核实
+排除node_modules、__pycache__、*.pyc、.DS_Store、.git数据库、浏览器缓存、凭据、私人日志、本机运行目录、旧node_modules软链接、所有临时下载目录。
+不纳入全部outputs/01a18335/*_work；before_setting_audit、旧refine/assemble会包含已撤销机制，不能作为默认再生入口。
+不执行studio旧orchestrator、lease、scheduler或Windows绝对路径工作流；保留必要架构文件时标“历史参考”。
+DungeonBound/风暴怕死队官方截图、原作宣传图和其他游戏截图是参考材料，默认用出处链接清单；不得称为本项目自有素材或把参考图库混入可分发游戏资产。
+完整EXE、PAK、UCAS、UTOC和原作运行载荷不属于本交接的源码/设计必要文件。
+battle-scene和原archive根目录未找到项目LICENSE。src/content/demo、src/content/text与spec/parity包含由原作dump导入/转写的内容；这次审计没有取得新的版权授权证明。不得给整个包随意补一个MIT并宣称覆盖第三方材料。
+字体已有OFL文本，应原样保留。第三方依赖由lockfile安装，不打包node_modules来绕过许可证信息。
+这里是来源与文件范围标记，不对素材权属作未经核实的肯定结论。
+

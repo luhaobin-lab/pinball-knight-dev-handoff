@@ -1,0 +1,146 @@
+{
+  "removed": [
+    {
+      "path": "outputs/01a18142",
+      "reason": "731文件与outputs/视频内容研究资料逐项SHA256一致；保留中文命名目录",
+      "bytes": 152857246
+    },
+    {
+      "path": ".DS_Store",
+      "reason": "Finder缓存",
+      "bytes": 8196
+    },
+    {
+      "path": "battle-scene/.DS_Store",
+      "reason": "Finder缓存",
+      "bytes": 6148
+    },
+    {
+      "path": "taptapgame-abyss-archive/.DS_Store",
+      "reason": "Finder缓存",
+      "bytes": 8196
+    },
+    {
+      "path": "outputs/.DS_Store",
+      "reason": "Finder缓存",
+      "bytes": 6148
+    },
+    {
+      "path": "outputs/视频内容研究资料/.DS_Store",
+      "reason": "Finder缓存",
+      "bytes": 8196
+    },
+    {
+      "path": "taptapgame-abyss-archive/docs/.DS_Store",
+      "reason": "Finder缓存",
+      "bytes": 8196
+    },
+    {
+      "path": "taptapgame-abyss-archive/docs/research/.DS_Store",
+      "reason": "Finder缓存",
+      "bytes": 8196
+    },
+    {
+      "path": "work/__pycache__",
+      "reason": "Python可再生缓存",
+      "bytes": 32099
+    },
+    {
+      "path": "outputs/01a18335/monster100_work/__pycache__",
+      "reason": "Python可再生缓存",
+      "bytes": 95394
+    },
+    {
+      "path": "outputs/01a18335/怪物100种设计/__pycache__",
+      "reason": "Python可再生缓存",
+      "bytes": 32862
+    },
+    {
+      "path": "地牢搜打撤_GDD_2026-10-29/04_算法参考/__pycache__",
+      "reason": "Python可再生缓存",
+      "bytes": 69612
+    },
+    {
+      "path": "outputs/01a18335/怪物100种设计.zip",
+      "bytes": 386645,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    },
+    {
+      "path": "outputs/HUD重构_AI交接包/开发源码.zip",
+      "bytes": 9033140,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    },
+    {
+      "path": "outputs/HUD重构_AI交接包.zip",
+      "bytes": 13122376,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    },
+    {
+      "path": "outputs/UI视觉迭代/Sunburst_GOTHIC_CULT_三张原图.zip",
+      "bytes": 19513464,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    },
+    {
+      "path": "outputs/UI视觉迭代/Sunburst_去AI质感07_三张原图与提示词.zip",
+      "bytes": 15795570,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    },
+    {
+      "path": "outputs/UI视觉迭代/Sunburst_规整卡槽05_三张原图.zip",
+      "bytes": 13753605,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    },
+    {
+      "path": "outputs/UI视觉迭代/Sunburst_风暴怕死队09_12张原图与提示词.zip",
+      "bytes": 65668697,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    },
+    {
+      "path": "outputs/UI视觉迭代/手机UI_第二轮.zip",
+      "bytes": 81489523,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    },
+    {
+      "path": "outputs/视频内容研究资料包.zip",
+      "bytes": 128281770,
+      "reason": "独立审计已逐ZIP成员与留存源文件校验一致；嵌套源码ZIP亦独立校验；当前交接完整包取代旧重复压缩包"
+    }
+  ],
+  "removedBytes": 500185279,
+  "notPackagedButRetainedLocally": [
+    {
+      "path": "属性物品天赋视频.mp4",
+      "bytes": 2315372543,
+      "sha256": "c6fd688a370404fefdbad2c0ceb085f71c0161642b76f5b0d0054f91bd43fc80",
+      "reason": "原始录屏保留原电脑；提取后的数据、截图和表格已经收录，可继续开发，无需重复公开大视频"
+    },
+    {
+      "path": "taptapgame-abyss-archive/.git",
+      "reason": "既有仓库历史不嵌套；保留原提交来源，当前可编辑源码在game"
+    },
+    {
+      "path": "**/node_modules; **/dist; **/__pycache__; **/.DS_Store",
+      "reason": "依赖/缓存/可重建产物不打包，保留lockfile与离线HTML"
+    },
+    {
+      "path": "不全等的v10 ZIP与work中间导出/日志",
+      "reason": "9份完全重复ZIP已删；当前v10 ZIP及独有过程材料本机保留，必要制作脚本已归类"
+    },
+    {
+      "path": "旧UI方向的全套候选位图",
+      "reason": "本机保留；交接只保留提示词/研究/记录/总览与v09制作输入，以免误当当前正式资产"
+    }
+  ],
+  "currentArt": "UI v10全部目录完整；ICON v6全套在完整ZIP，Git排除mothers",
+  "scope": "清理原工作区的已证实重复目录与缓存；其余来源材料仍保留。公开副本另外去会话字段和迁移路径。",
+  "handoffBuildCachesRemoved": [
+    {
+      "path": "game/node_modules",
+      "bytes": 114454868
+    },
+    {
+      "path": "art/icons-v6/dist",
+      "bytes": 27420667
+    }
+  ]
+}

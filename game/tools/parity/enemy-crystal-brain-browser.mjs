@@ -1,0 +1,29 @@
+import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import{execFileSync}from'node:child_process';import{createHash}from'node:crypto';
+import{ROOT,buildCheckout,serve,launchChrome,runTool,watchPage,waitReady}from'../lib/harness.mjs';
+const i=process.argv.indexOf('--out'),out=path.resolve(i<0?'D:/TAPTAPGAME_codex/studio/shots/parity-enemy-crystal-brain':process.argv[i+1]);assert(!fs.existsSync(out));fs.mkdirSync(out,{recursive:true});
+const report={head:execFileSync('git',['rev-parse','HEAD'],{cwd:ROOT,encoding:'utf8'}).trim(),dirty:execFileSync('git',['status','--porcelain'],{cwd:ROOT,encoding:'utf8'}),scope:'Real boot/newRun/firstroom, followed by controlled source enemy placements and ability/death boundaries. No visual-state injection. Not natural room-variant admission or full parity.',errors:[],shots:[],cleanup:false};
+try{await runTool(async cleanup=>{
+ const dist=await buildCheckout();report.buildFiles=fs.readdirSync(path.join(dist,'assets')).filter(n=>n.endsWith('.js')).map(n=>({file:n,sha256:createHash('sha256').update(fs.readFileSync(path.join(dist,'assets',n))).digest('hex')}));
+ const server=await serve(dist);cleanup(server.close);const{browser,gpu}=await launchChrome();report.gpu=gpu;cleanup(()=>browser.close());const ctx=await browser.newContext({viewport:{width:1920,height:1080}});cleanup(()=>ctx.close());const page=await ctx.newPage();watchPage(page,report.errors,'crystal-boundary');
+ await page.addInitScript(()=>{let q=new Map(),id=1,t=0;window.requestAnimationFrame=fn=>{q.set(id,fn);return id++;};window.cancelAnimationFrame=id=>q.delete(id);window.__step=(n=1)=>{for(let i=0;i<n;i++){t+=1000/60;const now=q;q=new Map();for(const fn of now.values())fn(t);}};});
+ const boot=async()=>{await page.goto(server.url+'?inspect=1&capture=1&seed=3');await waitReady(page,30000);return page.evaluate(()=>{const s=window.__shell,g=s.game,commands=[];const send=c=>{commands.push(c);const r=g.send(c);if(!r.ok)throw Error(JSON.stringify(r));g.runUntilInput();};g.runUntilInput();send({type:'title.newRun'});send({type:'hero.start'});send({type:'map.enter',cell:g.view.map.cells.find(c=>c.enterable).id});window.__step(60);const w=g.world,m=w.mode;window.__spawn=(row,at)=>{const a=w.sys.turn.函数库_技能.召唤角色到场上(m,m,'CatapultHero/数据表/角色/数据表_敌人_普通',row,at,true,false,false).召唤出来的;a.更新运动数据();return a;};return{screen:g.view.screen,phase:g.view.phase,commands};});};
+ const snap=async(name,frames=1)=>{await page.evaluate(n=>window.__step(n),frames);const state=await page.evaluate(()=>{const s=window.__shell,g=s.game,v=g.view;return{screen:v.screen,modal:v.modal?.kind??null,time:v.time,hero:v.hero&&{hp:v.hero.hp,stamina:v.hero.stamina,position:v.hero.position},field:v.field.map(a=>({row:a.row,id:a.id,hp:a.hp,hidden:a.hidden,position:a.position})),terrain:v.terrain,projectiles:v.projectiles,projectileArt:s.controller.stage?.projectileStage?.group.userData,ground:s.controller.stage?.terrainStage?.group.userData};});assert.equal(state.screen,'room');assert.equal(state.modal,null);assert.deepEqual(state.projectileArt?.unmapped??[],[]);const file=path.join(out,name+'.png');await page.screenshot({path:file});report.shots.push({name,file,state});return state;};
+ report.volleyBoot=await boot();assert.equal(report.volleyBoot.screen,'room');
+ await page.evaluate(()=>{const g=window.__shell.game,m=g.world.mode,a=window.__spawn('结晶簇',{x:0,y:0,z:0});window.__crystal=a;m.玩家角色.K2_SetActorLocation({x:-320,y:180,z:56});m.玩家角色.更新运动数据();const s=a.拥有的主动能力.find(s=>s.能力名==='发射8个晶刺');a.当前能力=s;s.被选中();s.本技能激活中=true;a.释放技能中=true;s.执行技能(false);});
+ const volley=await snap('crystal-six-source-shards',14);assert(volley.projectiles.filter(p=>p.cls.endsWith('蓝图_发射物_晶刺')).length>=6);assert(volley.projectileArt.visibleSprites>0);
+ const landed=await snap('source-caltrops-landed',35);assert(landed.ground.caltrops>0);
+ report.netBoot=await boot();
+ await page.evaluate(()=>{const g=window.__shell.game,m=g.world.mode,a=window.__spawn('水母脑',{x:64,y:-220,z:0}),b=window.__spawn('水母脑',{x:64,y:220,z:0});window.__brain=a;window.__other=b;m.玩家角色.K2_SetActorLocation({x:64,y:0,z:56});m.玩家角色.更新运动数据();m.当前层回合=2;const e=a.拥有的效果.find(e=>e?.def.name==='蓝图_效果_电网');window.__net=e;e.持续中触发('效果.时机.新一天时');window.__hpBefore=g.view.hero.hp;});
+ const linked=await snap('electric-net-actual-hit',31);assert(linked.ground.beams>0);assert(linked.hero.hp<await page.evaluate(()=>window.__hpBefore));
+ const visible=await snap('electric-net-visible-after-flash',12);assert(visible.ground.beams>0);
+ await page.evaluate(()=>{const a=window.__brain,s=a.拥有的主动能力.find(s=>s.能力名==='电场');a.当前能力=s;s.被选中();window.__blast=s;});
+ const warning=await snap('electric-field-source384-warning',1);assert(warning.terrain.some(t=>t.kind==='target'&&t.radius===384));
+ await page.evaluate(()=>window.__blast.执行技能(false));await snap('electric-field-hit',2);
+ await page.evaluate(()=>window.__net.关闭特效());const closed=await snap('electric-net-source-close',1);assert.equal(closed.ground.beams,0);
+ report.summonBoot=await boot();
+ await page.evaluate(()=>{const g=window.__shell.game,m=g.world.mode,a=window.__spawn('章鱼脑',{x:32,y:32,z:0});window.__mother=a;const s=a.拥有的主动能力.find(s=>s.能力名==='召唤水母脑');a.当前能力=s;s.被选中();s.执行技能(false);});
+ const children=await snap('source-circle-ring-summon',60);assert.equal(children.field.filter(a=>a.row==='水母脑').length,2);
+ assert.deepEqual(report.errors,[]);report.complete=true;
+ });report.cleanup=true;
+}catch(e){report.failure=e.stack??String(e);report.cleanup=true;process.exitCode=1;}
+fs.writeFileSync(path.join(out,'browser.json'),JSON.stringify(report,null,2));console.log(JSON.stringify({out,head:report.head,shots:report.shots.length,errors:report.errors.length,complete:report.complete,failure:report.failure,cleanup:report.cleanup}));

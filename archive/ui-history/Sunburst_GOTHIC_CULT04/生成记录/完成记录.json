@@ -1,0 +1,59 @@
+[
+  {
+    "name": "01_战斗_GOTHIC_CULT",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+        }
+      ],
+      "structuredContent": {
+        "jobId": "6ae2b31498d303820bdcb26f",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2b37098d303820bdcb288"
+        ],
+        "message": ""
+      }
+    }
+  },
+  {
+    "name": "04_营地_GOTHIC_CULT",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+        }
+      ],
+      "structuredContent": {
+        "jobId": "6ae2b31898d303820bdcb271",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2b38898d303820bdcb28d"
+        ],
+        "message": ""
+      }
+    }
+  },
+  {
+    "name": "09_商店_GOTHIC_CULT",
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+        }
+      ],
+      "structuredContent": {
+        "jobId": "6ae2b31c87ada5af0ddcac05",
+        "status": "completed",
+        "images": [
+          "mivo://image/6ae2b36b87ada5af0ddcac0e"
+        ],
+        "message": ""
+      }
+    }
+  }
+]

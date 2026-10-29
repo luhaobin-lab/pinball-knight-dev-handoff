@@ -1,0 +1,2648 @@
+[
+  {
+    "id": "I079",
+    "name": "蕴育石冠",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "饰品",
+      "电系",
+      "中型",
+      "心流"
+    ],
+    "description": "完成充能时：获得3层心流。\n有火系物品完成充能时，增加15伤害，直到战斗结束。\n回合开始时，电击周围敌人，造成15伤害。",
+    "charge": "15.0",
+    "recycle": "2",
+    "recipe": "淬炼宝石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crown",
+      "motif": "蕴育石卵冠",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I080",
+    "name": "焚天兜帽",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "饰品",
+      "火系",
+      "气系"
+    ],
+    "description": "完成充能时：增加16伤害，直到战斗结束。\n会心几率30%。\n获得灌注或有物品会心时，点燃周围敌人，在3回合内造成16燃烧伤害。\n每3次反弹，此物品灌注20。",
+    "charge": "16.0",
+    "recycle": "2",
+    "recipe": "旧皮衣（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "hood",
+      "motif": "焚天燃口兜帽",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I081",
+    "name": "追风短剑",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "武器",
+      "气系",
+      "中型",
+      "投射"
+    ],
+    "description": "完成充能时：下2次碰撞敌人时，向周围投射气刃，造成10伤害。\n回响释放×2。\n会心几率30%。\n有物品会心时此物品增加10伤害，直到战斗结束。",
+    "charge": "12.0",
+    "recycle": "2",
+    "recipe": "旧剑（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "sword",
+      "motif": "追风裂尾短剑",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I082",
+    "name": "秘银鳞片",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "地系",
+      "中型",
+      "饰品"
+    ],
+    "description": "完成充能时：强固10。\n每当强固，额外强固10。\n和气系物品相邻时，提升10%会心几率。",
+    "charge": "15.0",
+    "recycle": "2",
+    "recipe": "淬炼宝石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "scale",
+      "motif": "秘银三枚鳞片",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I083",
+    "name": "震雷木",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "地系",
+      "工具"
+    ],
+    "description": "完成充能时：下2次碰撞敌人时，引起爆炸，造成6伤害。\n每2次反弹，随机电系物品灌注20。",
+    "charge": "16.0",
+    "recycle": "2",
+    "recipe": "淬炼宝石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "wood",
+      "motif": "震雷断木",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I084",
+    "name": "附魔-吸血",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：获得50%吸血效果。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "双獠牙围住血滴的吸血刻印",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I085",
+    "name": "附魔-倍增",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：此物品会心效果提升200%。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "交叠双刃的倍增叉形刻印",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I086",
+    "name": "附魔-裂伤",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：此物品造成的持续伤害增加1,000%。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "三道撕开的裂伤刻印",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I087",
+    "name": "附魔-伤害Ⅱ",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：此物品造成的伤害增加10%。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "斜刃伤害刻印与双级刻线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I088",
+    "name": "附魔-伤害Ⅰ",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升10伤害。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "斜刃伤害刻印与单级刻线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I089",
+    "name": "附魔-吞噬",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：此物品击杀敌人后，增加10伤害。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "张开的有齿吞噬大口",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I090",
+    "name": "附魔-强能",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：反弹时使其他物品灌注10。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "四向汇入的强能脉冲核",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I091",
+    "name": "附魔-回响",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升3回响释放。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "三重同心回声弧",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I092",
+    "name": "附魔-治愈Ⅰ",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：完成充能时，治愈5。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "骨白治愈十字与单级刻线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I093",
+    "name": "附魔-治愈Ⅱ",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升5治愈。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "骨白治愈十字与双级刻线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I094",
+    "name": "附魔-强固Ⅰ",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：完成充能时，强固5。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "中脊盾形强固刻印与单级刻线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I095",
+    "name": "附魔-强固Ⅱ",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升5强固。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "中脊盾形强固刻印与双级刻线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I096",
+    "name": "附魔-加速Ⅰ",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升10%充能速度。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "并排前进箭头与单级刻线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I097",
+    "name": "祝福之灵",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：获取一个随机祝福。\n耐久：1/1。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "spirit",
+      "motif": "带光环的祝福游魂",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I098",
+    "name": "附魔-敏捷",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升25弹射距离。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "带翼足迹的敏捷刻印",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I099",
+    "name": "附魔-体质",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升10%生命上限。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "饱满心形体质刻印",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I100",
+    "name": "附魔-力量",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升5英雄基础伤害。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "四指紧握的力量拳印",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I101",
+    "name": "附魔-加速Ⅱ",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：战斗回合开始时自身灌注10。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "附魔石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "enchantment",
+      "motif": "并排前进箭头与双级刻线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I102",
+    "name": "附魔石",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "“还未刻印的原材料，没有任何效果。”",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "矿石（1）；灌草（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "raw-stone",
+      "motif": "未刻印的低矮切面石胚",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I103",
+    "name": "空瓶",
+    "category": "装备物品",
+    "subtype": "其他物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "“空即是色”",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灌草（5）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bottle",
+      "motif": "侧置长颈空玻璃瓶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I104",
+    "name": "无字书",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：使一个随机天赋提升1级。\n耐久：1/1。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "book",
+      "motif": "摊开的无字古书",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I105",
+    "name": "鲜血",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "食物"
+    ],
+    "description": "使用时：治愈10。\n耐久：1/1。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "organic-liquid",
+      "motif": "盛着鲜血的浅仪式碟",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I107",
+    "name": "精矿",
+    "category": "装备物品",
+    "subtype": "其他物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "分解时额外获得1 - 2精核。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灌草（5）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "mineral",
+      "motif": "切开露出精核的铁矿石",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I108",
+    "name": "旧绷带",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具"
+    ],
+    "description": "分解后使上方相邻物品增加10治愈。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "cloth",
+      "motif": "带旧血斑的松散绷带卷",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I109",
+    "name": "绷带",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具"
+    ],
+    "description": "使用时：移除存在的持续伤害。\n耐久：2/2。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灌草（3）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "cloth",
+      "motif": "干净的医用绷带卷",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I110",
+    "name": "魔力药剂",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：最上方装备的物品灌注50。\n耐久：3/3。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "空瓶（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bottle",
+      "motif": "菱晶悬在瓶腹的魔力药剂",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I111",
+    "name": "体力药剂",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：恢复10体力。\n耐久：3/3。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "空瓶（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bottle",
+      "motif": "带锯齿充能刻线的体力药剂",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I112",
+    "name": "未知种子",
+    "category": "装备物品",
+    "subtype": "其他物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "“这里的种子都一个样子。”",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灌草（4）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "seed",
+      "motif": "三枚闭壳的未知种子",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I113",
+    "name": "旧匕首",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "武器",
+      "小型"
+    ],
+    "description": "完成充能时：下3次攻击额外造成10伤害。\n下3次攻击将会在3回合内造成10流血伤害。",
+    "charge": "30.0",
+    "recycle": "1",
+    "recipe": "矿石（2）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "blade",
+      "motif": "有缺口的直背旧匕首",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I114",
+    "name": "旧项链",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "完成充能时：治愈5。",
+    "charge": "20.0",
+    "recycle": "1",
+    "recipe": "矿石（2）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "jewelry",
+      "motif": "椭圆链上的素骨吊坠",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I115",
+    "name": "旧手套",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "提升5英雄基础伤害。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "矿石（2）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "handwear",
+      "motif": "摊开四指的破旧手套",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I116",
+    "name": "旧弓",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "武器",
+      "小型",
+      "投射"
+    ],
+    "description": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，造成10伤害。",
+    "charge": "25.0",
+    "recycle": "1",
+    "recipe": "矿石（2）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bow",
+      "motif": "单弧旧木弓配一支铁箭",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I117",
+    "name": "粘稠体液",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：下一场战斗，回合开始时治愈1%生命。\n耐久：3/3。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "organic-liquid",
+      "motif": "拖出黏丝的胶状体液",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I118",
+    "name": "锻造锤",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：给最上方物品添加额外物品类型。\n耐久：1/1。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "tool",
+      "motif": "短柄双面锻造锤",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I119",
+    "name": "远古兽肉",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "食物"
+    ],
+    "description": "使用时：增加5点生命上限。\n耐久：1/1。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "meat",
+      "motif": "露出骨端的远古兽排",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I120",
+    "name": "魔力石",
+    "category": "装备物品",
+    "subtype": "其他物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "分解后使上方相邻物品增加20%充能速度。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "矿石（2）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crystal",
+      "motif": "横卧的单枚魔力晶石",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I121",
+    "name": "节肢",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：下一场战斗，增加50弹射距离。\n耐久：2/2。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "anatomy",
+      "motif": "三段折叠的节肢腿",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I122",
+    "name": "异化肉",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：恢复20体力，增加2腐化。\n耐久：4/4。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "meat",
+      "motif": "长眼与骨刺的异化肉块",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I123",
+    "name": "毒囊",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：下一场战斗，移动时会释放毒气，在3回合内造成30剧毒伤害。（受英雄基础伤害影响）\n耐久：2/2。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "anatomy",
+      "motif": "绑着双导管的剧毒腺囊",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I124",
+    "name": "腥臭尖牙",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "拖放至任意物品对其附魔：此物品造成的持续伤害有5%几率立即生效。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "tooth",
+      "motif": "染毒的长弯尖牙",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I125",
+    "name": "多彩宝石",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "回合开始时，获得1层格挡。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crystal",
+      "motif": "三色切面的大块防护宝石",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I126",
+    "name": "有机核心",
+    "category": "装备物品",
+    "subtype": "其他物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "心流"
+    ],
+    "description": "完成充能时：获得1层心流。\n提升10%生命上限。",
+    "charge": "20.0",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "anatomy",
+      "motif": "血管围绕的有机心核",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I127",
+    "name": "结晶碎片",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：下一场战斗，强固效果增加25%。\n耐久：3/3。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crystal",
+      "motif": "三枚尖锐防护晶片",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I128",
+    "name": "酸性血液",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具",
+      "剧毒"
+    ],
+    "description": "相邻物品造成伤害时，将会额外在3回合内造成8剧毒伤害。\n相邻物品被认为是剧毒物品。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bottle",
+      "motif": "漏出腐蚀液滴的酸性血液瓶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I129",
+    "name": "超载神经",
+    "category": "装备物品",
+    "subtype": "附魔物品",
+    "kind": "附魔物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "拖放至任意物品对其附魔：此物品被认为是电系物品，战斗回合开始时，电击周围敌人，造成50%英雄基础伤害。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "anatomy",
+      "motif": "分叉突触的超载神经",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I130",
+    "name": "记忆芯片",
+    "category": "装备物品",
+    "subtype": "其他物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "每经过一个没有敌人的房间，储存5%经验，分解时获得储存的经验。（已储存0 / 125）",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "device",
+      "motif": "有金属触脚的记忆芯片",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I131",
+    "name": "迷幻中枢",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：下一场战斗，体力消耗减少10%。\n耐久：2/2。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "brain",
+      "motif": "带连接尾的迷幻中枢",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I132",
+    "name": "活脑",
+    "category": "装备物品",
+    "subtype": "其他物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "食物"
+    ],
+    "description": "分解后获得50点经验。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "brain",
+      "motif": "左右脑叶与短脑干的活脑",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I133",
+    "name": "克隆触手",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器"
+    ],
+    "description": "完成充能时：下3次碰撞敌人时，造成1伤害。\n每通过0 / 6层，获得一个复制。\n每装备2个克隆触手，克隆触手提升1回响释放。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（2）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "tentacle",
+      "motif": "分出短复制芽的卷曲触手",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I134",
+    "name": "守护圣徽",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "完成充能时：治愈15。\n获得1层格挡。\n回响释放×2。",
+    "charge": "8.0",
+    "recycle": "1",
+    "recipe": "旧项链（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "sacred-emblem",
+      "motif": "展开骨翼的守护圣徽",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I135",
+    "name": "贪婪手套",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "英雄提升等同当前50%精核的基础伤害。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "旧手套（1）；精矿（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "handwear",
+      "motif": "攥着金币的贪婪手套",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I136",
+    "name": "亡者之息",
+    "category": "装备物品",
+    "subtype": "其他物品",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "分解后移除5腐化。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "spirit",
+      "motif": "从骨口逸出的亡者之息",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I137",
+    "name": "魂珠",
+    "category": "装备物品",
+    "subtype": "使用型物品",
+    "kind": "使用型物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "使用时：获取物品。\n击杀0 / 2个敌人，储存一个废料，最多储存0 / 3个。\n耐久：1/1。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "orb",
+      "motif": "被铁箍托住的魂珠",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I138",
+    "name": "幽焰龙爪",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器",
+      "火系"
+    ],
+    "description": "完成充能时：下3次攻击将会在3回合内造成12燃烧伤害。\n每装备2个幽焰龙爪，火系物品增加25%充能速度。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "灵魂宝珠（4）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "claw",
+      "motif": "燃着幽焰的三趾龙爪",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I139",
+    "name": "振金护腕",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "工具",
+      "小型"
+    ],
+    "description": "完成充能时：获得1层格挡。\n格挡时储存1能量，下次反弹时，使一个随机武器灌注10，每拥有1点能量执行一次。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "旧匕首（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bracer",
+      "motif": "有共振层板的振金护腕",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I140",
+    "name": "延时护符",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "完成充能时：治愈12。\n受到伤害时均分为下2次反弹时生效。",
+    "charge": "8.0",
+    "recycle": "1",
+    "recipe": "旧项链（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "amulet",
+      "motif": "小沙漏与横向锁链的延时护符",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I141",
+    "name": "圣契果",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "完成充能时：下3次攻击额外造成6伤害。\n治愈5。\n所有其他武器提升6伤害。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "未知种子（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "fruit",
+      "motif": "刻有契约封印的圣契果",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I142",
+    "name": "寄生犄角",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具"
+    ],
+    "description": "完成充能时：强固5。\n下3次碰撞敌人时，造成10伤害。\n每当强固3次，此物品增加10伤害，直到战斗结束。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "未知种子（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "horn",
+      "motif": "长出寄生根须的弯犄角",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I143",
+    "name": "聚气果",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "气系",
+      "饰品"
+    ],
+    "description": "非武器物品完成充能时，使其造成的伤害提升5%，直到战斗结束。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未知种子（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "fruit",
+      "motif": "空心气腔的聚气果",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I144",
+    "name": "分身短弓",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "流血",
+      "小型",
+      "武器",
+      "投射"
+    ],
+    "description": "完成充能时：下2次碰撞墙壁时，向周围投射箭矢，在3回合内造成12流血伤害。\n回响释放×2。",
+    "charge": "14.0",
+    "recycle": "1",
+    "recipe": "旧弓（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bow",
+      "motif": "双弧重叠的分身短弓",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I145",
+    "name": "袖剑",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器",
+      "流血"
+    ],
+    "description": "完成充能时：下3次攻击将会在3回合内造成15流血伤害。\n会心几率30%。\n此物品会心效果为三倍。",
+    "charge": "12.0",
+    "recycle": "1",
+    "recipe": "旧匕首（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "blade",
+      "motif": "由护腕中伸出的袖剑",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I146",
+    "name": "黏黏藤",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "饰品",
+      "小型"
+    ],
+    "description": "相邻工具提升15%会心几率。\n相邻工具提升15%充能速度。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未知种子（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "vine",
+      "motif": "带黏液珠的双卷黏藤",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I147",
+    "name": "防滑裹布",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "工具",
+      "小型"
+    ],
+    "description": "使上方相邻武器提升10%会心几率。\n上方相邻武器是唯一装备的武器，则提升50%充能速度。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "绷带（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "cloth",
+      "motif": "交叉缠紧的防滑裹布",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I148",
+    "name": "再生腰带",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品",
+      "心流"
+    ],
+    "description": "完成充能时：获得1层心流。\n治愈15。\n每装备一个大型物品，提升1回响释放。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "旧项链（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "belt",
+      "motif": "包着再生芽的宽皮腰带",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I149",
+    "name": "血祭匕首",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "武器",
+      "流血",
+      "小型"
+    ],
+    "description": "完成充能时：下3次攻击将会在3回合内造成10流血伤害。\n每当流血伤害击杀1个敌人，此物品永久增加2伤害。",
+    "charge": "20.0",
+    "recycle": "1",
+    "recipe": "旧匕首（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "dagger",
+      "motif": "横向骨柄弯刀与凝血刃槽",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "小型标签07:03.5 + 无遮挡占格07:04.0"
+  },
+  {
+    "id": "I150",
+    "name": "凝血毒剂",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具",
+      "流血"
+    ],
+    "description": "相邻物品造成伤害时，将会额外在3回合内造成8流血伤害。\n相邻物品被认为是流血物品。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "生命药剂（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bottle",
+      "motif": "被两道骨箍束住的凝血毒剂",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I151",
+    "name": "幻影轻弩",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具",
+      "武器",
+      "投射"
+    ],
+    "description": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，造成5伤害。\n此物品每生成3次投射物，获得1层闪避。",
+    "charge": "20.0",
+    "recycle": "1",
+    "recipe": "旧弓（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crossbow",
+      "motif": "带短弩臂的幻影轻弩",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I152",
+    "name": "饕餮之刃",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "武器",
+      "流血",
+      "小型"
+    ],
+    "description": "完成充能时：下3次攻击将会在3回合内造成30流血伤害。\n每当分解小型物品，增加8伤害。",
+    "charge": "8.0",
+    "recycle": "1",
+    "recipe": "旧匕首（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "blade",
+      "motif": "刀腹长出獠牙大口的饕餮刃",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I153",
+    "name": "速效药剂",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "工具",
+      "小型",
+      "流血",
+      "剧毒"
+    ],
+    "description": "下方相邻小型物品，造成的流血，剧毒立即生效。\n下方相邻小型物品，提升12伤害。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "体力药剂（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bottle",
+      "motif": "带快释扣的细长速效药剂",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I154",
+    "name": "无限箭袋",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品",
+      "心流"
+    ],
+    "description": "完成充能时：获得1层心流。\n投射物品提升15%充能速度。",
+    "charge": "20.0",
+    "recycle": "1",
+    "recipe": "旧手套（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "quiver",
+      "motif": "露出三枚箭羽的无限箭袋",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I155",
+    "name": "泣血指环",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "提升25%持续伤害。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "旧项链（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "ring",
+      "motif": "红宝石泣出血滴的指环",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  }
+]

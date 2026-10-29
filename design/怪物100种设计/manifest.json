@@ -1,0 +1,88 @@
+{
+  "title": "无尽地牢怪物100种设计",
+  "version": "monster100-v1",
+  "date": "2026-10-29",
+  "counts": {
+    "normal": 80,
+    "elite": 20,
+    "total": 100
+  },
+  "scope_boundary": "完整设计与离线生成参考；未修改游戏运行时，未证明100种效果已实现、可玩或平衡。",
+  "files": [
+    {
+      "path": "先读我.txt",
+      "bytes": 2027,
+      "sha256": "8b4a415fe2ae642dabb7388bd79fb4378929243d14249407c8896722d65fd456"
+    },
+    {
+      "path": "字段与能力依据.json",
+      "bytes": 32204,
+      "sha256": "3440e734b7842b9881429d87c740604006f26a73833802123f88b82cd4995c22"
+    },
+    {
+      "path": "怪物100种_完整表.csv",
+      "bytes": 253230,
+      "sha256": "21641c01dc4a76ab563f637175a3a9bde4a1435d9657c806d49648c9924ca826"
+    },
+    {
+      "path": "怪物100种_数据.json",
+      "bytes": 474394,
+      "sha256": "e0c0a91f2a5a481f603bf9af9c75cc8549875ae544bcbb71ec6556b49122599d"
+    },
+    {
+      "path": "怪物100种_设计总表.xlsx",
+      "bytes": 138673,
+      "sha256": "aca587a568d5f928e5d638a60dc2bba1a6fa16d9f15327a1c6098a3595a87afa"
+    },
+    {
+      "path": "怪物层级与生成规则.json",
+      "bytes": 10517,
+      "sha256": "9e2f6f8a02ac0a4bd70b7cde15ffe1795841a293254e7a8e0530aaba6ab60596"
+    },
+    {
+      "path": "怪物算法参考.py",
+      "bytes": 16465,
+      "sha256": "d51fe36adfa2688d1d4c4798910182103c0c0ebe790e713d798ef2b578ca78ba"
+    },
+    {
+      "path": "来源哈希复核.json",
+      "bytes": 576,
+      "sha256": "091f9fd7a4d37ad7e956d83e4d7ce3dc33ed69c6c7d7ad06447abff174fcf6f0"
+    },
+    {
+      "path": "核查设计.py",
+      "bytes": 14272,
+      "sha256": "e86414ed40b1c6c4f6d3d3b82e8a71bb01a261f60b3c47af6fbf5cb9f90ce377"
+    },
+    {
+      "path": "离线检查结果.json",
+      "bytes": 6277,
+      "sha256": "0c5e48823eba9347d7f79dd69eed7139d5356824fb2d10435bc97f795b672624"
+    },
+    {
+      "path": "种子42_编队样例.json",
+      "bytes": 78604,
+      "sha256": "fd23f80e8ffb869a932970e01c27e695be00fce5e469a98003406b3685402003"
+    },
+    {
+      "path": "行为算法说明.json",
+      "bytes": 14388,
+      "sha256": "a8b9d860011bf7501f85f943ba8715c7b9b2e3aeadaa3e1b6f4404bea2de9b6b"
+    },
+    {
+      "path": "表格校验结果.json",
+      "bytes": 1052,
+      "sha256": "f7e18b726e6f49b1139f5097693028076fe62564b4a9d7befcb91e0eaffff0af"
+    },
+    {
+      "path": "阅读入口.html",
+      "bytes": 425769,
+      "sha256": "670fbfd8967c5b07639d7b1d0c1dbcea96e5372ea5bb77f1cc861af7d066b8a4"
+    },
+    {
+      "path": "阅读页校验结果.json",
+      "bytes": 1738,
+      "sha256": "032917e03d85770e55c422cd65e4918b298b701f2113193e598ff8598fe7e541"
+    }
+  ]
+}

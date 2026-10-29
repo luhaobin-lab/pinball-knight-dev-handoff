@@ -1,0 +1,33 @@
+新循环现有基础核查
+日期：2026-10-28
+只读源码核查，不是新流程的实机验证。
+下列路径以 /Users/haobinlu/Desktop/提取过程/battle-scene/ 为根。
+已比对15个相关关键文件，与相邻 taptapgame-abyss-archive/game 中对应文件相同。
+
+已有方向文件
+taptapgame-abyss-archive/docs/plans/方案.md:11 提到反弹战斗、装备空间构筑、死亡风险收益取舍与长期成长；该文是旧测试室方案，不包含本次固定商店链与局外天赋规则。
+battle-scene/方案-v4-原型优先.md:11 描述带地图和多类型房间的旧冒险结构，不能作为新自动节点链的最终要求。
+
+可复用与冲突
+1. 商店购买：src/core/sys/shop/index.ts:12。
+   尚无独立item.sell；src/core/sys/craft/dismantle.ts:14是分解，附带分解事件，不能只改名成为出售。
+2. 合并：src/core/sys/craft/merge.ts:9。制造：src/core/sys/craft/page.ts:29。
+   附魔：src/core/sys/enchant/index.ts:28。
+   这些效果与配方可复用；新节点开放权限、费用和商品生成需另定。
+3. 持久仓库：src/core/sys/camp/stash.ts:15；持久字段：src/core/sys/save/ems.ts:60。
+   旧永恒神像解锁、容量与遗产物品限制不等于新的自由个人保险箱。
+4. 返回营地：src/core/sys/run/index.ts:239调用新轮回；经验/等级/金币重置见:168。
+   清空侧栏见src/core/sys/inventory/index.ts:564。成功撤离必须与死亡清理分成明确分支，避免清掉应带出的资产。
+5. 现有存档：src/core/sys/save/index.ts:21、src/core/sys/save/hero.ts:21。
+   当前局读档不等于死亡后保留成长；旧探索等级也不等于新的永久角色经验。
+6. 旧天赋：src/core/sys/talents/exp.ts:56、levelup.ts:22。
+   回合开始自动消耗升级点并开启选择。新模式需要局外解锁/金币升级命令与永久角色档案。
+7. 地图：src/core/sys/map/index.ts:188，src/core/sys/map/page.ts:183。
+   原本依赖map.enter选路；要重建战斗计数、宝箱、固定商店、50%特殊节点与Boss的线性推进器。
+8. 旧重试：src/core/sys/turn/mission.ts:201是读房间存档，不等于新死亡规则。
+   单场src/battle.ts只负责同种子房间重开，不承担新的角色、钱包或层进度持久化。
+
+新结算最小约束
+成功/死亡对各类资产的处理必须可列账、只提交一次；保存应能避免重复奖励、重复扣款、死亡后恢复已售装备等问题。
+这些约束待资产规则确认后落实为实现与检查，不在本轮修改代码。
+

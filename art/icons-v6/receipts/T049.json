@@ -1,0 +1,86 @@
+{
+  "id": "T049",
+  "name": "利钢淬血",
+  "status": "generated-normalized",
+  "source": "mothers/T049.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T049.png",
+  "motherSha256": "ee0269c1d9aaf9b2d378df3715d14b85c48354bf2f2a721f0ca306797175096b",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T049.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5885,
+      "sha256": "095d7b520ac3d41bc34aff8564230d6efe24656f1122f527883c73beca4623a5",
+      "pixelSha256": "95242c3ff53a8711cc916dc1cb6eeb1bdeaa547cd901ec0491e8a8b5c754551e",
+      "alphaBounds": [
+        5,
+        4,
+        122,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          103,
+          42,
+          1234,
+          1202
+        ],
+        "fitSize": [
+          117,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.10344827586206896
+      }
+    },
+    "256": {
+      "file": "pixels/256/T049.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21720,
+      "sha256": "fcecc59a74d63f06c81e8f44f70b5047019e40e55c4ad9ed7f52491b796468ea",
+      "pixelSha256": "8d0051476274fb2962f99b4c10eaeb99a0ee478dbbad7dbe24d011fbc51357ea",
+      "alphaBounds": [
+        11,
+        9,
+        245,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          103,
+          42,
+          1234,
+          1202
+        ],
+        "fitSize": [
+          234,
+          240
+        ],
+        "position": [
+          11,
+          8
+        ],
+        "scale": 0.20689655172413793
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-ee26095c-6969-4ef5-b89d-a7c2fbc0152c.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-ee26095c-6969-4ef5-b89d-a7c2fbc0152c"
+  }
+}

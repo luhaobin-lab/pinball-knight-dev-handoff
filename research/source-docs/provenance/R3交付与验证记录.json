@@ -1,0 +1,122 @@
+{
+  "schemaVersion": 1,
+  "release": "R3",
+  "status": "validated-r3-library-and-supplementA-delivered",
+  "source": {
+    "appid": "3910830",
+    "name": "Ricochet Abyss Demo",
+    "buildid": "25684533",
+    "targetBuildId": "25684533",
+    "depot": "3910831",
+    "depotManifest": "7838975133870510760",
+    "sizeOnDisk": 593640945,
+    "lastUpdatedUTC": "2026-10-21T05:45:25+00:00",
+    "source": "D:\\steam\\steamapps\\appmanifest_3910830.acf",
+    "sourceManifestSha256": "5a2f1d663c1a282c8cc37cc84715eb290171dab9291bc12f4b2dff7b858500e5",
+    "capturedAt": "2026-10-27T15:25:11.236314+00:00",
+    "scope": "Version/depot whitelist only; privateSteamaccountfieldsomitted",
+    "sourceInstallation": "D:/steam/steamapps/common/Ricochet Abyss Demo"
+  },
+  "sourceInstallationUnchanged": true,
+  "scope": "Full packaged records and bounded verified source mechanisms, with explicit remaining engine/dynamic-path gaps; no fullgameparityclaim",
+  "files": [
+    {
+      "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+      "bytes": 5563473,
+      "sha256": "a8633c42977acd06c87cb3321b578fe11330c00be30ec0b5f7269c80aa69e532"
+    },
+    {
+      "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+      "bytes": 6495347,
+      "sha256": "9c3f046320aac0cc47fdc982f5013e48bdc20adc35cbaba9dabd12c8e3e16bdf"
+    },
+    {
+      "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3原始证据与参考算法.zip",
+      "bytes": 226694381,
+      "sha256": "ca232bdbe6e0065fddb461ef6e165bc2ddb7c0f5c84cc9e708f6b0eb15df7319"
+    },
+    {
+      "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\开始阅读.md",
+      "bytes": 2741,
+      "sha256": "fe0e5ff7ec11702c024fe0553dcb7f064acf2bb0d39987a72860ec66c8ce551f"
+    },
+    {
+      "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\工作表总目录.csv",
+      "bytes": 7668,
+      "sha256": "93e999c6e47d4f1148b85833975542a7cd55b64516d5121df97af5cde867b970"
+    }
+  ],
+  "counts": {
+    "dataSheets": 101,
+    "workbookVolumes": 2,
+    "workbookSheetsWithIndexes": 103,
+    "verifiedCells": 1893243,
+    "physicalDataTableRows": 1576,
+    "compositeAliases": 970,
+    "itemCards": 202,
+    "talents": 252,
+    "finiteTalentLevels": 951,
+    "symbolicUnboundedRows": 3,
+    "talentParameterRows": 3804,
+    "enemies": 42,
+    "enemyOriginalAttributes": 1428,
+    "originalBlueprintFunctions": 5240,
+    "sourcePackageCount": 4443,
+    "rawDumpFiles": 6412,
+    "PAKFiles": 4545,
+    "archiveMembers": 11722
+  },
+  "verification": {
+    "independentWorkbookAndArchive": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\workbook\\delivery-review.json",
+    "semanticCloseout": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\semantic\\review-closeout.json",
+    "sourceRevalidation": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\prepared\\source-revalidation.json",
+    "nativeRandomVectors": 1017,
+    "blueprintBoundaryVectors": 12,
+    "nativeCurveBitComparisons": 20086,
+    "nativeCurveBitMismatches": 0,
+    "heroThresholdsVerified": 60,
+    "growthInputScenariosVerified": 2440,
+    "calcOriginalFormulas": 10662,
+    "calcExplicitCalculateAll": true,
+    "calcChangedInputExamples": 2,
+    "calcReport": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\native-calc-forced-recalculation.json",
+    "calcInputReport": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\native-calc-input-change-final.json",
+    "finalWorkbookNotReplacedByCalc": true
+  },
+  "knownLimits": [
+    "Two unread serializedexporttails total157bytes retained",
+    "48nativeentries hashed/disassembled doesnotprove everytransitivecallee",
+    "Chaos contact/equal-time ordering/ticklatent/actoriteration exactsemantics incomplete",
+    "Alltalentparamtrajectories are source scalars; dynamicattribute/effectconsumers notallbranch-proven",
+    "GlobalCRTsessionstate/interleaving and nativeMapmutationhistory notfullyreplayed",
+    "UMGmissingserializedrow/column remainsunconfirmed",
+    "Notallhidden/legacyfunctionnaturallyreachable;staticentryevidence stated"
+  ],
+  "ongoing": {
+    "purpose": "Nightlyboundedremaininggaptriage",
+    "automationId": "abyss-demo",
+    "noMoreWorkbookChangesWithoutNewEvidence": true
+  },
+  "runtimeCodeModified": false,
+  "originalGameLaunched": false,
+  "numericNativeFragmentsExecutedInIsolation": true,
+  "paidGenerationJobs": 0,
+  "proposals": [],
+  "needs": [],
+  "createdAt": "2026-10-27T17:10:52.037175+00:00",
+  "supplementA": {
+    "release": "R3补充核验A",
+    "status": "independently-reviewed",
+    "archive": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充核验A_原生CfromP与Calc验证.zip",
+    "bytes": 221787,
+    "sha256": "c1873ee8f14eb8db440dfe56635df626b66adf4a4aeb00587ee986070f21c960",
+    "members": 54,
+    "allMemberHashesVerified": true,
+    "actualCopiedMathExecutions": 1044,
+    "abiGuardOnlyCases": 8,
+    "totalComparisons": 1052,
+    "R3WorkbooksAndMainArchiveUnchanged": true,
+    "cacheWrapperStillNotExecuted": true,
+    "createdAt": "2026-10-27T17:23:51.772599+00:00"
+  }
+}

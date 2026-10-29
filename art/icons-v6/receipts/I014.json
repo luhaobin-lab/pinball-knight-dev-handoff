@@ -1,0 +1,86 @@
+{
+  "id": "I014",
+  "name": "疫病虫巢",
+  "status": "generated-normalized",
+  "source": "mothers/I014.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I014.png",
+  "motherSha256": "2c0730c7a3d1d27ca72b9fdf934fec092078e5d2cd23c5b6507a6bd2ae87cad2",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I014.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 8053,
+      "sha256": "ffdbf7844e50406ae52426d2c8c1806e4e82a8cee936dabb0db4591641f29c02",
+      "pixelSha256": "f843da91532217a290ea4cc0b23289b4eaf4c1c33535629c243887922bf31893",
+      "alphaBounds": [
+        15,
+        4,
+        113,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          114,
+          14,
+          915,
+          1522
+        ],
+        "fitSize": [
+          98,
+          184
+        ],
+        "position": [
+          15,
+          4
+        ],
+        "scale": 0.1220159151193634
+      }
+    },
+    "256": {
+      "file": "pixels/256/I014.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 30942,
+      "sha256": "370cccc12f672ed472fbc338bb71cff80fec831317b748668aea0e238b4069a0",
+      "pixelSha256": "d48f2cf1552fd719537077ca04470c34178219a9c52a9985fc155368079e1572",
+      "alphaBounds": [
+        31,
+        8,
+        225,
+        376
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          114,
+          14,
+          915,
+          1522
+        ],
+        "fitSize": [
+          195,
+          368
+        ],
+        "position": [
+          30,
+          8
+        ],
+        "scale": 0.2440318302387268
+      }
+    }
+  },
+  "visualReview": "passed: original generated subject visually inspected; correct single asset and complete silhouette; normalized PNG also viewed",
+  "sourceProvenance": {
+    "sourceFilename": "exec-153049fa-c709-4d8e-bd57-1dfc58534600.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-153049fa-c709-4d8e-bd57-1dfc58534600"
+  }
+}

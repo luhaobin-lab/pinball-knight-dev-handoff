@@ -1,0 +1,3510 @@
+{
+  "created": "2026-10-29",
+  "viewport": {
+    "width": 800,
+    "height": 360
+  },
+  "mode": "Known-implementation layout QA, not blind test or usability acceptance",
+  "backgroundsPending": true,
+  "reports": [
+    {
+      "screen": "01",
+      "errors": [],
+      "consoleErrors": [],
+      "failed": [],
+      "title": "战斗_装备栏位 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看凝血毒剂",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "visible": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 4,
+          "label": "查看灵魂香菇",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 5,
+          "label": "查看淬毒利刃",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "visible": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "cls": "slot gear-card "
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 152,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 1,
+      "ownedItems": [
+        {
+          "item": "potion",
+          "container": "equipment"
+        },
+        {
+          "item": "mushroom",
+          "container": "equipment"
+        },
+        {
+          "item": "blade",
+          "container": "equipment"
+        }
+      ],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n战斗装备\n纵向\n凝血毒剂\n灵魂香菇\n淬毒利刃\n0 / 100\n未解锁栏位\n遗迹 · 战斗中\n按住战场瞄准 · 松手弹射当前回合\n随身背包\n⇵"
+    },
+    {
+      "screen": "02",
+      "errors": [],
+      "consoleErrors": [],
+      "failed": [],
+      "title": "战斗_英雄属性与天赋 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看天赋药剂师",
+          "disabled": false,
+          "rect": {
+            "x": 248,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 248,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 169
+          },
+          "cls": "talent-node selected "
+        },
+        {
+          "id": 4,
+          "label": "查看天赋博学",
+          "disabled": false,
+          "rect": {
+            "x": 370.65625,
+            "y": 121,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 370.65625,
+            "y": 121,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 169
+          },
+          "cls": "talent-node  "
+        },
+        {
+          "id": 5,
+          "label": "查看天赋上肢力量",
+          "disabled": false,
+          "rect": {
+            "x": 493.328125,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 493.328125,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 169
+          },
+          "cls": "talent-node  "
+        },
+        {
+          "id": 6,
+          "label": "查看天赋强韧",
+          "disabled": false,
+          "rect": {
+            "x": 248,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 248,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        },
+        {
+          "id": 7,
+          "label": "查看天赋体质",
+          "disabled": false,
+          "rect": {
+            "x": 370.65625,
+            "y": 177,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 370.65625,
+            "y": 177,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        },
+        {
+          "id": 8,
+          "label": "查看天赋敏捷",
+          "disabled": false,
+          "rect": {
+            "x": 493.328125,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 493.328125,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "hero-info",
+          "rect": {
+            "x": 40,
+            "y": 81,
+            "w": 184,
+            "h": 254,
+            "right": 224,
+            "bottom": 335
+          },
+          "clientHeight": 254,
+          "scrollHeight": 257,
+          "clientWidth": 183,
+          "scrollWidth": 183,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 0,
+      "ownedItems": [],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n幽冥骑士\n英雄属性\n生命上限\n180\n基础伤害\n30\n护甲\n0\n会心几率\n0%\n弹射距离\n500\n基础生命 150\n装备加成 +20% 生命\n角色天赋\n战斗中仅可查看\n药剂师\n博学\n上肢力量\n强韧 · 锁\n体质 · 锁\n敏捷 · 锁\n药剂师\n\n使用生命药剂时，额外治愈5%生命。\n\n回到营地后可解锁或升级天赋\n随身背包\n⇵"
+    },
+    {
+      "screen": "03",
+      "errors": [],
+      "consoleErrors": [],
+      "failed": [],
+      "title": "战斗_装备图鉴 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 3,
+          "label": "返回",
+          "disabled": false,
+          "rect": {
+            "x": 528,
+            "y": 81,
+            "w": 80,
+            "h": 48,
+            "right": 608,
+            "bottom": 129
+          },
+          "visible": {
+            "x": 528,
+            "y": 81,
+            "w": 80,
+            "h": 48,
+            "right": 608,
+            "bottom": 129
+          },
+          "cls": "btn text"
+        },
+        {
+          "id": 4,
+          "label": "淬毒利刃已收集",
+          "disabled": false,
+          "rect": {
+            "x": 40,
+            "y": 137,
+            "w": 184,
+            "h": 56,
+            "right": 224,
+            "bottom": 193
+          },
+          "visible": {
+            "x": 40,
+            "y": 137,
+            "w": 184,
+            "h": 56,
+            "right": 224,
+            "bottom": 193
+          },
+          "cls": "list-card selected"
+        },
+        {
+          "id": 5,
+          "label": "凝血毒剂已收集",
+          "disabled": false,
+          "rect": {
+            "x": 40,
+            "y": 201,
+            "w": 184,
+            "h": 56,
+            "right": 224,
+            "bottom": 257
+          },
+          "visible": {
+            "x": 40,
+            "y": 201,
+            "w": 184,
+            "h": 56,
+            "right": 224,
+            "bottom": 257
+          },
+          "cls": "list-card "
+        },
+        {
+          "id": 6,
+          "label": "灵魂香菇已收集",
+          "disabled": false,
+          "rect": {
+            "x": 40,
+            "y": 265,
+            "w": 184,
+            "h": 56,
+            "right": 224,
+            "bottom": 321
+          },
+          "visible": {
+            "x": 40,
+            "y": 265,
+            "w": 184,
+            "h": 56,
+            "right": 224,
+            "bottom": 321
+          },
+          "cls": "list-card "
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "task-list codex-list",
+          "rect": {
+            "x": 40,
+            "y": 137,
+            "w": 184,
+            "h": 198,
+            "right": 224,
+            "bottom": 335
+          },
+          "clientHeight": 198,
+          "scrollHeight": 274,
+          "clientWidth": 184,
+          "scrollWidth": 184,
+          "scrollTop": 0
+        },
+        {
+          "cls": "detail-scroll",
+          "rect": {
+            "x": 240,
+            "y": 193,
+            "w": 368,
+            "h": 142,
+            "right": 608,
+            "bottom": 335
+          },
+          "clientHeight": 142,
+          "scrollHeight": 142,
+          "clientWidth": 368,
+          "scrollWidth": 368,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 0,
+      "ownedItems": [],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n装备图鉴\n查看已收集的装备\n返回\n淬毒利刃\n已收集\n凝血毒剂\n已收集\n灵魂香菇\n已收集\n未发现的装备\n淬毒利刃\n青铜图鉴 · 已收集\n15剧毒伤害\n\n充能后，下3次攻击在3回合内造成15剧毒伤害。\n\n会心几率30%。每8次剧毒伤害，施加1层易伤。\n\n随身背包\n⇵"
+    },
+    {
+      "screen": "04",
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FILE_NOT_FOUND"
+      ],
+      "failed": [
+        {
+          "url": "file:///Users/haobinlu/Desktop/%E6%8F%90%E5%8F%96%E8%BF%87%E7%A8%8B/outputs/UI%E8%A7%86%E8%A7%89%E8%BF%AD%E4%BB%A3/%E6%89%8B%E6%9C%BA%E8%BF%AD%E4%BB%A302/%E7%B4%A0%E6%9D%90/%E8%90%A5%E5%9C%B0%E5%9C%BA%E6%99%AF.png",
+          "failure": "net::ERR_FILE_NOT_FOUND"
+        }
+      ],
+      "title": "营地_冒险准备 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看凝血毒剂",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "visible": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 4,
+          "label": "查看灵魂香菇",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 5,
+          "label": "查看淬毒利刃",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "visible": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 6,
+          "label": "第 1 层已通关 · 可重打",
+          "disabled": false,
+          "rect": {
+            "x": 188,
+            "y": 136,
+            "w": 136,
+            "h": 48,
+            "right": 324,
+            "bottom": 184
+          },
+          "visible": {
+            "x": 188,
+            "y": 136,
+            "w": 136,
+            "h": 48,
+            "right": 324,
+            "bottom": 184
+          },
+          "cls": "floor-chip"
+        },
+        {
+          "id": 7,
+          "label": "第 2 层已选择",
+          "disabled": false,
+          "rect": {
+            "x": 332,
+            "y": 136,
+            "w": 136,
+            "h": 48,
+            "right": 468,
+            "bottom": 184
+          },
+          "visible": {
+            "x": 332,
+            "y": 136,
+            "w": 136,
+            "h": 48,
+            "right": 468,
+            "bottom": 184
+          },
+          "cls": "floor-chip selected"
+        },
+        {
+          "id": 8,
+          "label": "第 3 层未解锁",
+          "disabled": true,
+          "rect": {
+            "x": 476,
+            "y": 136,
+            "w": 136,
+            "h": 48,
+            "right": 612,
+            "bottom": 184
+          },
+          "visible": {
+            "x": 476,
+            "y": 136,
+            "w": 136,
+            "h": 48,
+            "right": 612,
+            "bottom": 184
+          },
+          "cls": "floor-chip"
+        },
+        {
+          "id": 9,
+          "label": "保险箱存取随身物品",
+          "disabled": false,
+          "rect": {
+            "x": 188,
+            "y": 210,
+            "w": 152,
+            "h": 62,
+            "right": 340,
+            "bottom": 272
+          },
+          "visible": {
+            "x": 188,
+            "y": 210,
+            "w": 152,
+            "h": 62,
+            "right": 340,
+            "bottom": 272
+          },
+          "cls": "btn secondary"
+        },
+        {
+          "id": 10,
+          "label": "天赋培养解锁与升级",
+          "disabled": false,
+          "rect": {
+            "x": 460,
+            "y": 210,
+            "w": 152,
+            "h": 62,
+            "right": 612,
+            "bottom": 272
+          },
+          "visible": {
+            "x": 460,
+            "y": 210,
+            "w": 152,
+            "h": 62,
+            "right": 612,
+            "bottom": 272
+          },
+          "cls": "btn secondary"
+        },
+        {
+          "id": 11,
+          "label": "进入第 2 层出发 →",
+          "disabled": false,
+          "rect": {
+            "x": 348,
+            "y": 288,
+            "w": 264,
+            "h": 56,
+            "right": 612,
+            "bottom": 344
+          },
+          "visible": {
+            "x": 348,
+            "y": 288,
+            "w": 264,
+            "h": 56,
+            "right": 612,
+            "bottom": 344
+          },
+          "cls": "btn primary camp-launch"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 152,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 1,
+      "ownedItems": [
+        {
+          "item": "potion",
+          "container": "equipment"
+        },
+        {
+          "item": "mushroom",
+          "container": "equipment"
+        },
+        {
+          "item": "blade",
+          "container": "equipment"
+        }
+      ],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n战斗装备\n纵向\n凝血毒剂\n灵魂香菇\n淬毒利刃\n0 / 100\n未解锁栏位\n出发之前\n深渊前厅\n第 1 层\n已通关 · 可重打\n第 2 层\n已选择\n第 3 层\n未解锁\n保险箱\n存取随身物品\n天赋培养\n解锁与升级\n装备已就绪\n向深处进发\n进入第 2 层\n出发 →\n随身背包\n⇵"
+    },
+    {
+      "screen": "05",
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FILE_NOT_FOUND"
+      ],
+      "failed": [
+        {
+          "url": "file:///Users/haobinlu/Desktop/%E6%8F%90%E5%8F%96%E8%BF%87%E7%A8%8B/outputs/UI%E8%A7%86%E8%A7%89%E8%BF%AD%E4%BB%A3/%E6%89%8B%E6%9C%BA%E8%BF%AD%E4%BB%A302/%E7%B4%A0%E6%9D%90/%E8%90%A5%E5%9C%B0%E5%9C%BA%E6%99%AF.png",
+          "failure": "net::ERR_FILE_NOT_FOUND"
+        }
+      ],
+      "title": "营地_天赋解锁 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看天赋药剂师",
+          "disabled": false,
+          "rect": {
+            "x": 248,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 248,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 169
+          },
+          "cls": "talent-node selected "
+        },
+        {
+          "id": 4,
+          "label": "查看天赋博学",
+          "disabled": false,
+          "rect": {
+            "x": 370.65625,
+            "y": 121,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 370.65625,
+            "y": 121,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 169
+          },
+          "cls": "talent-node  "
+        },
+        {
+          "id": 5,
+          "label": "查看天赋上肢力量",
+          "disabled": false,
+          "rect": {
+            "x": 493.328125,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 493.328125,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 169
+          },
+          "cls": "talent-node  "
+        },
+        {
+          "id": 6,
+          "label": "查看天赋强韧",
+          "disabled": false,
+          "rect": {
+            "x": 248,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 248,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        },
+        {
+          "id": 7,
+          "label": "查看天赋体质",
+          "disabled": false,
+          "rect": {
+            "x": 370.65625,
+            "y": 177,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 370.65625,
+            "y": 177,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        },
+        {
+          "id": 8,
+          "label": "查看天赋敏捷",
+          "disabled": false,
+          "rect": {
+            "x": 493.328125,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 493.328125,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        },
+        {
+          "id": 9,
+          "label": "解锁天赋",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 329,
+            "w": 152,
+            "h": 48,
+            "right": 608,
+            "bottom": 377
+          },
+          "visible": {
+            "x": 456,
+            "y": 329,
+            "w": 152,
+            "h": 31,
+            "right": 608,
+            "bottom": 360
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [
+        {
+          "id": 9,
+          "label": "解锁天赋",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 329,
+            "w": 152,
+            "h": 48,
+            "right": 608,
+            "bottom": 377
+          },
+          "visible": {
+            "x": 456,
+            "y": 329,
+            "w": 152,
+            "h": 31,
+            "right": 608,
+            "bottom": 360
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "hero-info",
+          "rect": {
+            "x": 40,
+            "y": 81,
+            "w": 184,
+            "h": 296,
+            "right": 224,
+            "bottom": 377
+          },
+          "clientHeight": 296,
+          "scrollHeight": 296,
+          "clientWidth": 183,
+          "scrollWidth": 183,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 0,
+      "ownedItems": [],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n幽冥骑士\n英雄属性\n生命上限\n180\n基础伤害\n30\n护甲\n0\n会心几率\n0%\n弹射距离\n500\n基础生命 150\n装备加成 +20% 生命\n角色天赋\n营地培养\n药剂师\n博学\n上肢力量\n强韧 · 锁\n体质 · 锁\n敏捷 · 锁\n药剂师\n\n使用生命药剂时，额外治愈5%生命。\n\n使用技能点解锁天赋\n\n解锁资源：技能点\n解锁天赋\n随身背包\n⇵"
+    },
+    {
+      "screen": "06",
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FILE_NOT_FOUND"
+      ],
+      "failed": [
+        {
+          "url": "file:///Users/haobinlu/Desktop/%E6%8F%90%E5%8F%96%E8%BF%87%E7%A8%8B/outputs/UI%E8%A7%86%E8%A7%89%E8%BF%AD%E4%BB%A3/%E6%89%8B%E6%9C%BA%E8%BF%AD%E4%BB%A302/%E7%B4%A0%E6%9D%90/%E8%90%A5%E5%9C%B0%E5%9C%BA%E6%99%AF.png",
+          "failure": "net::ERR_FILE_NOT_FOUND"
+        }
+      ],
+      "title": "营地_天赋升级 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看天赋药剂师",
+          "disabled": false,
+          "rect": {
+            "x": 248,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 248,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 169
+          },
+          "cls": "talent-node  "
+        },
+        {
+          "id": 4,
+          "label": "查看天赋博学",
+          "disabled": false,
+          "rect": {
+            "x": 370.65625,
+            "y": 121,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 370.65625,
+            "y": 121,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 169
+          },
+          "cls": "talent-node selected "
+        },
+        {
+          "id": 5,
+          "label": "查看天赋上肢力量",
+          "disabled": false,
+          "rect": {
+            "x": 493.328125,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 169
+          },
+          "visible": {
+            "x": 493.328125,
+            "y": 121,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 169
+          },
+          "cls": "talent-node  "
+        },
+        {
+          "id": 6,
+          "label": "查看天赋强韧",
+          "disabled": false,
+          "rect": {
+            "x": 248,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 248,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 362.65625,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        },
+        {
+          "id": 7,
+          "label": "查看天赋体质",
+          "disabled": false,
+          "rect": {
+            "x": 370.65625,
+            "y": 177,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 370.65625,
+            "y": 177,
+            "w": 114.671875,
+            "h": 48,
+            "right": 485.328125,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        },
+        {
+          "id": 8,
+          "label": "查看天赋敏捷",
+          "disabled": false,
+          "rect": {
+            "x": 493.328125,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 493.328125,
+            "y": 177,
+            "w": 114.65625,
+            "h": 48,
+            "right": 607.984375,
+            "bottom": 225
+          },
+          "cls": "talent-node  locked-node"
+        },
+        {
+          "id": 9,
+          "label": "升级天赋",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 329,
+            "w": 152,
+            "h": 48,
+            "right": 608,
+            "bottom": 377
+          },
+          "visible": {
+            "x": 456,
+            "y": 329,
+            "w": 152,
+            "h": 31,
+            "right": 608,
+            "bottom": 360
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [
+        {
+          "id": 9,
+          "label": "升级天赋",
+          "disabled": false,
+          "rect": {
+            "x": 456,
+            "y": 329,
+            "w": 152,
+            "h": 48,
+            "right": 608,
+            "bottom": 377
+          },
+          "visible": {
+            "x": 456,
+            "y": 329,
+            "w": 152,
+            "h": 31,
+            "right": 608,
+            "bottom": 360
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "hero-info",
+          "rect": {
+            "x": 40,
+            "y": 81,
+            "w": 184,
+            "h": 296,
+            "right": 224,
+            "bottom": 377
+          },
+          "clientHeight": 296,
+          "scrollHeight": 296,
+          "clientWidth": 183,
+          "scrollWidth": 183,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 0,
+      "ownedItems": [],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n幽冥骑士\n英雄属性\n生命上限\n180\n基础伤害\n30\n护甲\n0\n会心几率\n0%\n弹射距离\n500\n基础生命 150\n装备加成 +20% 生命\n角色天赋\n营地培养\n药剂师\n博学\n上肢力量\n强韧 · 锁\n体质 · 锁\n敏捷 · 锁\n博学\n\n获得的经验值提升12.5%。\n\n使用金币提升已解锁天赋\n\n升级资源：金币\n升级天赋\n随身背包\n⇵"
+    },
+    {
+      "screen": "07",
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FILE_NOT_FOUND"
+      ],
+      "failed": [
+        {
+          "url": "file:///Users/haobinlu/Desktop/%E6%8F%90%E5%8F%96%E8%BF%87%E7%A8%8B/outputs/UI%E8%A7%86%E8%A7%89%E8%BF%AD%E4%BB%A3/%E6%89%8B%E6%9C%BA%E8%BF%AD%E4%BB%A302/%E7%B4%A0%E6%9D%90/%E8%90%A5%E5%9C%B0%E5%9C%BA%E6%99%AF.png",
+          "failure": "net::ERR_FILE_NOT_FOUND"
+        }
+      ],
+      "title": "营地_保险箱存取 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看凝血毒剂",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "visible": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 4,
+          "label": "查看淬毒利刃",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 5,
+          "label": "返回营地",
+          "disabled": false,
+          "rect": {
+            "x": 544,
+            "y": 72,
+            "w": 80,
+            "h": 48,
+            "right": 624,
+            "bottom": 120
+          },
+          "visible": {
+            "x": 544,
+            "y": 72,
+            "w": 80,
+            "h": 48,
+            "right": 624,
+            "bottom": 120
+          },
+          "cls": "btn text"
+        },
+        {
+          "id": 6,
+          "label": "查看灵魂香菇",
+          "disabled": false,
+          "rect": {
+            "x": 188,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 308,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 188,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 308,
+            "bottom": 225
+          },
+          "cls": "slot gear-card selected"
+        },
+        {
+          "id": 7,
+          "label": "取出至背包",
+          "disabled": false,
+          "rect": {
+            "x": 364,
+            "y": 335,
+            "w": 248,
+            "h": 48,
+            "right": 612,
+            "bottom": 383
+          },
+          "visible": {
+            "x": 364,
+            "y": 335,
+            "w": 248,
+            "h": 25,
+            "right": 612,
+            "bottom": 360
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [
+        {
+          "id": 7,
+          "label": "取出至背包",
+          "disabled": false,
+          "rect": {
+            "x": 364,
+            "y": 335,
+            "w": 248,
+            "h": 48,
+            "right": 612,
+            "bottom": 383
+          },
+          "visible": {
+            "x": 364,
+            "y": 335,
+            "w": 248,
+            "h": 25,
+            "right": 612,
+            "bottom": 360
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 152,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        },
+        {
+          "cls": "detail-scroll",
+          "rect": {
+            "x": 364,
+            "y": 197,
+            "w": 248,
+            "h": 130,
+            "right": 612,
+            "bottom": 327
+          },
+          "clientHeight": 130,
+          "scrollHeight": 130,
+          "clientWidth": 248,
+          "scrollWidth": 248,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 1,
+      "ownedItems": [
+        {
+          "item": "potion",
+          "container": "equipment"
+        },
+        {
+          "item": "blade",
+          "container": "equipment"
+        },
+        {
+          "item": "mushroom",
+          "container": "safe"
+        }
+      ],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n战斗装备\n纵向\n凝血毒剂\n淬毒利刃\n0 / 100\n未解锁栏位\n保险箱\n返回营地\n安全存放\n灵魂香菇\n已存入\n点选物品，移至随身背包\n灵魂香菇\n保险箱内 · 当前物品\n4每次搜寻增值\n\n每搜寻过一次物品，增加4价值。最多不超过16。\n\n取出至背包\n随身背包\n⇵"
+    },
+    {
+      "screen": "08",
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FILE_NOT_FOUND"
+      ],
+      "failed": [
+        {
+          "url": "file:///Users/haobinlu/Desktop/%E6%8F%90%E5%8F%96%E8%BF%87%E7%A8%8B/outputs/UI%E8%A7%86%E8%A7%89%E8%BF%AD%E4%BB%A3/%E6%89%8B%E6%9C%BA%E8%BF%AD%E4%BB%A302/%E7%B4%A0%E6%9D%90/%E8%90%A5%E5%9C%B0%E5%9C%BA%E6%99%AF.png",
+          "failure": "net::ERR_FILE_NOT_FOUND"
+        }
+      ],
+      "title": "营地_地牢选择 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看凝血毒剂",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "visible": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 4,
+          "label": "查看灵魂香菇",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 5,
+          "label": "查看淬毒利刃",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "visible": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 6,
+          "label": "返回营地",
+          "disabled": false,
+          "rect": {
+            "x": 544,
+            "y": 72,
+            "w": 80,
+            "h": 48,
+            "right": 624,
+            "bottom": 120
+          },
+          "visible": {
+            "x": 544,
+            "y": 72,
+            "w": 80,
+            "h": 48,
+            "right": 624,
+            "bottom": 120
+          },
+          "cls": "btn text"
+        },
+        {
+          "id": 7,
+          "label": "01第 1 层✓ 可再次挑战",
+          "disabled": false,
+          "rect": {
+            "x": 188,
+            "y": 149,
+            "w": 136,
+            "h": 136,
+            "right": 324,
+            "bottom": 285
+          },
+          "visible": {
+            "x": 188,
+            "y": 149,
+            "w": 136,
+            "h": 136,
+            "right": 324,
+            "bottom": 285
+          },
+          "cls": "floor-card "
+        },
+        {
+          "id": 8,
+          "label": "02第 2 层准备出发",
+          "disabled": false,
+          "rect": {
+            "x": 332,
+            "y": 149,
+            "w": 136,
+            "h": 136,
+            "right": 468,
+            "bottom": 285
+          },
+          "visible": {
+            "x": 332,
+            "y": 149,
+            "w": 136,
+            "h": 136,
+            "right": 468,
+            "bottom": 285
+          },
+          "cls": "floor-card selected"
+        },
+        {
+          "id": 9,
+          "label": "03第 3 层锁定 · 先完成前一层",
+          "disabled": true,
+          "rect": {
+            "x": 476,
+            "y": 149,
+            "w": 136,
+            "h": 136,
+            "right": 612,
+            "bottom": 285
+          },
+          "visible": {
+            "x": 476,
+            "y": 149,
+            "w": 136,
+            "h": 136,
+            "right": 612,
+            "bottom": 285
+          },
+          "cls": "floor-card "
+        },
+        {
+          "id": 10,
+          "label": "进入第 2 层 →",
+          "disabled": false,
+          "rect": {
+            "x": 396,
+            "y": 301,
+            "w": 216,
+            "h": 48,
+            "right": 612,
+            "bottom": 349
+          },
+          "visible": {
+            "x": 396,
+            "y": 301,
+            "w": 216,
+            "h": 48,
+            "right": 612,
+            "bottom": 349
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 152,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 1,
+      "ownedItems": [
+        {
+          "item": "potion",
+          "container": "equipment"
+        },
+        {
+          "item": "mushroom",
+          "container": "equipment"
+        },
+        {
+          "item": "blade",
+          "container": "equipment"
+        }
+      ],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n战斗装备\n纵向\n凝血毒剂\n灵魂香菇\n淬毒利刃\n0 / 100\n未解锁栏位\n选择地牢\n返回营地\n01\n第 1 层\n✓ 可再次挑战\n02\n第 2 层\n准备出发\n03\n第 3 层\n锁定 · 先完成前一层\n\n已通关的层数可重复挑战。\n\n进入第 2 层 →\n随身背包\n⇵"
+    },
+    {
+      "screen": "09",
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FILE_NOT_FOUND"
+      ],
+      "failed": [
+        {
+          "url": "file:///Users/haobinlu/Desktop/%E6%8F%90%E5%8F%96%E8%BF%87%E7%A8%8B/outputs/UI%E8%A7%86%E8%A7%89%E8%BF%AD%E4%BB%A3/%E6%89%8B%E6%9C%BA%E8%BF%AD%E4%BB%A302/%E7%B4%A0%E6%9D%90/%E5%95%86%E4%BA%BA%E5%9C%BA%E6%99%AF.png",
+          "failure": "net::ERR_FILE_NOT_FOUND"
+        }
+      ],
+      "title": "商店_购买详情 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "← 离开商店",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 300,
+            "w": 136,
+            "h": 48,
+            "right": 160,
+            "bottom": 348
+          },
+          "visible": {
+            "x": 24,
+            "y": 300,
+            "w": 136,
+            "h": 48,
+            "right": 160,
+            "bottom": 348
+          },
+          "cls": "btn text"
+        },
+        {
+          "id": 4,
+          "label": "购买装备",
+          "disabled": false,
+          "rect": {
+            "x": 176,
+            "y": 72,
+            "w": 120,
+            "h": 48,
+            "right": 296,
+            "bottom": 120
+          },
+          "visible": {
+            "x": 176,
+            "y": 72,
+            "w": 120,
+            "h": 48,
+            "right": 296,
+            "bottom": 120
+          },
+          "cls": "shop-tab selected"
+        },
+        {
+          "id": 5,
+          "label": "出售物品",
+          "disabled": false,
+          "rect": {
+            "x": 304,
+            "y": 72,
+            "w": 120,
+            "h": 48,
+            "right": 424,
+            "bottom": 120
+          },
+          "visible": {
+            "x": 304,
+            "y": 72,
+            "w": 120,
+            "h": 48,
+            "right": 424,
+            "bottom": 120
+          },
+          "cls": "shop-tab "
+        },
+        {
+          "id": 6,
+          "label": "淬毒利刃青铜 · 小型",
+          "disabled": false,
+          "rect": {
+            "x": 176,
+            "y": 137,
+            "w": 184,
+            "h": 56,
+            "right": 360,
+            "bottom": 193
+          },
+          "visible": {
+            "x": 176,
+            "y": 137,
+            "w": 184,
+            "h": 56,
+            "right": 360,
+            "bottom": 193
+          },
+          "cls": "list-card selected"
+        },
+        {
+          "id": 7,
+          "label": "凝血毒剂青铜 · 小型",
+          "disabled": false,
+          "rect": {
+            "x": 176,
+            "y": 201,
+            "w": 184,
+            "h": 56,
+            "right": 360,
+            "bottom": 257
+          },
+          "visible": {
+            "x": 176,
+            "y": 201,
+            "w": 184,
+            "h": 56,
+            "right": 360,
+            "bottom": 257
+          },
+          "cls": "list-card "
+        },
+        {
+          "id": 8,
+          "label": "灵魂香菇青铜 · 小型",
+          "disabled": false,
+          "rect": {
+            "x": 176,
+            "y": 265,
+            "w": 184,
+            "h": 56,
+            "right": 360,
+            "bottom": 321
+          },
+          "visible": {
+            "x": 176,
+            "y": 265,
+            "w": 184,
+            "h": 56,
+            "right": 360,
+            "bottom": 321
+          },
+          "cls": "list-card "
+        },
+        {
+          "id": 9,
+          "label": "购买所选装备",
+          "disabled": false,
+          "rect": {
+            "x": 384,
+            "y": 300,
+            "w": 232,
+            "h": 48,
+            "right": 616,
+            "bottom": 348
+          },
+          "visible": {
+            "x": 384,
+            "y": 300,
+            "w": 232,
+            "h": 48,
+            "right": 616,
+            "bottom": 348
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "task-list",
+          "rect": {
+            "x": 176,
+            "y": 137,
+            "w": 192,
+            "h": 211,
+            "right": 368,
+            "bottom": 348
+          },
+          "clientHeight": 211,
+          "scrollHeight": 211,
+          "clientWidth": 192,
+          "scrollWidth": 192,
+          "scrollTop": 0
+        },
+        {
+          "cls": "detail-scroll",
+          "rect": {
+            "x": 384,
+            "y": 186,
+            "w": 232,
+            "h": 106,
+            "right": 616,
+            "bottom": 292
+          },
+          "clientHeight": 106,
+          "scrollHeight": 150,
+          "clientWidth": 232,
+          "scrollWidth": 232,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 0,
+      "ownedItems": [],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n行商\n炉火未熄，\n旅人尚有归处。\n← 离开商店\n购买装备\n出售物品\n淬毒利刃\n青铜 · 小型\n凝血毒剂\n青铜 · 小型\n灵魂香菇\n青铜 · 小型\n淬毒利刃\n商人商品 · 未购买\n15剧毒伤害\n\n充能后，下3次攻击在3回合内造成15剧毒伤害。\n\n会心几率30%。每8次剧毒伤害，施加1层易伤。\n\n购买所选装备\n随身背包\n⇵"
+    },
+    {
+      "screen": "10",
+      "errors": [],
+      "consoleErrors": [
+        "Failed to load resource: net::ERR_FILE_NOT_FOUND"
+      ],
+      "failed": [
+        {
+          "url": "file:///Users/haobinlu/Desktop/%E6%8F%90%E5%8F%96%E8%BF%87%E7%A8%8B/outputs/UI%E8%A7%86%E8%A7%89%E8%BF%AD%E4%BB%A3/%E6%89%8B%E6%9C%BA%E8%BF%AD%E4%BB%A302/%E7%B4%A0%E6%9D%90/%E5%95%86%E4%BA%BA%E5%9C%BA%E6%99%AF.png",
+          "failure": "net::ERR_FILE_NOT_FOUND"
+        }
+      ],
+      "title": "商店_出售详情 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "← 离开商店",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 300,
+            "w": 136,
+            "h": 48,
+            "right": 160,
+            "bottom": 348
+          },
+          "visible": {
+            "x": 24,
+            "y": 300,
+            "w": 136,
+            "h": 48,
+            "right": 160,
+            "bottom": 348
+          },
+          "cls": "btn text"
+        },
+        {
+          "id": 4,
+          "label": "购买装备",
+          "disabled": false,
+          "rect": {
+            "x": 176,
+            "y": 72,
+            "w": 120,
+            "h": 48,
+            "right": 296,
+            "bottom": 120
+          },
+          "visible": {
+            "x": 176,
+            "y": 72,
+            "w": 120,
+            "h": 48,
+            "right": 296,
+            "bottom": 120
+          },
+          "cls": "shop-tab "
+        },
+        {
+          "id": 5,
+          "label": "出售物品",
+          "disabled": false,
+          "rect": {
+            "x": 304,
+            "y": 72,
+            "w": 120,
+            "h": 48,
+            "right": 424,
+            "bottom": 120
+          },
+          "visible": {
+            "x": 304,
+            "y": 72,
+            "w": 120,
+            "h": 48,
+            "right": 424,
+            "bottom": 120
+          },
+          "cls": "shop-tab selected"
+        },
+        {
+          "id": 6,
+          "label": "凝血毒剂待出售 · 1件",
+          "disabled": false,
+          "rect": {
+            "x": 176,
+            "y": 165,
+            "w": 184,
+            "h": 56,
+            "right": 360,
+            "bottom": 221
+          },
+          "visible": {
+            "x": 176,
+            "y": 165,
+            "w": 184,
+            "h": 56,
+            "right": 360,
+            "bottom": 221
+          },
+          "cls": "list-card selected"
+        },
+        {
+          "id": 7,
+          "label": "出售所选物品",
+          "disabled": false,
+          "rect": {
+            "x": 384,
+            "y": 300,
+            "w": 232,
+            "h": 48,
+            "right": 616,
+            "bottom": 348
+          },
+          "visible": {
+            "x": 384,
+            "y": 300,
+            "w": 232,
+            "h": 48,
+            "right": 616,
+            "bottom": 348
+          },
+          "cls": "btn primary"
+        },
+        {
+          "id": 8,
+          "label": "查看凝血毒剂",
+          "disabled": false,
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 768,
+            "bottom": 161
+          },
+          "visible": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 768,
+            "bottom": 161
+          },
+          "cls": "slot gear-card selected"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "task-list",
+          "rect": {
+            "x": 176,
+            "y": 137,
+            "w": 192,
+            "h": 211,
+            "right": 368,
+            "bottom": 348
+          },
+          "clientHeight": 211,
+          "scrollHeight": 211,
+          "clientWidth": 192,
+          "scrollWidth": 192,
+          "scrollTop": 0
+        },
+        {
+          "cls": "detail-scroll",
+          "rect": {
+            "x": 384,
+            "y": 186,
+            "w": 232,
+            "h": 106,
+            "right": 616,
+            "bottom": 292
+          },
+          "clientHeight": 106,
+          "scrollHeight": 125,
+          "clientWidth": 232,
+          "scrollWidth": 232,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 0,
+      "ownedItems": [
+        {
+          "item": "potion",
+          "container": "bag"
+        }
+      ],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n行商\n炉火未熄，\n旅人尚有归处。\n← 离开商店\n购买装备\n出售物品\n来自随身背包\n凝血毒剂\n待出售 · 1件\n\n装备中的物品\n需先移入背包。\n\n凝血毒剂\n背包物品 · 未出售\n8流血伤害\n\n相邻物品造成伤害时，额外在3回合内造成8流血伤害。\n\n相邻物品被认为是流血物品。\n\n出售所选物品\n随身背包\n⇵\n凝血毒剂"
+    },
+    {
+      "screen": "11",
+      "errors": [],
+      "consoleErrors": [],
+      "failed": [],
+      "title": "战利品_宝箱领取 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看凝血毒剂",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "visible": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 4,
+          "label": "查看灵魂香菇",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 5,
+          "label": "查看淬毒利刃",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "visible": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 6,
+          "label": "返回",
+          "disabled": false,
+          "rect": {
+            "x": 544,
+            "y": 72,
+            "w": 80,
+            "h": 48,
+            "right": 624,
+            "bottom": 120
+          },
+          "visible": {
+            "x": 544,
+            "y": 72,
+            "w": 80,
+            "h": 48,
+            "right": 624,
+            "bottom": 120
+          },
+          "cls": "btn text"
+        },
+        {
+          "id": 7,
+          "label": "灵魂香菇",
+          "disabled": false,
+          "rect": {
+            "x": 188,
+            "y": 141,
+            "w": 160,
+            "h": 136,
+            "right": 348,
+            "bottom": 277
+          },
+          "visible": {
+            "x": 188,
+            "y": 141,
+            "w": 160,
+            "h": 136,
+            "right": 348,
+            "bottom": 277
+          },
+          "cls": "loot-tile"
+        },
+        {
+          "id": 8,
+          "label": "领取至背包",
+          "disabled": false,
+          "rect": {
+            "x": 364,
+            "y": 288,
+            "w": 248,
+            "h": 48,
+            "right": 612,
+            "bottom": 336
+          },
+          "visible": {
+            "x": 364,
+            "y": 288,
+            "w": 248,
+            "h": 48,
+            "right": 612,
+            "bottom": 336
+          },
+          "cls": "btn primary"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 152,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        },
+        {
+          "cls": "detail-scroll",
+          "rect": {
+            "x": 364,
+            "y": 197,
+            "w": 248,
+            "h": 83,
+            "right": 612,
+            "bottom": 280
+          },
+          "clientHeight": 83,
+          "scrollHeight": 93,
+          "clientWidth": 248,
+          "scrollWidth": 248,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 1,
+      "ownedItems": [
+        {
+          "item": "potion",
+          "container": "equipment"
+        },
+        {
+          "item": "mushroom",
+          "container": "equipment"
+        },
+        {
+          "item": "blade",
+          "container": "equipment"
+        }
+      ],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n战斗装备\n纵向\n凝血毒剂\n灵魂香菇\n淬毒利刃\n0 / 100\n未解锁栏位\n发现战利品\n战斗结束\n返回\n灵魂香菇\n\n青铜 · 待领取\n选中后查看详细效果\n\n灵魂香菇\n宝箱奖励 · 尚未领取\n2每次搜寻增值\n\n每搜寻过一次物品，增加2价值。最多不超过8。\n\n领取至背包\n随身背包\n⇵"
+    },
+    {
+      "screen": "12",
+      "errors": [],
+      "consoleErrors": [],
+      "failed": [],
+      "title": "战斗_装备详情 · 手机迭代02",
+      "missingImages": [],
+      "buttons": [
+        {
+          "id": 0,
+          "label": "装备栏位",
+          "disabled": false,
+          "rect": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 24,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 120,
+            "bottom": 56
+          },
+          "cls": "tab active"
+        },
+        {
+          "id": 1,
+          "label": "英雄属性",
+          "disabled": false,
+          "rect": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 128,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 224,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 2,
+          "label": "装备图鉴",
+          "disabled": false,
+          "rect": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "visible": {
+            "x": 232,
+            "y": 8,
+            "w": 96,
+            "h": 48,
+            "right": 328,
+            "bottom": 56
+          },
+          "cls": "tab "
+        },
+        {
+          "id": 3,
+          "label": "查看凝血毒剂",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "visible": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 161
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 4,
+          "label": "查看灵魂香菇",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "visible": {
+            "x": 32,
+            "y": 169,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 225
+          },
+          "cls": "slot gear-card "
+        },
+        {
+          "id": 5,
+          "label": "查看淬毒利刃",
+          "disabled": false,
+          "rect": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "visible": {
+            "x": 32,
+            "y": 233,
+            "w": 120,
+            "h": 56,
+            "right": 152,
+            "bottom": 289
+          },
+          "cls": "slot gear-card selected"
+        },
+        {
+          "id": 6,
+          "label": "返回战斗",
+          "disabled": false,
+          "rect": {
+            "x": 544,
+            "y": 72,
+            "w": 80,
+            "h": 48,
+            "right": 624,
+            "bottom": 120
+          },
+          "visible": {
+            "x": 544,
+            "y": 72,
+            "w": 80,
+            "h": 48,
+            "right": 624,
+            "bottom": 120
+          },
+          "cls": "btn text"
+        }
+      ],
+      "smallButtons": [],
+      "buttonOverlaps": [],
+      "buttonsOutsideViewport": [],
+      "overflowText": [],
+      "textButtonOverlaps": [],
+      "scrolls": [
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 32,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 152,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        },
+        {
+          "cls": "detail-scroll",
+          "rect": {
+            "x": 328,
+            "y": 145,
+            "w": 280,
+            "h": 159,
+            "right": 608,
+            "bottom": 304
+          },
+          "clientHeight": 159,
+          "scrollHeight": 163,
+          "clientWidth": 280,
+          "scrollWidth": 280,
+          "scrollTop": 0
+        },
+        {
+          "cls": "slots",
+          "rect": {
+            "x": 648,
+            "y": 105,
+            "w": 120,
+            "h": 234,
+            "right": 768,
+            "bottom": 339
+          },
+          "clientHeight": 234,
+          "scrollHeight": 376,
+          "clientWidth": 120,
+          "scrollWidth": 120,
+          "scrollTop": 0
+        }
+      ],
+      "gearCount": 1,
+      "ownedItems": [
+        {
+          "item": "potion",
+          "container": "equipment"
+        },
+        {
+          "item": "mushroom",
+          "container": "equipment"
+        },
+        {
+          "item": "blade",
+          "container": "equipment"
+        }
+      ],
+      "text": "装备栏位\n英雄属性\n装备图鉴\n生命\n180 / 180\n体力\n100 / 100\n腐化\n0 / 100\n金币\n4\n战斗装备\n纵向\n凝血毒剂\n灵魂香菇\n淬毒利刃\n0 / 100\n未解锁栏位\n装备详情\n返回战斗\n淬毒利刃\n充能 0 / 100\n淬毒利刃\n\n下3次攻击将在3回合内造成30剧毒伤害。\n\n每8次剧毒伤害，施加2层易伤。\n\n提升20%生命上限。\n\n战斗中仅可查看，不能调整装备\n随身背包\n⇵"
+    }
+  ],
+  "actionChecks": [
+    {
+      "screen": "09",
+      "action": "scroll details",
+      "before": {
+        "scrollTop": 0,
+        "clientHeight": 106,
+        "scrollHeight": 150
+      },
+      "after": {
+        "scrollTop": 44,
+        "clientHeight": 106,
+        "scrollHeight": 150
+      }
+    },
+    {
+      "screen": "10",
+      "action": "scroll details",
+      "before": {
+        "scrollTop": 0,
+        "clientHeight": 106,
+        "scrollHeight": 125
+      },
+      "after": {
+        "scrollTop": 19,
+        "clientHeight": 106,
+        "scrollHeight": 125
+      }
+    },
+    {
+      "screen": "11",
+      "action": "scroll details",
+      "before": {
+        "scrollTop": 0,
+        "clientHeight": 83,
+        "scrollHeight": 93
+      },
+      "after": {
+        "scrollTop": 10,
+        "clientHeight": 83,
+        "scrollHeight": 93
+      }
+    },
+    {
+      "screen": "12",
+      "action": "scroll details",
+      "before": {
+        "scrollTop": 0,
+        "clientHeight": 159,
+        "scrollHeight": 163
+      },
+      "after": {
+        "scrollTop": 4,
+        "clientHeight": 159,
+        "scrollHeight": 163
+      }
+    },
+    {
+      "screen": "05",
+      "action": "primary unknown-cost action (synthetic event; not hit-area test)",
+      "visibleTextChanged": false,
+      "messages": [
+        {
+          "type": "ui-review-action",
+          "screen": "05",
+          "message": "费用未定，本页只展示布局，不执行购买、出售或天赋成长。"
+        }
+      ],
+      "messageVisibleOnPage": 0
+    },
+    {
+      "screen": "06",
+      "action": "primary unknown-cost action (synthetic event; not hit-area test)",
+      "visibleTextChanged": false,
+      "messages": [
+        {
+          "type": "ui-review-action",
+          "screen": "06",
+          "message": "费用未定，本页只展示布局，不执行购买、出售或天赋成长。"
+        }
+      ],
+      "messageVisibleOnPage": 0
+    },
+    {
+      "screen": "09",
+      "action": "primary unknown-cost action (synthetic event; not hit-area test)",
+      "visibleTextChanged": false,
+      "messages": [
+        {
+          "type": "ui-review-action",
+          "screen": "09",
+          "message": "费用未定，本页只展示布局，不执行购买、出售或天赋成长。"
+        }
+      ],
+      "messageVisibleOnPage": 0
+    },
+    {
+      "screen": "10",
+      "action": "primary unknown-cost action (synthetic event; not hit-area test)",
+      "visibleTextChanged": false,
+      "messages": [
+        {
+          "type": "ui-review-action",
+          "screen": "10",
+          "message": "费用未定，本页只展示布局，不执行购买、出售或天赋成长。"
+        }
+      ],
+      "messageVisibleOnPage": 0
+    },
+    {
+      "screen": "01",
+      "action": "click equipped potion",
+      "resultScreen": "12",
+      "resultItemTitle": "淬毒利刃"
+    },
+    {
+      "screen": "06",
+      "action": "click selected learned talent 博学",
+      "resultScreen": "05",
+      "primary": "解锁天赋"
+    },
+    {
+      "screen": "07",
+      "action": "inspect safe contract",
+      "hasDeposit": 0,
+      "hasDeathProtection": 0
+    }
+  ],
+  "findings": [
+    {
+      "severity": "P1",
+      "screens": [
+        "05",
+        "06"
+      ],
+      "issue": "主按钮在y329-377，超出360高视口17px；实际可见点击高度仅31px。talent-area/hero-layout被内容撑高，按钮不在可滚动父容器内。"
+    },
+    {
+      "severity": "P1",
+      "screens": [
+        "07"
+      ],
+      "issue": "取出按钮在y335-383，超出视口23px；实际可见点击高度25px。safe-grid及说明撑高task-split。"
+    },
+    {
+      "severity": "design-review",
+      "screens": [
+        "09",
+        "10"
+      ],
+      "issue": "商店候选主动收起常驻装备格，以顶部装备入口与右背包换取商品详情空间；主代理已说明此取舍，应交用户审阅，不作为技术bug。"
+    },
+    {
+      "severity": "P2",
+      "screens": [
+        "05",
+        "06",
+        "09",
+        "10"
+      ],
+      "issue": "费用未定但主按钮显示为可执行；独立file页面点击仅postMessage，无页面可见反馈，易理解为按钮失灵或可无报价执行。"
+    },
+    {
+      "severity": "P2",
+      "screens": [
+        "01"
+      ],
+      "issue": "点击凝血毒剂装备却跳转淬毒利刃详情；detail动作忽略data-item。"
+    },
+    {
+      "severity": "P2",
+      "screens": [
+        "06"
+      ],
+      "issue": "点击已选博学，页面切到05并变成解锁天赋；既有升级状态丢失。"
+    },
+    {
+      "severity": "P2",
+      "screens": [
+        "07"
+      ],
+      "issue": "保险箱移走香菇后利刃向上占了原香菇行，空位补到末尾；未保留物品原纵向位置。缺少存入入口及死亡不丢失的明确说明。"
+    },
+    {
+      "severity": "P2",
+      "screens": [
+        "08"
+      ],
+      "issue": "第3层新增“先完成前一层”具体解锁条件，旧设计边界没有确定具体前置条件。"
+    },
+    {
+      "severity": "P2",
+      "screens": [
+        "12"
+      ],
+      "issue": "装备详情态只渲染纯色backdrop，实际战场图消失；与在战场上查看详情并保留场景的目标有偏差。"
+    }
+  ],
+  "scopeClarifications": [
+    "本次主代理确认商店收起常驻装备格为主动候选布局，不视作意外缺失。",
+    "费用未知页面属于布局评审，不得模拟金钱扣除、出售收入或天赋成长。"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I138",
+  "name": "幽焰龙爪",
+  "status": "generated-normalized",
+  "source": "mothers/I138.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I138.png",
+  "motherSha256": "67db625850520488468bbdbe55c37b66abfefcb16be4e4c98da6932630d058e7",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I138.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2717,
+      "sha256": "922971665f4f0f8735d4d695880db434a5ac6f4cd220d7acfad5770608d582b6",
+      "pixelSha256": "3cec31195128a523b6e2f73ff8f0f05433fc12e38a3401b6c697d8649033b3d7",
+      "alphaBounds": [
+        11,
+        4,
+        116,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          196,
+          31,
+          1739,
+          855
+        ],
+        "fitSize": [
+          105,
+          56
+        ],
+        "position": [
+          11,
+          4
+        ],
+        "scale": 0.06796116504854369
+      }
+    },
+    "256": {
+      "file": "pixels/256/I138.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9681,
+      "sha256": "2e87af90def72b38ac446bf46f9353a04acb59e1e0390b22a04c23e4a4df8a90",
+      "pixelSha256": "7150a1890e94887695098b407fd269da48c6fc1d32d032568054d804e8d08fe6",
+      "alphaBounds": [
+        23,
+        8,
+        233,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          196,
+          31,
+          1739,
+          855
+        ],
+        "fitSize": [
+          210,
+          112
+        ],
+        "position": [
+          23,
+          8
+        ],
+        "scale": 0.13592233009708737
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "三趾火爪数量、层板护腕、沙漏链条主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-0e888b36-918e-40f0-ba55-8151cb8a4f28.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-0e888b36-918e-40f0-ba55-8151cb8a4f28"
+  }
+}

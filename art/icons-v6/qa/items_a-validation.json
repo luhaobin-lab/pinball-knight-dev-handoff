@@ -1,0 +1,2521 @@
+{
+  "scope": "items_a reassigned final queue; I001-I066 excluding immutable I005/I047",
+  "assigned": 64,
+  "complete": 64,
+  "issues": [],
+  "allGeneratedIndividually": true,
+  "motherSourceHashIdentityChecked": true,
+  "visualReviewMethod": "Every original generated image and every 256px PNG viewed individually; four contact sheets additionally inspected after this report. Aesthetic acceptance remains with the user.",
+  "rejectedDrafts": [
+    "I006 chain weapon",
+    "I016 bottle base",
+    "I017 ambiguous string",
+    "I017 floating secondary limb"
+  ],
+  "records": [
+    {
+      "id": "I001",
+      "name": "蓄势战甲",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6986,
+          "sha256": "db699fe7d5fb4cc83fc39eb8a96f53ed173ddf1450b8ebbea0118510f92123e8"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 94,
+          "bytes": 25867,
+          "sha256": "5d299e0ce4e3fab41fc1dff2e5d0812703be3b0bafbf37bc220dfc312658dc0e"
+        }
+      }
+    },
+    {
+      "id": "I002",
+      "name": "旧长袍",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 10627,
+          "sha256": "90df2630ff04fbb822355a043b7ad775ece037c3abe549bbf034896fe0e0383b"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 39848,
+          "sha256": "528ec99d40f9095d41e9d8f680ade8e353a829b49ed28219034304f343ff38fe"
+        }
+      }
+    },
+    {
+      "id": "I003",
+      "name": "旧盔甲",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 10208,
+          "sha256": "4003444fb017485f3f8eeadc8095d8fd3d021912f816feb4153664d209987ebd"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 38997,
+          "sha256": "d256958a378cdeb16c694157d32fbd2cde32670205eea1b1a078f99b08edaf71"
+        }
+      }
+    },
+    {
+      "id": "I004",
+      "name": "旧法杖",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5976,
+          "sha256": "093757564299fcfec155c298cc0e7210f9ab78849003c00d4b1820c5ae3341d6"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 21548,
+          "sha256": "8eace560bc71b1929f0a61d8d127488b36db98494f9b5b1983a19f17c8d1286a"
+        }
+      }
+    },
+    {
+      "id": "I006",
+      "name": "灼热眼珠",
+      "issues": [],
+      "motherSize": [
+        1774,
+        887
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            64
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 2470,
+          "sha256": "15df8aa14d6c9a145418685a6dbd5a61f46b42a6e6a29fa65bbb1e89e7d93930"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 8728,
+          "sha256": "dedb51a3bf9260461d0077aee726dc3c876c1bfbeaf2c31ad8741bb6b3e21e74"
+        }
+      }
+    },
+    {
+      "id": "I007",
+      "name": "重生傀儡之臂",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 7348,
+          "sha256": "a25936ef8f71c2fc5a278ee77c3e4d176411cced754804b1bd68336ecbb99f06"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 27253,
+          "sha256": "9d098345dd600187e2664fdbf6518ff5e9bc61e216e09914e54a3c4d703a7406"
+        }
+      }
+    },
+    {
+      "id": "I008",
+      "name": "回旋盔甲",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 9955,
+          "sha256": "ef47ff2092a3ae6fb719df1009abc46b92f36003b12a9a5696531771014fa6d9"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 37249,
+          "sha256": "0d2e1c20e9d393e61ad7209bb9446527cabe07b2d48d798ee700c581816a815f"
+        }
+      }
+    },
+    {
+      "id": "I009",
+      "name": "旋风杖",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5943,
+          "sha256": "1d196d7ef5dbb7d1f2632983242f3c8c8a5f3964b4fcdbfb839c0cd8aa67135a"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 21678,
+          "sha256": "b6786176baa3c7956b9aa80cec52db68027a12cc9088d1b22c888e45f976e7a5"
+        }
+      }
+    },
+    {
+      "id": "I010",
+      "name": "尖角头盔",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 62,
+          "bytes": 6747,
+          "sha256": "258a6e136343e4d7ea071bc4ec11177c254b77dee8a2dc6d884b5af0ec7d0f4a"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 89,
+          "bytes": 24833,
+          "sha256": "905ab59e7c5f9cbac13304b676ab0c6df55df1b47949ce26818a2c4cf9d921b3"
+        }
+      }
+    },
+    {
+      "id": "I011",
+      "name": "利齿骨鞭",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 8138,
+          "sha256": "3921e28296be90b76769d9a6b3b3faf004df11f8d869b66a03c4ef97222bbd0a"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 30165,
+          "sha256": "7595625ccad9c7e5c1bcc50ec831607f528909e394289f394e3a59d088493401"
+        }
+      }
+    },
+    {
+      "id": "I012",
+      "name": "骨刺",
+      "issues": [],
+      "motherSize": [
+        1774,
+        887
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            64
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 63,
+          "bytes": 2359,
+          "sha256": "1cbd40b4600d71a6a04e5bafa5ee6bcad6db7d4f8a2d5d998d28826ab888c3e0"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 8530,
+          "sha256": "13abca6495e96543934c273d884ef440b1514eceb20359e9fa901535f6826081"
+        }
+      }
+    },
+    {
+      "id": "I013",
+      "name": "血舞斗篷",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 8605,
+          "sha256": "2a90f70d604f6faef0f30d4dcbc4dd6cf314e0b4fd0852386021ea7b0cc2e985"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 95,
+          "bytes": 30794,
+          "sha256": "24b12b143ddb99d98ab8bbff6d0870e39f5f0ebf63a280a43da7825a5f7a4326"
+        }
+      }
+    },
+    {
+      "id": "I014",
+      "name": "疫病虫巢",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 8053,
+          "sha256": "ffdbf7844e50406ae52426d2c8c1806e4e82a8cee936dabb0db4591641f29c02"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 30942,
+          "sha256": "370cccc12f672ed472fbc338bb71cff80fec831317b748668aea0e238b4069a0"
+        }
+      }
+    },
+    {
+      "id": "I015",
+      "name": "增生触手",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 8487,
+          "sha256": "18d387ec32b7c2925c1ad61d5393df835bbd611b3589a8520650b3149d0914e5"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 94,
+          "bytes": 31154,
+          "sha256": "fd4a49ac6c4632ab81ce25544a94528153c80abe13fc5c90cb4cb3ed676d62b1"
+        }
+      }
+    },
+    {
+      "id": "I016",
+      "name": "瘟疫花",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 9138,
+          "sha256": "a06c9f0fc781c09add4e5a715c08bf678a44cbf937a14842d9e7072795b40617"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 32862,
+          "sha256": "aafe603776e4db54beff35aa8ef6692b39bdf4ee4426625e0983c7ef45aa3c11"
+        }
+      }
+    },
+    {
+      "id": "I017",
+      "name": "双生长弓",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 3631,
+          "sha256": "15ec70adfeb5e90b23d2fb0bd8884ad5d947c1f245ae00a18163b479a9797f95"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 95,
+          "bytes": 12625,
+          "sha256": "fa4db316ec0ebc574c7b2be31804055c276b2b3d3bb4c1acce7b04781b96b6a2"
+        }
+      }
+    },
+    {
+      "id": "I018",
+      "name": "凝神连弩",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 63,
+          "bytes": 7923,
+          "sha256": "1fc974f1f5bc30ee8bf4d3150bf774bb15dbb6e7dd0dc4afa494200f404a0a40"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 29507,
+          "sha256": "aed64b7a9fa9e49e1889dd62b740c2e7e61713f3a5bdb9815085f98d66fc022f"
+        }
+      }
+    },
+    {
+      "id": "I019",
+      "name": "风火权杖",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6849,
+          "sha256": "17479178b532a9cead5fec6ebf8ed66c9a00ab66da0714fe78050451deb33cec"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 9,
+          "visibleColors": 96,
+          "bytes": 24952,
+          "sha256": "01bd643280404d4d71e881ee225f9712e4a5a3b81d8ddea564cd5504e971f479"
+        }
+      }
+    },
+    {
+      "id": "I020",
+      "name": "雷云法袍",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 10238,
+          "sha256": "ed1ba5b9f62cea3f29ced0c7e0c7daa60ca99b59ff268781a8334796edddb52b"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 9,
+          "visibleColors": 96,
+          "bytes": 37761,
+          "sha256": "975f439584f48ab83b32a1d39e9e0e4ef49cc7fcaf43caa3b846e8e5fc424426"
+        }
+      }
+    },
+    {
+      "id": "I021",
+      "name": "黑洞法杖",
+      "issues": [],
+      "motherSize": [
+        1024,
+        1536
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            192
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 63,
+          "bytes": 5391,
+          "sha256": "88b7eeef3e314f25e94fb6cad5412c3ecb412d37c2a0429ae9200d81c869e591"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            384
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 95,
+          "bytes": 19633,
+          "sha256": "fd81bb2f99a1a4ea438b86a78ac5b72be4b1d3ae6ed024e80c552adac973d2df"
+        }
+      }
+    },
+    {
+      "id": "I022",
+      "name": "旧剑",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 2761,
+          "sha256": "2296af2ea24d8e377684d3832e552abbe50ca45fc600b8b0dc1a32f58c841607"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 9907,
+          "sha256": "7858929d41d1a7e07b3847d4845b96f6e2a0105aa39176661a47c799a90e9de4"
+        }
+      }
+    },
+    {
+      "id": "I023",
+      "name": "旧盾",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5609,
+          "sha256": "7511550eb6e449dd1c62b7bcfe8b9bacd7c3382872bfe4c1d8f2efc371ecccad"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 21319,
+          "sha256": "b192e78b5a122def1d5d9b3a307a65d05ca6f85a41f0c719c2c00dfd295870fc"
+        }
+      }
+    },
+    {
+      "id": "I024",
+      "name": "不可撼动之甲",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 7045,
+          "sha256": "1463cb4f5f363c4c24ecce2976a4fca89d5171bbe6f37df45b75236d2536f57e"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 26831,
+          "sha256": "fc5dbf8b61e73120eb8d68b912973b43913cab1e7dcf558b77dfe03ee6a9a8d3"
+        }
+      }
+    },
+    {
+      "id": "I025",
+      "name": "巨神兵大剑",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 3581,
+          "sha256": "0faab4ebda8875d2294bb4efddb889b2ae99fa6374c148baac07752158b54197"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 13082,
+          "sha256": "19055d5ec695f6957505d67e590aadcd5e4b90ed3f474b3aabef7487cc6ed192"
+        }
+      }
+    },
+    {
+      "id": "I026",
+      "name": "淬炼宝石",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5364,
+          "sha256": "76e76f94e91504cf3b9fce3c8984118d1f607025bf755bc26e406e554f800ccd"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 20058,
+          "sha256": "9bf278714267228884b537294b05ca74a423179d9ab51c7a40dd538fd94e28b3"
+        }
+      }
+    },
+    {
+      "id": "I027",
+      "name": "旧鞋",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6484,
+          "sha256": "e073cdfeea0d3d1513da0778566d2e4d37899122a80da5c248a6a16da7d7c6d6"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23854,
+          "sha256": "b3757e7967dd05d9ca0fe46075e21dae13d2901f5895d7e10c0bb442805f2ee1"
+        }
+      }
+    },
+    {
+      "id": "I028",
+      "name": "旧皮衣",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 7035,
+          "sha256": "4c7e45ed01907604341a6ca3a2887b858c04032993d312d2a60b1658a50473c9"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 27065,
+          "sha256": "8081d808d273384fdb43aae18549bd45ef0a8a14b7e32117c253917d8c51a5d2"
+        }
+      }
+    },
+    {
+      "id": "I029",
+      "name": "万里追风靴",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6410,
+          "sha256": "cc2c46694a2725825b2edfcb85a5dc2cc6cdf88f1746da46c909cafd4ea9fe53"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23050,
+          "sha256": "41667832366c4157b31ded4279afb38ddfca4d9d58efc122d47570bfb9ae0e30"
+        }
+      }
+    },
+    {
+      "id": "I030",
+      "name": "黄金头盔",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 5,
+          "visibleColors": 64,
+          "bytes": 5771,
+          "sha256": "86c97ce7e71d8ccd141eebb146001e1875db06e43273ad649bb8ae4fe13e96cb"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 21121,
+          "sha256": "ecefdac7f60549f1eee9a62ce26761fc746817458f17143d9afb17ded899ff34"
+        }
+      }
+    },
+    {
+      "id": "I031",
+      "name": "玄岩锤",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 4705,
+          "sha256": "e96609e164ec9436ecd9c6d2791af16b6708b8c35ac7d0803c5ed2ac19e7e6d9"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 17493,
+          "sha256": "52944ce16b4834a2fa73cf25f6f4121756db235d55f04b198a8ef7648bd6c0b4"
+        }
+      }
+    },
+    {
+      "id": "I032",
+      "name": "异变种子",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6370,
+          "sha256": "712cd92e018fc22a0699d2e56c708c77f3b76dfed0cb02847d3571deeacf3720"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23757,
+          "sha256": "3454dc708437ae5c7ff77e6f7c8e25e56d786a15a672ee6bc98392bb6ea18d56"
+        }
+      }
+    },
+    {
+      "id": "I033",
+      "name": "弑神虫卵",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6753,
+          "sha256": "11a60f47a3028556ed4ea088b004446d1942faa8de5bb96bbfd99eaf8f9c2fa6"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 25403,
+          "sha256": "e6e031a8591c446695a2fe07ee215b9ef7597c9341258a567337420dee37974a"
+        }
+      }
+    },
+    {
+      "id": "I034",
+      "name": "增生肉瘤",
+      "issues": [],
+      "motherSize": [
+        1774,
+        887
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            64
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 3183,
+          "sha256": "ce5e1422aff1ccc8f7549897ab96fe14fbb7da1510b7166412246ca43f48aa1e"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 11917,
+          "sha256": "c417cafd5bdad0e3470a6eeba029f1831c6a533e229cb09bc93d0e66064505fe"
+        }
+      }
+    },
+    {
+      "id": "I035",
+      "name": "名称未显示（顶部截断）",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6280,
+          "sha256": "ce2e0693737913c415a288b824985b842de482c941e4184be02b29d3ac68700b"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23132,
+          "sha256": "a633669bfbc6c6fe127869f295d2d58dca9dd3b8d38ff07f397914704d8e7647"
+        }
+      }
+    },
+    {
+      "id": "I036",
+      "name": "结晶大剑",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 3904,
+          "sha256": "0d1831d0777b8aa3336865ab7e3381ba24606f36b1b1504fc1569af7b3808efa"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 14014,
+          "sha256": "523516fcddca0cd950c216f5b28cbe66271a763dab869522c6a589fdb94dcb6a"
+        }
+      }
+    },
+    {
+      "id": "I037",
+      "name": "结晶重盾",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 4992,
+          "sha256": "4e5be71247cf3f5a8659b7782c0bc53cb67edf239e6cd7248e8850b6bd52200e"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 19006,
+          "sha256": "74a4e7d0372dcadcc485c02eca1a62b5b3befd140b1681687d2d0df213e92f5b"
+        }
+      }
+    },
+    {
+      "id": "I038",
+      "name": "女王石",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6298,
+          "sha256": "ba41c04f0e1646ce7432cb34ffd35972148f98ff8041020cdf4e8e8e494ae7fa"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23758,
+          "sha256": "08949da9f581954547e68d54a64a88ea3c0e6e7395512997215fd1fa3a12b0c9"
+        }
+      }
+    },
+    {
+      "id": "I039",
+      "name": "厚重石块",
+      "issues": [],
+      "motherSize": [
+        1774,
+        887
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            64
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 2965,
+          "sha256": "1ca08975af01f49f5fa47d122070dfa533eb4db1cf14f05a18c78891062cb09d"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 95,
+          "bytes": 10822,
+          "sha256": "724e3c2b38c869b694af466b6a2129c3c4cc69edcf5dd7cfbf4e99a1ca1628d8"
+        }
+      }
+    },
+    {
+      "id": "I040",
+      "name": "弑神枝条",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 4104,
+          "sha256": "45181f7a63abfbfbe356287078b01da670bc0a38f16dff224e036474725d8542"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 95,
+          "bytes": 14671,
+          "sha256": "a6a9285863da9386fbab4aae525dab81a5cb851f50558840d8f0893418c2b34e"
+        }
+      }
+    },
+    {
+      "id": "I041",
+      "name": "幽焰龙头",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6399,
+          "sha256": "2a2564bc82f67f817996d4212df2272dd83cf5ce3b68c3f7ab2aa987504fa93c"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23558,
+          "sha256": "e0379a2adb72f9c96bdffdff1137fa99f0137fd09248cc681549dd246fecd421"
+        }
+      }
+    },
+    {
+      "id": "I042",
+      "name": "幽焰龙尾",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 4927,
+          "sha256": "e5cd02e570fbbaa3bae47d64fdaf7bb072fa8468645ea11d39d5e3382b599c88"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 18241,
+          "sha256": "22b0a18e43932873e23130c78085f7c20bea67c5a83f0a7bd35c6bc3528b7b3e"
+        }
+      }
+    },
+    {
+      "id": "I043",
+      "name": "寂静头冠",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5916,
+          "sha256": "63912730fcd04e9d3e9ade7aa83c4e45f3d57fab51fc06424e22efc48ba567f3"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 22078,
+          "sha256": "80f870708e1a83357321d1f612212769b6c2f6e2df6fc1aae2676bbfdfe32ef8"
+        }
+      }
+    },
+    {
+      "id": "I044",
+      "name": "死灵布",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5616,
+          "sha256": "834a9f7186241b9f2b5bdbffc39ffdf0031614b12699e8db0e3f6f4782b52a76"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 20778,
+          "sha256": "a28e006459c3ae305ec34227fc884f9f133676e7943507fb9d6d7193f2118f9c"
+        }
+      }
+    },
+    {
+      "id": "I045",
+      "name": "精核剑",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 3128,
+          "sha256": "c6dddb5d7c39cc32c1639c9cd390f840d316f8e9826a9a33c84862468f99d90f"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 11114,
+          "sha256": "d7b101295ae5bfcc9ddb4e363d282409ce0664b70fa1a14c1f86563263246d69"
+        }
+      }
+    },
+    {
+      "id": "I046",
+      "name": "导能护符",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 5,
+          "visibleColors": 64,
+          "bytes": 4342,
+          "sha256": "33d2057e2a8613e85d2bc581ff4ce41e0f4a0e85b380d70426d264d8f631e849"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 15747,
+          "sha256": "6b2f0263cae573374085ab5fd2a8126e07d6d117da07109bb723b43d4bb1717b"
+        }
+      }
+    },
+    {
+      "id": "I048",
+      "name": "固甲石",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6175,
+          "sha256": "435726365104aef0c317102d7fab724e5b20ac482eb304dd5464dcc5117b2639"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23070,
+          "sha256": "bb373065e2db832beafc5f8193a41f184065175b54e461942fd1cb4d80fabe66"
+        }
+      }
+    },
+    {
+      "id": "I049",
+      "name": "精核盾",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6097,
+          "sha256": "fee5af0e843e9f863d7f6a1230c082a50a9ec3d0558160e7691c6c0f4b0a398d"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 22306,
+          "sha256": "f9dcd45135480019ab9b6ecd2eb9365b4f666c9584fb300edbd5ebac7f73c020"
+        }
+      }
+    },
+    {
+      "id": "I050",
+      "name": "铸甲重锤",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 4990,
+          "sha256": "dd258fca6e6934b1ec31da7cbe2a93f5dc672f1e19368dbe609a649753ab5fe0"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 18823,
+          "sha256": "df22a8f43a9c3de70fafd00156dc96f809285881812b89a92a98d02e9937ee72"
+        }
+      }
+    },
+    {
+      "id": "I051",
+      "name": "巨人盾斧",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5811,
+          "sha256": "9675764d65743aa69e6d5c6b64f0e3403be9656f4d702efd295ee7c0f8cbce1e"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 21683,
+          "sha256": "cfa66e337bf785d552fe07cd1883d197ecc3487aac695f28d2b813c37f9f6b42"
+        }
+      }
+    },
+    {
+      "id": "I052",
+      "name": "活体软甲",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6910,
+          "sha256": "18bfe5bec682e7e39bb1c8103a6cfb5ac8b267b6430bdd59130f9a6c9d0581da"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 26759,
+          "sha256": "43f92234e9d4b79bcb8c22726521a1b21169739204c46e8ab303609ac4227940"
+        }
+      }
+    },
+    {
+      "id": "I053",
+      "name": "皮革",
+      "issues": [],
+      "motherSize": [
+        1774,
+        887
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            64
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 2920,
+          "sha256": "b3fbc94739b05c0e713ac3bfe859269e64da72df00e9d1917d7f05a9292bfd66"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 10540,
+          "sha256": "1154164d9ec485b828b8bc12a93db0319ac1f12d06e43b0814668f5a6c7e8bb4"
+        }
+      }
+    },
+    {
+      "id": "I054",
+      "name": "魔力皮靴",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 63,
+          "bytes": 6649,
+          "sha256": "d7862660f51142a30ac7e08534870a9205366d9369cd9b56ec7da8e29451f36c"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 24972,
+          "sha256": "0caf4a3984f4581e0775eaf0345b7c72b9adbfdf626521a93119889496be8820"
+        }
+      }
+    },
+    {
+      "id": "I055",
+      "name": "寻宝锄",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 3833,
+          "sha256": "2e68fe53df82e196b89156f399774484d970b9abbb0f5bb17526116f6ff926c0"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 13763,
+          "sha256": "16547f5d6e03c837fb9f685d88d1336c41ae2c1ec8298f21ccb282a0f91ed9e5"
+        }
+      }
+    },
+    {
+      "id": "I056",
+      "name": "激素腰带",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6514,
+          "sha256": "bdbea0a6d225e16f87f2e9cedc7ccfe8074dd8aa8e0cd38f8a75d7e2199a0a2e"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 24451,
+          "sha256": "afca707400a6badc5c2a835f71f92e820aa2a9254f6f38faf0e1e61f3d552e56"
+        }
+      }
+    },
+    {
+      "id": "I057",
+      "name": "打磨器",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6224,
+          "sha256": "3b4a824d848b30e7b9b1d28003fb40f120dc74ea420d44334ac273407cf8debb"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 95,
+          "bytes": 23212,
+          "sha256": "db4c1fa30f1875640c4f510b5bcc6bf81cc9d45d414224152a155b3ca37a5d94"
+        }
+      }
+    },
+    {
+      "id": "I058",
+      "name": "蓄能手斧",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 4597,
+          "sha256": "4e2b8689fc0aeeb95ad93cd97be1f997bd689dc0f0b82a938e1f79416aa1a212"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 16880,
+          "sha256": "6528364a1a2652039daf865303096b0a737259faec42274d7a6989371219d866"
+        }
+      }
+    },
+    {
+      "id": "I059",
+      "name": "肢体袋",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 7365,
+          "sha256": "ae3920b1685541b58be75b11c134dc4f9b6733472876dc118aaf310e7777b594"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 27534,
+          "sha256": "bffb17e381daa55d8e7f48bee9cf2d45627719b49c6f931c0dee917ed0b69449"
+        }
+      }
+    },
+    {
+      "id": "I060",
+      "name": "护盾孢子",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6477,
+          "sha256": "e3845a63e9037269a1377f82db0a4e586dd9ac802ae6b101aedb90612ed669c1"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 24850,
+          "sha256": "ab1430ae7dc31467d722302f80510bee9be54cf2d5cb6bf9bff995ee6cdad50f"
+        }
+      }
+    },
+    {
+      "id": "I061",
+      "name": "迷踪披风",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5519,
+          "sha256": "8382da2a51791ecc6cf8261760d349981ff47a1a8259db05b791bc557f988ff7"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 95,
+          "bytes": 19776,
+          "sha256": "26931fe65dc4fb36bbc7db59bc333ad4f0d6befe9fea3d4147f3fd9458b6b564"
+        }
+      }
+    },
+    {
+      "id": "I062",
+      "name": "魅影长靴",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6359,
+          "sha256": "25bf69b6560c1c292e3ef334a7d5ce048d71886400b8fd313f1381de6c09cdff"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23363,
+          "sha256": "35dd32059c9ef6e87d46cb88dce9c9ab53c447dabd17d8bfa923f0b62c8a017d"
+        }
+      }
+    },
+    {
+      "id": "I063",
+      "name": "灌能护腕",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 6218,
+          "sha256": "a2ad69f601f989ac1f971fddcf90dd10d61fe2ec88821989834566e288268966"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 23137,
+          "sha256": "6af8c5014a31ed2dead28065027ab7c0876de8aa9a653a83311948a39f0e3afe"
+        }
+      }
+    },
+    {
+      "id": "I064",
+      "name": "共鸣结晶",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5126,
+          "sha256": "76624b0631ceab7c9e31cb8a84f2d82f7fa8593f5439798ea8a03f1fd18f815a"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 18901,
+          "sha256": "e4db9cc8464051c022c3ed2d3302e6f2af75ff5a32aaf3fd4d1239347d1b4874"
+        }
+      }
+    },
+    {
+      "id": "I065",
+      "name": "虚空工具盒",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 7078,
+          "sha256": "eb03f0b2cbc1b4d2879a3b6cb2158d6bb52f50eab6dd79af6ccf745798250e88"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 96,
+          "bytes": 27007,
+          "sha256": "0fbe78fcba1e53d2cde3aa6c3002b2191d4422307290f0fee2f3c77b3728da86"
+        }
+      }
+    },
+    {
+      "id": "I066",
+      "name": "女妖布帽",
+      "issues": [],
+      "motherSize": [
+        1254,
+        1254
+      ],
+      "variants": {
+        "128": {
+          "dimensions": [
+            128,
+            128
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 4,
+          "visibleColors": 64,
+          "bytes": 5338,
+          "sha256": "6bea155756bf2330e01947bb4cbf3a6be877aa630a81f68446581af1352b64dc"
+        },
+        "256": {
+          "dimensions": [
+            256,
+            256
+          ],
+          "alphaValues": [
+            0,
+            255
+          ],
+          "margin": 8,
+          "visibleColors": 94,
+          "bytes": 18915,
+          "sha256": "f05e88ffc47745f53ab05601936983bda5088e3e2290e35a5558fe3388e80909"
+        }
+      }
+    }
+  ],
+  "contactSheetsViewed": [
+    "qa/items_a-contact-01.png",
+    "qa/items_a-contact-02.png",
+    "qa/items_a-contact-03.png",
+    "qa/items_a-contact-04.png"
+  ],
+  "contactSheetFindings": "No additional wrong-subject, cropping, visible background-matte or duplicate-composition issue found on alternating light/dark native256 review sheets.",
+  "status": "complete-64-of-64"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I096",
+  "name": "附魔-加速Ⅰ",
+  "status": "generated-normalized",
+  "source": "mothers/I096.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I096.png",
+  "motherSha256": "024ac4eed458d344edf1ec94d5f934c4f567a1726663f009ab84df4b109ed1db",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I096.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2948,
+      "sha256": "faf8418daeeaee013f08438b43f6646f98014d5961955429130b7d5cc283280d",
+      "pixelSha256": "f67f2fd8725d2e853f7963ee324552d12237588ab9c593f22d48b55dd15540df",
+      "alphaBounds": [
+        6,
+        4,
+        121,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          116,
+          67,
+          1682,
+          832
+        ],
+        "fitSize": [
+          115,
+          56
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.07320261437908497
+      }
+    },
+    "256": {
+      "file": "pixels/256/I096.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10668,
+      "sha256": "cb5923d3b69af4a90093fab5bc4edf8d368e493e1feea3d8434b5108f6fe53e6",
+      "pixelSha256": "c537fe9177da1581d11d3a5b694e27e394d4afa267b724cda80480e88b223ebf",
+      "alphaBounds": [
+        13,
+        8,
+        242,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          116,
+          67,
+          1682,
+          832
+        ],
+        "fitSize": [
+          229,
+          112
+        ],
+        "position": [
+          13,
+          8
+        ],
+        "scale": 0.14640522875816994
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "强固盾形或加速箭头主体清晰完整，无文字、无裁切。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-77226b20-216d-4240-8b48-0752c01a4eff.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-77226b20-216d-4240-8b48-0752c01a4eff"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I071",
+  "name": "月光蕨",
+  "status": "generated-normalized",
+  "source": "mothers/I071.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I071.png",
+  "motherSha256": "14716dfd11da535b22c63359eb848695642cfb4ca003319b8d1e1cfdb419e740",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I071.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5524,
+      "sha256": "6269ee49f929ced6a1797cc47633514f0da121f87f4055b59e48fb34f8523555",
+      "pixelSha256": "04a2a99a0f4eee83a4b519777337f7a887e17de548fea387657e70989b877674",
+      "alphaBounds": [
+        10,
+        4,
+        118,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          93,
+          32,
+          1162,
+          1223
+        ],
+        "fitSize": [
+          108,
+          120
+        ],
+        "position": [
+          10,
+          4
+        ],
+        "scale": 0.10075566750629723
+      }
+    },
+    "256": {
+      "file": "pixels/256/I071.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 19887,
+      "sha256": "fc1792af19f515b9decdbeed09cbc6e8d45b773fc09c09bc99f70f48b9109488",
+      "pixelSha256": "c44582a7e5638af79e9de334baecf9ed1e3fabe503dad5663085c2948392a6c7",
+      "alphaBounds": [
+        21,
+        8,
+        235,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          93,
+          32,
+          1162,
+          1223
+        ],
+        "fitSize": [
+          215,
+          240
+        ],
+        "position": [
+          20,
+          8
+        ],
+        "scale": 0.20151133501259447
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-accea795-b4ff-4fa2-ab7f-0174af26bd01.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-accea795-b4ff-4fa2-ab7f-0174af26bd01"
+  }
+}

@@ -1,0 +1,2390 @@
+{
+  "schema_version": "1.1",
+  "batch": "Sunburst_质感精修10",
+  "purpose": "第十轮逐页内容验收基线与静态复核记录；07按用户最新要求改为可纵向滚动的多物品保险箱。",
+  "created_date": "2026-10-29",
+  "source_of_truth": {
+    "priority": [
+      "用户本轮明确要求及授权",
+      "v09最终交付图与交付说明",
+      "v09对应分页面提示词及共同母版约束"
+    ],
+    "manifest": "archive/ui-v09-approved/交付清单.json",
+    "delivery_note": "archive/ui-v09-approved/交付说明.txt",
+    "shared_prompt": "archive/ui-v09-approved/提示词/共同母版约束.txt",
+    "manifest_sha256": "9b4444b7d86f983033268fb8d77d0a69091ec9443bc820c798baf2f7043c8a69",
+    "base_images": "仅使用交付清单指向的最终版本，不能误用02/03/09的早期生成稿。"
+  },
+  "verification_evidence": {
+    "reference_image_count": 12,
+    "all_delivery_images_match_manifest_and_source": true,
+    "visual_scope": "实际查看最终图或已查看原始图并核对交付副本SHA256完全一致。",
+    "not_validated": [
+      "手机实机触控",
+      "真人盲测",
+      "真实库存与交易运行",
+      "经济平衡",
+      "与原作的不可分辨程度",
+      "保险箱运行时滚动与存取行为"
+    ],
+    "v10_progress": "12页均已实际完成指定静态内容复核；07为用户最新要求的多物品滚动栏位版。"
+  },
+  "text_matching_policy": {
+    "must_preserve": "功能名称、动作语义、效果条件、数值、品质与状态必须保留；不得用近似新机制替代。",
+    "allowed_normalization": [
+      "数字周围空格",
+      "中文/英文标点形态",
+      "不改变句义的换行",
+      "条目末尾句号"
+    ],
+    "currency_display": "价格行允许已批准金币图标+数字表达；主交易按钮仍保留明确金币文案。",
+    "no_ui_annotations": [
+      "示例",
+      "待定",
+      "生成说明",
+      "开发注释",
+      "占位问号"
+    ],
+    "scope_note": "该列表只禁止作为开发/占位说明进入UI，不限制正常任务文案中的其他上下文。"
+  },
+  "shared": {
+    "canvas": [
+      3200,
+      1440
+    ],
+    "global_tabs": [
+      "装备栏位",
+      "英雄属性",
+      "装备图鉴"
+    ],
+    "global_tab_count": 3,
+    "status": [
+      {
+        "label": "生命",
+        "value": "180/180",
+        "current": 180,
+        "maximum": 180,
+        "bar": "full",
+        "icon_identity": "红色心形"
+      },
+      {
+        "label": "体力",
+        "value": "100/100",
+        "current": 100,
+        "maximum": 100,
+        "bar": "full",
+        "icon_identity": "青色能量"
+      },
+      {
+        "label": "腐化",
+        "value": "0/100",
+        "current": 0,
+        "maximum": 100,
+        "bar": "empty",
+        "icon_identity": "紫色符号"
+      },
+      {
+        "label": "金币",
+        "value": "4",
+        "current": 4,
+        "icon_identity": "暖金色金币"
+      }
+    ],
+    "status_requirements": [
+      "四组在所有12页出现；不新增货币或技能点余额。",
+      "保持已批准的大状态图标与可辨数字；不能以增加装饰挤小它们。",
+      "腐化与利刃充能为0时，进度条必须空。"
+    ],
+    "backpack_title": "背包",
+    "default_backpack_rows": [
+      {
+        "row": 1,
+        "state": "empty",
+        "entity": null,
+        "badges": {}
+      },
+      {
+        "row": 2,
+        "state": "empty",
+        "entity": null,
+        "badges": {}
+      },
+      {
+        "row": 3,
+        "state": "empty",
+        "entity": null,
+        "badges": {}
+      },
+      {
+        "row": 4,
+        "state": "locked",
+        "entity": null,
+        "badges": {}
+      }
+    ],
+    "backpack_exception_page": "10",
+    "default_equipment_title": "战斗装备",
+    "default_equipment_rows": [
+      {
+        "row": 1,
+        "state": "occupied",
+        "entity": "current_vial",
+        "badges": {
+          "damage": 8,
+          "value": 1
+        }
+      },
+      {
+        "row": 2,
+        "state": "occupied",
+        "entity": "current_mushroom",
+        "badges": {
+          "value": 4
+        }
+      },
+      {
+        "row": 3,
+        "state": "occupied",
+        "entity": "current_dagger",
+        "badges": {
+          "damage": 30,
+          "value": 2,
+          "charge": "0/100",
+          "charge_bar": "empty",
+          "purple_enchantment_marks": 1
+        }
+      },
+      {
+        "row": 4,
+        "state": "locked",
+        "entity": null,
+        "badges": {}
+      }
+    ],
+    "equipment_hidden_by_sheet_pages": [
+      "02",
+      "03",
+      "05",
+      "06"
+    ],
+    "equipment_ownership_exception_pages": [
+      "07",
+      "10"
+    ],
+    "slot_geometry_rules": [
+      "所有物品以跨两基础格合并的整宽横卡显示，占用物品内部不得出现竖向中缝。",
+      "装备与背包均单列竖排，正常侧栏各4行；禁止左右两件并排格子。",
+      "正常左右侧栏的标题、首行、各行上下边缘与末行保持对应水平基线。",
+      "宽角色页/图鉴取代左装备区和中央区，右背包完整独立保留，不能漏底部锁槽。"
+    ],
+    "item_art_identity": {
+      "current_vial": "青绿色液体瓶，软木塞与金色瓶颈环，保持同类可辨轮廓。",
+      "current_mushroom": "淡色伞盖香菇。",
+      "current_dagger": "银色短刃、棕色缠柄、黄铜护手。",
+      "bronze_dagger": "同类短刃身份；青铜商品刀身偏铜色允许，不把当前银色品质或附魔转入。"
+    },
+    "badges_are_not_purchase_prices": "装备绿色价值角标1/4/2与伤害8/30必须保持归属；不得当成商店购买价。",
+    "economy_authorization": {
+      "status": "user_authorized_visual_example",
+      "purchase": {
+        "bronze_dagger": 2,
+        "bronze_vial": 2,
+        "bronze_mushroom": 2
+      },
+      "sale": {
+        "current_vial": 1
+      },
+      "currency": "金币",
+      "pre_transaction_gold": 4,
+      "not_final_economic_rule": true,
+      "disclosure_location": "交付说明及本验收文件；不得在游戏画面加示例/待定提示。",
+      "unknown_numeric_costs": [
+        "天赋解锁技能点成本",
+        "天赋升级金币成本"
+      ],
+      "sale_note": "出售所得1只是本批授权示意；不宣称出售与旧回收永远同价。"
+    },
+    "state_boundary": "12页是批准的场景样例，不要求形成同一局连续存档。每页内部的归属、交易前后和选中状态必须自洽。",
+    "no_new_content": [
+      "额外全局TAB",
+      "新货币",
+      "未定义费用/奖励/等级/容量",
+      "多余已拥有物品",
+      "未授权技能或功能"
+    ]
+  },
+  "variant_separation": [
+    {
+      "variant": "bronze_dagger",
+      "pages": [
+        "03",
+        "09"
+      ],
+      "name": "淬毒利刃",
+      "quality": "青铜",
+      "poison": 15,
+      "vulnerability": 1,
+      "trigger_poison_hits": 8,
+      "charged_attacks": 3,
+      "duration_turns": 3,
+      "critical_chance_percent": 30,
+      "forbid": [
+        "当前实例30剧毒",
+        "当前实例2易伤",
+        "生命上限+20%",
+        "当前附魔标记"
+      ]
+    },
+    {
+      "variant": "current_dagger",
+      "pages": [
+        "12"
+      ],
+      "name": "淬毒利刃",
+      "state": "已装备",
+      "poison": 30,
+      "vulnerability": 2,
+      "trigger_poison_hits": 8,
+      "charged_attacks": 3,
+      "duration_turns": 3,
+      "max_hp_bonus_percent": 20,
+      "charge": "0/100",
+      "forbid": [
+        "青铜15剧毒",
+        "青铜1易伤",
+        "30%会心文案"
+      ]
+    },
+    {
+      "variant": "current_mushroom",
+      "pages": [
+        "07"
+      ],
+      "name": "灵魂香菇",
+      "value_gain": 4,
+      "value_cap": 16,
+      "stored_value_badge": 4,
+      "forbid": [
+        "青铜2/8效果",
+        "无依据品质/等级"
+      ]
+    },
+    {
+      "variant": "bronze_mushroom_reward",
+      "pages": [
+        "11"
+      ],
+      "name": "灵魂香菇",
+      "quality": "青铜",
+      "value_gain": 2,
+      "value_cap": 8,
+      "forbid": [
+        "当前实例4/16效果",
+        "领取前进入背包"
+      ]
+    }
+  ],
+  "cross_page_consistency_checks": [
+    {
+      "pages": [
+        "02",
+        "05",
+        "06"
+      ],
+      "check": "属性、肖像、六天赋顺序、详情区与操作区结构相同，只变化场景、选中项、状态和授权按钮。"
+    },
+    {
+      "pages": [
+        "09",
+        "10"
+      ],
+      "check": "同一商人及页面骨架；购买/出售选中状态互换；10的毒剂只从左第一槽移至右第一槽。"
+    },
+    {
+      "pages": [
+        "04",
+        "08"
+      ],
+      "check": "第2层唯一选中，第3层锁定；08明确第1层可重打。"
+    },
+    {
+      "pages": [
+        "03",
+        "09",
+        "12"
+      ],
+      "check": "同名利刃的青铜图鉴/商品与当前已装备版本按variant_separation分别验收。"
+    },
+    {
+      "pages": [
+        "07",
+        "11"
+      ],
+      "check": "保险箱是当前香菇4/16；宝箱是独立青铜奖励2/8，不混用。"
+    }
+  ],
+  "review_procedure": [
+    "逐页实际查看成图，再核对对应page条目及shared。",
+    "先查文字/数值，再查物品归属与空锁槽，再查交易/培养前状态。",
+    "对照variant_separation复查跨页同名物品。",
+    "800×360缩览仅可记录静态可辨情况，不能代替实机或盲测。",
+    "发现明确差异时记录图片位置与预期/观察；未看成图的页面不得标为通过。"
+  ],
+  "pages": [
+    {
+      "id": "01",
+      "name": "战斗 · 装备栏位",
+      "inherits": "shared",
+      "selected_global_tab": "装备栏位",
+      "context_title": "遗迹",
+      "layout_mode": "normal_battle",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/01_战斗_装备栏位.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/01_战斗_风暴UI.png",
+        "prompt": "archive/ui-v09-approved/提示词/01_战斗_风暴怕死队UI.txt",
+        "sha256": "0122d9932612927e7555a9b4ca5f192cef39f74c4a855b9a4b1577705012a6bf",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "遗迹",
+        "战斗装备",
+        "背包",
+        "按住瞄准 · 松手弹射"
+      ],
+      "numeric_constraints": {
+        "knight_count": 1,
+        "red_hood_enemy_count": 3
+      },
+      "inventory": {
+        "equipment_visibility": "visible",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "正常战斗装备视图，三件装备按原行序保留。",
+        "中央战场与角色位置、房间轮廓和可辨场景物件身份继承已批准母版。",
+        "底部保留瞄准弹射提示；没有打开详情或培养面板。"
+      ],
+      "actions": [],
+      "forbidden_content": [
+        "新宝箱、新法阵、新角色、额外敌人、英文键位提示、购买或天赋培养按钮"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/01_战斗_装备栏位_去遮挡.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "scene_identity_checks": [
+        "白色/黄铜骑士1名，红兜帽敌人3名。",
+        "保留淡青旋涡地面标记、圆盘状物件、瓶罐和障碍的位置与可辨身份。",
+        "绘画质感可精修；不以删物件、加角色或改地图结构代替风格调整。"
+      ]
+    },
+    {
+      "id": "02",
+      "name": "战斗 · 英雄属性与天赋",
+      "inherits": "shared",
+      "selected_global_tab": "英雄属性",
+      "context_title": "遗迹",
+      "layout_mode": "wide_hero_sheet",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/02_战斗_英雄属性与天赋.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/02_战斗_英雄属性与天赋_清理空框.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/02.txt",
+        "sha256": "37ba52b10211b0f6146311bc781a3204e9182caf07f4ed0a6225ceef9b20e2e1",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "遗迹",
+        "幽冥骑士",
+        "角色天赋",
+        "药剂师",
+        "博学",
+        "上肢力量",
+        "强韧",
+        "体质",
+        "敏捷",
+        "使用生命药剂时，额外治愈5%生命。",
+        "战斗中仅可查看",
+        "返回战斗"
+      ],
+      "numeric_constraints": {
+        "hero_stats": [
+          {
+            "label": "生命上限",
+            "value": "180"
+          },
+          {
+            "label": "基础伤害",
+            "value": "30"
+          },
+          {
+            "label": "护甲",
+            "value": "0"
+          },
+          {
+            "label": "会心几率",
+            "value": "0%"
+          },
+          {
+            "label": "弹射距离",
+            "value": "500"
+          }
+        ],
+        "selected_talent_effect_percent": 5,
+        "talent_count": 6
+      },
+      "inventory": {
+        "equipment_visibility": "hidden_by_wide_sheet",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "药剂师在第一行第一列被选中。",
+        "战斗期间只读；药剂师无需显示已学/未学或等级。",
+        "另外五项天赋保持中性未选中，不新增已学、锁定或前置状态。",
+        "隐藏战场瞄准提示，不再同时显示独立装备侧栏。"
+      ],
+      "actions": [
+        {
+          "label": "返回战斗",
+          "role": "primary"
+        }
+      ],
+      "forbidden_content": [
+        "解锁天赋、升级天赋、重置、购买、任何培养费用或技能点余额",
+        "数字等级、天赋连线、额外天赋、第二层弹窗",
+        "无意义占位框、禁用购买按钮"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/02_战斗_英雄属性与天赋_修正.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "hero_sheet": {
+        "character_name": "幽冥骑士",
+        "stats": [
+          {
+            "label": "生命上限",
+            "value": "180"
+          },
+          {
+            "label": "基础伤害",
+            "value": "30"
+          },
+          {
+            "label": "护甲",
+            "value": "0"
+          },
+          {
+            "label": "会心几率",
+            "value": "0%"
+          },
+          {
+            "label": "弹射距离",
+            "value": "500"
+          }
+        ],
+        "talent_grid": [
+          [
+            "药剂师",
+            "博学",
+            "上肢力量"
+          ],
+          [
+            "强韧",
+            "体质",
+            "敏捷"
+          ]
+        ],
+        "layout": "一张宽页覆盖原左装备栏与中央区域；属性在左、天赋在右同屏；右背包完整保留。",
+        "cross_page_geometry_group": [
+          "02",
+          "05",
+          "06"
+        ],
+        "fixed_regions": [
+          "左侧肖像与属性",
+          "右侧3列2行六天赋",
+          "选中天赋详情",
+          "状态/资源类型行",
+          "底部操作行"
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "name": "战斗 · 装备图鉴",
+      "inherits": "shared",
+      "selected_global_tab": "装备图鉴",
+      "context_title": "遗迹",
+      "layout_mode": "wide_equipment_codex",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/03_战斗_装备图鉴.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/03_战斗_装备图鉴_恢复锁槽.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/03.txt",
+        "sha256": "6315ccc3c266b233754d710aa63026efab291be065a6ae2a89c83dcf8ab891bf",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "遗迹",
+        "装备图鉴",
+        "淬毒利刃",
+        "凝血毒剂",
+        "灵魂香菇",
+        "已收集",
+        "青铜",
+        "充能后：下3次攻击造成15剧毒伤害。",
+        "剧毒持续3回合 · 会心几率30%。",
+        "每8次剧毒伤害，施加1层易伤。",
+        "返回"
+      ],
+      "numeric_constraints": {
+        "catalogue_entry_count": 3,
+        "selected_variant": "bronze_dagger",
+        "poison_damage": 15,
+        "charged_attack_count": 3,
+        "poison_duration_turns": 3,
+        "critical_chance_percent": 30,
+        "poison_hit_trigger": 8,
+        "vulnerability_stacks": 1
+      },
+      "inventory": {
+        "equipment_visibility": "hidden_by_wide_sheet",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "三条图鉴条目都标已收集；淬毒利刃为唯一选中项。",
+        "左侧选择区与中央详情构成宽图鉴，原装备栏被替换。",
+        "这些是图鉴条目及其详情，不是新增装备副本。",
+        "右背包第四槽锁定必须保留。"
+      ],
+      "actions": [
+        {
+          "label": "返回",
+          "role": "secondary"
+        }
+      ],
+      "forbidden_content": [
+        "30剧毒、2层易伤、提升20%生命上限、当前装备附魔标记",
+        "编造充能数值、购买价格、合成或配方操作",
+        "额外条目、收集总数/分母/百分比、神秘占位条目"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/03_战斗_装备图鉴_修正.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "catalogue_entries": [
+        {
+          "name": "淬毒利刃",
+          "state": "已收集",
+          "selected": true
+        },
+        {
+          "name": "凝血毒剂",
+          "state": "已收集",
+          "selected": false
+        },
+        {
+          "name": "灵魂香菇",
+          "state": "已收集",
+          "selected": false
+        }
+      ],
+      "selected_variant": "bronze_dagger",
+      "selected_effect_text": [
+        "充能后：下3次攻击造成15剧毒伤害。",
+        "剧毒持续3回合 · 会心几率30%。",
+        "每8次剧毒伤害，施加1层易伤。"
+      ]
+    },
+    {
+      "id": "04",
+      "name": "营地 · 冒险准备",
+      "inherits": "shared",
+      "selected_global_tab": "装备栏位",
+      "context_title": "出发前准备",
+      "layout_mode": "normal_sidebars_camp",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/04_营地_冒险准备.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/04_营地_冒险准备.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/04.txt",
+        "sha256": "1e4cfe1cf92ea60b5fb126bfc440a61a5cc3c4ba58fa696b8fca35a501eb7b29",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "出发前准备",
+        "第1层",
+        "已通关",
+        "第2层",
+        "已选择",
+        "第3层",
+        "未解锁",
+        "保险箱",
+        "天赋培养",
+        "进入第2层"
+      ],
+      "numeric_constraints": {
+        "floor_card_count": 3,
+        "selected_floor": 2
+      },
+      "inventory": {
+        "equipment_visibility": "visible",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "第1层已通关；第2层唯一选中；第3层锁定。",
+        "中央为营地准备场景，保留同一骑士、保险箱与书台的身份。",
+        "底部三个按钮同一行，进入第2层为主要操作。"
+      ],
+      "actions": [
+        {
+          "label": "保险箱",
+          "role": "secondary",
+          "order": 1
+        },
+        {
+          "label": "天赋培养",
+          "role": "secondary",
+          "order": 2
+        },
+        {
+          "label": "进入第2层",
+          "role": "primary",
+          "order": 3
+        }
+      ],
+      "forbidden_content": [
+        "费用、星级、奖励数量、额外楼层、额外场景交互标签"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/04_营地_冒险准备_修正.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "floor_states": [
+        {
+          "floor": 1,
+          "text": "已通关",
+          "selected": false
+        },
+        {
+          "floor": 2,
+          "text": "已选择",
+          "selected": true
+        },
+        {
+          "floor": 3,
+          "text": "未解锁",
+          "locked": true,
+          "selected": false
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "name": "营地 · 天赋解锁",
+      "inherits": "shared",
+      "selected_global_tab": "英雄属性",
+      "context_title": "营地",
+      "layout_mode": "wide_hero_sheet",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/05_营地_天赋解锁.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/05_营地_天赋解锁.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/05.txt",
+        "sha256": "2374416e54fcae31fa7587e06866167450a66f63b3c33f5a237bf3e895fbc64e",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "营地",
+        "幽冥骑士",
+        "角色天赋",
+        "药剂师",
+        "博学",
+        "上肢力量",
+        "强韧",
+        "体质",
+        "敏捷",
+        "使用生命药剂时，额外治愈5%生命。",
+        "未解锁 · 消耗技能点",
+        "返回营地",
+        "解锁天赋"
+      ],
+      "numeric_constraints": {
+        "hero_stats": [
+          {
+            "label": "生命上限",
+            "value": "180"
+          },
+          {
+            "label": "基础伤害",
+            "value": "30"
+          },
+          {
+            "label": "护甲",
+            "value": "0"
+          },
+          {
+            "label": "会心几率",
+            "value": "0%"
+          },
+          {
+            "label": "弹射距离",
+            "value": "500"
+          }
+        ],
+        "selected_talent_effect_percent": 5,
+        "talent_count": 6,
+        "numeric_unlock_cost": null,
+        "skill_point_balance": null
+      },
+      "inventory": {
+        "equipment_visibility": "hidden_by_wide_sheet",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "药剂师在第一行第一列选中并明确锁定/未解锁。",
+        "这是确认解锁前的页面，不能出现成功或已学状态。",
+        "其他五天赋保持中性，未获得状态数据。",
+        "属性/天赋布局与02、06一致，右背包独立保留。"
+      ],
+      "actions": [
+        {
+          "label": "返回营地",
+          "role": "secondary"
+        },
+        {
+          "label": "解锁天赋",
+          "role": "primary"
+        }
+      ],
+      "forbidden_content": [
+        "数字技能点费用、可用技能点余额、金币解锁费用",
+        "当前等级、下一等级效果、升级天赋、解锁成功特效",
+        "问号、待定等占位文案、确认弹窗"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/05_营地_天赋解锁.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "hero_sheet": {
+        "character_name": "幽冥骑士",
+        "stats": [
+          {
+            "label": "生命上限",
+            "value": "180"
+          },
+          {
+            "label": "基础伤害",
+            "value": "30"
+          },
+          {
+            "label": "护甲",
+            "value": "0"
+          },
+          {
+            "label": "会心几率",
+            "value": "0%"
+          },
+          {
+            "label": "弹射距离",
+            "value": "500"
+          }
+        ],
+        "talent_grid": [
+          [
+            "药剂师",
+            "博学",
+            "上肢力量"
+          ],
+          [
+            "强韧",
+            "体质",
+            "敏捷"
+          ]
+        ],
+        "layout": "一张宽页覆盖原左装备栏与中央区域；属性在左、天赋在右同屏；右背包完整保留。",
+        "cross_page_geometry_group": [
+          "02",
+          "05",
+          "06"
+        ],
+        "fixed_regions": [
+          "左侧肖像与属性",
+          "右侧3列2行六天赋",
+          "选中天赋详情",
+          "状态/资源类型行",
+          "底部操作行"
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "name": "营地 · 天赋升级",
+      "inherits": "shared",
+      "selected_global_tab": "英雄属性",
+      "context_title": "营地",
+      "layout_mode": "wide_hero_sheet",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/06_营地_天赋升级.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/06_营地_天赋升级.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/06.txt",
+        "sha256": "3d4e54540b146b52e7d182d3ce20498c08fad465bd881898a8adb35bd4dfdaa9",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "营地",
+        "幽冥骑士",
+        "角色天赋",
+        "药剂师",
+        "博学",
+        "上肢力量",
+        "强韧",
+        "体质",
+        "敏捷",
+        "获得的经验值提升12.5%。",
+        "已解锁 · 消耗金币",
+        "返回营地",
+        "升级天赋"
+      ],
+      "numeric_constraints": {
+        "hero_stats": [
+          {
+            "label": "生命上限",
+            "value": "180"
+          },
+          {
+            "label": "基础伤害",
+            "value": "30"
+          },
+          {
+            "label": "护甲",
+            "value": "0"
+          },
+          {
+            "label": "会心几率",
+            "value": "0%"
+          },
+          {
+            "label": "弹射距离",
+            "value": "500"
+          }
+        ],
+        "experience_bonus_percent": 12.5,
+        "talent_count": 6,
+        "numeric_upgrade_cost": null,
+        "gold_balance": 4
+      },
+      "inventory": {
+        "equipment_visibility": "hidden_by_wide_sheet",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "博学在第一行中列选中，明确已解锁。",
+        "12.5%是当前展示效果，不是下一等级预览。",
+        "升级前状态，未扣除顶部金币4。",
+        "其他五天赋原位中性展示；不得继承05的药剂师锁定标记为共享状态。"
+      ],
+      "actions": [
+        {
+          "label": "返回营地",
+          "role": "secondary"
+        },
+        {
+          "label": "升级天赋",
+          "role": "primary"
+        }
+      ],
+      "forbidden_content": [
+        "数字升级价格、技能点费用、另一个余额、资金不足提示",
+        "当前/最高等级、下一等级效果、前后对比、第二个百分比",
+        "解锁天赋、升级成功、确认弹窗"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/06_营地_天赋升级.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "hero_sheet": {
+        "character_name": "幽冥骑士",
+        "stats": [
+          {
+            "label": "生命上限",
+            "value": "180"
+          },
+          {
+            "label": "基础伤害",
+            "value": "30"
+          },
+          {
+            "label": "护甲",
+            "value": "0"
+          },
+          {
+            "label": "会心几率",
+            "value": "0%"
+          },
+          {
+            "label": "弹射距离",
+            "value": "500"
+          }
+        ],
+        "talent_grid": [
+          [
+            "药剂师",
+            "博学",
+            "上肢力量"
+          ],
+          [
+            "强韧",
+            "体质",
+            "敏捷"
+          ]
+        ],
+        "layout": "一张宽页覆盖原左装备栏与中央区域；属性在左、天赋在右同屏；右背包完整保留。",
+        "cross_page_geometry_group": [
+          "02",
+          "05",
+          "06"
+        ],
+        "fixed_regions": [
+          "左侧肖像与属性",
+          "右侧3列2行六天赋",
+          "选中天赋详情",
+          "状态/资源类型行",
+          "底部操作行"
+        ]
+      }
+    },
+    {
+      "id": "07",
+      "name": "营地 · 保险箱存取",
+      "inherits": "shared",
+      "selected_global_tab": "装备栏位",
+      "context_title": "保险箱",
+      "layout_mode": "normal_sidebars_scrollable_safe_list_and_fixed_detail",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/07_营地_保险箱存取.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/07_营地_保险箱存取.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/07.txt",
+        "sha256": "0d692f983773452a00bfd873ac2c2f10c9dc78cc3cc25656f0bf0ee458147872",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。",
+        "layout_authority": "用户最新修正覆盖v09单物品宝箱布局；旧图只供内容/外侧栏参考。"
+      },
+      "required_texts": [
+        "保险箱",
+        "死亡后保留",
+        "空栏位",
+        "灵魂香菇",
+        "每搜寻过一次物品，增加4价值。最多不超过16。",
+        "返回营地",
+        "取出到背包"
+      ],
+      "numeric_constraints": {
+        "stored_current_mushroom_count": 1,
+        "stored_value_badge": 4,
+        "value_gain_per_search": 4,
+        "value_cap": 16
+      },
+      "inventory": {
+        "equipment_visibility": "visible",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "safe.scroll_list.row1",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "中央保险箱为多物品整宽单列卡槽，可纵向浏览更多槽位。",
+        "可见多行槽位、底部续行线索和独立竖向滚动条。",
+        "首格当前香菇已存入，价值角标4；其余可见槽位为空，不编造存品。",
+        "选中物品详情与取出到背包操作固定在列表旁。",
+        "左装备第2格为空且无4角标；右背包三空一锁。"
+      ],
+      "actions": [
+        {
+          "label": "返回营地",
+          "role": "secondary"
+        },
+        {
+          "label": "取出到背包",
+          "role": "primary"
+        }
+      ],
+      "forbidden_content": [
+        "青铜2/8效果、无依据品质/等级",
+        "虚构数字容量、扩容费用、保险箱锁位或已存物品",
+        "存取费、出售、升级、合成、利息",
+        "左装备或右背包同时持有同一香菇",
+        "单个巨型宝箱或奖品式陈列取代可滚动多物品列表"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/07_营地_保险箱存取_滚动栏位.png",
+        "findings": [
+          "新版多物品滚动栏位、滚动线索、固定详情、物品归属和4/16效果均已实际目视核对。"
+        ],
+        "evidence": "目视核对/07内容复核.txt"
+      },
+      "selected_variant": "current_mushroom",
+      "selected_effect_text": [
+        "每搜寻过一次物品，增加4价值。最多不超过16。"
+      ],
+      "safe_owned_items": [
+        {
+          "entity": "current_mushroom",
+          "count": 1,
+          "value_badge": 4
+        }
+      ],
+      "text_tolerance_note": "空栏位来自已批准最终图；不得变成可点击的新增操作。"
+    },
+    {
+      "id": "08",
+      "name": "营地 · 地牢选择",
+      "inherits": "shared",
+      "selected_global_tab": "装备栏位",
+      "context_title": "选择地牢",
+      "layout_mode": "normal_sidebars_floor_selection",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/08_营地_地牢选择.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/08_营地_地牢选择.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/08.txt",
+        "sha256": "88046c05b3e88f1d5b0f66b56ed84dbb95787afaf1a6a5bac67a9c10760d677d",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "选择地牢",
+        "第1层",
+        "已通关 · 可重打",
+        "第2层",
+        "已选择",
+        "第3层",
+        "未解锁",
+        "返回营地",
+        "进入第2层"
+      ],
+      "numeric_constraints": {
+        "floor_card_count": 3,
+        "selected_floor": 2
+      },
+      "inventory": {
+        "equipment_visibility": "visible",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "第1层已通关但可重打，不能画成禁用。",
+        "第2层为唯一选中，第3层明确锁定不可进入。",
+        "底部仅一个进入第2层主按钮，不给每层再加进入按钮。",
+        "保留常规装备与空背包。"
+      ],
+      "actions": [
+        {
+          "label": "返回营地",
+          "role": "secondary"
+        },
+        {
+          "label": "进入第2层",
+          "role": "primary"
+        }
+      ],
+      "forbidden_content": [
+        "分叉路线、节点图、星级、倒计时、入场费、奖励数量",
+        "推荐战力、Boss标签、额外楼层、总层数、金币扣除"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/08_营地_地牢选择_修正.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "floor_states": [
+        {
+          "floor": 1,
+          "text": "已通关 · 可重打",
+          "available": true,
+          "selected": false
+        },
+        {
+          "floor": 2,
+          "text": "已选择",
+          "available": true,
+          "selected": true
+        },
+        {
+          "floor": 3,
+          "text": "未解锁",
+          "available": false,
+          "locked": true,
+          "selected": false
+        }
+      ],
+      "state_scope": "沿用批准图中的示意选层状态，不宣称真实存档。"
+    },
+    {
+      "id": "09",
+      "name": "商店 · 购买详情",
+      "inherits": "shared",
+      "selected_global_tab": "装备栏位",
+      "context_title": "行商",
+      "layout_mode": "normal_sidebars_shop_purchase",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/09_商店_购买详情.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/09_商店_购买详情_图标统一.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/09.txt",
+        "sha256": "6b9cf677558c0d26abf17e927d4f2fc4a01d4d3e15f3d4d507e957db02284109",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "行商",
+        "购买",
+        "出售",
+        "淬毒利刃",
+        "凝血毒剂",
+        "灵魂香菇",
+        "青铜",
+        "充能后：下3次攻击造成15剧毒伤害。",
+        "剧毒持续3回合 · 会心几率30%。",
+        "每8次剧毒伤害，施加1层易伤。",
+        "购买价格",
+        "离开商店",
+        "购买 · 2金币"
+      ],
+      "numeric_constraints": {
+        "stock_count": 3,
+        "all_stock_purchase_prices": 2,
+        "selected_purchase_price": 2,
+        "gold_before_transaction": 4,
+        "poison_damage": 15,
+        "charged_attack_count": 3,
+        "poison_duration_turns": 3,
+        "critical_chance_percent": 30,
+        "poison_hit_trigger": 8,
+        "vulnerability_stacks": 1
+      },
+      "inventory": {
+        "equipment_visibility": "visible",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "购买页签选中，出售未选中。",
+        "三件青铜商品各显示金币图标和2，不能把装备角标当购买价。",
+        "选中青铜淬毒利刃；详情与商品列表是同一个商品定义。",
+        "金币4、买价2与可购买按钮表现一致；尚未扣款，右背包仍空。",
+        "商品绿瓶/淡色香菇/短刃与当前装备保持物件身份一致；青铜商品刀身偏铜色可接受，当前装备利刃仍银色。"
+      ],
+      "actions": [
+        {
+          "label": "离开商店",
+          "role": "secondary"
+        },
+        {
+          "label": "购买 · 2金币",
+          "role": "primary",
+          "visual_state": "enabled"
+        }
+      ],
+      "forbidden_content": [
+        "30剧毒、2层易伤、提升20%生命上限等当前利刃效果移入青铜商品",
+        "折扣、库存数量、税费、出售价格、额外货币",
+        "金币提前减为2、背包提前出现购买物品",
+        "画面内示例/待定/开发注释"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/09_商店_购买详情_修正.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "local_tabs": {
+        "labels": [
+          "购买",
+          "出售"
+        ],
+        "selected": "购买"
+      },
+      "selected_variant": "bronze_dagger",
+      "selected_effect_text": [
+        "充能后：下3次攻击造成15剧毒伤害。",
+        "剧毒持续3回合 · 会心几率30%。",
+        "每8次剧毒伤害，施加1层易伤。"
+      ],
+      "merchandise": [
+        {
+          "entity": "bronze_dagger",
+          "name": "淬毒利刃",
+          "quality": "青铜",
+          "purchase_price": 2,
+          "currency": "金币",
+          "selected": true
+        },
+        {
+          "entity": "bronze_vial",
+          "name": "凝血毒剂",
+          "quality": "青铜",
+          "purchase_price": 2,
+          "currency": "金币",
+          "selected": false
+        },
+        {
+          "entity": "bronze_mushroom",
+          "name": "灵魂香菇",
+          "quality": "青铜",
+          "purchase_price": 2,
+          "currency": "金币",
+          "selected": false
+        }
+      ],
+      "price_scope": "user_authorized_visual_example",
+      "copy_tolerance_note": "第三句以外的行末句号以及数字周围空格可规范化；币种可由已批准金币图标表达，价格2不可遗漏或改值。"
+    },
+    {
+      "id": "10",
+      "name": "商店 · 出售详情",
+      "inherits": "shared",
+      "selected_global_tab": "装备栏位",
+      "context_title": "行商",
+      "layout_mode": "normal_sidebars_shop_sell",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/10_商店_出售详情.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/10_商店_出售详情.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/10.txt",
+        "sha256": "fb67d4707e21956d65a4d371b9c20b188e29167de3e2c06f1261f981e5079743",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "行商",
+        "购买",
+        "出售",
+        "凝血毒剂",
+        "背包物品",
+        "相邻物品造成伤害时，额外在3回合内造成8流血伤害。",
+        "相邻物品被认为是流血物品。",
+        "出售所得",
+        "离开商店",
+        "出售 · 获得1金币"
+      ],
+      "numeric_constraints": {
+        "sale_return": 1,
+        "gold_before_transaction": 4,
+        "vial_damage": 8,
+        "vial_value_badge": 1,
+        "bleed_duration_turns": 3
+      },
+      "inventory": {
+        "equipment_visibility": "visible",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "backpack.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "出售页签选中，购买未选中。",
+        "原有唯一毒剂已从左装备第一槽移到右背包第一槽，左第一槽完全空且无8/1角标。",
+        "左香菇第二槽和利刃第三槽保留，右第二三槽空、第四槽锁定。",
+        "中央大瓶只是选中背包物品的详情，不是商店库存或第二件持有物。",
+        "出售前金币仍4，毒剂仍在背包；没有成交成功状态。",
+        "商人身份与09一致；主要区域和按钮位置保持对应。"
+      ],
+      "actions": [
+        {
+          "label": "离开商店",
+          "role": "secondary"
+        },
+        {
+          "label": "出售 · 获得1金币",
+          "role": "primary"
+        }
+      ],
+      "forbidden_content": [
+        "毒剂在左右库存重复持有",
+        "购买价格、其他商品出售所得",
+        "金币提前变5、物品提前消失、成功提示",
+        "画面内示例/待定/开发注释"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/10_商店_出售详情.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "local_tabs": {
+        "labels": [
+          "购买",
+          "出售"
+        ],
+        "selected": "出售"
+      },
+      "selected_variant": "current_vial",
+      "selected_effect_text": [
+        "相邻物品造成伤害时，额外在3回合内造成8流血伤害。",
+        "相邻物品被认为是流血物品。"
+      ],
+      "price_scope": "user_authorized_visual_example",
+      "detail_is_owned_copy": false
+    },
+    {
+      "id": "11",
+      "name": "战利品 · 宝箱领取",
+      "inherits": "shared",
+      "selected_global_tab": "装备栏位",
+      "context_title": "战利品",
+      "layout_mode": "normal_sidebars_loot",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/11_战利品_宝箱领取.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/11_战利品_宝箱领取.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/11.txt",
+        "sha256": "ea8d5f722715101dd4fed4ac844771c3dbbd1179689108c6b797da413e408fb4",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "战利品",
+        "灵魂香菇",
+        "青铜",
+        "每搜寻过一次物品，增加2价值。最多不超过8。",
+        "返回",
+        "领取到背包"
+      ],
+      "numeric_constraints": {
+        "reward_count": 1,
+        "reward_value_gain_per_search": 2,
+        "reward_value_cap": 8
+      },
+      "inventory": {
+        "equipment_visibility": "visible",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "唯一奖励为独立的青铜灵魂香菇，不是左侧当前香菇的同一实例。",
+        "奖励尚未领取，仍在中央奖励区；右背包三空一锁。",
+        "左侧当前香菇继续留在第二装备槽并显示4，原有其他两件装备不变。",
+        "不显示战斗瞄准提示。"
+      ],
+      "actions": [
+        {
+          "label": "返回",
+          "role": "secondary"
+        },
+        {
+          "label": "领取到背包",
+          "role": "primary"
+        }
+      ],
+      "forbidden_content": [
+        "将青铜奖励改为4/16效果",
+        "背包提前出现奖励、第二张奖励卡",
+        "金币/经验奖励、数量、概率、费用、放弃惩罚",
+        "新增胜利大字或影响任务状态的其他控件"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/11_战利品_宝箱领取_修正.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "selected_variant": "bronze_mushroom_reward",
+      "selected_effect_text": [
+        "每搜寻过一次物品，增加2价值。最多不超过8。"
+      ],
+      "unclaimed_rewards": [
+        {
+          "entity": "bronze_mushroom_reward",
+          "count": 1,
+          "quality": "青铜",
+          "owned": false,
+          "location": "central_reward_card"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "战斗 · 装备详情",
+      "inherits": "shared",
+      "selected_global_tab": "装备栏位",
+      "context_title": "遗迹",
+      "layout_mode": "normal_sidebars_battle_detail",
+      "reference": {
+        "final_image": "archive/ui-v09-approved/交付原图/12_战斗_装备详情.png",
+        "source_image": "archive/ui-v09-approved/原始生成图/12_战斗_装备详情.png",
+        "prompt": "archive/ui-v09-approved/提示词/分页面/12.txt",
+        "sha256": "65ad52961bc78d7685213cb462b6721c81c15e235b3af16beae5574937986706",
+        "matches_v09_manifest": true,
+        "matches_source_image": true,
+        "image_content_review": "已实际目视；04/09/10/11在同会话此前已看原始生成图，本轮以SHA256确认交付副本相同；其余8页本轮直接查看最终交付图。"
+      },
+      "required_texts": [
+        "遗迹",
+        "淬毒利刃",
+        "已装备",
+        "0/100",
+        "下3次攻击在3回合内造成30剧毒伤害。",
+        "每8次剧毒伤害，施加2层易伤。",
+        "提升20%生命上限。",
+        "战斗中仅可查看",
+        "返回战斗"
+      ],
+      "numeric_constraints": {
+        "current_poison_damage": 30,
+        "charged_attack_count": 3,
+        "poison_duration_turns": 3,
+        "poison_hit_trigger": 8,
+        "vulnerability_stacks": 2,
+        "max_hp_increase_percent": 20,
+        "detail_value_badge": 2,
+        "charge_current": 0,
+        "charge_max": 100,
+        "detail_enchantment_marks": 1
+      },
+      "inventory": {
+        "equipment_visibility": "visible",
+        "equipment_rows": [
+          {
+            "row": 1,
+            "state": "occupied",
+            "entity": "current_vial",
+            "badges": {
+              "damage": 8,
+              "value": 1
+            }
+          },
+          {
+            "row": 2,
+            "state": "occupied",
+            "entity": "current_mushroom",
+            "badges": {
+              "value": 4
+            }
+          },
+          {
+            "row": 3,
+            "state": "occupied",
+            "entity": "current_dagger",
+            "badges": {
+              "damage": 30,
+              "value": 2,
+              "charge": "0/100",
+              "charge_bar": "empty",
+              "purple_enchantment_marks": 1
+            }
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "backpack_rows": [
+          {
+            "row": 1,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 2,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 3,
+            "state": "empty",
+            "entity": null,
+            "badges": {}
+          },
+          {
+            "row": 4,
+            "state": "locked",
+            "entity": null,
+            "badges": {}
+          }
+        ],
+        "owned_item_locations": {
+          "current_vial": "equipment.row1",
+          "current_mushroom": "equipment.row2",
+          "current_dagger": "equipment.row3"
+        },
+        "owned_counts": {
+          "current_vial": 1,
+          "current_mushroom": 1,
+          "current_dagger": 1
+        },
+        "note": "hidden_by_wide_sheet表示装备状态未改变但不绘制装备栏，不表示物品被删除。详情插画和图鉴条目不增加持有数量。"
+      },
+      "required_states": [
+        "左第三槽当前利刃被选中并仍在装备栏，中央插画只是同一物品详情。",
+        "中央详情显示已装备、价值角标2、空充能0/100和一个附魔标记。",
+        "所有装备及空背包保留，战场在详情周围隐约可见。",
+        "战斗中只读；瞄准弹射提示隐藏。"
+      ],
+      "actions": [
+        {
+          "label": "返回战斗",
+          "role": "primary"
+        }
+      ],
+      "forbidden_content": [
+        "15剧毒、1层易伤、30%会心等青铜图鉴/商品数值",
+        "买卖价格、卸装、升级、合成、重排等战斗编辑动作"
+      ],
+      "v10_review": {
+        "status": "static_content_reviewed",
+        "candidate_file": "art/ui-v10/原始生成图/12_战斗_装备详情_修正.png",
+        "findings": [
+          "指定文字、数值、物品归属与关键状态已实际目视核对。"
+        ],
+        "evidence": "目视核对目录中对应页面记录；01由主代理实际看图"
+      },
+      "selected_variant": "current_dagger",
+      "selected_effect_text": [
+        "下3次攻击在3回合内造成30剧毒伤害。",
+        "每8次剧毒伤害，施加2层易伤。",
+        "提升20%生命上限。"
+      ],
+      "detail_is_owned_copy": false
+    }
+  ]
+}

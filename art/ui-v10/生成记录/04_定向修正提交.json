@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Precise narrow correction to Image1. Return the ENTIRE Image1 at3200x1440. Image2 supplies only the correct unobstructed shared right backpack frame and our own battlefield scenery. Preserve all of Image1's newly refined flat hand-inked rendering, UI layout, all words/numbers, title, selected tabs, current item art, central content, buttons and states.\nRemove the FOREGROUND broken blue stone masonry at the extreme bottom-right which crosses IN FRONT OF the right backpack border. The WHOLE right backpack frame including its lower-right corner fitting and entire locked bottom slot must be in front of all scenery, fully visible, just like Image2. Replace the removed foreground obstruction with quiet flat dark-blue backdrop BEHIND the unchanged frame. Do not remove or move any actual slot or lock. Do not add any replacement object. UI is always the foremost layer. Do not change the central page content.",
+    "images": [
+      "art/ui-v10/原始生成图/04_营地_冒险准备.png",
+      "art/ui-v10/原始生成图/01_战斗_装备栏位_去遮挡.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2f230f5157103dedccb26\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2f230f5157103dedccb26",
+      "raw": {
+        "id": "6ae2f230f5157103dedccb26",
+        "object_id": "6ae2f230f5157103dedccb26",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T15:13:52.441000+08:00",
+        "updateTime": "2026-10-29T15:13:52.449000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

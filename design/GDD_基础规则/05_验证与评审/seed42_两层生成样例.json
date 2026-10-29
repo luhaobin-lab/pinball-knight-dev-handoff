@@ -1,0 +1,3350 @@
+[
+  {
+    "seed": 42,
+    "run_id": "example",
+    "floor": 1,
+    "version": "0.2.0-discussion",
+    "tutorial": false,
+    "extension_unbalanced": false,
+    "waves": [
+      {
+        "wave": 1,
+        "room": {
+          "id": "ROOM_OPEN",
+          "name": "开阔场",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 4,
+          "spent": 3.0,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W1E0",
+              "hp": 24,
+              "attack": 4,
+              "position": [
+                1,
+                1
+              ],
+              "kill_gold": 3,
+              "kill_xp": 13
+            },
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W1E1",
+              "hp": 24,
+              "attack": 4,
+              "position": [
+                0,
+                0
+              ],
+              "kill_gold": 3,
+              "kill_xp": 12
+            }
+          ],
+          "rewards": {
+            "gold": 12,
+            "xp": 25
+          },
+          "clear_gold": 6
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I116",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I106",
+              "tier": 1,
+              "honing": 0,
+              "charges": 3
+            },
+            {
+              "definition": "I028",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 1
+        },
+        "shop": [
+          {
+            "definition": "I113",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I023",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I116",
+            "tier": 2,
+            "price": 28,
+            "stock": 1
+          },
+          {
+            "definition": "I028",
+            "tier": 2,
+            "price": 31,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": null,
+          "misses": 1,
+          "last_kind": null,
+          "same_kind_count": 0
+        }
+      },
+      {
+        "wave": 2,
+        "room": {
+          "id": "ROOM_TWIN",
+          "name": "双柱场",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 5,
+          "spent": 4.0,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W2E0",
+              "hp": 27,
+              "attack": 4,
+              "position": [
+                0,
+                3
+              ],
+              "kill_gold": 3,
+              "kill_xp": 11
+            },
+            {
+              "id": "M_RANGED",
+              "name": "活体结晶",
+              "source_row": "结晶",
+              "source_range": "A21:AA21",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "ranged",
+              "budget_cost": 2.5,
+              "base_hp": 36,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 2,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W2E1",
+              "hp": 32,
+              "attack": 7,
+              "position": [
+                1,
+                1
+              ],
+              "kill_gold": 4,
+              "kill_xp": 19
+            }
+          ],
+          "rewards": {
+            "gold": 15,
+            "xp": 30
+          },
+          "clear_gold": 8
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I113",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I116",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I022",
+              "tier": 2,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 0
+        },
+        "shop": [
+          {
+            "definition": "I116",
+            "tier": 1,
+            "price": 16,
+            "stock": 1
+          },
+          {
+            "definition": "I028",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I022",
+            "tier": 2,
+            "price": 31,
+            "stock": 1
+          },
+          {
+            "definition": "I027",
+            "tier": 2,
+            "price": 28,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": "enchant",
+          "misses": 0,
+          "last_kind": "enchant",
+          "same_kind_count": 1
+        }
+      },
+      {
+        "wave": 3,
+        "room": {
+          "id": "ROOM_EDGE",
+          "name": "侧边石柱",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              4,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 6,
+          "spent": 5.5,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W3E0",
+              "hp": 30,
+              "attack": 5,
+              "position": [
+                4,
+                1
+              ],
+              "kill_gold": 3,
+              "kill_xp": 9
+            },
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W3E1",
+              "hp": 45,
+              "attack": 6,
+              "position": [
+                3,
+                2
+              ],
+              "kill_gold": 3,
+              "kill_xp": 13
+            },
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W3E2",
+              "hp": 45,
+              "attack": 6,
+              "position": [
+                4,
+                0
+              ],
+              "kill_gold": 3,
+              "kill_xp": 13
+            }
+          ],
+          "rewards": {
+            "gold": 18,
+            "xp": 35
+          },
+          "clear_gold": 9
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I115",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I058",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I022",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 1
+        },
+        "shop": [
+          {
+            "definition": "I058",
+            "tier": 2,
+            "price": 45,
+            "stock": 1
+          },
+          {
+            "definition": "I028",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I057",
+            "tier": 2,
+            "price": 38,
+            "stock": 1
+          },
+          {
+            "definition": "I115",
+            "tier": 1,
+            "price": 14,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": null,
+          "misses": 1,
+          "last_kind": "enchant",
+          "same_kind_count": 1
+        }
+      },
+      {
+        "wave": 4,
+        "room": {
+          "id": "ROOM_TWIN",
+          "name": "双柱场",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 7.5,
+          "spent": 6.2,
+          "elite": true,
+          "members": [
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": true,
+              "instance_id": "example/F1W4E0",
+              "hp": 79,
+              "attack": 7,
+              "position": [
+                0,
+                1
+              ],
+              "kill_gold": 8,
+              "kill_xp": 35
+            },
+            {
+              "id": "M_HEALER",
+              "name": "浮游脑",
+              "source_row": "水母脑",
+              "source_range": "A24:AA24",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "healer",
+              "budget_cost": 3,
+              "base_hp": 42,
+              "base_attack": 4,
+              "heal": 10,
+              "min_wave": 3,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W4E1",
+              "hp": 46,
+              "attack": 4,
+              "position": [
+                4,
+                0
+              ],
+              "kill_gold": 8,
+              "kill_xp": 33
+            }
+          ],
+          "rewards": {
+            "gold": 32,
+            "xp": 68
+          },
+          "clear_gold": 16
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I116",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I027",
+              "tier": 3,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I058",
+              "tier": 2,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 2,
+          "low_streak_after": 0
+        },
+        "shop": [
+          {
+            "definition": "I058",
+            "tier": 1,
+            "price": 26,
+            "stock": 1
+          },
+          {
+            "definition": "I028",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I114",
+            "tier": 1,
+            "price": 14,
+            "stock": 1
+          },
+          {
+            "definition": "I116",
+            "tier": 1,
+            "price": 16,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": "forge",
+          "misses": 0,
+          "last_kind": "forge",
+          "same_kind_count": 1
+        }
+      },
+      {
+        "wave": 5,
+        "room": {
+          "id": "ROOM_HIGH",
+          "name": "前排掩体",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              3,
+              1
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 9,
+          "spent": 9.0,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W5E0",
+              "hp": 36,
+              "attack": 5,
+              "position": [
+                1,
+                0
+              ],
+              "kill_gold": 2,
+              "kill_xp": 9
+            },
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W5E1",
+              "hp": 54,
+              "attack": 6,
+              "position": [
+                0,
+                1
+              ],
+              "kill_gold": 3,
+              "kill_xp": 12
+            },
+            {
+              "id": "M_RANGED",
+              "name": "活体结晶",
+              "source_row": "结晶",
+              "source_range": "A21:AA21",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "ranged",
+              "budget_cost": 2.5,
+              "base_hp": 36,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 2,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W5E2",
+              "hp": 43,
+              "attack": 9,
+              "position": [
+                1,
+                3
+              ],
+              "kill_gold": 3,
+              "kill_xp": 15
+            },
+            {
+              "id": "M_GUARD",
+              "name": "重生傀儡",
+              "source_row": "重生傀儡",
+              "source_range": "A26:AA26",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 100,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "guard",
+              "budget_cost": 3,
+              "base_hp": 75,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 3,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W5E3",
+              "hp": 90,
+              "attack": 9,
+              "position": [
+                3,
+                2
+              ],
+              "kill_gold": 4,
+              "kill_xp": 19
+            }
+          ],
+          "rewards": {
+            "gold": 25,
+            "xp": 55
+          },
+          "clear_gold": 13
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I022",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I111",
+              "tier": 1,
+              "honing": 0,
+              "charges": 3
+            },
+            {
+              "definition": "I058",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 1
+        },
+        "shop": [
+          {
+            "definition": "I058",
+            "tier": 1,
+            "price": 26,
+            "stock": 1
+          },
+          {
+            "definition": "I028",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I114",
+            "tier": 1,
+            "price": 14,
+            "stock": 1
+          },
+          {
+            "definition": "I048",
+            "tier": 1,
+            "price": 22,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": "forge",
+          "misses": 0,
+          "last_kind": "forge",
+          "same_kind_count": 2
+        }
+      },
+      {
+        "wave": 6,
+        "room": {
+          "id": "ROOM_TWIN",
+          "name": "双柱场",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              1,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "enemy_slots": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": false
+        },
+        "encounter": {
+          "budget": 11,
+          "spent": 9.8,
+          "elite": true,
+          "members": [
+            {
+              "id": "M_GUARD",
+              "name": "重生傀儡",
+              "source_row": "重生傀儡",
+              "source_range": "A26:AA26",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 100,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "guard",
+              "budget_cost": 3,
+              "base_hp": 75,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 3,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": true,
+              "instance_id": "example/F1W6E0",
+              "hp": 158,
+              "attack": 11,
+              "position": [
+                1,
+                2
+              ],
+              "kill_gold": 11,
+              "kill_xp": 52
+            },
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W6E1",
+              "hp": 59,
+              "attack": 7,
+              "position": [
+                3,
+                2
+              ],
+              "kill_gold": 4,
+              "kill_xp": 21
+            },
+            {
+              "id": "M_HEALER",
+              "name": "浮游脑",
+              "source_row": "水母脑",
+              "source_range": "A24:AA24",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "healer",
+              "budget_cost": 3,
+              "base_hp": 42,
+              "base_attack": 4,
+              "heal": 10,
+              "min_wave": 3,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F1W6E2",
+              "hp": 55,
+              "attack": 5,
+              "position": [
+                1,
+                0
+              ],
+              "kill_gold": 7,
+              "kill_xp": 32
+            }
+          ],
+          "rewards": {
+            "gold": 44,
+            "xp": 105
+          },
+          "clear_gold": 22
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I048",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I022",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I058",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 2,
+          "low_streak_after": 2
+        },
+        "shop": [
+          {
+            "definition": "I116",
+            "tier": 1,
+            "price": 16,
+            "stock": 1
+          },
+          {
+            "definition": "I023",
+            "tier": 2,
+            "price": 31,
+            "stock": 1
+          },
+          {
+            "definition": "I022",
+            "tier": 2,
+            "price": 31,
+            "stock": 1
+          },
+          {
+            "definition": "I114",
+            "tier": 1,
+            "price": 14,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": null,
+          "misses": 1,
+          "last_kind": "forge",
+          "same_kind_count": 2
+        }
+      }
+    ],
+    "boss": {
+      "id": "B01",
+      "source_visual_row": "守门人",
+      "name": "守门人·试炼形态",
+      "floor": 1,
+      "hp": 450,
+      "light_attack": 10,
+      "heavy_attack": 22,
+      "phase2_hp_fraction": 0.5,
+      "adds_cap": 2,
+      "extension_unbalanced": false
+    }
+  },
+  {
+    "seed": 42,
+    "run_id": "example",
+    "floor": 2,
+    "version": "0.2.0-discussion",
+    "tutorial": false,
+    "extension_unbalanced": false,
+    "waves": [
+      {
+        "wave": 1,
+        "room": {
+          "id": "ROOM_OPEN",
+          "name": "开阔场",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 4,
+          "spent": 3.0,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W1E0",
+              "hp": 35,
+              "attack": 5,
+              "position": [
+                3,
+                2
+              ],
+              "kill_gold": 4,
+              "kill_xp": 17
+            },
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W1E1",
+              "hp": 35,
+              "attack": 5,
+              "position": [
+                3,
+                3
+              ],
+              "kill_gold": 4,
+              "kill_xp": 17
+            }
+          ],
+          "rewards": {
+            "gold": 16,
+            "xp": 34
+          },
+          "clear_gold": 8
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I113",
+              "tier": 2,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I114",
+              "tier": 3,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I116",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 0
+        },
+        "shop": [
+          {
+            "definition": "I022",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I028",
+            "tier": 2,
+            "price": 31,
+            "stock": 1
+          },
+          {
+            "definition": "I113",
+            "tier": 2,
+            "price": 21,
+            "stock": 1
+          },
+          {
+            "definition": "I116",
+            "tier": 3,
+            "price": 45,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": null,
+          "misses": 1,
+          "last_kind": null,
+          "same_kind_count": 0
+        }
+      },
+      {
+        "wave": 2,
+        "room": {
+          "id": "ROOM_RIGHT",
+          "name": "偏右掩体",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ]
+          ],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 5,
+          "spent": 5.0,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W2E0",
+              "hp": 59,
+              "attack": 6,
+              "position": [
+                2,
+                3
+              ],
+              "kill_gold": 4,
+              "kill_xp": 17
+            },
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W2E1",
+              "hp": 39,
+              "attack": 5,
+              "position": [
+                0,
+                0
+              ],
+              "kill_gold": 3,
+              "kill_xp": 12
+            },
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W2E2",
+              "hp": 39,
+              "attack": 5,
+              "position": [
+                4,
+                1
+              ],
+              "kill_gold": 3,
+              "kill_xp": 12
+            }
+          ],
+          "rewards": {
+            "gold": 20,
+            "xp": 41
+          },
+          "clear_gold": 10
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I022",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I113",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I023",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 1
+        },
+        "shop": [
+          {
+            "definition": "I022",
+            "tier": 2,
+            "price": 31,
+            "stock": 1
+          },
+          {
+            "definition": "I028",
+            "tier": 2,
+            "price": 31,
+            "stock": 1
+          },
+          {
+            "definition": "I116",
+            "tier": 1,
+            "price": 16,
+            "stock": 1
+          },
+          {
+            "definition": "I113",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": "forge",
+          "misses": 0,
+          "last_kind": "forge",
+          "same_kind_count": 1
+        }
+      },
+      {
+        "wave": 3,
+        "room": {
+          "id": "ROOM_TWIN",
+          "name": "双柱场",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 6,
+          "spent": 6.0,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W3E0",
+              "hp": 44,
+              "attack": 6,
+              "position": [
+                0,
+                0
+              ],
+              "kill_gold": 3,
+              "kill_xp": 12
+            },
+            {
+              "id": "M_HEALER",
+              "name": "浮游脑",
+              "source_row": "水母脑",
+              "source_range": "A24:AA24",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "healer",
+              "budget_cost": 3,
+              "base_hp": 42,
+              "base_attack": 4,
+              "heal": 15,
+              "min_wave": 3,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W3E1",
+              "hp": 61,
+              "attack": 4,
+              "position": [
+                0,
+                2
+              ],
+              "kill_gold": 6,
+              "kill_xp": 23
+            },
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W3E2",
+              "hp": 44,
+              "attack": 6,
+              "position": [
+                2,
+                3
+              ],
+              "kill_gold": 3,
+              "kill_xp": 12
+            }
+          ],
+          "rewards": {
+            "gold": 24,
+            "xp": 47
+          },
+          "clear_gold": 12
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I022",
+              "tier": 2,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I116",
+              "tier": 2,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I058",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 0
+        },
+        "shop": [
+          {
+            "definition": "I116",
+            "tier": 2,
+            "price": 28,
+            "stock": 1
+          },
+          {
+            "definition": "I028",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I113",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I027",
+            "tier": 1,
+            "price": 16,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": null,
+          "misses": 1,
+          "last_kind": "forge",
+          "same_kind_count": 1
+        }
+      },
+      {
+        "wave": 4,
+        "room": {
+          "id": "ROOM_RIGHT",
+          "name": "偏右掩体",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              2
+            ]
+          ],
+          "enemy_slots": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              1,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              4,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": false
+        },
+        "encounter": {
+          "budget": 7.5,
+          "spent": 7.0,
+          "elite": true,
+          "members": [
+            {
+              "id": "M_RANGED",
+              "name": "活体结晶",
+              "source_row": "结晶",
+              "source_range": "A21:AA21",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "ranged",
+              "budget_cost": 2.5,
+              "base_hp": 36,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 2,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": true,
+              "instance_id": "example/F2W4E0",
+              "hp": 92,
+              "attack": 12,
+              "position": [
+                3,
+                3
+              ],
+              "kill_gold": 12,
+              "kill_xp": 52
+            },
+            {
+              "id": "M_GUARD",
+              "name": "重生傀儡",
+              "source_row": "重生傀儡",
+              "source_range": "A26:AA26",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 100,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "guard",
+              "budget_cost": 3,
+              "base_hp": 75,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 3,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W4E1",
+              "hp": 120,
+              "attack": 10,
+              "position": [
+                2,
+                3
+              ],
+              "kill_gold": 9,
+              "kill_xp": 39
+            }
+          ],
+          "rewards": {
+            "gold": 43,
+            "xp": 91
+          },
+          "clear_gold": 22
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I058",
+              "tier": 3,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I111",
+              "tier": 1,
+              "honing": 0,
+              "charges": 3
+            },
+            {
+              "definition": "I048",
+              "tier": 3,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 2,
+          "low_streak_after": 0
+        },
+        "shop": [
+          {
+            "definition": "I058",
+            "tier": 2,
+            "price": 45,
+            "stock": 1
+          },
+          {
+            "definition": "I048",
+            "tier": 1,
+            "price": 22,
+            "stock": 1
+          },
+          {
+            "definition": "I022",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I054",
+            "tier": 2,
+            "price": 41,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": "enchant",
+          "misses": 0,
+          "last_kind": "enchant",
+          "same_kind_count": 1
+        }
+      },
+      {
+        "wave": 5,
+        "room": {
+          "id": "ROOM_EDGE",
+          "name": "侧边石柱",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              4,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 9,
+          "spent": 9.0,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W5E0",
+              "hp": 78,
+              "attack": 8,
+              "position": [
+                1,
+                0
+              ],
+              "kill_gold": 4,
+              "kill_xp": 16
+            },
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W5E1",
+              "hp": 78,
+              "attack": 8,
+              "position": [
+                3,
+                0
+              ],
+              "kill_gold": 4,
+              "kill_xp": 16
+            },
+            {
+              "id": "M_RANGED",
+              "name": "活体结晶",
+              "source_row": "结晶",
+              "source_range": "A21:AA21",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "ranged",
+              "budget_cost": 2.5,
+              "base_hp": 36,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 2,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W5E2",
+              "hp": 63,
+              "attack": 11,
+              "position": [
+                3,
+                1
+              ],
+              "kill_gold": 5,
+              "kill_xp": 21
+            },
+            {
+              "id": "M_RANGED",
+              "name": "活体结晶",
+              "source_row": "结晶",
+              "source_range": "A21:AA21",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "ranged",
+              "budget_cost": 2.5,
+              "base_hp": 36,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 2,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W5E3",
+              "hp": 63,
+              "attack": 11,
+              "position": [
+                3,
+                3
+              ],
+              "kill_gold": 4,
+              "kill_xp": 21
+            }
+          ],
+          "rewards": {
+            "gold": 34,
+            "xp": 74
+          },
+          "clear_gold": 17
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I106",
+              "tier": 1,
+              "honing": 0,
+              "charges": 3
+            },
+            {
+              "definition": "I111",
+              "tier": 1,
+              "honing": 0,
+              "charges": 3
+            },
+            {
+              "definition": "I114",
+              "tier": 2,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 0
+        },
+        "shop": [
+          {
+            "definition": "I022",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I048",
+            "tier": 2,
+            "price": 38,
+            "stock": 1
+          },
+          {
+            "definition": "I058",
+            "tier": 2,
+            "price": 45,
+            "stock": 1
+          },
+          {
+            "definition": "I113",
+            "tier": 2,
+            "price": 21,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": null,
+          "misses": 1,
+          "last_kind": "enchant",
+          "same_kind_count": 1
+        }
+      },
+      {
+        "wave": 6,
+        "room": {
+          "id": "ROOM_TWIN",
+          "name": "双柱场",
+          "width": 5,
+          "height": 7,
+          "tile_size": 256,
+          "hero_spawn": [
+            2,
+            5
+          ],
+          "exit": [
+            2,
+            0
+          ],
+          "blocked": [
+            [
+              3,
+              3
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "enemy_slots": [
+            [
+              4,
+              0
+            ],
+            [
+              3,
+              0
+            ],
+            [
+              2,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              0,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              1,
+              2
+            ],
+            [
+              0,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              0,
+              3
+            ]
+          ],
+          "rotation_allowed": false,
+          "mirror_x_allowed": true,
+          "min_spawn_distance_tiles": 2,
+          "min_actor_clearance_uu": 128,
+          "stage": "提案模板；实际碰撞体、投射轨迹与镜头仍须实机验收",
+          "mirrored": true
+        },
+        "encounter": {
+          "budget": 11,
+          "spent": 10.5,
+          "elite": false,
+          "members": [
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W6E0",
+              "hp": 86,
+              "attack": 8,
+              "position": [
+                3,
+                2
+              ],
+              "kill_gold": 4,
+              "kill_xp": 18
+            },
+            {
+              "id": "M_FAST",
+              "name": "血蛆",
+              "source_row": "大肠",
+              "source_range": "A15:AA15",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 25,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "fast",
+              "budget_cost": 1.5,
+              "base_hp": 30,
+              "base_attack": 5,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W6E1",
+              "hp": 57,
+              "attack": 7,
+              "position": [
+                4,
+                3
+              ],
+              "kill_gold": 3,
+              "kill_xp": 13
+            },
+            {
+              "id": "M_RANGED",
+              "name": "活体结晶",
+              "source_row": "结晶",
+              "source_range": "A21:AA21",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "ranged",
+              "budget_cost": 2.5,
+              "base_hp": 36,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 2,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W6E2",
+              "hp": 69,
+              "attack": 11,
+              "position": [
+                0,
+                1
+              ],
+              "kill_gold": 4,
+              "kill_xp": 23
+            },
+            {
+              "id": "M_RANGED",
+              "name": "活体结晶",
+              "source_row": "结晶",
+              "source_range": "A21:AA21",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 20,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "ranged",
+              "budget_cost": 2.5,
+              "base_hp": 36,
+              "base_attack": 8,
+              "heal": 0,
+              "min_wave": 2,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W6E3",
+              "hp": 69,
+              "attack": 11,
+              "position": [
+                1,
+                0
+              ],
+              "kill_gold": 4,
+              "kill_xp": 23
+            },
+            {
+              "id": "M_GRUNT",
+              "name": "眼球虫",
+              "source_row": "眼球",
+              "source_range": "A12:AA12",
+              "source_workbook": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+              "source_sheet": "敌人经验及基础配置",
+              "source_original_hp": 30,
+              "source_original_attack": 30,
+              "prototype_is_boss": false,
+              "inherits_source_boss_tags": false,
+              "role": "melee",
+              "budget_cost": 2,
+              "base_hp": 45,
+              "base_attack": 6,
+              "heal": 0,
+              "min_wave": 1,
+              "floor_min": 1,
+              "status": "视觉与行名复用；数值和本GDD行为模板是新配置，不能同时加载旧成长与旧随机精英技能",
+              "elite": false,
+              "instance_id": "example/F2W6E4",
+              "hp": 86,
+              "attack": 8,
+              "position": [
+                2,
+                0
+              ],
+              "kill_gold": 4,
+              "kill_xp": 18
+            }
+          ],
+          "rewards": {
+            "gold": 39,
+            "xp": 95
+          },
+          "clear_gold": 20
+        },
+        "chest": {
+          "offers": [
+            {
+              "definition": "I058",
+              "tier": 2,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I113",
+              "tier": 2,
+              "honing": 0,
+              "charges": null
+            },
+            {
+              "definition": "I116",
+              "tier": 1,
+              "honing": 0,
+              "charges": null
+            }
+          ],
+          "picks": 1,
+          "low_streak_after": 0
+        },
+        "shop": [
+          {
+            "definition": "I116",
+            "tier": 1,
+            "price": 16,
+            "stock": 1
+          },
+          {
+            "definition": "I023",
+            "tier": 1,
+            "price": 18,
+            "stock": 1
+          },
+          {
+            "definition": "I058",
+            "tier": 1,
+            "price": 26,
+            "stock": 1
+          },
+          {
+            "definition": "I022",
+            "tier": 2,
+            "price": 31,
+            "stock": 1
+          },
+          {
+            "definition": "I106",
+            "tier": 1,
+            "price": 12,
+            "stock": 1
+          },
+          {
+            "definition": "I111",
+            "tier": 1,
+            "price": 8,
+            "stock": 1
+          }
+        ],
+        "special": {
+          "kind": null,
+          "misses": 2,
+          "last_kind": "enchant",
+          "same_kind_count": 1
+        }
+      }
+    ],
+    "boss": {
+      "id": "B02",
+      "source_visual_row": "结晶骑士",
+      "name": "结晶骑士·试炼形态",
+      "floor": 2,
+      "hp": 680,
+      "light_attack": 13,
+      "heavy_attack": 28,
+      "phase2_hp_fraction": 0.5,
+      "adds_cap": 2,
+      "extension_unbalanced": false
+    }
+  }
+]

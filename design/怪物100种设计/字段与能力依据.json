@@ -1,0 +1,1085 @@
+{
+  "version": "monster100-source-audit-v1",
+  "audit_date": "2026-10-29",
+  "scope": "只读审计当前源代码、源数据摘录和项目合同；只写审计文件，不修改运行时。此审计不是运行验证或玩法验证。",
+  "design_schema_contract": {
+    "allowed_base_stats": [
+      "hp",
+      "attack",
+      "heal",
+      "fortify"
+    ],
+    "no_new_entity_stats": [
+      "元素抗性",
+      "物理抗性",
+      "魔法抗性",
+      "韧性",
+      "命中率",
+      "仇恨值",
+      "复活点",
+      "复生能量",
+      "盾墙值",
+      "行动速度加成属性"
+    ],
+    "note": "现有可交互.角色.AI.仇恨是GameplayTag，不代表可新造数值仇恨系统；源精英技能名强韧也不等于新韧性属性。"
+  },
+  "approved_base_fields": [
+    {
+      "design_key": "hp",
+      "exact_keys": [
+        "科学词条.生命",
+        "科学词条.最大生命",
+        "当前生命",
+        "当前最大生命"
+      ],
+      "zh": "生命基准",
+      "meaning": "定义初始生命和生命上限；当前生命是运行时状态，不能用基础生命词条直接充当当前HP。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sim/actor.ts",
+          "lines": [
+            60,
+            61
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/kernel/actor.ts",
+          "lines": [
+            66,
+            70
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/kernel/actor.ts",
+          "lines": [
+            275,
+            281
+          ]
+        },
+        {
+          "source_sheet": "敌人总表",
+          "source_rows": [
+            6,
+            47
+          ],
+          "inventory_pointer": "/selected/enemy_rows"
+        }
+      ]
+    },
+    {
+      "design_key": "attack",
+      "exact_keys": [
+        "科学词条.基础伤害"
+      ],
+      "zh": "基础伤害",
+      "meaning": "技能伤害数值来源；最终伤害仍须真实技能倍率、伤害类型和减免消费者。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/demo/data/数据表_敌人_普通.ts",
+          "lines": [
+            19,
+            19
+          ]
+        },
+        {
+          "source_sheet": "属性定义与词条",
+          "source_row": 23,
+          "inventory_pointer": "/selected/source_attribute_dictionary/key=基础伤害"
+        }
+      ]
+    },
+    {
+      "design_key": "heal",
+      "exact_keys": [
+        "科学词条.治愈"
+      ],
+      "zh": "治愈基准",
+      "meaning": "治疗技能引用量；不是自动每回合回血。新同伴治疗需AI选人适配。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/bp/Skill/Ability/敌人/蓝图_能力_治愈_强固.ts",
+          "lines": [
+            17,
+            40
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/damage/heal.ts",
+          "lines": [
+            13,
+            80
+          ]
+        },
+        {
+          "source_sheet": "属性定义与词条",
+          "source_row": 61
+        }
+      ]
+    },
+    {
+      "design_key": "fortify",
+      "exact_keys": [
+        "科学词条.护甲"
+      ],
+      "zh": "强固生成基准",
+      "meaning": "一次强固技能的生成量；当前存量为当前护甲值，护甲不是永久硬防数值。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sim/actor.ts",
+          "lines": [
+            59,
+            59
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/damage/heal.ts",
+          "lines": [
+            34,
+            39
+          ]
+        },
+        {
+          "source_sheet": "属性定义与词条",
+          "source_row": 38
+        }
+      ]
+    }
+  ],
+  "existing_runtime_states": [
+    {
+      "exact_key": "当前护甲值",
+      "zh": "强固存量",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sim/actor.ts",
+          "lines": [
+            59,
+            59
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/damage/incoming.ts",
+          "lines": [
+            115,
+            138
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "生命百分比",
+      "zh": "当前生命比例",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sim/actor.ts",
+          "lines": [
+            64,
+            64
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/kernel/actor.ts",
+          "lines": [
+            275,
+            281
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "当前目标",
+      "zh": "已选目标引用",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sim/actor.ts",
+          "lines": [
+            31,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "死掉了",
+      "zh": "死亡状态",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sim/actor.ts",
+          "lines": [
+            35,
+            35
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "是精英",
+      "zh": "精英分类标记",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sim/actor.ts",
+          "lines": [
+            143,
+            143
+          ]
+        }
+      ]
+    }
+  ],
+  "existing_entity_fields_not_new_design_stats": [
+    {
+      "exact_key": "科学词条.强固减伤%",
+      "zh": "强固可分担伤害比例",
+      "classification": "既有属性但敌人源行未配置；项目适配常量，禁止误标源敌人原值",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/damage/incoming.ts",
+          "lines": [
+            115,
+            138
+          ]
+        },
+        {
+          "path": "battle-scene/src/content/demo/data/数据表_玩家.ts",
+          "lines": [
+            18,
+            21
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "科学词条.伤害减免%",
+      "zh": "一般伤害减免",
+      "classification": "仅作为防御姿态的既有词条来源修饰，不增加base_stats列；到期清除来源",
+      "aggregation": "1 - product(1 - 每一来源值)",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/damage/incoming.ts",
+          "lines": [
+            21,
+            37
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/math/stats.ts",
+          "lines": [
+            33,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "科学词条.额外伤害%",
+      "zh": "额外伤害比例",
+      "classification": "号令行为可用既有词条来源修饰；不得创建队伍攻击力新属性",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/demo/data/数据表_敌人_普通.ts",
+          "lines": [
+            19,
+            19
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "属性.行动力",
+      "zh": "原敌人行动力",
+      "classification": "已有源属性；新回合脚本不沿用累积触发时禁止双重结算",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/kernel/actor.ts",
+          "lines": [
+            50,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "属性.速度",
+      "zh": "最大物理速度",
+      "classification": "源物理量，不等同于每阶段移动房间格数",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/kernel/actor.ts",
+          "lines": [
+            50,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "属性.高度/宽度",
+      "zh": "实体碰撞几何",
+      "classification": "不是装备格占格和新抗性属性",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/kernel/actor.ts",
+          "lines": [
+            50,
+            58
+          ]
+        }
+      ]
+    },
+    {
+      "exact_key": "科学词条.质量",
+      "zh": "源质量",
+      "classification": "既有物理字段；牵引适配不添加抗拉属性",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/kernel/actor.ts",
+          "lines": [
+            70,
+            72
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/physics/index.ts",
+          "lines": [
+            251,
+            262
+          ]
+        }
+      ]
+    }
+  ],
+  "source_stat_keys": [
+    "价格",
+    "伤害减免%",
+    "元素伤害%",
+    "加速冷却%",
+    "基础伤害",
+    "弹射距离",
+    "强固效果%",
+    "投射伤害%",
+    "投射分裂",
+    "护甲",
+    "持续伤害%",
+    "持续减免%",
+    "攻击距离",
+    "易伤倍率%",
+    "暴击伤害%",
+    "暴击率%",
+    "最大生命",
+    "最大魔力",
+    "格挡%",
+    "格挡减伤%",
+    "治愈",
+    "治愈效果%",
+    "消耗减免%",
+    "溢价",
+    "生命",
+    "疲劳减伤%",
+    "精英伤害%",
+    "经验",
+    "质量",
+    "连击",
+    "闪避%",
+    "额外伤害%",
+    "额外生命%",
+    "魔力"
+  ],
+  "source_stat_keys_note": "这些34个key在当前28敌人导入行中均存在。只证明源定义存在，不表示100怪表需要开放全部字段，也不证明每个key当前对敌人均有效。",
+  "behavior_parameter_boundary": {
+    "parameters": [
+      "move_tiles",
+      "range_tiles",
+      "damage_ratio",
+      "telegraph_turns",
+      "recover_turns",
+      "cooldown_turns",
+      "radius_tiles",
+      "angle_degrees",
+      "locked_target_id",
+      "locked_point",
+      "spawn_limit_per_battle",
+      "generation_limit",
+      "revive_limit_per_battle",
+      "duration_turns",
+      "temporary_damage_bonus_ratio",
+      "temporary_damage_reduction_ratio"
+    ],
+    "meaning": "上述是AI动作的空间、时序、次数、锁定与来源修饰参数，不是新实体属性；参数必须被明确消费者读取，保存于技能/AI状态并可回放。",
+    "unit_contract": "房间大格=256世界单位；源技能环/物理小格不能直接当房间大格。",
+    "evidence": [
+      {
+        "path": "地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+        "lines": [
+          39,
+          46
+        ]
+      },
+      {
+        "path": "地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+        "lines": [
+          55,
+          60
+        ]
+      }
+    ]
+  },
+  "fortify_adaptation": {
+    "current_enemy_rows_with_key": [],
+    "current_enemy_rows_missing_key_count": 28,
+    "current_behavior": "无强固减伤%时读取0；已有当前护甲值不消耗，伤害全部进入生命。",
+    "real_source_value": {
+      "value": 0.5,
+      "aggregation": "加算",
+      "source": "当前4英雄源行均为0.5；原始词典包含测试行合计5行；不是敌人原值。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/demo/data/数据表_玩家.ts",
+          "lines": [
+            18,
+            21
+          ]
+        },
+        {
+          "source_sheet": "属性定义与词条",
+          "source_row": 32
+        }
+      ]
+    },
+    "proposed_project_adapter": "对于本项目100怪的强固消费者，初始化既有科学词条.强固减伤%=0.5，计算类型=加算，空来源=0.5，并作为项目合同常量记录；必须先在源行clone或运行时Map中显式建键。不得只调用添加科学映射值来试图补缺键。",
+    "formula": "D为进入强固分配的非负伤害，F为当前强固存量，q=0.5。absorbed=min(F,D*q); F_after=F-absorbed; HP_loss=D-absorbed。仅包含护甲=true时经过此分配。",
+    "not_full_absorption": "F>=D也最多分担D的50%，不承诺100%吸收。",
+    "blocking_acceptance": [
+      "强固能力任一目标缺强固减伤%键，应加载报错/验证失败，不静默继续。",
+      "HP100,F20,q0.5,D30，包含护甲=true：HP85,F5。",
+      "HP100,F10,q0.5,D30：HP80,F0。",
+      "HP100,F20,q0.5,D30，包含护甲=false：HP70,F20。",
+      "删除q键再承受D30时现有管线HP70,F20；该结果用于捕获缺键故障，不作为项目正常行为。",
+      "一场结束清空临时强固；有限生成量及支援次数由AI限制，不能借源无上限叠加导致无限强固。"
+    ],
+    "evidence": [
+      {
+        "path": "battle-scene/src/core/math/stats.ts",
+        "lines": [
+          37,
+          59
+        ]
+      },
+      {
+        "path": "battle-scene/src/core/sys/damage/incoming.ts",
+        "lines": [
+          115,
+          138
+        ]
+      },
+      {
+        "path": "battle-scene/tests/core-damage/incoming.test.ts",
+        "lines": [
+          167,
+          203
+        ]
+      }
+    ],
+    "tests_status": "本轮仅读取现有测试源码；未运行这些测试，未实现本提议适配。"
+  },
+  "ability_boundaries": [
+    {
+      "id": "heal",
+      "source_definition": "自愈/治愈_强固源类存在；源敌人自愈以自己为目标且低于80%生命可用。治疗管线封顶最大生命，溢出治疗另有DOT交互。",
+      "current_project_contract": "GDD同伴治疗：奇预告偶执行、3格内另一个缺血比例最高敌人、不得自己治疗。",
+      "implementation_gap": "100怪的同伴选择、锁定/失效策略、次数/治疗占行动和预警需新AI消费者；需关闭暴击或明确继承，不让新固定量暗受源暴击。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/bp/Skill/Ability/敌人/蓝图_能力_治愈_强固.ts",
+          "lines": [
+            17,
+            40
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/damage/heal.ts",
+          "lines": [
+            13,
+            80
+          ]
+        },
+        {
+          "path": "地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "lines": [
+            44,
+            44
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fortify",
+      "source_definition": "铸甲读取护甲词条；获得治疗生命护甲分支累加当前护甲值，无源存量上限。",
+      "implementation_gap": "同伴强固选择、生成次数/存量上限、新阶段清除需适配；必须完成fortify_adaptation。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/demo/data/数据表_技能_默认.ts",
+          "lines": [
+            54,
+            54
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/damage/heal.ts",
+          "lines": [
+            34,
+            39
+          ]
+        }
+      ]
+    },
+    {
+      "id": "damage_reduction",
+      "source_definition": "一般即时伤害在非疲劳标记时乘(1-伤害减免%)；来源按乘算聚合。",
+      "implementation_gap": "朝向条件、防御开合时序和结束移除来源需新AI消费者。75%上限若采用应引用项目合同，不能称incoming.ts自带clamp。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/damage/incoming.ts",
+          "lines": [
+            21,
+            37
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/math/stats.ts",
+          "lines": [
+            33,
+            49
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teleport",
+      "source_definition": "齐刘海闪现源类选择菱形环格并设置角色位置；被选中时关闭碰撞。",
+      "implementation_gap": "项目预告落点、保留合法安全落点、失败回退、执行后不追瞄需新逻辑；不能照抄空候选默认(0,0,0)，也不能无说明继承整回合无敌。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/bp/Skill/Ability/敌人/蓝图_能力_闪现.ts",
+          "lines": [
+            10,
+            29
+          ]
+        },
+        {
+          "path": "battle-scene/src/content/demo/data/数据表_技能_默认.ts",
+          "lines": [
+            63,
+            63
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pull",
+      "source_definition": "物理持续力接口及装备黑洞的负径向力存在；本轮未发现敌人专用牵引技能。",
+      "implementation_gap": "敌人牵引为项目新AI：预告方向/最大距离、固体碰撞停止、英雄唯一命中、无安全落点回退均待实现。物理力不等于稳定移动一格，需要实际物理验证。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/physics/index.ts",
+          "lines": [
+            169,
+            183
+          ]
+        },
+        {
+          "path": "battle-scene/src/content/bp/Skill/效果/物品/蓝图_效果_黑洞.ts",
+          "lines": [
+            5,
+            10
+          ]
+        }
+      ]
+    },
+    {
+      "id": "summon",
+      "source_definition": "召唤水母脑/蓝图_能力_召唤、眼球分裂/血卵孵化源消费者存在；召唤接口清空材料掉落、经验、价格。",
+      "implementation_gap": "新指定子嗣、合法出生位置、最多一代/每场次数、出生只预告、总实体6上限和原始奖励账本待适配；源接口仍套旧层成长，且没有明确清空装备掉落，必须覆盖全部独立奖励路径。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/bp/Skill/Ability/蓝图_能力_召唤.ts",
+          "lines": [
+            11,
+            22
+          ]
+        },
+        {
+          "path": "battle-scene/src/core/sys/turn/input.ts",
+          "lines": [
+            167,
+            183
+          ]
+        },
+        {
+          "path": "地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "lines": [
+            49,
+            52
+          ]
+        }
+      ]
+    },
+    {
+      "id": "revive",
+      "source_definition": "通用被复活_重置存在：清死亡、回满HP/魔力、强固归零、移出墓地；不构成敌人一次复生AI。重生傀儡源固定技能为冲撞/电网/弹幕/力场/首领脚本，不能从名字推导复活。",
+      "implementation_gap": "一次复生是项目已接受的机制提案；残骸计时、能被击毁、复生比例、重新入场、一次奖励和一次复生标记需要新AI状态，不能新增复活资源属性。通用reset回满血不可直接当30%复生。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/core/sys/turn/input.ts",
+          "lines": [
+            152,
+            165
+          ]
+        },
+        {
+          "path": "battle-scene/src/content/demo/data/数据表_敌人_普通.ts",
+          "lines": [
+            32,
+            32
+          ]
+        },
+        {
+          "source_sheet": "敌人总表",
+          "source_row": 26
+        }
+      ]
+    },
+    {
+      "id": "barrier",
+      "source_definition": "若指路障：筑墙源效果创建不可通行岩石；石墙是源敌人表行。若指力场：源偏转力场按回合开合并偏转投射，另有清强固/冲量副作用。二者不是通用100%护盾。",
+      "implementation_gap": "可拆路障的HP、可被基础碰撞破坏、阻塞连通性、存活回合/清除和实体预算需项目新适配；禁止将源力场所有隐藏副作用默认复制进新防御怪。",
+      "evidence": [
+        {
+          "path": "battle-scene/src/content/bp/Skill/效果/敌人/蓝图_效果_筑墙.ts",
+          "lines": [
+            8,
+            29
+          ]
+        },
+        {
+          "path": "battle-scene/src/content/bp/Skill/效果/敌人/蓝图_效果_偏转力场.ts",
+          "lines": [
+            39,
+            73
+          ]
+        },
+        {
+          "path": "battle-scene/src/content/demo/data/数据表_敌人_普通.ts",
+          "lines": [
+            34,
+            34
+          ]
+        }
+      ]
+    }
+  ],
+  "source_inventory": {
+    "archived_rows": 42,
+    "runtime_imported_rows": 28,
+    "evidence_source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/data_inventory.json",
+    "sheet": "敌人总表",
+    "sheet_rows": [
+      6,
+      47
+    ],
+    "runtime_absent_archived_row_names": [
+      "测试",
+      "弑神幼虫_测试",
+      "章鱼脑_测试",
+      "大肠_测试",
+      "结晶簇_测试",
+      "结晶_测试",
+      "幽焰龙_1测试",
+      "结晶骑士_测试",
+      "结晶骑士_单技能测试",
+      "眼球包_测试",
+      "守门人_测试",
+      "水母脑_测试",
+      "幽焰龙_测试",
+      "重生傀儡_测试"
+    ],
+    "all_rows": [
+      {
+        "row_name": "西瓜猪",
+        "display_name": "西瓜猪",
+        "sheet_row": 6,
+        "runtime_present": true,
+        "runtime_line": 14,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "测试",
+        "display_name": "测试眼球",
+        "sheet_row": 7,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "宝箱",
+        "display_name": "宝箱",
+        "sheet_row": 8,
+        "runtime_present": true,
+        "runtime_line": 10,
+        "classification": "宝箱/地形"
+      },
+      {
+        "row_name": "新手关宝箱",
+        "display_name": "新手关宝箱",
+        "sheet_row": 9,
+        "runtime_present": true,
+        "runtime_line": 11,
+        "classification": "宝箱/地形"
+      },
+      {
+        "row_name": "新手关眼球包",
+        "display_name": "新手关眼球包",
+        "sheet_row": 10,
+        "runtime_present": true,
+        "runtime_line": 17,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "新手关眼球包2",
+        "display_name": "新手关眼球包2",
+        "sheet_row": 11,
+        "runtime_present": true,
+        "runtime_line": 18,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "眼球",
+        "display_name": "眼球虫",
+        "sheet_row": 12,
+        "runtime_present": true,
+        "runtime_line": 19,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "眼球包",
+        "display_name": "眼球虫团",
+        "sheet_row": 13,
+        "runtime_present": true,
+        "runtime_line": 20,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "守门人",
+        "display_name": "守门人",
+        "sheet_row": 14,
+        "runtime_present": true,
+        "runtime_line": 21,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "大肠",
+        "display_name": "血蛆",
+        "sheet_row": 15,
+        "runtime_present": true,
+        "runtime_line": 22,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "大肠血卵",
+        "display_name": "血卵",
+        "sheet_row": 16,
+        "runtime_present": true,
+        "runtime_line": 23,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "大肠血卵_坏卵",
+        "display_name": "血卵",
+        "sheet_row": 17,
+        "runtime_present": true,
+        "runtime_line": 24,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "大肠团",
+        "display_name": "血蛆结节",
+        "sheet_row": 18,
+        "runtime_present": true,
+        "runtime_line": 25,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "弑神幼虫",
+        "display_name": "弑神幼虫",
+        "sheet_row": 19,
+        "runtime_present": true,
+        "runtime_line": 26,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "弑神幼虫_测试",
+        "display_name": "弑神幼虫_测试",
+        "sheet_row": 20,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "结晶",
+        "display_name": "活体结晶",
+        "sheet_row": 21,
+        "runtime_present": true,
+        "runtime_line": 27,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "结晶簇",
+        "display_name": "活体结晶簇",
+        "sheet_row": 22,
+        "runtime_present": true,
+        "runtime_line": 28,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "结晶骑士",
+        "display_name": "结晶骑士",
+        "sheet_row": 23,
+        "runtime_present": true,
+        "runtime_line": 29,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "水母脑",
+        "display_name": "浮游脑",
+        "sheet_row": 24,
+        "runtime_present": true,
+        "runtime_line": 30,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "章鱼脑",
+        "display_name": "活脑母体",
+        "sheet_row": 25,
+        "runtime_present": true,
+        "runtime_line": 31,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "重生傀儡",
+        "display_name": "重生傀儡",
+        "sheet_row": 26,
+        "runtime_present": true,
+        "runtime_line": 32,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "盗宝黏菌",
+        "display_name": "盗宝黏菌",
+        "sheet_row": 27,
+        "runtime_present": true,
+        "runtime_line": 33,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "石墙",
+        "display_name": "石墙",
+        "sheet_row": 28,
+        "runtime_present": true,
+        "runtime_line": 34,
+        "classification": "宝箱/地形"
+      },
+      {
+        "row_name": "幽焰龙",
+        "display_name": "幽焰龙",
+        "sheet_row": 29,
+        "runtime_present": true,
+        "runtime_line": 35,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "齐刘海",
+        "display_name": "幽魂",
+        "sheet_row": 30,
+        "runtime_present": true,
+        "runtime_line": 36,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "NewRow_0",
+        "display_name": "NewRow_0",
+        "sheet_row": 31,
+        "runtime_present": true,
+        "runtime_line": 37,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "NewRow",
+        "display_name": "NewRow",
+        "sheet_row": 32,
+        "runtime_present": true,
+        "runtime_line": 38,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "章鱼脑_测试",
+        "display_name": "章鱼脑_测试",
+        "sheet_row": 33,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "大肠_测试",
+        "display_name": "大肠_测试",
+        "sheet_row": 34,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "眼球包_0",
+        "display_name": "眼球包_0",
+        "sheet_row": 35,
+        "runtime_present": true,
+        "runtime_line": 39,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "结晶簇_测试",
+        "display_name": "结晶簇_测试",
+        "sheet_row": 36,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "结晶_测试",
+        "display_name": "结晶_测试",
+        "sheet_row": 37,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "幽焰龙_1测试",
+        "display_name": "幽焰龙",
+        "sheet_row": 38,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "结晶骑士_测试",
+        "display_name": "结晶骑士",
+        "sheet_row": 39,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "结晶骑士_单技能测试",
+        "display_name": "结晶骑士",
+        "sheet_row": 40,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "眼球包_测试",
+        "display_name": "眼球包_测试",
+        "sheet_row": 41,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "眼球_融合",
+        "display_name": "眼球_融合",
+        "sheet_row": 42,
+        "runtime_present": true,
+        "runtime_line": 40,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "守门人_测试",
+        "display_name": "守门人",
+        "sheet_row": 43,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "水母脑_测试",
+        "display_name": "水母脑_测试",
+        "sheet_row": 44,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "幽焰龙_测试",
+        "display_name": "幽焰龙",
+        "sheet_row": 45,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      },
+      {
+        "row_name": "火球精",
+        "display_name": "火球精",
+        "sheet_row": 46,
+        "runtime_present": true,
+        "runtime_line": 41,
+        "classification": "源实体；可达性和独立视觉需另证"
+      },
+      {
+        "row_name": "重生傀儡_测试",
+        "display_name": "重生傀儡",
+        "sheet_row": 47,
+        "runtime_present": false,
+        "runtime_line": null,
+        "classification": "测试/占位"
+      }
+    ],
+    "warning": "42不是42种正式战斗怪；包含测试、占位、宝箱、地形、子嗣/Boss形态。100条为项目新设计，源行仅作为定义或外观复用线索。"
+  },
+  "verification": {
+    "current_files_read": true,
+    "source_hashes": {
+      "battle-scene/src/content/demo/data/数据表_敌人_普通.ts": "ce5ab8a723d0a90798c0f51e8dfbdea5bb012072291d04c970aee4754f249919",
+      "地牢搜打撤_GDD_2026-10-29/01_研究与依据/data_inventory.json": "7d70970ce41b0dc71d59762559ec39f9e9dd298f7e7a456ce95aee881e653014",
+      "battle-scene/src/core/math/stats.ts": "d64c1b2ff479e6425fb194087cd87f34704a5e7e7590b34a221348d76c456b14",
+      "battle-scene/src/core/sys/damage/incoming.ts": "19dda47494894e07ab1d883cf690babe8bbe6ec5621c91d6b231b1d9c1222085",
+      "battle-scene/src/core/sys/damage/heal.ts": "df2152811a122cab56df766b0a627f85bca55968019175ad29428257f8dcfc4f"
+    },
+    "runtime_code_changed": false,
+    "tests_executed": false,
+    "playability_or_balance_verified": false
+  },
+  "damage_enums": {
+    "types": [
+      "物理",
+      "流血",
+      "中毒",
+      "燃烧",
+      "爆炸",
+      "剑气",
+      "电击",
+      "抓钩"
+    ],
+    "sources": [
+      "攻击",
+      "主动",
+      "被动",
+      "装备",
+      "减益",
+      "投射物",
+      "环境"
+    ],
+    "evidence": "battle-scene/src/content/demo/types.ts:160-163",
+    "selected_for_this_design": [
+      "物理",
+      "爆炸",
+      "抓钩"
+    ]
+  }
+}

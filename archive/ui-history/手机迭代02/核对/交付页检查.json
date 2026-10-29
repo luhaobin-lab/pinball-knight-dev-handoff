@@ -1,0 +1,10 @@
+{
+  "errors": [],
+  "verifiedDownloadLinks": 36,
+  "catalogueLockLogicalSize": [
+    20,
+    20
+  ],
+  "externalGameMutation": false,
+  "note": "Playwright frame access verifies file-origin iframe without disabling browser security."
+}

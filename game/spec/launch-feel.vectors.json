@@ -1,0 +1,1434 @@
+{
+  "spec": "spec/launch-feel.md",
+  "version": 1,
+  "date": "2026-10-23",
+  "frameRate": 60,
+  "notes": [
+    "Each vector checks an event log of our build (spec §5). id = the FEEL rule it belongs to, with an optional .letter suffix.",
+    "event: an event type, or \"A→B\" = from the first A to the first B after it (same actor where that applies).",
+    "expected: a number, a {\"min\", \"max\"} range (null = open), a list of per-index numbers, a list of [t, value] keys (t on `clock`, from the start of the effect), a string or a boolean.",
+    "tolerance: absolute, in `unit`; for key lists {\"t\": seconds, \"v\": unit}.",
+    "clock: game (dilated), real (HUD and audio), frame (60-fps steps)."
+  ],
+  "units": [
+    "uu",
+    "uu/s",
+    "s",
+    "frame",
+    "Hz",
+    "rad",
+    "scale",
+    "ratio",
+    "fraction",
+    "count",
+    "bool",
+    "clock",
+    "rgb",
+    "px",
+    "px1080",
+    "hp"
+  ],
+  "events": [
+    "input.press",
+    "input.release",
+    "launch.start",
+    "hero.step",
+    "leg.end",
+    "contact",
+    "dilation",
+    "shake.start",
+    "camera.offset",
+    "hero.anim",
+    "hero.facing",
+    "sprite.offset",
+    "sprite.scale",
+    "flash",
+    "damage",
+    "number.spawn",
+    "number.update",
+    "number.remove",
+    "number.frame",
+    "vfx.spawn",
+    "trail.deactivate",
+    "trail.gone",
+    "sfx.play",
+    "death.start",
+    "death.splat",
+    "corpse.darken",
+    "ui.stats",
+    "headbar",
+    "launch.rest",
+    "aim.ready",
+    "aim.hidden",
+    "frame"
+  ],
+  "vectors": [
+    {
+      "id": "FEEL-001",
+      "event": "input.press→launch.start",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "raw 蓝图_主角色控制器.json EnhancedInputActionDelegateBinding: 输入_点击 Started → L7888/L6488 (records only)",
+      "check": "no launch.start between an input.press and its input.release"
+    },
+    {
+      "id": "FEEL-001.b",
+      "event": "input.release→launch.start",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "raw 蓝图_主角色控制器.json: 输入_点击 Completed → L8457 → L8104 → L4635 → L4939 → 根据操作执行技能",
+      "clock": "frame",
+      "capture": "rec-01/rec-02: last preview frame f167, hero moved in f168"
+    },
+    {
+      "id": "FEEL-002",
+      "event": "leg.end",
+      "expected": 500,
+      "unit": "uu",
+      "tolerance": 0,
+      "source": "DT 数据表_玩家 幽冥骑士 科学词条.弹射距离 5.0e2 (each main leg, independent of the cursor distance)",
+      "check": "every main leg of an unobstructed chain is 500 uu long whatever the cursor distance"
+    },
+    {
+      "id": "FEEL-003",
+      "event": "input.release→hero.step",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 1,
+      "source": "DT 数据表_技能_默认 可控挥击 吟唱 0.0; 蓝图_能力 释放开始 L13382 → L13434; 可控弹射 L7672 → L1882",
+      "clock": "frame",
+      "check": "first hero.step with d > 0; 0 = the image of the release frame already shows motion; no frame without preview and without motion",
+      "capture": "rec-01 f168 46.5 uu, rec-02 f168 ≈ 45 uu; tutorial 0–1 frame"
+    },
+    {
+      "id": "FEEL-003.b",
+      "event": "hero.step",
+      "expected": 46.8,
+      "unit": "uu",
+      "tolerance": 4.7,
+      "source": "曲线表 可控反弹曲线: C(t/T) at t = 1/60 s, T = 500/2000 s → 0.0937 × 500 uu",
+      "clock": "frame",
+      "check": "d of the first step of a 500-uu leg 0 at 60 fps",
+      "capture": "rec-01 f168: 46.5 uu after an 18-ms frame (model 49.5)"
+    },
+    {
+      "id": "FEEL-004",
+      "event": "input.release→aim.hidden",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "launch starts in the release frame (FEEL-001/003); the preview is drawn only in phase 2",
+      "clock": "frame",
+      "check": "aim preview, markers and the hover outline are gone in the image of the release frame (the cursor stays)",
+      "capture": "rec-01/rec-02: preview on f167, gone on f168"
+    },
+    {
+      "id": "FEEL-005",
+      "event": "launch.start",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "蓝图_能力 L13434 (sound only); 可控弹射 activation (no shake, VFX burst or dilation)",
+      "clock": "frame",
+      "check": "in the release frame: no shake.start, no dilation, no vfx.spawn other than the trail",
+      "capture": "camera offset 0 on rec-01 f160–f180 and rec-02 f160–f173"
+    },
+    {
+      "id": "FEEL-010",
+      "event": "leg.end",
+      "expected": [
+        2000,
+        2300,
+        2600,
+        2900
+      ],
+      "unit": "uu/s",
+      "tolerance": 0,
+      "source": "可控弹射 L1882: FMin(疲劳 × 300 + 2000, 6000)",
+      "check": "nominal speed of main legs 0..3 of a knight launch"
+    },
+    {
+      "id": "FEEL-010.b",
+      "event": "leg.end",
+      "expected": [
+        0.25,
+        0.2174,
+        0.1923,
+        0.1724
+      ],
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "StartLegacyPreviewLeg Duration = max(L / speed, 0.01) (exe 0x1445b250b); legs of 500 uu",
+      "clock": "game",
+      "check": "game-time duration of each 500-uu main leg",
+      "capture": "rec-01 legs end on f180/f190/f194/f199 (motion-verify track fit)"
+    },
+    {
+      "id": "FEEL-011",
+      "event": "leg.end",
+      "expected": 0.5747,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "可控弹射 L1196: terminal speed 0.3 × 移动当前速度; 500 uu after the 2900-uu/s leg",
+      "clock": "game",
+      "check": "terminal glide duration of the reference launch",
+      "capture": "rec-02: 500-uu glide at 600 uu/s ends 0.897 s real after the contact (rest frame f223)"
+    },
+    {
+      "id": "FEEL-012",
+      "event": "leg.end→hero.step",
+      "expected": 1,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "可控弹射 ln 70–96 (next leg started in the same execution; the follower moves it from the next tick)",
+      "clock": "frame",
+      "check": "the frame after a main leg.end already moves along the next leg (no idle frame)",
+      "capture": "rec-01 per-frame steps (motion-verify); rec-02 f173 → f174"
+    },
+    {
+      "id": "FEEL-013",
+      "event": "frame",
+      "expected": 0.0167,
+      "unit": "s",
+      "tolerance": 0.0001,
+      "source": "our build: time-based steps at 60 fps (the Demo capture cadence is 17.6 ms median, spec C1)",
+      "clock": "real",
+      "check": "debug-router step used when checking the vectors"
+    },
+    {
+      "id": "FEEL-020",
+      "event": "sprite.scale",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "蓝图_效果_可控反弹动画 L933 (squash only for BP_Actor_Other); raw BP_Actor_Player 反弹动画 without keys",
+      "check": "no sprite.scale entry for the hero with sx ≠ 1 or sz ≠ 1 during a launch (the ball may roll: reskin)",
+      "capture": "rec-01 f177–f204 sprite size constant across 4 wall contacts"
+    },
+    {
+      "id": "FEEL-021",
+      "event": "hero.facing",
+      "expected": {
+        "min": 0,
+        "max": 2
+      },
+      "unit": "count",
+      "tolerance": 0,
+      "source": "BP_ManeActor 更新朝向; 可控弹射 L6029 (start), L5448 (end)",
+      "check": "facing changes only in the launch.start and launch.rest frames",
+      "capture": "rec-02 flips at f168 and f223 only"
+    },
+    {
+      "id": "FEEL-022",
+      "event": "contact→hero.anim",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 1,
+      "source": "BP_ManeActor 进入攻击状态 L758 (JumpToNode AttackState at the enemy contact)",
+      "clock": "frame",
+      "check": "hero.anim state attack starts at each enemy contact",
+      "capture": "rec-02 slash visible f174 after the contact frame f173"
+    },
+    {
+      "id": "FEEL-022.b",
+      "event": "hero.anim",
+      "expected": 0.4,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "flipbook Actor_C01_SQ_Attack02: 4 frames at 10 fps; 动画攻击检测 0.4 s → 退出攻击状态",
+      "clock": "game",
+      "check": "attack state duration (frame switches every 0.1 s game)",
+      "capture": "rec-02 switches f183/f189/f194/f199, idle from f200"
+    },
+    {
+      "id": "FEEL-022.c",
+      "event": "hero.anim",
+      "expected": 180,
+      "unit": "uu",
+      "tolerance": 15,
+      "source": "capture only (flipbook pixels are not in the dump)",
+      "check": "outer diameter of the whirlwind slash in its first frame",
+      "capture": "rec-02 f175–f180: 176–180 uu"
+    },
+    {
+      "id": "FEEL-023",
+      "event": "sprite.offset",
+      "expected": [
+        [
+          0,
+          14.4
+        ],
+        [
+          0.07,
+          48.0
+        ],
+        [
+          0.56,
+          0.0
+        ]
+      ],
+      "unit": "uu",
+      "tolerance": {
+        "t": 0.0167,
+        "v": 1.5
+      },
+      "source": "可控反弹时交互 L5427 (mirrored 手动触发碰撞), BP_ManeActor L4774 (!死掉了？), 反弹中 L9926 → 可控反弹动画 L25",
+      "clock": "game",
+      "check": "hero sprite offset away from the touched enemy vs τ since the contact; absent when the enemy died (SPEC-GAP G3)"
+    },
+    {
+      "id": "FEEL-030",
+      "event": "shake.start",
+      "expected": 1,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "摄像机晃动_零点六/零点二 CDO bSingleInstance true",
+      "check": "at most one active instance per class; a trigger while active restarts it (duration from the last trigger, noise not re-randomised)"
+    },
+    {
+      "id": "FEEL-030.b",
+      "event": "camera.offset",
+      "expected": 0,
+      "unit": "rad",
+      "tolerance": 0,
+      "source": "PerlinNoiseCameraShakePattern on the orthographic top-down camera (X amplitude 0, FOV frequency 0)",
+      "check": "camera roll and zoom stay 0 during a launch",
+      "capture": "3 static patches agree to 0.1 uu in both captures"
+    },
+    {
+      "id": "FEEL-030.c",
+      "event": "camera.offset",
+      "expected": "game",
+      "unit": "clock",
+      "tolerance": 0,
+      "source": "UE camera shakes tick in dilated time [E]",
+      "clock": "game",
+      "check": "shake time advances by the game dt",
+      "capture": "rec-02 offset constant (0, +1) uu on f174–f180"
+    },
+    {
+      "id": "FEEL-031",
+      "event": "shake.start",
+      "expected": 9.62,
+      "unit": "uu",
+      "tolerance": 0.05,
+      "source": "反弹中 L5330 PlayWorldCameraShake(零点六, 摄像机中心, 0, 520, 1); SHK LocationAmplitudeMultiplier 250; SpringArm 500 → 250 × (1 − 500/520)",
+      "check": "amplitude per screen axis of class bounce",
+      "capture": "rec-01 per-axis peak 10 uu after contact 4"
+    },
+    {
+      "id": "FEEL-031.b",
+      "event": "shake.start",
+      "expected": 8,
+      "unit": "Hz",
+      "tolerance": 0,
+      "source": "SHK 零点六 LocationFrequencyMultiplier 8 (FPerlinNoiseShaker frequency 1)",
+      "check": "noise frequency of class bounce"
+    },
+    {
+      "id": "FEEL-031.c",
+      "event": "shake.start",
+      "expected": 0.5,
+      "unit": "s",
+      "tolerance": 0,
+      "source": "SHK 零点六 Duration 0.5, BlendInTime 0.1, BlendOutTime 0.1",
+      "clock": "game",
+      "check": "duration of class bounce (blend in/out 0.1 s)",
+      "capture": "rec-01 offset back to 0 at f228, 0.51 s after the last contact"
+    },
+    {
+      "id": "FEEL-031.d",
+      "event": "contact→shake.start",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "反弹中 L5330 (every player bounce: wall, enemy, gravity)",
+      "clock": "frame",
+      "check": "one bounce-shake trigger in the frame of every hero contact"
+    },
+    {
+      "id": "FEEL-032",
+      "event": "shake.start",
+      "expected": 22.73,
+      "unit": "uu",
+      "tolerance": 0.05,
+      "source": "受伤 L1391 PlayWorldCameraShake(零点二, 摄像机中心, 0, 550 | crit 750, 1) for 伤害来源 0/5; 250 × (1 − 500/550)",
+      "check": "amplitude per axis of class damage",
+      "capture": "rec-02 x lobe 7 uu; tutorial 17 uu (realised lobes ≤ A)"
+    },
+    {
+      "id": "FEEL-032.b",
+      "event": "shake.start",
+      "expected": 83.33,
+      "unit": "uu",
+      "tolerance": 0.1,
+      "source": "受伤 L1391 crit radius 750 → 250 × (1 − 500/750)",
+      "check": "amplitude per axis of class damage-crit"
+    },
+    {
+      "id": "FEEL-032.c",
+      "event": "shake.start",
+      "expected": 4,
+      "unit": "Hz",
+      "tolerance": 0,
+      "source": "SHK 零点二 LocationFrequencyMultiplier 4",
+      "check": "noise frequency of class damage"
+    },
+    {
+      "id": "FEEL-032.d",
+      "event": "shake.start",
+      "expected": 0.3,
+      "unit": "s",
+      "tolerance": 0,
+      "source": "SHK 零点二 Duration 0.3, blend 0.1/0.1",
+      "clock": "game",
+      "check": "duration of class damage",
+      "capture": "rec-02 x lobe f181–f189: peak at τ ≈ 0.11–0.12, zero at τ ≈ 0.25"
+    },
+    {
+      "id": "FEEL-032.e",
+      "event": "damage→shake.start",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "受伤 L1391 (per damage instance, per victim)",
+      "clock": "frame",
+      "check": "one damage-shake trigger per damage instance with source attack or projectile"
+    },
+    {
+      "id": "FEEL-033",
+      "event": "shake.start",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "可控弹射 (none at release/rest); 角色死亡 path (none on kill); shakes with R ≤ 500 have scale 0",
+      "check": "no shake.start in the launch.start frame, in the launch.rest frame, or from a death",
+      "capture": "rec-01 f160–f180 offset 0"
+    },
+    {
+      "id": "FEEL-034",
+      "event": "camera.offset",
+      "expected": {
+        "min": 0,
+        "max": 1.0
+      },
+      "unit": "ratio",
+      "tolerance": 0,
+      "source": "Perlin noise |value| ≤ 1 [E]; amplitudes of FEEL-031/032",
+      "check": "|offset| per axis ÷ Σ(active amplitudes × blend weights) ≤ 1"
+    },
+    {
+      "id": "FEEL-040",
+      "event": "dilation",
+      "expected": [
+        [
+          0,
+          0.2
+        ],
+        [
+          0.022,
+          1.5
+        ],
+        [
+          0.08,
+          1.0
+        ]
+      ],
+      "unit": "ratio",
+      "tolerance": {
+        "t": 0.0034,
+        "v": 0
+      },
+      "source": "时间变速 L260 → L55 PlayFromStart, L30 SetGlobalTimeDilation; curves CurveFloat_0_1 (RCIM_Constant); raw 普通时间扭曲_Template 0.25",
+      "clock": "game",
+      "check": "dilation value vs τ (game seconds since the hostile contact)",
+      "capture": "rec-02: 0.2× f174–f180, 1.5× f181–f183, 1.0 from f184"
+    },
+    {
+      "id": "FEEL-040.b",
+      "event": "contact→dilation",
+      "expected": 1,
+      "unit": "frame",
+      "tolerance": 1,
+      "source": "UE applies a dilation set in frame k from frame k + 1 [E]",
+      "clock": "frame",
+      "check": "first slowed frame after a hostile contact (0 allowed for the continuous clock)",
+      "capture": "rec-02 contact f173, first slow frame f174"
+    },
+    {
+      "id": "FEEL-040.c",
+      "event": "dilation",
+      "expected": 0.11,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "0.022 / 0.2",
+      "clock": "real",
+      "check": "real duration of the 0.2× phase (60 fps: 7 frames)",
+      "capture": "rec-02 7 slow frames at 57 fps"
+    },
+    {
+      "id": "FEEL-040.d",
+      "event": "dilation",
+      "expected": 0.0687,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "0.022/0.2 + 0.058/1.5 − 0.08",
+      "clock": "real",
+      "check": "real − game accumulated per hostile contact once its hit-stop is over",
+      "capture": "rec-02 brazier 10-fps flipbook and attack flipbook run 68 ± 9 ms late afterwards"
+    },
+    {
+      "id": "FEEL-040.e",
+      "event": "contact→dilation",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "时间变速 L260: plays only if 当前碰到谁了？ has 可交互.角色.AI.仇恨",
+      "check": "no dilation change after wall, prop or gravity contacts",
+      "capture": "rec-01 walls only: no slow frames"
+    },
+    {
+      "id": "FEEL-041",
+      "event": "dilation",
+      "expected": true,
+      "unit": "bool",
+      "tolerance": 0,
+      "source": "SetGlobalTimeDilation (world); UMG and audio on real time [E]",
+      "check": "during dilation hero.step, sprite.offset/scale, the flash gate, camera.offset, flipbooks and particles advance by game dt; number.frame, ui.stats and sfx by real dt",
+      "capture": "rec-02 brazier lag; damage-number keys on real time"
+    },
+    {
+      "id": "FEEL-042",
+      "event": "dilation",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "时间变速 暴击时间扭曲 never played; 受伤 timelines never played; 动作游戏模式 减速时间 no callers",
+      "check": "no dilation value other than 0.2, 1.5, 1.0 and no dilation 0 (freeze) during a launch, kills included"
+    },
+    {
+      "id": "FEEL-050",
+      "event": "sprite.offset",
+      "expected": [
+        [
+          0,
+          14.4
+        ],
+        [
+          0.022,
+          30.9
+        ],
+        [
+          0.07,
+          48.0
+        ],
+        [
+          0.18,
+          41.8
+        ],
+        [
+          0.25,
+          22.0
+        ],
+        [
+          0.36,
+          -9.6
+        ],
+        [
+          0.56,
+          0.0
+        ]
+      ],
+      "unit": "uu",
+      "tolerance": {
+        "t": 0.0167,
+        "v": 1.5
+      },
+      "source": "可控反弹动画 L25: Normal2D(ImpactNormal) × track × MapRangeClamped(移动当前速度, 3000, 6000, −48, −96) × MapRangeClamped(初始质量, 50, 800, 1, 0.2); curves CurveFloat_0 (0.3@0 tan 17.418, 1@0.07, 0.87@0.18 tan −2.02, −0.2@0.36, 0@0.56)",
+      "clock": "game",
+      "check": "touched enemy sprite offset along the away-from-hitter direction vs τ since the contact",
+      "capture": "rec-02: +15 uu over the 7 slow frames (track +14.9), +11.9 uu on f181 (track +13.0), at rest by f206"
+    },
+    {
+      "id": "FEEL-050.b",
+      "event": "sprite.offset",
+      "expected": 1.0,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "可控反弹动画 raw template TimelineLength 1.0; L1135 resets 额外动画根 to 0",
+      "clock": "game",
+      "check": "τ at which the offset is reset and the effect destroyed"
+    },
+    {
+      "id": "FEEL-050.c",
+      "event": "sprite.offset",
+      "expected": 96,
+      "unit": "uu",
+      "tolerance": 0.5,
+      "source": "MapRangeClamped(移动当前速度, 3000 → 6000, −48 → −96)",
+      "check": "recoil peak when the hitter moves at ≥ 6000 uu/s (48 at ≤ 3000 uu/s, linear between)"
+    },
+    {
+      "id": "FEEL-051",
+      "event": "sprite.scale",
+      "expected": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0.098,
+          0.9
+        ],
+        [
+          0.201,
+          1.2
+        ],
+        [
+          0.331,
+          0.95
+        ],
+        [
+          0.497,
+          1.0
+        ]
+      ],
+      "unit": "scale",
+      "tolerance": {
+        "t": 0.0167,
+        "v": 0.01
+      },
+      "source": "raw BP_Actor_Other export 46 (反弹动画2 RelativeScale3D, Curves = X); 可控反弹动画 L933 plays it",
+      "clock": "game",
+      "check": "touched enemy sprite width scale sx vs τ",
+      "capture": "rec-02 f189–f195 (τ 0.22–0.33) wide and flat"
+    },
+    {
+      "id": "FEEL-051.b",
+      "event": "sprite.scale",
+      "expected": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0.098,
+          1.2
+        ],
+        [
+          0.201,
+          0.9
+        ],
+        [
+          0.331,
+          1.1
+        ],
+        [
+          0.497,
+          1.0
+        ]
+      ],
+      "unit": "scale",
+      "tolerance": {
+        "t": 0.0167,
+        "v": 0.01
+      },
+      "source": "raw BP_Actor_Other export 46 (Curves[2] = Z)",
+      "clock": "game",
+      "check": "touched enemy sprite height scale sz vs τ"
+    },
+    {
+      "id": "FEEL-052",
+      "event": "flash",
+      "expected": 0.3,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "蓝图_效果_闪烁 L132 (闪烁开关 1), L76 Delay 0.3, L38 (0)",
+      "clock": "game",
+      "check": "duration of the flash gate per damaged victim",
+      "capture": "rec-02 white frames inside τ 0.08–0.21"
+    },
+    {
+      "id": "FEEL-052.b",
+      "event": "flash",
+      "expected": 4,
+      "unit": "Hz",
+      "tolerance": 0,
+      "source": "Mat_SpritBase ScalarValues 闪烁速度 4.0; waveform SPEC-GAP G2",
+      "clock": "game",
+      "check": "while the gate is on: white iff frac(gameClock × 4) < 0.5",
+      "capture": "rec-02 one 7-frame white burst; tutorial 2 + 3 frames"
+    },
+    {
+      "id": "FEEL-052.c",
+      "event": "flash",
+      "expected": "#ECEEE7",
+      "unit": "rgb",
+      "tolerance": 6,
+      "source": "Mat_SpritBase VectorValues 描边颜色 #ECEEE7",
+      "check": "flash colour of the sprite body",
+      "capture": "rec-02 (232–237, 235–240, 225–231)"
+    },
+    {
+      "id": "FEEL-053",
+      "event": "contact",
+      "expected": 0,
+      "unit": "uu",
+      "tolerance": 0,
+      "source": "no AddImpulse/SetActorLocation on the victim in 手动触发碰撞, 弹性处理, 反弹中, 发动攻击",
+      "check": "change of the touched actor root position caused by the launch",
+      "capture": "rec-02 eye back to (658.6, 750.0)"
+    },
+    {
+      "id": "FEEL-060",
+      "event": "damage",
+      "expected": 110,
+      "unit": "uu",
+      "tolerance": 0,
+      "source": "BP_ManeActor 近战捕获攻击目标 ln 1103–1115 (SphereTraceMulti r = 攻击距离, Z ±100); DT 攻击距离 1.1e2",
+      "check": "every enemy within 110 uu of the hero at an enemy contact is damaged (the touched one always)"
+    },
+    {
+      "id": "FEEL-060.b",
+      "event": "contact→damage",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "可控反弹时交互 L5427 发动攻击 in the contact execution",
+      "clock": "frame",
+      "check": "damage is applied in the contact frame",
+      "capture": "rec-02 HP bar drops on f174 (first image after f173)"
+    },
+    {
+      "id": "FEEL-061",
+      "event": "damage",
+      "expected": 30,
+      "unit": "hp",
+      "tolerance": 0,
+      "source": "DT 幽冥骑士 基础伤害 3.0e1",
+      "check": "knight hit damage without modifiers",
+      "capture": "rec-02 \"30\""
+    },
+    {
+      "id": "FEEL-062",
+      "event": "number.spawn",
+      "expected": 1,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "受伤 L2236 提示简化处理 (one widget per victim and skill per launch)",
+      "check": "number.spawn per (victim, skill) per launch; later hits produce number.update"
+    },
+    {
+      "id": "FEEL-062.b",
+      "event": "number.update",
+      "expected": [
+        [
+          0,
+          1.5
+        ],
+        [
+          0.1,
+          1.0
+        ]
+      ],
+      "unit": "scale",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.01
+      },
+      "source": "UI_伤害提示 数值更新_INST",
+      "clock": "real",
+      "check": "text scale bump on each count-up update"
+    },
+    {
+      "id": "FEEL-063",
+      "event": "number.spawn",
+      "expected": 12.5,
+      "unit": "px",
+      "tolerance": 1,
+      "source": "UI_伤害提示 像素字体 18 pt at 1920×1080 (crit 27 pt)",
+      "check": "digit height at scale 1.0 in internal px (crit ×1.5)",
+      "capture": "rec-02 \"30\": 33 cap px = 25 px@1080p"
+    },
+    {
+      "id": "FEEL-070",
+      "event": "death.start",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "BP_ManeActor L3013 → L3046 → L3772 (no Delay, no dilation, no extra shake)",
+      "check": "dilation changes, shake.start and full-screen effects caused by a death"
+    },
+    {
+      "id": "FEEL-071",
+      "event": "death.start→death.splat",
+      "expected": 0.5,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "AnimSequences Actor_M02_Die 精灵播放粒子 Time 0.5 (粒子_Blood_02, +10, 0, +20)",
+      "clock": "game",
+      "check": "spore splat after the killing hit (M02; per-enemy table in demo-juice §7.3)"
+    },
+    {
+      "id": "FEEL-071.b",
+      "event": "death.start→sfx.play",
+      "expected": 0.503,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "Actor_M02_Die 精灵声音播放 Time 0.5029874 (音效_基础_血浆01)",
+      "clock": "game",
+      "check": "death splat sound (M02)"
+    },
+    {
+      "id": "FEEL-071.c",
+      "event": "death.start→corpse.darken",
+      "expected": 0.903,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "Actor_M02_Die 精灵死亡变色 Time 0.9029873",
+      "clock": "game",
+      "check": "darkening start (M02)"
+    },
+    {
+      "id": "FEEL-071.d",
+      "event": "death.start",
+      "expected": 1.0,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "flipbook Actor_M02_SQ_Die 10 frames at 10 fps",
+      "clock": "game",
+      "check": "Die animation length (M02)"
+    },
+    {
+      "id": "FEEL-072",
+      "event": "corpse.darken",
+      "expected": 1.2,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "BP_Actor_Other 死亡变色 curve (0, 0) → (1.2, 1); 明度 lerp(1, 0.5), 饱和度 lerp(0, 0.35) (L13721, L13889)",
+      "clock": "game",
+      "check": "time from the darkening start to 明度 0.5 and 饱和度 0.35"
+    },
+    {
+      "id": "FEEL-072.b",
+      "event": "death.start",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "BP_Actor_Other L13504 (collision and tick off, sort −5); never destroyed",
+      "check": "corpses removed from the floor during the room"
+    },
+    {
+      "id": "FEEL-080",
+      "event": "vfx.spawn",
+      "expected": 46,
+      "unit": "uu",
+      "tolerance": 2,
+      "source": "可控弹射 L7039: 轨迹宽度 = 高度 − 10, 高度 56",
+      "check": "trail ribbon width",
+      "capture": "rec-01 bright core FWHM 34–36 uu; tutorial ≈ 46 uu"
+    },
+    {
+      "id": "FEEL-080.b",
+      "event": "launch.start→vfx.spawn",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "可控弹射 L7039 SpawnSystemAttached(粒子_轨迹) at activation",
+      "clock": "frame",
+      "check": "trail spawned in the launch frame"
+    },
+    {
+      "id": "FEEL-080.c",
+      "event": "launch.rest→trail.deactivate",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "可控弹射 L5358 轨迹.Deactivate()",
+      "clock": "frame",
+      "check": "trail stops spawning at rest"
+    },
+    {
+      "id": "FEEL-080.d",
+      "event": "trail.gone",
+      "expected": 0.9,
+      "unit": "s",
+      "tolerance": 0.15,
+      "source": "SPEC-GAP G1: lifetime computed in Niagara VM bytecode; capture value",
+      "clock": "game",
+      "check": "lifetime of a ribbon point (to a 10 % residual)",
+      "capture": "rec-01 0.86–1.10 s, median 0.92 s; tutorial ≈ 1.0–1.1 s"
+    },
+    {
+      "id": "FEEL-080.e",
+      "event": "vfx.spawn",
+      "expected": 8,
+      "unit": "uu",
+      "tolerance": 0,
+      "source": "粒子_轨迹 SystemUpdate SpawnPerUnit 0.125",
+      "check": "spacing of ribbon points along the path"
+    },
+    {
+      "id": "FEEL-081",
+      "event": "vfx.spawn",
+      "expected": 100,
+      "unit": "uu",
+      "tolerance": 10,
+      "source": "粒子_Dust_01 SystemUpdate SpawnPerUnit 0.01",
+      "check": "distance travelled between dust puffs",
+      "capture": "rec-01 ≈ 100 uu apart"
+    },
+    {
+      "id": "FEEL-081.b",
+      "event": "vfx.spawn",
+      "expected": 0.45,
+      "unit": "s",
+      "tolerance": 0.1,
+      "source": "capture only (Niagara VM)",
+      "clock": "game",
+      "check": "dust puff lifetime",
+      "capture": "rec-01 first puff f170 → gone f196"
+    },
+    {
+      "id": "FEEL-081.c",
+      "event": "vfx.spawn",
+      "expected": 45,
+      "unit": "uu",
+      "tolerance": 10,
+      "source": "sprite quad 75 uu (粒子_Dust_01); visible size from the capture",
+      "check": "dust puff size when it appears",
+      "capture": "rec-01 40–50 uu, specks of 8–12 uu by 0.2 s"
+    },
+    {
+      "id": "FEEL-082",
+      "event": "contact→vfx.spawn",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "弹性处理/反弹中: no particle spawn for walls and decorations",
+      "clock": "frame",
+      "check": "vfx.spawn (other than dust and trail) caused by a wall contact"
+    },
+    {
+      "id": "FEEL-083",
+      "event": "damage→vfx.spawn",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 1,
+      "source": "BP_ManeActor 受击特效处理 (被击特效A 粒子_Blood_01 at hit point +30 Z along the normal; 被击特效B 粒子_Hit_01)",
+      "clock": "frame",
+      "check": "hit spores and hit spark spawn with the damage",
+      "capture": "rec-02 spurt on f174–f175"
+    },
+    {
+      "id": "FEEL-083.b",
+      "event": "vfx.spawn",
+      "expected": 0.67,
+      "unit": "s",
+      "tolerance": 0.1,
+      "source": "capture only (Niagara VM)",
+      "clock": "real",
+      "check": "hit spores fully gone after the damage",
+      "capture": "rec-02 main spray +0.15…+0.6 s, peak ≈ +0.3 s (≈ 4500 uu²), gone by f210 (+0.67 s)"
+    },
+    {
+      "id": "FEEL-084",
+      "event": "vfx.spawn",
+      "expected": 0.5,
+      "unit": "ratio",
+      "tolerance": 0,
+      "source": "BP_ManeActor ReceiveParticleData L7685 传统概率判断(0.5) → L323 (one BP_Decal per reported particle)",
+      "check": "probability that a particle-export batch leaves stains (seeded RNG)"
+    },
+    {
+      "id": "FEEL-084.b",
+      "event": "vfx.spawn",
+      "expected": 10,
+      "unit": "s",
+      "tolerance": 0,
+      "source": "BP_ManeActor var Start Delay 10.0; BP_Decal SetFadeOut",
+      "clock": "game",
+      "check": "stain hold before it fades"
+    },
+    {
+      "id": "FEEL-084.c",
+      "event": "vfx.spawn",
+      "expected": 4,
+      "unit": "s",
+      "tolerance": 0,
+      "source": "BP_ManeActor var Fade Duration 4.0",
+      "clock": "game",
+      "check": "stain fade-out duration"
+    },
+    {
+      "id": "FEEL-090",
+      "event": "launch.start→sfx.play",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "蓝图_能力 L13434 选择声音播放(音效, 1) → 音效_基础_启动弹射",
+      "clock": "frame",
+      "check": "launch whoosh in the release frame"
+    },
+    {
+      "id": "FEEL-091",
+      "event": "contact→sfx.play",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "BP_ManeActor 弹性处理 ln 3888–3907 (target tags 有弹性/AI.仇恨/AI.物品 or 蓝图_动态网格) SpawnSoundAtLocation(音效_基础_普通撞)",
+      "clock": "frame",
+      "check": "one bump per hero contact with a wall, a bouncy prop or an enemy"
+    },
+    {
+      "id": "FEEL-091.b",
+      "event": "sfx.play",
+      "expected": 1.0,
+      "unit": "ratio",
+      "tolerance": 0,
+      "source": "BP_ManeActor ln 3910–3914 Speed = NormalizeToRange(max(物理速度, MapRangeClamped(v, 3000, 6000, 2000, 3000)), 0, 2000)",
+      "check": "bump Speed parameter for every knight leg (≤ 3000 uu/s)"
+    },
+    {
+      "id": "FEEL-092",
+      "event": "contact→sfx.play",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "Actor_C01_Attack 精灵声音播放 t = 0 (音效_基础_挥剑)",
+      "clock": "frame",
+      "check": "swing at each enemy contact"
+    },
+    {
+      "id": "FEEL-093",
+      "event": "damage→sfx.play",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "受伤 L1848 SpawnSoundAtLocation(来自技能.音效[0] = 音效_基础_砍中肉) at the victim",
+      "clock": "frame",
+      "check": "flesh hit per damage instance"
+    },
+    {
+      "id": "FEEL-093.b",
+      "event": "sfx.play",
+      "expected": 0.1,
+      "unit": "s",
+      "tolerance": 0.005,
+      "source": "音效_基础_砍中肉 Trigger Delay 0.1 (layer B 水爆炸)",
+      "clock": "real",
+      "check": "splatter layer start after the flesh hit (audio clock, never dilated)"
+    },
+    {
+      "id": "FEEL-094",
+      "event": "death.start→sfx.play",
+      "expected": 0.503,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "Actor_M02_Die 精灵声音播放 (音效_基础_血浆01)",
+      "clock": "game",
+      "check": "death splat sound (M02)"
+    },
+    {
+      "id": "FEEL-095",
+      "event": "sfx.play",
+      "expected": {
+        "min": 0.2,
+        "max": null
+      },
+      "unit": "s",
+      "tolerance": 0,
+      "source": "音效并发_脚步 (8 voices, 0.2 s retrigger) via 粒子_Dust_01 PlayAudio",
+      "clock": "real",
+      "check": "minimum interval between two footstep sounds"
+    },
+    {
+      "id": "FEEL-096",
+      "event": "launch.rest",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "可控弹射 L5358 → L3244 (no sound at rest)",
+      "clock": "frame",
+      "check": "sfx.play in the launch.rest frame"
+    },
+    {
+      "id": "FEEL-100",
+      "event": "number.frame",
+      "expected": [
+        [
+          0,
+          1.797
+        ],
+        [
+          0.2,
+          1.227
+        ],
+        [
+          0.3,
+          1.29
+        ],
+        [
+          0.5,
+          1.0
+        ],
+        [
+          1.5,
+          1.0
+        ],
+        [
+          2.0,
+          0.974
+        ]
+      ],
+      "unit": "scale",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.02
+      },
+      "source": "UI_伤害提示 弹出V2_INST Scale keys; played at creation (L272)",
+      "clock": "real",
+      "check": "number scale vs real time since the damage",
+      "capture": "rec-02: 1.55 @+36 ms, 1.30 @+104, 1.25 @+139, 1.225 @+157…229, 1.0 @+491"
+    },
+    {
+      "id": "FEEL-100.b",
+      "event": "number.frame",
+      "expected": [
+        [
+          0,
+          0.0
+        ],
+        [
+          0.05,
+          1.0
+        ],
+        [
+          1.6,
+          1.0
+        ],
+        [
+          2.0,
+          0.0
+        ]
+      ],
+      "unit": "ratio",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.02
+      },
+      "source": "UI_伤害提示 弹出V2_INST RenderOpacity keys",
+      "clock": "real",
+      "check": "number opacity vs real time",
+      "capture": "rec-02 visible f175, gone f277 (+1.96 s)"
+    },
+    {
+      "id": "FEEL-100.c",
+      "event": "number.frame",
+      "expected": [
+        [
+          0,
+          -0.75
+        ],
+        [
+          0.05,
+          15.0
+        ],
+        [
+          0.167,
+          -8.684
+        ],
+        [
+          0.5,
+          -34.19
+        ],
+        [
+          1.5,
+          -36.927
+        ],
+        [
+          2.0,
+          -30.852
+        ]
+      ],
+      "unit": "px1080",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.5
+      },
+      "source": "UI_伤害提示 弹出V2_INST Translation[1] keys",
+      "clock": "real",
+      "check": "local Y offset (1080p canvas px; ×0.5 on our grid)"
+    },
+    {
+      "id": "FEEL-100.d",
+      "event": "number.remove",
+      "expected": 2.0,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "UI_伤害提示 L288 Delay(2.0)",
+      "clock": "game",
+      "check": "number removal after creation"
+    },
+    {
+      "id": "FEEL-101",
+      "event": "number.frame",
+      "expected": [
+        [
+          0,
+          0.0
+        ],
+        [
+          0.4197,
+          0.9141
+        ],
+        [
+          1.0,
+          1.0
+        ]
+      ],
+      "unit": "fraction",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.01
+      },
+      "source": "UI_伤害提示 L238/L4621 (位移计数 += real dt), 曲线表 伤害提示曲线",
+      "clock": "real",
+      "check": "fraction of the start → target travel (target = start + Rotate2D((0, 高度 − 48·(序号 % 12)), angle), clamped x 485–1792, y 128–952)",
+      "capture": "rec-02 top reached ≈ +0.9–1.1 s"
+    },
+    {
+      "id": "FEEL-102",
+      "event": "ui.stats",
+      "expected": [
+        [
+          0,
+          1.0
+        ],
+        [
+          0.099,
+          1.1
+        ],
+        [
+          0.25,
+          1.0
+        ]
+      ],
+      "unit": "scale",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.01
+      },
+      "source": "UI_主界面 回合统计出现_INST (opacity 0 → 1 in 0.1 s)",
+      "clock": "real",
+      "check": "rating panel appear: scale vs real time (first scored event of the launch)"
+    },
+    {
+      "id": "FEEL-102.b",
+      "event": "ui.stats",
+      "expected": [
+        [
+          0,
+          1.2
+        ],
+        [
+          0.2,
+          1.0
+        ]
+      ],
+      "unit": "scale",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.01
+      },
+      "source": "UI_主界面 评级更新_INST (评级文本/评级图片切换 Scale; Translation[1] −12 → 0)",
+      "clock": "real",
+      "check": "rank letter bump on every later scored event (Y −12 → 0 px in 0.2 s)"
+    },
+    {
+      "id": "FEEL-102.c",
+      "event": "ui.stats",
+      "expected": [
+        [
+          0,
+          0.0
+        ],
+        [
+          0.098,
+          1.0
+        ],
+        [
+          0.309,
+          1.0
+        ],
+        [
+          0.996,
+          0.0
+        ]
+      ],
+      "unit": "ratio",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.02
+      },
+      "source": "UI_回合统计词条 更新闪烁_INST Image_30 alpha",
+      "clock": "real",
+      "check": "line flash bar alpha (scale X 0 → 1 in 0.1 s; row scale Y 1 → 1.1 → 1)"
+    },
+    {
+      "id": "FEEL-102.d",
+      "event": "ui.stats",
+      "expected": [
+        [
+          0,
+          1.0
+        ],
+        [
+          1.003,
+          1.0
+        ],
+        [
+          2.999,
+          0.0
+        ]
+      ],
+      "unit": "ratio",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.02
+      },
+      "source": "UI_主界面 回合统计结束_INST RenderOpacity",
+      "clock": "real",
+      "check": "rating panel end: hold 1 s, fade out by 3 s"
+    },
+    {
+      "id": "FEEL-103",
+      "event": "ui.stats",
+      "expected": [
+        [
+          0,
+          0.726
+        ],
+        [
+          0.159,
+          1.08
+        ],
+        [
+          0.239,
+          1.163
+        ],
+        [
+          0.399,
+          1.033
+        ],
+        [
+          0.797,
+          0.873
+        ],
+        [
+          0.997,
+          0.846
+        ]
+      ],
+      "unit": "scale",
+      "tolerance": {
+        "t": 0.005,
+        "v": 0.01
+      },
+      "source": "UI_充能提示 向上弹出_INST/向下弹出_INST (Y ∓80 px over 1 s; opacity 0 → 1 @0.08 → 0 @0.997)",
+      "clock": "real",
+      "check": "charge popup scale vs real time"
+    },
+    {
+      "id": "FEEL-104",
+      "event": "headbar",
+      "expected": 0.25,
+      "unit": "s",
+      "tolerance": 0.0167,
+      "source": "UI_头顶状态条 ln 147–151 (透明度计数 ± InDeltaTime × 4) through 血条显示曲线",
+      "clock": "real",
+      "check": "head bar full fade in or out",
+      "capture": "rec-02 visible change over ≈ 4 frames (S-curve)"
+    },
+    {
+      "id": "FEEL-105",
+      "event": "number.frame",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "UMG on real time [E]",
+      "clock": "real",
+      "check": "frames during a hit-stop or a kill in which the HUD clock does not advance"
+    },
+    {
+      "id": "FEEL-110",
+      "event": "launch.rest",
+      "expected": 0,
+      "unit": "count",
+      "tolerance": 0,
+      "source": "可控弹射 L1196 (terminal eases to 0), L5358 (nothing else at rest)",
+      "clock": "frame",
+      "check": "shake.start, sfx.play, vfx.spawn (non-trail) or a hero pose in the launch.rest frame",
+      "capture": "rec-01 f205, rec-02 f223"
+    },
+    {
+      "id": "FEEL-111",
+      "event": "launch.rest→hero.facing",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 0,
+      "source": "可控弹射 L5448 更新朝向 after Deactivate",
+      "clock": "frame",
+      "check": "facing update (if any) in the rest frame",
+      "capture": "rec-02 flip on f223"
+    },
+    {
+      "id": "FEEL-112",
+      "event": "launch.rest→aim.ready",
+      "expected": 2,
+      "unit": "frame",
+      "tolerance": 1,
+      "source": "结束行动 → turn flow (no enemy action)",
+      "clock": "frame",
+      "check": "next aim preview drawn and input accepted when no enemy acts (the ball pop-back may not delay it)",
+      "capture": "rec-01 rest f205 → preview f207"
+    },
+    {
+      "id": "FEEL-113",
+      "event": "contact",
+      "expected": [
+        14,
+        28,
+        44,
+        55
+      ],
+      "unit": "frame",
+      "tolerance": 1,
+      "source": "reference launch, spec §4 (60 fps frame model; legs 500 uu; contact 2 hostile)",
+      "clock": "frame",
+      "check": "frames of contacts 1–4 after the release frame (frame 0)"
+    },
+    {
+      "id": "FEEL-113.b",
+      "event": "launch.rest",
+      "expected": 90,
+      "unit": "frame",
+      "tolerance": 2,
+      "source": "reference launch, spec §4",
+      "clock": "frame",
+      "check": "rest frame of the reference launch (1.517 s real, 1.448 s game)"
+    },
+    {
+      "id": "FEEL-114",
+      "event": "input.release→hero.step",
+      "expected": 0,
+      "unit": "frame",
+      "tolerance": 1,
+      "source": "ART_BIBLE forbidden list; FEEL-003, FEEL-033, FEEL-042, FEEL-112",
+      "clock": "frame",
+      "check": "frames of curl or anticipation before the first motion, and frozen, impact or settle frames anywhere in the launch: all 0"
+    }
+  ]
+}

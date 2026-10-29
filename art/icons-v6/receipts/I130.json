@@ -1,0 +1,95 @@
+{
+  "id": "I130",
+  "name": "记忆芯片",
+  "status": "generated-normalized",
+  "source": "mothers/I130.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I130.png",
+  "motherSha256": "32fab9efcbb8862d428f74769c342f1ecf67d9dd45d1839375d348506fbd7771",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I130.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2881,
+      "sha256": "c2df7936e712b338faa33747ddc239248dac042b84415518f3b9ea1177395dbb",
+      "pixelSha256": "5b28d94fe72c7b54d3a8f9683c18450fa977d06b30581316f48821b8fb40cccd",
+      "alphaBounds": [
+        7,
+        4,
+        121,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          113,
+          62,
+          1721,
+          849
+        ],
+        "fitSize": [
+          114,
+          56
+        ],
+        "position": [
+          7,
+          4
+        ],
+        "scale": 0.07115628970775095
+      }
+    },
+    "256": {
+      "file": "pixels/256/I130.png",
+      "width": 256,
+      "height": 128,
+      "colors": 95,
+      "bytes": 10449,
+      "sha256": "d29925c4134067e56e8fd4a61aea0c720019937c3bd5fcfb7be46382ba06b788",
+      "pixelSha256": "42c3b2e39bca1dafe1d69822d9a07a898ac9cc4f3c514307f784e9cb1a31cec8",
+      "alphaBounds": [
+        13,
+        8,
+        242,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          113,
+          62,
+          1721,
+          849
+        ],
+        "fitSize": [
+          229,
+          112
+        ],
+        "position": [
+          13,
+          8
+        ],
+        "scale": 0.1423125794155019
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "突触分叉、金属触脚芯片、带尾中枢的主要结构清晰且完整，无文字。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-04a2ffc1-3ebd-4cb9-84eb-e19b793792be.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-04a2ffc1-3ebd-4cb9-84eb-e19b793792be"
+  }
+}

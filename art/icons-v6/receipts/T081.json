@@ -1,0 +1,93 @@
+{
+  "id": "T081",
+  "name": "血气强力",
+  "status": "generated-normalized",
+  "source": "mothers/T081.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T081.png",
+  "motherSha256": "6fa1105a9e5bfa229029f608263373b4100c28ec72ec9e203fffbdd81b437d99",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T081.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6608,
+      "sha256": "6f20ba0ee19ebb43558c7048008c8d817c5be3de44e62f3e2242bf00c2ba0f68",
+      "pixelSha256": "e7bdd8a2c062c0e521867c62ab283f72ffb02eac1324f72814444c87c4df4714",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        122
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          37,
+          48,
+          1224,
+          1207
+        ],
+        "fitSize": [
+          120,
+          117
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.10109519797809605
+      }
+    },
+    "256": {
+      "file": "pixels/256/T081.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 24706,
+      "sha256": "a35d69b5987f2095c5ad3d5ccc40c6c96435f8c76eb28245e8363be08aa03b67",
+      "pixelSha256": "38f379b63c4c7c7cd0eced0d2859153a27138218338f3375ba20cf4775c5f79a",
+      "alphaBounds": [
+        8,
+        11,
+        248,
+        245
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          37,
+          48,
+          1224,
+          1207
+        ],
+        "fitSize": [
+          240,
+          234
+        ],
+        "position": [
+          8,
+          11
+        ],
+        "scale": 0.2021903959561921
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-03.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-03.png",
+    "pixelSha256": "38f379b63c4c7c7cd0eced0d2859153a27138218338f3375ba20cf4775c5f79a",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-4eb05a8d-f0e6-4042-9fe3-56a818b92e4f.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-4eb05a8d-f0e6-4042-9fe3-56a818b92e4f"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "archive": "dist/pinball-knight-handdrawn-v6-runtime.zip",
+  "bytes": 27420667,
+  "sha256": "d863d773009a4a659796c1c71c012788cf6dd3c4ee015c680b4a0fb7138780f4",
+  "files": 633,
+  "icons": 308,
+  "independentPNGs": 616,
+  "atlasPages": 7,
+  "allArchiveFilesByteMatched": true,
+  "highResolutionSourcesIncluded": false,
+  "sourceFolder": "."
+}

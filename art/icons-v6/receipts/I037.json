@@ -1,0 +1,86 @@
+{
+  "id": "I037",
+  "name": "结晶重盾",
+  "status": "generated-normalized",
+  "source": "mothers/I037.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I037.png",
+  "motherSha256": "9c43e8d19aefaadb9354ba9b7edde59dd44ecdc65caf7df946cd884f300eecf2",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I037.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4992,
+      "sha256": "4e5be71247cf3f5a8659b7782c0bc53cb67edf239e6cd7248e8850b6bd52200e",
+      "pixelSha256": "2a13e7cbde19feada0cb3df202bfdad57c4e9960a1d07bb61ae5a1018e25cd0c",
+      "alphaBounds": [
+        19,
+        4,
+        108,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          172,
+          7,
+          1087,
+          1246
+        ],
+        "fitSize": [
+          89,
+          120
+        ],
+        "position": [
+          19,
+          4
+        ],
+        "scale": 0.09685230024213075
+      }
+    },
+    "256": {
+      "file": "pixels/256/I037.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 19006,
+      "sha256": "74a4e7d0372dcadcc485c02eca1a62b5b3befd140b1681687d2d0df213e92f5b",
+      "pixelSha256": "c21c13c6514e7af5a7e40e0ee825082c04b80e089e9596a96fdea5b6b535140a",
+      "alphaBounds": [
+        39,
+        8,
+        216,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          172,
+          7,
+          1087,
+          1246
+        ],
+        "fitSize": [
+          177,
+          240
+        ],
+        "position": [
+          39,
+          8
+        ],
+        "scale": 0.1937046004842615
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; correct crystal sword / crystal shield / crowned queen stone, complete subject",
+  "sourceProvenance": {
+    "sourceFilename": "exec-a36c8fd6-7f82-4ead-8984-3f6f4dc0f941.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-a36c8fd6-7f82-4ead-8984-3f6f4dc0f941"
+  }
+}

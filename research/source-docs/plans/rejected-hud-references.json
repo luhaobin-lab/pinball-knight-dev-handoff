@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "target": {
+    "scope": "Primary-source art reference audit for proposed mobile20:9 HUD redesign; no runtime edit or generated artwork",
+    "sources": [
+      "https://www.konami.com/games/castlevania/belmonts_curse/us/en-us/",
+      "https://store.steampowered.com/app/4231820/Castlevania_Belmonts_Curse/",
+      "https://store.steampowered.com/api/appdetails?appids=4231820&l=english"
+    ],
+    "acceptance": [
+      "Exact primary-source image provenance",
+      "View actual source images",
+      "Distinguish hidden-HUD scene screenshots from actual HUD evidence",
+      "No imported Belmont content in our design"
+    ],
+    "forbidden": [
+      "Runtime code edits",
+      "Paid generation",
+      "Claiming original menu or mobile typography parity without source images"
+    ]
+  },
+  "retrievedAt": "2026-10-27T11:44:25.572024+00:00",
+  "verdict": "Six usable inspected primary-source style references; no verified character/backpack HUD reference in collected official images",
+  "references": [
+    {
+      "id": 0,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/4cf6d35e1d8c07fc552a59c970ed9af490ce75a5/ss_4cf6d35e1d8c07fc552a59c970ed9af490ce75a5.1920x1080.jpg?t=1793067818",
+      "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/steam-00.jpg",
+      "bytes": 497494,
+      "sha256": "d5f6f791617cbf650b780cc3764c83ecbbee74f0233bc23a9651406e96a6fc73",
+      "size": [
+        1920,
+        1080
+      ],
+      "label": "Warm stone / iron / stained-glass construction",
+      "contentType": "official gameplay promotional screenshot",
+      "hudVisible": false,
+      "inspected": true,
+      "observations": [
+        "Thick stone pilasters with broad shaded faces and incised trim",
+        "Warm red lancet window contrasts with grey-blue stone bases",
+        "Dark forged chains are readable angular silhouettes"
+      ],
+      "useFor": [
+        "Frame material and edge hierarchy",
+        "Warm-versus-cool material grouping"
+      ],
+      "doNotUseFor": [
+        "Characters, enemies, weapons, icons or lore copied into our game",
+        "Inference of actual character/backpack HUD layout or Chinese type scale"
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/2d5f82625b0d0ba1df860913d0c2cd75c1dd9d7a/ss_2d5f82625b0d0ba1df860913d0c2cd75c1dd9d7a.1920x1080.jpg?t=1793067818",
+      "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/steam-02.jpg",
+      "bytes": 540223,
+      "sha256": "0f346e625cb7387a490b14c30e1ae29cb3abc57670f4466bbb0293261a61259d",
+      "size": [
+        1920,
+        1080
+      ],
+      "label": "Teal hall / warm candle accents",
+      "contentType": "official gameplay promotional screenshot",
+      "hudVisible": false,
+      "inspected": true,
+      "observations": [
+        "Teal-green translucent windows behind dark stone arches",
+        "Large central structures establish scale before fine carved details",
+        "Warm candle circles and red fabric are limited accents"
+      ],
+      "useFor": [
+        "Dominant dark teal panel palette",
+        "Broad readable ornamental silhouettes"
+      ],
+      "doNotUseFor": [
+        "Characters, enemies, weapons, icons or lore copied into our game",
+        "Inference of actual character/backpack HUD layout or Chinese type scale"
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/e62f706d169995ce7187934f2cf16cb07ef0b212/ss_e62f706d169995ce7187934f2cf16cb07ef0b212.1920x1080.jpg?t=1793067818",
+      "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/steam-07.jpg",
+      "bytes": 588862,
+      "sha256": "bf134894e656331b182f49e9a98e83e9178a197a3d50fc72bfaeb44e51e4bc97",
+      "size": [
+        1920,
+        1080
+      ],
+      "label": "Crimson celestial mechanism",
+      "contentType": "official gameplay promotional screenshot",
+      "hudVisible": false,
+      "inspected": true,
+      "observations": [
+        "Layered purple-red depth with tall ribs and aged-metal scrollwork",
+        "Strong large circles framed by repeated narrow gothic arches",
+        "Thin cream highlights articulate metal edges"
+      ],
+      "useFor": [
+        "Restrained frame contour and embossed-metal finish",
+        "Large to medium to small detail rhythm"
+      ],
+      "doNotUseFor": [
+        "Characters, enemies, weapons, icons or lore copied into our game",
+        "Inference of actual character/backpack HUD layout or Chinese type scale"
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/6e6734a1cb72bfb4f1983fe4b07c5c95aa999b86/ss_6e6734a1cb72bfb4f1983fe4b07c5c95aa999b86.1920x1080.jpg?t=1793067818",
+      "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/steam-09.jpg",
+      "bytes": 593371,
+      "sha256": "1bd4e1774864dab82d2722401deb5ead444ff022a0c4b79ad0bd54fe3078460e",
+      "size": [
+        1920,
+        1080
+      ],
+      "label": "Purple mechanism / graphic combat read",
+      "contentType": "official gameplay promotional screenshot",
+      "hudVisible": false,
+      "inspected": true,
+      "observations": [
+        "Painterly broad surface shading with deliberate drawn edges",
+        "High contrast slash silhouettes sit over quieter architecture",
+        "Large motifs remain readable while fine pattern stays secondary"
+      ],
+      "useFor": [
+        "Large form hierarchy",
+        "Clear gameplay/HUD separation"
+      ],
+      "doNotUseFor": [
+        "Characters, enemies, weapons, icons or lore copied into our game",
+        "Inference of actual character/backpack HUD layout or Chinese type scale"
+      ]
+    },
+    {
+      "name": "gs_cv_1",
+      "url": "https://www.konami.com/games/castlevania/belmonts_curse/s/images/ss/gs_cv_1.jpg",
+      "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/gs_cv_1.jpg",
+      "bytes": 151611,
+      "sha256": "c27d270745aa2887991a1f468bbb587975aa44b6a94fdc8ee5ebf8a432091943",
+      "size": [
+        1000,
+        563
+      ],
+      "label": "Teal gallery and architecture",
+      "contentType": "official gameplay promotional screenshot",
+      "hudVisible": false,
+      "inspected": true,
+      "observations": [
+        "Huge cool stained glass dominates an organized stone-wall rhythm",
+        "Candle warmth and dark foreground create depth without noisy surface detail",
+        "Picture frames and iron tracery use different line weights"
+      ],
+      "useFor": [
+        "Surface texture and material depth",
+        "Scene fills available screen rather than floating in black void"
+      ],
+      "doNotUseFor": [
+        "Characters, enemies, weapons, icons or lore copied into our game",
+        "Inference of actual character/backpack HUD layout or Chinese type scale"
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4231820/5bc8346682072e53e759f919b6fac408787ddd2e/ss_5bc8346682072e53e759f919b6fac408787ddd2e.1920x1080.jpg?t=1793067818",
+      "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/steam-05.jpg",
+      "bytes": 479178,
+      "sha256": "86c26ef1186610e85c47b41b0e3cf3660b23596a941faa445c58abf13eb7ef32",
+      "size": [
+        1920,
+        1080
+      ],
+      "label": "Dark dungeon / hard foreground silhouettes",
+      "contentType": "official gameplay promotional screenshot",
+      "hudVisible": false,
+      "inspected": true,
+      "observations": [
+        "Deep iron and earth browns with warm localized edge lighting",
+        "Sharp hazard silhouettes and stone volumes stay legible",
+        "Small light accents are spatially localized"
+      ],
+      "useFor": [
+        "Contrast discipline and layered dark materials",
+        "Avoid uniform grey panel fill"
+      ],
+      "doNotUseFor": [
+        "Characters, enemies, weapons, icons or lore copied into our game",
+        "Inference of actual character/backpack HUD layout or Chinese type scale"
+      ]
+    }
+  ],
+  "inventory": {
+    "konamiScreenshotsDownloaded": 8,
+    "steamScreenshotsDownloadedAndInspected": 10,
+    "konamiScreenshotsInspected": [
+      "gs_whip_1",
+      "gs_boss_1",
+      "gs_weapon_1",
+      "gs_weapon_2",
+      "gs_cv_1",
+      "gs_cv_2"
+    ],
+    "allCollectedScreenshotsHidePersistentHud": true,
+    "downloadReceipts": [
+      "refs-official/downloads.json",
+      "refs-official/steam-downloads.json"
+    ],
+    "apiSnapshot": "refs-official/steam-appdetails.json",
+    "officialPageSnapshot": "refs-official/official-page.html"
+  },
+  "videoInspection": {
+    "title": "Gameplay & Commentary Trailer",
+    "officialPageSection": "Video, linked directly from Konami homepage",
+    "youtube": "https://www.youtube.com/watch?v=eyZIGR9W-r0",
+    "publisherSteamMovieId": 257317140,
+    "sampling": "Four frames from official Steam720p stream, fps=1/25; sampling is exploratory, not a frame-accurate timing citation",
+    "frames": [
+      {
+        "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/commentary-frame-01.jpg",
+        "sha256": "ab6e5a7460558b5765c8f15caa9d834c58817de11595fcd880237635d0df377a",
+        "hudVisible": false
+      },
+      {
+        "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/commentary-frame-02.jpg",
+        "sha256": "7f295f5225d62a5c29bd4287a823eca9fd20f9c42095030cc9833d842cf7ddee",
+        "hudVisible": false
+      },
+      {
+        "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/commentary-frame-03.jpg",
+        "sha256": "64335691204b9627a700389eb7945456ca04aab88b060c9e260c76fcaa9a6ef7",
+        "hudVisible": false
+      },
+      {
+        "path": "D:/TAPTAPGAME_rebound_20261027/outputs/hud-belmont-redesign-20261027/refs-official/commentary-frame-04.jpg",
+        "sha256": "c6bc17aaae8635a22f6b59d238407f17008355caa99edfdccfac1162009065ac",
+        "hudVisible": false
+      }
+    ],
+    "finding": "Three sampled gameplay frames have no persistent HUD; fourth is a title card. This does not establish that the entire trailer contains no HUD."
+  },
+  "actionableFindings": [
+    {
+      "id": "style",
+      "observed": "Hand-painted/animation-like broad shading, fine drawn contours and smooth silhouettes; not coarse low-resolution pixel-block art.",
+      "application": "SUNBURST master art should use deliberate large shapes with controlled surface texture. Keep our character/room identities and any accepted pixel treatment explicit; do not call the reference itself pixel art."
+    },
+    {
+      "id": "geometry",
+      "observed": "Pointed arches, thick stone faces, slender iron tracery and layered aged-metal edges use distinct thicknesses.",
+      "application": "Make panel silhouettes substantive and cohesive; use major arch/header/body/foot proportions, with ornament concentrated at structural joints."
+    },
+    {
+      "id": "palette",
+      "observed": "Teal-green and blue-black scenes contrast with crimson/purple zones; amber candle light and pale metal glints are localized.",
+      "application": "Use coherent dark panel material, clear cream text, restrained warm trim and our existing resource semantics. Avoid rainbow bars or full-frame gold glow."
+    },
+    {
+      "id": "scale",
+      "observed": "Architecture and action occupy the whole composition, with larger readable motifs before detailed carvings.",
+      "application": "Increase battlefield and UI content scale; do not use decorative fill to simulate information density. Phone-size validation must be on our800x360/1000x450 views."
+    },
+    {
+      "id": "type",
+      "observed": "Screenshots show only a few damage numbers, not the resource HUD or character/inventory menu.",
+      "application": "Chinese labels, tab structure and minimum text sizes must be designed for our data and phone target; they cannot be claimed as copied from source menus."
+    }
+  ],
+  "promptBoundary": {
+    "allowed": [
+      "Material, lighting, palette relationships, line-weight hierarchy, crafted gothic architectural shapes"
+    ],
+    "oursRequired": [
+      "Beetle knight identity",
+      "Existing fungal chamber layout and enemies",
+      "Actual core stats and inventory",
+      "Character/backpack tabs and always-visible equipment design from our requirements"
+    ],
+    "exclude": [
+      "Belmont family portraits",
+      "Whips and source weapons",
+      "Source skull bosses, snakes, tarot systems",
+      "Castlevania logos/wordmarks",
+      "Any unverified stat or item"
+    ]
+  },
+  "proposals": [
+    "Use the six curated references as style inputs, with our actual source screenshot/content sheet as stronger content input.",
+    "Present character and backpack states as two edits of one locked HUD master; do not regenerate scene/content independently."
+  ],
+  "needs": [
+    "Do not describe this reference set as proof of Belmont character/backpack HUD layout. If exact original HUD mimicry is later required, obtain a verified HUD-visible source capture first."
+  ]
+}

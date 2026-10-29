@@ -1,0 +1,86 @@
+{
+  "id": "I062",
+  "name": "魅影长靴",
+  "status": "generated-normalized",
+  "source": "mothers/I062.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I062.png",
+  "motherSha256": "b6f8b7484e4d4930e3d6065eb0ff5f2dc08301e39b51ecc4121ea6343914cdb7",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I062.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6359,
+      "sha256": "25bf69b6560c1c292e3ef334a7d5ce048d71886400b8fd313f1381de6c09cdff",
+      "pixelSha256": "2269538ff775639f742b82ba71ba975349acd57e10893a993ca3f89d4285b19f",
+      "alphaBounds": [
+        4,
+        6,
+        124,
+        121
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          78,
+          74,
+          1228,
+          1178
+        ],
+        "fitSize": [
+          120,
+          115
+        ],
+        "position": [
+          4,
+          6
+        ],
+        "scale": 0.10434782608695652
+      }
+    },
+    "256": {
+      "file": "pixels/256/I062.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23363,
+      "sha256": "35dd32059c9ef6e87d46cb88dce9c9ab53c447dabd17d8bfa923f0b62c8a017d",
+      "pixelSha256": "ac0a390ec6fa650961e0898cd81d69d648f62c1996ff684f11d6179cfe4252a3",
+      "alphaBounds": [
+        8,
+        14,
+        248,
+        243
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          78,
+          74,
+          1228,
+          1178
+        ],
+        "fitSize": [
+          240,
+          230
+        ],
+        "position": [
+          8,
+          13
+        ],
+        "scale": 0.20869565217391303
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; recognizable distinct cloak / phantom boots / open energy bracer with complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-6cd43589-6db6-48d2-a998-62cde5ada5a0.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-6cd43589-6db6-48d2-a998-62cde5ada5a0"
+  }
+}

@@ -1,0 +1,39 @@
+#battle-controls {
+  position: fixed;
+  right: 14px;
+  bottom: 12px;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 9px;
+  color: #d0c6b4;
+  background: #141713ed;
+  border: 1px solid #5b5c4e;
+  font: 12px/1.4 system-ui, "PingFang SC", sans-serif;
+}
+#battle-controls button, #battle-result button {
+  border: 1px solid #8c8875;
+  padding: 6px 12px;
+  color: #f1e8d5;
+  background: #30372b;
+  font: inherit;
+  cursor: pointer;
+}
+#battle-controls button:hover, #battle-result button:hover { background: #49513c; }
+#battle-controls button:focus-visible, #battle-result button:focus-visible { outline: 2px solid #e2b266; outline-offset: 3px; }
+#battle-result {
+  position: fixed;
+  inset: 0;
+  z-index: 30;
+  display: grid;
+  place-items: center;
+  background: #0d110fee;
+  color: #ece5d7;
+  font: 16px/1.8 system-ui, "PingFang SC", sans-serif;
+  text-align: center;
+}
+#battle-result > div { padding: 36px 50px; border: 1px solid #82755f; background: #20241d; }
+#battle-result h1 { margin: 0 0 12px; font-size: 26px; }
+#battle-result p { color: #c8bfad; }
+@media (max-width: 1100px) { #battle-controls span { display: none; } }

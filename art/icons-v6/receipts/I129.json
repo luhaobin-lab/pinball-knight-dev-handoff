@@ -1,0 +1,95 @@
+{
+  "id": "I129",
+  "name": "超载神经",
+  "status": "generated-normalized",
+  "source": "mothers/I129.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I129.png",
+  "motherSha256": "fb7ab71bc83e75204ca7c4e919468d787bd35e899fdf088c43d32ca57b59a51b",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I129.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2813,
+      "sha256": "4f4975ec578eaa98fe2998f7404d6fb73a3cf7b3636e26353c176b3390d80597",
+      "pixelSha256": "4752aedbc0dfdf0e5c74a06c1d0b15598ac8175d751271bfe6dc3e6d93f63703",
+      "alphaBounds": [
+        4,
+        4,
+        124,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          30,
+          59,
+          1745,
+          842
+        ],
+        "fitSize": [
+          120,
+          55
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.06997084548104957
+      }
+    },
+    "256": {
+      "file": "pixels/256/I129.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9950,
+      "sha256": "17ebbd6a1c8c3ecf2dca1172112bb2e0fa0238268dc7a28a28023566a4a3642b",
+      "pixelSha256": "98835d8470cca5f09725a83c8f89bc04669726e9ea225f06fc1eb35d8e39e5e2",
+      "alphaBounds": [
+        8,
+        9,
+        248,
+        119
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          30,
+          59,
+          1745,
+          842
+        ],
+        "fitSize": [
+          240,
+          110
+        ],
+        "position": [
+          8,
+          9
+        ],
+        "scale": 0.13994169096209913
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "突触分叉、金属触脚芯片、带尾中枢的主要结构清晰且完整，无文字。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-41609717-94db-44cf-ba35-6df37db593e5.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-41609717-94db-44cf-ba35-6df37db593e5"
+  }
+}

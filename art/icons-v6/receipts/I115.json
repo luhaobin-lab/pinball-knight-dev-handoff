@@ -1,0 +1,95 @@
+{
+  "id": "I115",
+  "name": "旧手套",
+  "status": "generated-normalized",
+  "source": "mothers/I115.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I115.png",
+  "motherSha256": "b2d5a2e85bfef052aa880b318a44ca99fd6b3bc084bc312a806a25a846e946fe",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I115.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2685,
+      "sha256": "5b66c57b59c69dd9fec0dd0db1529d84c90ba88345685d24be3824947923db66",
+      "pixelSha256": "a114a1619b56f67ababf0f42755d1dd22b6802c992f1bd702d148ff0aa95f712",
+      "alphaBounds": [
+        15,
+        4,
+        112,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          205,
+          23,
+          1666,
+          862
+        ],
+        "fitSize": [
+          98,
+          56
+        ],
+        "position": [
+          15,
+          4
+        ],
+        "scale": 0.066746126340882
+      }
+    },
+    "256": {
+      "file": "pixels/256/I115.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9645,
+      "sha256": "7ca2ade3a0e70c1b5fa15f495762e61f6c95414701ab40c26a9913e41db24fa7",
+      "pixelSha256": "0a2f66668da17393d0dcd9edd2d616a363242a309251983464724a7871700a79",
+      "alphaBounds": [
+        30,
+        8,
+        224,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          205,
+          23,
+          1666,
+          862
+        ],
+        "fitSize": [
+          195,
+          112
+        ],
+        "position": [
+          30,
+          8
+        ],
+        "scale": 0.133492252681764
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "四指旧手套与单弓单箭主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-5aa18db9-972c-464e-bf0a-a3716b6ca7a9.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-5aa18db9-972c-464e-bf0a-a3716b6ca7a9"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I057",
+  "name": "打磨器",
+  "status": "generated-normalized",
+  "source": "mothers/I057.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I057.png",
+  "motherSha256": "36f9066ff12e580aa50a6baefe48e347e2084996de03ad8008e6c61bc171263c",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I057.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6224,
+      "sha256": "3b4a824d848b30e7b9b1d28003fb40f120dc74ea420d44334ac273407cf8debb",
+      "pixelSha256": "9830e267de2d95ea58bdc23063a3fba5d493c5e5eb787649c7c1356871d8dad4",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          74,
+          96,
+          1196,
+          1196
+        ],
+        "fitSize": [
+          120,
+          118
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.10695187165775401
+      }
+    },
+    "256": {
+      "file": "pixels/256/I057.png",
+      "width": 256,
+      "height": 256,
+      "colors": 95,
+      "bytes": 23212,
+      "sha256": "db4c1fa30f1875640c4f510b5bcc6bf81cc9d45d414224152a155b3ca37a5d94",
+      "pixelSha256": "ae25919f56d8f86ab5462e3004c0e8962acee3e8c5214209f74d595c4ad0137b",
+      "alphaBounds": [
+        8,
+        11,
+        248,
+        245
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          74,
+          96,
+          1196,
+          1196
+        ],
+        "fitSize": [
+          240,
+          235
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.21390374331550802
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; complete mining tool / vial belt / hand-cranked grindstone with coherent joins",
+  "sourceProvenance": {
+    "sourceFilename": "exec-5adc7ea8-d7bb-490a-9ee8-9683832c06a9.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-5adc7ea8-d7bb-490a-9ee8-9683832c06a9"
+  }
+}

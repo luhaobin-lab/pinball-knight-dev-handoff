@@ -1,0 +1,21 @@
+{
+  "count": 12,
+  "originalCopyHashesMatch": true,
+  "zipCrcPassed": true,
+  "zipImageHashesMatch": true,
+  "archive": "archive/ui-v09-approved_12张原图与提示词.zip",
+  "archiveBytes": 65668697,
+  "archiveSha256": "2a413ccd1dbe9ac0d21b0b9091af6bbb9984ca0b62334eaadc36f38d99ced66e",
+  "galleryCheck": {
+    "galleryImages": 12,
+    "allOriginalsLoaded": true,
+    "phonePreview": {
+      "width": 800,
+      "height": 360
+    },
+    "navigationPassed": true,
+    "mobileGalleryOverflow": false,
+    "pageErrors": [],
+    "scope": "仅图库交互与静态图片加载；不是游戏或手机实机测试"
+  }
+}

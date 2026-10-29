@@ -1,0 +1,95 @@
+{
+  "id": "I105",
+  "name": "鲜血",
+  "status": "generated-normalized",
+  "source": "mothers/I105.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I105.png",
+  "motherSha256": "e3721285bdcb26f67bff92ee44ab26fa4ceb6a3b0acad05e932f06934f8289e0",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I105.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2373,
+      "sha256": "06dfa5b0e7660dd0013275048361a6c99ed4594396c822a00f548e363d0e5712",
+      "pixelSha256": "91672317d25a9c4e5d581a978a57422e84a69d863167a09062a5c226bd262cf4",
+      "alphaBounds": [
+        4,
+        7,
+        124,
+        57
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          97,
+          1751,
+          809
+        ],
+        "fitSize": [
+          120,
+          50
+        ],
+        "position": [
+          4,
+          7
+        ],
+        "scale": 0.06984866123399301
+      }
+    },
+    "256": {
+      "file": "pixels/256/I105.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 8258,
+      "sha256": "237815af3317c6a58e0b90b57a6ee2f8a5297da73a32218e627801d5665477a6",
+      "pixelSha256": "a20fcef657036ef8cbbd57147d7cc286cf2124f1e5487409377372b262b9ad6d",
+      "alphaBounds": [
+        8,
+        14,
+        248,
+        113
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          97,
+          1751,
+          809
+        ],
+        "fitSize": [
+          240,
+          99
+        ],
+        "position": [
+          8,
+          14
+        ],
+        "scale": 0.13969732246798602
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "空瓶无内容物、书页无字、鲜血浅碟主体分别核对通过；轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-234f1be0-b17f-47e1-ae06-bbb6026c726a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-234f1be0-b17f-47e1-ae06-bbb6026c726a"
+  }
+}

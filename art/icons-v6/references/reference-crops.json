@@ -1,0 +1,68 @@
+[
+  {
+    "board": "item-lines",
+    "sourceScreenshot": 17,
+    "crop": [
+      153,
+      332,
+      495,
+      538
+    ],
+    "operation": "crop and fit only; no repaint"
+  },
+  {
+    "board": "item-lines",
+    "sourceScreenshot": 8,
+    "crop": [
+      600,
+      70,
+      734,
+      228
+    ],
+    "operation": "crop and fit only; no repaint"
+  },
+  {
+    "board": "item-lines",
+    "sourceScreenshot": 8,
+    "crop": [
+      1197,
+      62,
+      1333,
+      221
+    ],
+    "operation": "crop and fit only; no repaint"
+  },
+  {
+    "board": "item-lines",
+    "sourceScreenshot": 8,
+    "crop": [
+      644,
+      792,
+      1284,
+      1038
+    ],
+    "operation": "crop and fit only; no repaint"
+  },
+  {
+    "board": "organic-lines",
+    "sourceScreenshot": 5,
+    "crop": [
+      120,
+      143,
+      550,
+      642
+    ],
+    "operation": "crop and fit only; no repaint"
+  },
+  {
+    "board": "organic-lines",
+    "sourceScreenshot": 17,
+    "crop": [
+      1070,
+      215,
+      1819,
+      792
+    ],
+    "operation": "crop and fit only; no repaint"
+  }
+]

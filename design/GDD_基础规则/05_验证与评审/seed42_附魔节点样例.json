@@ -1,0 +1,270 @@
+[
+  {
+    "seed": 42,
+    "floor": 1,
+    "rule_revision": "enchant50-v1",
+    "steps": [
+      {
+        "action": "open_once",
+        "gold": 70,
+        "node": {
+          "floor": 1,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E036",
+            "E012"
+          ],
+          "refresh_count": 0,
+          "offer_revision": 0,
+          "claimed": false,
+          "rng_state": 2378033201
+        }
+      },
+      {
+        "action": "paid_roll",
+        "result": {
+          "ok": true,
+          "cost": 10,
+          "offers": [
+            "E011",
+            "E017"
+          ]
+        },
+        "gold": 60,
+        "node": {
+          "floor": 1,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E011",
+            "E017"
+          ],
+          "refresh_count": 1,
+          "offer_revision": 1,
+          "claimed": false,
+          "rng_state": 3079756089
+        }
+      },
+      {
+        "action": "paid_roll",
+        "result": {
+          "ok": true,
+          "cost": 20,
+          "offers": [
+            "E017",
+            "E003"
+          ]
+        },
+        "gold": 40,
+        "node": {
+          "floor": 1,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E017",
+            "E003"
+          ],
+          "refresh_count": 2,
+          "offer_revision": 2,
+          "claimed": false,
+          "rng_state": 1404345539
+        }
+      },
+      {
+        "action": "paid_roll",
+        "result": {
+          "ok": true,
+          "cost": 40,
+          "offers": [
+            "E008",
+            "E004"
+          ]
+        },
+        "gold": 0,
+        "node": {
+          "floor": 1,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E008",
+            "E004"
+          ],
+          "refresh_count": 3,
+          "offer_revision": 3,
+          "claimed": false,
+          "rng_state": 2671842743
+        }
+      },
+      {
+        "action": "free_claim",
+        "result": {
+          "ok": true,
+          "cost": 0,
+          "row": 0,
+          "enchant_id": "E008",
+          "replaced_id": null
+        },
+        "gold": 0,
+        "enchanted_rows": {
+          "0": "E008"
+        },
+        "node": {
+          "floor": 1,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E008",
+            "E004"
+          ],
+          "refresh_count": 3,
+          "offer_revision": 3,
+          "claimed": true,
+          "rng_state": 2671842743,
+          "claimed_id": "E008",
+          "claimed_row": 0
+        }
+      }
+    ],
+    "boundary": "Offer and transaction reference only; this example does not make wave4 a guaranteed service or implement combat effects."
+  },
+  {
+    "seed": 42,
+    "floor": 2,
+    "rule_revision": "enchant50-v1",
+    "steps": [
+      {
+        "action": "open_once",
+        "gold": 70,
+        "node": {
+          "floor": 2,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E003",
+            "E017"
+          ],
+          "refresh_count": 0,
+          "offer_revision": 0,
+          "claimed": false,
+          "rng_state": 416189119
+        }
+      },
+      {
+        "action": "paid_roll",
+        "result": {
+          "ok": true,
+          "cost": 10,
+          "offers": [
+            "E036",
+            "E020"
+          ]
+        },
+        "gold": 60,
+        "node": {
+          "floor": 2,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E036",
+            "E020"
+          ],
+          "refresh_count": 1,
+          "offer_revision": 1,
+          "claimed": false,
+          "rng_state": 3120474379
+        }
+      },
+      {
+        "action": "paid_roll",
+        "result": {
+          "ok": true,
+          "cost": 20,
+          "offers": [
+            "E031",
+            "E010"
+          ]
+        },
+        "gold": 40,
+        "node": {
+          "floor": 2,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E031",
+            "E010"
+          ],
+          "refresh_count": 2,
+          "offer_revision": 2,
+          "claimed": false,
+          "rng_state": 3345365187
+        }
+      },
+      {
+        "action": "paid_roll",
+        "result": {
+          "ok": true,
+          "cost": 40,
+          "offers": [
+            "E016",
+            "E031"
+          ]
+        },
+        "gold": 0,
+        "node": {
+          "floor": 2,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E016",
+            "E031"
+          ],
+          "refresh_count": 3,
+          "offer_revision": 3,
+          "claimed": false,
+          "rng_state": 3656666340
+        }
+      },
+      {
+        "action": "free_claim",
+        "result": {
+          "ok": true,
+          "cost": 0,
+          "row": 0,
+          "enchant_id": "E016",
+          "replaced_id": null
+        },
+        "gold": 0,
+        "enchanted_rows": {
+          "0": "E016"
+        },
+        "node": {
+          "floor": 2,
+          "wave": 4,
+          "rule_revision": "enchant50-v1",
+          "catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+          "offers": [
+            "E016",
+            "E031"
+          ],
+          "refresh_count": 3,
+          "offer_revision": 3,
+          "claimed": true,
+          "rng_state": 3656666340,
+          "claimed_id": "E016",
+          "claimed_row": 0
+        }
+      }
+    ],
+    "boundary": "Offer and transaction reference only; this example does not make wave4 a guaranteed service or implement combat effects."
+  }
+]

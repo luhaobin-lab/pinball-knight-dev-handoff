@@ -1,0 +1,1071 @@
+{
+ "generator": "tools/data/import-demo.mjs",
+ "dump": "D:/TAPTAPGAME_codex/reference/dump",
+ "totals": {
+  "tables": 49,
+  "composite_tables": 4,
+  "deprecated_tables": 8,
+  "dump_rows": 2546,
+  "rows": 1545,
+  "composite_rows": 950,
+  "dropped_rows": 31,
+  "flagged_rows": 47,
+  "curve_assets": 32,
+  "curves": 74,
+  "enums": 23,
+  "structs": 45,
+  "data_bytes": 4233200,
+  "bytes": 4302679
+ },
+ "excluded": [
+  "Rows whose key marks them as tests (测试) and that no kept row references: listed under tables.*.dropped.",
+  "过期 (deprecated) tables and curve assets: kept in data/ with deprecated: true, not exported from index.ts or registry.ts.",
+  "FText ns/key (localization ids): only {zh, en} is kept.",
+  "Enum NewEnumeratorN names and numeric values in rows: replaced by the display name (demoEnums has the mapping).",
+  "The class prefix of object references (e.g. SoundWave'...'): the field types in demoStructs name the class.",
+  "Struct GUIDs and property flags; curve export indices.",
+  "Composite tables store no rows of their own: they are merged from their parents at load (src/content/demo/composite.ts).",
+  "Dump folders not imported: blueprints, blueprints-pseudo, widgets, levels, native, config, raw."
+ ],
+ "tables": {
+  "富文本_天赋选择": {
+   "source": "datatables/CatapultHero/字库/富文本_天赋选择.json",
+   "module": "data/富文本_天赋选择.ts",
+   "class": "DataTable",
+   "row_struct": "RichTextStyleRow",
+   "deprecated": false,
+   "dump_rows": 5,
+   "rows": 5,
+   "texts_without_en": 0,
+   "bytes": 18341,
+   "dropped": {},
+   "flags": {}
+  },
+  "富文本_悬停显示_传奇": {
+   "source": "datatables/CatapultHero/字库/富文本_悬停显示_传奇.json",
+   "module": "data/富文本_悬停显示_传奇.ts",
+   "class": "DataTable",
+   "row_struct": "RichTextStyleRow",
+   "deprecated": false,
+   "dump_rows": 10,
+   "rows": 10,
+   "texts_without_en": 0,
+   "bytes": 36203,
+   "dropped": {},
+   "flags": {}
+  },
+  "富文本_悬停显示_屏蔽": {
+   "source": "datatables/CatapultHero/字库/富文本_悬停显示_屏蔽.json",
+   "module": "data/富文本_悬停显示_屏蔽.ts",
+   "class": "DataTable",
+   "row_struct": "RichTextStyleRow",
+   "deprecated": false,
+   "dump_rows": 7,
+   "rows": 7,
+   "texts_without_en": 0,
+   "bytes": 25417,
+   "dropped": {},
+   "flags": {}
+  },
+  "富文本_悬停显示_日志": {
+   "source": "datatables/CatapultHero/字库/富文本_悬停显示_日志.json",
+   "module": "data/富文本_悬停显示_日志.ts",
+   "class": "DataTable",
+   "row_struct": "RichTextStyleRow",
+   "deprecated": false,
+   "dump_rows": 20,
+   "rows": 20,
+   "texts_without_en": 0,
+   "bytes": 71904,
+   "dropped": {},
+   "flags": {}
+  },
+  "富文本_悬停显示_百科": {
+   "source": "datatables/CatapultHero/字库/富文本_悬停显示_百科.json",
+   "module": "data/富文本_悬停显示_百科.ts",
+   "class": "DataTable",
+   "row_struct": "RichTextStyleRow",
+   "deprecated": false,
+   "dump_rows": 22,
+   "rows": 22,
+   "texts_without_en": 0,
+   "bytes": 78900,
+   "dropped": {},
+   "flags": {}
+  },
+  "富文本_悬停显示_默认": {
+   "source": "datatables/CatapultHero/字库/富文本_悬停显示_默认.json",
+   "module": "data/富文本_悬停显示_默认.ts",
+   "class": "DataTable",
+   "row_struct": "RichTextStyleRow",
+   "deprecated": false,
+   "dump_rows": 22,
+   "rows": 22,
+   "texts_without_en": 0,
+   "bytes": 78900,
+   "dropped": {},
+   "flags": {}
+  },
+  "合成数据表_修炼物品": {
+   "source": "datatables/CatapultHero/数据表/合成数据表_修炼物品.json",
+   "module": "data/合成数据表_修炼物品.ts",
+   "class": "CompositeDataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 202,
+   "rows": 200,
+   "texts_without_en": 0,
+   "bytes": 1796,
+   "dropped": {
+    "测试附魔": "dropped from its parent table (test row)",
+    "测试人偶": "dropped from its parent table (test row)"
+   },
+   "flags": {}
+  },
+  "合成数据表_卡牌": {
+   "source": "datatables/CatapultHero/数据表/合成数据表_卡牌.json",
+   "module": "data/合成数据表_卡牌.ts",
+   "class": "CompositeDataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 99,
+   "rows": 81,
+   "texts_without_en": 17,
+   "bytes": 1111,
+   "dropped": {
+    "测试宝箱": "dropped from its parent table (test row)",
+    "测试": "dropped from its parent table (test row)",
+    "测试_0": "dropped from its parent table (test row)",
+    "测试_1": "dropped from its parent table (test row)",
+    "测试_2": "dropped from its parent table (test row)",
+    "弑神幼虫_测试": "dropped from its parent table (test row)",
+    "章鱼脑_测试": "dropped from its parent table (test row)",
+    "大肠_测试": "dropped from its parent table (test row)",
+    "结晶簇_测试": "dropped from its parent table (test row)",
+    "结晶_测试": "dropped from its parent table (test row)",
+    "幽焰龙_1测试": "dropped from its parent table (test row)",
+    "结晶骑士_测试": "dropped from its parent table (test row)",
+    "结晶骑士_单技能测试": "dropped from its parent table (test row)",
+    "眼球包_测试": "dropped from its parent table (test row)",
+    "守门人_测试": "dropped from its parent table (test row)",
+    "水母脑_测试": "dropped from its parent table (test row)",
+    "幽焰龙_测试": "dropped from its parent table (test row)",
+    "重生傀儡_测试": "dropped from its parent table (test row)"
+   },
+   "flags": {}
+  },
+  "合成数据表_技能": {
+   "source": "datatables/CatapultHero/数据表/合成数据表_技能.json",
+   "module": "data/合成数据表_技能.ts",
+   "class": "CompositeDataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 586,
+   "rows": 586,
+   "texts_without_en": 0,
+   "bytes": 2003,
+   "dropped": {},
+   "flags": {}
+  },
+  "合成数据表_百科": {
+   "source": "datatables/CatapultHero/数据表/合成数据表_百科.json",
+   "module": "data/合成数据表_百科.ts",
+   "class": "CompositeDataTable",
+   "row_struct": "结构_词缀",
+   "deprecated": false,
+   "dump_rows": 83,
+   "rows": 83,
+   "texts_without_en": 0,
+   "bytes": 1021,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_任务条_默认": {
+   "source": "datatables/CatapultHero/数据表/地图/数据表_任务条_默认.json",
+   "module": "data/数据表_任务条_默认.ts",
+   "class": "DataTable",
+   "row_struct": "结构_任务条",
+   "deprecated": false,
+   "dump_rows": 19,
+   "rows": 19,
+   "texts_without_en": 0,
+   "bytes": 15485,
+   "dropped": {},
+   "flags": {
+    "探索": "references missing row 数据表_标签队列#探索",
+    "---------": "designer note used as a row name; references missing row 数据表_标签队列#初始列_0; references missing row 数据表_技能_奖励#获取精核"
+   }
+  },
+  "数据表_关卡_固定地点": {
+   "source": "datatables/CatapultHero/数据表/地图/数据表_关卡_固定地点.json",
+   "module": "data/数据表_关卡_固定地点.ts",
+   "class": "DataTable",
+   "row_struct": "结构_层组",
+   "deprecated": false,
+   "dump_rows": 26,
+   "rows": 24,
+   "texts_without_en": 0,
+   "bytes": 101061,
+   "dropped": {
+    "测试": "the row key marks it as a test (测试) and no kept row references it",
+    "测试存地形": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {
+    "天赋房": "references missing row 数据表_道具_通用#物品宝箱",
+    "回廊": "references missing row 数据表_技能_任务#点亮符文; references deprecated table 数据表_瓷砖配置_回廊"
+   }
+  },
+  "数据表_地图格": {
+   "source": "datatables/CatapultHero/数据表/地图/数据表_地图格.json",
+   "module": "data/数据表_地图格.ts",
+   "class": "DataTable",
+   "row_struct": "结构_地图格",
+   "deprecated": false,
+   "dump_rows": 40,
+   "rows": 35,
+   "texts_without_en": 0,
+   "bytes": 38107,
+   "dropped": {
+    "测试": "the row key marks it as a test (测试) and no kept row references it",
+    "战斗测试备份_0": "the row key marks it as a test (测试) and no kept row references it",
+    "抉择测试备份_0": "the row key marks it as a test (测试) and no kept row references it",
+    "宝箱测试备份_1": "the row key marks it as a test (测试) and no kept row references it",
+    "探索房测试备份": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {
+    "注意：改了名字后要去游戏模式修改地图格池": "designer note used as a row name",
+    "注意：加了房间类型后记得去房间生成配置": "designer note used as a row name",
+    "注意：控制房间结束层函数在任务实例里": "designer note used as a row name"
+   }
+  },
+  "数据表_标签队列": {
+   "source": "datatables/CatapultHero/数据表/地图/数据表_标签队列.json",
+   "module": "data/数据表_标签队列.ts",
+   "class": "DataTable",
+   "row_struct": "结构_标签队列",
+   "deprecated": false,
+   "dump_rows": 10,
+   "rows": 9,
+   "texts_without_en": 0,
+   "bytes": 4244,
+   "dropped": {
+    "测试": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {
+    "普通": "carries the Tests gameplay tag",
+    "小型": "carries the Tests gameplay tag"
+   }
+  },
+  "数据表_瓷砖配置_矩形": {
+   "source": "datatables/CatapultHero/数据表/地图/数据表_瓷砖配置_矩形.json",
+   "module": "data/数据表_瓷砖配置_矩形.ts",
+   "class": "DataTable",
+   "row_struct": "结构_瓷砖配置",
+   "deprecated": false,
+   "dump_rows": 18,
+   "rows": 18,
+   "texts_without_en": 0,
+   "bytes": 23126,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_瓷砖配置_回廊": {
+   "source": "datatables/CatapultHero/数据表/地图/过期/数据表_瓷砖配置_回廊.json",
+   "module": "data/数据表_瓷砖配置_回廊.ts",
+   "class": "DataTable",
+   "row_struct": "结构_瓷砖配置",
+   "deprecated": true,
+   "dump_rows": 18,
+   "rows": 18,
+   "texts_without_en": 0,
+   "bytes": 21990,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_营地格": {
+   "source": "datatables/CatapultHero/数据表/地图/过期/数据表_营地格.json",
+   "module": "data/数据表_营地格.ts",
+   "class": "DataTable",
+   "row_struct": "结构_营地格",
+   "deprecated": true,
+   "dump_rows": 9,
+   "rows": 9,
+   "texts_without_en": 11,
+   "bytes": 3045,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_天赋_boss专属": {
+   "source": "datatables/CatapultHero/数据表/天赋/数据表_天赋_boss专属.json",
+   "module": "data/数据表_天赋_boss专属.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 45,
+   "rows": 45,
+   "texts_without_en": 0,
+   "bytes": 101167,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_天赋_专属": {
+   "source": "datatables/CatapultHero/数据表/天赋/数据表_天赋_专属.json",
+   "module": "data/数据表_天赋_专属.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 73,
+   "rows": 73,
+   "texts_without_en": 0,
+   "bytes": 167794,
+   "dropped": {},
+   "flags": {
+    "血铸壁垒": "carries the Tests gameplay tag",
+    "连锁打击": "carries the Tests gameplay tag"
+   }
+  },
+  "数据表_天赋_新新通用": {
+   "source": "datatables/CatapultHero/数据表/天赋/数据表_天赋_新新通用.json",
+   "module": "data/数据表_天赋_新新通用.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 29,
+   "rows": 29,
+   "texts_without_en": 0,
+   "bytes": 64443,
+   "dropped": {},
+   "flags": {
+    "溢疗充能": "carries the Tests gameplay tag",
+    "锋芒毕露": "carries the Tests gameplay tag"
+   }
+  },
+  "数据表_天赋_幽冥骑士": {
+   "source": "datatables/CatapultHero/数据表/天赋/过期/数据表_天赋_幽冥骑士.json",
+   "module": "data/数据表_天赋_幽冥骑士.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": true,
+   "dump_rows": 47,
+   "rows": 47,
+   "texts_without_en": 47,
+   "bytes": 103644,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_天赋_新通用": {
+   "source": "datatables/CatapultHero/数据表/天赋/过期/数据表_天赋_新通用.json",
+   "module": "data/数据表_天赋_新通用.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": true,
+   "dump_rows": 42,
+   "rows": 42,
+   "texts_without_en": 42,
+   "bytes": 88816,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_天赋_英雄": {
+   "source": "datatables/CatapultHero/数据表/天赋/过期/数据表_天赋_英雄.json",
+   "module": "data/数据表_天赋_英雄.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": true,
+   "dump_rows": 16,
+   "rows": 16,
+   "texts_without_en": 32,
+   "bytes": 42682,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_技能_任务": {
+   "source": "datatables/CatapultHero/数据表/技能/数据表_技能_任务.json",
+   "module": "data/数据表_技能_任务.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 15,
+   "rows": 15,
+   "texts_without_en": 0,
+   "bytes": 30345,
+   "dropped": {},
+   "flags": {
+    "注意：主线任务的任务名改了的话要去主线任务存档里同步修改！": "designer note used as a row name"
+   }
+  },
+  "数据表_技能_修炼物品": {
+   "source": "datatables/CatapultHero/数据表/技能/数据表_技能_修炼物品.json",
+   "module": "data/数据表_技能_修炼物品.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 287,
+   "rows": 287,
+   "texts_without_en": 0,
+   "bytes": 622817,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_技能_奖励": {
+   "source": "datatables/CatapultHero/数据表/技能/数据表_技能_奖励.json",
+   "module": "data/数据表_技能_奖励.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 84,
+   "rows": 84,
+   "texts_without_en": 0,
+   "bytes": 196601,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_技能_精神状态": {
+   "source": "datatables/CatapultHero/数据表/技能/数据表_技能_精神状态.json",
+   "module": "data/数据表_技能_精神状态.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 17,
+   "rows": 17,
+   "texts_without_en": 0,
+   "bytes": 38411,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_技能_诅咒祝福": {
+   "source": "datatables/CatapultHero/数据表/技能/数据表_技能_诅咒祝福.json",
+   "module": "data/数据表_技能_诅咒祝福.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 18,
+   "rows": 18,
+   "texts_without_en": 0,
+   "bytes": 33308,
+   "dropped": {},
+   "flags": {
+    "---------": "designer note used as a row name"
+   }
+  },
+  "数据表_技能_道具": {
+   "source": "datatables/CatapultHero/数据表/技能/数据表_技能_道具.json",
+   "module": "data/数据表_技能_道具.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 36,
+   "rows": 36,
+   "texts_without_en": 0,
+   "bytes": 74846,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_技能_附魔": {
+   "source": "datatables/CatapultHero/数据表/技能/数据表_技能_附魔.json",
+   "module": "data/数据表_技能_附魔.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 31,
+   "rows": 31,
+   "texts_without_en": 0,
+   "bytes": 76216,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_技能_默认": {
+   "source": "datatables/CatapultHero/数据表/技能/数据表_技能_默认.json",
+   "module": "data/数据表_技能_默认.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": false,
+   "dump_rows": 92,
+   "rows": 91,
+   "texts_without_en": 0,
+   "bytes": 194220,
+   "dropped": {
+    "测试": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {}
+  },
+  "数据表_技能_WindUp": {
+   "source": "datatables/CatapultHero/数据表/技能/过期/数据表_技能_WindUp.json",
+   "module": "data/数据表_技能_WindUp.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": true,
+   "dump_rows": 1,
+   "rows": 1,
+   "texts_without_en": 1,
+   "bytes": 2343,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_技能_精英装备": {
+   "source": "datatables/CatapultHero/数据表/技能/过期/数据表_技能_精英装备.json",
+   "module": "data/数据表_技能_精英装备.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": true,
+   "dump_rows": 49,
+   "rows": 49,
+   "texts_without_en": 49,
+   "bytes": 108153,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_技能_装备": {
+   "source": "datatables/CatapultHero/数据表/技能/过期/数据表_技能_装备.json",
+   "module": "data/数据表_技能_装备.ts",
+   "class": "DataTable",
+   "row_struct": "结构_技能",
+   "deprecated": true,
+   "dump_rows": 32,
+   "rows": 32,
+   "texts_without_en": 31,
+   "bytes": 64986,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_装备": {
+   "source": "datatables/CatapultHero/数据表/数据表_装备.json",
+   "module": "data/数据表_装备.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 28,
+   "rows": 24,
+   "texts_without_en": 18,
+   "bytes": 164051,
+   "dropped": {
+    "测试": "the row key marks it as a test (测试) and no kept row references it",
+    "测试_0": "the row key marks it as a test (测试) and no kept row references it",
+    "测试_1": "the row key marks it as a test (测试) and no kept row references it",
+    "测试_2": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {
+    "提醒：改名后要去掉落表更新过": "designer note used as a row name; references missing row 数据表_技能_装备#加基础伤害; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加暴击率; references missing row 数据表_技能_装备#加最大生命; references missing row 数据表_技能_装备#加闪避率",
+    "红宝石": "references missing row 数据表_技能_装备#加弹力获取; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加技能加速冷却; references missing row 数据表_技能_装备#加额外生命; references missing row 数据表_技能_装备#加恢复效果; references missing row 数据表_技能_装备#加最大生命; references missing row 数据表_技能_装备#加闪避率; references missing row 数据表_技能_装备#加魔力消耗减免; references missing row 数据表_技能_装备#加伤害减免",
+    "树枝": "references missing row 数据表_技能_装备#加最大生命; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加基础伤害; references missing row 数据表_技能_装备#加暴击率; references missing row 数据表_技能_装备#加闪避率",
+    "金面包": "references missing row 数据表_技能_装备#加暴击率; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加暴击伤害; references missing row 数据表_技能_装备#加最大生命; references missing row 数据表_技能_装备#加闪避率",
+    "猫头鹰雕像": "references missing row 数据表_技能_装备#加闪避率; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加基础伤害; references missing row 数据表_技能_装备#加暴击率; references missing row 数据表_技能_装备#加最大生命",
+    "大猪牙": "references missing row 数据表_技能_装备#加闪避率; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加暴击率; references missing row 数据表_技能_装备#加最大生命",
+    "铁制圆盾": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "合金大盾": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "学徒短剑": "references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#每回合魔力; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "皮革手套": "references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#每回合魔力; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "皮革兜帽": "references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#每回合魔力; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "皮革外衣": "references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#每回合魔力; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "学徒长剑": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "锁链拳套": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "锁链头盔": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "银鳞胸甲": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "学徒大剑": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "合金护手": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "合金头盔": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "合金板甲": "references deprecated table 数据表_技能_装备; references deprecated table 数据表_技能_精英装备; 1 text without English in the Demo (en repeats zh)",
+    "胳膊": "references missing row 数据表_技能_装备#加暴击伤害; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加基础伤害; references missing row 数据表_技能_装备#加暴击率; references missing row 数据表_技能_装备#加额外伤害; references missing row 数据表_技能_装备#加流血伤害; references missing row 数据表_技能_装备#加爆炸伤害; references missing row 数据表_技能_装备#加剑气伤害; references missing row 数据表_技能_装备#加弹力获取; references missing row 数据表_技能_装备#万里路; references missing row 数据表_技能_装备#蚊子",
+    "脚": "references missing row 数据表_技能_装备#加闪避率; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加暴击伤害; references missing row 数据表_技能_装备#加最大生命; references missing row 数据表_技能_装备#加伤害减免; references missing row 数据表_技能_装备#加恢复效果; references missing row 数据表_技能_装备#加技能加速冷却; references missing row 数据表_技能_装备#加魔力消耗减免; references missing row 数据表_技能_装备#万里路; references missing row 数据表_技能_装备#蚊子",
+    "腿": "references missing row 数据表_技能_装备#加伤害减免; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加闪避率; references missing row 数据表_技能_装备#加格挡率; references missing row 数据表_技能_装备#加最大生命; references missing row 数据表_技能_装备#加恢复效果; references missing row 数据表_技能_装备#加技能加速冷却; references missing row 数据表_技能_装备#加魔力消耗减免",
+    "戒指": "references missing row 数据表_技能_装备#加恢复效果; references deprecated table 数据表_技能_装备; references missing row 数据表_技能_装备#加伤害减免; references missing row 数据表_技能_装备#加闪避率; references missing row 数据表_技能_装备#加格挡率; references missing row 数据表_技能_装备#加最大生命; references missing row 数据表_技能_装备#加暴击率; references missing row 数据表_技能_装备#加暴击伤害"
+   }
+  },
+  "数据表_修炼物品_专属_元素祭司": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_修炼物品_专属_元素祭司.json",
+   "module": "data/数据表_修炼物品_专属_元素祭司.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 17,
+   "rows": 17,
+   "texts_without_en": 0,
+   "bytes": 85241,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_修炼物品_专属_幽冥骑士": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_修炼物品_专属_幽冥骑士.json",
+   "module": "data/数据表_修炼物品_专属_幽冥骑士.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 27,
+   "rows": 27,
+   "texts_without_en": 0,
+   "bytes": 133957,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_修炼物品_专属_恶疫旅人": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_修炼物品_专属_恶疫旅人.json",
+   "module": "data/数据表_修炼物品_专属_恶疫旅人.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 17,
+   "rows": 17,
+   "texts_without_en": 0,
+   "bytes": 83173,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_修炼物品_专属_灵魂猎手": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_修炼物品_专属_灵魂猎手.json",
+   "module": "data/数据表_修炼物品_专属_灵魂猎手.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 27,
+   "rows": 27,
+   "texts_without_en": 0,
+   "bytes": 133641,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_修炼物品_通用": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_修炼物品_通用.json",
+   "module": "data/数据表_修炼物品_通用.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 114,
+   "rows": 112,
+   "texts_without_en": 0,
+   "bytes": 540726,
+   "dropped": {
+    "测试附魔": "the row key marks it as a test (测试) and no kept row references it",
+    "测试人偶": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {}
+  },
+  "数据表_制造分类": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_制造分类.json",
+   "module": "data/数据表_制造分类.ts",
+   "class": "DataTable",
+   "row_struct": "结构_制造分类",
+   "deprecated": false,
+   "dump_rows": 3,
+   "rows": 3,
+   "texts_without_en": 0,
+   "bytes": 827,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_掉落池": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_掉落池.json",
+   "module": "data/数据表_掉落池.ts",
+   "class": "DataTable",
+   "row_struct": "结构_通用掉落池",
+   "deprecated": false,
+   "dump_rows": 4,
+   "rows": 4,
+   "texts_without_en": 0,
+   "bytes": 5022,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_材料": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_材料.json",
+   "module": "data/数据表_材料.ts",
+   "class": "DataTable",
+   "row_struct": "结构_材料",
+   "deprecated": false,
+   "dump_rows": 8,
+   "rows": 8,
+   "texts_without_en": 0,
+   "bytes": 2345,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_词条_新手提示": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_词条_新手提示.json",
+   "module": "data/数据表_词条_新手提示.ts",
+   "class": "DataTable",
+   "row_struct": "结构_词缀",
+   "deprecated": false,
+   "dump_rows": 14,
+   "rows": 14,
+   "texts_without_en": 0,
+   "bytes": 7157,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_词条_物品": {
+   "source": "datatables/CatapultHero/数据表/物品/数据表_词条_物品.json",
+   "module": "data/数据表_词条_物品.ts",
+   "class": "DataTable",
+   "row_struct": "结构_词缀",
+   "deprecated": false,
+   "dump_rows": 69,
+   "rows": 69,
+   "texts_without_en": 0,
+   "bytes": 26269,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_敌人_普通": {
+   "source": "datatables/CatapultHero/数据表/角色/数据表_敌人_普通.json",
+   "module": "data/数据表_敌人_普通.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 42,
+   "rows": 28,
+   "texts_without_en": 0,
+   "bytes": 174337,
+   "dropped": {
+    "测试": "the row key marks it as a test (测试) and no kept row references it",
+    "弑神幼虫_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "章鱼脑_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "大肠_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "结晶簇_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "结晶_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "幽焰龙_1测试": "the row key marks it as a test (测试) and no kept row references it",
+    "结晶骑士_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "结晶骑士_单技能测试": "the row key marks it as a test (测试) and no kept row references it",
+    "眼球包_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "守门人_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "水母脑_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "幽焰龙_测试": "the row key marks it as a test (测试) and no kept row references it",
+    "重生傀儡_测试": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {
+    "宝箱": "references missing row 数据表_装备#剑; references missing row 数据表_装备#头; references missing row 数据表_装备#手套; references missing row 数据表_装备#盾; references missing row 数据表_装备#胸",
+    "新手关宝箱": "references missing row 数据表_装备#剑; references missing row 数据表_装备#头; references missing row 数据表_装备#手套; references missing row 数据表_装备#盾; references missing row 数据表_装备#胸"
+   }
+  },
+  "数据表_玩家": {
+   "source": "datatables/CatapultHero/数据表/角色/数据表_玩家.json",
+   "module": "data/数据表_玩家.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 9,
+   "rows": 8,
+   "texts_without_en": 0,
+   "bytes": 48062,
+   "dropped": {
+    "测试": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {
+    "默认": "references deprecated table 数据表_天赋_英雄",
+    "灵魂": "references missing row 数据表_技能_默认#旋风斩; references deprecated table 数据表_天赋_幽冥骑士"
+   }
+  },
+  "数据表_词条_统计": {
+   "source": "datatables/CatapultHero/数据表/角色/数据表_词条_统计.json",
+   "module": "data/数据表_词条_统计.ts",
+   "class": "DataTable",
+   "row_struct": "结构_词缀",
+   "deprecated": false,
+   "dump_rows": 26,
+   "rows": 26,
+   "texts_without_en": 0,
+   "bytes": 8335,
+   "dropped": {},
+   "flags": {}
+  },
+  "数据表_道具_通用": {
+   "source": "datatables/CatapultHero/数据表/角色/数据表_道具_通用.json",
+   "module": "data/数据表_道具_通用.ts",
+   "class": "DataTable",
+   "row_struct": "结构_角色",
+   "deprecated": false,
+   "dump_rows": 31,
+   "rows": 30,
+   "texts_without_en": 0,
+   "bytes": 145083,
+   "dropped": {
+    "测试宝箱": "the row key marks it as a test (测试) and no kept row references it"
+   },
+   "flags": {
+    "默认": "references missing row 数据表_技能_WindUp#对决; references deprecated table 数据表_技能_WindUp; carries the Test gameplay tag",
+    "宝箱": "references missing row 数据表_技能_道具#宝箱",
+    "锻造锤_0": "references missing row 数据表_技能_道具#锻造锤",
+    "撞击宝箱": "references missing row 数据表_技能_道具#被采集; references missing row 数据表_技能_道具#死亡宝箱"
+   }
+  }
+ },
+ "curve_assets": {
+  "CatapultHero/BP/Actor/BP_Actor_Other": {
+   "source": "curves/CatapultHero/BP/Actor/BP_Actor_Other.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Actor/BP_Actor_Player": {
+   "source": "curves/CatapultHero/BP/Actor/BP_Actor_Player.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0_1",
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Actor/BP_ManeActor": {
+   "source": "curves/CatapultHero/BP/Actor/BP_ManeActor.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_幽焰龙_火环": {
+   "source": "curves/CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_幽焰龙_火环.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_0_1",
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_闪现": {
+   "source": "curves/CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_闪现.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0_1",
+    "CurveFloat_0_2_3"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/可拾取物/蓝图_可拾取物_保护罩": {
+   "source": "curves/CatapultHero/BP/Skill/效果/可拾取物/蓝图_可拾取物_保护罩.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_1_2"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_评分获得效果": {
+   "source": "curves/CatapultHero/BP/Skill/效果/天赋/蓝图_效果_评分获得效果.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_地裂伤害": {
+   "source": "curves/CatapultHero/BP/Skill/效果/敌人/蓝图_效果_地裂伤害.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_大眼地震": {
+   "source": "curves/CatapultHero/BP/Skill/效果/敌人/蓝图_效果_大眼地震.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_岩浆地板": {
+   "source": "curves/CatapultHero/BP/Skill/效果/敌人/蓝图_效果_岩浆地板.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_齐刘海增益": {
+   "source": "curves/CatapultHero/BP/Skill/效果/敌人/蓝图_效果_齐刘海增益.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0_1",
+    "CurveFloat_0_2_3"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/物品/蓝图_效果_抵抗致死": {
+   "source": "curves/CatapultHero/BP/Skill/效果/物品/蓝图_效果_抵抗致死.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_升级获取天赋": {
+   "source": "curves/CatapultHero/BP/Skill/效果/玩家/蓝图_效果_升级获取天赋.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_死亡特效": {
+   "source": "curves/CatapultHero/BP/Skill/效果/玩家/蓝图_效果_死亡特效.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_玩家被动": {
+   "source": "curves/CatapultHero/BP/Skill/效果/玩家/蓝图_效果_玩家被动.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_终级抉择": {
+   "source": "curves/CatapultHero/BP/Skill/效果/玩家/蓝图_效果_终级抉择.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_获取地图宝藏": {
+   "source": "curves/CatapultHero/BP/Skill/效果/玩家/蓝图_效果_获取地图宝藏.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_获取轮回宝藏": {
+   "source": "curves/CatapultHero/BP/Skill/效果/玩家/蓝图_效果_获取轮回宝藏.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_首领天赋获取": {
+   "source": "curves/CatapultHero/BP/Skill/效果/玩家/蓝图_效果_首领天赋获取.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/蓝图_效果_免疫状态": {
+   "source": "curves/CatapultHero/BP/Skill/效果/蓝图_效果_免疫状态.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_1_2"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/蓝图_效果_受伤": {
+   "source": "curves/CatapultHero/BP/Skill/效果/蓝图_效果_受伤.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_0_1",
+    "CurveFloat_1",
+    "CurveFloat_2"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/蓝图_效果_可控反弹动画": {
+   "source": "curves/CatapultHero/BP/Skill/效果/蓝图_效果_可控反弹动画.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/蓝图_效果_探索": {
+   "source": "curves/CatapultHero/BP/Skill/效果/蓝图_效果_探索.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/蓝图_效果_时间变速": {
+   "source": "curves/CatapultHero/BP/Skill/效果/蓝图_效果_时间变速.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_0_1",
+    "CurveFloat_1",
+    "CurveFloat_2"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/蓝图_效果_残影": {
+   "source": "curves/CatapultHero/BP/Skill/效果/蓝图_效果_残影.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/蓝图_效果_爆炸": {
+   "source": "curves/CatapultHero/BP/Skill/效果/蓝图_效果_爆炸.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0"
+   ]
+  },
+  "CatapultHero/BP/Skill/效果/过期/蓝图_效果_锁链": {
+   "source": "curves/CatapultHero/BP/Skill/效果/过期/蓝图_效果_锁链.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": true,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_0_1"
+   ]
+  },
+  "CatapultHero/BP/曲线表": {
+   "source": "curves/CatapultHero/BP/曲线表.json",
+   "module": "data/曲线表.ts",
+   "deprecated": false,
+   "curves": [
+    "曲线表"
+   ]
+  },
+  "CatapultHero/BP/环境/营地/蓝图_传送门": {
+   "source": "curves/CatapultHero/BP/环境/营地/蓝图_传送门.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_0_1",
+    "CurveFloat_1",
+    "CurveFloat_1_2"
+   ]
+  },
+  "CatapultHero/BP/环境/蓝图_通用路口": {
+   "source": "curves/CatapultHero/BP/环境/蓝图_通用路口.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "CurveFloat_0",
+    "CurveFloat_1"
+   ]
+  },
+  "CatapultHero/BP/评分衰减曲线": {
+   "source": "curves/CatapultHero/BP/评分衰减曲线.json",
+   "module": "data/评分衰减曲线.ts",
+   "deprecated": false,
+   "curves": [
+    "评分衰减曲线"
+   ]
+  },
+  "CatapultHero/粒子/材质/轨迹渐变": {
+   "source": "curves/CatapultHero/粒子/材质/轨迹渐变.json",
+   "module": "data/curve-assets.ts",
+   "deprecated": false,
+   "curves": [
+    "轨迹渐变"
+   ]
+  }
+ }
+}

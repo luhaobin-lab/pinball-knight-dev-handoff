@@ -1,0 +1,95 @@
+{
+  "id": "I143",
+  "name": "聚气果",
+  "status": "generated-normalized",
+  "source": "mothers/I143.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I143.png",
+  "motherSha256": "d5d1654315f366840476f0433534da662d9dfe4e9d28323e1716d6d696cc2e15",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I143.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2860,
+      "sha256": "670ade07d1cc64a98f21def82cd415482fd05cc3b69a2e049e52b8bd82c1b9a2",
+      "pixelSha256": "245a126a10c070fb36179b5b9fe994fd2ef6e3ba59058527c6a1fa1dade6e607",
+      "alphaBounds": [
+        4,
+        7,
+        124,
+        56
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          30,
+          98,
+          1745,
+          794
+        ],
+        "fitSize": [
+          120,
+          49
+        ],
+        "position": [
+          4,
+          7
+        ],
+        "scale": 0.06997084548104957
+      }
+    },
+    "256": {
+      "file": "pixels/256/I143.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10353,
+      "sha256": "d2de97ba06bf2718732a83d4e5bb05e00b315dc4104048330e6896b866ec887e",
+      "pixelSha256": "586e8ece257b45dce4dad4b78e2092fcfc60364de4e7905decfe4d3d0d687638",
+      "alphaBounds": [
+        8,
+        15,
+        248,
+        112
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          30,
+          98,
+          1745,
+          794
+        ],
+        "fitSize": [
+          240,
+          97
+        ],
+        "position": [
+          8,
+          15
+        ],
+        "scale": 0.13994169096209913
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "果实刻印、角上寄生根须、果实空心气腔主体核对通过，未添加机械容器。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-b3101a27-da7c-40f1-99aa-f6a6e4bc5e68.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b3101a27-da7c-40f1-99aa-f6a6e4bc5e68"
+  }
+}

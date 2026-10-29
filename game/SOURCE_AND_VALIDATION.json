@@ -1,0 +1,56 @@
+{
+  "sourceRepository": "https://github.com/FilthyFrost/taptapgame-abyss-archive",
+  "archiveCommit": "a183844a62b4835a634c404c66f758cab531fba7",
+  "sourceDirectory": "game/",
+  "created": "2026-10-28",
+  "html": "delivery/独立战斗场景.html",
+  "htmlBytes": 6327018,
+  "htmlSha256": "f235193b40af35bc71965004f727efc355cf83eed6ef92376ccb66e5158d651a",
+  "unchangedSourceFiles": 936,
+  "changedSourceFiles": [
+    "src/main.ts",
+    "src/core/api/commands.ts",
+    "src/core/api/compose.ts",
+    "src/core/sim/modal.ts"
+  ],
+  "newSourceFiles": [
+    "src/battle.ts",
+    "src/battle.css",
+    "src/game/battle-start.ts"
+  ],
+  "browserCheck": {
+    "pass": true,
+    "errors": [],
+    "externalRequests": [],
+    "scenarios": [
+      "direct-offline-battle",
+      "item-tooltip-and-menu",
+      "pause-resume",
+      "mouse-wall",
+      "mouse-enemy-and-wall",
+      "restart-and-resize",
+      "fullscreen-enter-exit",
+      "native-loss",
+      "restart-after-loss"
+    ],
+    "wallPreviewEndDelta": 0,
+    "enemyPreviewEndDelta": 0
+  },
+  "typeScriptChecks": {
+    "project": true,
+    "coreWithoutDOM": true
+  },
+  "tests": {
+    "total": 256,
+    "passed": 256,
+    "failed": 0
+  },
+  "boundary": "Extracted from the supplied repository prototype. Browser checks verify this candidate, not complete parity with the original Ricochet Abyss game.",
+  "victoryFlow": {
+    "pass": true,
+    "outcome": "victory",
+    "errors": [],
+    "externalRequests": [],
+    "evidence": "artifacts/battle-outcome/report.json"
+  }
+}

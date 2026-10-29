@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/codex-studio/event.schema.json",
+  "title": "Codex studio immutable state transition v1",
+  "type": "object",
+  "required": ["version", "revision", "previousHash", "at", "action", "actor", "requestId", "state", "hash"],
+  "properties": {
+    "version": {"const": 1},
+    "revision": {"type": "integer", "minimum": 1},
+    "previousHash": {"oneOf": [{"type": "null"}, {"type": "string", "pattern": "^[a-f0-9]{64}$"}]},
+    "at": {"type": "string", "format": "date-time"},
+    "action": {"enum": ["init", "add", "claim", "renew", "complete", "review", "integrate", "verify", "fail", "pause", "resume", "recover", "replan", "controller-claim", "controller-renew", "controller-release"]},
+    "actor": {"type": "string", "minLength": 1},
+    "requestId": {"type": ["string", "null"]},
+    "state": {"$ref": "state.schema.json"},
+    "hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "additionalProperties": false
+}

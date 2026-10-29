@@ -1,0 +1,86 @@
+{
+  "id": "I011",
+  "name": "利齿骨鞭",
+  "status": "generated-normalized",
+  "source": "mothers/I011.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I011.png",
+  "motherSha256": "d02921be1e5a2a9c4f3913df38daf799aee399f1e344d02ffd25245a4ce53503",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I011.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 8138,
+      "sha256": "3921e28296be90b76769d9a6b3b3faf004df11f8d869b66a03c4ef97222bbd0a",
+      "pixelSha256": "27bbf7c9f1ac625f6f75addb5c83627d8143b504e5fab13b0b89d67a9332c124",
+      "alphaBounds": [
+        4,
+        6,
+        124,
+        186
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          52,
+          33,
+          997,
+          1464
+        ],
+        "fitSize": [
+          120,
+          182
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.12698412698412698
+      }
+    },
+    "256": {
+      "file": "pixels/256/I011.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 30165,
+      "sha256": "7595625ccad9c7e5c1bcc50ec831607f528909e394289f394e3a59d088493401",
+      "pixelSha256": "a9c41004f4a99f0a019c09fe961032ab63bba1e72489ce71b529f7ad4bfe7412",
+      "alphaBounds": [
+        8,
+        11,
+        247,
+        372
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          52,
+          33,
+          997,
+          1464
+        ],
+        "fitSize": [
+          240,
+          363
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.25396825396825395
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; distinct correct subject, complete outline, no visible normalized background residue",
+  "sourceProvenance": {
+    "sourceFilename": "exec-0be64d78-0c54-4eda-b48c-66b71a341cff.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-0be64d78-0c54-4eda-b48c-66b71a341cff"
+  }
+}

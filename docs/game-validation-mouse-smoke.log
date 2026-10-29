@@ -1,0 +1,8 @@
+Command: node tools/battle-smoke.mjs
+Browser: installed Chrome selected by CHROME_PATH
+BATTLE_QA_OUT=artifacts/migration-validation/mouse-smoke
+Opening: real battle, live enemies and equipment.
+UI: tooltip, context menu, pause and resume checked.
+Mouse wall: 4 contacts, preview end delta 0.
+Mouse enemy-and-wall: 4 contacts, preview end delta 0.
+{"pass":true,"errors":[],"output":"<LOCAL_HOME>/Desktop/提取过程/outputs/项目交接_2026-10-29/game/artifacts/migration-validation/mouse-smoke"}

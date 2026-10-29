@@ -1,0 +1,57 @@
+{
+  "input": {
+    "prompt": "Precise localized edit of this complete 3200x1440 game screenshot. Keep EVERYTHING unchanged except the decorative outermost foreground arch silhouette. Its gray outline currently has oversized stair-step blocks, especially at the extreme left/right edges and sweeping across the bottom corners. Remove that thick gray staircase outline entirely. Redraw the silhouette as very low-contrast dark stone with a fine native pixel edge at the SAME position, blending into the black frame of the picture. No bright contour, enlarged pixel blocks, blur, bokeh, new candles or ornaments. Do not alter any UI panel, card, item, text, number, character, plant, floor tile, light or room geometry. Do not change the clean matte card-frame style. This edit is confined to the dark outermost foreground decorative border. Return one finished screenshot at original size.",
+    "images": [
+      "archive/ui-history/Sunburst_去AI质感07/原始生成图/02_战斗_定向重绘.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2cb26f5157103dedcc624\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2cb26f5157103dedcc624",
+      "raw": {
+        "id": "6ae2cb26f5157103dedcc624",
+        "object_id": "6ae2cb26f5157103dedcc624",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T12:27:18.954000+08:00",
+        "updateTime": "2026-10-29T12:27:18.975000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

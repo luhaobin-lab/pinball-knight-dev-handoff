@@ -1,0 +1,95 @@
+{
+  "id": "I092",
+  "name": "附魔-治愈Ⅰ",
+  "status": "generated-normalized",
+  "source": "mothers/I092.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I092.png",
+  "motherSha256": "abb5ed7ec1f6b67064ab797ec79911469456849f36d40ea141f33639938cba18",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I092.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2968,
+      "sha256": "99b70f1a94c3f1d13a8185f8b1c149f2e1d592d29bc7c4f8213e8b8d0f5885fb",
+      "pixelSha256": "d7597f7a9be9b21ca110c21553059000786af0a6dbe16487428a96035d52d0b7",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          13,
+          49,
+          1764,
+          833
+        ],
+        "fitSize": [
+          120,
+          54
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.06853226727584237
+      }
+    },
+    "256": {
+      "file": "pixels/256/I092.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10504,
+      "sha256": "d5f978d84c49d3d1e629d3f3da18fc61d26056acc68b23dff67f54da4740eebd",
+      "pixelSha256": "179173f3f31cca4f089a8a3b6fc5c39ae2762cc5c739ee83d488af7542b57d60",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        117
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          13,
+          49,
+          1764,
+          833
+        ],
+        "fitSize": [
+          240,
+          107
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.13706453455168474
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "治愈十字或强固盾形主体清晰完整；I/II通过构图区分，刻线数量未作为严格等级标记验证。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-e3d4373e-c69b-4225-aa09-fae24dec0d4b.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-e3d4373e-c69b-4225-aa09-fae24dec0d4b"
+  }
+}

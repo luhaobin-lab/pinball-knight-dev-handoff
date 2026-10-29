@@ -1,0 +1,34 @@
+Create ONE complete 3200x1440 landscape mobile game screen. The visual UI reference is STRICTLY PASS THE FEAR / 风暴怕死队. Images1-3 are official screenshots and are the authority for component drawing. Image4 supplies ONLY our game's content and approximate placement. Rebuild the UI so its hand-drawn materials, outlines, component shapes and Chinese typography belong convincingly to the same visual family as Images1-3. This is close component matching, not a loose gothic reinterpretation.
+
+REFERENCE ROLES:
+Image1 official Chinese blacksmith: match its dark purple-brown item-slot surfaces, irregular double-line borders, warm timber supports, aged brass corner fittings, large simple black-outlined item illustrations, and its title-plate lettering.
+Image2 official Chinese encyclopedia: match its hanging paper PAGE TABS, little metal hanging loops, amber selected page and gray-brown inactive pages, heavy Chinese title lettering, warm paper/bronze edging and deep near-black interior. Extend the SAME tab design to three tabs with our labels.
+Image3 official relic comparison: match restrained flat card surfaces, thin warm rarity-color outlines, clear cream text and hard black ink contours. Keep details drawn and graphic. Never turn brass into glossy photoreal metal or wood into textured photo panels.
+Image4 has the correct game content: one white/brass knight, exactly three red-hooded enemies, the top-down room and its objects, one green vial, one pale mushroom and one silver dagger, empty backpack. Preserve the room's footprint, object locations and recognizable identities, but redraw artwork in the SAME clean hand-inked, flat-color, angular-shadow game-art language as Images1-3. Do not copy reference-game characters, weapons, names, prices, currencies or menus.
+
+CANVAS AND PRECISE ALIGNMENT:
+Canvas3200x1440. Left equipment OUTER PANEL x64,y224,w640,h1056. Right backpack OUTER PANEL x2496,y224,w640,h1056. Identical sizes, title baseline and padding. Title strips at y224..336, same geometry on both sides. Each side has FOUR matching full-width horizontal card rectangles:
+left x96..672; right x2528..3104.
+Row1 y352..560; row2 y584..792; row3 y816..1024; row4 y1048..1256.
+All eight cards use the SAME widths, heights, corner radii and double-line border structure from the official blacksmith. Absolute alignment of every corresponding top/bottom row edge. NO split cells or two-column grids. A single simple readable lock in each bottom card. Right three upper cards empty, same surface as occupied cards. Keep the central playfield between the panels with no invented overlay.
+
+REDESIGN THE TOP-LEFT TAB BAR:
+Three adjacent hanging paper tabs using Image2's exact construction, not the old thin underline navigation. Overall x64..940,y32..184. Each tab has a short metal loop at top, gently irregular paper edge, dark ink boundary and a shared supporting spine. Equal usable widths and label baselines. First selected amber/ochre, other two gray-brown; readable strong contrast.
+Exact labels: 装备栏位 / 英雄属性 / 装备图鉴. Letterforms should closely match Image2's Chinese tab headings. Four-character labels at56px or larger, centered with padding. No icons or extra categories inside tabs, no tiny overlapping text.
+
+ENLARGED TOP-RIGHT STATUS ICONS FOR PHONE:
+Reserve x1744..3136,y32..192. Four groups on ONE tidy horizontal line: health, stamina, corruption, gold. Draw each icon with at least112x112px SOLID VISUAL FOOTPRINT excluding glow/empty padding. Use thick clear outlines and only a few interior shapes, matching the reference game's drawn icon language. Number text64px, small label48px. Use the upper-right area efficiently; do not shrink icons to fit the old header.
+For the first three groups put the large icon beside a two-line text block: label above, value below, with a short bar at the bottom. Gold is large coin icon plus label/value. Health icon red heart, stamina cyan energy, corruption purple mark, gold warm coin; keep exact values and functional colors.
+Visible values: 生命 180/180 full, 体力 100/100 full, 腐化 0/100 EMPTY, 金币 4. No extra resource.
+Center title 遗迹 can occupy x1200..1640,y64..152 in the reference title-plate style, quieter than the tabs and status. Avoid huge occult ornaments.
+
+EQUIPMENT CONTENT:
+Title 战斗装备 left, 背包 right. Redraw the vial/mushroom/dagger as large flat-color black-ink item illustrations matching the official items, each centered inside its existing full-width card. No permanent item-name prose.
+Vial card top-right damage8, bottom-left recycle1.
+Mushroom card bottom-left recycle4 and NO damage.
+Dagger card top-right damage30, bottom-left recycle2, one small purple enchantment diamond and EMPTY charge0/100.
+Draw these badges in the reference's simple outlined icon + cream number style, without shiny riveted metal plates. Keep digits at least64px and charge text56px. Preserve subtle gold emphasis on the mushroom card; don't invent selection states or prices. No duplicate items in the bag.
+
+REMAINING GAME CONTENT:
+Exactly one white/brass knight and THREE red-hooded enemies; same positions and map as Image4. Preserve its circular objects, pale cyan spiral floor marker, vases and obstacles; no new chest, magic circle, actor or game mechanic. Bottom centered cue 按住瞄准 · 松手弹射, clean readable Chinese. No keyboard keys, mouse prompts, new buttons or English words copied from references.
+The full screen should share the official game's drawn contour thickness, restrained material rendering, dark blue world colors and warm UI surfaces. The newest user request makes the official reference authoritative; do not retain our previous engraved stone/black-iron gothic UI or add a retro pixel filter. No rendered metal, oil-paint texture, random grain, excessive ornamental flourishes, diagnostic marks or comparison layout. ONE finished image with all components drawn by the model.

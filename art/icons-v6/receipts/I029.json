@@ -1,0 +1,86 @@
+{
+  "id": "I029",
+  "name": "万里追风靴",
+  "status": "generated-normalized",
+  "source": "mothers/I029.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I029.png",
+  "motherSha256": "8e5705f8272e54285ae1311b64be7c1f6bad5cd42e98327928d45525b08df2c2",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I029.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6410,
+      "sha256": "cc2c46694a2725825b2edfcb85a5dc2cc6cdf88f1746da46c909cafd4ea9fe53",
+      "pixelSha256": "8495a31fa0630f6d6757783b737a0af87925fb7f5e3ffcc172c6c1ad2391311e",
+      "alphaBounds": [
+        5,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          76,
+          45,
+          1222,
+          1209
+        ],
+        "fitSize": [
+          118,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.10309278350515463
+      }
+    },
+    "256": {
+      "file": "pixels/256/I029.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23050,
+      "sha256": "41667832366c4157b31ded4279afb38ddfca4d9d58efc122d47570bfb9ae0e30",
+      "pixelSha256": "490d1bd59aa382b9b389a841d45cfce296b46f6b10dc9d02b0d33eb104188768",
+      "alphaBounds": [
+        10,
+        8,
+        246,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          76,
+          45,
+          1222,
+          1209
+        ],
+        "fitSize": [
+          236,
+          240
+        ],
+        "position": [
+          10,
+          8
+        ],
+        "scale": 0.20618556701030927
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; coherent shoes/garment asset, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-972700c4-54cd-4cd1-9668-8169def3c998.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-972700c4-54cd-4cd1-9668-8169def3c998"
+  }
+}

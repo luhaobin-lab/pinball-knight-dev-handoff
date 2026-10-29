@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Repaint the complete game screenshot in Image1 as carefully authored high-definition pixel art. Output3200x1440. The USER APPROVES its overall direction and layout. Preserve every region, card boundary, row height, title position, resource anchor and actor position. This is a focused ART REPAINT, not a new interface design. Image2 is an official pixel-art scene: study only its purposeful pixel clusters, solid material shapes and crisp edge choices. Do not import its scenery, characters, composition, colors or assets.\n\nDo NOT preserve the surface rendering of Image1. Replace its smooth product-render highlights, uniformly noisy textures, repeated bright bevels and photographic blur with one coherent pixel drawing language. Keep the existing modern dark occult setting. The work should remain finely detailed and high-resolution, with small consistent pixel units; do not turn it into an enlarged 8-bit/16-bit image or a retro filter.\n\nPAINTING METHOD, applied visibly:\n1. Build each object from a few strong connected light/shadow shapes, then refine the parts that explain structure. Keep large quiet dark surfaces. Pixel detail follows stone breaks, blade facets, leather wrap and cloth tension. Remove isolated glitter pixels and evenly sprinkled texture. More detail only where it helps explain a form.\n2. MATERIALS DIFFER. The bottle is asymmetrical hand-blown green glass with a clear liquid meniscus, a thick lip and one narrow reflected light; most of its surface is dark translucent color, not glowing cyan crystal. The mushroom is MATTE: a cap with one subtly drooping lobe, a slightly bent stem, grouped gills and a fibrous underside. No polished wet cap. The dagger has a broad quiet steel plane with a thin controlled edge glint; the worn leather grip is matte, and its wrapped bands have purposeful spacing, not machined ribbing. Preserve the identity, silhouette scale and position of all three items.\n3. COHERENT EDGES. Crisp pixel contour steps around focal shapes; selectively soften or lose dark edges into shadow using a few placed colors, never blur. Replace foreground bokeh/candle smears with sparse, simplified dark shapes and a few readable pixel edges. Background recedes by lower contrast and reduced detail, not Gaussian blur or fog covering defects. Characters, items, stone and UI art use the same small pixel scale.\n4. CAUSAL WEAR. A few marks on exposed corners, a wear patch where a grip is held, stone cracks following actual joints. No random scratches, uniform dirt flecks, procedural noise or identical chips on every edge. Keep the picture carefully finished, not messy or artificially distressed.\n5. CARDFRAME RESTRAINT. Keep EXACTLY the approved full-width card outlines, insets and row alignment on BOTH sides. Repaint the material as dark cast iron with a mostly flat face. Use one narrow directional highlight only on selected lit upper-left segments, with shadow edges receding. Remove all-around silver bevel shine, continuous white perimeter stripes and stacked bright rails. Functional enchantment diamond remains; purely ornamental title flourishes may be simplified without moving the title.\n6. NATURAL FORM. Preserve the actors and their positions, but let the cloth have a few weight-bearing folds and uneven hanging edges. Give the organic shapes a chosen rhythm, not mechanical symmetry. Do not bend the UI grid, randomly rotate panels, scatter props or misalign typography to simulate human authorship.\n\nKeep the existing light direction and general cold-dark/warm-local-light balance, but reduce glow and wet specularity. Clear shadow shapes carry the volume. There is no universal blue rim around every object and no cinematic lens effect. Strong silhouettes remain readable without outlining everything.\n\nUI CONTRACT: three labels 装备栏位 / 英雄属性 / 装备图鉴, exactly as Image1. Keep all status values: 生命180/180,体力100/100,腐化0/100 EMPTY,金币4. Keep left full-width illustrated cards with no permanent item-name prose: vial damage8/recycle1; mushroom recycle4 and no damage; dagger damage30/recycle2, one small enchantment diamond, EMPTY charge0/100. Right backpack stays the same matching ONE-COLUMN full-width empty card lane with a matching bottom lock; no split cells, duplicate items, values or new buttons. The same real room footprint, one white/brass-helmet knight and exactly THREE red-robed enemies. Title 遗迹 and cue 按住瞄准 · 松手弹射.\n\nWithin the existing header boxes, enlarge and clarify the tiny Chinese labels and resource numerals to readable48px minimum at3200px width; preserve their anchors, no layout move and no new text. Charge0/100 also readable48px minimum inside its existing card. Use the same clean Chinese type family throughout. Keep the approved hierarchy.\n\nAll UI and art must be drawn by the image model in ONE finished screenshot. No annotations, grids, process sheet, new branding, extra features, alternate layout, photographic shader finish, rough sketch or generic fantasy poster. The improvement should come from clear shape choices, material-specific drawing and selective detail, not more adjectives, more ornaments or added grain.",
+    "images": [
+      "archive/ui-history/Sunburst_现代CULT06/原始生成图/01_战斗_现代CULT.png",
+      "archive/ui-history/Sunburst_现代CULT06/参考原图/Blasphemous2_01_精细拱廊与布幔_官方.jpg"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2c75e87ada5af0ddcad83\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2c75e87ada5af0ddcad83",
+      "raw": {
+        "id": "6ae2c75e87ada5af0ddcad83",
+        "object_id": "6ae2c75e87ada5af0ddcad83",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T12:11:10.819000+08:00",
+        "updateTime": "2026-10-29T12:11:10.897000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

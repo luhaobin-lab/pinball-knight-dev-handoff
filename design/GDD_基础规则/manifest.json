@@ -1,0 +1,229 @@
+{
+  "version": "0.2.0-discussion",
+  "date": "2026-10-29",
+  "file_count_excluding_manifest": 44,
+  "total_bytes_excluding_manifest": 19265180,
+  "files": [
+    {
+      "path": "01_研究与依据/DungeonBound公开机制研究.txt",
+      "bytes": 13378,
+      "sha256": "bd222b9407377079fc5a78252eff27c82f4e8b031185d73a191f1ead48bf307c"
+    },
+    {
+      "path": "01_研究与依据/data_inventory.json",
+      "bytes": 2593536,
+      "sha256": "7d70970ce41b0dc71d59762559ec39f9e9dd298f7e7a456ce95aee881e653014"
+    },
+    {
+      "path": "01_研究与依据/dungeonbound_sources.json",
+      "bytes": 9562,
+      "sha256": "788909ebe66e4411160343b8300d8335439aba4ca608324ae19ec0aaf828a22c"
+    },
+    {
+      "path": "01_研究与依据/原始表格/R3补充B_技能与天赋消费者.xlsx",
+      "bytes": 2779534,
+      "sha256": "021bc2a50f0352423498187abe7bf06a34e9af172f87ddaec22c23c3b4746848"
+    },
+    {
+      "path": "01_研究与依据/原始表格/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+      "bytes": 5563473,
+      "sha256": "a8633c42977acd06c87cb3321b578fe11330c00be30ec0b5f7269c80aa69e532"
+    },
+    {
+      "path": "01_研究与依据/原始表格/Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+      "bytes": 6495347,
+      "sha256": "9c3f046320aac0cc47fdc982f5013e48bdc20adc35cbaba9dabd12c8e3e16bdf"
+    },
+    {
+      "path": "01_研究与依据/原始表格/视频内容研究总表.xlsx",
+      "bytes": 202186,
+      "sha256": "17c50bba300644b51a66ec50ea006220ae20255f64929df6f389be73c6edf7e9"
+    },
+    {
+      "path": "01_研究与依据/游玩心流与模块取舍.txt",
+      "bytes": 6642,
+      "sha256": "7a1af42294ab17307f0c9cbef36a023faa3d36decb1159965f586390278b3489"
+    },
+    {
+      "path": "01_研究与依据/现有数据审计.txt",
+      "bytes": 37726,
+      "sha256": "b748362f8733aeea40f0890b351bdfa4b7e1cd25a9bcd4c040f8c4d6b0d715c5"
+    },
+    {
+      "path": "02_设计文档/01_核心GDD.txt",
+      "bytes": 11788,
+      "sha256": "c610ec3cf35ea4f30915a5fbb53c1a854d5c17f2f07d28bc95b0bc57becbecac"
+    },
+    {
+      "path": "02_设计文档/02_房间怪物与难度.txt",
+      "bytes": 9335,
+      "sha256": "9535bd01fdc86b67b81fad786a99c8e906b7a695206099c3876a0ad59d6eda71"
+    },
+    {
+      "path": "02_设计文档/03_掉落商店锻造与附魔.txt",
+      "bytes": 16400,
+      "sha256": "75678464f926092a572c82a884c8d8d6d1bc55c6e72df60b5123a54da18e84c7"
+    },
+    {
+      "path": "02_设计文档/04_状态存档与交互.txt",
+      "bytes": 14258,
+      "sha256": "5c2ec33e062b7e779006f1184611055f3079f2ead53d0cb71be08ab3da73330c"
+    },
+    {
+      "path": "02_设计文档/05_原数据适配与边界.txt",
+      "bytes": 7420,
+      "sha256": "88b4d99455c1c7e9757204b89d369beeb2ba23de12da552f2860308fb66d76d8"
+    },
+    {
+      "path": "03_数值与配置/balance.json",
+      "bytes": 7816,
+      "sha256": "bbaf008d7cf5c58e0e1e0747fa07caeeebf1c79e2cedfebaebc4caa535abd1d5"
+    },
+    {
+      "path": "03_数值与配置/enchants.json",
+      "bytes": 317233,
+      "sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3"
+    },
+    {
+      "path": "03_数值与配置/items.json",
+      "bytes": 19623,
+      "sha256": "a3e0d38b5a228fd0aaf8abe213eb65e3b30ada995fb613649b90e2aaa6308623"
+    },
+    {
+      "path": "03_数值与配置/monsters.json",
+      "bytes": 3913,
+      "sha256": "0fa03aa1c3ba86867002e8931dd7e07da9422681da3d3ca1931b6850dbeb5dbc"
+    },
+    {
+      "path": "03_数值与配置/rooms.json",
+      "bytes": 7350,
+      "sha256": "78b07668d5b96f5bfe1c3dfc058eba50d3ac05e3b0258dba7e91862d23654427"
+    },
+    {
+      "path": "03_数值与配置/source_contract.json",
+      "bytes": 1691,
+      "sha256": "bef503358824eb06b6585890fb582ada15c7bc6bc294301ac7bdf2d4f4d9cc41"
+    },
+    {
+      "path": "03_数值与配置/talents.json",
+      "bytes": 9692,
+      "sha256": "64c17a37566f94207faede01d289fe869095d2ae44ce16a0a7186118a57f1fa4"
+    },
+    {
+      "path": "04_算法参考/build_config.py",
+      "bytes": 14716,
+      "sha256": "3bc964bf76874dd1555b2c1322c2c92ef8929b4053f3a25d898e5b2d18c01595"
+    },
+    {
+      "path": "04_算法参考/build_reader.py",
+      "bytes": 12011,
+      "sha256": "117855094d9fd662c950481a1c827168a54630571b7f341ab04cad985d3ecc26"
+    },
+    {
+      "path": "04_算法参考/check_reader.mjs",
+      "bytes": 2332,
+      "sha256": "386d40945cdabf9962a3ac8b5869bf37ab25ac875f1b76a54b1e2a1fa4cb8783"
+    },
+    {
+      "path": "04_算法参考/systems_reference.py",
+      "bytes": 25839,
+      "sha256": "7bc6b0d058744325cb17b3dbf7de2f631030102d4ca1533fba56482778f694ee"
+    },
+    {
+      "path": "04_算法参考/verify_package.py",
+      "bytes": 24323,
+      "sha256": "436b567016a7dcefb4efc5fd422917ba607034687d6448dd5fb808adf73ed567"
+    },
+    {
+      "path": "05_验证与评审/seed42_两层生成样例.json",
+      "bytes": 84175,
+      "sha256": "370edc28db18006a7dd296c20ea8cf39c571e1b1dd3d4b4db2e42f7624c98863"
+    },
+    {
+      "path": "05_验证与评审/seed42_附魔节点样例.json",
+      "bytes": 6666,
+      "sha256": "4b4e57d98b1c44ce2f580bd46ac94cc0e2f097ac357140ac11a86c5bbda3737a"
+    },
+    {
+      "path": "05_验证与评审/修复复核记录.txt",
+      "bytes": 3991,
+      "sha256": "06639247afad499c83d3469b8a7de6583afd73af7ac4032819e8e13fb283da96"
+    },
+    {
+      "path": "05_验证与评审/图表/两层生命节奏.png",
+      "bytes": 104462,
+      "sha256": "0b914afbd2fecb0c2c676a980034fecedd316b9853c07bbc4159ab9d6e38b40f"
+    },
+    {
+      "path": "05_验证与评审/图表/失败成长账本.png",
+      "bytes": 90228,
+      "sha256": "f214478d6fdeeee10028da7c987fd1668c5033c2edb68d25b80ab4fc058647c3"
+    },
+    {
+      "path": "05_验证与评审/最终离线检查.json",
+      "bytes": 8820,
+      "sha256": "f4623571309b4dec25cf63f6339f67edc15a93a82335f2f606d670869d4070e8"
+    },
+    {
+      "path": "05_验证与评审/检查结果.txt",
+      "bytes": 3740,
+      "sha256": "39318cf64f4e2a106d7f369a24de92aad52f6a3dd4f1e208b8a80876eb0eb0d0"
+    },
+    {
+      "path": "05_验证与评审/独立数据评审.txt",
+      "bytes": 13077,
+      "sha256": "cec7e06012d0d35cb260c7d14995cf1fdd0b128e12c27f3f4c85cfb60574f221"
+    },
+    {
+      "path": "05_验证与评审/独立算法评审.txt",
+      "bytes": 16268,
+      "sha256": "6cd5f2bf188dbf6666ac2784f7587e7774740c6cf256794c8523dda950c88727"
+    },
+    {
+      "path": "05_验证与评审/设计决策与失败场景.txt",
+      "bytes": 6507,
+      "sha256": "6e7ff4d8318e80c69e26440251d773025f335e87631729c108dc82ebef9cc02c"
+    },
+    {
+      "path": "05_验证与评审/阅读页_数值.png",
+      "bytes": 162989,
+      "sha256": "f49ead02e0015fd78675c0a950e2e6562603fede5b0855130da5d4383bc06fc7"
+    },
+    {
+      "path": "05_验证与评审/阅读页_附魔.png",
+      "bytes": 221248,
+      "sha256": "0e22cb50562cf5b78d322275b35ae43aee8f0f5ff8d1e2cf7a9b9e6360fa3ba8"
+    },
+    {
+      "path": "05_验证与评审/阅读页_首屏.png",
+      "bytes": 202900,
+      "sha256": "94cd7c78668b980ce2ebf51ee633143cfd610a30f6efcdd6261a3569c6587497"
+    },
+    {
+      "path": "05_验证与评审/阅读页面验证.json",
+      "bytes": 469,
+      "sha256": "0f9f602a91607fa848938b1b13230f48c8d8b6f6866f131c00be58b4a5279f95"
+    },
+    {
+      "path": "06_AI实施交接/实施顺序与验收.txt",
+      "bytes": 12296,
+      "sha256": "19bad8ba9bfae3795f09eca2d130ba2cd37013936b3f71b2fdd5752e957cd320"
+    },
+    {
+      "path": "06_AI实施交接/直接交给AI的任务书.txt",
+      "bytes": 3550,
+      "sha256": "d46ae5ab611eb3bb7cd1d514609b051849b2974be04bacda0e71d287cbec911e"
+    },
+    {
+      "path": "先读我.txt",
+      "bytes": 4422,
+      "sha256": "2b7ff68844f4d29b3acc54118e6badee9307ae898562baa513019f15855d12ae"
+    },
+    {
+      "path": "阅读入口.html",
+      "bytes": 112248,
+      "sha256": "e4fba40731eb75098a9cf328514ae2ea7639a20cd8633ed76391b3700792a88c"
+    }
+  ],
+  "document_revision": "2026-10-29-enchant50-free-choice"
+}

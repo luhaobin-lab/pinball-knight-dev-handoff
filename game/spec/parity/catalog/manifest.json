@@ -1,0 +1,28 @@
+{
+  "sourceCommit": "fd68057af7b4ba58459f306c78b042c12f4d1830",
+  "outputs": [
+    {
+      "name": "catalog.json",
+      "bytes": 50622475,
+      "sha256": "3dc165f91246280f2ebfc2a91b617e01e990cf9fbc7b02d5bfd3cda5764145fe"
+    },
+    {
+      "name": "summary.json",
+      "bytes": 62508,
+      "sha256": "ab83e98816871574cf694d949bd0eb2e7445e0d588858923d6961a3b356d3533"
+    },
+    {
+      "name": "priority-queue.json",
+      "bytes": 123742,
+      "sha256": "c60487876fe51a7d0161f6cb51e0667d5096faf2d16331a5d84e0bb1e2d5b29d"
+    },
+    {
+      "name": "index.html",
+      "bytes": 30808411,
+      "sha256": "6d824fab7f63ce98bfe8fa67034a4b6d35a88e3dfe4b963df48da29bae3b9877"
+    }
+  ],
+  "sourceFiles": 1747,
+  "readOnlyReference": true,
+  "validationErrors": []
+}

@@ -1,0 +1,32 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "max",
+  "direction": "GOTHIC / CULT, Darkest Dungeon references",
+  "files": [
+    {
+      "file": "原始生成图/01_战斗_GOTHIC_CULT.png",
+      "width": 3200,
+      "height": 1440,
+      "bytes": 6526180,
+      "sha256": "728fff369bd084e2c09ffb78b9d7ddeab3c7d89b40372f6d70399c803ed001d2",
+      "postEdit": false
+    },
+    {
+      "file": "原始生成图/04_营地_GOTHIC_CULT.png",
+      "width": 3200,
+      "height": 1440,
+      "bytes": 5662882,
+      "sha256": "909b72a971abc9f1c27dd6f0e0b53f7384bb1fae616f01f6bf6bc8707a16b125",
+      "postEdit": false
+    },
+    {
+      "file": "原始生成图/09_商店_GOTHIC_CULT.png",
+      "width": 3200,
+      "height": 1440,
+      "bytes": 5659927,
+      "sha256": "c0777cc2eecb03d23d87fe6532a327fd7b172aa5de17684916d2d8aea813ba73",
+      "postEdit": false
+    }
+  ],
+  "validation": "目视检查完整生成图；并非交互验收"
+}

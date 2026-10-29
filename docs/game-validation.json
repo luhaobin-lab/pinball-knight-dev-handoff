@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "validated_at": "2026-10-29T09:22:26.448936+00:00",
+  "status": "single_battle_verified_full_suite_has_baseline_failures",
+  "scope": "新交接包game的安装、类型检查、全量测试诊断、独立战斗定点检查、离线打包与鼠标smoke；不包含v10 UI运行时集成。",
+  "environment": {
+    "node": "v24.22.1",
+    "os": "macOS",
+    "architecture": "arm64",
+    "browser": "installed Google Chrome selected through CHROME_PATH",
+    "default_playwright_chromium_installed_on_test_machine": false,
+    "cross_os_execution_tested": false,
+    "machine_runtime_path_saved_in_package": false
+  },
+  "installation": {
+    "command": "npm ci --no-audit --no-fund",
+    "exit_code": 0,
+    "packages_added": 48
+  },
+  "source_integrity": {
+    "compared_to": "original battle-scene/src",
+    "files_compared": 943,
+    "different_files": [],
+    "manifest_sha256": "ef591e06f5ffef6a7a420574c39cd7a0691ce7aa3bb51424f1df38c4a1448c24",
+    "manifest_algorithm": "按相对路径排序；每行是相对路径+NUL+文件SHA256，以LF连接，再对UTF-8字符串求SHA256。",
+    "core_source_unchanged": true
+  },
+  "tool_changes": [
+    {
+      "file": ".gitignore",
+      "sha256": "0f2315f2b354d5447780cafeaebcf19c628c464dcb23bca154fcc20a23b72afd",
+      "original_sha256": "afcb40626a986f80b0b531a8cdd4703cf4d9653aceae12b7810cd1565ee2856b"
+    },
+    {
+      "file": "README.md",
+      "sha256": "63ac0c4f6207dcb0bbb86be8aee6286f93b6e1ca496e839fa2a5470f7e31ac83",
+      "original_sha256": "7c69fce859ef8100f99a90a7b609b575ada2a4dabc3e0b8cc651f0d8e8e465c8"
+    },
+    {
+      "file": "tools/lib/browser-options.mjs",
+      "sha256": "83b3484d9e814910c3d4dff497b37970f74f123903a2a10050446b2ed17fe01d",
+      "original_sha256": null
+    },
+    {
+      "file": "tools/lib/harness.mjs",
+      "sha256": "99c50f787ddbf006f08c8fdca05befba1118f313de0bf91ac78c7d7f1a7f9fc4",
+      "original_sha256": "a734b235e4acf3e594503840a3257fff8006f1c2f694b188bdc13b954b71ba7b"
+    },
+    {
+      "file": "tools/battle-smoke.mjs",
+      "sha256": "8c56698a93cd7ba67edf4c76744f28e0cf647f88029fcbafaa44fe1aa23f19ae",
+      "original_sha256": "aefa20954036a0ad18593b5712181f5f02b1a8fd648d56aca496af21bf7bf06f"
+    },
+    {
+      "file": "tools/battle-outcome.mjs",
+      "sha256": "e45ef320b4b83b2efee0094c8d6459f7d6b33ad6bec77c97806ec74b577568b2",
+      "original_sha256": "8bbfe9fc0d9a3b8a5d37249cd95047a04b844b96df47458e658cf7e1579f4d41"
+    },
+    {
+      "file": "tools/skill-web-game-client.mjs",
+      "sha256": "d1c24c2d7da5ceb4a7ca7965ce6c93f0e26bd4dcb736e6125be614677a52c09f",
+      "original_sha256": "a24b5ca8289538f8e81f035e5e4532947fe6080d02a26c94e909acf54ce995bd"
+    }
+  ],
+  "portability_changes": [
+    "浏览器默认Playwright Chromium，CHROME_PATH/BATTLE_CHROME_PATH可覆盖；BATTLE_BROWSER_CHANNEL可选择已安装Chrome等通道。",
+    "移除硬编码macOS浏览器路径；harness不再自动使用历史D盘studio目录。",
+    "D3D11参数仅在Windows启用，其他系统使用默认GPU选择并保留SwiftShader回退。",
+    "battle-smoke支持BATTLE_QA_OUT，当前证据与历史artifacts分离。",
+    "交接版.gitignore不再忽略delivery，保留可直接离线打开的HTML。"
+  ],
+  "syntax_checks": [
+    {
+      "file": "tools/lib/browser-options.mjs",
+      "exit_code": 0
+    },
+    {
+      "file": "tools/lib/harness.mjs",
+      "exit_code": 0
+    },
+    {
+      "file": "tools/battle-smoke.mjs",
+      "exit_code": 0
+    },
+    {
+      "file": "tools/battle-outcome.mjs",
+      "exit_code": 0
+    },
+    {
+      "file": "tools/skill-web-game-client.mjs",
+      "exit_code": 0
+    }
+  ],
+  "full_check": {
+    "command": "npm run check",
+    "exit_code": 1,
+    "type_checks": {
+      "project": "passed",
+      "core_without_dom": "passed"
+    },
+    "vitest": {
+      "test_files_total": 294,
+      "passed_files": 285,
+      "failed_files": 6,
+      "skipped_files": 3,
+      "tests_total": 2834,
+      "passed": 2775,
+      "failed": 6,
+      "skipped": 47,
+      "todo": 6,
+      "duration_seconds": 97.92
+    },
+    "log": "docs/game-validation-npm-check.log",
+    "interpretation": "全量未通过，不隐去失败、不修改核心代码迎合测试。"
+  },
+  "failure_classification": [
+    {
+      "category": "external_source_fixture_missing",
+      "files": [
+        "tests/content-bpkit/batches.test.ts",
+        "tests/parity-items2/projectiles.test.ts",
+        "tests/tools-bot/coverage.test.ts"
+      ],
+      "failed_suite_loads": 1,
+      "failed_test_cases": 3,
+      "reason": "依赖历史D盘reference/dump/blueprints-pseudo中的外部原包伪码，当前电脑没有该输入。",
+      "baseline_reproduced": true
+    },
+    {
+      "category": "baseline_expected_result_mismatch",
+      "files": [
+        "tests/game-g2/seed516-retry.test.ts"
+      ],
+      "failed_test_cases": 1,
+      "reason": "断言期待abandoned，实际得到defeat。",
+      "baseline_reproduced": true
+    },
+    {
+      "category": "baseline_cli_output_parse_failure",
+      "files": [
+        "tests/tools-bot/cli.test.ts"
+      ],
+      "failed_test_cases": 1,
+      "reason": "1000次fake run的最后一行JSON在位置65536解析失败；根因未进一步修复或断定。",
+      "baseline_reproduced": true
+    },
+    {
+      "category": "full_suite_timeout_not_reproduced_in_targeted_run",
+      "files": [
+        "tests/parity-tutorial/entry.test.ts"
+      ],
+      "failed_test_cases": 1,
+      "reason": "全量并发时超过默认5000ms；原项目和交接包的定点复跑均通过，疑似执行负载敏感，未改超时或核心逻辑。",
+      "baseline_reproduced": false
+    }
+  ],
+  "original_baseline_rerun": {
+    "command": "npm exec vitest -- run tests/content-bpkit/batches.test.ts tests/game-g2/seed516-retry.test.ts tests/parity-items2/projectiles.test.ts tests/parity-tutorial/entry.test.ts tests/tools-bot/cli.test.ts tests/tools-bot/coverage.test.ts",
+    "node": "v24.22.1",
+    "exit_code": 1,
+    "test_files": {
+      "total": 6,
+      "failed": 5,
+      "passed": 1
+    },
+    "tests": {
+      "total": 22,
+      "failed": 5,
+      "passed": 17
+    },
+    "failed_suite_loads": 1,
+    "duration_seconds": 10.12,
+    "log": "docs/game-validation-baseline-rerun.log",
+    "source_edits": false
+  },
+  "targeted_checks": {
+    "command": "npm exec vitest -- run tests/battle-start.test.ts tests/battle-pause.test.ts tests/parity-tutorial/entry.test.ts --maxWorkers=4",
+    "exit_code": 0,
+    "test_files_passed": 3,
+    "tests_passed": 16,
+    "duration_seconds": 9.5,
+    "log": "docs/game-validation-targeted-tests.log"
+  },
+  "offline_package": {
+    "command": "npm run package:battle",
+    "exit_code": 0,
+    "file": "game/delivery/独立战斗场景.html",
+    "bytes": 6327018,
+    "sha256": "f235193b40af35bc71965004f727efc355cf83eed6ef92376ccb66e5158d651a",
+    "matches_original_standalone_html": true,
+    "warning": "单文件JS体积超过4000kB警告；这是本次离线单文件输出的已知体量，不是构建失败。",
+    "log": "docs/game-validation-package.log"
+  },
+  "mouse_smoke": {
+    "command": "node tools/battle-smoke.mjs",
+    "environment_variable_names": [
+      "CHROME_PATH",
+      "BATTLE_QA_OUT"
+    ],
+    "evidence_dir": "game/artifacts/migration-validation/mouse-smoke",
+    "report": "game/artifacts/migration-validation/mouse-smoke/report.json",
+    "log": "docs/game-validation-mouse-smoke.log",
+    "exit_code": 0,
+    "pass": true,
+    "page_errors": [],
+    "external_requests": [],
+    "steps": [
+      "direct-offline-battle",
+      "item-tooltip-and-menu",
+      "pause-resume",
+      "mouse-wall",
+      "mouse-enemy-and-wall",
+      "restart-and-resize",
+      "fullscreen-enter-exit",
+      "native-loss",
+      "restart-after-loss"
+    ],
+    "wall_preview_end_delta": 0,
+    "enemy_and_wall_preview_end_delta": 0,
+    "method": "真实Playwright鼠标/键盘事件，结合debug状态断言和截图；不是无内部信息的真人盲测。",
+    "screenshots_viewed": [
+      "01-opening.png",
+      "03-item-menu.png",
+      "09-resized.png",
+      "11-result.png"
+    ],
+    "visual_result": "四张截图均显示对应战斗、装备菜单、缩窗后战斗及结束界面，未见空白渲染或入口错位；不据此宣称新UI已集成。"
+  },
+  "historical_evidence": {
+    "files": [
+      "game/SOURCE_AND_VALIDATION.json",
+      "game/artifacts/battle-smoke",
+      "game/artifacts/battle-outcome",
+      "game/artifacts/unit-test-results.json"
+    ],
+    "status": "来源副本保留的历史记录，不作为本次全量验证通过证明。",
+    "current_evidence": "只以本文件及migration-validation目录的新证据判断本次迁移结果。"
+  },
+  "cleanup": {
+    "node_modules_and_dist": "六个离线阅读入口通过后已删除新包node_modules/dist；保留lockfile、测试证据与离线HTML。",
+    "original_battle_scene": "核心源码未改；只按授权执行失败集合基线复跑。",
+    "data_import": "未执行data:import。"
+  },
+  "limits": [
+    "未在Windows或Linux实际运行。",
+    "默认Playwright Chromium路径分支做了配置/语法检查；本机未安装对应Chromium，实际smoke通过CHROME_PATH使用已安装Chrome。",
+    "全量测试不是全绿，失败原因和复跑证据如上。",
+    "未验证完整冒险全部流程、经济平衡、手机触控、真人盲测或原作完整行为一致性。",
+    "v10 UI为设计资产，未整合到当前game运行时代码。"
+  ]
+}

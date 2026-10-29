@@ -1,0 +1,34 @@
+[
+  {
+    "title": "PIXEL ART: COMMON MISTAKES",
+    "author": "Derek Yu",
+    "url": "https://www.derekyu.com/makegames/pixelart2.html",
+    "method": "简化近似颜色、先建立体积，再调整僵直轮廓；不要从轮廓向内平均加阴影。",
+    "application": "重画蘑菇、药瓶和金属边的体积；小字、底板、框体不继续增加纹理。",
+    "boundary": "借用绘画原则，不使用其复古分辨率和调色盘，也不是去AI效果实验。"
+  },
+  {
+    "title": "Cluster Sketching and Painting",
+    "author": "Saint11 / Pedro Medeiros",
+    "url": "https://saint11.art/pixel_art_articles/article2/",
+    "method": "从大色块逐步细化；清理孤立像素与不连贯的边缘。",
+    "application": "石头、皮革、菌褶按形体方向成组绘制；保留安静暗面。",
+    "boundary": "原文教像素制作，不保证图像模型会执行。"
+  },
+  {
+    "title": "Basic Shading",
+    "author": "Saint11 / Pedro Medeiros",
+    "url": "https://saint11.art/pixel_art_articles/article4/",
+    "method": "光照服从形体；镜面高光集中，粗糙材质可无高光；避免柔化平面和枕状明暗。",
+    "application": "玻璃、哑光菌盖、刀刃、皮革分别使用不同反光形状；收敛统一湿亮感。",
+    "boundary": "本项目的高光/材质方案是依据原则作出的设计推断。"
+  },
+  {
+    "title": "Frontend Design",
+    "author": "Anthropic official skills repository",
+    "url": "https://github.com/anthropics/skills/blob/main/skills/frontend-design/SKILL.md",
+    "method": "视觉选择要从具体题材出发；让重点集中，结构装置应传达信息，而非成为模板装饰。",
+    "application": "保留用户认可布局，删去无意义的重复圆环、角花与全边发亮；重点留给物品和人物。",
+    "boundary": "其对象是前端设计，不能直接当作像素画或游戏UI验证结论；网页内容只是研究资料。"
+  }
+]

@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "status": "pass-bounded-tail-review-with-editorial-label-note",
+  "reviewedAt": "2026-10-27T17:45:44.314268+00:00",
+  "target": {
+    "scope": "Two157-byte exporttails supplement only; directbytes,37fields,nullindex,currentPEparent andparserguards",
+    "forbidden": [
+      "No R3 changes",
+      "No originalgame/nativecode execution",
+      "No source installation or extractor edits"
+    ]
+  },
+  "checks": [
+    {
+      "kind": "two-original-export-ranges-and-tail-hashes",
+      "passed": true,
+      "tailBytes": [
+        153,
+        4
+      ]
+    },
+    {
+      "kind": "independent37-field-empty-compact-grammar-and-reencode",
+      "passed": true,
+      "consumed": 153,
+      "reencodedSHA256": "319e9db1da2786df401b71b14ff3df34109107cc44cb0e6ca3b713bbb12d1aac",
+      "decoderImported": false
+    },
+    {
+      "kind": "direct-current-UCAS-two-block-redecode",
+      "passed": true,
+      "packages": [
+        {
+          "slug": "dynamicmesh",
+          "packageSHA256": "59de3279700037460822ed4f522a68144694f3d892ebe9a62eae8360b82cfe56",
+          "tailSHA256": "319e9db1da2786df401b71b14ff3df34109107cc44cb0e6ca3b713bbb12d1aac",
+          "originalCompressedSourceRechecked": true
+        },
+        {
+          "slug": "paperzd-cdo",
+          "packageSHA256": "c9e131c5e135a272e566d52f4de0f97fa9f974bd96b454a0b320ef9383a6c6ee",
+          "tailSHA256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119",
+          "originalCompressedSourceRechecked": true
+        }
+      ]
+    },
+    {
+      "kind": "current-PE-parent-and-CUE-suffix-guard",
+      "passed": true,
+      "classParamsVA": "0x147909ed0",
+      "dependencyConstructorVA": "0x143792790",
+      "parent": "UBlueprintGeneratedClass",
+      "boundary": "Current PE parent is confirmed; actualPaperZD virtualSerializeDefaultObjectoverride chain remainsunproved."
+    },
+    {
+      "kind": "scope-language-preserves-engine-version-and-parser-boundary",
+      "passed": true,
+      "meaningOfZeroOpaque": "仅在所列补充grammar下每字节已分配字段/空索引；不能称原CUE已消费、当前Shipping虚表已完全恢复或全部对象全语义认证。"
+    }
+  ],
+  "findings": [
+    {
+      "id": "TAIL-DOC-LABEL",
+      "priority": 3,
+      "state": "editorial",
+      "issue": "Note末尾仍写补充B，root计划发布补充C；应统一外部补充编号。"
+    }
+  ],
+  "fieldDecoding": [
+    {
+      "field": "Vertices.SerializeNum",
+      "offset": 0,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "VertexNormals.IsSet",
+      "offset": 4,
+      "bytes": 4,
+      "value": false
+    },
+    {
+      "field": "VertexColors.IsSet",
+      "offset": 8,
+      "bytes": 4,
+      "value": false
+    },
+    {
+      "field": "VertexUVs.IsSet",
+      "offset": 12,
+      "bytes": 4,
+      "value": false
+    },
+    {
+      "field": "Triangles.SerializeNum",
+      "offset": 16,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "TriangleGroups.IsSet",
+      "offset": 20,
+      "bytes": 4,
+      "value": true
+    },
+    {
+      "field": "TriangleGroups.SerializeNum",
+      "offset": 24,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "GroupIDCounter",
+      "offset": 28,
+      "bytes": 4,
+      "value": 1
+    },
+    {
+      "field": "HasAttributes",
+      "offset": 32,
+      "bytes": 4,
+      "value": true
+    },
+    {
+      "field": "Attributes.UseCompression",
+      "offset": 36,
+      "bytes": 4,
+      "value": true
+    },
+    {
+      "field": "Attributes.UVLayers.Num",
+      "offset": 40,
+      "bytes": 4,
+      "value": 1
+    },
+    {
+      "field": "UVLayers[0].RefCounts.Compact",
+      "offset": 44,
+      "bytes": 4,
+      "value": false
+    },
+    {
+      "field": "UVLayers[0].RefCounts.Compression",
+      "offset": 48,
+      "bytes": 4,
+      "value": true
+    },
+    {
+      "field": "UVLayers[0].RefCounts.UsedCount",
+      "offset": 52,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "UVLayers[0].RefCounts.SerializeNum",
+      "offset": 56,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "UVLayers[0].Elements.SerializeNum",
+      "offset": 60,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "UVLayers[0].ParentVertices.SerializeNum",
+      "offset": 64,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "UVLayers[0].ElementTriangles.SerializeNum",
+      "offset": 68,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "Attributes.NormalLayers.Num",
+      "offset": 72,
+      "bytes": 4,
+      "value": 1
+    },
+    {
+      "field": "NormalLayers[0].RefCounts.Compact",
+      "offset": 76,
+      "bytes": 4,
+      "value": false
+    },
+    {
+      "field": "NormalLayers[0].RefCounts.Compression",
+      "offset": 80,
+      "bytes": 4,
+      "value": true
+    },
+    {
+      "field": "NormalLayers[0].RefCounts.UsedCount",
+      "offset": 84,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "NormalLayers[0].RefCounts.SerializeNum",
+      "offset": 88,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "NormalLayers[0].Elements.SerializeNum",
+      "offset": 92,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "NormalLayers[0].ParentVertices.SerializeNum",
+      "offset": 96,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "NormalLayers[0].ElementTriangles.SerializeNum",
+      "offset": 100,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "Attributes.PolygroupLayers.Num",
+      "offset": 104,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "Attributes.WeightLayers.Num",
+      "offset": 108,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "Attributes.ColorLayers.Num",
+      "offset": 112,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "Attributes.HasMaterialID",
+      "offset": 116,
+      "bytes": 4,
+      "value": true
+    },
+    {
+      "field": "MaterialID.Name",
+      "offset": 120,
+      "bytes": 9,
+      "value": "None"
+    },
+    {
+      "field": "MaterialID.UseCompression",
+      "offset": 129,
+      "bytes": 4,
+      "value": true
+    },
+    {
+      "field": "MaterialID.Values.SerializeNum",
+      "offset": 133,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "Attributes.SkinWeightAttributes.Num",
+      "offset": 137,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "Attributes.MorphTargetAttributes.Num",
+      "offset": 141,
+      "bytes": 4,
+      "value": 0
+    },
+    {
+      "field": "Attributes.HasBones",
+      "offset": 145,
+      "bytes": 4,
+      "value": false
+    },
+    {
+      "field": "Attributes.SculptLayers.Num",
+      "offset": 149,
+      "bytes": 4,
+      "value": 0
+    }
+  ],
+  "remainingLimits": [
+    "UE5.7.4 source is grammar reference notcertifiedexactgamecompilersource",
+    "PaperZD actualSerializeDefaultObject virtualoverride chainnotproved",
+    "UMG zero-default fullbinaryallocation/CDOoverridechainnotproved",
+    "OriginalR3extractor reportstill2unreadtails;thissupplementdoesnotretroactivelychangeit"
+  ],
+  "sourceHashes": {
+    "provenance/tail-followup/result.json": "37f2717d57e6d5d2c8690d657060d345693e09c4f54dc8467399ab997162c6bf",
+    "provenance/tail-followup/tail-sheets.json": "916268c5c74b99e3189793b0f747a84763bdd422758e0c326498d7eaddb5925b",
+    "provenance/tail-followup/尾部157字节补充核对.md": "7cdbecc9c6a1178f53967c6e463eb62d7cbc8e0949018903d38f0dd84355b76e",
+    "provenance/tail-followup/decode_tails.py": "5d6aafa1801707f2aef5d5863b14d725d76c5c4a9610f754fa9d5b17c748ada5",
+    "provenance/tail-followup/evidence/tails.json": "4bde8def28fa630d9428de8656103b28902a83558be77a9fd3d809a78bfa3e1c",
+    "provenance/tail-followup/evidence/dynamicmesh-tail-fields.json": "279bde941426af07e4fcdf1991b31f19fdf9e64cf46bc25dfc3a370db9a78248",
+    "provenance/tail-followup/evidence/original-ucas-crosscheck.json": "8114691f2cb9aa56e983b2018c9503c6ba5ca2a6fc6c9a61d44706f9a3442b88",
+    "provenance/tail-followup/evidence/paperzd-tail-interpretation.json": "07ef04cad4d9f8ff2aab9e1535200225d59ccd340dbea9323d36d4b3387b4184",
+    "provenance/tail-followup/evidence/serializer-source-evidence.json": "8e6d1decd85ab07215cd9ce57132ead03d1185502787c193c7a716c1c12a347e",
+    "provenance/tail-followup/tool/Program.cs": "60aba36c4856e64adbc78a57392ffe14127605fcfa2fe4008ad90cd8577a3320"
+  },
+  "proposals": [],
+  "needs": [
+    "Root统一补充编号B/C；保留已列出的结构解释与当前binarychain边界"
+  ]
+}

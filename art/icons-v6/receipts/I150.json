@@ -1,0 +1,95 @@
+{
+  "id": "I150",
+  "name": "凝血毒剂",
+  "status": "generated-normalized",
+  "source": "mothers/I150.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I150.png",
+  "motherSha256": "9d51d3fc585f75c281c02713328d0226b3424af9be8445a544f81905abaf1ef7",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I150.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2859,
+      "sha256": "87c712567ead6abf6eb60e90aaee9528580a61b1355e1dfa636abe84c7e1a95a",
+      "pixelSha256": "1b9d5f3d56a533e24bcf5a1aa361c2a378dc487530e26479812d049bf4ebf409",
+      "alphaBounds": [
+        4,
+        6,
+        124,
+        58
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          118,
+          110,
+          1744,
+          820
+        ],
+        "fitSize": [
+          120,
+          52
+        ],
+        "position": [
+          4,
+          6
+        ],
+        "scale": 0.07380073800738007
+      }
+    },
+    "256": {
+      "file": "pixels/256/I150.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10102,
+      "sha256": "29b9fe53fcfe7119ce69cd797c8554e54d87245e78fbfb25748695881610aec9",
+      "pixelSha256": "1f79b1508f0803ad0d4a2115f54d6a6f95f109443e51c86a073fb8663762c755",
+      "alphaBounds": [
+        8,
+        11,
+        248,
+        116
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          118,
+          110,
+          1744,
+          820
+        ],
+        "fitSize": [
+          240,
+          105
+        ],
+        "position": [
+          8,
+          11
+        ],
+        "scale": 0.14760147601476015
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "骨箍血剂瓶、轻弩短臂、刀腹大口主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-0a9c3859-fe9f-4e74-b542-529d1d5a85a5.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-0a9c3859-fe9f-4e74-b542-529d1d5a85a5"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "records": 357,
+  "categoryCounts": {
+    "角色属性": 23,
+    "装备物品": 175,
+    "天赋": 133,
+    "术语说明": 11,
+    "界面与文档": 15,
+    "存在裁切或重叠的条目": 11
+  },
+  "evidenceFiles": 714,
+  "htmlRecords": 357,
+  "localHtmlTargets": 719,
+  "equipmentReviews": 175,
+  "talentReviews": 133,
+  "repositoryComparisonRows": 391,
+  "parameterComparisonRows": 579,
+  "verifiedVideoSha256": "c6fd688a370404fefdbad2c0ceb085f71c0161642b76f5b0d0054f91bd43fc80",
+  "repositoryCommit": "a183844a62b4835a634c404c66f758cab531fba7",
+  "corrections": [
+    {
+      "id": "I119",
+      "name": "远古兽肉",
+      "field": "分解所得",
+      "previous": 1,
+      "corrected": null,
+      "reason": "截图仅显示耐久1/1，没有分解所得字段。",
+      "evidence": "证据截图/I119_全帧.jpg",
+      "videoTime": 382.0
+    },
+    {
+      "id": "I011",
+      "name": "利齿骨鞭",
+      "field": "每次反弹充能",
+      "previous": 6.0,
+      "corrected": null,
+      "reason": "数字首位出屏，仅尾部6.0可见；相邻与原生进入帧未恢复完整数值。",
+      "evidence": "证据截图/I011_全帧.jpg",
+      "videoTime": 217.133333
+    }
+  ],
+  "errors": [],
+  "scope": "结构、数据一致性、文件哈希和本地链接校验；独立图像抽查范围另见复核说明。不声称全片逐帧人工校对或实际游戏机制运行验证。",
+  "workbook": {
+    "sheets": [
+      {
+        "name": "阅读说明",
+        "rows": 22,
+        "columns": 3,
+        "pane": {
+          "ySplit": "5",
+          "topLeftCell": "A6",
+          "activePane": "bottomLeft",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "角色属性",
+        "rows": 23,
+        "columns": 16,
+        "pane": {
+          "xSplit": "2",
+          "ySplit": "5",
+          "topLeftCell": "C6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "装备物品",
+        "rows": 175,
+        "columns": 20,
+        "pane": {
+          "xSplit": "2",
+          "ySplit": "5",
+          "topLeftCell": "C6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "天赋",
+        "rows": 133,
+        "columns": 16,
+        "pane": {
+          "xSplit": "2",
+          "ySplit": "5",
+          "topLeftCell": "C6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "术语说明",
+        "rows": 11,
+        "columns": 11,
+        "pane": {
+          "xSplit": "2",
+          "ySplit": "5",
+          "topLeftCell": "C6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "界面与文档",
+        "rows": 15,
+        "columns": 10,
+        "pane": {
+          "xSplit": "2",
+          "ySplit": "5",
+          "topLeftCell": "C6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "仓库对照",
+        "rows": 391,
+        "columns": 14,
+        "pane": {
+          "xSplit": "3",
+          "ySplit": "5",
+          "topLeftCell": "D6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "参数核对",
+        "rows": 579,
+        "columns": 15,
+        "pane": {
+          "xSplit": "3",
+          "ySplit": "5",
+          "topLeftCell": "D6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "缺口与注意",
+        "rows": 11,
+        "columns": 8,
+        "pane": {
+          "xSplit": "3",
+          "ySplit": "5",
+          "topLeftCell": "D6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      },
+      {
+        "name": "视频覆盖记录",
+        "rows": 4,
+        "columns": 6,
+        "pane": {
+          "xSplit": "2",
+          "ySplit": "5",
+          "topLeftCell": "C6",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        },
+        "errorCells": 0
+      }
+    ],
+    "errors": [],
+    "hyperlinks": 725,
+    "verifiedCells": 20604
+  },
+  "browser": {
+    "records": 357,
+    "searchEyeCount": 1,
+    "eyeImage": {
+      "complete": true,
+      "width": 637,
+      "height": 1044
+    },
+    "talents": 133,
+    "errors": [],
+    "mobileOverflow": false
+  },
+  "visualChecks": {
+    "workbookSheetsReviewed": 10,
+    "independentTooltipSamples": 20,
+    "independentFullFrameSamples": 3,
+    "equipmentNumericScope": "175条物品，逐张检查170个可见分解数字和98个充能字段。",
+    "nativeClippingFrames": 195,
+    "nativeClippingTooltips": 11,
+    "nativeExcelApplicationOpened": false
+  },
+  "workbookSha256": "17c50bba300644b51a66ec50ea006220ae20255f64929df6f389be73c6edf7e9"
+}

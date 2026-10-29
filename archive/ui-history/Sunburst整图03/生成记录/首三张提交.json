@@ -1,0 +1,185 @@
+[
+  {
+    "name": "01_战斗_装备栏位",
+    "input": {
+      "prompt": "Use case: ui-mockup. Generate ONE COMPLETE finished game screenshot, exactly 3200x1440, 20:9 mobile landscape. You are the art director AND UI designer. Render the entire UI yourself: all text, icon art, tabs, panels, buttons, materials and the game scene. This is a high-end pixel-art independent game screenshot ready for a Steam store gallery. It is NOT a background asset, wireframe, design-system chart, CSS/web dashboard or a flat mockup to be overlaid later.\nVISUAL REFERENCES: Image 1 is an official Dead Cells Collector menu and Image 2 is an official Dead Cells equipment screen. Study their vivid pixel icons, deep blue/purple surfaces, copper detail, selective high contrast, clear grouping and confident hierarchy. Translate that level of coherent art direction into OUR original game. Do not copy their words, items, currencies, controller glyphs, branding, gameplay or menu structure. Make a visually ambitious, personally art-directed screen with luminous cool darks, purposeful warm highlights and crafted pixel detail. Preserve ample quiet areas so the richness feels composed. All game elements and all UI must belong to the same visual world.\nMobile use is essential: large easily readable Chinese, large finger-friendly selected objects and actions, obvious first/second reading layers, comfortably spaced major controls. We are evaluating the final rendered appearance, not an engineering diagram. Freely solve proportions, framing, typography, icon design, material and composition; do not force a rigid generic three-column spreadsheet. No wall of tiny print, no hospital/enterprise dashboard, no plain olive rectangles, no repetitive gold filigree, no glossy 3D bevels or uniform corner ornaments. Sophisticated color and craft, not monochrome drabness.\nFUNCTIONAL INVARIANTS: keep left-side equipped build, a distinct right-side backpack two base cells wide with vertical continuation, and central primary scene/task. Each actual equipped item is ONE merged item block spanning the two base-cell width: no center vertical seam through an occupied item and no two separate weapons side by side. Only the empty slots show the underlying two-cell grid. Keep THREE global tabs: “装备栏位” / “英雄属性” / “装备图鉴”. They must be large and readable; you may let the tab strip extend above the adjacent central area rather than shrinking three tabs into a tiny narrow bar. No narrow extra vertical toolbar, no duplicated bottom tab row.\nShared top status: “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Health red full, stamina teal full; corruption is an EMPTY dark track with a restrained violet outline because it is zero. Typography and icons are designed into the image, not absent placeholders. Do not add a game logo, a fabricated game title, English filler, debug notes, a phone bezel, perspective mockup, ornamental UI labels or other resources.\nImage 4 is an official Dead Cells gameplay screenshot: use its layered pixel-space and blue-green vs warm lighting rhythm as a supporting reference, but do not inherit the special accessibility outlines or its side-scrolling composition.\nKnown equipped items: ONE green glass bottle “凝血毒剂”, ONE pale-green bioluminescent mushroom “灵魂香菇”, ONE silver dagger with a pale brass hilt “淬毒利刃”. Design elegant, detailed, readable pixel-art icons for these objects yourself; do NOT use simple geometric placeholder icons. Only the dagger has a small EMPTY charge indicator “0 / 100”. The bottle and mushroom have no charge bar. Keep their order top to bottom. The right backpack is empty in these three initial states, with weak empty-grid lines, so it supports rather than dominates the composition.\nNo new systems: no crafting, enchanting services, forging, daily tasks, wheel, multiplayer, extra currencies, damage controls, controller or keyboard keys. All art is ORIGINAL.\n\nSCREEN: actual combat HUD, equipment tab selected.\nImage 3 is our real unadorned game scene and is the authority for content: one tiny white-and-brass helmeted knight, three red-robed enemies, the room silhouette, tiled terrain and props. Keep our oblique/top-down elastic-bounce battle identity; DO NOT turn it into Dead Cells side-scrolling gameplay. You may reframe and artistically relight to make it breathe under the new HUD, but do not invent a different room, add enemies, remove enemies or turn the knight into the Beheaded.\nThe battle scene is the hero of this composition. It should be clearly readable at phone size, dramatic but uncluttered, with layered deep indigo/teal stone, crisp silhouettes and selective candle warmth. Build a beautiful unobtrusive complete HUD around it. The UI panels should feel like carefully designed dark fantasy game tools, with tactile pixel details, thin confident silhouettes, distinct selected state and a sense of authored rhythm. Scene and interface must feel finished together.\nShow a modest location label “遗迹”. A concise bottom cue may read “按住瞄准 · 松手弹射”. Equipment is VIEW ONLY during combat; no arrangement/sell/upgrade controls. The only visible weapon charge is zero. Keep all four actors visible. No giant action buttons unrelated to this game's actual input.\nAim for a screenshot that is compelling on its own, not a utilitarian page with a tiny world in a box. Prioritize the beauty of the complete image while preserving the stated functionality.\n",
+      "images": [
+        "archive/ui-history/Sunburst整图03/参考原图/DC_01_Collector升级菜单_官方.png",
+        "archive/ui-history/Sunburst整图03/参考原图/DC_02_装备总览_官方.png",
+        "archive/ui-history/Sunburst整图03/参考原图/目标游戏_真实战斗无UI.png",
+        "archive/ui-history/Sunburst整图03/参考原图/DC_03_战斗场景与色彩_官方.jpg"
+      ],
+      "modelVersion": "gpt-image-2.5-sunburst",
+      "size": "3200x1440",
+      "n": 1,
+      "quality": "max",
+      "action": "modal"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2ac69f5157103dedcc058\") 统一轮询任务结果。"
+        }
+      ],
+      "structuredContent": {
+        "capabilityId": "image.gpt",
+        "execution": "message.create",
+        "jobId": "6ae2ac69f5157103dedcc058",
+        "raw": {
+          "id": "6ae2ac69f5157103dedcc058",
+          "object_id": "6ae2ac69f5157103dedcc058",
+          "title": "生成图片",
+          "content": {
+            "status": "pending",
+            "error": null,
+            "extra": null,
+            "buttons": null,
+            "favorites": [],
+            "progress": null,
+            "final_prompt": null,
+            "images": [],
+            "image_names": [],
+            "layer_decomposition": null,
+            "videos": [],
+            "audios": [],
+            "model_files": null
+          },
+          "role": "cli",
+          "createTime": "2026-10-29T10:16:09.995000+08:00",
+          "updateTime": "2026-10-29T10:16:10.076000+08:00",
+          "isFavorite": false,
+          "modelType": "GPT",
+          "messageType": "image",
+          "action": "modal",
+          "modelFormat": {
+            "version": "gpt-image-2.5-sunburst"
+          },
+          "spendTimeSeconds": null
+        }
+      }
+    }
+  },
+  {
+    "name": "04_营地_冒险准备",
+    "input": {
+      "prompt": "Use case: ui-mockup. Generate ONE COMPLETE finished game screenshot, exactly 3200x1440, 20:9 mobile landscape. You are the art director AND UI designer. Render the entire UI yourself: all text, icon art, tabs, panels, buttons, materials and the game scene. This is a high-end pixel-art independent game screenshot ready for a Steam store gallery. It is NOT a background asset, wireframe, design-system chart, CSS/web dashboard or a flat mockup to be overlaid later.\nVISUAL REFERENCES: Image 1 is an official Dead Cells Collector menu and Image 2 is an official Dead Cells equipment screen. Study their vivid pixel icons, deep blue/purple surfaces, copper detail, selective high contrast, clear grouping and confident hierarchy. Translate that level of coherent art direction into OUR original game. Do not copy their words, items, currencies, controller glyphs, branding, gameplay or menu structure. Make a visually ambitious, personally art-directed screen with luminous cool darks, purposeful warm highlights and crafted pixel detail. Preserve ample quiet areas so the richness feels composed. All game elements and all UI must belong to the same visual world.\nMobile use is essential: large easily readable Chinese, large finger-friendly selected objects and actions, obvious first/second reading layers, comfortably spaced major controls. We are evaluating the final rendered appearance, not an engineering diagram. Freely solve proportions, framing, typography, icon design, material and composition; do not force a rigid generic three-column spreadsheet. No wall of tiny print, no hospital/enterprise dashboard, no plain olive rectangles, no repetitive gold filigree, no glossy 3D bevels or uniform corner ornaments. Sophisticated color and craft, not monochrome drabness.\nFUNCTIONAL INVARIANTS: keep left-side equipped build, a distinct right-side backpack two base cells wide with vertical continuation, and central primary scene/task. Each actual equipped item is ONE merged item block spanning the two base-cell width: no center vertical seam through an occupied item and no two separate weapons side by side. Only the empty slots show the underlying two-cell grid. Keep THREE global tabs: “装备栏位” / “英雄属性” / “装备图鉴”. They must be large and readable; you may let the tab strip extend above the adjacent central area rather than shrinking three tabs into a tiny narrow bar. No narrow extra vertical toolbar, no duplicated bottom tab row.\nShared top status: “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Health red full, stamina teal full; corruption is an EMPTY dark track with a restrained violet outline because it is zero. Typography and icons are designed into the image, not absent placeholders. Do not add a game logo, a fabricated game title, English filler, debug notes, a phone bezel, perspective mockup, ornamental UI labels or other resources.\nImage 4 is an official Dead Cells gameplay screenshot: use its layered pixel-space and blue-green vs warm lighting rhythm as a supporting reference, but do not inherit the special accessibility outlines or its side-scrolling composition.\nKnown equipped items: ONE green glass bottle “凝血毒剂”, ONE pale-green bioluminescent mushroom “灵魂香菇”, ONE silver dagger with a pale brass hilt “淬毒利刃”. Design elegant, detailed, readable pixel-art icons for these objects yourself; do NOT use simple geometric placeholder icons. Only the dagger has a small EMPTY charge indicator “0 / 100”. The bottle and mushroom have no charge bar. Keep their order top to bottom. The right backpack is empty in these three initial states, with weak empty-grid lines, so it supports rather than dominates the composition.\nNo new systems: no crafting, enchanting services, forging, daily tasks, wheel, multiplayer, extra currencies, damage controls, controller or keyboard keys. All art is ORIGINAL.\n\nSCREEN: the complete before-expedition preparation screen, equipment tab selected.\nImage 3 identifies our small white-and-brass round-helmet knight and pixel dungeon world; use this character identity but invent an ORIGINAL premium-looking camp interior. Create a breathtaking yet readable pixel-art ruined sanctuary: strong pointed-arch silhouettes, cool turquoise/indigo depth, faded wine-red hangings, warm candle pools, deliberate hard-edged light clusters, a modest iron-bound chest and a stone memorial. The knight stands small in the world, center stage. This is a beautifully composed playable game screen, not a giant character illustration or concept poster.\nKeep BOTH equipped build on the left and empty two-cell backpack on the right. In the central scene, make two large inviting secondary interactions: “保险箱” near the chest and “天赋培养” near the memorial. They must read as game controls with clear hierarchy, not as three identical website cards. The center also lets the player choose a dungeon layer in a concise horizontal or authored vertical presentation: “第1层 · 已通关”, “第2层 · 已选择”, “第3层 · 未解锁”. This is a visual state example, not a branching route map; do not add branches, stars, timers or more layers.\nOne confidently designed large main button reads “进入第2层”. Compose it with the stage so the player's next action is obvious. “出发前准备” can serve as a concise screen title, not a marketing slogan. No point balances, upgrade cost amounts or arbitrary currency prices. Skill points unlock talents and gold upgrades talents, but don't add their full menus here.\nGive the sanctuary and interface real visual sophistication: rich color transitions in the environment, clean pixel silhouettes, crafted material edges and carefully controlled accents. Do not make everything a flat black rectangle or bury the scene under bars.\n",
+      "images": [
+        "archive/ui-history/Sunburst整图03/参考原图/DC_01_Collector升级菜单_官方.png",
+        "archive/ui-history/Sunburst整图03/参考原图/DC_02_装备总览_官方.png",
+        "archive/ui-history/Sunburst整图03/参考原图/目标游戏_真实战斗无UI.png",
+        "archive/ui-history/Sunburst整图03/参考原图/DC_03_战斗场景与色彩_官方.jpg"
+      ],
+      "modelVersion": "gpt-image-2.5-sunburst",
+      "size": "3200x1440",
+      "n": 1,
+      "quality": "max",
+      "action": "modal"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2ac6ff5157103dedcc05a\") 统一轮询任务结果。"
+        }
+      ],
+      "structuredContent": {
+        "capabilityId": "image.gpt",
+        "execution": "message.create",
+        "jobId": "6ae2ac6ff5157103dedcc05a",
+        "raw": {
+          "id": "6ae2ac6ff5157103dedcc05a",
+          "object_id": "6ae2ac6ff5157103dedcc05a",
+          "title": "生成图片",
+          "content": {
+            "status": "pending",
+            "error": null,
+            "extra": null,
+            "buttons": null,
+            "favorites": [],
+            "progress": null,
+            "final_prompt": null,
+            "images": [],
+            "image_names": [],
+            "layer_decomposition": null,
+            "videos": [],
+            "audios": [],
+            "model_files": null
+          },
+          "role": "cli",
+          "createTime": "2026-10-29T10:16:15.820000+08:00",
+          "updateTime": "2026-10-29T10:16:15.860000+08:00",
+          "isFavorite": false,
+          "modelType": "GPT",
+          "messageType": "image",
+          "action": "modal",
+          "modelFormat": {
+            "version": "gpt-image-2.5-sunburst"
+          },
+          "spendTimeSeconds": null
+        }
+      }
+    }
+  },
+  {
+    "name": "09_商店_购买详情",
+    "input": {
+      "prompt": "Use case: ui-mockup. Generate ONE COMPLETE finished game screenshot, exactly 3200x1440, 20:9 mobile landscape. You are the art director AND UI designer. Render the entire UI yourself: all text, icon art, tabs, panels, buttons, materials and the game scene. This is a high-end pixel-art independent game screenshot ready for a Steam store gallery. It is NOT a background asset, wireframe, design-system chart, CSS/web dashboard or a flat mockup to be overlaid later.\nVISUAL REFERENCES: Image 1 is an official Dead Cells Collector menu and Image 2 is an official Dead Cells equipment screen. Study their vivid pixel icons, deep blue/purple surfaces, copper detail, selective high contrast, clear grouping and confident hierarchy. Translate that level of coherent art direction into OUR original game. Do not copy their words, items, currencies, controller glyphs, branding, gameplay or menu structure. Make a visually ambitious, personally art-directed screen with luminous cool darks, purposeful warm highlights and crafted pixel detail. Preserve ample quiet areas so the richness feels composed. All game elements and all UI must belong to the same visual world.\nMobile use is essential: large easily readable Chinese, large finger-friendly selected objects and actions, obvious first/second reading layers, comfortably spaced major controls. We are evaluating the final rendered appearance, not an engineering diagram. Freely solve proportions, framing, typography, icon design, material and composition; do not force a rigid generic three-column spreadsheet. No wall of tiny print, no hospital/enterprise dashboard, no plain olive rectangles, no repetitive gold filigree, no glossy 3D bevels or uniform corner ornaments. Sophisticated color and craft, not monochrome drabness.\nFUNCTIONAL INVARIANTS: keep left-side equipped build, a distinct right-side backpack two base cells wide with vertical continuation, and central primary scene/task. Each actual equipped item is ONE merged item block spanning the two base-cell width: no center vertical seam through an occupied item and no two separate weapons side by side. Only the empty slots show the underlying two-cell grid. Keep THREE global tabs: “装备栏位” / “英雄属性” / “装备图鉴”. They must be large and readable; you may let the tab strip extend above the adjacent central area rather than shrinking three tabs into a tiny narrow bar. No narrow extra vertical toolbar, no duplicated bottom tab row.\nShared top status: “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Health red full, stamina teal full; corruption is an EMPTY dark track with a restrained violet outline because it is zero. Typography and icons are designed into the image, not absent placeholders. Do not add a game logo, a fabricated game title, English filler, debug notes, a phone bezel, perspective mockup, ornamental UI labels or other resources.\nImage 4 is an official Dead Cells gameplay screenshot: use its layered pixel-space and blue-green vs warm lighting rhythm as a supporting reference, but do not inherit the special accessibility outlines or its side-scrolling composition.\nKnown equipped items: ONE green glass bottle “凝血毒剂”, ONE pale-green bioluminescent mushroom “灵魂香菇”, ONE silver dagger with a pale brass hilt “淬毒利刃”. Design elegant, detailed, readable pixel-art icons for these objects yourself; do NOT use simple geometric placeholder icons. Only the dagger has a small EMPTY charge indicator “0 / 100”. The bottle and mushroom have no charge bar. Keep their order top to bottom. The right backpack is empty in these three initial states, with weak empty-grid lines, so it supports rather than dominates the composition.\nNo new systems: no crafting, enchanting services, forging, daily tasks, wheel, multiplayer, extra currencies, damage controls, controller or keyboard keys. All art is ORIGINAL.\n\nSCREEN: complete mobile merchant shop, BUY mode with a selected item, before any transaction.\nThis is the central high-priority redesign. Keep the equipped build on the left and the two-cell empty backpack on the right, but let a LARGE central merchant/shop surface fill the usable middle area almost top to bottom. This is a substantial actual game shop interface, not a tiny tooltip floating in a mostly empty room. Separate a readable stock selection area and an elegant spacious item-detail area. Include an ORIGINAL characterful pixel-art merchant within the central composition as a secondary focal point, integrated with the inventory, never using so much space that the actual shop becomes tiny. A warm lantern/counter against cobalt and violet shadow may add life. Do not copy the Dead Cells Collector or Darkest Dungeon merchant.\nLocal shop tabs are “购买” and “出售” with BUY selected. Screen title “行商”. Product list has these three recognizable bronze catalogue objects: “淬毒利刃”, “凝血毒剂”, “灵魂香菇”. Select the merchant's “淬毒利刃”. This merchandise is a separate lower-grade example from the dagger equipped on the left; do not change the owned build.\nIn the large detail area, render an attractive large pixel-art dagger icon, “淬毒利刃”, a subtle “青铜” quality label, and these compact Chinese effects in readable lines:\n“充能后，下3次攻击造成15剧毒伤害。”\n“剧毒持续3回合 · 会心几率30%”\n“每8次剧毒伤害，施加1层易伤。”\nA large primary action reads “购买所选装备”. A clear secondary exit reads “离开商店”. Purchase price has NOT been specified: do not invent any number, discount, stock count or successful purchase balance. For this art-direction concept omit the numerical price rather than printing developer placeholders such as “暂无报价” or “待配置”; make no claim of a successful or affordable transaction.\nThe aesthetic should be a finished premium indie game menu with confident grouping, beautiful icon silhouettes, bold readable titles and layered pixel-lit atmosphere. Let model-led art direction transform the whole screen, including its typography and composition. This is not a reskin of a generic web layout. No tiny scrollable text sliver; all three concise item-effect lines must fit visibly in the main selected-item view.\n",
+      "images": [
+        "archive/ui-history/Sunburst整图03/参考原图/DC_01_Collector升级菜单_官方.png",
+        "archive/ui-history/Sunburst整图03/参考原图/DC_02_装备总览_官方.png",
+        "archive/ui-history/Sunburst整图03/参考原图/目标游戏_真实战斗无UI.png",
+        "archive/ui-history/Sunburst整图03/参考原图/DC_03_战斗场景与色彩_官方.jpg"
+      ],
+      "modelVersion": "gpt-image-2.5-sunburst",
+      "size": "3200x1440",
+      "n": 1,
+      "quality": "max",
+      "action": "modal"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2ac74f5157103dedcc05c\") 统一轮询任务结果。"
+        }
+      ],
+      "structuredContent": {
+        "capabilityId": "image.gpt",
+        "execution": "message.create",
+        "jobId": "6ae2ac74f5157103dedcc05c",
+        "raw": {
+          "id": "6ae2ac74f5157103dedcc05c",
+          "object_id": "6ae2ac74f5157103dedcc05c",
+          "title": "生成图片",
+          "content": {
+            "status": "pending",
+            "error": null,
+            "extra": null,
+            "buttons": null,
+            "favorites": [],
+            "progress": null,
+            "final_prompt": null,
+            "images": [],
+            "image_names": [],
+            "layer_decomposition": null,
+            "videos": [],
+            "audios": [],
+            "model_files": null
+          },
+          "role": "cli",
+          "createTime": "2026-10-29T10:16:20.361000+08:00",
+          "updateTime": "2026-10-29T10:16:20.394000+08:00",
+          "isFavorite": false,
+          "modelType": "GPT",
+          "messageType": "image",
+          "action": "modal",
+          "modelFormat": {
+            "version": "gpt-image-2.5-sunburst"
+          },
+          "spendTimeSeconds": null
+        }
+      }
+    }
+  }
+]

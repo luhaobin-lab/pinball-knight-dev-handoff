@@ -1,0 +1,353 @@
+{
+  "date": "2026-10-29",
+  "status": "offline_design_checks_passed",
+  "checks": [
+    {
+      "name": "3000 complete six-wave plans: room, composition, budget, reward conservation and shop constraints",
+      "pass": true,
+      "detail": "18000 encounters"
+    },
+    {
+      "name": "all six templates and six enemy roles reached",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "tutorial services and forced rare/Boss chest",
+      "pass": true,
+      "detail": "500 seeds, both floors for chests"
+    },
+    {
+      "name": "ordinary floor can contain zero enchant services",
+      "pass": true,
+      "detail": {
+        "seed": 25,
+        "run_id": "zero-enchant-proof",
+        "special_kinds": [
+          null,
+          null,
+          "forge",
+          null,
+          "forge",
+          null
+        ]
+      }
+    },
+    {
+      "name": "same seed/input/version produces identical plans after unrelated shop random draws",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "xorshift32 public reference vector seed=1",
+      "pass": true,
+      "detail": [
+        270369,
+        67634689,
+        2647435461,
+        307599695,
+        2398689233
+      ]
+    },
+    {
+      "name": "RNG save/restore repeats next result exactly",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "special probability zero yields no ordinary random service",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "special probability one yields a service",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "XP threshold and skill points are configurable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "forge attempt cap is configurable",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "chest count and pick limit read configuration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "shop shelf count reads configuration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all configured buy/sell/merge loops have negative direct gold return",
+      "pass": true,
+      "detail": "This does not simulate every source item effect; money-producing items excluded"
+    },
+    {
+      "name": "forge 3000 result transitions and failure boundaries",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "death/abandon/victory settlement retention and duplicate protection in reference aggregate",
+      "pass": true,
+      "detail": "No real disk crash test performed"
+    },
+    {
+      "name": "rune lifecycle configuration preserves victory and clears death/abandon",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "victory to next adventure preserves row runes; later death/abandon clears them without replay resurrection",
+      "pass": true,
+      "detail": "Empty equipment, independent aggregates, transient reset and start/finish idempotency"
+    },
+    {
+      "name": "Boss chest resolves before transfer and first-clear reward cannot repeat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "rune top anchor and explicit external compatibility adapter boundary",
+      "pass": true,
+      "detail": "Stub checks definition selection only; none of the 50 combat effects is implemented here"
+    },
+    {
+      "name": "all 50 self-contained enchants enabled in design with effects and unresolved adapter information",
+      "pass": true,
+      "detail": "18/14/9/6/3; not a runtime readiness claim"
+    },
+    {
+      "name": "all tiers have nonzero floor1 probability and higher-tier tail probability grows by floor",
+      "pass": true,
+      "detail": {
+        "1": [
+          90.0,
+          9.0,
+          0.8999999999999999,
+          0.09,
+          0.01
+        ],
+        "2": [
+          85.00239069223822,
+          12.750358603835732,
+          1.9125537905753598,
+          0.28688306858630397,
+          0.047813844764384
+        ],
+        "5": [
+          70.12622720897616,
+          21.037868162692845,
+          6.311360448807854,
+          1.8934081346423561,
+          0.6311360448807855
+        ],
+        "10": [
+          47.15760793033773,
+          25.936684361685753,
+          14.265176398927165,
+          7.84584701940994,
+          4.794684289639408
+        ]
+      }
+    },
+    {
+      "name": "each choice draws a tier then a distinct within-roll ID; all 50 IDs observed",
+      "pass": true,
+      "detail": "2000 offer pairs at floor10 plus controlled same-tier/mixed-tier fixtures"
+    },
+    {
+      "name": "saved offers reopen without reroll; paid rerolls are atomic, cost 10/20/40 and reset per node",
+      "pass": true,
+      "detail": "Insufficient gold and fourth reroll preserve wallet, offers, count and RNG; duplicates charge once"
+    },
+    {
+      "name": "no rare pity or loadout filtering; cross-roll IDs can repeat",
+      "pass": true,
+      "detail": "100 empty-equipment service sequences; initial draw plus three paid rolls"
+    },
+    {
+      "name": "free one-time claim, explicit overwrite confirmation, three-row cap and cross-row duplicates",
+      "pass": true,
+      "detail": "Cancel is unchanged, paid rolls are not refunded, full board may overwrite, three legendary rows allowed"
+    },
+    {
+      "name": "invalid rows, ID, stale offers/revisions, replacement and phase reject without mutation",
+      "pass": true,
+      "detail": "No wallet, node, RNG or command-ledger changes"
+    },
+    {
+      "name": "floor scaling and Boss cycling finite to floor100, with extension label",
+      "pass": true,
+      "detail": "No balance or numeric-runtime precision claim beyond floor2"
+    },
+    {
+      "name": "unsupported floor fails explicitly",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "next-floor opening HP-budget proxy below previous last wave",
+      "pass": true,
+      "detail": 0.3195592286501377
+    }
+  ],
+  "seed_count": 1500,
+  "floors": 2,
+  "encounters_checked": 18000,
+  "elite_waves": 2281,
+  "special_observed_fraction": 0.5521666666666667,
+  "forge_plus3": {
+    "samples": 10000,
+    "mean_gold": 203.8092,
+    "p50_gold": 152,
+    "p90_gold": 404,
+    "unlimited_future_visits_assumption": true
+  },
+  "novice_ledger": [
+    {
+      "attempt": 1,
+      "gold": 15,
+      "level": 2,
+      "xp": 30,
+      "skill_points": 0,
+      "power_rank": 2,
+      "vitality_rank": 0,
+      "attack": 36,
+      "hp": 180
+    },
+    {
+      "attempt": 2,
+      "gold": 30,
+      "level": 3,
+      "xp": 30,
+      "skill_points": 0,
+      "power_rank": 2,
+      "vitality_rank": 2,
+      "attack": 36,
+      "hp": 198
+    },
+    {
+      "attempt": 3,
+      "gold": 25,
+      "level": 3,
+      "xp": 120,
+      "skill_points": 0,
+      "power_rank": 2,
+      "vitality_rank": 3,
+      "attack": 36,
+      "hp": 207
+    },
+    {
+      "attempt": 4,
+      "gold": 20,
+      "level": 4,
+      "xp": 75,
+      "skill_points": 1,
+      "power_rank": 3,
+      "vitality_rank": 3,
+      "attack": 39,
+      "hp": 207
+    },
+    {
+      "attempt": 5,
+      "gold": 65,
+      "level": 4,
+      "xp": 165,
+      "skill_points": 1,
+      "power_rank": 3,
+      "vitality_rank": 3,
+      "attack": 39,
+      "hp": 207
+    },
+    {
+      "attempt": 6,
+      "gold": 30,
+      "level": 5,
+      "xp": 52,
+      "skill_points": 2,
+      "power_rank": 3,
+      "vitality_rank": 4,
+      "attack": 39,
+      "hp": 216
+    },
+    {
+      "attempt": 7,
+      "gold": 75,
+      "level": 5,
+      "xp": 142,
+      "skill_points": 2,
+      "power_rank": 3,
+      "vitality_rank": 4,
+      "attack": 39,
+      "hp": 216
+    },
+    {
+      "attempt": 8,
+      "gold": 40,
+      "level": 5,
+      "xp": 232,
+      "skill_points": 2,
+      "power_rank": 4,
+      "vitality_rank": 4,
+      "attack": 42,
+      "hp": 216
+    },
+    {
+      "attempt": 9,
+      "gold": 85,
+      "level": 6,
+      "xp": 18,
+      "skill_points": 3,
+      "power_rank": 4,
+      "vitality_rank": 4,
+      "attack": 42,
+      "hp": 216
+    },
+    {
+      "attempt": 10,
+      "gold": 10,
+      "level": 6,
+      "xp": 108,
+      "skill_points": 3,
+      "power_rank": 4,
+      "vitality_rank": 5,
+      "attack": 42,
+      "hp": 225
+    }
+  ],
+  "opening_hp_budget_ratio": 0.3195592286501377,
+  "mean_total_enemy_hp_by_wave": {
+    "1": [
+      60.36,
+      82.156,
+      115.838,
+      163.098,
+      214.70133333333334,
+      287.56466666666665
+    ],
+    "2": [
+      87.34,
+      118.52133333333333,
+      168.66,
+      237.03133333333332,
+      310.83866666666665,
+      415.88733333333334
+    ]
+  },
+  "not_validated": [
+    "real combat damage/physics/AI",
+    "runtime item effect adapters",
+    "actual persistent save transactions/crash recovery",
+    "UI input/screenshots",
+    "blind player flow/fun",
+    "win rates or endless balance"
+  ]
+}

@@ -1,0 +1,108 @@
+状态、存档、装备与交互合同
+
+1. 主流程状态机
+CAMP → PREPARE → COMBAT → WAVE_SETTLE → CHEST → SHOP → SPECIAL_OR_SKIP → NEXT_WAVE
+第6波结束后：SHOP → SPECIAL_OR_SKIP → BOSS_PREPARE → BOSS_COMBAT → VICTORY_LOCK → BOSS_CHEST → VICTORY_SETTLE → CAMP
+VICTORY_LOCK在英雄存活且Boss死亡的批次结束时锁定胜利，保存Boss击杀收益；仍保留Run物品容器和格子附魔。处理完Boss宝箱才调用finish_adventure(victory)，统一转移携带物和格子附魔、发首通奖和解锁下一层。胜利锁定后不能主动放弃判负，退出只恢复奖励页。
+任意战斗英雄死亡：DEATH_SETTLE → RESULT → CAMP。
+主动放弃：ABANDON_SETTLE → RESULT → CAMP。
+暂停/退出：保存当前状态，恢复原节点；不创建新出征、不重抽奖励、不补满状态。
+
+每个状态只有定义过的合法命令。按钮禁用只是表现，核心层仍必须拒绝非法命令。
+CAMP：仓库存取、营地出售、天赋解锁/升级/洗点、调整装备、合并、选择层、出发。
+PREPARE/非战斗整备：拖动/排序/卸装、按所属页面权限合并、使用有剩余次数的药剂；用药不触发敌方回合，不触发充能，资源满时禁用。
+COMBAT/BOSS_COMBAT：瞄准、发射、允许时机的消耗品使用、暂停、只读查看；不能拖动、出售、点天赋。
+CHEST：选择、领取、整理空间、确认放弃剩余奖励；不允许刷新宝箱。
+SHOP：购买、出售、刷新、治疗、合并、整理、离开。
+SPECIAL：当前服务、合并、整理、用药、离开。附魔节点开放领取前的金币ROLL和免费二选一；领取成功后不再允许ROLL/领取。不能从锻造页调用附魔命令。合并仅在CAMP/SHOP/SPECIAL三个页面开放，CHEST与BOSS_PREPARE不开放。
+
+2. 存档拆成三个明确对象
+
+ProfileSave
+schemaVersion, contentVersion, profileId, revision,
+gold, level, xpWithinLevel, skillPoints,
+talents[{talentId,rank,skillPointsPaid,goldPaid}],
+stashItems[], campCarryItems[], equipmentPlacement[], enchantedRows{rowIndex:runeId},
+unlockedFloor, firstClearClaimed[], tutorialAttemptFinished,
+activeRunId, appliedEventIds[], updatedAt。
+
+RunSave
+runId, profileId, seed, contentVersion, revision,
+floorIndex, waveIndex, state, currentRoomId,
+hero{hp,stamina,corruption,battleTemporaryState},
+items[{instanceId,definitionId,tier,honing,chargesRemaining,placement}],
+enchantedRows{rowIndex:runeId},
+rngStates{domain:state}, generatedEncounters[], chestOffers[], shopOffers[],
+lootLowStreak, specialMisses, lastSpecialType, repeatedSpecialType,
+eliteCount, previousWaveElite, pendingRewardIds[], killedEnemyIds[], victoryLocked, bossChestResolved,
+shopRefreshCount, shopHealingUsed, forgeAttempts,
+enchant_nodes{node_id:{floor,wave,rule_revision,catalog_sha256,offers[2],offer_revision,refresh_count,claimed,claimed_id,claimed_row,rng_state}},
+settled, outcome, tutorialRun, bossPreparationRecoveryApplied。
+
+ContentDefinition
+使用03目录的稳定定义ID+真实sourceRowId+来源表/行。实例与定义不可混为一谈；两个旧剑有两个instanceId，但共用I022定义。
+所有事件ID必须包含runId/nodeId/eventType/localOrdinal；怪物生成ID也包含runId。不要把F1W1E0直接当全账号唯一ID。
+
+3. 所有权和资产账本
+营地存放：物品只能属于stash或campCarry中的一个集合；装备布局只是campCarry物品的引用，不另复制一份。
+格子附魔独立于物品所有权：营地只由ProfileSave.enchantedRows持有，出征时只由RunSave.enchantedRows持有。键为装备栏行号0～7，每键只映射一个E001～E050定义，最多3行，包含继承的符文；不放入物品实例、背包或保险箱。已有符文行可以在免费领取的覆盖确认中替换，满3行时禁止新增第4行。不同的行允许相同ID，不增加传说唯一限制。
+出发时：把本次campCarry中选定物品移交给RunSave。未带入的仍在保险箱/营地安全存放；不可留下同instanceId在两个集合。
+同一出发事务把ProfileSave.enchantedRows完整移交RunSave.enchantedRows，并将Profile端设为空；不受带入哪些装备影响，不保留可用于死亡回滚的旧符文副本。
+成功返回：RunSave物品转到campCarry，继续保持装备/背包布局；RunSave.enchantedRows按原行号转回ProfileSave.enchantedRows，并清空Run端。保险箱满不影响带出物品或保留符文，玩家以后自行转存物品。
+死亡/放弃：RunSave物品销毁，不生成地面可回收尸体，不调用出售/分解，不生成空瓶或材料；campCarry不恢复旧拷贝。ProfileSave.enchantedRows与RunSave.enchantedRows同时清空，包括此前成功通关继承的符文；已提交的死亡/放弃不能因重载恢复出发前旧副本。
+每战结束清除该战临时充能、增益、待消费攻击队列与触发计数；战斗结算后符文配置仍保留，直到死亡/放弃事务清空。暂停/退出恢复当前Run，不清符文，也不重新发放战斗开始收益。
+金币和经验由Profile统一持有，Run记录当前回合pending。完整回合/清波/死亡批次提交后已经入账，返回营地不再次把“本局收入”加回钱包。
+本局收入/支出只是结果页统计，不是另一份可结算货币。
+
+4. 事务和断点恢复
+奖励领取、买卖、合并、锻造、附魔ROLL、附魔免费领取/覆盖、出发、死亡、胜利全部执行：
+读取当前revision → 校验phase与命令参数 → 检查commandId是否已提交 → 计算新状态及随机结果 → 同一存储事务写入Profile/Run/事件去重 → 更新revision → 播放表现。
+IndexedDB建议一个transaction同时写profile/run/events；不要用三次localStorage.setItem伪装原子事务。小型实现可把聚合状态封装成单记录原子写入，但要保留上一有效版本作迁移回退。
+扣款后崩溃：恢复已记录结果，不能只扣钱不出物品。重复点击/网络式重试：同commandId返回原结果，不再次掷骰。
+出发、成功、死亡/放弃的符文转移或清空与对应物品结算共用原子事务和commandId；重试只返回原结算，不再次复制、清空后回填或恢复旧营地副本。恢复到上一个有效版本只能处理未提交事务或存档迁移失败，不能撤销已提交的死亡。
+附魔节点的初始两个候选先保存再展示；offer_revision为0，refresh_count为0，claimed为false。每次合法ROLL检查当前节点、尚未领取、次数<3、余额，再按配置费用扣币，沿节点已保存rng_state抽出并替换整组两个候选，同时保存新rng_state、递增次数与候选版本；同一事务不修改enchantedRows。费用首轮测试值10/20/40，不足金币或已领取的请求不扣钱、不消费随机。
+免费领取检查当前候选ID、offer_revision、目标行与3行上限。空行直接提交；已有行先显示覆盖确认，确认时再次核对旧符文与版本，防止把过期预览写入新状态。取消确认退回选行，不扣免费次数、不改符文；已提交ROLL费不退。确认后同事务写入/替换该行并设置claimed、claimed_id、claimed_row；重复确认返回已处理标记并读取已保存结果。
+附魔参考接口对已提交commandId返回duplicate已处理标记，由调用方读取已保存节点结果恢复显示；它不保存完整响应收据，但不再次扣费、推进随机或领取。生产层仍需把状态与命令去重记录同事务持久化。
+跳过或离开不会退ROLL费用；再次打开同一节点恢复原候选、费用档位和领取状态。已领取节点无法再ROLL或再领；未领取的免费次数不跨节点累计。每次展示两个ID不同，跨版本/节点允许重复；没有附魔品质保底或用于补偿的连低档计数。
+进战斗时保存已生成布局、敌人及战前快照。战斗内每个完整回合结束保存，包括击杀奖励的事件ID；不能读战前快照同时保留上一遍打出的金币再发一次。
+击杀时只记录本回合pending奖励；回合结束、清波或死亡批次将收益、物品使用、敌人死亡、HP和随机状态一次提交。不能先永久发金币再把战斗快照留在上个回合。
+中途崩溃可恢复到最后一个完整回合，未提交的战斗与收益一起回滚；已经提交的命中和奖励不重复。明确提示恢复点，不伪称逐帧恢复。
+本地单机不承诺阻止玩家手动修改存档，但正常刷新、退出、重复点击不应产生系统性复制。
+
+5. 随机域隔离
+每次创建出征生成新的持久runId和rootSeed；开始出征事务提交后才能使用。内容版本也进种子。
+layout控制房间；encounter控制编队/出生点；elite控制精英；loot控制物品；shop控制货架；special控制服务是否出现及类型；enchant_offer控制附魔候选与ROLL；forge控制强化；combat控制战斗随机。
+参考实现FNV-1a UTF-8哈希+32位xorshift，所有uint32操作显式截断。移植到TS用Math.imul/>>>0。随机整数用拒绝采样，禁止简单取模带入偏差。
+生成键：version|seed|runId|floor|wave|domain|index。刷新次数是shop index；附魔enchant_offer域仅在节点首次建立时使用rule_revision+'/'+node_id派生起始流，生成候选后保存rng_state。随后三次ROLL沿节点已保存状态推进，offer_revision与refresh_count从0递增到3，不重新派生流。同节点恢复读取已有offer与rng_state，不重新抽选；附魔重抽不影响特殊节点排布、下个宝箱或锻造。战斗/锻造连续抽取也必须保存当前随机state，不能每次按钮点击重置到同种子首数。
+宝箱保底、特殊节点计数、精英上限也要保存；种子相同但计数丢失仍然会漂移。音效、粒子、闲置动画使用独立视觉随机，不消耗上述域。
+
+6. 装备栏和空间
+保留已确认的纵向排序。每件物品横跨两个基础格，宽度恒为整栏；按源占格高度占1/2/3行，不能把原模型几何高度当UI行数。
+装备初始8行、背包12行、保险箱40行；第一版不做扩容，以便先验证空间压力。滚动只改变可见区域，不凭空增加容量。
+上方=anchorRow更小；下方相邻=下一件物品anchorRow等于本物品anchorRow+heightRows，中间有空格就不相邻。多个上方目标按anchorRow升序处理。
+放置必须连续空位且不越界；交换两件不同高度物品时先验证两者最终位置，没有合法结果就恢复原样。拖拽途中不修改战斗属性，drop事务成功才更新。
+重复“装备/卸装”不获得战斗开始收益。非战斗页可以任意整理，不因拖动耗掉药剂或提前充能。
+
+7. 药剂与背包满
+生命药剂恢复15%最大生命（向下取整），不能把录制时22当永久常量。体力药剂恢复10。每瓶3次，实际使用才扣次数；不能超上限，满资源时按钮不可用。
+战斗中只能在玩家尚未发射的输入阶段使用，最多每回合一次药剂；不额外触发敌方回合。UI明确显示本回合次数；不能在飞行、敌人行动或结算过程中用药。
+非战斗阶段允许在整备页使用药剂（不受战斗每回合次数限制，仍扣真实瓶次数）；商店治疗与战后免费回复为不同入口，不能重复套用。
+药剂从装备栏或背包都可使用；只有装备栏上有效锚点的药剂获得格子治疗增益。耗空实例移除，本prototype不生成可卖空瓶；原空瓶衍生路径禁用。
+宝箱满包：允许在奖励页装备/移动已有物品，或标记要丢弃的现有物品后确认；此页不提供立即出售，避免绕过商店规则。可放弃本次奖励，但要明确确认。没有自动把高价物品挤掉的行为。
+商店满包：交易预览能选择直接替换装备，同时将旧物品移动到有空间的背包；没空间则先出售或取消。任何失败交易不扣金币。
+
+8. UI页面最低要求
+营地：固定左右装备/背包，中央保险箱、英雄天赋、地牢层选择；顶栏钱包/等级/技能点。装备栏显示成功保留的符文和“死亡会清空”说明；英雄属性页包含天赋，不新增独立天赋图鉴。
+战斗：顶栏HP/体力/腐化，波次N/6与当前地牢层分开；左装备、右背包；充能、强固、精英/Boss预警清楚可辨。菜单打开只读并暂停核心，关闭时不推进回合。
+宝箱：三个实物卡，明示可选件数；一键比较但不替玩家选；确认后继续。
+商店：货架、当前物品出售价、刷新费和剩余次数、离开；购买前显示剩余金币。
+锻造：当前/成功/失败结果并排；概率、成本、剩余次数；确认和离开。
+附魔：并排两个候选，显示品级、效果、载体条件、免费领取状态、ROLL费用/剩余次数、当前附魔行数/3与离开。先选符文再选整行，已有行显示旧→新覆盖确认和取消；无当前适用装备时说明条件，不能私自重抽为当前背包最优项。领取成功后隐藏或禁用领取/ROLL入口；手机操作细节留待后续设计。
+死亡：本次丢失、已保留、可成长三块；丢失清单包含全部格子附魔，回营地后可直接升级并再次出发。
+成功：Boss奖励、下一层解锁、物品带出与按行保留的符文；库存不足不阻塞回营地。
+旧UI规范里“absent锻造/附魔”是2026-10-28美术批次范围，本次用户已经把它们加入玩法，故新页面需要新增；左右栏和三页签规则继续沿用。
+
+9. 数据迁移
+prototype使用新saveSchema，不直接覆盖旧存档。首次进入新模式创建新Profile；保留旧模式存档供用户返回。
+旧金币、经验、天赋不能不加区分地迁移为永久档案。正式迁移要另写一次性映射和验算，首版不自动迁移旧运行状态。
+contentVersion改变数值只影响下一次出征；当前出征固定使用创建时内容版本，避免加载到一半改变怪物/奖励。移除的物品定义必须有迁移表，否则拒绝加载并保留原存档，不静默删除。

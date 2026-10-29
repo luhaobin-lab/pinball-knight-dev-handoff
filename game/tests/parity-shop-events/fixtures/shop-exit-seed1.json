@@ -1,0 +1,130 @@
+{
+  "source": "D:/TAPTAPGAME_codex/studio/reports/parity-craft-inputs/seed-1.json",
+  "sha256": "6764b6b26dcc7e76e2b8434b166e3c1d24a7b0f1ce29c17dafafff34dd5b391b",
+  "sourceCommit": "coverage capture before source automatic-exit decision wait",
+  "commands": [
+    {
+      "time": 1.0333333333333334,
+      "cmd": {
+        "type": "title.newRun"
+      }
+    },
+    {
+      "time": 1.5333333333333334,
+      "cmd": {
+        "type": "hero.start"
+      }
+    },
+    {
+      "time": 2.9833333333333334,
+      "cmd": {
+        "type": "map.enter",
+        "cell": "r1c0"
+      }
+    },
+    {
+      "time": 3.566666666666667,
+      "cmd": {
+        "type": "interact",
+        "actor": 221
+      }
+    },
+    {
+      "time": 4.083333333333333,
+      "cmd": {
+        "type": "loot.take",
+        "item": 234
+      }
+    },
+    {
+      "time": 5.616666666666666,
+      "cmd": {
+        "type": "item.dismantle",
+        "item": 234
+      }
+    },
+    {
+      "time": 5.616666666666666,
+      "cmd": {
+        "type": "map.enter",
+        "cell": "r2c0"
+      }
+    },
+    {
+      "time": 6.2,
+      "cmd": {
+        "type": "interact",
+        "actor": 324
+      }
+    },
+    {
+      "time": 6.716666666666667,
+      "cmd": {
+        "type": "loot.take",
+        "item": 337
+      }
+    },
+    {
+      "time": 6.716666666666667,
+      "cmd": {
+        "type": "loot.take",
+        "item": 341
+      }
+    },
+    {
+      "time": 6.716666666666667,
+      "cmd": {
+        "type": "loot.close"
+      }
+    },
+    {
+      "time": 8.25,
+      "cmd": {
+        "type": "item.dismantle",
+        "item": 341
+      }
+    },
+    {
+      "time": 8.25,
+      "cmd": {
+        "type": "item.dismantle",
+        "item": 337
+      }
+    },
+    {
+      "time": 8.25,
+      "cmd": {
+        "type": "map.enter",
+        "cell": "r3c1"
+      }
+    },
+    {
+      "time": 8.833333333333334,
+      "cmd": {
+        "type": "interact",
+        "actor": 429
+      }
+    },
+    {
+      "time": 8.833333333333334,
+      "cmd": {
+        "type": "interact",
+        "actor": 424
+      }
+    },
+    {
+      "time": 8.833333333333334,
+      "cmd": {
+        "type": "interact",
+        "actor": 429
+      }
+    },
+    {
+      "time": 8.833333333333334,
+      "cmd": {
+        "type": "interact",
+        "actor": 424
+      }
+    }
+  ]
+}

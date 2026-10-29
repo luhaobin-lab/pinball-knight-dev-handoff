@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "isolatedCopyHasMothers": false,
+  "indexBuildWithoutMothers": {
+    "ready": 308,
+    "missing": 0,
+    "issues": [],
+    "atlases": 7
+  },
+  "PNGVariantsVerifiedWithoutMothers": 616,
+  "optionalMotherFilesMissing": 308,
+  "rebuildMissingMothersExitCode": 2,
+  "rebuildExplainsReleaseArchive": true,
+  "browserWithoutMothers": {
+    "status": "pass",
+    "iconsInCatalogue": 308,
+    "PNGVariantsDecodedInChrome": 616,
+    "searchAndCategoryFilters": true,
+    "sourceDetails": true,
+    "downloadBytesMatch": true,
+    "integerScaling1440And390": true,
+    "backgroundControls": true,
+    "motherControlValidated": false,
+    "motherRequiredForDefaultCatalogue": false,
+    "offlineFilePreview": true,
+    "errors": [],
+    "boundary": "Browser library validation, not import into the target game."
+  },
+  "temporaryCopyRemovedAfterCheck": true,
+  "boundary": "Portable file/index/browser behavior; no game engine integration or new visual acceptance."
+}

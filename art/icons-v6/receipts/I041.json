@@ -1,0 +1,86 @@
+{
+  "id": "I041",
+  "name": "幽焰龙头",
+  "status": "generated-normalized",
+  "source": "mothers/I041.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I041.png",
+  "motherSha256": "649353c9f2b7544110766e85a9cbbfc2c387ee43791595658a97cf1007b4b17c",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I041.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6399,
+      "sha256": "2a2564bc82f67f817996d4212df2272dd83cf5ce3b68c3f7ab2aa987504fa93c",
+      "pixelSha256": "a3fcf4f7c01e0fba4d173fc7d8806ecf9f033b2069aed5dd34c7034241708a70",
+      "alphaBounds": [
+        7,
+        4,
+        121,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          80,
+          39,
+          1201,
+          1223
+        ],
+        "fitSize": [
+          114,
+          120
+        ],
+        "position": [
+          7,
+          4
+        ],
+        "scale": 0.10135135135135136
+      }
+    },
+    "256": {
+      "file": "pixels/256/I041.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23558,
+      "sha256": "e0379a2adb72f9c96bdffdff1137fa99f0137fd09248cc681549dd246fecd421",
+      "pixelSha256": "8fee27ce8ebce65026e26020ea6d3b274cd70a7eaebbcca7f8a7653b042fc4f4",
+      "alphaBounds": [
+        14,
+        9,
+        241,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          80,
+          39,
+          1201,
+          1223
+        ],
+        "fitSize": [
+          227,
+          240
+        ],
+        "position": [
+          14,
+          8
+        ],
+        "scale": 0.20270270270270271
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; recognizable rock / detached branch / dragon head, complete single asset",
+  "sourceProvenance": {
+    "sourceFilename": "exec-88379195-b8f3-47ce-822e-de4b589bc4c9.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-88379195-b8f3-47ce-822e-de4b589bc4c9"
+  }
+}

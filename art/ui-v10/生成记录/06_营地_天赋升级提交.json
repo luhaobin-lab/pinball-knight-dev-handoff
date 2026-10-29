@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Image1 is the FINAL NEW WIDE HERO PAGE and the exact target for this edit. Preserve its whole page pixel layout, dark plum paper surface, pen drawing, portrait, header, backpack, and all6 talent positions. Image2 supplies ONLY the required camp state and wording, never its old beige materials. Return one complete3200x1440 image. NO separate equipment sidebar on the left; the wide page must continue across the LEFT+MIDDLE exactly as Image1 does. Rightbackpack3empty+1locked with full unobstructed frame. No masonry overlaps any UI.\nPAGE06 CAMP TALENT UPGRADE BEFORE TRANSACTION. Use Image1's NEW PAGE02 exact dark character sheet, font and geometry. Location 营地; second tab selected. Select 博学 FIRST ROW MIDDLE (never reorder tiles). Detail 博学 and 获得的经验值提升12.5%。 Status 已解锁 · 消耗金币. Actions 返回营地 secondary and 升级天赋 primary in same positions as05. Preserve portrait and stats180/30/0/0%/500 and same six talents. Right3empty+lock. No numeric fee, levels, next-level percentage, point costs, inferred affordability or success. Green brackets identify selected 博学, not action button.\nAll changes from Image1 are limited to the location title, selected talent state/details, and bottom actions described. Do not repaint into a different style, add any cost/level/point balance, enlarge the portrait, move any tile, add an empty frame, or change the source master geometry. Keep the exact image1 top resource icons and values180/180,100/100,0/100EMPTY,4.",
+    "images": [
+      "art/ui-v10/原始生成图/02_战斗_英雄属性与天赋_修正.png",
+      "archive/ui-v09-approved/交付原图/06_营地_天赋升级.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2f380f5157103dedccb73\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2f380f5157103dedccb73",
+      "raw": {
+        "id": "6ae2f380f5157103dedccb73",
+        "object_id": "6ae2f380f5157103dedccb73",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T15:19:28.167000+08:00",
+        "updateTime": "2026-10-29T15:19:28.183000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

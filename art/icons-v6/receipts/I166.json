@@ -1,0 +1,93 @@
+{
+  "id": "I166",
+  "name": "花冠",
+  "status": "generated-normalized",
+  "source": "mothers/I166.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I166.png",
+  "motherSha256": "f1e0cdec8003dbc84bee1ec3e5c0bfb48737ebdb6b4d75e590edc88d1f543dd8",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I166.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3068,
+      "sha256": "7a9dc90b7ba86e72320697a6874413e0c368f51d7415596d8a7e17fced564449",
+      "pixelSha256": "fc42571973ab05c26944d578e2f695fbe2a39a4768f10bb7fa32769b59b9fe25",
+      "alphaBounds": [
+        5,
+        4,
+        123,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          37,
+          39,
+          1744,
+          851
+        ],
+        "fitSize": [
+          118,
+          56
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.06896551724137931
+      }
+    },
+    "256": {
+      "file": "pixels/256/I166.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10981,
+      "sha256": "42bd5149971afb50701009dac1732b8ecd7e73784921c8597c59868f526632b3",
+      "pixelSha256": "0361d455ffd2d149740f7632e845ae467a32bc40f55bbb09c42afa20f9da2b8b",
+      "alphaBounds": [
+        10,
+        8,
+        245,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          37,
+          39,
+          1744,
+          851
+        ],
+        "fitSize": [
+          235,
+          112
+        ],
+        "position": [
+          10,
+          8
+        ],
+        "scale": 0.13793103448275862
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-01.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-01.png",
+    "pixelSha256": "0361d455ffd2d149740f7632e845ae467a32bc40f55bbb09c42afa20f9da2b8b",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-02b68207-d9d1-4160-a46b-8bf8cf15359b.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-02b68207-d9d1-4160-a46b-8bf8cf15359b"
+  }
+}

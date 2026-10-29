@@ -1,0 +1,80 @@
+{
+  "id": "I016",
+  "name": "瘟疫花",
+  "status": "generated-normalized",
+  "source": "[original-local-file]/exec-f8934026-4e3c-4c59-a2e1-a322a78ef42e.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I016.png",
+  "motherSha256": "f507be161eb4b5ed48934de895cd756a7970c956127d33f1d04e7ee369231f6b",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I016.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 9209,
+      "sha256": "74011a9234eea2db7e1e4e722e5848c5f10e74a3542772c09904384057b58cc5",
+      "pixelSha256": "3a4b08403e7fe34e2efcfa959e16d53bc5c5e8d76c45ad06ce2cec262cc7908f",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        186
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          39,
+          39,
+          994,
+          1482
+        ],
+        "fitSize": [
+          120,
+          181
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.1256544502617801
+      }
+    },
+    "256": {
+      "file": "pixels/256/I016.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 34160,
+      "sha256": "56e7d5fa26283ee1e939083b8c1dd7f37853bd990ca0e42473ec3efc900e3cbb",
+      "pixelSha256": "7e86f0d752a20315527220817f089e0b4756af9cadbca1b16652d639658161c0",
+      "alphaBounds": [
+        9,
+        11,
+        248,
+        372
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          39,
+          39,
+          994,
+          1482
+        ],
+        "fitSize": [
+          240,
+          363
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.2513089005235602
+      }
+    }
+  },
+  "visualReview": "pending"
+}

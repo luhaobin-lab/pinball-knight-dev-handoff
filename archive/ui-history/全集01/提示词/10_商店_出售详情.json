@@ -1,0 +1,80 @@
+{
+  "artifact": "Sunburst generation prompt only",
+  "requestedModel": "gpt-image-2.5-sunburst",
+  "size": "3200x1440",
+  "ratio": "20:9",
+  "references": {
+    "Image1": "生成的战斗主稿：面板字体物品规模权威",
+    "Image2": "生成的营地主稿：场景和共享组件",
+    "Image3": "暗黑地牢商店参考：仅氛围，无功能授权"
+  },
+  "sourceConstraints": "archive/ui-history/全集01/最新设计约束.json",
+  "sourceMasterPrompt": "archive/ui-history/全集01/提示词/01_战斗_装备栏位.txt",
+  "contentSamples": "archive/ui-history/批次01/真实内容样本.json",
+  "contentSampleSha256": "30b193adb81e0c2582846d86f5e6d93b40cb11b25e7e36e53215ca04ef0fe29d",
+  "sharedTopSample": {
+    "hp": "180/180",
+    "stamina": "100/100",
+    "corruption": "0/100",
+    "gold": 4
+  },
+  "sharedTopScope": "视觉样例的操作前状态，不代表新初始经济或实际存档",
+  "geometry": {
+    "screen": [
+      3200,
+      1440
+    ],
+    "safeMargin": 32,
+    "topStatus": [
+      32,
+      32,
+      3136,
+      112
+    ],
+    "left": [
+      32,
+      176,
+      480,
+      1232
+    ],
+    "center": [
+      544,
+      176,
+      2112,
+      1232
+    ],
+    "right": [
+      2688,
+      176,
+      480,
+      1232
+    ],
+    "baseCell": 180,
+    "fullWidthItem": 360,
+    "tabsHeight": 64
+  },
+  "screen": "商店出售详情",
+  "sampleState": "凝血毒剂已从左装备移到右背包首行；左原位置空；当前选中待出售；金币4为交易前",
+  "rules": [
+    "已拥有实例不可同时画在装备和背包",
+    "出售行为独立于点击物品选择"
+  ],
+  "samplePointers": [
+    "/items/0/currentBattleSample/description"
+  ],
+  "unknownNumbers": [
+    "新商店卖出报价",
+    "出售后金币余额"
+  ],
+  "priceBoundary": "旧实例currentOwnedRecyclePrice=1仅用于旧分解回收语义，不能推出新商店售出价",
+  "clicks": {
+    "bagItem": "查看详情",
+    "sell": "移除选中实例并按实际报价增加金币",
+    "buyTab": "切换购买详情",
+    "leave": "不改变库存离开"
+  },
+  "promptWordCountWhitespace": 915,
+  "promptSha256": "fde4fd2217433fc266a27d6859beb90d6150328f778791d62d4950f362cb5777",
+  "unknownValueDisplay": "不编写未知数字；省略未定价格行与结果余额；不输出待核对开发说明",
+  "implementationStatus": "视觉候选生成提示词，不表示已实现或通过交互验证"
+}

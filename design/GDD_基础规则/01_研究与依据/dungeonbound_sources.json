@@ -1,0 +1,296 @@
+{
+  "research_date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "game": {
+    "title": "Dungeonbound",
+    "developer": "louidev",
+    "steam_app_id": 5200620
+  },
+  "latest_mechanics_patch_retrieved": "0.1.46",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Dungeonbound on Steam",
+      "url": "https://store.steampowered.com/app/5200620/Dungeonbound/",
+      "tier": "A",
+      "source_type": "developer_store_description",
+      "version": "unversioned rolling copy",
+      "supports": [
+        "mode separation",
+        "loot retention in Long Haul",
+        "grid and board runes",
+        "merge and fusion",
+        "permanent upgrades"
+      ],
+      "caveat": "Copy still mentions floor 8; superseded for Climb victory by S03."
+    },
+    {
+      "id": "S02",
+      "title": "Dungeonbound official itch page",
+      "url": "https://louidev.itch.io/dungeonbound",
+      "tier": "A",
+      "source_type": "developer_distribution_page",
+      "page_updated_utc": "2026-10-25T23:48:00Z",
+      "supports": [
+        "browser demo",
+        "development status",
+        "save compatibility warning"
+      ],
+      "caveat": "Upload version numbers are not semantic game patch versions."
+    },
+    {
+      "id": "S03",
+      "title": "Halloween Update",
+      "url": "https://steamcommunity.com/games/5200620/announcements/detail/694275728822245103",
+      "tier": "A",
+      "source_type": "developer_patch_notes",
+      "version": "0.1.46",
+      "published_unix": 1792925448,
+      "retrieval": "Steam official public News API via certificate-verified curl",
+      "news_gid": "1847286114041663",
+      "contents_sha256": "70aedda288228e214035b381ffe2a3f8c3421cfd4788cd7d30da0c2cf80201f0",
+      "caveat": "Patch note statement, not independently reproduced gameplay."
+    },
+    {
+      "id": "S04",
+      "title": "Dungeonbound v0.1.40 Update + Mac Build for demo!",
+      "url": "https://steamcommunity.com/games/5200620/announcements/detail/687519694976977021",
+      "tier": "A",
+      "source_type": "developer_patch_notes",
+      "version": "0.1.40",
+      "published_unix": 1792467693,
+      "retrieval": "Steam official public News API via certificate-verified curl",
+      "news_gid": "1846651706693577",
+      "contents_sha256": "2d75bc2373a25ad0c6dafcf7ba2ce0bdaaca84bdfaa7b264f6136b84a08ec57a",
+      "caveat": "Patch note statement, not independently reproduced gameplay."
+    },
+    {
+      "id": "S05",
+      "title": "Bug Fix Update 0.1.22: Item Crash Fixed",
+      "url": "https://steamcommunity.com/games/5200620/announcements/detail/687519694976975633",
+      "tier": "A",
+      "source_type": "developer_patch_notes",
+      "version": "0.1.22",
+      "published_unix": 1792106634,
+      "retrieval": "Steam official public News API via certificate-verified curl",
+      "news_gid": "1846651706679567",
+      "contents_sha256": "a4a0abf6c5bc247adb88b5194fbd99a8ecbe38aa8ffc6b8df5f945ad57add682",
+      "caveat": "Patch note statement, not independently reproduced gameplay."
+    },
+    {
+      "id": "S06",
+      "title": "Dungeonbound Item Update v0.1.18",
+      "url": "https://steamcommunity.com/games/5200620/announcements/detail/687519694976975555",
+      "tier": "A",
+      "source_type": "developer_patch_notes",
+      "version": "0.1.18",
+      "published_unix": 1792069362,
+      "retrieval": "Steam official public News API via certificate-verified curl",
+      "news_gid": "1846651706677634",
+      "contents_sha256": "db28424646102c22ea30489d2c6c2a8ad0c3c48d5f034afefc45cd6982a177cb",
+      "caveat": "Patch note statement, not independently reproduced gameplay."
+    },
+    {
+      "id": "S07",
+      "title": "Steam News API for app 5200620",
+      "url": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=5200620&count=40&maxlength=0",
+      "tier": "A",
+      "source_type": "retrieval_channel",
+      "supports": [
+        "S03-S06 official record retrieval"
+      ],
+      "not_independent_source": true
+    },
+    {
+      "id": "S08",
+      "title": "Feedback on Demo by Palandus",
+      "url": "https://steamcommunity.com/app/5200620/discussions/0/574930338697084322/",
+      "tier": "B",
+      "source_type": "first_person_player_report",
+      "published_date": "2026-10-22",
+      "supports": [
+        "balance-risk test leads"
+      ],
+      "caveat": "Individual report; not confirmed population behavior or formula."
+    },
+    {
+      "id": "S09",
+      "title": "Dungeonbound Wiki",
+      "url": "https://dungeonbound.wiki/",
+      "tier": "C",
+      "source_type": "independent_player_wiki",
+      "used_as_authority": false,
+      "caveat": "Self-described unaffiliated site; floor 8 copy conflicts with newer official 0.1.46."
+    },
+    {
+      "id": "S10a",
+      "title": "Hultutigamer public gameplay lead",
+      "url": "https://www.youtube.com/watch?v=SkmB3mmDSVo",
+      "metadata_url": "https://yutura.net/channel/27217/video/SkmB3mmDSVo/",
+      "published_date": "2026-10-15",
+      "tier": "U",
+      "source_type": "video_lead",
+      "watched": false,
+      "used_as_authority": false
+    },
+    {
+      "id": "S10b",
+      "title": "くろろじちゃんねる public gameplay lead",
+      "url": "https://www.youtube.com/watch?v=yby-Kct2RGA",
+      "metadata_url": "https://yutura.net/channel/13397/video/yby-Kct2RGA/",
+      "published_date": "2026-10-20",
+      "tier": "U",
+      "source_type": "video_lead",
+      "watched": false,
+      "used_as_authority": false
+    }
+  ],
+  "modules": [
+    {
+      "module": "modes_death",
+      "evidence_level": "A",
+      "source_ids": [
+        "S01"
+      ],
+      "confirmed_scope": "Separate retention rules by mode",
+      "unknown": "exact full settlement transaction"
+    },
+    {
+      "module": "floor_boss_pacing",
+      "evidence_level": "A",
+      "source_ids": [
+        "S03"
+      ],
+      "confirmed_scope": "Current Climb mode has explicit floor arrangements",
+      "unknown": "complete Campaign encounter tables"
+    },
+    {
+      "module": "room_generation",
+      "evidence_level": "U",
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "confirmed_scope": "Node types and designed floor exceptions exist",
+      "unknown": "algorithm, weights, topology and seed derivation"
+    },
+    {
+      "module": "monster_scaling",
+      "evidence_level": "U",
+      "source_ids": [
+        "S01",
+        "S04"
+      ],
+      "confirmed_scope": "Enemies and speed-based battle exist",
+      "unknown": "HP/damage/spawn budgets and per-floor growth"
+    },
+    {
+      "module": "loot",
+      "evidence_level": "U",
+      "source_ids": [
+        "S01",
+        "S03"
+      ],
+      "confirmed_scope": "Drops and some two-choice loot exist",
+      "unknown": "rarity weights, pity and luck formula"
+    },
+    {
+      "module": "merchant",
+      "evidence_level": "U",
+      "source_ids": [
+        "S01",
+        "S04"
+      ],
+      "confirmed_scope": "Shops and lucky shops exist",
+      "unknown": "stock weights, refresh and sale price formula"
+    },
+    {
+      "module": "duplicate_merge",
+      "evidence_level": "A",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "confirmed_scope": "Identical-item merging exists",
+      "unknown": "all exact input and scaling rules"
+    },
+    {
+      "module": "fusion_forge",
+      "evidence_level": "A",
+      "source_ids": [
+        "S01",
+        "S05"
+      ],
+      "confirmed_scope": "Two-parent fusion exists",
+      "unknown": "inheritance, footprint and level formula"
+    },
+    {
+      "module": "gambling_forge",
+      "evidence_level": "A",
+      "source_ids": [
+        "S03",
+        "S05"
+      ],
+      "confirmed_scope": "Gambler forge and wheel named separately",
+      "unknown": "upgrade chance, price and failure penalties"
+    },
+    {
+      "module": "board_runes",
+      "evidence_level": "A",
+      "source_ids": [
+        "S01"
+      ],
+      "confirmed_scope": "Board runes affect covering gear",
+      "unknown": "stacking, trigger and persistence rules"
+    },
+    {
+      "module": "permanent_growth",
+      "evidence_level": "A",
+      "source_ids": [
+        "S01"
+      ],
+      "confirmed_scope": "Gold and skill points both participate",
+      "unknown": "exact node unlock versus rank-up currency contract"
+    },
+    {
+      "module": "vault",
+      "evidence_level": "U",
+      "source_ids": [
+        "S01"
+      ],
+      "confirmed_scope": "Campaign gear retention exists",
+      "unknown": "separate protected vault behavior"
+    },
+    {
+      "module": "save_resume",
+      "evidence_level": "A",
+      "source_ids": [
+        "S02",
+        "S03"
+      ],
+      "confirmed_scope": "Development caveat and campaign resume fix",
+      "unknown": "transaction implementation"
+    },
+    {
+      "module": "endless",
+      "evidence_level": "U",
+      "source_ids": [
+        "S01",
+        "S02"
+      ],
+      "confirmed_scope": "Endless direction is described",
+      "unknown": "growth coefficients and validated limits"
+    }
+  ],
+  "research_limits": [
+    "No source code or hidden probability tables obtained.",
+    "No whole-game runtime verification.",
+    "Official browser demo reached title/welcome only; no mechanic verified there.",
+    "No desktop executable downloaded or executed."
+  ],
+  "user_overrides": {
+    "death": "Lose carried items; retain gold, level, XP, SP, permanent upgrades and stored items.",
+    "forge_failure": "Downgrade or stat reduction; item remains usable.",
+    "slot_enchantment": "Run-local; clear upon any return to camp."
+  }
+}

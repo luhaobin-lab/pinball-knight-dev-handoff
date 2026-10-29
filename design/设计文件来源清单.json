@@ -1,0 +1,521 @@
+{
+  "date": "2026-10-29",
+  "scope": "设计交接文件复制；原始项目未修改",
+  "files": [
+    {
+      "path": "GDD_基础规则/01_研究与依据/DungeonBound公开机制研究.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/DungeonBound公开机制研究.txt",
+      "source_sha256": "bd222b9407377079fc5a78252eff27c82f4e8b031185d73a191f1ead48bf307c",
+      "bytes": 13378,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/01_研究与依据/data_inventory.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/data_inventory.json",
+      "source_sha256": "7d70970ce41b0dc71d59762559ec39f9e9dd298f7e7a456ce95aee881e653014",
+      "bytes": 2593536,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/01_研究与依据/dungeonbound_sources.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/dungeonbound_sources.json",
+      "source_sha256": "788909ebe66e4411160343b8300d8335439aba4ca608324ae19ec0aaf828a22c",
+      "bytes": 9562,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/01_研究与依据/原始表格/R3补充B_技能与天赋消费者.xlsx",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/原始表格/R3补充B_技能与天赋消费者.xlsx",
+      "source_sha256": "021bc2a50f0352423498187abe7bf06a34e9af172f87ddaec22c23c3b4746848",
+      "bytes": 2779534,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/01_研究与依据/原始表格/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/原始表格/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+      "source_sha256": "a8633c42977acd06c87cb3321b578fe11330c00be30ec0b5f7269c80aa69e532",
+      "bytes": 5563473,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/01_研究与依据/原始表格/Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/原始表格/Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+      "source_sha256": "9c3f046320aac0cc47fdc982f5013e48bdc20adc35cbaba9dabd12c8e3e16bdf",
+      "bytes": 6495347,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/01_研究与依据/原始表格/视频内容研究总表.xlsx",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/原始表格/视频内容研究总表.xlsx",
+      "source_sha256": "17c50bba300644b51a66ec50ea006220ae20255f64929df6f389be73c6edf7e9",
+      "bytes": 202186,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/01_研究与依据/游玩心流与模块取舍.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/游玩心流与模块取舍.txt",
+      "source_sha256": "7a1af42294ab17307f0c9cbef36a023faa3d36decb1159965f586390278b3489",
+      "bytes": 6642,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/01_研究与依据/现有数据审计.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/现有数据审计.txt",
+      "source_sha256": "b748362f8733aeea40f0890b351bdfa4b7e1cd25a9bcd4c040f8c4d6b0d715c5",
+      "bytes": 37726,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/02_设计文档/01_核心GDD.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/02_设计文档/01_核心GDD.txt",
+      "source_sha256": "c610ec3cf35ea4f30915a5fbb53c1a854d5c17f2f07d28bc95b0bc57becbecac",
+      "bytes": 11788,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/02_设计文档/02_房间怪物与难度.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+      "source_sha256": "9535bd01fdc86b67b81fad786a99c8e906b7a695206099c3876a0ad59d6eda71",
+      "bytes": 9335,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/02_设计文档/03_掉落商店锻造与附魔.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/02_设计文档/03_掉落商店锻造与附魔.txt",
+      "source_sha256": "75678464f926092a572c82a884c8d8d6d1bc55c6e72df60b5123a54da18e84c7",
+      "bytes": 16400,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/02_设计文档/04_状态存档与交互.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+      "source_sha256": "5c2ec33e062b7e779006f1184611055f3079f2ead53d0cb71be08ab3da73330c",
+      "bytes": 14258,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/02_设计文档/05_原数据适配与边界.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+      "source_sha256": "88b4d99455c1c7e9757204b89d369beeb2ba23de12da552f2860308fb66d76d8",
+      "bytes": 7420,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/03_数值与配置/balance.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/03_数值与配置/balance.json",
+      "source_sha256": "bbaf008d7cf5c58e0e1e0747fa07caeeebf1c79e2cedfebaebc4caa535abd1d5",
+      "bytes": 7816,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/03_数值与配置/enchants.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/03_数值与配置/enchants.json",
+      "source_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+      "bytes": 317233,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/03_数值与配置/items.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/03_数值与配置/items.json",
+      "source_sha256": "a3e0d38b5a228fd0aaf8abe213eb65e3b30ada995fb613649b90e2aaa6308623",
+      "bytes": 19623,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/03_数值与配置/monsters.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/03_数值与配置/monsters.json",
+      "source_sha256": "0fa03aa1c3ba86867002e8931dd7e07da9422681da3d3ca1931b6850dbeb5dbc",
+      "bytes": 3913,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/03_数值与配置/rooms.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/03_数值与配置/rooms.json",
+      "source_sha256": "78b07668d5b96f5bfe1c3dfc058eba50d3ac05e3b0258dba7e91862d23654427",
+      "bytes": 7350,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/03_数值与配置/source_contract.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+      "source_sha256": "bef503358824eb06b6585890fb582ada15c7bc6bc294301ac7bdf2d4f4d9cc41",
+      "bytes": 1691,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/03_数值与配置/talents.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/03_数值与配置/talents.json",
+      "source_sha256": "64c17a37566f94207faede01d289fe869095d2ae44ce16a0a7186118a57f1fa4",
+      "bytes": 9692,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/04_算法参考/build_config.py",
+      "source": "地牢搜打撤_GDD_2026-10-29/04_算法参考/build_config.py",
+      "source_sha256": "3bc964bf76874dd1555b2c1322c2c92ef8929b4053f3a25d898e5b2d18c01595",
+      "bytes": 14716,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/04_算法参考/build_reader.py",
+      "source": "地牢搜打撤_GDD_2026-10-29/04_算法参考/build_reader.py",
+      "source_sha256": "117855094d9fd662c950481a1c827168a54630571b7f341ab04cad985d3ecc26",
+      "bytes": 12011,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/04_算法参考/check_reader.mjs",
+      "source": "地牢搜打撤_GDD_2026-10-29/04_算法参考/check_reader.mjs",
+      "source_sha256": "386d40945cdabf9962a3ac8b5869bf37ab25ac875f1b76a54b1e2a1fa4cb8783",
+      "bytes": 2332,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/04_算法参考/systems_reference.py",
+      "source": "地牢搜打撤_GDD_2026-10-29/04_算法参考/systems_reference.py",
+      "source_sha256": "7bc6b0d058744325cb17b3dbf7de2f631030102d4ca1533fba56482778f694ee",
+      "bytes": 25839,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/04_算法参考/verify_package.py",
+      "source": "地牢搜打撤_GDD_2026-10-29/04_算法参考/verify_package.py",
+      "source_sha256": "436b567016a7dcefb4efc5fd422917ba607034687d6448dd5fb808adf73ed567",
+      "bytes": 24323,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/seed42_两层生成样例.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/seed42_两层生成样例.json",
+      "source_sha256": "370edc28db18006a7dd296c20ea8cf39c571e1b1dd3d4b4db2e42f7624c98863",
+      "bytes": 84175,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/seed42_附魔节点样例.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/seed42_附魔节点样例.json",
+      "source_sha256": "4b4e57d98b1c44ce2f580bd46ac94cc0e2f097ac357140ac11a86c5bbda3737a",
+      "bytes": 6666,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/修复复核记录.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/修复复核记录.txt",
+      "source_sha256": "06639247afad499c83d3469b8a7de6583afd73af7ac4032819e8e13fb283da96",
+      "bytes": 3991,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/图表/两层生命节奏.png",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/图表/两层生命节奏.png",
+      "source_sha256": "0b914afbd2fecb0c2c676a980034fecedd316b9853c07bbc4159ab9d6e38b40f",
+      "bytes": 104462,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/图表/失败成长账本.png",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/图表/失败成长账本.png",
+      "source_sha256": "f214478d6fdeeee10028da7c987fd1668c5033c2edb68d25b80ab4fc058647c3",
+      "bytes": 90228,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/最终离线检查.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/最终离线检查.json",
+      "source_sha256": "f4623571309b4dec25cf63f6339f67edc15a93a82335f2f606d670869d4070e8",
+      "bytes": 8820,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/检查结果.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/检查结果.txt",
+      "source_sha256": "39318cf64f4e2a106d7f369a24de92aad52f6a3dd4f1e208b8a80876eb0eb0d0",
+      "bytes": 3740,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/独立数据评审.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/独立数据评审.txt",
+      "source_sha256": "cec7e06012d0d35cb260c7d14995cf1fdd0b128e12c27f3f4c85cfb60574f221",
+      "bytes": 13077,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/独立算法评审.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/独立算法评审.txt",
+      "source_sha256": "6cd5f2bf188dbf6666ac2784f7587e7774740c6cf256794c8523dda950c88727",
+      "bytes": 16268,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/设计决策与失败场景.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/设计决策与失败场景.txt",
+      "source_sha256": "6e7ff4d8318e80c69e26440251d773025f335e87631729c108dc82ebef9cc02c",
+      "bytes": 6507,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/阅读页_数值.png",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/阅读页_数值.png",
+      "source_sha256": "f49ead02e0015fd78675c0a950e2e6562603fede5b0855130da5d4383bc06fc7",
+      "bytes": 162989,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/阅读页_附魔.png",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/阅读页_附魔.png",
+      "source_sha256": "0e22cb50562cf5b78d322275b35ae43aee8f0f5ff8d1e2cf7a9b9e6360fa3ba8",
+      "bytes": 221248,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/阅读页_首屏.png",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/阅读页_首屏.png",
+      "source_sha256": "94cd7c78668b980ce2ebf51ee633143cfd610a30f6efcdd6261a3569c6587497",
+      "bytes": 202900,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/05_验证与评审/阅读页面验证.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/05_验证与评审/阅读页面验证.json",
+      "source_sha256": "0f9f602a91607fa848938b1b13230f48c8d8b6f6866f131c00be58b4a5279f95",
+      "bytes": 469,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/06_AI实施交接/实施顺序与验收.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/06_AI实施交接/实施顺序与验收.txt",
+      "source_sha256": "19bad8ba9bfae3795f09eca2d130ba2cd37013936b3f71b2fdd5752e957cd320",
+      "bytes": 12296,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/06_AI实施交接/直接交给AI的任务书.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/06_AI实施交接/直接交给AI的任务书.txt",
+      "source_sha256": "d46ae5ab611eb3bb7cd1d514609b051849b2974be04bacda0e71d287cbec911e",
+      "bytes": 3550,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/manifest.json",
+      "source": "地牢搜打撤_GDD_2026-10-29/manifest.json",
+      "source_sha256": "97d9f25f8ae40ae4f4a7281dfc1f4f559f078feed51a2d9789eec3a2795b1c45",
+      "bytes": 8046,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/先读我.txt",
+      "source": "地牢搜打撤_GDD_2026-10-29/先读我.txt",
+      "source_sha256": "2b7ff68844f4d29b3acc54118e6badee9307ae898562baa513019f15855d12ae",
+      "bytes": 4422,
+      "change": "byte_identical"
+    },
+    {
+      "path": "GDD_基础规则/阅读入口.html",
+      "source": "地牢搜打撤_GDD_2026-10-29/阅读入口.html",
+      "source_sha256": "e4fba40731eb75098a9cf328514ae2ea7639a20cd8633ed76391b3700792a88c",
+      "bytes": 112248,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/manifest.json",
+      "source": "outputs/01a18335/怪物100种设计/manifest.json",
+      "source_sha256": "1dd704503feb89efd4e40545f3397aa1c5c24d78f55ccd5f8faa88a46fe1554e",
+      "bytes": 2714,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/先读我.txt",
+      "source": "outputs/01a18335/怪物100种设计/先读我.txt",
+      "source_sha256": "8b4a415fe2ae642dabb7388bd79fb4378929243d14249407c8896722d65fd456",
+      "bytes": 2027,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/字段与能力依据.json",
+      "source": "outputs/01a18335/怪物100种设计/字段与能力依据.json",
+      "source_sha256": "3440e734b7842b9881429d87c740604006f26a73833802123f88b82cd4995c22",
+      "bytes": 32204,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/怪物100种_完整表.csv",
+      "source": "outputs/01a18335/怪物100种设计/怪物100种_完整表.csv",
+      "source_sha256": "21641c01dc4a76ab563f637175a3a9bde4a1435d9657c806d49648c9924ca826",
+      "bytes": 253230,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/怪物100种_数据.json",
+      "source": "outputs/01a18335/怪物100种设计/怪物100种_数据.json",
+      "source_sha256": "e0c0a91f2a5a481f603bf9af9c75cc8549875ae544bcbb71ec6556b49122599d",
+      "bytes": 474394,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/怪物100种_设计总表.xlsx",
+      "source": "outputs/01a18335/怪物100种设计/怪物100种_设计总表.xlsx",
+      "source_sha256": "aca587a568d5f928e5d638a60dc2bba1a6fa16d9f15327a1c6098a3595a87afa",
+      "bytes": 138673,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/怪物层级与生成规则.json",
+      "source": "outputs/01a18335/怪物100种设计/怪物层级与生成规则.json",
+      "source_sha256": "9e2f6f8a02ac0a4bd70b7cde15ffe1795841a293254e7a8e0530aaba6ab60596",
+      "bytes": 10517,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/怪物算法参考.py",
+      "source": "outputs/01a18335/怪物100种设计/怪物算法参考.py",
+      "source_sha256": "d51fe36adfa2688d1d4c4798910182103c0c0ebe790e713d798ef2b578ca78ba",
+      "bytes": 16465,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/来源哈希复核.json",
+      "source": "outputs/01a18335/怪物100种设计/来源哈希复核.json",
+      "source_sha256": "091f9fd7a4d37ad7e956d83e4d7ce3dc33ed69c6c7d7ad06447abff174fcf6f0",
+      "bytes": 576,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/核查设计.py",
+      "source": "outputs/01a18335/怪物100种设计/核查设计.py",
+      "source_sha256": "e86414ed40b1c6c4f6d3d3b82e8a71bb01a261f60b3c47af6fbf5cb9f90ce377",
+      "bytes": 14272,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/离线检查结果.json",
+      "source": "outputs/01a18335/怪物100种设计/离线检查结果.json",
+      "source_sha256": "0c5e48823eba9347d7f79dd69eed7139d5356824fb2d10435bc97f795b672624",
+      "bytes": 6277,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/种子42_编队样例.json",
+      "source": "outputs/01a18335/怪物100种设计/种子42_编队样例.json",
+      "source_sha256": "fd23f80e8ffb869a932970e01c27e695be00fce5e469a98003406b3685402003",
+      "bytes": 78604,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/行为算法说明.json",
+      "source": "outputs/01a18335/怪物100种设计/行为算法说明.json",
+      "source_sha256": "a8b9d860011bf7501f85f943ba8715c7b9b2e3aeadaa3e1b6f4404bea2de9b6b",
+      "bytes": 14388,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/表格校验结果.json",
+      "source": "outputs/01a18335/怪物100种设计/表格校验结果.json",
+      "source_sha256": "f7e18b726e6f49b1139f5097693028076fe62564b4a9d7befcb91e0eaffff0af",
+      "bytes": 1052,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/阅读入口.html",
+      "source": "outputs/01a18335/怪物100种设计/阅读入口.html",
+      "source_sha256": "670fbfd8967c5b07639d7b1d0c1dbcea96e5372ea5bb77f1cc861af7d066b8a4",
+      "bytes": 425769,
+      "change": "byte_identical"
+    },
+    {
+      "path": "怪物100种设计/阅读页校验结果.json",
+      "source": "outputs/01a18335/怪物100种设计/阅读页校验结果.json",
+      "source_sha256": "032917e03d85770e55c422cd65e4918b298b701f2113193e598ff8598fe7e541",
+      "bytes": 1738,
+      "change": "byte_identical"
+    },
+    {
+      "path": "附魔格50种/附魔格50种.xlsx",
+      "source": "outputs/01a18335/附魔格设计50种/附魔格50种.xlsx",
+      "source_sha256": "8da93d77abcaa25b0099667a2e5e6c042da37334bb960f345dea7cd344305cbf",
+      "bytes": 55411,
+      "change": "byte_identical"
+    },
+    {
+      "path": "附魔格50种/附魔格50种_数据.json",
+      "source": "outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+      "source_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+      "bytes": 317233,
+      "change": "byte_identical"
+    },
+    {
+      "path": "历史讨论/设计大纲_v0.1.txt",
+      "source": "outputs/新循环设计/设计大纲_v0.1.txt",
+      "source_sha256": "382d3d7fc198abc5277dfa615d86520a3b491edc3f78667b9aaa0475c7dc5101",
+      "bytes": 9878,
+      "change": "byte_identical"
+    },
+    {
+      "path": "历史讨论/现有基础与规则差异.txt",
+      "source": "outputs/新循环设计/现有基础与规则差异.txt",
+      "source_sha256": "87dd47b8a2c9eaab574a4445a9199b7f8ed59598a4decb23975366a5745f1f62",
+      "bytes": 2584,
+      "change": "byte_identical"
+    },
+    {
+      "path": "制作工具/怪物100/build_reader.py",
+      "source": "outputs/01a18335/monster100_work/build_reader.py",
+      "source_sha256": "19f7749cae811c435160cfdb7b85f589a798b51666b3ffa934ce51b5f1bca066",
+      "bytes": 15080,
+      "change": "relative_path_only",
+      "path_changes": [
+        {
+          "before": "O=W.parent/'怪物100种设计'",
+          "after": "O=W.parents[1]/'怪物100种设计'"
+        }
+      ],
+      "delivered_sha256": "790305e6a4d64118d5f6c2a54ce38a135a5426bf2158579cbde93d46160d4cae"
+    },
+    {
+      "path": "制作工具/怪物100/build_workbook.mjs",
+      "source": "outputs/01a18335/monster100_work/build_workbook.mjs",
+      "source_sha256": "793fd3fd726fecb45a0a3bfbe6e08d149f5fa46d85e9a6aeab708b49ff585352",
+      "bytes": 24775,
+      "change": "relative_path_only",
+      "path_changes": [
+        {
+          "before": "const O=path.resolve(W,'../怪物100种设计');",
+          "after": "const O=path.resolve(W,'../../怪物100种设计');"
+        },
+        {
+          "before": "path.join(W,'behavior_algorithms.json')",
+          "after": "path.join(O,'行为算法说明.json')"
+        }
+      ],
+      "delivered_sha256": "d6a14cc816fdfedd0bb844857739e142982aab699f1a9729008c83a4ef105258"
+    },
+    {
+      "path": "制作工具/附魔50/build_workbook.mjs",
+      "source": "outputs/01a18335/grid_enchants_work/build_workbook.mjs",
+      "source_sha256": "9d5fc1fdd2aab7295792b4d7f99bf0588d21211a8cf1c6351dd69f216c6b9842",
+      "bytes": 22404,
+      "change": "relative_path_only",
+      "path_changes": [
+        {
+          "before": "path.resolve(workDir, '../附魔格设计50种')",
+          "after": "path.resolve(workDir, '../../附魔格50种')"
+        }
+      ],
+      "delivered_sha256": "d92b703077ae6a47bd2d2f9b03c361257a053b661cb3f66821b4c00bc4f4b98a"
+    },
+    {
+      "path": "制作工具/附魔50/audit_low_mid.json",
+      "source": "outputs/01a18335/grid_enchants_work/audit_low_mid.json",
+      "source_sha256": "bf2ac084a8cc4e0307d88f0af0580032ae9079417cd21b3403fb6a99bc30399f",
+      "bytes": 77657,
+      "change": "byte_identical"
+    },
+    {
+      "path": "制作工具/附魔50/audit_high.json",
+      "source": "outputs/01a18335/grid_enchants_work/audit_high.json",
+      "source_sha256": "4896bbe65d3db703f0a4f74affb5620903209c9c0648dea5d1a1fb52c2856e6e",
+      "bytes": 84688,
+      "change": "byte_identical"
+    }
+  ]
+}

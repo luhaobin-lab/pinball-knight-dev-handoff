@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-29",
+  "model": "gpt-image-2.5-sunburst",
+  "status": "visual candidates, awaiting user review",
+  "selected": [
+    {
+      "file": "原始生成图/01_战斗_纵向卡槽.png",
+      "jobId": "6ae2ba5df5157103dedcc342",
+      "fileId": "6ae2bbd8f5157103dedcc3a6",
+      "model": "gpt-image-2.5-sunburst",
+      "dimensions": [
+        3200,
+        1440
+      ],
+      "bytes": 4350356,
+      "sha256": "818b2d3df8b570343e54eafb4fbf116d00536910abb2a124a32ffe79f98dd077",
+      "originalUnmodified": true,
+      "status": "visual_candidate"
+    },
+    {
+      "file": "原始生成图/04_营地_纵向卡槽.png",
+      "jobId": "6ae2bc3a7a23e72106dcba5b",
+      "fileId": "6ae2bc997a23e72106dcba84",
+      "model": "gpt-image-2.5-sunburst",
+      "dimensions": [
+        3200,
+        1440
+      ],
+      "bytes": 4732363,
+      "sha256": "1baa16835484727e190831ea73d228305174aa1a3f1757bc75430598cea6a187",
+      "originalUnmodified": true,
+      "status": "visual_candidate"
+    },
+    {
+      "file": "原始生成图/09_商店_纵向卡槽_修正版.png",
+      "jobId": "6ae2be0bf5157103dedcc423",
+      "fileId": "6ae2bf83f5157103dedcc48d",
+      "model": "gpt-image-2.5-sunburst",
+      "dimensions": [
+        3200,
+        1440
+      ],
+      "bytes": 3947858,
+      "sha256": "f265fdbadc17b9ec68b3d5fc2b0455f33cec92f7731b540a799e68fbb54cb27d",
+      "originalUnmodified": true,
+      "status": "visual_candidate",
+      "correction": "removed unlabelled middle button frame using Sunburst"
+    }
+  ],
+  "files": [
+    {
+      "path": "原始生成图/01_战斗_纵向卡槽.png",
+      "bytes": 4350356,
+      "sha256": "818b2d3df8b570343e54eafb4fbf116d00536910abb2a124a32ffe79f98dd077"
+    },
+    {
+      "path": "原始生成图/04_营地_纵向卡槽.png",
+      "bytes": 4732363,
+      "sha256": "1baa16835484727e190831ea73d228305174aa1a3f1757bc75430598cea6a187"
+    },
+    {
+      "path": "原始生成图/09_商店_纵向卡槽_修正版.png",
+      "bytes": 3947858,
+      "sha256": "f265fdbadc17b9ec68b3d5fc2b0455f33cec92f7731b540a799e68fbb54cb27d"
+    },
+    {
+      "path": "说明.txt",
+      "bytes": 1579,
+      "sha256": "96ead018e5dee5338f0443aa8388b5762178cb05a9609edfbc1855cf12608f6e"
+    },
+    {
+      "path": "本轮目视结论.txt",
+      "bytes": 1141,
+      "sha256": "9704fd4d37ce2f3aed1f60d3729936623c7ed4e49c234409529b41cb0bd51279"
+    },
+    {
+      "path": "最新装备栏约束.txt",
+      "bytes": 905,
+      "sha256": "42d350f38ee9e46c0fa761b13188a0d3643a019f2f56ba0ecbcd1116910be636"
+    },
+    {
+      "path": "本轮检查标准.txt",
+      "bytes": 1455,
+      "sha256": "e05c5ce44e24aa98feb0d534f3afa9a5074ccb3119a34a9b5ad4944217f2f398"
+    },
+    {
+      "path": "战斗母版目视记录.txt",
+      "bytes": 1481,
+      "sha256": "9b5071e16d3f3953bc7c930220548ac65c2de4cde09dafc771c86f53bca8d007"
+    },
+    {
+      "path": "提示词/02_新卡槽战斗母版.txt",
+      "bytes": 3919,
+      "sha256": "b68711d81838d3d5a320b1fe19f96f126ac687b85573c935f222e71fe8bde966"
+    },
+    {
+      "path": "提示词/04_营地_新卡槽.txt",
+      "bytes": 3415,
+      "sha256": "3393e8b80b796ce20b9f0443af209fb572e660562290d430fbad705d45c234db"
+    },
+    {
+      "path": "提示词/09_商店_新卡槽.txt",
+      "bytes": 3953,
+      "sha256": "e50e2ee7b42ea4cf112971f433f72661e1c166bf88b1d9f8a027f1a6f6d7bf17"
+    },
+    {
+      "path": "提示词/09_商店_移除空按钮.txt",
+      "bytes": 1127,
+      "sha256": "f6f351f7427c2d6982c5f5fb9e0fc1156deeb064928e5514f54a4cb580c0e3e0"
+    },
+    {
+      "path": "生成记录/02_新卡槽战斗提交.json",
+      "bytes": 5964,
+      "sha256": "971ec4abb89e8c28e3499dea029ffe0f636407efe0b5b61bd64fab47f86d1919"
+    },
+    {
+      "path": "生成记录/04_营地提交.json",
+      "bytes": 5298,
+      "sha256": "9bacefe309c1979336133887e5f78aef7f13b2e89e567f2fd5aa0e1b6b5d4692"
+    },
+    {
+      "path": "生成记录/09_商店提交.json",
+      "bytes": 5841,
+      "sha256": "d470a12c434ac042f0682168a0ea56744de765daa4da312992ea103384a5769e"
+    },
+    {
+      "path": "生成记录/09_商店修正提交.json",
+      "bytes": 2856,
+      "sha256": "9bcef6aa5c7c61f996c93c42a730d00efde13ed73845f88b5b95304e5aad8e24"
+    },
+    {
+      "path": "参考原图/用户指定_纵向装备卡槽.png",
+      "bytes": 515452,
+      "sha256": "ef6ab8f6c608d07f62b98c1ae6cfc13f7482efbc547a88f23cc16167a51237e3"
+    },
+    {
+      "path": "目视核对/01_战斗_800x360.png",
+      "bytes": 356613,
+      "sha256": "c923fe6ba007c621baadb66e6b2ed10fe6d7c2e52fd87c8de52261d97fe7fd79"
+    },
+    {
+      "path": "目视核对/04_营地_800x360.png",
+      "bytes": 369308,
+      "sha256": "c0ed612a5b836aaf0f1b032709100919c714f88fda48d68f1f6ab9108ec62dd2"
+    },
+    {
+      "path": "目视核对/09_商店_800x360.png",
+      "bytes": 327627,
+      "sha256": "32fb8ef3b57012d05c8e4b4a3ec4d152a81d0bc4a67630132a3709728d6fbc45"
+    }
+  ],
+  "validation": "visual only, original and 800x360 display; no runtime or user validation"
+}

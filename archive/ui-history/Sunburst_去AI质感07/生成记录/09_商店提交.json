@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Repaint the COMPLETE approved screen from Image1, at 3200x1440. Image1 is the composition and content authority. Image2 is the newly corrected battle ART MASTER: copy its exact newly matte card frames, equipment illustrations, clean dark surfaces, badge positions, header type scale, pixel drawing and lack of foreground bokeh into the corresponding regions of Image1. Image1's old glossy frames, old item art and blurred foreground must be replaced. Preserve the positions, sizes and navigation hierarchy of the approved screen.\n\nBoth sidebars stay the SAME full-width ONE-COLUMN card system. Three full-width item/empty cards and matching bottom locked card, exact same width and row positions left and right. Right backpack remains empty. Three tabs 装备栏位 / 英雄属性 / 装备图鉴, first active. Header 生命180/180, 体力100/100, 腐化0/100 EMPTY, 金币4. Left vial8/1, mushroom recycle4 without damage, silver dagger30/2 with a single edge enchantment diamond and EMPTY charge0/100. No permanent item-name prose on the left equipped cards. Keep all values.\n\nRender the center in the SAME modern dark occult HD-pixel drawing language as Image2. Construct surfaces from connected deliberate fine pixel clusters and large coherent shadow planes. Dense small native pixels and careful silhouette curves, not a coarse low-resolution sprite enlarged. Materials differ: matte cloth and stone, quiet steel planes with thin glints, glass with a narrow reflection. Surfaces are mostly quiet with a few structural details. Remove uniform speckle, all-over wet shine, continuous silver bevel stripes, photographic blur, light beams and bokeh. Depth comes from contrast and edge choices. Keep the designed UI geometry perfectly orderly; natural variation belongs only to organic shapes and wear. The complete screenshot, all art and text, must be drawn by the image model. No code mockup, annotations, comparison board, new features or prices.\n\nSHOP PAGE: Keep Image1's exact central layout: title 行商, hooded merchant and counter across the upper center, tabs 购买 / 出售 below him, three stock entries on left, selected bronze dagger details on right, two bottom buttons. Preserve scene silhouette and object locations but re-illustrate the merchant with large connected cloth shadow shapes, weight-bearing folds and clear hand-to-chin/hand-to-counter contacts. Let the hand anatomy and sleeve ends be specific, not covered by noise. Face stays in deep shadow, no extra jewelry or candles. Merchant and equipment must use the SAME fine pixel units as Image2, not continuous painterly gradients. Bronze dagger has a broad quiet face and a controlled edge reflection; dark leather grip remains matte.\nStock entries 淬毒利刃 / 凝血毒剂 / 灵魂香菇. Selected merchandise 淬毒利刃 / 青铜. It is bronze and separate from the silver equipped dagger.\nRetain exact effect text:\n充能后：下3次攻击造成15剧毒伤害。\n持续3回合 · 会心几率30%\n每8次剧毒，施加1层易伤。\nUse the existing text anchors and line breaks, with readable Chinese. Bottom TWO buttons only: 离开商店 left, 购买所选装备 right. Middle remains plain unframed negative space. Repaint button surfaces using Image2's restrained matte iron treatment; preserve their bounds and hierarchy. No purchase price, extra button, placeholder text, currency change or duplicate equipment.",
+    "images": [
+      "archive/ui-history/Sunburst_现代CULT06/原始生成图/09_商店_现代CULT.png",
+      "archive/ui-history/Sunburst_去AI质感07/原始生成图/02_战斗_定向重绘.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2ca5d98d303820bdcb4ed\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2ca5d98d303820bdcb4ed",
+      "raw": {
+        "id": "6ae2ca5d98d303820bdcb4ed",
+        "object_id": "6ae2ca5d98d303820bdcb4ed",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T12:23:57.786000+08:00",
+        "updateTime": "2026-10-29T12:23:57.812000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I002",
+  "name": "旧长袍",
+  "status": "generated-normalized",
+  "source": "mothers/I002.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I002.png",
+  "motherSha256": "53c038e2291057222b895077fcd2d6449b9ccb6abaa76c14fc4b7630b8e7babf",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I002.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 10627,
+      "sha256": "90df2630ff04fbb822355a043b7ad775ece037c3abe549bbf034896fe0e0383b",
+      "pixelSha256": "47249fa1b5c081d2748bfdd525fab9f8926641cded11eb62b410d21b2de35ae1",
+      "alphaBounds": [
+        4,
+        4,
+        124,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          23,
+          12,
+          1011,
+          1526
+        ],
+        "fitSize": [
+          120,
+          184
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.1214574898785425
+      }
+    },
+    "256": {
+      "file": "pixels/256/I002.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 39848,
+      "sha256": "528ec99d40f9095d41e9d8f680ade8e353a829b49ed28219034304f343ff38fe",
+      "pixelSha256": "da766936c35547d537f947a8a056eb9b301b2c096c78225874a85da4441ade5c",
+      "alphaBounds": [
+        9,
+        8,
+        248,
+        375
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          23,
+          12,
+          1011,
+          1526
+        ],
+        "fitSize": [
+          240,
+          368
+        ],
+        "position": [
+          8,
+          8
+        ],
+        "scale": 0.242914979757085
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; correct single subject; complete silhouette; no visible background residue in normalized PNG",
+  "sourceProvenance": {
+    "sourceFilename": "exec-bc36af67-fc64-42fa-a189-af48fb430ff7.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-bc36af67-fc64-42fa-a189-af48fb430ff7"
+  }
+}

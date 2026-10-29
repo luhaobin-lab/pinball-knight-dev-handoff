@@ -1,0 +1,162 @@
+[
+  {
+    "family_id": "F01",
+    "name": "追击近战",
+    "algorithm": "玩家发射前按条目规则锁定具体世界路径、分支、终点、攻击朝向与攻击区域，并显示全路径和区域。敌方阶段只沿这份计划移动；不读取英雄发射后停点重新追击。按cycle明确先攻击后移动、先移动后攻击或无伤后撤。每阶段最多一次接触攻击，实际命中必须同时位于锁定区域和当前真实攻击可达范围内，持续接触不重复。",
+    "state": "lockedOrigin、lockedWaypoints、lockedAttackAreas、lockedBranch、cycleIndex、turnInStep、actionId",
+    "failure": "源演员被实际碰撞移离锁定起点超过全局容差时取消本次动作。途中固体阻挡则停止；到不了原攻击位置时取消对应攻击，不把攻击圈挪到新终点、不从远处伤害旧圈、不穿墙或延长路线。",
+    "adapter": "锁定计划、预告与真实扫掠/路径碰撞共用数据；攻击顺序按条目执行，move_tiles是总路径长度上限。F01普通与精英均不采用发射后动态追瞄。"
+  },
+  {
+    "family_id": "F02",
+    "name": "预告冲锋",
+    "algorithm": "telegraph锁定起点、方向和条目路径形状，保留完整玩家回合。execute沿锁定路径扫掠，碰固体提前停止，英雄同一action只命中一次。随后恢复，禁止重选目标续冲。",
+    "state": "lockedOrigin、lockedSegments、actionId、cycleIndex",
+    "failure": "起点被实际移开则取消；途中被挡只截断，不转弯追人。",
+    "adapter": "扫掠碰撞；多段路径只能来自预告中已显示的参数。"
+  },
+  {
+    "family_id": "F03",
+    "name": "定域重击",
+    "algorithm": "预告时按pattern计算并保存世界坐标区域。execute仅在已锁区域查询真实目标并调用基础伤害消费者；多个区域重叠取最大一次。恢复回合不普攻。",
+    "state": "lockedAreas、actionId、recovery",
+    "failure": "锁定失效/源被位移则空过。不能在出手时把区域改到英雄新落点。",
+    "adapter": "真实面积查询与预告形状同源。"
+  },
+  {
+    "family_id": "F04",
+    "name": "直线射击",
+    "algorithm": "先按目标规则锁方向/射线。execute从有效锁定起点创建真实投射物，固体阻挡，距离限制range_tiles。多线属于同一action，英雄只结算一次。",
+    "state": "lockedRays、origin、projectileRootActionId",
+    "failure": "起点改变/无合法射线则取消本次；不穿墙补命中。",
+    "adapter": "已有投射物消费者、新射线排布与去重适配。"
+  },
+  {
+    "family_id": "F05",
+    "name": "扇形射击",
+    "algorithm": "扇形为连续面积命中：预告时锁定世界圆心、中轴、角度、内外半径、阶段顺序以及安全缺口。cone_angle_degrees或fan_degrees定义外扇角；inner_radius_tiles缺省0；outer_radius_tiles缺省range_tiles；safe_notch_degrees缺省0。危险区是相应连续扇区/环扇减去明确缺口，并按真实固体遮挡裁剪。execute仅当英雄真实碰撞体与当前阶段未遮挡危险面积相交时，调用既有伤害消费者一次；不得以英雄中心点或几条稀疏射线替代面积判定。",
+    "state": "lockedOrigin、lockedHeading、lockedContinuousSectors、excludedSafeSectors、innerOuterRadii、phaseOrder、actionId",
+    "failure": "实际英雄碰撞体没有完整安全落点时编队不能通过空间门；源演员移离锁定起点则取消。不得把稀疏射线间隙当安全缺口，不按层数补齐缺口、扩大角度或重新追瞄。",
+    "adapter": "新连续扇区/环扇几何过滤与现有碰撞/伤害接口结合，遮挡裁剪和预告共用几何；边缘射线可用于展示或求遮挡边界，但不构成稀疏弹丸命中模型。F05普通N017–N020与精英E005使用同一面积规则。"
+  },
+  {
+    "family_id": "F06",
+    "name": "定点投弹",
+    "algorithm": "预告锁定落点及爆区；投射过程与最终爆区使用同一action。只在约定执行阶段结算落点伤害，具体是否越过掩体由条目明确，不能临时追踪。",
+    "state": "lockedPoints、lockedAreas、actionId",
+    "failure": "目标区域非法则取消，不换到另一块未预告区域。",
+    "adapter": "投射表现和实际爆炸消费者同步；类型使用已有爆炸枚举。"
+  },
+  {
+    "family_id": "F07",
+    "name": "环形冲击",
+    "algorithm": "按条目锁定中心、内外半径和分段生成连续圆/环/弧。内半径0表示实心圆；明确大于0才排除内圈。需要无伤移位的条目先执行relocate，再从实际新位置完整预告并锁定中心；多阶段环带按cycle分别执行，每次预告及实际碰撞共用几何。",
+    "state": "lockedCenter、radii、phaseOrder、actionId",
+    "failure": "不允许把中心安全区或外侧安全区同时封死；源移动取消未执行攻击。",
+    "adapter": "真实英雄碰撞体参与面积相交：实心近圈不能误加安全内孔，带内孔的圆环不能误按整圆伤害。缺口和内圈须以完整碰撞体校验。"
+  },
+  {
+    "family_id": "F08",
+    "name": "地面余波",
+    "algorithm": "区域创建先处于warning，完整玩家回合后转为一次直接伤害结算，再按duration清理。死亡触发的区域在击杀当次不造成即时伤害。不可自动新增酸/冰伤害属性。",
+    "state": "areas{warningTurn,executeTurn,expiryTurn,actionId}",
+    "failure": "达到条目区域上限不再创建；生命周期结束或战斗结束清理。",
+    "adapter": "已有直接伤害/环境来源，新增预警区域时序适配。"
+  },
+  {
+    "family_id": "F09",
+    "name": "正面防御",
+    "algorithm": "按cycle固定可见朝向与扇区，伤害到达时计算入射方向是否位于防御区。满足时通过既有伤害减免%来源添加条目减免，输出后清除临时来源；侧背沿原伤害链。",
+    "state": "facing、guardSector、modifierSourceId",
+    "failure": "无全向免疫；总减免在新模式适配层限制75%，不可错误叠多个同名来源。",
+    "adapter": "方向条件是新AI；已有减伤消费者与物品伤害来源不能合并误算。"
+  },
+  {
+    "family_id": "F10",
+    "name": "开合姿态",
+    "algorithm": "按明确周期切换防御/攻击/恢复。发射前显示本轮姿态；姿态只改变声明的既有减伤来源或有限强固，不偷偷改变碰撞轮廓、攻击次数。",
+    "state": "stance、cycleIndex、fortifyGrantLedger",
+    "failure": "读档、重新显示或受击不重置周期，不反复发战斗开始强固。",
+    "adapter": "强固须初始化强固减伤%0.5；不得照抄源力场的额外清强固/冲量副作用。"
+  },
+  {
+    "family_id": "F11",
+    "name": "治疗同伴",
+    "algorithm": "按条目选择目标模式：ID模式预锁一个或多个同伴；区域模式预锁世界圆区，执行时仅从该区内按条目稳定排序和人数上限选择同伴；会合模式先完成无伤移位，再完整预告。不得把所有模式强制改为单目标ID。每份治疗量、分流总额或逐目标全量按条目明示，调用既有治愈消费者且不超最大HP，保留原DOT交互；治疗占行动。",
+    "state": "lockedAllyIds或lockedHealArea、castAttemptsUsed、pulseOrShareIndex、actionId",
+    "failure": "ID目标失效则其份额空过，不转自己或补换别人；区域模式只处理仍处于预告区域内的合法同伴，不能把区域搬到新目标脚下。达到条目尝试上限后走已声明fallback，失败尝试也计次。",
+    "adapter": "治疗整数为本表治愈×层HP倍率。关闭源额外暴击/成长，实际治愈/DOT账目沿原消费者。"
+  },
+  {
+    "family_id": "F12",
+    "name": "强固支援",
+    "algorithm": "按条目预锁同伴ID集合或固定授甲区域。单体、区域最多两人、会合后授甲、固定次序多目标和精英同目标分期分别遵循各自cycle；每份和总额不得自行翻倍。调用现有护甲生成分支进入当前护甲值，次数按尝试消耗；q=0.5分担伤害，非全吸收护盾。",
+    "state": "lockedAllyIds或lockedFortifyArea、castAttemptsUsed、installmentOrTargetIndex、grantSourceId",
+    "failure": "目标模式按条目区分，ID失效不换人，区域模式不移动已锁世界区域；来源死亡或阶段到期清待发。任一目标缺强固减伤%键则加载/验收失败。",
+    "adapter": "显式初始化既有键，原生成护甲事件与新AI目标选择结合。"
+  },
+  {
+    "family_id": "F13",
+    "name": "号令增伤",
+    "algorithm": "按条目预告锁定目标ID集合；普通单前排、最多两名远程、明确包含施法者自身的目标组，以及精英逐轮接力不得被概述强制变成单个其他友军。给既有额外伤害%登记唯一来源；登记后依条目等到下一敌方阶段生效，并消费一次伤害动作或到期移除，不增加攻击次数。阈值号令走独立一次事件分支。",
+    "state": "lockedAllyIds、bonusSourceIds、activationEnemyTurn、expiryOrConsumed、relayIndex",
+    "failure": "来源死亡、ID目标失效或到期清理；自我加成仅允许条目明确声明的对象，不自动附送给所有号令者。同来源不叠层，接力不得两个目标同时持有同一份加成。",
+    "adapter": "既有增伤词条的来源映射；新模式起始额外伤害来源为0。"
+  },
+  {
+    "family_id": "F14",
+    "name": "孵化召唤",
+    "algorithm": "按各条目的出生触发、世界点、数量和时序生成子嗣：本库N053–N056及E014声明的是直接出生幼体，不能因“孵化/卵”名称强加一个可拆卵实体。只有条目明确声明卵的HP、寿命及替换流程时才先生成卵。阈值触发走event_branches；接近触发遵循离圈再进入门；错峰或巢间移动按cycle执行。先锁合法点，成功或失败都消耗明示名额，子嗣出生无伤害。",
+    "state": "spawnAttemptsUsed、spawnedTotal、lockedSpawnPoints、entryOrThresholdLedger、reservedSlots、rootRewardId",
+    "failure": "非法/被占出生点取消该名额，不改点补生、不因子嗣死亡返还名额。来源死亡取消尚未发生的出生动作；已出生子嗣依条目存续。所有实际实体与预留都必须守6上限。",
+    "adapter": "子嗣采用条目child_definition_id及child_hp_factor/child_attack_factor；基数严格用child_factor_basis，层/波不重复乘、精英不继承。清全部独立金币/XP/装备/材料奖励；出生后至少一完整玩家回合才可按可见计划行动。"
+  },
+  {
+    "family_id": "F15",
+    "name": "一代分裂",
+    "algorithm": "在条目规定死亡/阈值事件只触发一次，先标记splitUsed再创建有限子体。子体generation=1且没有分裂技能；父子共享根奖励去重ID。",
+    "state": "splitUsed、generation、childIds、rootRewardId",
+    "failure": "不允许治疗后重复越过阈值刷子体；空间不足不递归重试。",
+    "adapter": "源分裂消费者只提供能力线索，需新预算、成长、奖励和一次触发门。"
+  },
+  {
+    "family_id": "F16",
+    "name": "一次复生",
+    "algorithm": "首次致死先保存once/根奖励账本并建立条目声明的可拆残骸；残骸生命严格按remnant_hp_base与remnant_hp_scaling，复起生命按revive_hp_basis，不混用两个基数。按事件序列等待完整玩家回合，必要时沿预告路径移动残骸；复起前检查残骸存活、锁定复起点合法及条目声明的同伴依赖，再按比例恢复本体。复生后行为采用条目明确的近战或射击分支。 若params.post_revive_cycle存在，复生后使用该周期替换生前cycle；不得一律回原近战。",
+    "state": "reviveUsed、corpseId、timer、rootRewardId",
+    "failure": "残骸被毁、锁定位置失效或必要同伴死亡即终止；再次致死不再复生，不再发奖励。禁止借通用reset回满HP、重发初始强固或清除支援次数。",
+    "adapter": "通用重置会回满HP并清强固，新适配必须保留次数/奖励状态且不重发战斗开始收益。"
+  },
+  {
+    "family_id": "F17",
+    "name": "预告瞬移",
+    "algorithm": "预告选择并保存合法目标位，执行前复核占用/碰撞后移动。本次瞬移不攻击，之后按cycle重新预告；不可复制源整回合关闭碰撞的隐藏无敌。",
+    "state": "lockedLanding、cycleIndex",
+    "failure": "位置被占则留在原位并空过；不能默认移到原点或临时选未预告位置。",
+    "adapter": "已有闪现接口加新可见落点、合法性和失败回退。"
+  },
+  {
+    "family_id": "F18",
+    "name": "牵引位移",
+    "algorithm": "预告锁定路径/方向和最大移动距离，玩家先有完整回合应对。执行时若真实命中才用现有位移/物理接口拉动，固体阻挡；本次不追加伤害。",
+    "state": "lockedOrigin、lockedPullPath、hitOnce、actionId",
+    "failure": "不能拉入没有反制机会的危险结算；禁配列表先拦截，空间门再检查。位移不得穿墙。",
+    "adapter": "已有物理力不等于固定格位移，需真实物理校准；不添加抗拉/韧性属性。"
+  },
+  {
+    "family_id": "F19",
+    "name": "可拆路障",
+    "algorithm": "预告空格后创建有限可拆实体，HP按明确基值×层HP倍率，基础碰撞能拆。生成前检查占用与连通，按持续期清理；路障占预留实体位。",
+    "state": "barrierIds、castsUsed、expiryTurns",
+    "failure": "造成所有进攻路径封闭时取消；不靠图像墙体冒充真实碰撞。",
+    "adapter": "源筑墙参考需改可拆HP、清理、连通与奖励合同，不继承源力场副作用。"
+  },
+  {
+    "family_id": "F20",
+    "name": "蓄势炮击",
+    "algorithm": "按cycle蓄势并保存完整世界射线/区域，所有分段与执行顺序提前可见。到execute才创建真实投射/伤害，之后较长恢复；同action去重。",
+    "state": "chargePhaseIndex、lockedGeometry、actionId",
+    "failure": "蓄势只是AI回合计数，不新增能量条；源位移/目标失效则取消，不追瞄。",
+    "adapter": "多回合状态存档、起点锁定与投射命中一致。"
+  }
+]

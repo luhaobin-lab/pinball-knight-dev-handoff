@@ -1,0 +1,13 @@
+{
+  "id": "I106",
+  "status": "approved-anchor",
+  "source": "mothers/I106.png",
+  "motherSha256": "9d06e18fbcf49c959e12c31a30eba0f2c3b9641fd2d495d2daf7395231e07e8d",
+  "approvedByUser": true,
+  "sourceProvenance": {
+    "sourceFilename": "I106.png",
+    "origin": "v5-approved-anchor",
+    "localCachePathRemoved": true
+  },
+  "mother": "mothers/I106.png"
+}

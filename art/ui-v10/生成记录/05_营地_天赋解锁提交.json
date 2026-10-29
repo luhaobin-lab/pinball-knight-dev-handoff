@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Image1 is the FINAL NEW WIDE HERO PAGE and the exact target for this edit. Preserve its whole page pixel layout, dark plum paper surface, pen drawing, portrait, header, backpack, and all6 talent positions. Image2 supplies ONLY the required camp state and wording, never its old beige materials. Return one complete3200x1440 image. NO separate equipment sidebar on the left; the wide page must continue across the LEFT+MIDDLE exactly as Image1 does. Rightbackpack3empty+1locked with full unobstructed frame. No masonry overlaps any UI.\nPAGE05 CAMP TALENT UNLOCK BEFORE TRANSACTION. Use Image1's NEW PAGE02 wide character sheet, dark ink-paper surfaces, font and exact six-tile geometry. Change ONLY contextual state according to Image2: location 营地; second tab selected. 药剂师 remains first row left, selected using green corner brackets plus padlock. Detail 使用生命药剂时，额外治愈5%生命。 Status 未解锁 · 消耗技能点. Actions 返回营地 secondary and 解锁天赋 primary at same bottom positions. Same portrait and stats180/30/0/0%/500, same talents 药剂师/博学/上肢力量/强韧/体质/敏捷. Right3empty+lock. Do not invent numeric costs, level, point balance, prerequisite or success state. Keep status white enough to read. No separate bright parchment redesign.\nAll changes from Image1 are limited to the location title, selected talent state/details, and bottom actions described. Do not repaint into a different style, add any cost/level/point balance, enlarge the portrait, move any tile, add an empty frame, or change the source master geometry. Keep the exact image1 top resource icons and values180/180,100/100,0/100EMPTY,4.",
+    "images": [
+      "art/ui-v10/原始生成图/02_战斗_英雄属性与天赋_修正.png",
+      "archive/ui-v09-approved/交付原图/05_营地_天赋解锁.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2f379f5157103dedccb6e\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2f379f5157103dedccb6e",
+      "raw": {
+        "id": "6ae2f379f5157103dedccb6e",
+        "object_id": "6ae2f379f5157103dedccb6e",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T15:19:21.777000+08:00",
+        "updateTime": "2026-10-29T15:19:21.821000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I050",
+  "name": "铸甲重锤",
+  "status": "generated-normalized",
+  "source": "mothers/I050.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I050.png",
+  "motherSha256": "258f4ed510562efb0b0dfef863b55ef2384a931462abebf2dca07080b502d573",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I050.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4990,
+      "sha256": "dd258fca6e6934b1ec31da7cbe2a93f5dc672f1e19368dbe609a649753ab5fe0",
+      "pixelSha256": "8ffbc6dc43b5fa11698ce102778b69ef162f7327e2ba9766f742c731f15f4477",
+      "alphaBounds": [
+        4,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          57,
+          64,
+          1194,
+          1207
+        ],
+        "fitSize": [
+          119,
+          120
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.10498687664041995
+      }
+    },
+    "256": {
+      "file": "pixels/256/I050.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 18823,
+      "sha256": "df22a8f43a9c3de70fafd00156dc96f809285881812b89a92a98d02e9937ee72",
+      "pixelSha256": "dc2225b9c99c8df965f2f1f716ef78d3ecc8ec30e7163a440b6f2d897d9b5919",
+      "alphaBounds": [
+        9,
+        8,
+        247,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          57,
+          64,
+          1194,
+          1207
+        ],
+        "fitSize": [
+          239,
+          240
+        ],
+        "position": [
+          8,
+          8
+        ],
+        "scale": 0.2099737532808399
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; coherent core shield / forging hammer / shield axe, clear joined functional parts",
+  "sourceProvenance": {
+    "sourceFilename": "exec-e038d741-1d66-470b-81dc-fa6f9d14c0a4.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-e038d741-1d66-470b-81dc-fa6f9d14c0a4"
+  }
+}

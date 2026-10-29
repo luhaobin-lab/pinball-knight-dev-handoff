@@ -1,0 +1,124 @@
+{
+  "source": "D:/TAPTAPGAME_codex/studio/tmp/determinism-seed1-baseline.json",
+  "baseline": "2ba90eb",
+  "seed": 1,
+  "note": "First 28 commands: original frame replay first diverged at command27, before release, by three weak ticks at 1667/60.",
+  "commands": [
+    {
+      "type": "title.newRun"
+    },
+    {
+      "type": "hero.start"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r1c0"
+    },
+    {
+      "type": "interact",
+      "actor": 210
+    },
+    {
+      "type": "loot.take",
+      "item": 223
+    },
+    {
+      "type": "map.enter",
+      "cell": "r2c0"
+    },
+    {
+      "type": "interact",
+      "actor": 303
+    },
+    {
+      "type": "loot.take",
+      "item": 316
+    },
+    {
+      "type": "loot.take",
+      "item": 321
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r3c1"
+    },
+    {
+      "type": "interact",
+      "actor": 403
+    },
+    {
+      "type": "loot.take",
+      "item": 416
+    },
+    {
+      "type": "map.enter",
+      "cell": "r4c2"
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -4006.492572605668,
+        "y": 851.6062855895422
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -2106.5326047372496,
+        "y": -3815.610004299036
+      }
+    },
+    {
+      "type": "panel.continue"
+    },
+    {
+      "type": "loot.take",
+      "item": 591
+    },
+    {
+      "type": "map.enter",
+      "cell": "r5c2"
+    },
+    {
+      "type": "modal.pick",
+      "option": 0
+    },
+    {
+      "type": "interact",
+      "actor": 670
+    },
+    {
+      "type": "loot.take",
+      "item": 688
+    },
+    {
+      "type": "map.enter",
+      "cell": "r6c1"
+    },
+    {
+      "type": "interact",
+      "actor": 769
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r7c1"
+    },
+    {
+      "type": "modal.pick",
+      "option": 0
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 4096,
+        "y": 0
+      }
+    }
+  ]
+}

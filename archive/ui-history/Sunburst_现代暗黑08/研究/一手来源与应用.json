@@ -1,0 +1,34 @@
+[
+  {
+    "id": "DD2-2021",
+    "source": "Chris Bourassa / Tyler Sigman 本人访谈，Epic Games Store，2021-10-26",
+    "url": "https://store.epicgames.com/news/darkest-dungeon-2-early-access-interview?lang=en-US",
+    "sourceFacts": "DD2保留大块黑与粗粝绘画纹理，采用更成熟人物比例；怪物阵营用共同的末日反应组织视觉。",
+    "projectApplication": "改掉圆头短身骑士、笑脸敌人和完好商品造型。用同一原创仪式母题约束角色、道具与环境。",
+    "boundary": "不是2026新发布技法；用于理解DD2美术演进。具体形体是本项目设计。"
+  },
+  {
+    "id": "DD2-2024",
+    "source": "Chris Bourassa 本人制作访谈，Game Developer，2024-03-18",
+    "url": "https://www.gamedeveloper.com/design/how-a-theme-of-a-road-trip-from-hell-would-shape-darkest-dungeon-ii",
+    "sourceFacts": "角色纹理沿用手绘笔刷；环境先画2D再建支撑几何；光照须保留漫画品质。",
+    "projectApplication": "先重建剪影、黑面和方向性笔触，再转译成细密像素簇，不追求每个物件都像逼真商品照。",
+    "boundary": "DD2是手绘质感3D，不是像素制作教程。"
+  },
+  {
+    "id": "GDC-2016",
+    "source": "Chris Bourassa 原始GDC讲稿，第9与10页，2016",
+    "url": "https://media.gdcvault.com/gdc2016/Presentations/Bourassa_Chris_a%20torch%20in.pdf",
+    "sourceFacts": "讲稿讨论像素表达容易带出复古/可爱，以及远视角削弱角色与压迫感的问题。",
+    "projectApplication": "本项目仍保留已确定的俯视玩法和高清细像素，靠成熟造型、强黑面和克制细节转译压迫感。",
+    "boundary": "历史创作取舍，不是所有像素画/俯视游戏无法恐怖的普遍结论；没有据此改玩法。"
+  },
+  {
+    "id": "MORK-2020",
+    "source": "Johan Nohr / Pelle Nilsson 本人访谈，Tom's Hardware Italia，2020-04-15",
+    "url": "https://www.tomshw.it/culturapop/mork-borg-intervista-a-pelle-nilsson-e-johan-nohr-autori",
+    "sourceFacts": "Nohr提到朋克与金属乐杂志、演出海报和唱片封面的影响，并说明没有怀旧动机。",
+    "projectApplication": "用少数强形和偏心仪式图形建立鲜明视觉；放弃每个角落都摆小装饰的习惯。",
+    "boundary": "MÖRK BORG为纸面TTRPG/艺术书，不能直接套其多字体、旋转排版或用作像素材质规范。未作为生图输入。"
+  }
+]

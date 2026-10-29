@@ -1,0 +1,499 @@
+{
+  "target": {
+    "scope": "Read-onlyscanofpreparedpublicrepositoryandreleaseZIPs",
+    "authorization": "UserexplicitlyrequestedpublicGitHubpublication",
+    "forbidden": [
+      "Do not print/save matchedcredentials",
+      "No repository orreleaseedits",
+      "No remote writes"
+    ]
+  },
+  "status": "no-sensitive-findings-public-archive-content-triage-required",
+  "scannedAtUTC": "2026-10-28T03:11:20.468280+00:00",
+  "repository": "D:\\TAPTAPGAME_rebound_20261027\\publish\\github-public-20261028\\repository",
+  "releaseAssets": "D:\\TAPTAPGAME_rebound_20261027\\publish\\github-public-20261028\\release-assets",
+  "repoFileCount": 1515,
+  "repoBytes": 121349482,
+  "repoExtensions": {
+    ".xlsx": 3,
+    ".csv": 5,
+    ".json": 52,
+    ".md": 86,
+    "": 2,
+    ".html": 3,
+    ".ts": 1244,
+    ".woff2": 1,
+    ".txt": 4,
+    ".py": 12,
+    ".sh": 1,
+    ".png": 4,
+    ".mjs": 81,
+    ".mts": 13,
+    ".cs": 2,
+    ".csproj": 2
+  },
+  "repoLargest": [
+    {
+      "file": "game/spec/parity/catalog/catalog.json",
+      "bytes": 50622475
+    },
+    {
+      "file": "game/spec/parity/catalog/index.html",
+      "bytes": 30808411
+    },
+    {
+      "file": "data/Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+      "bytes": 6495347
+    },
+    {
+      "file": "play/index.html",
+      "bytes": 6322108
+    },
+    {
+      "file": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+      "bytes": 5563473
+    },
+    {
+      "file": "data/R3补充B_技能与天赋消费者.xlsx",
+      "bytes": 2779534
+    },
+    {
+      "file": "game/spec/parity/reachable-content-ledger.json",
+      "bytes": 1148983
+    },
+    {
+      "file": "game/studio/golden/01-combat-zoom.png",
+      "bytes": 878742
+    },
+    {
+      "file": "game/studio/golden/04-cast.png",
+      "bytes": 800560
+    },
+    {
+      "file": "game/src/content/demo/data/数据表_技能_修炼物品.ts",
+      "bytes": 622817
+    }
+  ],
+  "rejectedRuntimeAbsent": true,
+  "scanStats": {
+    "bytes_examined": 1088384842,
+    "text_documents_scanned": 9329,
+    "local_user_path_occurrences": 24
+  },
+  "sensitivePatternMatches": [],
+  "emailDomainsAndLocations": [
+    {
+      "domain": "quiple.dev",
+      "count": 1,
+      "fingerprint": "41b2dd7fe225",
+      "locations": [
+        "game/src/ui/font/licenses/galmuri-OFL.txt"
+      ]
+    },
+    {
+      "domain": "local.invalid",
+      "count": 1,
+      "fingerprint": "126f5164b06f",
+      "locations": [
+        "game/tests/tools-bot/train.test.ts"
+      ]
+    },
+    {
+      "domain": "LinearBlendSkin_Morph_Cloth.OptimusNode_ComputeKernel_1.ush",
+      "count": 1,
+      "fingerprint": "6585ceb0e6b6",
+      "locations": [
+        "Ricochet_Abyss_Demo_R3原始证据与参考算法.zip::source/dump/raw/DeformerGraph/Deformers/DG_LinearBlendSkin_Morph_Cloth.json"
+      ]
+    },
+    {
+      "domain": "LinearBlendSkin_Morph_Cloth_PositionOnly.OptimusNode_ComputeKernel_1.ush",
+      "count": 1,
+      "fingerprint": "6e93c079367e",
+      "locations": [
+        "Ricochet_Abyss_Demo_R3原始证据与参考算法.zip::source/dump/raw/DeformerGraph/Deformers/DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals.json"
+      ]
+    },
+    {
+      "domain": "ComputeNormalsTangents.OptimusNode_CustomComputeKernel_0.ush",
+      "count": 1,
+      "fingerprint": "22da4d0d491c",
+      "locations": [
+        "Ricochet_Abyss_Demo_R3原始证据与参考算法.zip::source/dump/raw/DeformerGraph/Deformers/DG_LinearBlendSkin_Morph_Cloth_RecomputeNormals.json"
+      ]
+    },
+    {
+      "domain": "quixel.com",
+      "count": 1,
+      "fingerprint": "61144898bad4",
+      "locations": [
+        "Ricochet_Abyss_Demo_R3原始证据与参考算法.zip::source/pak/Engine/Plugins/Bridge/Bridge.uplugin"
+      ]
+    },
+    {
+      "domain": "gmail.com",
+      "count": 1,
+      "fingerprint": "e8115ef1aa0e",
+      "locations": [
+        "Ricochet_Abyss_Demo_R3原始证据与参考算法.zip::source/pak/Engine/Plugins/Marketplace/EasyMultiSave/EasyMultiSave.uplugin"
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "file": "02时有界补证原始证据.zip",
+      "bytes": 165107,
+      "sha256": "11080ae8fbb8ad46f6c2d546c3f34d7d5c9f7faf8a8d72501b6c27b0327d587d",
+      "members": 78,
+      "uncompressedBytes": 764729,
+      "extensions": {
+        ".txt": 4,
+        ".json": 9,
+        ".py": 4,
+        ".md": 2,
+        ".asm": 36,
+        ".bin": 23
+      },
+      "largestMembers": [
+        {
+          "path": "cache/current-pe-ranges.json",
+          "bytes": 108553
+        },
+        {
+          "path": "umg/native/staticconstruct-linear-window.asm",
+          "bytes": 87703
+        },
+        {
+          "path": "umg/native/create-default-window.asm",
+          "bytes": 71691
+        },
+        {
+          "path": "umg/native/postconstruct-window.asm",
+          "bytes": 48179
+        },
+        {
+          "path": "umg/native/allocate-linear-window.asm",
+          "bytes": 44484
+        },
+        {
+          "path": "umg/native/StaticAllocateControlFlow.asm",
+          "bytes": 38913
+        },
+        {
+          "path": "umg/native/initializer-dtor-window.asm",
+          "bytes": 31021
+        },
+        {
+          "path": "umg/native/entry-leads.asm",
+          "bytes": 27139
+        }
+      ],
+      "softwareBinaries": [],
+      "engineSourceFiles": 0,
+      "engineSourceBytes": 0,
+      "engineSourceExamples": [],
+      "unsafeNames": []
+    },
+    {
+      "file": "R3补充B_消费者映射原始数据与证据.zip",
+      "bytes": 5765238,
+      "sha256": "bcc0d3801630af1a78171617b75140507d6b186c6b2abe341ad6a76edc94f79c",
+      "members": 50,
+      "uncompressedBytes": 122471950,
+      "extensions": {
+        ".py": 9,
+        ".json": 23,
+        ".md": 3,
+        ".csv": 14,
+        ".log": 1
+      },
+      "largestMembers": [
+        {
+          "path": "consumer-followup/evidence/all-call-sites.json",
+          "bytes": 41580994
+        },
+        {
+          "path": "consumer-followup/consumer-tables.json",
+          "bytes": 39291568
+        },
+        {
+          "path": "consumer-followup/consumer-index.json",
+          "bytes": 14063522
+        },
+        {
+          "path": "consumer-followup/csv/08-消费者继承函数.csv",
+          "bytes": 6206822
+        },
+        {
+          "path": "consumer-followup/csv/04-配置能力效果绑定.csv",
+          "bytes": 3472628
+        },
+        {
+          "path": "consumer-followup/csv/03-技能参数消费映射.csv",
+          "bytes": 3150130
+        },
+        {
+          "path": "consumer-followup/csv/13-显式函数与父调用.csv",
+          "bytes": 2521558
+        },
+        {
+          "path": "consumer-followup/csv/07-数值属主与结果调用.csv",
+          "bytes": 2301567
+        }
+      ],
+      "softwareBinaries": [],
+      "engineSourceFiles": 0,
+      "engineSourceBytes": 0,
+      "engineSourceExamples": [],
+      "unsafeNames": []
+    },
+    {
+      "file": "R3补充核验A_原生CfromP与Calc验证.zip",
+      "bytes": 221787,
+      "sha256": "c1873ee8f14eb8db440dfe56635df626b66adf4a4aeb00587ee986070f21c960",
+      "members": 54,
+      "uncompressedBytes": 2724946,
+      "extensions": {
+        ".py": 2,
+        ".json": 26,
+        ".md": 2,
+        ".asm": 22,
+        ".bin": 1,
+        ".csv": 1
+      },
+      "largestMembers": [
+        {
+          "path": "native-followup/followup-tables.json",
+          "bytes": 1008229
+        },
+        {
+          "path": "readable/01-CfromP数学与保护分支.csv",
+          "bytes": 561334
+        },
+        {
+          "path": "native-followup/native-math-final-01/vectors.json",
+          "bytes": 409454
+        },
+        {
+          "path": "native-followup/native-math-final-02/vectors.json",
+          "bytes": 409454
+        },
+        {
+          "path": "native-followup/comparison.json",
+          "bytes": 177839
+        },
+        {
+          "path": "native-followup/native-math-final-02/private-code-image.bin",
+          "bytes": 16384
+        },
+        {
+          "path": "native-followup/native-math-final-02/copy-audit.json",
+          "bytes": 14106
+        },
+        {
+          "path": "native-followup/cfromp_math_oracle.py",
+          "bytes": 11651
+        }
+      ],
+      "softwareBinaries": [],
+      "engineSourceFiles": 0,
+      "engineSourceBytes": 0,
+      "engineSourceExamples": [],
+      "unsafeNames": []
+    },
+    {
+      "file": "R3补充核验C_尾部157字节.zip",
+      "bytes": 65921,
+      "sha256": "bb240d882952d4ec4a3192e333db636c4c9589423fd2e5342aa6c39de705275e",
+      "members": 32,
+      "uncompressedBytes": 214172,
+      "extensions": {
+        ".py": 3,
+        ".json": 16,
+        ".md": 2,
+        ".bin": 6,
+        ".log": 1,
+        ".cs": 1,
+        ".csproj": 1,
+        ".csv": 2
+      },
+      "largestMembers": [
+        {
+          "path": "tail-followup/tail-sheets.json",
+          "bytes": 34633
+        },
+        {
+          "path": "tail-followup/evidence/dynamicmesh-tail-fields.json",
+          "bytes": 25320
+        },
+        {
+          "path": "tail-followup/evidence/dynamicmesh-package.bin",
+          "bytes": 12861
+        },
+        {
+          "path": "readable/02-动态网格尾部37字段.csv",
+          "bytes": 12665
+        },
+        {
+          "path": "tail-followup/evidence/source-installation-final-check.json",
+          "bytes": 11696
+        },
+        {
+          "path": "tail-followup/finalize.py",
+          "bytes": 10344
+        },
+        {
+          "path": "review/review_tail.py",
+          "bytes": 9845
+        },
+        {
+          "path": "tail-followup/decode_tails.py",
+          "bytes": 8900
+        }
+      ],
+      "softwareBinaries": [],
+      "engineSourceFiles": 0,
+      "engineSourceBytes": 0,
+      "engineSourceExamples": [],
+      "unsafeNames": []
+    },
+    {
+      "file": "Ricochet_Abyss_Demo_R3原始证据与参考算法.zip",
+      "bytes": 226694381,
+      "sha256": "ca232bdbe6e0065fddb461ef6e165bc2ddb7c0f5c84cc9e708f6b0eb15df7319",
+      "members": 11722,
+      "uncompressedBytes": 953398010,
+      "extensions": {
+        ".md": 14,
+        ".json": 5634,
+        ".txt": 1338,
+        ".asm": 115,
+        ".py": 36,
+        ".csv": 13,
+        ".log": 6,
+        ".uproject": 2,
+        ".ini": 83,
+        ".locmeta": 6,
+        ".locres": 62,
+        ".upluginmanifest": 2,
+        ".bin": 2,
+        ".ufont": 23,
+        ".stinfo": 2,
+        ".res": 3438,
+        ".dict": 5,
+        ".brk": 12,
+        ".icu": 4,
+        ".cfu": 1,
+        ".nrm": 3,
+        ".png": 424,
+        ".svg": 320,
+        ".tps": 3,
+        ".ttf": 15,
+        ".uplugin": 159
+      },
+      "largestMembers": [
+        {
+          "path": "machine/tables.json",
+          "bytes": 107422290
+        },
+        {
+          "path": "source/pak/CatapultHero/Content/CatapultHero/字库/SourceHanSerifSC-Bold.ufont",
+          "bytes": 25425328
+        },
+        {
+          "path": "source/pak/CatapultHero/Content/CatapultHero/字库/SourceHanSerifSC-Medium.ufont",
+          "bytes": 24693392
+        },
+        {
+          "path": "source/pak/CatapultHero/Content/CatapultHero/字库/SourceHanSerifK-Medium.ufont",
+          "bytes": 24689800
+        },
+        {
+          "path": "source/pak/CatapultHero/Content/CatapultHero/字库/SourceHanSerifSC-Heavy.ufont",
+          "bytes": 24003616
+        },
+        {
+          "path": "source/pak/CatapultHero/Content/CatapultHero/字库/SourceHanSerifK-Heavy.ufont",
+          "bytes": 24000024
+        },
+        {
+          "path": "evidence/provenance/provenance-sheets.json",
+          "bytes": 20223659
+        },
+        {
+          "path": "evidence/growth/growth-tables.json",
+          "bytes": 19305084
+        }
+      ],
+      "softwareBinaries": [],
+      "engineSourceFiles": 0,
+      "engineSourceBytes": 0,
+      "engineSourceExamples": [],
+      "unsafeNames": [],
+      "pakPayloadSummary": {
+        "AssetRegistry metadata": {
+          "count": 1,
+          "bytes": 1418160
+        },
+        "Project/engine config and plugin manifests": {
+          "count": 237,
+          "bytes": 982424
+        },
+        "Original packaged fonts": {
+          "count": 23,
+          "bytes": 191651116
+        },
+        "Localization metadata and text": {
+          "count": 56,
+          "bytes": 59701619
+        },
+        "Shader cache and type metadata": {
+          "count": 3,
+          "bytes": 2161404
+        },
+        "ICU internationalization runtime data": {
+          "count": 3463,
+          "bytes": 22072253
+        },
+        "Engine Slate UI images": {
+          "count": 762,
+          "bytes": 8014111
+        }
+      }
+    }
+  ],
+  "proposals": [],
+  "needs": [
+    "Rootdecideanddocument publicderivativearchive scope;rescan any newREADME/auth/publicpackagingfiles before upload"
+  ],
+  "emailTriage": {
+    "actualUserPrivateEmailDetected": false,
+    "observedPublicAttribution": [
+      "Fontlicenseauthor contact",
+      "Quixelpluginmetadata contact",
+      "EasyMultiSavepublicpluginmetadata contact"
+    ],
+    "nonEmailMatches": "Unrealshaderobjectnames containing @ and source filenames; test local.invalid address",
+    "emailValuesNotEmitted": true
+  },
+  "sensitiveScanVerdict": "No detected credential/private-account material in scanned prepared files",
+  "contentBoundaryRecommendation": {
+    "type": "publicationpackagingchoice",
+    "mainResearchArchiveContainsPackagedRuntimeAssets": true,
+    "removeFromPublicDerivativeSuggested": [
+      "OriginalEngineSlateimages",
+      "Fontpayloads",
+      "ICUinternationalizationruntimepayloads",
+      "Compiledshadercache"
+    ],
+    "preserve": [
+      "ResearchrawJSON/Blueprintpseudocode/algorithms/tables",
+      "Inputandassetmanifests with exacthashes",
+      "Boundednativebyteproofs",
+      "Sourceprovenanceindexes"
+    ],
+    "frozenLocalArchiveMustRemainUnchanged": true,
+    "reason": "Requestedpublicsource-and-data bundle neednot duplicateoriginalruntime/font/UI dependencies; retainmanifest evidence and explicitpublicomissionledger."
+  },
+  "latestReviewAtUTC": "2026-10-28T03:13:47.290600+00:00"
+}

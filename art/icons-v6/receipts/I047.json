@@ -1,0 +1,13 @@
+{
+  "id": "I047",
+  "status": "approved-anchor",
+  "source": "mothers/I047.png",
+  "motherSha256": "97d217b19af565f0c6bd95ba2ba7dc7230f0ca8ae27ffee6e636a6c0298ef175",
+  "approvedByUser": true,
+  "sourceProvenance": {
+    "sourceFilename": "I047.png",
+    "origin": "v5-approved-anchor",
+    "localCachePathRemoved": true
+  },
+  "mother": "mothers/I047.png"
+}

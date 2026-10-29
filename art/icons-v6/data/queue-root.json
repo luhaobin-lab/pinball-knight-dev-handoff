@@ -1,0 +1,1995 @@
+[
+  {
+    "id": "I156",
+    "name": "灵魂香菇",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具"
+    ],
+    "description": "每搜寻过一次物品，增加2价值。最多不超过8。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未知种子（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "fungus",
+      "motif": "有灵脸的小簇香菇",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I157",
+    "name": "守护之戒",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品",
+      "地系"
+    ],
+    "description": "完成充能时：强固5。\n治愈5。\n每当此物品获得灌注，增加5治愈。\n每当此物品获得灌注，增加5强固。\n会心几率85%。",
+    "charge": "6.0",
+    "recycle": "1",
+    "recipe": "旧项链（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "ring",
+      "motif": "镶盾面的守护戒指",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I158",
+    "name": "幸运护符",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "所有物品提升10%会心几率。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "旧项链（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "amulet",
+      "motif": "绑红线的四叶幸运护符",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I159",
+    "name": "投手之握",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具"
+    ],
+    "description": "每当生成投射物，强固2。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "旧手套（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "handwear",
+      "motif": "托着箭片的投手之握",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I160",
+    "name": "蝮蛇弓",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器",
+      "剧毒",
+      "投射"
+    ],
+    "description": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，生成毒气，在3回合内造成12剧毒伤害。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "旧弓（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bow",
+      "motif": "蛇首替代末端弓角的蝮蛇弓",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I161",
+    "name": "炸弹弓",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器",
+      "投射",
+      "火系"
+    ],
+    "description": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，引起爆炸，造成4伤害。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "旧弓（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bow",
+      "motif": "绑着圆炸弹的爆破弓",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I162",
+    "name": "闪鸣弓",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器",
+      "投射",
+      "电系"
+    ],
+    "description": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，引起连锁电击，造成8伤害。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "旧弓（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bow",
+      "motif": "导电折角构成的闪鸣弓",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I163",
+    "name": "时空水晶",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "上方相邻物品提升25%充能速度。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "魔力石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crystal",
+      "motif": "双尖时空晶与轨道环",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I164",
+    "name": "噬毒护符",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品",
+      "剧毒"
+    ],
+    "description": "提升5%生命上限。\n每当获取剧毒物品，生命增加效果提升3%。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "旧项链（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "amulet",
+      "motif": "张口咬住毒珠的噬毒护符",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I165",
+    "name": "淬毒利刃",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器",
+      "剧毒"
+    ],
+    "description": "完成充能时：下3次攻击将会在3回合内造成15剧毒伤害。\n会心几率30%。\n每当敌人受到8次剧毒伤害，获得1层易伤。",
+    "charge": "12.0",
+    "recycle": "1",
+    "recipe": "旧匕首（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "blade",
+      "motif": "带毒槽的弯曲淬毒利刃",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I166",
+    "name": "花冠",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "提升12.5%生命上限，此物品处于顶层时，额外提升12.5%生命上限。\n下方相邻物品完成充能时，灌注5。",
+    "charge": "",
+    "recycle": "1",
+    "recipe": "未知种子（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crown",
+      "motif": "红花骨枝交织的花冠",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I167",
+    "name": "无尽水壶",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具"
+    ],
+    "description": "完成充能时：治愈10。\n每2次反弹，相邻治愈物品灌注25。",
+    "charge": "10.0",
+    "recycle": "1",
+    "recipe": "旧项链（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "vessel",
+      "motif": "带环柄和长嘴的无尽水壶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I168",
+    "name": "汲取拳套",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "武器",
+      "小型"
+    ],
+    "description": "完成充能时：下3次攻击额外造成3伤害。\n治愈5。\n回响释放×2。",
+    "charge": "16.0",
+    "recycle": "1",
+    "recipe": "旧手套（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "handwear",
+      "motif": "装着血眼吸盘的汲取拳套",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I169",
+    "name": "饮血宝石",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品"
+    ],
+    "description": "完成充能时：治愈10。\n每当失去10%生命，下方相邻物品灌注10。",
+    "charge": "8.0",
+    "recycle": "1",
+    "recipe": "魔力石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crystal",
+      "motif": "双獠牙夹持的饮血宝石",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I170",
+    "name": "烈焰匕首",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器",
+      "火系"
+    ],
+    "description": "完成充能时：下3次攻击将会在3回合内造成8燃烧伤害。\n上方相邻火系物品提升1回响释放。",
+    "charge": "20.0",
+    "recycle": "1",
+    "recipe": "旧匕首（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "blade",
+      "motif": "火舌形刀背的烈焰匕首",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I171",
+    "name": "火山药水",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "工具",
+      "火系",
+      "电系"
+    ],
+    "description": "完成充能时：治愈8。\n火系物品提升10伤害。\n每2次反弹，下方相邻电系物品灌注15。",
+    "charge": "12.0",
+    "recycle": "1",
+    "recipe": "生命药剂（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "bottle",
+      "motif": "裂岩包裹的火山药水",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I172",
+    "name": "风语草",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品",
+      "气系"
+    ],
+    "description": "完成充能时：治愈10。\n会心几率15%。\n相邻电系物品提升10%充能速度。",
+    "charge": "12.0",
+    "recycle": "1",
+    "recipe": "未知种子（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "herb",
+      "motif": "沿风向弯下的细穗草",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I173",
+    "name": "璀璨结晶",
+    "category": "装备物品",
+    "subtype": "饰品",
+    "kind": "饰品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "饰品",
+      "气系",
+      "投射"
+    ],
+    "description": "完成充能时：下2次碰撞敌人时，向周围投射气刃，造成5伤害。\n相邻气系物品增加25%充能速度，直到战斗结束。\n此物品每完成5次充能移除临时充能速度加成，并增加5伤害，直到战斗结束。",
+    "charge": "20.0",
+    "recycle": "1",
+    "recipe": "魔力石（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "crystal",
+      "motif": "放射状的璀璨晶簇",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I174",
+    "name": "熔岩坚果",
+    "category": "装备物品",
+    "subtype": "工具",
+    "kind": "工具",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "火系",
+      "地系",
+      "小型",
+      "工具"
+    ],
+    "description": "完成充能时：下2次碰撞敌人时，引起爆炸，造成8伤害。\n地系和火系物品增加5%会心几率，直到战斗结束。",
+    "charge": "12.0",
+    "recycle": "1",
+    "recipe": "未知种子（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "nut",
+      "motif": "开裂露出熔核的坚果",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I175",
+    "name": "雷神匕首",
+    "category": "装备物品",
+    "subtype": "武器",
+    "kind": "武器",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型",
+      "武器",
+      "电系"
+    ],
+    "description": "完成充能时：下2次攻击会电击周围敌人，造成3点伤害。\n每2次反弹，随机物品灌注25。",
+    "charge": "20.0",
+    "recycle": "1",
+    "recipe": "旧匕首（1）",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "blade",
+      "motif": "叉状雷电刃的雷神匕首",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "T068",
+    "name": "裂心一击",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "〔正文仅露出字形上部，无法完整辨认〕",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "裂心",
+      "motif": "开裂的器官心脏",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [
+      "description: 〔正文仅露出字形上部，无法完整辨认〕"
+    ],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T069",
+    "name": "灵敏",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "〔正文位于画面下缘，无法完整辨认〕",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "灵敏",
+      "motif": "轻羽与侧向回旋痕",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [
+      "description: 〔正文位于画面下缘，无法完整辨认〕"
+    ],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T070",
+    "name": "会心护体",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "会心"
+    ],
+    "description": "触发会心时，英雄获得5%伤害减免，最多不超过80%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "会心防御",
+      "motif": "盾心睁开的金眼",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T071",
+    "name": "追风",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "每10次反弹，获得1层闪避。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "追风",
+      "motif": "风流前的轻靴",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T072",
+    "name": "稳固射击",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "投射",
+      "回响释放"
+    ],
+    "description": "投射物品每有2回响释放，造成的伤害提升10%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "稳固射击",
+      "motif": "石座固定长弓",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T073",
+    "name": "创口切割",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "流血"
+    ],
+    "description": "每当物品造成一次流血伤害，其增加25%伤害，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "创口切割",
+      "motif": "刀尖扩大缝合伤口",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T074",
+    "name": "敏锐直觉",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "闪避"
+    ],
+    "description": "回合开始时，每拥有一层闪避，所有物品增加50%伤害，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "敏锐直觉",
+      "motif": "侧面骨耳与听觉波",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T075",
+    "name": "多重射击",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "投射",
+      "回响释放"
+    ],
+    "description": "投射物品提升2次回响释放。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "多重射击",
+      "motif": "并排三支展开箭",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T076",
+    "name": "心流原力",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "会心",
+      "灌注"
+    ],
+    "description": "物品提升30%会心几率，会心时自身灌注50。每个物品一回合内只能触发10次。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "心流会心",
+      "motif": "眼睛流出魂力晶体",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T077",
+    "name": "神速力",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "反弹"
+    ],
+    "description": "获得SSS评级时，增加5反弹次数上限。这个效果每3回合只能触发一次。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "神速",
+      "motif": "带羽翼的雷闪",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T078",
+    "name": "守护恩泽",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "治愈",
+      "反弹"
+    ],
+    "description": "每3次反弹，治愈2%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "守护治疗",
+      "motif": "双手托护小心脏",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T079",
+    "name": "复生吐纳",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "治愈",
+      "灌注"
+    ],
+    "description": "每当有物品获得灌注，治愈5%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "复生呼吸",
+      "motif": "肺叶吸入两侧魂息",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T080",
+    "name": "恶臭长裤",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "剧毒",
+      "基础伤害",
+      "生命上限"
+    ],
+    "description": "移动时自身受到5%生命上限的伤害并释放毒气，在3回合内造成等同英雄基础伤害的剧毒伤害。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "毒裤",
+      "motif": "溢出毒气的破旧长裤",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T081",
+    "name": "血气强力",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "生命上限"
+    ],
+    "description": "每拥有10点生命上限，最上方物品提升1伤害。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "血气力量",
+      "motif": "心脏驱动的握拳",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T082",
+    "name": "生生不息",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "治愈",
+      "生命上限"
+    ],
+    "description": "每当治愈物品完成充能，增加10生命上限，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "生命延续",
+      "motif": "扎根发叶的心脏",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T083",
+    "name": "毒性加速",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "剧毒"
+    ],
+    "description": "剧毒物品提升15%充能速度。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "剧毒加速",
+      "motif": "拖出绿色速度痕的虫",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T084",
+    "name": "苦痛转化",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "灌注"
+    ],
+    "description": "每当失去20%生命，小型物品灌注5。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "痛苦灌注",
+      "motif": "血滴转入冷色晶体",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T085",
+    "name": "疫病寄生",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "剧毒"
+    ],
+    "description": "剧毒物品造成伤害时有35%几率消耗敌人1点体力。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "寄生",
+      "motif": "缠在血管上的甲虫",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T086",
+    "name": "火上浇油",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "燃烧"
+    ],
+    "description": "处于燃烧状态的敌人，将会额外受到20%伤害。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "助燃",
+      "motif": "药瓶滴油喂养火焰",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T087",
+    "name": "元气循环",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "气系",
+      "会心"
+    ],
+    "description": "气系物品会心时相邻物品提升10%充能速度。最多不超过500%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "元气循环",
+      "motif": "风旋中心的会心眼",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T088",
+    "name": "雷厉风行",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "电系"
+    ],
+    "description": "电系物品提升15%充能速度。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "雷厉",
+      "motif": "带疾行痕的感应线圈",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T089",
+    "name": "大地之心",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "强固",
+      "地系",
+      "会心",
+      "生命上限"
+    ],
+    "description": "每生成等同20%生命上限的强固，地系物品增加5%会心几率，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "地心",
+      "motif": "岩石包裹的琥珀心",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T090",
+    "name": "易燃易爆",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "火系",
+      "基础伤害"
+    ],
+    "description": "火系物品完成充能时下次造成伤害时引起爆炸，造成30伤害（受英雄基础伤害影响）。（装备的最上方物品会被认为是火系物品）",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "爆炸",
+      "motif": "燃着引线的黑铁炸弹",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T091",
+    "name": "新生之力",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "受到致死伤害后，造成的伤害提升500%，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "新生反击",
+      "motif": "破棺后升起的火焰",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T092",
+    "name": "真视",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "高品质物品出现的几率提升500%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "真视",
+      "motif": "手托金瞳与稀有晶光",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T093",
+    "name": "大型装甲",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "治愈",
+      "生命上限"
+    ],
+    "description": "如果装备了至少2个大型物品，回合开始时，治愈等同50%生命上限的生命。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "大型装甲",
+      "motif": "两副重甲共同护心",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T094",
+    "name": "大地脉动",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "地系",
+      "会心"
+    ],
+    "description": "地系物品会心时的效果翻倍。（装备的最上方物品会被认为是地系物品）",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "大地脉动",
+      "motif": "岩体下扩散的地脉",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T095",
+    "name": "雷霆溢能",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "电系",
+      "灌注"
+    ],
+    "description": "电系物品完成充能时非电系物品灌注5。（装备的最上方物品会被认为是电系物品）",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "电能溢出",
+      "motif": "线圈分流给两枚魂晶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T096",
+    "name": "元气锋芒",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "气系",
+      "会心"
+    ],
+    "description": "气系物品提升25%会心几率。（装备的最上方物品会被认为是气系物品）",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "气刃锋芒",
+      "motif": "风流擦亮的刀刃",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T097",
+    "name": "癫狂",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "体力消耗和上限提升200%，每有1未恢复的体力，造成的伤害提升3%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "癫狂",
+      "motif": "半边染血的破碎面具",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T098",
+    "name": "爆裂火星",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "燃烧"
+    ],
+    "description": "回合开始时，处于燃烧状态的敌人会引起爆炸，造成等同30%剩余燃烧伤害的伤害。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "火星爆裂",
+      "motif": "主燃晶爆出碎火",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T099",
+    "name": "蓄力",
+    "category": "天赋",
+    "subtype": "主动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "本回合造成的伤害提升50%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "3",
+    "stamina": "",
+    "legacyArt": {
+      "family": "蓄力",
+      "motif": "血环逐层收紧的骨拳",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T100",
+    "name": "掠夺",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "材料"
+    ],
+    "description": "材料掉落数量提升100%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "掠夺",
+      "motif": "材料袋中溢出的币与晶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T101",
+    "name": "暴食",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "治愈",
+      "生命上限"
+    ],
+    "description": "超出生命上限的治愈会变为生命上限，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "暴食",
+      "motif": "吞下心脏的巨口",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T102",
+    "name": "共难",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "造成持续伤害时会传递给1个随机敌人。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "共难",
+      "motif": "两颗颅骨共享血线",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T103",
+    "name": "催化剂",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "剧毒"
+    ],
+    "description": "处于剧毒状态的敌人，受到的持续伤害提升50%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "催化",
+      "motif": "受火加热的毒剂瓶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T104",
+    "name": "侵蚀之握",
+    "category": "天赋",
+    "subtype": "主动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "易伤"
+    ],
+    "description": "使目标区域内的敌人获得3层易伤。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "6",
+    "stamina": "",
+    "legacyArt": {
+      "family": "腐蚀之握",
+      "motif": "被绿蚀浸透的骨爪",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T105",
+    "name": "厄疾缠身",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "易伤"
+    ],
+    "description": "回合开始时，存在持续伤害的敌人获得1层易伤。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "厄疾",
+      "motif": "荆棘缠绕的面具",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T106",
+    "name": "恶性传染",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "敌人死亡时，会把存活期间受到过的持续伤害传染给另1个敌人。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "恶性传染",
+      "motif": "颅骨死亡后传向毒虫",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T107",
+    "name": "腐蚀精炼",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "易伤"
+    ],
+    "description": "易伤的效果提升10%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "腐蚀精炼",
+      "motif": "酸液中的磨刃铁砧",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T108",
+    "name": "浸泡",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "剧毒"
+    ],
+    "description": "未受阻隔的小型剧毒物品将会得到伤害提升，提升的伤害等同他们伤害相加。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "毒液浸泡",
+      "motif": "两只小瓶浸在毒槽",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "status": "pass",
+  "rows": 100,
+  "normal": 80,
+  "elite": 20,
+  "sheets": 7,
+  "projection_cases": [
+    {
+      "floor": 1,
+      "wave": 3,
+      "monsters": 100,
+      "pass": true
+    },
+    {
+      "floor": 2,
+      "wave": 6,
+      "monsters": 100,
+      "pass": true
+    },
+    {
+      "floor": 20,
+      "wave": 6,
+      "monsters": 100,
+      "pass": true
+    },
+    {
+      "floor": 100,
+      "wave": 1,
+      "monsters": 100,
+      "pass": true
+    }
+  ],
+  "invalid_input_rejected": true,
+  "stable_id_after_source_reorder": true,
+  "saved_values_match": true,
+  "reopened_input_recalculation_passed": true,
+  "previews": [
+    "01_怪物总表",
+    "02_精英记录",
+    "03_机制循环",
+    "04_分裂机制边界",
+    "05_数值推演",
+    "06_可调参数",
+    "07_层数曲线",
+    "08_行为算法",
+    "09_字段依据",
+    "10_检查结果"
+  ],
+  "longest_mechanism_row": 69,
+  "max_row_height_px": 416,
+  "scope": "Artifact Tool calculation and saved-XLSX readback; native Excel and game runtime not exercised"
+}

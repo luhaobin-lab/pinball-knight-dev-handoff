@@ -1,0 +1,93 @@
+{
+  "id": "T080",
+  "name": "恶臭长裤",
+  "status": "generated-normalized",
+  "source": "mothers/T080.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T080.png",
+  "motherSha256": "c37449eeb82f0421d782a83c7e0dec2827504f604e61b262e1dd489bdac9db69",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T080.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6700,
+      "sha256": "cdd926aa6d2259c73f96291b0eb0844f566290d08bcea791a17c1207f60c8875",
+      "pixelSha256": "c5bcda8f004b84097fc37e711a3091b60006b7536b6fb9943c7c78d91420887f",
+      "alphaBounds": [
+        10,
+        4,
+        118,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          108,
+          29,
+          1171,
+          1208
+        ],
+        "fitSize": [
+          108,
+          120
+        ],
+        "position": [
+          10,
+          4
+        ],
+        "scale": 0.10178117048346055
+      }
+    },
+    "256": {
+      "file": "pixels/256/T080.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 24336,
+      "sha256": "f254cd156b2d5bd0e6637073a223de6b66e1d394ccce90ad4bc1c5e4a0963844",
+      "pixelSha256": "814584da4cc313647229f8e703fa93ea2db9be6303d8b59c1462b6471fbcb84e",
+      "alphaBounds": [
+        20,
+        8,
+        236,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          108,
+          29,
+          1171,
+          1208
+        ],
+        "fitSize": [
+          216,
+          240
+        ],
+        "position": [
+          20,
+          8
+        ],
+        "scale": 0.2035623409669211
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-03.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-03.png",
+    "pixelSha256": "814584da4cc313647229f8e703fa93ea2db9be6303d8b59c1462b6471fbcb84e",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-1c74a175-0546-4fb9-9801-88143aec4d94.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-1c74a175-0546-4fb9-9801-88143aec4d94"
+  }
+}

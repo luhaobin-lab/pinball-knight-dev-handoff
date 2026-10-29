@@ -1,0 +1,86 @@
+{
+  "id": "T027",
+  "name": "嗜血本能",
+  "status": "generated-normalized",
+  "source": "mothers/T027.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T027.png",
+  "motherSha256": "f9187f435ce4ac42c84d9150bc5be74e9f915cb2244c13d035f07f2822f25a1e",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T027.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6687,
+      "sha256": "8df5652cc41a588c0408900c7aedaab5df756032daa35c4155d8f96d2ce9af77",
+      "pixelSha256": "2e316c74d6d4085f28a62b895906774735f93cd8e037f54e03f6993156372878",
+      "alphaBounds": [
+        4,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          73,
+          62,
+          1209,
+          1206
+        ],
+        "fitSize": [
+          119,
+          120
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.1048951048951049
+      }
+    },
+    "256": {
+      "file": "pixels/256/T027.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 24588,
+      "sha256": "9f366c9316b7b9a07015fc6e845e6fee420e5cfc28629c85315b477905c15917",
+      "pixelSha256": "7e9c4f379eea32c141e9bcf5c6526f9ebbcd71dfde01e4733fac90e909126a49",
+      "alphaBounds": [
+        9,
+        8,
+        247,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          73,
+          62,
+          1209,
+          1206
+        ],
+        "fitSize": [
+          238,
+          240
+        ],
+        "position": [
+          9,
+          8
+        ],
+        "scale": 0.2097902097902098
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-33cb8afa-70dd-4f9d-a518-eec41d6ef6ed.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-33cb8afa-70dd-4f9d-a518-eec41d6ef6ed"
+  }
+}

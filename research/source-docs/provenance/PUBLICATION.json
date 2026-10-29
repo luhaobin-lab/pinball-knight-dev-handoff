@@ -1,0 +1,45 @@
+{
+  "target": "Public snapshot of latest game before rejectedUI plus plans and verifiedAbyssresearchdata",
+  "originalSourceCommit": "854cf380b74dd192687a4ee428be46fd6f4acbd7",
+  "runtimeCodeCommit": "beb0cfec73161c2e2e4e01fe43412a7431354149",
+  "runtimeTree": "7a96c6fcf807970e6719a107d02dd3411c6ba1fa",
+  "sourceFilesVerified": 1469,
+  "sourceBlobMismatches": [],
+  "gameplaySourceEditedForPublication": false,
+  "excludedRuntimeChanges": [
+    "mobile-shrine a14ffb1",
+    "prototype-workbench35bf16e"
+  ],
+  "playable": {
+    "path": "play/index.html",
+    "bytes": 6322108,
+    "sha256": "e07972ef1af1513761de5f4b601edb38987a6a7a3be4307c406865c26a207177",
+    "entry": "ordinarygame,defaultscene=null"
+  },
+  "researchBaseline": {
+    "appid": 3910830,
+    "buildid": 25684533
+  },
+  "publicDataArchive": "a36d3434cff6564b37992f2c1ea3dc65693e4bd252a67af9daef920ac15a522f",
+  "publicDataSelection": "Retainedallsource/dump andanalysis; excludedredundant originalsource/pak runtimepayload; full localfrozenarchiveunchanged",
+  "publicDocumentationLinkAdaptations": [
+    "docs\\research\\早晨交接_20261028.md"
+  ],
+  "publishedGitHistory": "New archive snapshot; historical worktree databases and rejectedUIcommits not pushed",
+  "proposals": [],
+  "needs": [],
+  "githubRepository": "https://github.com/FilthyFrost/taptapgame-abyss-archive",
+  "requestedVisibility": "public",
+  "browserValidation": {
+    "ordinaryEntry": true,
+    "realMouseInputs": [
+      "title.prologue",
+      "tutorial.continue",
+      "map.enter"
+    ],
+    "sourceCommandsInjected": false,
+    "firstRoom": "新手关01",
+    "errors": 0,
+    "fullGameParityClaim": false
+  }
+}

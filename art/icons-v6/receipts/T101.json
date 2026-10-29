@@ -1,0 +1,93 @@
+{
+  "id": "T101",
+  "name": "暴食",
+  "status": "generated-normalized",
+  "source": "mothers/T101.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T101.png",
+  "motherSha256": "82b8967c6a5b5f49b11b95154b8427c1ee56e94d2acfd3545b2f239f510045bf",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T101.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 7418,
+      "sha256": "bef81d6f9e303c82b863711fe2525b5a076881c5797a9b4c7e7d29fd4983cfe8",
+      "pixelSha256": "8d6f24478925f16bc1d463a857904471f48450e92509424c28535faa88b2722a",
+      "alphaBounds": [
+        6,
+        4,
+        122,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          67,
+          33,
+          1220,
+          1225
+        ],
+        "fitSize": [
+          116,
+          120
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.10067114093959731
+      }
+    },
+    "256": {
+      "file": "pixels/256/T101.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 28373,
+      "sha256": "a6a13d430e5985f3e9cfe418b60198ed2d9600d387a7f62e7091f28a7d40b764",
+      "pixelSha256": "a2ca7ab511fdf46ac7e5e31901d21280bcb6ba158b98661559c3639a24dd76d1",
+      "alphaBounds": [
+        12,
+        8,
+        244,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          67,
+          33,
+          1220,
+          1225
+        ],
+        "fitSize": [
+          232,
+          240
+        ],
+        "position": [
+          12,
+          8
+        ],
+        "scale": 0.20134228187919462
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-04.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-04.png",
+    "pixelSha256": "a2ca7ab511fdf46ac7e5e31901d21280bcb6ba158b98661559c3639a24dd76d1",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-f41bb8cc-ce45-41cb-b57f-895b8a8648ec.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f41bb8cc-ce45-41cb-b57f-895b8a8648ec"
+  }
+}

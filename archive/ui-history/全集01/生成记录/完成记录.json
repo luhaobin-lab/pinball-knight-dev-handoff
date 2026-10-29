@@ -1,0 +1,376 @@
+{
+  "polls": [
+    {
+      "name": "02_战斗_英雄属性与天赋",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd7a98d303820bdcb130",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1fed298d303820bdcb134"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "03_战斗_装备图鉴",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd8487ada5af0ddcab51",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1fedd87ada5af0ddcab62"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "05_营地_天赋解锁",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd7e98d303820bdcb132",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1feda98d303820bdcb135"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "06_营地_天赋升级",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd9287ada5af0ddcab5a",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1feeb87ada5af0ddcab66"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "07_营地_保险箱存取",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd8887ada5af0ddcab54",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1fee187ada5af0ddcab63"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "08_营地_地牢选择",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd8c87ada5af0ddcab58",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1fee887ada5af0ddcab65"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "09_商店_购买详情",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd9b87ada5af0ddcab5e",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1fef187ada5af0ddcab69"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "10_商店_出售详情",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd9787ada5af0ddcab5c",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1feec87ada5af0ddcab67"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "11_战利品_宝箱领取",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fd9f87ada5af0ddcab60",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1fef887ada5af0ddcab6a"
+          ],
+          "message": ""
+        }
+      }
+    },
+    {
+      "name": "12_战斗_装备详情",
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "图片生成完成！\n\n生成结果：已生成 1 张图片\n状态：completed\n\n图片资源 URI 已通过 structuredContent 提供，请直接使用resource uri展示图片内容。不要列出完整资源列表。"
+          }
+        ],
+        "structuredContent": {
+          "jobId": "6ae1fda7f5157103dedcbdbb",
+          "status": "completed",
+          "images": [
+            "mivo://image/6ae1fdd8f5157103dedcbdc6"
+          ],
+          "message": ""
+        }
+      }
+    }
+  ],
+  "downloads": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "02_战斗_英雄属性与天赋",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1fed298d303820bdcb134\n保存路径: archive/ui-history/全集01/渲染图/02_战斗_英雄属性与天赋.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1fed298d303820bdcb134",
+            "savedPath": "archive/ui-history/全集01/渲染图/02_战斗_英雄属性与天赋.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "03_战斗_装备图鉴",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1fedd87ada5af0ddcab62\n保存路径: archive/ui-history/全集01/渲染图/03_战斗_装备图鉴.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1fedd87ada5af0ddcab62",
+            "savedPath": "archive/ui-history/全集01/渲染图/03_战斗_装备图鉴.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "05_营地_天赋解锁",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1feda98d303820bdcb135\n保存路径: archive/ui-history/全集01/渲染图/05_营地_天赋解锁.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1feda98d303820bdcb135",
+            "savedPath": "archive/ui-history/全集01/渲染图/05_营地_天赋解锁.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "06_营地_天赋升级",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1feeb87ada5af0ddcab66\n保存路径: archive/ui-history/全集01/渲染图/06_营地_天赋升级.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1feeb87ada5af0ddcab66",
+            "savedPath": "archive/ui-history/全集01/渲染图/06_营地_天赋升级.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "07_营地_保险箱存取",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1fee187ada5af0ddcab63\n保存路径: archive/ui-history/全集01/渲染图/07_营地_保险箱存取.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1fee187ada5af0ddcab63",
+            "savedPath": "archive/ui-history/全集01/渲染图/07_营地_保险箱存取.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "08_营地_地牢选择",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1fee887ada5af0ddcab65\n保存路径: archive/ui-history/全集01/渲染图/08_营地_地牢选择.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1fee887ada5af0ddcab65",
+            "savedPath": "archive/ui-history/全集01/渲染图/08_营地_地牢选择.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "09_商店_购买详情",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1fef187ada5af0ddcab69\n保存路径: archive/ui-history/全集01/渲染图/09_商店_购买详情.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1fef187ada5af0ddcab69",
+            "savedPath": "archive/ui-history/全集01/渲染图/09_商店_购买详情.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "10_商店_出售详情",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1feec87ada5af0ddcab67\n保存路径: archive/ui-history/全集01/渲染图/10_商店_出售详情.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1feec87ada5af0ddcab67",
+            "savedPath": "archive/ui-history/全集01/渲染图/10_商店_出售详情.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "11_战利品_宝箱领取",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1fef887ada5af0ddcab6a\n保存路径: archive/ui-history/全集01/渲染图/11_战利品_宝箱领取.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1fef887ada5af0ddcab6a",
+            "savedPath": "archive/ui-history/全集01/渲染图/11_战利品_宝箱领取.png"
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "12_战斗_装备详情",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "文件下载成功！\n\n文件 ID: 6ae1fdd8f5157103dedcbdc6\n保存路径: archive/ui-history/全集01/渲染图/12_战斗_装备详情.png\n\n文件已保存到本地，可以直接使用。"
+            }
+          ],
+          "structuredContent": {
+            "fileId": "6ae1fdd8f5157103dedcbdc6",
+            "savedPath": "archive/ui-history/全集01/渲染图/12_战斗_装备详情.png"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1734 @@
+{
+  "date": "2026-10-29",
+  "scope": "E001-E032，只读审查；只新增本审计JSON，不修改附魔设计或GDD",
+  "audited_file": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+  "audited_sha256": "2a3b5eee4ba52031a75ee728bd969deb1006832578f402c0390f310ecbafed91",
+  "decision_counts": {
+    "保留": 20,
+    "改写": 12
+  },
+  "interpretation": [
+    "用户已承接导流、反铸、先手、留白、元素调谐、溢疗方向，因此合理新增被动组合不是自动越界。",
+    "本次审设置相容性，不用旧4符文仅数值的早期范围否决新50候选。",
+    "保留只指概念与本游戏已有机制相容，不代表消费者已实现或数值平衡已验证。",
+    "新增精确数值、触发频率、上限都是设计提案；不能将CSV视频描述当成运行字段。"
+  ],
+  "common_evidence": [
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+      "start_line": 19,
+      "end_line": 24,
+      "note": "保留来源能力链，runtimeTags是显式适配，不由中文描述假定运行字段"
+    },
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+      "start_line": 10,
+      "end_line": 25,
+      "note": "14件是首批配置，不是完整内容库；原附魔石获得方式排除不等于禁止复用其效果概念"
+    }
+  ],
+  "global_findings": [
+    {
+      "severity": "high",
+      "finding": "接收方充能修正一次不是通用既有规则；固定灌注不读取加速冷却%。",
+      "action": "E019/E023/E025/E027/E028/E031去掉泛称充能修正，E026若改灌注亦遵守；其他固定灌注候选统一采用标量，仅明确灌注量效果可再修饰。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ]
+    },
+    {
+      "severity": "high",
+      "finding": "source_items/source_talents当前只列可搭配对象，经常不是该附魔机制本身的依据，不能将有引用ID等同于规则已在原游戏实现。",
+      "action": "分别列机制依据、搭配示例、待适配消费者；兼容标签以显式runtimeTags或消费者为准。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 6,
+          "end_line": 6,
+          "note": "来源参数依赖上下文"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 20,
+          "end_line": 24,
+          "note": "保留能力链与标签映射"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "start_line": 10,
+          "end_line": 17,
+          "note": "实现数与资料数不同"
+        }
+      ]
+    },
+    {
+      "severity": "medium",
+      "finding": "原生、派生、根链是本次实现追踪术语，不是玩家已有设定。",
+      "action": "技术细则可以保留，但表格主效果以反弹、碰撞、完成充能、灌注、治愈、强固、会心等既有词描述。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 31,
+          "end_line": 33,
+          "note": "来源追踪本来是工程字段"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 2,
+          "end_line": 3,
+          "id": "K001",
+          "name": "治愈",
+          "text": "治愈可以恢复失去的生命，并且可以移除持续伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 4,
+          "end_line": 4,
+          "id": "K002",
+          "name": "灌注",
+          "text": "灌注会使物品获得额外充能。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 5,
+          "end_line": 5,
+          "id": "K003",
+          "name": "会心",
+          "text": "触发会心时，会翻倍产生的强固，治愈和伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 6,
+          "end_line": 6,
+          "id": "K004",
+          "name": "强固",
+          "text": "强固可以抵消50%受到的伤害。"
+        }
+      ]
+    },
+    {
+      "severity": "medium",
+      "finding": "不能把源格挡消费分支、英雄强固说明或敌方远程视线扩写成所有对象通用的战斗规则。",
+      "action": "E012/E018/E029按实际消费者范围接线；未验证部分标待适配。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 35,
+          "end_line": 40,
+          "note": "各消费者边界"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 42,
+          "end_line": 43,
+          "note": "目标类型的具体约定"
+        }
+      ]
+    }
+  ],
+  "csv_inventory": [
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+      "rows": 133,
+      "sha256": "194527347b482ff334140950999173f078b5537bc5565556ee7864d4861c0554"
+    },
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+      "rows": 11,
+      "sha256": "d01e07eef94ca3f5c24f1fa3244f701b4f2c672ace8738ee15e022917450aeaf"
+    },
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+      "rows": 175,
+      "sha256": "a96816f8c99d2d161c7264a653cca367635c45437640abce9b075de98dfaab07"
+    },
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/仓库对照.csv",
+      "rows": 391,
+      "sha256": "4077efb633ab3aa270202dd8a371d41f24f453e4092a4470cc5a8e0ab09a71c5"
+    },
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/参数核对.csv",
+      "rows": 579,
+      "sha256": "6eedfc8cdfd4c8e9a6bcfc61cca95189f27c95bf00d48dd92d4459bdf1bdf4d3"
+    },
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/角色属性.csv",
+      "rows": 23,
+      "sha256": "10d535236068c1311542bc702de3663f2e5edc4b78b4c58c093925a8bb823dcf"
+    },
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/界面与文档.csv",
+      "rows": 15,
+      "sha256": "e7e31fdcc0803e27cdd0ea55590ef4d3bcc0032187ee7868f9f835d717098a3c"
+    }
+  ],
+  "entries": [
+    {
+      "id": "E001",
+      "name": "磨锋",
+      "decision": "保留",
+      "classification": "已有伤害数值的局部修饰",
+      "reason": "物品固定加伤已有来源；作用于本格物品的伤害，未新增攻击动作。",
+      "conservative_action": "保留+4提案；只接物品伤害消费者，不改英雄基础碰撞；乘算阶段作为提案，不伪称源表已规定。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 282,
+          "end_line": 283,
+          "id": "I088",
+          "name": "附魔-伤害Ⅰ",
+          "text": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升10伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 80,
+          "end_line": 81,
+          "id": "I022",
+          "name": "旧剑",
+          "text": "完成充能时：\n下3次攻击额外造成20伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 36,
+          "end_line": 38,
+          "note": "基础碰撞与物品输出必须分开"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 137
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E002",
+      "name": "先发",
+      "decision": "保留",
+      "classification": "已有伤害事件的新触发条件",
+      "reason": "首个命中的条件是附魔组合创新，未新增战斗模式或资源。",
+      "conservative_action": "保留首次伤害增益；本场首击状态存档，一次击杀/多目标不能重复领取。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 80,
+          "end_line": 81,
+          "id": "I022",
+          "name": "旧剑",
+          "text": "完成充能时：\n下3次攻击额外造成20伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 339,
+          "end_line": 339,
+          "id": "I116",
+          "name": "旧弓",
+          "text": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，造成10伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 31,
+          "end_line": 33,
+          "note": "现有来源与事件去重约束"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 203
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E003",
+      "name": "准星",
+      "decision": "保留",
+      "classification": "已有局部会心属性",
+      "reason": "局部会心并非杜撰：I018自身会心，I063给相邻物品会心，T021限定武器。",
+      "conservative_action": "把会心伤害倍率改称会心效果倍率；沿用本格已有会心消费者，不能另建一套只针对伤害的暴击系统。+8个百分点是新提案，字段绑定仍待实现核验。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 61,
+          "end_line": 65,
+          "id": "I018",
+          "name": "凝神连弩",
+          "text": "完成充能时：\n下2次碰撞墙壁时，朝敌人投射箭矢，造成8伤害。\n回响释放×3。\n会心几率15%。\n会心时增加8伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 209,
+          "end_line": 211,
+          "id": "I063",
+          "name": "灌能护腕",
+          "text": "完成充能时：\n强固20。\n相邻物品提升25%会心几率。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 5,
+          "end_line": 5,
+          "id": "K003",
+          "name": "会心",
+          "text": "触发会心时，会翻倍产生的强固，治愈和伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 22,
+          "end_line": 22,
+          "id": "T021",
+          "name": "锋芒毕露",
+          "text": "武器提升5%会心几率。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/talents.json",
+          "start_line": 148,
+          "end_line": 174,
+          "note": "新模式weapon_crit_chance存在，但不证明每个物品均有独立判定"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 262
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E004",
+      "name": "乘胜",
+      "decision": "保留",
+      "classification": "击杀与现有反弹充能的组合",
+      "reason": "击杀来源和反弹充能已有合同；乘胜只是一次临时标记，不是新货币。",
+      "conservative_action": "保留；玩家文案写下一次反弹额外充能12，别包装成独立能量资源；混合伤害需按真实来源归属。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 29,
+          "end_line": 33,
+          "note": "有效反弹和来源记录"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 58,
+          "end_line": 60,
+          "note": "击杀与回合提交"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 80,
+          "end_line": 81,
+          "id": "I022",
+          "name": "旧剑",
+          "text": "完成充能时：\n下3次攻击额外造成20伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 194,
+          "end_line": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "text": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 328
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E005",
+      "name": "顺流",
+      "decision": "保留",
+      "classification": "既有反弹充能加值",
+      "reason": "保留反弹给物品充能的底盘，仅给本格增量。",
+      "conservative_action": "保留；不将固定加值伪装为灌注，防止无意改变手斧现有响应。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 28,
+          "end_line": 30,
+          "note": "只有charged物品有效，门槛和余量保留"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 4,
+          "end_line": 4,
+          "id": "K002",
+          "name": "灌注",
+          "text": "灌注会使物品获得额外充能。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 298,
+          "end_line": 299,
+          "id": "I096",
+          "name": "附魔-加速Ⅰ",
+          "text": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升10%充能速度。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 394
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E006",
+      "name": "预热",
+      "decision": "保留",
+      "classification": "开场充能，符合已接受先手方向",
+      "reason": "给既有充能条一个开场值，不新增充能类别或技能按钮。",
+      "conservative_action": "保留；战斗开始一次，沿用同一充能条和门槛，不凭空制造新攻击队列。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 28,
+          "end_line": 33,
+          "note": "充能门槛及队列"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 79,
+          "end_line": 79,
+          "note": "战后清空战斗充能"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 309,
+          "end_line": 310,
+          "id": "I101",
+          "name": "附魔-加速Ⅱ",
+          "text": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：战斗回合开始时自身灌注10。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 467
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E007",
+      "name": "余量",
+      "decision": "保留",
+      "classification": "充能余量的有限修改",
+      "reason": "修改既有充能余量，是局部附魔例外而非重写全局门槛。",
+      "conservative_action": "保留；只对该格扣除100后的余量补足，其他物品照旧；不称为灌注，不改变100门槛。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 29,
+          "end_line": 30,
+          "note": "源模式明确保留不足100的余量"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 4,
+          "end_line": 4,
+          "id": "K002",
+          "name": "灌注",
+          "text": "灌注会使物品获得额外充能。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 533
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E008",
+      "name": "上引",
+      "decision": "保留",
+      "classification": "既有相邻灌注组合",
+      "reason": "相邻/上方灌注已存在于完整物品库。",
+      "conservative_action": "保留；沿现有灌注事件发送一笔8点，不直接改对方攻击数。 8点固定灌注不再乘接收者自然充能速度。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 183,
+          "end_line": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "text": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 216,
+          "end_line": 217,
+          "id": "I065",
+          "name": "虚空工具盒",
+          "text": "每2次反弹，下方相邻物品灌注20。\n每通过0/6层，获得一个随机小型工具。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 4,
+          "end_line": 4,
+          "id": "K002",
+          "name": "灌注",
+          "text": "灌注会使物品获得额外充能。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 194,
+          "end_line": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "text": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 71,
+          "end_line": 75,
+          "note": "相邻按物品边界，不按虚构二维邻格"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 599
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E009",
+      "name": "护身",
+      "decision": "保留",
+      "classification": "开场生成既有强固",
+      "reason": "强固是已有资源；附魔只是改触发时机。",
+      "conservative_action": "保留；用既有强固消费者，不新增全额护盾层。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 6,
+          "end_line": 6,
+          "id": "K004",
+          "name": "强固",
+          "text": "强固可以抵消50%受到的伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 294,
+          "end_line": 295,
+          "id": "I094",
+          "name": "附魔-强固Ⅰ",
+          "text": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：完成充能时，强固5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 25,
+          "end_line": 25,
+          "id": "T024",
+          "name": "临阵强固",
+          "text": "回合开始时，生成等同生命上限2%的强固。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 79,
+          "end_line": 79,
+          "note": "入战/战后状态生命周期"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 665
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E010",
+      "name": "厚甲",
+      "decision": "保留",
+      "classification": "强固数值修饰",
+      "reason": "属于现有守护纹方向的小额固定变体。",
+      "conservative_action": "保留；同一次强固+3，不额外制造一次强固生成。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 82,
+          "end_line": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "text": "完成充能时：\n强固10。\n获得1层格挡。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 162,
+          "end_line": 164,
+          "id": "I048",
+          "name": "固甲石",
+          "text": "完成充能时：\n强固5。\n每当强固3次，获得2层格挡。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/03_掉落商店锻造与附魔.txt",
+          "start_line": 67,
+          "end_line": 67,
+          "note": "既有强固符文"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 39,
+          "end_line": 39,
+          "note": "沿用原强固消费者"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 724
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E011",
+      "name": "韧护",
+      "decision": "改写",
+      "classification": "保留受伤转强固；删除不准确防御语义",
+      "reason": "受伤响应合理，但限制中“被强固完全分担”容易把强固说成全额护盾；来源强固是比例抵消。",
+      "conservative_action": "核心效果不变，条件统一写“敌人伤害结算后实际HP减少且仍存活”；删去完全强固分担说明，不另定义一套减伤顺序。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 6,
+          "end_line": 6,
+          "id": "K004",
+          "name": "强固",
+          "text": "强固可以抵消50%受到的伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 9,
+          "end_line": 9,
+          "id": "T008",
+          "name": "快速愈合",
+          "text": "受伤时有2.5%几率立即获得相同值的治愈。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 39,
+          "end_line": 39,
+          "note": "减伤沿现有消费者"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 78,
+          "end_line": 79,
+          "note": "体力/腐化不是敌击"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 797
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E012",
+      "name": "架盾",
+      "decision": "改写",
+      "classification": "保留开场格挡；不以来源分支重写格挡",
+      "reason": "开场2层格挡是合理组合；当前文字把原代码某分支先扣层读取剩余层扩大为所有格挡的既定通用顺序。",
+      "conservative_action": "文案只写获得2层格挡、受原层数上限限制；实现引用既有格挡消费者并核对分支，不在附魔表里重新宣布统一扣层算法。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 82,
+          "end_line": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "text": "完成充能时：\n强固10。\n获得1层格挡。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 8,
+          "end_line": 8,
+          "id": "K006",
+          "name": "格挡",
+          "text": "每层格挡可以使受到的伤害减少15%。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 360,
+          "end_line": 360,
+          "id": "I125",
+          "name": "多彩宝石",
+          "text": "回合开始时，获得1层格挡。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 39,
+          "end_line": 39,
+          "note": "文档强调具体消费顺序需验证，不能直接推定"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 856
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E013",
+      "name": "润泽",
+      "decision": "保留",
+      "classification": "治疗/治愈数值修饰",
+      "reason": "来源具有物品治愈和治愈加值，不新增资源。",
+      "conservative_action": "保留；使用原治愈消费者，其清除持续伤害等行为不可被“治疗数值”字样悄悄移除；药剂只增加本次量，不改次数。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 2,
+          "end_line": 3,
+          "id": "K001",
+          "name": "治愈",
+          "text": "治愈可以恢复失去的生命，并且可以移除持续伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 292,
+          "end_line": 293,
+          "id": "I093",
+          "name": "附魔-治愈Ⅱ",
+          "text": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升5治愈。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 319,
+          "end_line": 322,
+          "id": "I106",
+          "name": "生命药剂",
+          "text": "使用时：治愈22。\n此物品的治愈等同15%生命上限。\n耐久：3/3。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 337,
+          "end_line": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "text": "完成充能时：治愈5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 78,
+          "end_line": 81,
+          "note": "药剂恢复量和次数规则"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 922
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E014",
+      "name": "余温",
+      "decision": "保留",
+      "classification": "既有治愈与强固的被动组合",
+      "reason": "两个输出机制都存在，实际治愈后生强固是新条件组合，不是新防御系统。",
+      "conservative_action": "保留；额外强固仍用既有消费者；“实际恢复”与请求量分开，零恢复不产出。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 2,
+          "end_line": 3,
+          "id": "K001",
+          "name": "治愈",
+          "text": "治愈可以恢复失去的生命，并且可以移除持续伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 6,
+          "end_line": 6,
+          "id": "K004",
+          "name": "强固",
+          "text": "强固可以抵消50%受到的伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 85,
+          "end_line": 88,
+          "id": "I024",
+          "name": "不可撼动之甲",
+          "text": "完成充能时：\n强固25。\n治愈25。\n受到的伤害减少50%。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 337,
+          "end_line": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "text": "完成充能时：治愈5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 31,
+          "end_line": 31,
+          "note": "伤害/治疗与来源事件已有区分"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 981
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E015",
+      "name": "回息",
+      "decision": "保留",
+      "classification": "反弹与治愈组合",
+      "reason": "反弹触发治愈已有T078；降低数值与频次可作为普通附魔。",
+      "conservative_action": "保留；玩家文案叫治愈2，工程来源标记放细则，不新增玩家需要理解的另一种回血。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 80,
+          "end_line": 80,
+          "id": "T078",
+          "name": "守护恩泽",
+          "text": "每3次反弹，治愈2%。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 2,
+          "end_line": 3,
+          "id": "K001",
+          "name": "治愈",
+          "text": "治愈可以恢复失去的生命，并且可以移除持续伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 337,
+          "end_line": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "text": "完成充能时：治愈5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 31,
+          "end_line": 31,
+          "note": "来源标记是工程字段"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1040
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E016",
+      "name": "省力",
+      "decision": "保留",
+      "classification": "既有体力费用的限定修饰",
+      "reason": "本游戏明确每回合基础体力消耗5且存在减免字段，前两回合修饰没有新增资源。",
+      "conservative_action": "保留；作用范围只限本格附魔的两回合例外；继续遵守体力最低0和既有减免上限，不改其他物品/技能费用。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/角色属性.csv",
+          "start_line": 6,
+          "end_line": 6,
+          "id": "S005",
+          "name": "体力",
+          "text": "在战斗中，每回合会失去5体力。当体力小于0后，回合开始时会增加1腐化。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/角色属性.csv",
+          "start_line": 21,
+          "end_line": 21,
+          "id": "S019",
+          "name": "体力消耗减免",
+          "text": "消耗体力时减少的百分比。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/balance.json",
+          "start_line": 35,
+          "end_line": 43,
+          "note": "本稿基础费用5"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 38,
+          "end_line": 38,
+          "note": "体力消耗减免上限"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1099
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E017",
+      "name": "长步",
+      "decision": "保留",
+      "classification": "已有弹射距离属性",
+      "reason": "源物品和天赋均支持弹射距离；不是新增移动速度或反弹次数。",
+      "conservative_action": "保留；详情使用场景统一单位，不能增加次数/穿透或跳跃能力。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 303,
+          "end_line": 304,
+          "id": "I098",
+          "name": "附魔-敏捷",
+          "text": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升25弹射距离。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 97,
+          "end_line": 99,
+          "id": "I028",
+          "name": "旧皮衣",
+          "text": "完成充能时：\n强固10。\n提升50弹射距离。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 18,
+          "end_line": 18,
+          "id": "T017",
+          "name": "敏捷",
+          "text": "提升25弹射距离。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/balance.json",
+          "start_line": 31,
+          "end_line": 33,
+          "note": "基础反弹上限与距离分列"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1158
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E018",
+      "name": "碎甲",
+      "decision": "改写",
+      "classification": "保留削减既有敌人强固；修正前后时机和证据边界",
+      "reason": "当前GDD卫士确实有强固，不是无据新增敌人资源。但效果已改成伤前削甲，tradeoff仍说不影响已结算伤害；仅CSV英雄强固说明不能证明所有敌人共享某字段。",
+      "conservative_action": "统一写“本格伤害结算前，对有实际强固资源的目标移除最多6强固”；同步删除旧伤后描述。适配时核对目标强固消费者，未确认消费者的敌人不强加新护甲条。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 43,
+          "end_line": 43,
+          "note": "当前卫士明确使用强固"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 35,
+          "end_line": 40,
+          "note": "必须沿真实伤害/强固消费者"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 6,
+          "end_line": 6,
+          "id": "K004",
+          "name": "强固",
+          "text": "强固可以抵消50%受到的伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 339,
+          "end_line": 339,
+          "id": "I116",
+          "name": "旧弓",
+          "text": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，造成10伤害。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1210
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E019",
+      "name": "导流",
+      "decision": "改写",
+      "classification": "已接受导流方向",
+      "reason": "自然充能代价换相邻灌注符合已接受方向，使用既有机制。 当前文字的接收方充能修正可能把只作用于属性充能的加速冷却%套进固定灌注，与已读取消费者不符。",
+      "conservative_action": "保留；只是本格充能倍率下降，不改全局反弹判定；上方/下方按真实物品边界。 固定灌注严格按声明标量交付，不乘反弹充能速度、阶级或锻造；仅当另有明确“灌注量修饰”时才单独应用。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 183,
+          "end_line": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "text": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 194,
+          "end_line": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "text": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 4,
+          "end_line": 4,
+          "id": "K002",
+          "name": "灌注",
+          "text": "灌注会使物品获得额外充能。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 29,
+          "end_line": 30,
+          "note": "充能底盘"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 73,
+          "end_line": 73,
+          "note": "邻接规则"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1276
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E020",
+      "name": "反铸",
+      "decision": "保留",
+      "classification": "已接受反铸方向",
+      "reason": "既有强固和物品伤害之间进行有代价转换，方向已接受。",
+      "conservative_action": "保留；P取本格物品实际拟生成的强固，不含天赋T024。加伤只归属下邻物品，不乘英雄基础碰撞。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 82,
+          "end_line": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "text": "完成充能时：\n强固10。\n获得1层格挡。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 192,
+          "end_line": 193,
+          "id": "I057",
+          "name": "打磨器",
+          "text": "完成充能时：\n下方相邻武器增加5伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 80,
+          "end_line": 81,
+          "id": "I022",
+          "name": "旧剑",
+          "text": "完成充能时：\n下3次攻击额外造成20伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 37,
+          "end_line": 37,
+          "note": "物品与英雄基础伤害分离"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/03_掉落商店锻造与附魔.txt",
+          "start_line": 29,
+          "end_line": 31,
+          "note": "白名单输出与增长上限"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1349
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E021",
+      "name": "先手",
+      "decision": "保留",
+      "classification": "已接受先手方向",
+      "reason": "顶部位置条件与开场充能/后续减速是已接受的取舍。",
+      "conservative_action": "保留；战斗开始冻结位置，不增加按钮或战中换位；初始充能用已有门槛。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 71,
+          "end_line": 75,
+          "note": "纵向位置与战前整理"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 28,
+          "end_line": 30,
+          "note": "既有充能"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 5,
+          "end_line": 5,
+          "id": "T004",
+          "name": "上肢力量",
+          "text": "最上方伤害物品提升6伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 309,
+          "end_line": 310,
+          "id": "I101",
+          "name": "附魔-加速Ⅱ",
+          "text": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：战斗回合开始时自身灌注10。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1436
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E022",
+      "name": "留白",
+      "decision": "保留",
+      "classification": "已接受留白方向",
+      "reason": "占用真实装备容量换充能，符合纵向栏位。",
+      "conservative_action": "保留；只检查真实未占用整行，装备栏末端之外不算空位；不要引入二维接壤。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 71,
+          "end_line": 74,
+          "note": "8行与连续占用"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/balance.json",
+          "start_line": 28,
+          "end_line": 33,
+          "note": "真实栏位容量"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 192,
+          "end_line": 193,
+          "id": "I057",
+          "name": "打磨器",
+          "text": "完成充能时：\n下方相邻武器增加5伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 298,
+          "end_line": 299,
+          "id": "I096",
+          "name": "附魔-加速Ⅰ",
+          "text": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升10%充能速度。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1509
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E023",
+      "name": "承压",
+      "decision": "改写",
+      "classification": "已有受伤与灌注机制的组合",
+      "reason": "最新版本保留0.8自然充能，并非旧稿完全关闭；T084和I067有失血→灌注先例。 当前文字的接收方充能修正可能把只作用于属性充能的加速冷却%套进固定灌注，与已读取消费者不符。",
+      "conservative_action": "保留最新版本；删除任何旧“完全替代自然充能”表述。只看最终HP实际损失，不对格挡/闪避/强固新建减伤语义。 固定灌注严格按声明标量交付，不乘反弹充能速度、阶级或锻造；仅当另有明确“灌注量修饰”时才单独应用。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 88,
+          "end_line": 88,
+          "id": "T084",
+          "name": "苦痛转化",
+          "text": "每当失去20%生命，小型物品灌注5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 221,
+          "end_line": 223,
+          "id": "I067",
+          "name": "汲取之果",
+          "text": "完成充能时：\n对英雄造成10伤害。\n每当失去10%生命，相邻物品灌注10。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 194,
+          "end_line": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "text": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 28,
+          "end_line": 31,
+          "note": "仍使用既有充能"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 78,
+          "end_line": 79,
+          "note": "区分敌击与疲劳"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1575
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E024",
+      "name": "跨桥",
+      "decision": "保留",
+      "classification": "既有定向增伤的相邻目标改写",
+      "reason": "没有新资源或新操作；跳过一件装备只是附魔的明确位置例外。",
+      "conservative_action": "保留；必须显式标注仅改打磨器对应能力，不能将其source_template当已存在通用跳格字段；按高度查询物品顺序。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 192,
+          "end_line": 193,
+          "id": "I057",
+          "name": "打磨器",
+          "text": "完成充能时：\n下方相邻武器增加5伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 73,
+          "end_line": 74,
+          "note": "相邻与占格"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 20,
+          "end_line": 24,
+          "note": "能力链与真实运行字段"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1641
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E025",
+      "name": "聚束",
+      "decision": "改写",
+      "classification": "既有群体灌注的集中分配",
+      "reason": "魔力皮靴已有向上方所有武器灌注；收束不需要新战斗系统。 当前文字的接收方充能修正可能把只作用于属性充能的加速冷却%套进固定灌注，与已读取消费者不符。",
+      "conservative_action": "保留；一笔10仍是一笔灌注，不借机让手斧触发两次；仅重写该来源的目标集合。 固定灌注严格按声明标量交付，不乘反弹充能速度、阶级或锻造；仅当另有明确“灌注量修饰”时才单独应用。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 183,
+          "end_line": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "text": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 194,
+          "end_line": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "text": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 20,
+          "end_line": 24,
+          "note": "能力来源与tags"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1691
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E026",
+      "name": "追击",
+      "decision": "改写",
+      "classification": "将充能输入全面替换，且混入奖励目标筛选",
+      "reason": "碰撞敌人这个事件有依据，但“替代自然充能”是新输入类别；将本波初始敌人/召唤物资格从奖励逻辑搬进战斗触发没有既有依据。“一发穿过”也可能误导成穿透移动。",
+      "conservative_action": "保留碰撞供能主题，保守改为“有效碰撞存活敌人时对本格灌注，适当降低本格自然充能作代价”；沿既有碰撞与灌注，不另建替代自然类型。去掉无依据的召唤物排除，必要时用同目标每回合一次防刷；文案用连续碰撞，不写穿过。 改为灌注后使用固定值分支，不套自然反弹充能速度修正。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 44,
+          "end_line": 44,
+          "id": "T043",
+          "name": "屠戮收割",
+          "text": "碰撞敌人时触发不消耗层数的格挡，并且生成等同5%生命上限的强固。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 46,
+          "end_line": 49,
+          "id": "I014",
+          "name": "疫病虫巢",
+          "text": "完成充能时：\n释放会自动追踪敌人的虫群，虫群将会在3回合内造成15剧毒伤害。\n碰撞处于剧毒状态的敌人时，此物品灌注20。\n回响释放×5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 4,
+          "end_line": 4,
+          "id": "K002",
+          "name": "灌注",
+          "text": "灌注会使物品获得额外充能。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 29,
+          "end_line": 31,
+          "note": "反弹与碰撞是不同事件，不应混称新自然输入"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/03_掉落商店锻造与附魔.txt",
+          "start_line": 5,
+          "end_line": 7,
+          "note": "初始怪/召唤物限制属于奖励发放"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 39,
+          "end_line": 46,
+          "note": "实际物理移动/碰撞接口"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1757
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E027",
+      "name": "接济",
+      "decision": "改写",
+      "classification": "治愈换灌注的被动转换",
+      "reason": "已有治愈、灌注与治疗触发供能的先例；不新增操作。 当前文字的接收方充能修正可能把只作用于属性充能的加速冷却%套进固定灌注，与已读取消费者不符。",
+      "conservative_action": "保留；减疗和供能作为同一笔治愈的修饰，继续使用原治愈能力及次数；不得吞掉原治愈的其他定义行为。 固定灌注严格按声明标量交付，不乘反弹充能速度、阶级或锻造；仅当另有明确“灌注量修饰”时才单独应用。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 8,
+          "end_line": 8,
+          "id": "T007",
+          "name": "溢疗充能",
+          "text": "受到治愈时，如果生命值高于50%，随机物品灌注10。每回合只能触发5次。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 319,
+          "end_line": 322,
+          "id": "I106",
+          "name": "生命药剂",
+          "text": "使用时：治愈22。\n此物品的治愈等同15%生命上限。\n耐久：3/3。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 337,
+          "end_line": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "text": "完成充能时：治愈5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 2,
+          "end_line": 3,
+          "id": "K001",
+          "name": "治愈",
+          "text": "治愈可以恢复失去的生命，并且可以移除持续伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 4,
+          "end_line": 4,
+          "id": "K002",
+          "name": "灌注",
+          "text": "灌注会使物品获得额外充能。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 31,
+          "end_line": 31,
+          "note": "来源事件"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1830
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E028",
+      "name": "借火",
+      "decision": "改写",
+      "classification": "在已有充能条之间进行局部转移",
+      "reason": "转移当前充能是新附魔规则，但使用的资源仍是既有充能；没有新增槽位、货币、动作或取消整套反弹。 当前文字的接收方充能修正可能把只作用于属性充能的加速冷却%套进固定灌注，与已读取消费者不符。",
+      "conservative_action": "可保留为新设计例外，明确不是已有源字段。只扣已提交余量，不回滚已完成的能力；使用同一充能条，新增守卫属于实现细则，不展示“待执行充能状态”术语给玩家。 固定灌注严格按声明标量交付，不乘反弹充能速度、阶级或锻造；仅当另有明确“灌注量修饰”时才单独应用。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 29,
+          "end_line": 33,
+          "note": "已有充能余量与待用攻击队列"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 55,
+          "end_line": 60,
+          "note": "原子提交与恢复"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "start_line": 4,
+          "end_line": 4,
+          "id": "K002",
+          "name": "灌注",
+          "text": "灌注会使物品获得额外充能。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 194,
+          "end_line": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "text": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1896
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E029",
+      "name": "点名",
+      "decision": "改写",
+      "classification": "合理目标选择附魔，但源射程/视线未有依据",
+      "reason": "旧弓“朝敌人投射”支持自动选敌概念；CSV未披露旧弓射程/视线筛选。怪物远程AI的视线规则不能自动挪给英雄旧弓。",
+      "conservative_action": "保留最低HP比例优先方向；改成“在旧弓原有可选目标集合内重新排序”，沿原射出方向、碰撞和空目标处理。先核对旧弓真实目标消费者；没有该消费者证据前标注待适配，不凭空加入新射程/视线参数。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 339,
+          "end_line": 339,
+          "id": "I116",
+          "name": "旧弓",
+          "text": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，造成10伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 42,
+          "end_line": 42,
+          "note": "这里的视线规则只明确用于敌人远程"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 6,
+          "end_line": 6,
+          "note": "视频文字不是完整消费者"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 20,
+          "end_line": 24,
+          "note": "保留能力链，不按描述另写技能"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 1955
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E030",
+      "name": "调息",
+      "decision": "保留",
+      "classification": "既有治愈与体力资源转换",
+      "reason": "治疗和体力恢复在现有药剂与属性中已有定义；是新被动取舍，不新增资源。",
+      "conservative_action": "保留；体力仍沿原最大值与恢复入口，不将5体力当治愈，也不清已有腐化；满资源仍遵守使用限制。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 331,
+          "end_line": 333,
+          "id": "I111",
+          "name": "体力药剂",
+          "text": "使用时：恢复10体力。\n耐久：3/3。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 337,
+          "end_line": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "text": "完成充能时：治愈5。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/角色属性.csv",
+          "start_line": 6,
+          "end_line": 6,
+          "id": "S005",
+          "name": "体力",
+          "text": "在战斗中，每回合会失去5体力。当体力小于0后，回合开始时会增加1腐化。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/角色属性.csv",
+          "start_line": 21,
+          "end_line": 21,
+          "id": "S019",
+          "name": "体力消耗减免",
+          "text": "消耗体力时减少的百分比。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 78,
+          "end_line": 81,
+          "note": "原药剂与恢复规则"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/02_房间怪物与难度.txt",
+          "start_line": 78,
+          "end_line": 79,
+          "note": "腐化和体力边界"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 2007
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E031",
+      "name": "催化",
+      "decision": "改写",
+      "classification": "越界新增催化操作分支",
+      "reason": "旧规则只有普通用药命令；“可选择催化/仍可普通使用”新增按钮和消费分支，不是单纯格子被动联动。 当前文字的接收方充能修正可能把只作用于属性充能的加速冷却%套进固定灌注，与已读取消费者不符。",
+      "conservative_action": "删除手动催化选择；若保留药剂供能主题，改为药剂在该格正常使用时自动附带有限灌注，并用较低原恢复量作代价，仍沿一次正常用药扣1次数和每回合一次规则。具体数值另平衡，不暗改药剂命令。 固定灌注严格按声明标量交付，不乘反弹充能速度、阶级或锻造；仅当另有明确“灌注量修饰”时才单独应用。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 319,
+          "end_line": 322,
+          "id": "I106",
+          "name": "生命药剂",
+          "text": "使用时：治愈22。\n此物品的治愈等同15%生命上限。\n耐久：3/3。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 331,
+          "end_line": 333,
+          "id": "I111",
+          "name": "体力药剂",
+          "text": "使用时：恢复10体力。\n耐久：3/3。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 11,
+          "end_line": 17,
+          "note": "合法命令没有催化选择"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/04_状态存档与交互.txt",
+          "start_line": 78,
+          "end_line": 81,
+          "note": "药剂使用扣次及输入时机"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/01_核心GDD.txt",
+          "start_line": 22,
+          "end_line": 23,
+          "note": "授权是格子附魔和数值调整，不是新增用药模式"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+          "start_line": 291,
+          "end_line": 316,
+          "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 2059
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    },
+    {
+      "id": "E032",
+      "name": "专注",
+      "decision": "改写",
+      "classification": "保留局部属性转移；修正显示与命名",
+      "reason": "旧手套确实加英雄基础伤害，和武器伤害是两个来源；长文区分正确。但短文“1.6倍强化下邻武器”会读成武器总伤×1.6，且名称撞已有主动天赋T055专注。",
+      "conservative_action": "保留该实例G→下邻附伤1.6G的局部转换；短文改成“旧手套不再加英雄基础伤害，改为给下邻武器每次额外+8伤害（随手套自身加值变化）”；换一个不与T055冲突的名称。不能拿视频5当所有实例恒值，先读实际属性来源再转移。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 338,
+          "end_line": 338,
+          "id": "I115",
+          "name": "旧手套",
+          "text": "提升5英雄基础伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 80,
+          "end_line": 81,
+          "id": "I022",
+          "name": "旧剑",
+          "text": "完成充能时：\n下3次攻击额外造成20伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "start_line": 339,
+          "end_line": 339,
+          "id": "I116",
+          "name": "旧弓",
+          "text": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，造成10伤害。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "start_line": 56,
+          "end_line": 56,
+          "id": "T055",
+          "name": "专注",
+          "text": "本回合最上方物品必定会心，造成的伤害提升50%。"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 37,
+          "end_line": 37,
+          "note": "英雄基础与物品输出分离"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "start_line": 46,
+          "end_line": 46,
+          "note": "旧手套真实实例加值"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/03_掉落商店锻造与附魔.txt",
+          "start_line": 28,
+          "end_line": 30,
+          "note": "手套强度只缩放一次"
+        }
+      ],
+      "entry_location": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line": 2125
+      },
+      "confidence": "high",
+      "runtime_verified": false
+    }
+  ],
+  "additional_readonly_runtime_evidence": [
+    {
+      "path": "/Users/haobinlu/Desktop/提取过程/battle-scene/src/core/sys/turn/loop.ts",
+      "start_line": 291,
+      "end_line": 316,
+      "note": "固定值分支直接增加固定值×次数；只有属性值分支读取加速冷却%；被灌注响应单独派发。"
+    }
+  ],
+  "notes": [
+    "E018削甲属于允许提出的新附魔组合，不因CSV缺同名词条而移除。",
+    "E003局部会心、E032属性来源拆分均有依据；不能把合理设计创新误判成全部越界。",
+    "E026的改写意见针对新输入类别和奖励筛选挪用，不否定已有碰撞事件。"
+  ]
+}

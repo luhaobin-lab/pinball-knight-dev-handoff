@@ -1,0 +1,176 @@
+{
+  "created": "2026-10-29",
+  "method": "直接调用未修改的本地Surface/Pen程序化图标渲染器，以96像素原生光栅化输出RGBA PNG；无缩放、重绘、SVG替代或模型生成。",
+  "boundary": "这些是本地提取原型项目已有程序化图标的导出，不是原商业游戏原始美术资产。通用herb不可冒充灵魂香菇。poison/bleed/soul不是ItemType。",
+  "sources": [
+    {
+      "file": "battle-scene/src/ui/icons/items.ts",
+      "sha256": "0812a2678dfe85372eaf88e4f448e9f5553c7cc44c5c5c064bd1dc5c9a4910b4"
+    },
+    {
+      "file": "battle-scene/src/procgen/icons/items.ts",
+      "sha256": "34a5962473af104c962bf9fb465b27fca0518d0078a86dee7ae9540509e566fc"
+    },
+    {
+      "file": "battle-scene/src/procgen/icons/glyphs.ts",
+      "sha256": "6a429fd075eb238077e3f49fc35aad03f2c462216512b422469576aa6417916f"
+    },
+    {
+      "file": "battle-scene/src/ui/icons/pen.ts",
+      "sha256": "088fc9a5c8c67b9ade35a0b342d87393e1bae0a97a823380a8edb7ceabde5886"
+    },
+    {
+      "file": "battle-scene/src/ui/core/surface.ts",
+      "sha256": "51b04933cc8b3c38b6cae190d66aa1686cd7c8ad5ffa07286b000a5b874b9c25"
+    },
+    {
+      "file": "battle-scene/src/ui/core/color.ts",
+      "sha256": "9f9dae917442e3e0a7695f7e2883e68d916e938d5c5891624c9f0961924ff02f"
+    },
+    {
+      "file": "battle-scene/src/ui/style/palette.ts",
+      "sha256": "9a56932eb88488294f07606376865b5736c5df2b670325bb26c632b11cd303f0"
+    },
+    {
+      "file": "battle-scene/src/game/bind/hud.ts",
+      "sha256": "04de6bb2f3a705c91e02b97a7acbf6355a744ce03e0ee757bcb365a9341bd9f8"
+    }
+  ],
+  "records": [
+    {
+      "file": "淬毒利刃.png",
+      "width": 96,
+      "height": 96,
+      "kind": "dagger",
+      "itemType": "weapon",
+      "source": "battle-scene/src/procgen/icons/items.ts:itemIcon",
+      "sha256": "516def5f1d46f116b41209ab12f92efc3bc05de3dd6bf91dd8e4b0722355e4c7",
+      "transparentPixels": 6902,
+      "opaquePixels": 2314,
+      "row": "淬毒利刃",
+      "spec": {
+        "row": "淬毒利刃",
+        "name": "淬毒利刃",
+        "glyph": "dagger",
+        "type": "weapon",
+        "size": 1,
+        "enchant": null,
+        "variant": 3,
+        "mark": null,
+        "tier": 0,
+        "colour": null
+      },
+      "scope": "当前本地游戏HUD所调用的既有逐物品程序化渲染器"
+    },
+    {
+      "file": "凝血毒剂.png",
+      "width": 96,
+      "height": 96,
+      "kind": "vial",
+      "itemType": "tool",
+      "source": "battle-scene/src/procgen/icons/items.ts:itemIcon",
+      "sha256": "c6f00bbda31ec06dff0edde640dae386b111cd5feb896f8b813b8fe4fe5fb583",
+      "transparentPixels": 6488,
+      "opaquePixels": 2728,
+      "row": "凝血毒剂",
+      "spec": {
+        "row": "凝血毒剂",
+        "name": "凝血毒剂",
+        "glyph": "vial",
+        "type": "tool",
+        "size": 1,
+        "enchant": null,
+        "variant": 4,
+        "mark": null,
+        "tier": 0,
+        "colour": null
+      },
+      "scope": "当前本地游戏HUD所调用的既有逐物品程序化渲染器"
+    },
+    {
+      "file": "灵魂香菇.png",
+      "width": 96,
+      "height": 96,
+      "kind": "mushroom",
+      "itemType": "tool",
+      "source": "battle-scene/src/procgen/icons/items.ts:itemIcon",
+      "sha256": "47d652cd851bd54e384d9e2ea2c3c19c25e7ca542761b1d19d3b43c1cfd203d2",
+      "transparentPixels": 6210,
+      "opaquePixels": 3006,
+      "row": "灵魂香菇",
+      "spec": {
+        "row": "灵魂香菇",
+        "name": "灵魂香菇",
+        "glyph": "mushroom",
+        "type": "tool",
+        "size": 1,
+        "enchant": null,
+        "variant": 1,
+        "mark": null,
+        "tier": 0,
+        "colour": null
+      },
+      "scope": "当前本地游戏HUD所调用的既有逐物品程序化渲染器"
+    },
+    {
+      "file": "helm_armor.png",
+      "width": 96,
+      "height": 96,
+      "kind": "helm",
+      "itemType": "armor",
+      "source": "battle-scene/src/ui/icons/items.ts:itemIcon",
+      "sha256": "a789961180b1bc83c6a4d5ea630b6b69ccaaaa17e19e056d5b9691f59a9c8920",
+      "transparentPixels": 5176,
+      "opaquePixels": 4040,
+      "scope": "既有通用程序化图标；不是具体物品的实机映射"
+    },
+    {
+      "file": "scroll_tool.png",
+      "width": 96,
+      "height": 96,
+      "kind": "scroll",
+      "itemType": "tool",
+      "source": "battle-scene/src/ui/icons/items.ts:itemIcon",
+      "sha256": "7d2d07142b1269a81b6eb861ccea92df17fddc47fcc08f3f47d1fc5620e2459a",
+      "transparentPixels": 4758,
+      "opaquePixels": 4458,
+      "scope": "既有通用程序化图标；不是具体物品的实机映射"
+    },
+    {
+      "file": "herb_tool.png",
+      "width": 96,
+      "height": 96,
+      "kind": "herb",
+      "itemType": "tool",
+      "source": "battle-scene/src/ui/icons/items.ts:itemIcon",
+      "sha256": "d8d229d5a5f873aa2a327fae31654ccba4178c413cc5b19c5131fef3aba13815",
+      "transparentPixels": 6378,
+      "opaquePixels": 2838,
+      "scope": "既有通用程序化图标；不是具体物品的实机映射"
+    },
+    {
+      "file": "shield_armor.png",
+      "width": 96,
+      "height": 96,
+      "kind": "shield",
+      "itemType": "armor",
+      "source": "battle-scene/src/ui/icons/items.ts:itemIcon",
+      "sha256": "cbeb325d6ab30fe2d0377aa7dbc44791f578d0fdab14b368cf1648709859debe",
+      "transparentPixels": 5558,
+      "opaquePixels": 3658,
+      "scope": "既有通用程序化图标；不是具体物品的实机映射"
+    },
+    {
+      "file": "ring_accessory.png",
+      "width": 96,
+      "height": 96,
+      "kind": "ring",
+      "itemType": "accessory",
+      "source": "battle-scene/src/ui/icons/items.ts:itemIcon",
+      "sha256": "bc20e806cb2cc64ef9702bc10dedd70a75cc4c8c9f3700f618db2d0a3d0a69aa",
+      "transparentPixels": 6862,
+      "opaquePixels": 2354,
+      "scope": "既有通用程序化图标；不是具体物品的实机映射"
+    }
+  ]
+}

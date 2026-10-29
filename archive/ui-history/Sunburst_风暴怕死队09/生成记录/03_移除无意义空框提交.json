@@ -1,0 +1,57 @@
+{
+  "input": {
+    "prompt": "Precise localized cleanup of this complete 3200x1440 equipment-codex screen. There are exactly THREE catalogue items in the left list. Remove ONLY the EMPTY fourth card-shaped rectangle BELOW the 灵魂香菇 entry. Erase its rounded outline, inner rim and card fill, leaving a plain quiet dark continuation of the list panel surface within the same OUTER panel. Keep all three real item cards, selection, text, detail image, bronze effects, return button, entire right backpack, large header icons and hanging tabs completely unchanged. Do not add a mystery entry or lock. One complete finished screenshot.",
+    "images": [
+      "archive/ui-v09-approved/原始生成图/03_战斗_装备图鉴.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2e416f5157103dedcc7c9\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2e416f5157103dedcc7c9",
+      "raw": {
+        "id": "6ae2e416f5157103dedcc7c9",
+        "object_id": "6ae2e416f5157103dedcc7c9",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T14:13:42.865000+08:00",
+        "updateTime": "2026-10-29T14:13:42.879000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

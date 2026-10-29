@@ -1,0 +1,7 @@
+/** Source L4019/L2813: named kill-type nextday creates detached2s blackhole at hero cached position, combo*round trigger count. */
+import{蓝图_效果}from'../../../../../core/ability/effect.ts';import{蓝图_能力}from'../../../../../core/ability/ability.ts';import{蓝图_效果_黑洞}from'./蓝图_效果_黑洞.ts';import{函数库_技能}from'../../../../../core/bp/index.ts';import{make效果配置}from'../../../../../core/bp/structs.ts';import{科学数变普通}from'../../../../../core/math/sci.ts';import{获取科学映射词条}from'../../../../../core/math/stats.ts';import{applyEffect}from'../蓝图_效果_可控弹射.ts';import type{AssetPath,Tag}from'../../../../../core/sim/types.ts';
+export class 蓝图_效果_黑洞法杖A extends 蓝图_效果{
+ static override readonly path:AssetPath='CatapultHero/BP/Skill/效果/物品/蓝图_效果_黑洞法杖A';当前触发=0;触发上限=1;开始吸引=false;Radius=800;持续时间=2;
+ override 激活后触发(_d:string):void{this.持续时间=1;}
+ override 持续中触发(t:Tag):void{const s=this.来自技能,o=s?.拥有者,h=this.world.mode.玩家角色,m=this.world.mode.当前任务实例;if(t!=='效果.时机.新一天时'||!s||!o||!h||!(m instanceof 蓝图_能力)||!m.类型.has('能力.类型.任务.杀敌')||!this.world.isValid(o)||o.死掉了)return;const cls=蓝图_效果_黑洞.path,cfg=make效果配置({效果类:cls,持续时间:2,触发间隔:1,持续回合:-1,叠加层数:1,唯一:false,检查效果名:false,叠加上限:99}),r=applyEffect(this,{cfg,owner:o,释放者:o,来自技能:s,效果名:函数库_技能.获取效果名(this,s,cls).效果名字,classOf:o});if(r.refreshed||!r.effect)return;r.effect.K2_DetachFromActor();r.effect.K2_SetActorLocation(h.当前位置);r.effect.触发次数=Math.imul(Math.trunc(科学数变普通(获取科学映射词条(o.词条,'连击').输出值)),this.world.mode.回合开始触发数);r.effect.激活效果('');}
+}

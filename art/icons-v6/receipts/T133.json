@@ -1,0 +1,86 @@
+{
+  "id": "T133",
+  "name": "捕捉灵魂",
+  "status": "generated-normalized",
+  "source": "mothers/T133.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T133.png",
+  "motherSha256": "47f701206ce3977d03af448baf6981f6d2ba665d11b27e135b78c38da6d185cf",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T133.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6875,
+      "sha256": "451d9924565a895bdacf7546e1588d5084bf25442809fc5f089ed9e92440bc10",
+      "pixelSha256": "aca1f29f0ead23208855009cf9b858dc4d5ee438934dbc716690fe0e663ca631",
+      "alphaBounds": [
+        4,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          58,
+          56,
+          1206,
+          1218
+        ],
+        "fitSize": [
+          119,
+          120
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.10327022375215146
+      }
+    },
+    "256": {
+      "file": "pixels/256/T133.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 25045,
+      "sha256": "47ca6fc98481c6054d39558aab1cbc463ed51b38e34a11c185166fed60766366",
+      "pixelSha256": "4c460afdb81ed161d5b6822d4208d9be018a3b9aa72ead76a346951398d0dc57",
+      "alphaBounds": [
+        9,
+        8,
+        246,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          58,
+          56,
+          1206,
+          1218
+        ],
+        "fitSize": [
+          237,
+          240
+        ],
+        "position": [
+          9,
+          8
+        ],
+        "scale": 0.20654044750430292
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-4403331c-d413-4462-9ceb-6a2e8fa1823a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-4403331c-d413-4462-9ceb-6a2e8fa1823a"
+  }
+}

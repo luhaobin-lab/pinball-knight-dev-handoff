@@ -1,0 +1,86 @@
+{
+  "id": "I001",
+  "name": "蓄势战甲",
+  "status": "generated-normalized",
+  "source": "mothers/I001.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I001.png",
+  "motherSha256": "3148e82e7db83322f1e0053c2cd0f1702c0f32ca9b9bb4eaa5665e37b321ce50",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I001.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6986,
+      "sha256": "db699fe7d5fb4cc83fc39eb8a96f53ed173ddf1450b8ebbea0118510f92123e8",
+      "pixelSha256": "81baf5466e1ab05786f1496a806a9dc189497acd93b2ae4464274488cda684b6",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          57,
+          1228,
+          1233
+        ],
+        "fitSize": [
+          120,
+          118
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.100418410041841
+      }
+    },
+    "256": {
+      "file": "pixels/256/I001.png",
+      "width": 256,
+      "height": 256,
+      "colors": 94,
+      "bytes": 25867,
+      "sha256": "5d299e0ce4e3fab41fc1dff2e5d0812703be3b0bafbf37bc220dfc312658dc0e",
+      "pixelSha256": "1fa90d206c076bf3aa37166dd9e60834c7185348e6e2bfc8fbfb3ab769f1a5ea",
+      "alphaBounds": [
+        8,
+        11,
+        248,
+        246
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          57,
+          1228,
+          1233
+        ],
+        "fitSize": [
+          240,
+          236
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.200836820083682
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; correct single subject; complete silhouette; no visible background residue in normalized PNG",
+  "sourceProvenance": {
+    "sourceFilename": "exec-c2b9dfcc-cfbb-4d76-9fae-7c9d8a1dfcac.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-c2b9dfcc-cfbb-4d76-9fae-7c9d8a1dfcac"
+  }
+}

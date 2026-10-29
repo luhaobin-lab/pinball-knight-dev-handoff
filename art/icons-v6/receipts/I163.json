@@ -1,0 +1,93 @@
+{
+  "id": "I163",
+  "name": "时空水晶",
+  "status": "generated-normalized",
+  "source": "mothers/I163.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I163.png",
+  "motherSha256": "7778c8c9cc62ceb357ef41e8b35b533362d02335f07200eb45623e5def990fb4",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I163.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2856,
+      "sha256": "5d5f2f96447c1f8f68f8b03b25140d4bf01fb5654e126b0352e9d7076f835fbc",
+      "pixelSha256": "0facae28bc0fa10c165de5619368019c640b8e36cc2802631b803b146dba6a00",
+      "alphaBounds": [
+        9,
+        4,
+        118,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          92,
+          42,
+          1697,
+          854
+        ],
+        "fitSize": [
+          111,
+          56
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.06896551724137931
+      }
+    },
+    "256": {
+      "file": "pixels/256/I163.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10146,
+      "sha256": "22411f15f72b7c37b3fdb708ba9d88ae440bee81f52bd40a2de33053502eb49e",
+      "pixelSha256": "1140538943daa842ffd7ed9bd4f6ea783cb473f055c5386f3b3deb284429f0e0",
+      "alphaBounds": [
+        18,
+        8,
+        237,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          92,
+          42,
+          1697,
+          854
+        ],
+        "fitSize": [
+          221,
+          112
+        ],
+        "position": [
+          17,
+          8
+        ],
+        "scale": 0.13793103448275862
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-01.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-01.png",
+    "pixelSha256": "1140538943daa842ffd7ed9bd4f6ea783cb473f055c5386f3b3deb284429f0e0",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-ebfedff5-1695-453c-ae4f-5cb4d52c4373.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-ebfedff5-1695-453c-ae4f-5cb4d52c4373"
+  }
+}

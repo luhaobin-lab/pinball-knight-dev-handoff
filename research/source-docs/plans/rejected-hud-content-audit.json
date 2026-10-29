@@ -1,0 +1,1286 @@
+{
+  "schemaVersion": 1,
+  "auditor": "hud_content_audit",
+  "createdAt": "2026-10-27T11:43:44.538Z",
+  "target": {
+    "scope": "Exact depictable game content for matching character and backpack HUD concept states; no runtime implementation or state fabrication",
+    "sourceCommit": "a14ffb1c043950b308dcf20b27f0eddfbe9adbb0",
+    "source": [
+      "src/mobile-shrine/fixture.ts",
+      "src/mobile-shrine/model.ts",
+      "src/core/sys/inventory/grid.ts",
+      "src/game/roster.ts",
+      "src/content/demo/data/数据表_修炼物品_通用.ts"
+    ],
+    "acceptance": [
+      "All depicted actors/items/values come from the same actual fixture snapshot",
+      "Two tabs only: character contains attributes; backpack contains actual one potion",
+      "No adding shield, second sword, relic or invented stats to fill space",
+      "Same scene and equipment across both tab states",
+      "Actual grid semantics distinguished from prior illustrative2x5 concepts"
+    ],
+    "golden": "User rejected prior live shrine aesthetic; existing screenshots serve only as content/geometry evidence, not approved new style",
+    "forbidden": [
+      "Runtime/core/source edits",
+      "Paid image submissions",
+      "Other-chat messages",
+      "Writes outside this report",
+      "Fixture mutation to fill inventory"
+    ]
+  },
+  "verification": {
+    "kind": "Read-only browser evaluation of exact final standalone sample",
+    "artifact": "D:/TAPTAPGAME_rebound_20261027/outputs/mobile-shrine-sample-20261027/圣龛手机样板.html",
+    "artifactSha256": "6a3e3285e48fb0e89ad7aff0b74721be4b3f0049f4f286e7889d4f4001c5dc8b",
+    "browser": "Installed Chrome headless, muted",
+    "viewport": [
+      1000,
+      450
+    ],
+    "fixtureMutated": false,
+    "gameCommandsSent": [],
+    "browserClosed": true
+  },
+  "snapshot": {
+    "model": {
+      "heroName": "甲壳虫骑士",
+      "level": 1,
+      "hp": {
+        "value": 120,
+        "max": 150
+      },
+      "stamina": {
+        "value": 100,
+        "max": 100
+      },
+      "corruption": {
+        "value": 0,
+        "max": 100
+      },
+      "experience": {
+        "value": 25.31296730041504,
+        "max": 150
+      },
+      "armor": 0,
+      "coins": 8,
+      "stats": [
+        {
+          "key": "基础伤害",
+          "label": "基础伤害",
+          "group": "进攻",
+          "value": "30"
+        },
+        {
+          "key": "暴击率%",
+          "label": "会心率",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "暴击伤害%",
+          "label": "会心倍率",
+          "group": "进攻",
+          "format": "multiplier",
+          "note": "总倍率；×2相当于正常值的两倍，不是额外增加200%。",
+          "value": "×2"
+        },
+        {
+          "key": "额外伤害%",
+          "label": "伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "精英伤害%",
+          "label": "对精英伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "投射伤害%",
+          "label": "投射伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "元素伤害%",
+          "label": "元素伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "持续伤害%",
+          "label": "持续伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "note": "保留原词条名；实际通用伤害函数也读取此乘区。",
+          "value": "0%"
+        },
+        {
+          "key": "连击",
+          "label": "连击次数",
+          "group": "进攻",
+          "note": "技能触发次数来源，不是攻击速度。",
+          "value": "1"
+        },
+        {
+          "key": "投射分裂",
+          "label": "投射分裂",
+          "group": "进攻",
+          "value": "0"
+        },
+        {
+          "key": "治愈",
+          "label": "基础治愈",
+          "group": "生存与恢复",
+          "value": "0"
+        },
+        {
+          "key": "治愈效果%",
+          "label": "治愈效果加成",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "护甲",
+          "label": "基础强固",
+          "group": "生存与恢复",
+          "note": "生成护甲技能的基础值，不是当前强固池。",
+          "value": "0"
+        },
+        {
+          "key": "强固效果%",
+          "label": "强固效果加成",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "伤害减免%",
+          "label": "伤害减免",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "持续减免%",
+          "label": "持续伤害减免",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "强固减伤%",
+          "label": "强固分担比例",
+          "group": "生存与恢复",
+          "format": "percent",
+          "note": "含护甲伤害中可由当前强固池分担的份额。",
+          "value": "50%"
+        },
+        {
+          "key": "格挡减伤%",
+          "label": "每层格挡减伤",
+          "group": "生存与恢复",
+          "format": "percent",
+          "note": "原处理使用消费后剩余格挡层计算。",
+          "value": "15%"
+        },
+        {
+          "key": "闪避减伤%",
+          "label": "闪避减伤",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "90%"
+        },
+        {
+          "key": "易伤倍率%",
+          "label": "每层易伤增幅",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "10%"
+        },
+        {
+          "key": "额外生命%",
+          "label": "生命上限加成",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "消耗减免%",
+          "label": "体力消耗减免",
+          "group": "行动",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "加速冷却%",
+          "label": "充能加成",
+          "group": "行动",
+          "format": "percent",
+          "note": "增加属性充能量，不统一缩短所有技能的秒冷却。",
+          "value": "0%"
+        },
+        {
+          "key": "弹射距离",
+          "label": "弹射距离",
+          "group": "行动",
+          "format": "distance",
+          "value": "500 uu"
+        },
+        {
+          "key": "攻击距离",
+          "label": "攻击距离",
+          "group": "行动",
+          "format": "distance",
+          "value": "110 uu"
+        },
+        {
+          "key": "质量",
+          "label": "质量",
+          "group": "行动",
+          "value": "40"
+        },
+        {
+          "key": "格挡层上限",
+          "label": "格挡层上限",
+          "group": "状态上限",
+          "value": "10"
+        },
+        {
+          "key": "闪避层上限",
+          "label": "闪避层上限",
+          "group": "状态上限",
+          "value": "3"
+        },
+        {
+          "key": "心流层上限",
+          "label": "心流层上限",
+          "group": "状态上限",
+          "value": "15"
+        },
+        {
+          "key": "currentMaxHp",
+          "label": "生命上限",
+          "value": "150",
+          "group": "生存与恢复"
+        },
+        {
+          "key": "currentArmor",
+          "label": "当前强固",
+          "value": "0",
+          "group": "生存与恢复"
+        },
+        {
+          "key": "currentMaxStamina",
+          "label": "体力上限",
+          "value": "100",
+          "group": "行动"
+        },
+        {
+          "key": "最大疲劳",
+          "label": "普通反弹上限",
+          "value": "4",
+          "group": "行动",
+          "note": "普通反弹预算，不保证每次发射都达到此次数；特殊引力反弹另有条件。"
+        }
+      ],
+      "backpack": [
+        {
+          "id": 150,
+          "row": "生命药剂",
+          "name": "生命药剂",
+          "quality": 1,
+          "charge": 0,
+          "chargeMax": 100,
+          "chargeable": false,
+          "durability": 3,
+          "width": 1,
+          "height": 1,
+          "description": [
+            "治愈 22.5。",
+            "创建空瓶。",
+            "此物品的治愈等同 15% 生命上限。"
+          ]
+        }
+      ],
+      "equipped": [
+        {
+          "id": 144,
+          "row": "旧剑",
+          "name": "旧剑",
+          "quality": 1,
+          "charge": 0,
+          "chargeMax": 100,
+          "chargeable": true,
+          "durability": null,
+          "width": 1,
+          "height": 2,
+          "description": [
+            "下 3 次攻击额外造成 20 伤害。"
+          ]
+        }
+      ],
+      "selected": null,
+      "canUseSelected": false,
+      "phase": "交互场牌",
+      "paused": false,
+      "message": "",
+      "roomName": "新手关"
+    },
+    "hero": {
+      "selectedSkill": null,
+      "id": 35,
+      "row": "幽冥骑士",
+      "position": {
+        "x": 0,
+        "y": 128,
+        "z": 56
+      },
+      "hp": 120,
+      "maxHp": 150,
+      "armor": 0,
+      "dead": false,
+      "stamina": 100,
+      "maxStamina": 100,
+      "dot": 0,
+      "statuses": [],
+      "skills": [
+        {
+          "slot": 0,
+          "row": "可控挥击",
+          "cost": 0,
+          "cooldown": 0,
+          "usable": false
+        }
+      ],
+      "stats": {
+        "基础伤害": 30,
+        "暴击率%": 0,
+        "暴击伤害%": 2,
+        "生命": 150,
+        "最大生命": 150,
+        "魔力": 100,
+        "最大魔力": 100,
+        "闪避%": 0,
+        "精英伤害%": 0,
+        "格挡%": 0,
+        "伤害减免%": 0,
+        "治愈效果%": 0,
+        "质量": 40,
+        "价格": 2,
+        "额外生命%": 0,
+        "额外伤害%": 0,
+        "加速冷却%": 0,
+        "强固效果%": 0,
+        "弹射距离": 500,
+        "经验": 0,
+        "投射伤害%": 0,
+        "持续伤害%": 0,
+        "治愈": 0,
+        "护甲": 0,
+        "连击": 1,
+        "溢价": 0,
+        "攻击距离": 110.00000000000001,
+        "投射分裂": 0,
+        "疲劳减伤%": 0,
+        "持续减免%": 0,
+        "消耗减免%": 0,
+        "格挡减伤%": 0.15000000000000002,
+        "易伤倍率%": 0.1,
+        "元素伤害%": 0,
+        "格挡层上限": 10,
+        "闪避层上限": 3,
+        "强固减伤%": 0.5,
+        "心流层上限": 15,
+        "闪避减伤%": 0.9
+      }
+    },
+    "run": {
+      "chapter": "新手关",
+      "floor": 2,
+      "floors": 7,
+      "quest": [
+        {
+          "text": "序幕",
+          "done": false
+        }
+      ],
+      "turn": 1,
+      "金币": 8,
+      "精矿": 0,
+      "当前腐化": 0,
+      "最大腐化": 100,
+      "英雄等级": 1,
+      "经验": 25.31296730041504,
+      "升级经验": 150
+    },
+    "room": {
+      "layout": "新手关02",
+      "variant": 0,
+      "cols": 20,
+      "rows": 28,
+      "tile": 64,
+      "origin": {
+        "x": -640,
+        "y": -896
+      },
+      "cellCount": 256,
+      "task": "消灭所有敌人",
+      "spawns": [
+        {
+          "table": "数据表_敌人_普通",
+          "row": "眼球",
+          "at": null
+        }
+      ],
+      "solids": [
+        {
+          "kind": "circle",
+          "at": {
+            "x": 453,
+            "y": 768,
+            "z": 0
+          },
+          "radius": 50,
+          "tags": [
+            "环境.房间.有弹性",
+            "环境.房间.墙壁"
+          ]
+        },
+        {
+          "kind": "circle",
+          "at": {
+            "x": -315,
+            "y": -512,
+            "z": 0
+          },
+          "radius": 50,
+          "tags": [
+            "环境.房间.有弹性",
+            "环境.房间.墙壁"
+          ]
+        }
+      ],
+      "decorations": [
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_火盆",
+          "cell": [
+            16.5,
+            25.5
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_火盆",
+          "cell": [
+            4.5,
+            5.5
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_蜡烛堆",
+          "cell": [
+            2,
+            13.5
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_蜡烛堆",
+          "cell": [
+            17,
+            17.5
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_蜡烛堆",
+          "cell": [
+            9.5,
+            26
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_蜡烛堆",
+          "cell": [
+            2,
+            22
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_地板图案0301",
+          "cell": [
+            13.5,
+            24.5
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_地板图案0301",
+          "cell": [
+            1.5,
+            20.5
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_地板图案0202",
+          "cell": [
+            5.5,
+            13.5
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品_地刺_0202",
+          "cell": [
+            5.5,
+            17.5
+          ],
+          "placement": "随机"
+        },
+        {
+          "cls": "CatapultHero/BP/环境/装饰品/蓝图_装饰品",
+          "cell": [
+            9.5,
+            15.5
+          ],
+          "placement": "固定"
+        }
+      ]
+    },
+    "inventory": {
+      "equip": [
+        {
+          "id": 144,
+          "row": "旧剑",
+          "quality": 1,
+          "charge": 0,
+          "chargeMax": 100,
+          "durability": null,
+          "enchants": [],
+          "tooltip": [
+            "下 <天赋>3</> 次攻击额外造成 <天赋>20</> 伤害。"
+          ],
+          "extractCost": 0,
+          "badges": {
+            "damage": 20
+          },
+          "combo": 1,
+          "cooldown": 0,
+          "enchantCount": 0,
+          "place": {
+            "grid": "equip",
+            "row": 8,
+            "col": 0
+          },
+          "size": [
+            1,
+            2
+          ]
+        }
+      ],
+      "canRearrange": false,
+      "backpack": [
+        {
+          "id": 150,
+          "row": "生命药剂",
+          "quality": 1,
+          "charge": 0,
+          "chargeMax": 100,
+          "durability": 3,
+          "enchants": [],
+          "tooltip": [
+            "<强调>治愈</> <天赋>0</> 。",
+            "创建空瓶。",
+            "此物品的<强调>治愈</>等同 <天赋>15%</> 生命上限。"
+          ],
+          "extractCost": 0,
+          "badges": {
+            "heal": 22.499999999999996
+          },
+          "combo": 1,
+          "cooldown": 0,
+          "enchantCount": 0,
+          "place": {
+            "grid": "backpack",
+            "row": 0,
+            "col": 0
+          },
+          "size": [
+            1,
+            1
+          ]
+        }
+      ],
+      "lockedRows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "side": [],
+      "stash": [],
+      "materials": {}
+    },
+    "field": [
+      {
+        "id": 240,
+        "row": "眼球",
+        "table": "CatapultHero/数据表/角色/数据表_敌人_普通",
+        "kind": "enemy",
+        "position": {
+          "x": -158.2780090348304,
+          "y": 345.72585910097894,
+          "z": 40
+        },
+        "radius": 40,
+        "height": 40,
+        "hidden": false,
+        "hp": 35.35126553925342,
+        "maxHp": 35.35126553925342,
+        "armor": 0,
+        "intent": {
+          "skill": "眼球弹射",
+          "target": null,
+          "text": "向前弹射，反弹时造成 <天赋>32</> 伤害。"
+        },
+        "statuses": [],
+        "elite": false,
+        "boss": false
+      }
+    ],
+    "phase": "交互场牌",
+    "screen": "room",
+    "legal": [
+      {
+        "type": "aim.release"
+      },
+      {
+        "type": "item.use",
+        "params": {
+          "item": [
+            150
+          ]
+        }
+      },
+      {
+        "type": "menu.open"
+      }
+    ]
+  },
+  "sourceRefs": {
+    "fixtureAcquireSword": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/fixture.ts",
+      "line": 38
+    },
+    "fixtureCreatePotion": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/fixture.ts",
+      "line": 42
+    },
+    "fixtureRoomAndHp": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/fixture.ts",
+      "line": 48
+    },
+    "heroDisplayName": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/model.ts",
+      "line": 113
+    },
+    "resourceRead": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/model.ts",
+      "line": 115
+    },
+    "stats": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/model.ts",
+      "line": 11
+    },
+    "gridSemantics": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/grid.ts",
+      "line": 2
+    },
+    "battleNoRearrange": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts",
+      "line": 443
+    },
+    "paintedHalfCells": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/ui/pages/backpack/panel.ts",
+      "line": 29
+    },
+    "enemyCandleMapping": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/game/roster.ts",
+      "line": 11
+    },
+    "enemyModelFactory": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/game/views/actors.ts",
+      "line": 41
+    },
+    "sourceIcons": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/icons.ts",
+      "line": 5
+    },
+    "intentNumber": {
+      "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/game/loop.ts",
+      "line": 390
+    }
+  },
+  "sharedScreenContent": {
+    "header": {
+      "safeText": "序幕 · 新手关02",
+      "basis": "run.quest=序幕 and room.layout=新手关02",
+      "warning": "The current main.ts hardcodes 深沉深渊; this label is not the current actual chapter, which is 新手关. Do not silently treat prior mockup heading as source data."
+    },
+    "hero": {
+      "display": "甲壳虫骑士",
+      "coreRow": "幽冥骑士",
+      "level": 1,
+      "look": "Existing pearl-white armor, small gold helmet crest, sapphire scarf; use actual game hero/portrait. Do not substitute Hollow Knight or Castlevania protagonist.",
+      "position": {
+        "x": 0,
+        "y": 128,
+        "z": 56
+      }
+    },
+    "resources": {
+      "生命": "120/150",
+      "体力": "100/100",
+      "腐化": "0/100",
+      "经验": "25.3/150",
+      "等级": "1级",
+      "金币": 8,
+      "experienceRaw": 25.31296730041504,
+      "experienceRounding": "Existing displayed value rounds to1decimal; exactly25.31296730041504 internally"
+    },
+    "enemy": {
+      "count": 1,
+      "coreRow": "眼球",
+      "visual": "wickling, existing red candle-like enemy",
+      "position": {
+        "x": -158.2780090348304,
+        "y": 345.72585910097894,
+        "z": 40
+      },
+      "hp": 35.35126553925342,
+      "maxHp": 35.35126553925342,
+      "intent": "向前弹射，反弹时造成32伤害",
+      "intentDamage": 32,
+      "warning": "The visible red32 is intent damage, not enemy HP. True HP is35.35126553925342. Keep bar full or use validated rounding if a numerical HP label is introduced."
+    },
+    "equipment": {
+      "logicalColumns": 1,
+      "totalRows": 10,
+      "rowIndexing": "zero based",
+      "lockedRows": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "emptyUnlockedRows": [
+        6,
+        7
+      ],
+      "equipped": [
+        {
+          "id": 144,
+          "name": "旧剑",
+          "startRow": 8,
+          "col": 0,
+          "size": [
+            1,
+            2
+          ],
+          "occupiedRows": [
+            8,
+            9
+          ],
+          "charge": "0/100",
+          "tooltip": "下3次攻击额外造成20伤害。"
+        }
+      ],
+      "renderRule": "A continuous one-column10-row rail. Current old renderer draws a center seam as two painted half-cells; cards still span the whole logical column. Do not call it two independent columns or rotate the sword into2x1.",
+      "controls": "Actual combat state canRearrange=false; no live move/rotation control should be claimed. An equipment selection/display surface can be redesigned without changing content."
+    }
+  },
+  "tabStates": {
+    "character": {
+      "active": "角色",
+      "inactive": "背包",
+      "topResources": "Same shared snapshot",
+      "recommendedVisibleStats": [
+        [
+          "基础伤害",
+          "30"
+        ],
+        [
+          "会心率",
+          "0%"
+        ],
+        [
+          "会心倍率",
+          "×2"
+        ],
+        [
+          "基础治愈",
+          "0"
+        ],
+        [
+          "治愈效果加成",
+          "0%"
+        ],
+        [
+          "伤害减免",
+          "0%"
+        ],
+        [
+          "充能加成",
+          "0%"
+        ]
+      ],
+      "allAvailableStats": [
+        {
+          "key": "基础伤害",
+          "label": "基础伤害",
+          "group": "进攻",
+          "value": "30"
+        },
+        {
+          "key": "暴击率%",
+          "label": "会心率",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "暴击伤害%",
+          "label": "会心倍率",
+          "group": "进攻",
+          "format": "multiplier",
+          "note": "总倍率；×2相当于正常值的两倍，不是额外增加200%。",
+          "value": "×2"
+        },
+        {
+          "key": "额外伤害%",
+          "label": "伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "精英伤害%",
+          "label": "对精英伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "投射伤害%",
+          "label": "投射伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "元素伤害%",
+          "label": "元素伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "持续伤害%",
+          "label": "持续伤害加成",
+          "group": "进攻",
+          "format": "percent",
+          "note": "保留原词条名；实际通用伤害函数也读取此乘区。",
+          "value": "0%"
+        },
+        {
+          "key": "连击",
+          "label": "连击次数",
+          "group": "进攻",
+          "note": "技能触发次数来源，不是攻击速度。",
+          "value": "1"
+        },
+        {
+          "key": "投射分裂",
+          "label": "投射分裂",
+          "group": "进攻",
+          "value": "0"
+        },
+        {
+          "key": "治愈",
+          "label": "基础治愈",
+          "group": "生存与恢复",
+          "value": "0"
+        },
+        {
+          "key": "治愈效果%",
+          "label": "治愈效果加成",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "护甲",
+          "label": "基础强固",
+          "group": "生存与恢复",
+          "note": "生成护甲技能的基础值，不是当前强固池。",
+          "value": "0"
+        },
+        {
+          "key": "强固效果%",
+          "label": "强固效果加成",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "伤害减免%",
+          "label": "伤害减免",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "持续减免%",
+          "label": "持续伤害减免",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "强固减伤%",
+          "label": "强固分担比例",
+          "group": "生存与恢复",
+          "format": "percent",
+          "note": "含护甲伤害中可由当前强固池分担的份额。",
+          "value": "50%"
+        },
+        {
+          "key": "格挡减伤%",
+          "label": "每层格挡减伤",
+          "group": "生存与恢复",
+          "format": "percent",
+          "note": "原处理使用消费后剩余格挡层计算。",
+          "value": "15%"
+        },
+        {
+          "key": "闪避减伤%",
+          "label": "闪避减伤",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "90%"
+        },
+        {
+          "key": "易伤倍率%",
+          "label": "每层易伤增幅",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "10%"
+        },
+        {
+          "key": "额外生命%",
+          "label": "生命上限加成",
+          "group": "生存与恢复",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "消耗减免%",
+          "label": "体力消耗减免",
+          "group": "行动",
+          "format": "percent",
+          "value": "0%"
+        },
+        {
+          "key": "加速冷却%",
+          "label": "充能加成",
+          "group": "行动",
+          "format": "percent",
+          "note": "增加属性充能量，不统一缩短所有技能的秒冷却。",
+          "value": "0%"
+        },
+        {
+          "key": "弹射距离",
+          "label": "弹射距离",
+          "group": "行动",
+          "format": "distance",
+          "value": "500 uu"
+        },
+        {
+          "key": "攻击距离",
+          "label": "攻击距离",
+          "group": "行动",
+          "format": "distance",
+          "value": "110 uu"
+        },
+        {
+          "key": "质量",
+          "label": "质量",
+          "group": "行动",
+          "value": "40"
+        },
+        {
+          "key": "格挡层上限",
+          "label": "格挡层上限",
+          "group": "状态上限",
+          "value": "10"
+        },
+        {
+          "key": "闪避层上限",
+          "label": "闪避层上限",
+          "group": "状态上限",
+          "value": "3"
+        },
+        {
+          "key": "心流层上限",
+          "label": "心流层上限",
+          "group": "状态上限",
+          "value": "15"
+        },
+        {
+          "key": "currentMaxHp",
+          "label": "生命上限",
+          "value": "150",
+          "group": "生存与恢复"
+        },
+        {
+          "key": "currentArmor",
+          "label": "当前强固",
+          "value": "0",
+          "group": "生存与恢复"
+        },
+        {
+          "key": "currentMaxStamina",
+          "label": "体力上限",
+          "value": "100",
+          "group": "行动"
+        },
+        {
+          "key": "最大疲劳",
+          "label": "普通反弹上限",
+          "value": "4",
+          "group": "行动",
+          "note": "普通反弹预算，不保证每次发射都达到此次数；特殊引力反弹另有条件。"
+        }
+      ],
+      "scroll": true
+    },
+    "backpack": {
+      "active": "背包",
+      "inactive": "角色",
+      "topResources": "Same shared snapshot; switching tabs does not use potion or change the world",
+      "items": [
+        {
+          "id": 150,
+          "name": "生命药剂",
+          "quantity": 1,
+          "remainingUses": 3,
+          "size": [
+            1,
+            1
+          ],
+          "place": {
+            "row": 0,
+            "col": 0
+          },
+          "liveHeal": 22.5,
+          "chargeable": false,
+          "tooltip": [
+            "治愈22.5。",
+            "创建空瓶。",
+            "此物品的治愈等同15%生命上限。"
+          ]
+        }
+      ],
+      "recommendedSelectedDetail": {
+        "title": "生命药剂",
+        "copy": [
+          "恢复22.5生命",
+          "剩余3次",
+          "治愈量为生命上限的15%"
+        ],
+        "action": "使用物品"
+      },
+      "warning": "3 is uses/durability, not bottle count. Do not draw three potions or a charge bar."
+    }
+  },
+  "sourceItems": [
+    {
+      "row": "旧剑",
+      "source": {
+        "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/content/demo/data/数据表_修炼物品_通用.ts",
+        "line": 49
+      },
+      "fixedSkills": [
+        {
+          "DataTable": "CatapultHero/数据表/技能/数据表_技能_修炼物品",
+          "RowName": "造成普伤"
+        }
+      ],
+      "tags": [
+        "有提示",
+        "可交互.修炼牌.武器",
+        "可交互.修炼牌.伤害",
+        "可交互.修炼牌.有充能",
+        "可交互.修炼牌.中型",
+        "可交互.修炼牌.废品"
+      ],
+      "actionPower": 15,
+      "attributes": {
+        "基础伤害": 20,
+        "暴击率%": 0,
+        "暴击伤害%": 2,
+        "生命": -1,
+        "最大生命": -1,
+        "魔力": 100,
+        "最大魔力": 100,
+        "闪避%": 0,
+        "精英伤害%": 0,
+        "格挡%": 0,
+        "伤害减免%": 0,
+        "治愈效果%": 0,
+        "质量": 100,
+        "价格": 2,
+        "额外生命%": 0,
+        "额外伤害%": 0,
+        "加速冷却%": 0,
+        "强固效果%": 0,
+        "弹射距离": 500,
+        "经验": 0,
+        "投射伤害%": 0,
+        "持续伤害%": 0,
+        "治愈": 0,
+        "护甲": 0,
+        "连击": 1,
+        "溢价": 0,
+        "攻击距离": 120,
+        "投射分裂": 0,
+        "疲劳减伤%": 0,
+        "持续减免%": 0,
+        "消耗减免%": 0,
+        "格挡减伤%": 0.15000000000000002,
+        "易伤倍率%": 0.1,
+        "元素伤害%": 0
+      },
+      "sourceSprite": "CatapultHero/精灵片/装备/中型/物品_中型_Sprite_0"
+    },
+    {
+      "row": "生命药剂",
+      "source": {
+        "file": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/content/demo/data/数据表_修炼物品_通用.ts",
+        "line": 38
+      },
+      "fixedSkills": [
+        {
+          "DataTable": "CatapultHero/数据表/技能/数据表_技能_修炼物品",
+          "RowName": "使用恢复生命"
+        },
+        {
+          "DataTable": "CatapultHero/数据表/技能/数据表_技能_修炼物品",
+          "RowName": "生成空瓶"
+        },
+        {
+          "DataTable": "CatapultHero/数据表/技能/数据表_技能_修炼物品",
+          "RowName": "治愈等于生命上限"
+        }
+      ],
+      "tags": [
+        "有提示",
+        "可交互.修炼牌.小型",
+        "可交互.修炼牌.治疗",
+        "可交互.修炼牌.不需解锁"
+      ],
+      "actionPower": 10,
+      "attributes": {
+        "基础伤害": 1,
+        "暴击率%": 0,
+        "暴击伤害%": 2,
+        "生命": 3,
+        "最大生命": 3,
+        "魔力": 100,
+        "最大魔力": 100,
+        "闪避%": 0,
+        "精英伤害%": 0,
+        "格挡%": 0,
+        "伤害减免%": 0,
+        "治愈效果%": 0,
+        "质量": 100,
+        "价格": 2,
+        "额外生命%": 0,
+        "额外伤害%": 0,
+        "加速冷却%": 0,
+        "强固效果%": 0,
+        "弹射距离": 500,
+        "经验": 0,
+        "投射伤害%": 0,
+        "持续伤害%": 0,
+        "治愈": 0,
+        "护甲": 0,
+        "连击": 1,
+        "溢价": 0,
+        "攻击距离": 120,
+        "投射分裂": 0,
+        "疲劳减伤%": 0,
+        "持续减免%": 0,
+        "消耗减免%": 0,
+        "格挡减伤%": 0.15000000000000002,
+        "易伤倍率%": 0.1,
+        "元素伤害%": 0
+      },
+      "sourceSprite": "CatapultHero/精灵片/装备/小型/物品_小型_Sprite_43"
+    }
+  ],
+  "visualEvidence": {
+    "currentScene": "D:/TAPTAPGAME_rebound_20261027/outputs/mobile-shrine-sample-20261027/角色页.png",
+    "actualPotion": "D:/TAPTAPGAME_rebound_20261027/outputs/mobile-shrine-sample-20261027/背包物品页.png",
+    "heroPortrait": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/skin/knight-portrait.png",
+    "proceduralItemSource": "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/procgen/icons/items.ts",
+    "rule": "For style edits, preserve identities and relative room geometry; scale/pan composition uniformly without adding mobs, doors, pickups or arena tiles."
+  },
+  "excludedPriorConcepts": {
+    "source": "D:/TAPTAPGAME_rebound_20261027/outputs/ui-mobile-v6-20x9-20261027/generation/prompt-base.json",
+    "issues": [
+      "2x5 true-square grids were illustrative new layout proposals, not current inventory logic",
+      "Horizontal sword, shield, duplicate potion and relic content in earlier concepts do not represent this fixture",
+      "命中率— should be omitted; no active hit-chance stat exists",
+      "Earlier150/150 HP and0/150XP do not match this approved live sample fixture"
+    ],
+    "previousExplicitCapacityDisclaimer": "D:/TAPTAPGAME_rebound_20261027/outputs/ui-mobile-v7-cult-gothic-20261027/brief.json capacity=Five rows illustrative; no game capacity change"
+  },
+  "openIssues": [
+    {
+      "id": "global-stats",
+      "detail": "Seven global modifiers missing due inherited calculation-type mismatch;33 readable attributes are available. Do not invent zero-valued replacements."
+    },
+    {
+      "id": "enemy-reskin-final-name",
+      "detail": "roster.ts declares enemy mapping as SPEC-GAP until G3. Preserve current red wickling model; do not invent a final display name."
+    },
+    {
+      "id": "bag-description-cache",
+      "detail": "Raw core tooltip for potion may still say治愈0; live badges.heal and model correction give22.5. Use model/live heal, not stale tooltip."
+    }
+  ],
+  "proposals": [
+    {
+      "id": "fuller-without-fabrication",
+      "description": "Use the single real potion as a larger selected card plus real details; use the real sword as a larger illustration inside its actual two-row span. Fullness should come from scale, readable typography and scene framing, not added inventory."
+    }
+  ],
+  "needs": []
+}

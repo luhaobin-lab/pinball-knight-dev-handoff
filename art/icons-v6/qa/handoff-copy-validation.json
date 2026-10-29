@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "copiedArtBinaryFilesMatched": 934,
+  "changedOrMissingArtFiles": [],
+  "counts": {
+    "mothers": 308,
+    "pixels/128": 308,
+    "pixels/256": 308,
+    "atlas": 7
+  },
+  "motherBytes": 498562878,
+  "sensitiveMetadataFindings": [],
+  "generationJobProvenanceRetained": 305,
+  "approvedAnchorsWithInheritedOrigin": 3,
+  "noNewArtGeneration": true,
+  "originalSourceDirectoryModified": false,
+  "browserScreenshotsViewed": [
+    "qa/browser-desktop.png",
+    "qa/browser-mobile.png"
+  ],
+  "scope": "Copied binary art, portable paths, metadata cleanup; prior artwork preserved."
+}

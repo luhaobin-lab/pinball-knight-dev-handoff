@@ -1,0 +1,95 @@
+{
+  "id": "I081",
+  "name": "追风短剑",
+  "status": "generated-normalized",
+  "source": "mothers/I081.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I081.png",
+  "motherSha256": "69c49df6e24ef8fd257e28a398c4f1105c1c3654ceaf2fefa647fccc97bea5aa",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I081.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4736,
+      "sha256": "4a0c9236eb7efb97a1c119d6ba6380e6add57ae0bf53ae9c070c7b7d05db8223",
+      "pixelSha256": "29e6981ef53abda1efb33df3067f5a96d8466ed55b3bb004c81f41f6e4d60eab",
+      "alphaBounds": [
+        5,
+        4,
+        122,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          41,
+          10,
+          1222,
+          1223
+        ],
+        "fitSize": [
+          117,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.0989282769991756
+      }
+    },
+    "256": {
+      "file": "pixels/256/I081.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 16151,
+      "sha256": "d24e402dfc0b5d55762b95e3b315b8e35e7336b76d0b157b8a9993328b5b6f52",
+      "pixelSha256": "b9617e0bf0483519941cf42e2a32455996116a976fb4d8a20727c2c4cfd5f8ce",
+      "alphaBounds": [
+        12,
+        8,
+        245,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          41,
+          10,
+          1222,
+          1223
+        ],
+        "fitSize": [
+          234,
+          240
+        ],
+        "position": [
+          11,
+          8
+        ],
+        "scale": 0.1978565539983512
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "完整单把追风短剑，风轨辅助，无裁切"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-c608692e-7f11-42e0-8856-4726990f50c1.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-c608692e-7f11-42e0-8856-4726990f50c1"
+  }
+}

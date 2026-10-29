@@ -1,0 +1,185 @@
+[
+  {
+    "name": "01_战斗_GOTHIC_CULT",
+    "input": {
+      "prompt": "Use case: ui-mockup. ONE COMPLETE finished 3200x1440, 20:9 mobile landscape game screenshot. The requested visual direction is DARK GOTHIC + OCCULT CULT HORROR, with Darkest Dungeon as the dominant art reference. This is a deliberate new art direction, not a recolor of a luminous blue fantasy UI.\nYou must generate the ENTIRE finished picture: the complete interface design, composition, Chinese typography, tabs, item icons, panels, buttons, character art and environment. No later UI overlay is planned. Deliver something with the authored identity and quality of a premium Steam indie game, not a wireframe, stock fantasy template, website dashboard or separate background.\nREFERENCES: Images 1, 2 and 3 are actual Darkest Dungeon screenshots, respectively combat, provision merchant and character information. They are the dominant visual style references: coarse black contour, deep ink shadow masses, angular hand-rendered hatching, carved/cut silhouettes, severe sacred architecture, dry bone accents, psychologically uncomfortable characters, controlled detail and spacious black GUI surfaces. Absorb their art direction but create original characters, symbols, architecture and UI for our game. Do not copy their words, game systems, currency, party or exact proprietary assets. Image 4 is OUR actual bare battle scene, authority for our oblique battle, knight identity, three red-robed enemies and room structure; it is not the UI style reference.\nTHE STYLE IS GOTHIC. THE MOOD IS CULT. A fallen monastery that has become an obscure sect's sanctuary: oppressive pointed arches, heavy stone, iron reliquary work, weathered devotional reliefs, ash-dusted linen, torn liturgical banners, dripped wax, one original unsettling cult sigil. Ritual objects and a few candles imply worship gone wrong. The horror comes from severe shape, silence, shadow, ritual hierarchy and uneasy human expression—not from gore, random skull piles or dozens of pentagrams.\nPALETTE AND MARK-MAKING: broad carbon-black/charcoal masses, aged parchment and bone, iron-grey, dried oxblood red, tiny dull brass and occasional restrained desaturated sick-green item accents. Deep shadows should be almost ink-flat, with selective hard-edged reflected candle light. No dominant electric blue/cyan, purple neon, brilliant gold, magic-shop glow, glossy metal bevels, bloom, lens flares, saturated jewel effects or decorative symmetry. UI and illustration must share a tactile, slightly irregular, deliberate hand-authored quality. Make it rich through composition and sculpted shadow, not through indiscriminate filigree.\nRetain a deliberate PIXEL-ART game finish: crisp clustered pixel shapes and readable small sprites; interpret the rough Darkest Dungeon drawing into a pixel-compatible visual language. Neither photorealism nor generic 3D render. Don't turn the scene into a soft oil painting. Type should be beautifully designed and sharply legible in Chinese, with a severe gothic editorial character in titles and calm readable body text. No English slogans or fake microtext.\nMOBILE: large finger-friendly important actions, bold clear selected state, generously readable key information. Design proportions freely within our functional relationships. Sparse meaningful art marks around selected elements, broad clean reading surfaces, muted empty slots. Do not shrink everything to fit a PC dashboard.\nFUNCTION: three global tabs “装备栏位 / 英雄属性 / 装备图鉴”. Left equipped build; central scene or task; distinct right backpack exactly two base cells wide extending vertically. Actual equipped items each occupy ONE merged full-width block spanning the two cells, with no middle vertical seam. Empty rows may show the two underlying cells. The three equipped items in vertical order: “凝血毒剂” (green vial), “灵魂香菇” (pale sick-green mushroom), “淬毒利刃” (silver dagger, muted brass hilt). Generate detailed but sharply readable ORIGINAL icons in this occult ink-and-pixel language. No cute toy icons or glossy jewels. Only the dagger shows an EMPTY charge strip “0 / 100”. Do not invent flavor text for the equipment cards; the names and images are sufficient.\nTop status only: “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Health is full muted crimson, stamina full desaturated green/steel-teal, corruption track EMPTY at zero. A single original ritual medallion can anchor this status area. No invented mini-map, capacity counts, combat commands, extra resources or duplicated navigation.\nNo new mechanics, no crafting/enchanting/forging services, no extra global tabs, no game logo/title, no PC/controller hints, no phone frame. All words are rendered by the image model as part of the finished art.\n\nSCREEN 1: FULL COMBAT HUD, equipment tab selected.\nHonor reference4's exact oblique battle identity, the recognizable room footprint and terrain, the white/bone-and-brass helmeted knight and THREE red-robed enemies. Keep all four actors visible. Do not turn this into Darkest Dungeon's four-heroes side-view lineup or a platformer. The existing world may be relit and stylistically interpreted with dark ink, ash-stone and ominous ritual candlelight while retaining its geometry and subjects.\nThe central combat space must dominate and remain readable. Reimagine the surrounding interface as spare, severe relic cases and charcoal inventory ledgers with tasteful worn bone/copper ruling and an oxblood selected accent, avoiding bulky gothic furniture covering the action. Give the three equipment icons unmistakable crafted silhouettes; right backpack is empty. The frame/world can suggest an abandoned sect crypt through a few hanging seal-ribbons and iron votive shapes at the edges, never fake extra interactive tools.\nLocation label “遗迹”; concise bottom instruction “按住瞄准 · 松手弹射”. Read-only equipment while combat is active. NO sell/reorder/upgrade buttons. Make it visually arresting, restrained and ominous. A high-end original game screenshot whose Gothic cult identity is visible in the SHAPES and SHADOWS as much as its palette.",
+      "images": [
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_战斗与黑墨分区.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_商人与补给面板.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_角色属性页.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/目标游戏_真实战斗无UI.png"
+      ],
+      "modelVersion": "gpt-image-2.5-sunburst",
+      "size": "3200x1440",
+      "n": 1,
+      "quality": "max",
+      "action": "modal"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2b31498d303820bdcb26f\") 统一轮询任务结果。"
+        }
+      ],
+      "structuredContent": {
+        "capabilityId": "image.gpt",
+        "execution": "message.create",
+        "jobId": "6ae2b31498d303820bdcb26f",
+        "raw": {
+          "id": "6ae2b31498d303820bdcb26f",
+          "object_id": "6ae2b31498d303820bdcb26f",
+          "title": "生成图片",
+          "content": {
+            "status": "pending",
+            "error": null,
+            "extra": null,
+            "buttons": null,
+            "favorites": [],
+            "progress": null,
+            "final_prompt": null,
+            "images": [],
+            "image_names": [],
+            "layer_decomposition": null,
+            "videos": [],
+            "audios": [],
+            "model_files": null
+          },
+          "role": "cli",
+          "createTime": "2026-10-29T10:44:36.628000+08:00",
+          "updateTime": "2026-10-29T10:44:36.711000+08:00",
+          "isFavorite": false,
+          "modelType": "GPT",
+          "messageType": "image",
+          "action": "modal",
+          "modelFormat": {
+            "version": "gpt-image-2.5-sunburst"
+          },
+          "spendTimeSeconds": null
+        }
+      }
+    }
+  },
+  {
+    "name": "04_营地_GOTHIC_CULT",
+    "input": {
+      "prompt": "Use case: ui-mockup. ONE COMPLETE finished 3200x1440, 20:9 mobile landscape game screenshot. The requested visual direction is DARK GOTHIC + OCCULT CULT HORROR, with Darkest Dungeon as the dominant art reference. This is a deliberate new art direction, not a recolor of a luminous blue fantasy UI.\nYou must generate the ENTIRE finished picture: the complete interface design, composition, Chinese typography, tabs, item icons, panels, buttons, character art and environment. No later UI overlay is planned. Deliver something with the authored identity and quality of a premium Steam indie game, not a wireframe, stock fantasy template, website dashboard or separate background.\nREFERENCES: Images 1, 2 and 3 are actual Darkest Dungeon screenshots, respectively combat, provision merchant and character information. They are the dominant visual style references: coarse black contour, deep ink shadow masses, angular hand-rendered hatching, carved/cut silhouettes, severe sacred architecture, dry bone accents, psychologically uncomfortable characters, controlled detail and spacious black GUI surfaces. Absorb their art direction but create original characters, symbols, architecture and UI for our game. Do not copy their words, game systems, currency, party or exact proprietary assets. Image 4 is OUR actual bare battle scene, authority for our oblique battle, knight identity, three red-robed enemies and room structure; it is not the UI style reference.\nTHE STYLE IS GOTHIC. THE MOOD IS CULT. A fallen monastery that has become an obscure sect's sanctuary: oppressive pointed arches, heavy stone, iron reliquary work, weathered devotional reliefs, ash-dusted linen, torn liturgical banners, dripped wax, one original unsettling cult sigil. Ritual objects and a few candles imply worship gone wrong. The horror comes from severe shape, silence, shadow, ritual hierarchy and uneasy human expression—not from gore, random skull piles or dozens of pentagrams.\nPALETTE AND MARK-MAKING: broad carbon-black/charcoal masses, aged parchment and bone, iron-grey, dried oxblood red, tiny dull brass and occasional restrained desaturated sick-green item accents. Deep shadows should be almost ink-flat, with selective hard-edged reflected candle light. No dominant electric blue/cyan, purple neon, brilliant gold, magic-shop glow, glossy metal bevels, bloom, lens flares, saturated jewel effects or decorative symmetry. UI and illustration must share a tactile, slightly irregular, deliberate hand-authored quality. Make it rich through composition and sculpted shadow, not through indiscriminate filigree.\nRetain a deliberate PIXEL-ART game finish: crisp clustered pixel shapes and readable small sprites; interpret the rough Darkest Dungeon drawing into a pixel-compatible visual language. Neither photorealism nor generic 3D render. Don't turn the scene into a soft oil painting. Type should be beautifully designed and sharply legible in Chinese, with a severe gothic editorial character in titles and calm readable body text. No English slogans or fake microtext.\nMOBILE: large finger-friendly important actions, bold clear selected state, generously readable key information. Design proportions freely within our functional relationships. Sparse meaningful art marks around selected elements, broad clean reading surfaces, muted empty slots. Do not shrink everything to fit a PC dashboard.\nFUNCTION: three global tabs “装备栏位 / 英雄属性 / 装备图鉴”. Left equipped build; central scene or task; distinct right backpack exactly two base cells wide extending vertically. Actual equipped items each occupy ONE merged full-width block spanning the two cells, with no middle vertical seam. Empty rows may show the two underlying cells. The three equipped items in vertical order: “凝血毒剂” (green vial), “灵魂香菇” (pale sick-green mushroom), “淬毒利刃” (silver dagger, muted brass hilt). Generate detailed but sharply readable ORIGINAL icons in this occult ink-and-pixel language. No cute toy icons or glossy jewels. Only the dagger shows an EMPTY charge strip “0 / 100”. Do not invent flavor text for the equipment cards; the names and images are sufficient.\nTop status only: “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Health is full muted crimson, stamina full desaturated green/steel-teal, corruption track EMPTY at zero. A single original ritual medallion can anchor this status area. No invented mini-map, capacity counts, combat commands, extra resources or duplicated navigation.\nNo new mechanics, no crafting/enchanting/forging services, no extra global tabs, no game logo/title, no PC/controller hints, no phone frame. All words are rendered by the image model as part of the finished art.\n\nSCREEN 2: FULL BEFORE-EXPEDITION CAMP, equipment tab selected.\nCreate an ORIGINAL sect sanctuary rather than a bright heroic cathedral. A towering narrow pointed arch recedes into solid black; one worn stone relief depicts a faceless veiled saint with an unnatural empty halo; tattered oxblood ceremonial cloth and wax-dripped iron candlesticks frame an asymmetrical center. The small white/bone-and-brass knight from reference4 waits below the ritual architecture. No giant blue window, sunbeam, glowing magical portal or welcoming royal hall. Lit areas are dry bone/ochre planes carved out of black; very deliberate hand-ink/pixel shading.\nThe interface must be fully designed into this composition, not pasted as uniform rectangles. Keep the left equipped build and right empty two-cell backpack. The central chest is an iron-bound reliquary with a clear large “保险箱” interaction; the memorial/ritual lectern has “天赋培养”. These are the same existing functions, not new worship mechanics. Religious-looking seals are art, never extra resource icons.\nA concise title “出发前准备”. A readable three-layer selection: “第1层 · 已通关”, “第2层 · 已选择”, “第3层 · 未解锁”. No branching route map, extra layers or invented rewards. A single large main button “进入第2层”, shaped and lettered like a deliberate severe game control, using oxblood and bone with restrained hand-cut detail.\nBalance rich Gothic spectacle with strong mobile usability. Cult, austerity, dread and ritual, without busy ornamental overload. The ENTIRE final UI must be generated with the scene and visual identity.",
+      "images": [
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_战斗与黑墨分区.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_商人与补给面板.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_角色属性页.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/目标游戏_真实战斗无UI.png"
+      ],
+      "modelVersion": "gpt-image-2.5-sunburst",
+      "size": "3200x1440",
+      "n": 1,
+      "quality": "max",
+      "action": "modal"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2b31898d303820bdcb271\") 统一轮询任务结果。"
+        }
+      ],
+      "structuredContent": {
+        "capabilityId": "image.gpt",
+        "execution": "message.create",
+        "jobId": "6ae2b31898d303820bdcb271",
+        "raw": {
+          "id": "6ae2b31898d303820bdcb271",
+          "object_id": "6ae2b31898d303820bdcb271",
+          "title": "生成图片",
+          "content": {
+            "status": "pending",
+            "error": null,
+            "extra": null,
+            "buttons": null,
+            "favorites": [],
+            "progress": null,
+            "final_prompt": null,
+            "images": [],
+            "image_names": [],
+            "layer_decomposition": null,
+            "videos": [],
+            "audios": [],
+            "model_files": null
+          },
+          "role": "cli",
+          "createTime": "2026-10-29T10:44:40.382000+08:00",
+          "updateTime": "2026-10-29T10:44:40.415000+08:00",
+          "isFavorite": false,
+          "modelType": "GPT",
+          "messageType": "image",
+          "action": "modal",
+          "modelFormat": {
+            "version": "gpt-image-2.5-sunburst"
+          },
+          "spendTimeSeconds": null
+        }
+      }
+    }
+  },
+  {
+    "name": "09_商店_GOTHIC_CULT",
+    "input": {
+      "prompt": "Use case: ui-mockup. ONE COMPLETE finished 3200x1440, 20:9 mobile landscape game screenshot. The requested visual direction is DARK GOTHIC + OCCULT CULT HORROR, with Darkest Dungeon as the dominant art reference. This is a deliberate new art direction, not a recolor of a luminous blue fantasy UI.\nYou must generate the ENTIRE finished picture: the complete interface design, composition, Chinese typography, tabs, item icons, panels, buttons, character art and environment. No later UI overlay is planned. Deliver something with the authored identity and quality of a premium Steam indie game, not a wireframe, stock fantasy template, website dashboard or separate background.\nREFERENCES: Images 1, 2 and 3 are actual Darkest Dungeon screenshots, respectively combat, provision merchant and character information. They are the dominant visual style references: coarse black contour, deep ink shadow masses, angular hand-rendered hatching, carved/cut silhouettes, severe sacred architecture, dry bone accents, psychologically uncomfortable characters, controlled detail and spacious black GUI surfaces. Absorb their art direction but create original characters, symbols, architecture and UI for our game. Do not copy their words, game systems, currency, party or exact proprietary assets. Image 4 is OUR actual bare battle scene, authority for our oblique battle, knight identity, three red-robed enemies and room structure; it is not the UI style reference.\nTHE STYLE IS GOTHIC. THE MOOD IS CULT. A fallen monastery that has become an obscure sect's sanctuary: oppressive pointed arches, heavy stone, iron reliquary work, weathered devotional reliefs, ash-dusted linen, torn liturgical banners, dripped wax, one original unsettling cult sigil. Ritual objects and a few candles imply worship gone wrong. The horror comes from severe shape, silence, shadow, ritual hierarchy and uneasy human expression—not from gore, random skull piles or dozens of pentagrams.\nPALETTE AND MARK-MAKING: broad carbon-black/charcoal masses, aged parchment and bone, iron-grey, dried oxblood red, tiny dull brass and occasional restrained desaturated sick-green item accents. Deep shadows should be almost ink-flat, with selective hard-edged reflected candle light. No dominant electric blue/cyan, purple neon, brilliant gold, magic-shop glow, glossy metal bevels, bloom, lens flares, saturated jewel effects or decorative symmetry. UI and illustration must share a tactile, slightly irregular, deliberate hand-authored quality. Make it rich through composition and sculpted shadow, not through indiscriminate filigree.\nRetain a deliberate PIXEL-ART game finish: crisp clustered pixel shapes and readable small sprites; interpret the rough Darkest Dungeon drawing into a pixel-compatible visual language. Neither photorealism nor generic 3D render. Don't turn the scene into a soft oil painting. Type should be beautifully designed and sharply legible in Chinese, with a severe gothic editorial character in titles and calm readable body text. No English slogans or fake microtext.\nMOBILE: large finger-friendly important actions, bold clear selected state, generously readable key information. Design proportions freely within our functional relationships. Sparse meaningful art marks around selected elements, broad clean reading surfaces, muted empty slots. Do not shrink everything to fit a PC dashboard.\nFUNCTION: three global tabs “装备栏位 / 英雄属性 / 装备图鉴”. Left equipped build; central scene or task; distinct right backpack exactly two base cells wide extending vertically. Actual equipped items each occupy ONE merged full-width block spanning the two cells, with no middle vertical seam. Empty rows may show the two underlying cells. The three equipped items in vertical order: “凝血毒剂” (green vial), “灵魂香菇” (pale sick-green mushroom), “淬毒利刃” (silver dagger, muted brass hilt). Generate detailed but sharply readable ORIGINAL icons in this occult ink-and-pixel language. No cute toy icons or glossy jewels. Only the dagger shows an EMPTY charge strip “0 / 100”. Do not invent flavor text for the equipment cards; the names and images are sufficient.\nTop status only: “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Health is full muted crimson, stamina full desaturated green/steel-teal, corruption track EMPTY at zero. A single original ritual medallion can anchor this status area. No invented mini-map, capacity counts, combat commands, extra resources or duplicated navigation.\nNo new mechanics, no crafting/enchanting/forging services, no extra global tabs, no game logo/title, no PC/controller hints, no phone frame. All words are rendered by the image model as part of the finished art.\n\nSCREEN 3: FULL MERCHANT PURCHASE MENU, a major task surface.\nAn ORIGINAL unsettling itinerant reliquary merchant inhabits a dim monastery stall. A long gaunt face half lost in black under an irregular charcoal hood, parchment-like hands, a wine-red stole, a sealed ledger and a single pale candle suggest a secretive cult intermediary. Do not copy the Darkest Dungeon merchant or the Dead Cells Collector. No cute glowing yellow eyes, cheerful magician, bright blue hood or generic RPG shopkeeper. His severe angular silhouette should feel hand-inked and pixel-finished.\nKeep the left equipped three-item build and the empty two-cell backpack on the right. The central shop must be LARGE, filling most usable center height and width; integrate the merchant as a supporting silhouette without reducing the merchandise and explanation to a tiny tooltip. Use broad near-black surfaces, worn bone text, spare iron lines and blood-red/wax-seal selection. Commodity icons feel like relics/catalogued specimens, crisp and readable, not jewel-shop treasure.\nTitle “行商”; local tabs “购买 / 出售”, purchase selected. Merchant stock includes 淬毒利刃, 凝血毒剂, 灵魂香菇. Select the merchant's bronze 淬毒利刃, distinct from the already-equipped dagger. A prominent detail image and “淬毒利刃”, “青铜”, plus these three LARGE readable lines, all visible:\n“充能后，下3次攻击造成15剧毒伤害。”\n“剧毒持续3回合 · 会心几率30%”\n“每8次剧毒伤害，施加1层易伤。”\nOne strong “购买所选装备” action and quieter “离开商店”. Exact price is unspecified; omit numerical price. Do not print developer notes such as 暂无报价/待核对, and do not invent cost, discounts, stock count or a completed transaction. Gold remains4 and backpack stays empty.\nThis is polished original Gothic cult game art with a fully designed UI, not a dark CSS website, not a fantasy poster and not the previous glowing blue/gold interpretation. Let black mass, rigid ritual hierarchy, bone lettering, thin carved metal and red wax express the CULT sensibility across the whole image.",
+      "images": [
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_战斗与黑墨分区.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_商人与补给面板.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/DD_角色属性页.jpg",
+        "archive/ui-history/Sunburst_GOTHIC_CULT04/参考原图/目标游戏_真实战斗无UI.png"
+      ],
+      "modelVersion": "gpt-image-2.5-sunburst",
+      "size": "3200x1440",
+      "n": 1,
+      "quality": "max",
+      "action": "modal"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2b31c87ada5af0ddcac05\") 统一轮询任务结果。"
+        }
+      ],
+      "structuredContent": {
+        "capabilityId": "image.gpt",
+        "execution": "message.create",
+        "jobId": "6ae2b31c87ada5af0ddcac05",
+        "raw": {
+          "id": "6ae2b31c87ada5af0ddcac05",
+          "object_id": "6ae2b31c87ada5af0ddcac05",
+          "title": "生成图片",
+          "content": {
+            "status": "pending",
+            "error": null,
+            "extra": null,
+            "buttons": null,
+            "favorites": [],
+            "progress": null,
+            "final_prompt": null,
+            "images": [],
+            "image_names": [],
+            "layer_decomposition": null,
+            "videos": [],
+            "audios": [],
+            "model_files": null
+          },
+          "role": "cli",
+          "createTime": "2026-10-29T10:44:44.233000+08:00",
+          "updateTime": "2026-10-29T10:44:44.266000+08:00",
+          "isFavorite": false,
+          "modelType": "GPT",
+          "messageType": "image",
+          "action": "modal",
+          "modelFormat": {
+            "version": "gpt-image-2.5-sunburst"
+          },
+          "spendTimeSeconds": null
+        }
+      }
+    }
+  }
+]

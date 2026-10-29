@@ -1,0 +1,86 @@
+{
+  "id": "I021",
+  "name": "黑洞法杖",
+  "status": "generated-normalized",
+  "source": "mothers/I021.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I021.png",
+  "motherSha256": "2b0b310f5cc99cecb2e78b08c72ac289cd1f8dd385edce36e7dde09e311bbfaa",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I021.png",
+      "width": 128,
+      "height": 192,
+      "colors": 63,
+      "bytes": 5391,
+      "sha256": "88b7eeef3e314f25e94fb6cad5412c3ecb412d37c2a0429ae9200d81c869e591",
+      "pixelSha256": "559c413762427e29d0e87700e0eb2566cd48c21900f552504127f2a977335811",
+      "alphaBounds": [
+        13,
+        4,
+        114,
+        187
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          122,
+          17,
+          966,
+          1525
+        ],
+        "fitSize": [
+          103,
+          184
+        ],
+        "position": [
+          12,
+          4
+        ],
+        "scale": 0.1220159151193634
+      }
+    },
+    "256": {
+      "file": "pixels/256/I021.png",
+      "width": 256,
+      "height": 384,
+      "colors": 95,
+      "bytes": 19633,
+      "sha256": "fd81bb2f99a1a4ea438b86a78ac5b72be4b1d3ae6ed024e80c552adac973d2df",
+      "pixelSha256": "dfd09861681c15e7cb2e51106bfce5c660c3659d2e181e1a137defd9e45e0198",
+      "alphaBounds": [
+        26,
+        8,
+        230,
+        375
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          122,
+          17,
+          966,
+          1525
+        ],
+        "fitSize": [
+          206,
+          368
+        ],
+        "position": [
+          25,
+          8
+        ],
+        "scale": 0.2440318302387268
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; correct complete single subject and clean normalized silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-b352848f-d1be-4233-b151-c75406bc189f.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b352848f-d1be-4233-b151-c75406bc189f"
+  }
+}

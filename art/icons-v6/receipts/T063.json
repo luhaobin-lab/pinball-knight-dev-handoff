@@ -1,0 +1,86 @@
+{
+  "id": "T063",
+  "name": "大臂弯",
+  "status": "generated-normalized",
+  "source": "mothers/T063.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T063.png",
+  "motherSha256": "15a6223f935c8a713cba3d1f3edb30170f603615377c2916352d936037c55650",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T063.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4546,
+      "sha256": "5aa6d5a2c7a03fd2ed1b10a9334a392e1b0b3590804bd1ea28834ec3f59ee6d1",
+      "pixelSha256": "3c46a155140c1675322683a8254458319501e6726548d47aa6bad0db28cc2a1c",
+      "alphaBounds": [
+        4,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          19,
+          15,
+          1244,
+          1244
+        ],
+        "fitSize": [
+          120,
+          120
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.09764035801464606
+      }
+    },
+    "256": {
+      "file": "pixels/256/T063.png",
+      "width": 256,
+      "height": 256,
+      "colors": 95,
+      "bytes": 16323,
+      "sha256": "7a081865a8c7968780e66b394b1aa6d06c806b9e58225eac75d236085927c417",
+      "pixelSha256": "2d4ce2e20c0cd84fe98051c4286f846b21c86cde6ead0eb8342106ae953ec09c",
+      "alphaBounds": [
+        8,
+        8,
+        246,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          19,
+          15,
+          1244,
+          1244
+        ],
+        "fitSize": [
+          239,
+          240
+        ],
+        "position": [
+          8,
+          8
+        ],
+        "scale": 0.19528071602929212
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-5624cbc2-9fce-4175-a11e-8dfb9c2a2b80.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-5624cbc2-9fce-4175-a11e-8dfb9c2a2b80"
+  }
+}

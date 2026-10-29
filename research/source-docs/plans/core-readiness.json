@@ -1,0 +1,266 @@
+{
+  "status": "read-only-planning-audit-complete",
+  "target": {
+    "scope": "Readiness and dependency plan for minimal procedural two-column equipment testroom; no runtime implementation",
+    "sourceCommit": "a14ffb1c043950b308dcf20b27f0eddfbe9adbb0",
+    "sources": [
+      "src/core/sys/inventory/",
+      "src/game/input.ts",
+      "src/core/math/stats.ts",
+      "src/core/sys/damage/",
+      "src/core/sys/charge/",
+      "src/core/api/",
+      "tests/core-inventory/",
+      "tests/parity-items*/"
+    ],
+    "acceptance": [
+      "Identify actual reusable mechanisms and real missing adapters",
+      "No fake two-column layout over one-dimensional core",
+      "Source item dimensions and stat ownership preserved",
+      "Plan ties every claimed mechanic to observable simulation evidence"
+    ],
+    "golden": "User now requests earlier OPUS minimal Ink & Bone dot/line/plane UI; prior SUNBURST/sliced shrine appearance rejected",
+    "forbidden": [
+      "Runtime/source edits",
+      "Builds/new dependencies/paid generation",
+      "Treating declareddebugoptions as working features",
+      "Inventingaccuracy/protectionformulas"
+    ]
+  },
+  "reusable": [
+    {
+      "feature": "Real inventory equip/unequip/use pipeline",
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts:435",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts:621"
+      ],
+      "detail": "item.move calls grab/space/drop/equip hooks and rejected drop restoration; item.use invokes actual source ability and durability handling. These should be extended/reused,not rebuilt asUI-only list edits."
+    },
+    {
+      "feature": "Input and tooltips",
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/game/input.ts:20",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/game/input.ts:95",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/game/bind/inventory.ts:19"
+      ],
+      "detail": "InputMapper already differentiates click,0.35s draghold,item.move,aimrelease and menus; live card.tooltip,quality,charge/durability available. UIlayout/hitareas stillold; newmobilegesture capture adapter needed."
+    },
+    {
+      "feature": "Actual damage/crit/heal/armor/charge",
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/damage/outgoing.ts:20",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/damage/outgoing.ts:90",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/damage/incoming.ts:25",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/damage/heal.ts:15",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/charge/charge.ts:24"
+      ],
+      "detail": "Code reads real statmaps and mutates actorHP/armor/charge; sourcecritusesPRD andexplicit0/100%paths; heal/shield cancrit; equipped charge-tagged cards alone receive bounce charge."
+    },
+    {
+      "feature": "Existing tests and exactsourcecontent",
+      "evidence": [
+        "tests/core-inventory/{grid,flows,positions,ability-world}.test.ts",
+        "tests/core-launch-sys/charge.test.ts",
+        "tests/core-math/sci-stats-params.test.ts",
+        "tests/parity-items*/",
+        "tests/core-talents/"
+      ],
+      "detail": "Existing narrowtests show intendedbehaviors andprovidefixturepatterns; no tests run bythisreadonlyaudit,so do not claimallcurrentlypassing or fullintegratedcoverage."
+    },
+    {
+      "feature": "Existing renderer/hero/room shell",
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/game/loop.ts",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/mobile-shrine/main.ts"
+      ],
+      "detail": "Reuse existing rollout/ricochet/roomeffects and alternateHUD hooks plusresize/inputfixes. New minimalUI neednot reverttechnicalfixes orload rejectedPNGskin."
+    }
+  ],
+  "criticalGaps": [
+    {
+      "id": "grid-2d",
+      "priority": 1,
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/grid.ts:2",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/grid.ts:66",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts:387",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts:440",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts:634",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/positions.ts:47"
+      ],
+      "facts": [
+        "Grid occupancy attaches cards along one localxaxis",
+        "cardView emits size[1,c.尺寸] andcol0",
+        "moveItem ignores to.col; legal onlypermitscol0",
+        "adjacency probesonlyabove/below"
+      ],
+      "required": "Implement explicit row/col placement andoccupancy validation for2equipmentcolumns; update legal,view,position/neighbortests andsorting. Do notmerely splitexisting1Dlistvisually."
+    },
+    {
+      "id": "item-size-orientation",
+      "priority": 1,
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts:406",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/api/commands.ts:6"
+      ],
+      "facts": [
+        "Sourceitemsare1,2or3unitcells tall",
+        "APIformat is[width,height],currently[1,size]",
+        "No rotatecommandexists"
+      ],
+      "required": "Use original1x1/1x2/1x3 sizes forselectedsourceitems. User2x1 is illustrative,notproofswordshouldrotate. Explicitlynamewidth xheight; no newrotation unlessadoptedasnewrule."
+    },
+    {
+      "id": "combat-edit-gate",
+      "priority": 1,
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts:435",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/inventory/index.ts:443"
+      ],
+      "facts": [
+        "canRearrange is !背包关闭了",
+        "Normal combat rejectsitem.move"
+      ],
+      "required": "Testroom needs deterministic Prepare(allowededit)->Fire(lockededit)->Prepare state orscopeddebugoverride. Keepnormalgamegate intact; no dragduringlaunch/abilityresolution."
+    },
+    {
+      "id": "global-stat-enum",
+      "priority": 1,
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/run/index.ts:177",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/math/stats.ts:9",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/math/stats.ts:40"
+      ],
+      "facts": [
+        "runinitialization usesnumeric计算类型0",
+        "aggregatoronlyacceptsstrings加算/乘算",
+        "seveninitialglobalstatreadsreturnfoundfalse"
+      ],
+      "keys": [
+        "经验修正%",
+        "品质提升修正%",
+        "额外精英几率%",
+        "材料掉落修正%",
+        "刷新费用修正",
+        "刷新次数修正",
+        "幸运增益%"
+      ],
+      "required": "Normalizeinitializationtovalidcanonicaltypeandtestactualconsumers; neverfillUIzeroswithoutfixingcalculation."
+    },
+    {
+      "id": "debug-api",
+      "priority": 1,
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/api/types.ts:12",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/api/commands.ts:11",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/api/game.ts:133"
+      ],
+      "facts": [
+        "GameDebugOptions declaresforceItems/forceTalents/forceEnemies,butsearchfindsonlytypes/runnerforwarding,no consumer",
+        "PublicCommandhasnosspawn/stat/talenteditcommands"
+      ],
+      "required": "AddisolatedLabCommandadapterthatvalidatesandrecordsPmenuactionsandinvokesexistingcorecreation/stat/talentmethods. UInevermutatesdisplaystringsasstate. Keepfixtureephemeral; no productionplayer-savewrites."
+    },
+    {
+      "id": "stat-ownership-and-legacy",
+      "priority": 1,
+      "evidence": [
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/damage/outgoing.ts:20",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/kernel/actor.ts:122",
+        "D:/TAPTAPGAME_rebound_20261027/worktrees/mobile-shrine-sample/src/core/sys/kernel/lib.ts:146"
+      ],
+      "facts": [
+        "Itemstatsfeeditemabilities; theydonotallautomaticallyaddtohero",
+        "Currentattackhit isaboolresult; no independent命中率or法抗statreadwasfoundin*.ts core/contentBPsearch",
+        "Corestatmodificationmusttrigger属性被修改后 torefreshmaxHP/effects"
+      ],
+      "required": "Buildattributeledgerwithsourcevariable,owner,consumer,effect,units,testcase. Showcurrentresources separatelyfrombasestats; inactivelegacyfields markednotused. Do notinventaccuracycalculationjusttoaddaline."
+    },
+    {
+      "id": "observability",
+      "priority": 2,
+      "detail": "Existingevents/popups/logscanbedrained,butworkbenchneedsperitemactivationtrace linkingitemID,eventtime,chargebefore/after,targets,actualdamage/heal/armor/dot,neighborinjections. Animationmustfollowthistrace,neverstandinforit."
+    }
+  ],
+  "proposedSpatialContract": {
+    "status": "newgameproposal,inplanforuserreview",
+    "equipmentColumns": 2,
+    "backpackColumns": 1,
+    "rowCount": "Unresolveddesignparameter;declaretestcapacityexplicitlyandscroll/reservoirasneeded;24catalogitemsneednotallbeequippedorsimultaneouslyfit",
+    "genericNeighbor": "Sharededge adjacency in2D; excludesdiagonal,deduplicatesmulticellitems",
+    "directionalNeighbor": "上/下wordedsourceeffectskeptdirectional;normalizeUIrowdirectionagainstlegacypositive-x=up",
+    "tieBreak": "Specify deterministiccross-column top/bottomorder beforeimplementation",
+    "rotation": "Noautomaticrotationforfirstpass;preservesourcedimensions",
+    "dropRule": "Validatebounds,locks,overlapbeforecommit;cancel/invaliddroprestoresoriginalstate;donotfireequiptriggersfromvisualghostmotion"
+  },
+  "attributeCoveragePlan": [
+    {
+      "family": "Health andresources",
+      "evidence": "currentHP,maxHP,armor,staminaandcorruptionreadactualcoreview",
+      "test": "Change maxHP via debug source stat,recompute,confirmmaxHP andpercentheal change; restoreoriginalsame-seedstate"
+    },
+    {
+      "family": "Attack/crit/multipliers",
+      "evidence": "damage/outgoing.ts",
+      "test": "Fixedtargetandseed,controlled0%vs100%crit; basedamageA/B; confirmdamageeventsandactualtargetHP delta,notonlylabels"
+    },
+    {
+      "family": "Healing andarmor",
+      "evidence": "damage/heal.ts,incoming.ts",
+      "test": "Potion15%maxHP:150->22.5 and300->45 beforecrit; generatedarmor andincomingdamage allocation comparedagainstactualsourceequations"
+    },
+    {
+      "family": "Charge andactivation",
+      "evidence": "charge/charge.ts",
+      "test": "Uncharged15actionpowercard gets15pereligiblebounce at0%bonus,30at100%; crossing100callsactualability;unequipstopsfuturecharge/activation"
+    },
+    {
+      "family": "Position/tags/conditions",
+      "evidence": "inventory/positions.ts,ability/lib.ts,itemBPclasses",
+      "test": "Sameitemsadjacentvsseparated; rightneighborresponds exactlyonce,no diagonal;moveoutrestoresbaseline;labels alonearenotevidence"
+    },
+    {
+      "family": "Growth/economy/global",
+      "evidence": "run/index.tsandconsumers",
+      "test": "SeparatelabscenariosforXP/drop/refresh/quality;notallshouldaffectdirectcombatdamage;sevenenumissuefixedbeforeclaim"
+    },
+    {
+      "family": "Inactive or absentfields",
+      "evidence": "R2definitions+actualconsumersearch",
+      "test": "Showcoverage status; absentaccuracyisexplained,notinvented. Existinglegacy闪避%/格挡%are notcurrentstackprobabilities"
+    }
+  ],
+  "parallelImplementationSuggestion": {
+    "rootIntegrator": "Ownentry/labmode/APIcontracts,definegrid/view/LabCommandcontractfirst,keepfinalreviewandbrowseracceptance",
+    "workerA": "HUD/tabs/itemdetails/dragghost/animationinnewprototypeUIpaths; consumeagreedtypedmodelonly",
+    "workerB": "Core2Dgrid,adjacency,droptransactions,combat-editgateandglobalstatinitialization; owncoretests",
+    "workerC": "24-itemcatalogue/sourcecapsule,scenario presets/Pcommands/activationtraceandcausalitycases; coordinatecorecontractwithroot",
+    "order": [
+      "0-10minfreezetypes,actualdimensionsandprepare/firestate; source24eligibilitygate",
+      "10-65minparallelUI/grid/contentlab",
+      "65-95minintegrateandrealdrag/equip/launch/synergyloops",
+      "95-120minfixblockedpaths,runselectedcore+browsercases,captureplayablepackandgaps"
+    ],
+    "feasibility": "Twohoursisreasonabletimeboxforreusingmechanismsandboundedtestroom,notguaranteefullnew2Dsemantics+everypossibleattribute/all24effectvariants. A failedcorecase staysblocking; neverclaim24implementedjustbecause24iconsrender. Ifscopeoverrun,delivertheworkingverifiedsubsetandexplicitpendingitemsratherthanfakecompletion."
+  },
+  "acceptanceCases": [
+    "Clickvsdragownership;pointercancelandoutside-dropreturn;UIgesturecannotlaunch",
+    "1x1/1x2/1x3fits,traces,lockedcellsandcrosscolumnindependence",
+    "Equip->abilityregistered/active;unequip->removed;no duplicatebuffafterrepeatedmove",
+    "Realbounce->charge->ability->targetHP/armor/statuschanges;peritemtraceandvisualeffectagree",
+    "Atleastonesourceprovensynergyforeachselectedgroup viaactualcomposition",
+    "AttributeA/Bexperimentswhileholdingseed,target,equipmentconstant",
+    "InvalidUIreadsneverconsumeRNGormutateworld;resetrestoresknownbaseline"
+  ],
+  "proposals": [
+    "Usephase-gatedtestroomwith24-itemcatalogandpresetsinstead oftryingtofit24itemsintocurrentbagatonce",
+    "Treatnewhorizontaladjacencyasexplicitnewdesigncontractwhilekeepingitemnumericformulas",
+    "MakePtoolavailablethroughsmallonscreenbuttonforphoneaswellasPkey"
+  ],
+  "needs": [
+    "Parentmustpresentnewspatialandtestroomrulesasproposalbeforeimplementation",
+    "Full24sourceitemmanifestfromequipmentaudit",
+    "Aconcreteprototypeplanapprovalbeforechangingruntimeunderlatestuserinstruction"
+  ],
+  "validation": "Read-onlysourceinspection; noimplementationedits, builds or testruns inthisaudit."
+}

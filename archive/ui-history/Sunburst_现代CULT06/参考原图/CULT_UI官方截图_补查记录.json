@@ -1,0 +1,104 @@
+{
+  "checked_on": "2026-10-29",
+  "goal": "最多5分钟补查1-2张第一方官方、带真实HUD或物品菜单的公开静态截图",
+  "result": "在本轮限定范围内未找到合格图片；未新增UI参考截图。",
+  "sources_queried": [
+    {
+      "game": "The Last Faith",
+      "official_announcements": "https://steamcommunity.com/app/1274600/announcements/",
+      "metadata": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=1274600&count=100&maxlength=0&feeds=steam_community_announcements",
+      "news_items_returned": 25
+    },
+    {
+      "game": "Blasphemous 2",
+      "official_announcements": "https://steamcommunity.com/app/2114740/announcements/",
+      "metadata": "https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=2114740&count=100&maxlength=0&feeds=steam_community_announcements",
+      "news_items_returned": 41
+    }
+  ],
+  "visually_reviewed_static_images": [
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/38029017/f41465d5b6254a1da3a401b86922c33b1b0d3a82.png",
+      "article_title": "Beta Sign-Ups Now Open!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5129083846346905128",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/38029017/503de471d5dfbc62e080eddc3311cf6a1b2faf7a.png",
+      "article_title": "Beta Sign-Ups Now Open!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5129083846346905128",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/38029017/3b8a632501c55a9191652f2ad696a406f92e7e95.png",
+      "article_title": "Beta Sign-Ups Now Open!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5129083846346905128",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/38029017/06486ecbbca0d47954db56c97ce05f093de7299f.png",
+      "article_title": "Beta Sign-Ups Now Open!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/5129083846346905128",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/38029017/bc9df991ebdc42e668291aa737d9b17225bbbe0b.jpg",
+      "article_title": "Dev Updates - Spring 2023",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6539831519507638099",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/38029017/65ccf5091c9031d1f660fa1f7b4489b0ba3d624d.png",
+      "article_title": "Dev Updates - Spring 2023",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/6539831519507638099",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/43984560/0a648e04d666d0773a37c3098649880706f55207.jpg",
+      "article_title": "Blasphemous II: The Third Sin is OUT NOW!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721194629",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/43984560/d7fe7bc1b5e1f65c5d446c709060299c8a3db8c4.png",
+      "article_title": "Blasphemous II: The Third Sin is OUT NOW!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721194629",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/43984560/7e3d22d3fc5da4d8683b52acae2958fd0679aaf4.png",
+      "article_title": "Blasphemous II: The Third Sin is OUT NOW!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721194629",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/43984560/9d208c815b606c2b7648360f1f19f4a706db8a35.png",
+      "article_title": "Blasphemous II: The Third Sin is OUT NOW!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721194629",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    },
+    {
+      "image_url": "https://clan.akamai.steamstatic.com/images/43984560/b945922d1e24c35ced46b0aa1069b966823b5cc7.png",
+      "article_title": "Blasphemous II: The Third Sin is OUT NOW!",
+      "source_page_url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721194629",
+      "contains_hud_or_item_menu": false,
+      "selection_decision": "不符合带真实HUD或物品菜单的要求"
+    }
+  ],
+  "notes": [
+    "目视核对11张官方公告静态图，内容为无HUD游戏场景、过场、角色对比或宣传图。",
+    "搜索结果中存在玩家讨论帖的UI截图，但它们并非第一方官方发布，因此未纳入。",
+    "未下载完整视频，未生成替代图片。",
+    "这个结果只说明本轮限时检索未找到，不代表官方从未发布过UI截图。"
+  ]
+}

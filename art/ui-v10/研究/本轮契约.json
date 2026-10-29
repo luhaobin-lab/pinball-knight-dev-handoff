@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-29",
+  "userDirection": "第九轮方向认可，继续对照风暴怕死队整体画面、以官方截图垫图减少AI僵硬味，再交付全套12图。",
+  "referenceGame": "风暴怕死队 / Pass the Fear",
+  "source": "https://store.steampowered.com/app/3561220/?l=schinese",
+  "canvas": [
+    3200,
+    1440
+  ],
+  "model": "gpt-image-2.5-sunburst",
+  "layoutAuthority": "第九轮12张已认可页面",
+  "renderingChanges": [
+    "统一物品与场景的平涂墨线",
+    "收敛连续亮金倒角",
+    "深色属性内页",
+    "较清楚正文与数值",
+    "商人自然手势"
+  ],
+  "fixedContent": [
+    "装备栏位/英雄属性/装备图鉴",
+    "生命180/180、体力100/100、腐化0/100空、金币4",
+    "整宽单列卡槽及锁定态",
+    "青铜15/1与当前30/2/+20%区分",
+    "存入香菇与待售毒剂归属"
+  ],
+  "prices": "购买2、出售1，用户授权的视觉示意，最终数值待定",
+  "verificationBoundary": "静态图片、文件完整性、浏览页交互；非手机实机、非游戏运行、非真人盲测",
+  "previousBatch": "Sunburst_风暴怕死队09",
+  "deliveryStatus": "12张整图+集中审核页+原图ZIP已完成",
+  "safeInventory": {
+    "authority": "用户本轮明确修正",
+    "layout": "可一直向下浏览的多物品保险箱栏位，类似背包整宽卡槽；列表与详情分区",
+    "visible": "多行槽位、部分续行、竖向滚动条，选中物品的详情与取出按钮固定",
+    "content": "目前仅已核验的一件香菇4；不编造新存入物品或容量数字",
+    "supersedes": "此前单物品大宝箱展示页"
+  },
+  "validationBoundary": "仅静态内容、缩览、文件和图库交互核对；未进行真人盲测与手机实机验证"
+}

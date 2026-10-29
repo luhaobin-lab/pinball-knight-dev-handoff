@@ -1,0 +1,211 @@
+[
+  {
+    "id": "I067",
+    "name": "汲取之果",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "饰品",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "饰品"
+    ],
+    "description": "完成充能时：\n对英雄造成10伤害。\n每当失去10%生命，相邻物品灌注10。",
+    "charge": "12.0",
+    "recycle": "2",
+    "recipe": "旧皮衣 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "fruit",
+      "motif": "汲血垂果",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I068",
+    "name": "混沌大剑",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "武器",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "武器",
+      "中型"
+    ],
+    "description": "完成充能时：\n下3次攻击额外造成10伤害。\n对英雄造成15伤害。\n每当受到治愈，增加10伤害，直到战斗结束。",
+    "charge": "16.0",
+    "recycle": "2",
+    "recipe": "旧剑 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "sword",
+      "motif": "混沌撕裂大剑",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I069",
+    "name": "猩红壁垒",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "工具",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "工具",
+      "中型"
+    ],
+    "description": "完成充能时：\n治愈20。\n获得1层格挡。\n每当失去10%生命，增加10%生命上限，直到战斗结束。",
+    "charge": "10.0",
+    "recycle": "2",
+    "recipe": "旧盾 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "shield",
+      "motif": "猩红壁垒塔盾",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I070",
+    "name": "鲜血教母",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "饰品",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "饰品",
+      "中型"
+    ],
+    "description": "完成充能时：\n治愈10。\n每当失去10%生命，增加10英雄基础伤害，直到战斗结束。\n此物品的治愈等同伤害。",
+    "charge": "10.0",
+    "recycle": "2",
+    "recipe": "淬炼宝石 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "idol",
+      "motif": "鲜血教母圣像",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I071",
+    "name": "月光蕨",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "工具",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "工具"
+    ],
+    "description": "每通过0/6层，获得1个蕨叶。",
+    "charge": "",
+    "recycle": "2",
+    "recipe": "旧鞋 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "plant",
+      "motif": "月光双卷蕨",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I072",
+    "name": "蕨叶",
+    "category": "装备物品",
+    "subtype": "小型",
+    "kind": "其他物品",
+    "size": "小型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "小型"
+    ],
+    "description": "分解后上方相邻物品增加5治愈。\n分解后增加5点生命上限。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "未在本次提示框中显示",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "plant",
+      "motif": "单片月光蕨叶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 1
+    },
+    "canvas": {
+      "width": 128,
+      "height": 64
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  }
+]

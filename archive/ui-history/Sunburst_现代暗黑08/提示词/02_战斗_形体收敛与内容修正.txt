@@ -1,0 +1,22 @@
+Edit Image1 into a more forceful contemporary graphic-horror game screen. Keep its adult characters, newly designed equipment and approved UI geometry. Image2 is the ORIGINAL gameplay-content reference only: use it to restore the objects listed below at their exact locations. Image3 is a study of shaped blacks and angular painted forms, never a source of characters or layouts. Output3200x1440, native fine HD-pixel artwork.
+
+FIRST RESTORE GAME CONTENT:
+Remove the newly added white magic circle beneath the knight; the floor there is plain stone.
+Remove the newly added treasure chest at the lower-left room edge.
+Restore Image2's pale cyan spiral floor marker at its original left-of-center location and exact scale. Restore its two large radial circular objects at their original left and right locations, with the same recognizable round ribbed silhouettes. Retain their subdued teal identity so they remain recognizable; draw them as severe worn radial structures, not decorative shrine sculptures. Preserve the original vases, obstacle positions, room footprint and walkable lanes. Add no interactable, actor, magic effect or gameplay symbol.
+
+THEN REPLACE THE REPEATED GOTHIC DECORATION WITH STRONG ART SHAPES:
+Remove all the new hooded shrine statues and their repeated spiked halos. Keep those existing plinth footprints as quiet dark stone forms.
+Remove the blood splashes and drips from the floor, stone, weapon and room borders; the dagger may have one small dull green poison stain near the guard.
+Remove most extra chains, dense candle piles and dripping wax. Keep only three sparse light sites in existing positions: the upper-left room edge as the strongest, upper-right platform and lower-left edge much dimmer. One existing hanging chain is enough. Reduce roots to a few directional masses.
+Keep the upper-wall limestone face fragment, but erase its eyes, nose and mouth into ONE smooth worn ivory plane cut by one deep narrow black fissure. It is an inert architectural carving. This single unsettling original motif carries the scene; do not multiply it.
+Keep the oblique pool of light, rendered as one severe wedge with crisp fine pixel edges. Merge non-focal walls into large connected blacks. Many floor joints should vanish into shadow while the room footprint remains readable. Avoid evenly exposing every brick and every prop.
+
+SHAPE LANGUAGE:
+The knight remains ivory armor with a brass crest, but strengthen a heavy shoulder shape, narrow lowered visor and braced posture. Exactly THREE red cultists remain, same positions: high narrow hoods, tense angular folds, faces mostly lost in black. No grins. Their differences come from slight pose and shoulder angles, not extra accessories.
+Rebuild equipment light/shadow into decisive angled planes and coherent fine-pixel clusters. Keep green vial, single pale mushroom, silver dagger at their existing sizes and tilts. Retain their unusual silhouettes but use fewer stronger internal shapes; avoid soft product-painting gradients and etched microdetail.
+UI panels remain in their EXACT bounds. Their surfaces are almost-flat charcoal with sparse bone-gray edge cuts. Remove stacked metallic bevel ridges, random bright chips and ornamental corner hardware. Clean narrow functional lines, powerful dark voids, precise typography. No parchment, woodgrain, giant gothic fonts or vintage-RPG decoration.
+
+Preserve ALL exact visible text and data: 装备栏位 / 英雄属性 / 装备图鉴; 战斗装备; 背包; 遗迹; 生命180/180,体力100/100,腐化0/100 EMPTY,金币4; vial8/1, mushroom4 only, dagger30/2 and EMPTY0/100 with one purple enchantment mark; 按住瞄准 · 松手弹射. Same ONE-COLUMN full-width equipment and empty backpack card lanes, bottom locks. No text changes or additions.
+
+The result must feel authored, tense and bold through silhouette and black/ivory/red composition. Fine native pixels everywhere, no chunky stair-step outer edges, low-resolution retro filter, gore clutter, added noise, fog or bokeh. Do not brighten every boundary. One complete finished screenshot.

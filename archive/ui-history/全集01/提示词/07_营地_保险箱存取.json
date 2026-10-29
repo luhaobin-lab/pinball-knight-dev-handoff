@@ -1,0 +1,80 @@
+{
+  "artifact": "Sunburst generation prompt only",
+  "requestedModel": "gpt-image-2.5-sunburst",
+  "size": "3200x1440",
+  "ratio": "20:9",
+  "references": {
+    "Image1": "生成的战斗主稿：面板字体物品规模权威",
+    "Image2": "生成的营地主稿：场景和共享组件",
+    "Image3": "暗黑地牢商店参考：仅氛围，无功能授权"
+  },
+  "sourceConstraints": "archive/ui-history/全集01/最新设计约束.json",
+  "sourceMasterPrompt": "archive/ui-history/全集01/提示词/01_战斗_装备栏位.txt",
+  "contentSamples": "archive/ui-history/批次01/真实内容样本.json",
+  "contentSampleSha256": "30b193adb81e0c2582846d86f5e6d93b40cb11b25e7e36e53215ca04ef0fe29d",
+  "sharedTopSample": {
+    "hp": "180/180",
+    "stamina": "100/100",
+    "corruption": "0/100",
+    "gold": 4
+  },
+  "sharedTopScope": "视觉样例的操作前状态，不代表新初始经济或实际存档",
+  "geometry": {
+    "screen": [
+      3200,
+      1440
+    ],
+    "safeMargin": 32,
+    "topStatus": [
+      32,
+      32,
+      3136,
+      112
+    ],
+    "left": [
+      32,
+      176,
+      480,
+      1232
+    ],
+    "center": [
+      544,
+      176,
+      2112,
+      1232
+    ],
+    "right": [
+      2688,
+      176,
+      480,
+      1232
+    ],
+    "baseCell": 180,
+    "fullWidthItem": 360,
+    "tabsHeight": 64
+  },
+  "screen": "营地保险箱存取",
+  "sampleState": "灵魂香菇从装备移入保险箱；左原位置空；背包空；当前选中保险箱香菇待取出",
+  "rules": [
+    "保险箱内物品死亡不会丢失",
+    "取出到背包",
+    "无选中背包物品时存入不可用"
+  ],
+  "samplePointers": [
+    "/items/1/currentBattleSample/description"
+  ],
+  "unknownNumbers": [
+    "保险箱容量",
+    "扩容费用"
+  ],
+  "clicks": {
+    "safeItem": "选择并查看",
+    "withdraw": "安全转入背包，失败不丢失",
+    "carriedItem": "选择后可存入",
+    "close": "返回营地"
+  },
+  "promptWordCountWhitespace": 864,
+  "promptSha256": "4fb97f9a3de2e5f049cc762a1521a9bdce28bbb03ca33411ad01688a3dacc613",
+  "unknownValueDisplay": "不编写未知数字；省略未定价格行与结果余额；不输出待核对开发说明",
+  "implementationStatus": "视觉候选生成提示词，不表示已实现或通过交互验证"
+}

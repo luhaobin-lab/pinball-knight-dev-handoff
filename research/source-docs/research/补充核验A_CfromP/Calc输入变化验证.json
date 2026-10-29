@@ -1,0 +1,24 @@
+{
+  "engine": "LibreOffice Calc26.8.1 nativeUNO calculateAll",
+  "inputCopy": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\calc-input-change.xlsx",
+  "resultCopy": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\calc-engine-input\\calc-input-change-forced.xlsx",
+  "checks": [
+    {
+      "sheet": "公式验证例",
+      "cell": "F6",
+      "expected": 500,
+      "actual": 500.0,
+      "passed": true
+    },
+    {
+      "sheet": "实体科学属性",
+      "cell": "I6",
+      "expected": 300,
+      "actual": 300.0,
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "deliveredWorkbookModified": false,
+  "note": "Initial simple conversion preserved caches; this test explicitly recalculates through the native engine after changing input cells."
+}

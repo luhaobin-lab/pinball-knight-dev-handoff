@@ -1,0 +1,86 @@
+{
+  "id": "T013",
+  "name": "治愈专精",
+  "status": "generated-normalized",
+  "source": "mothers/T013.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T013.png",
+  "motherSha256": "5e34178eb58281d43f0d319b09b01509bb815a8908b5b496da94b78645dc8c1c",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T013.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6900,
+      "sha256": "1d04f480ceb22e11ab0bd761a005fa4352c90e99ccffd586d1e4b51d38baffe6",
+      "pixelSha256": "4ecf450ce2d97924654930ec3d51c2052b9f2247552c626bc952d5e4949da2c0",
+      "alphaBounds": [
+        4,
+        6,
+        124,
+        122
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          57,
+          70,
+          1220,
+          1191
+        ],
+        "fitSize": [
+          120,
+          116
+        ],
+        "position": [
+          4,
+          6
+        ],
+        "scale": 0.10318142734307825
+      }
+    },
+    "256": {
+      "file": "pixels/256/T013.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 25205,
+      "sha256": "8175d4607f35477e519fa07e5343bd2c03e5c07f3750f365fb2d0cbc4d0985e3",
+      "pixelSha256": "e8d45ded876c9fe70c58030b1771f9e35a8d472d76742fc8a69a3854db0db8b0",
+      "alphaBounds": [
+        8,
+        12,
+        248,
+        243
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          57,
+          70,
+          1220,
+          1191
+        ],
+        "fitSize": [
+          240,
+          231
+        ],
+        "position": [
+          8,
+          12
+        ],
+        "scale": 0.2063628546861565
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-ac5669d9-8092-4981-b73a-576fee22a6d2.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-ac5669d9-8092-4981-b73a-576fee22a6d2"
+  }
+}

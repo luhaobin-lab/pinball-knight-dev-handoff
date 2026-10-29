@@ -1,0 +1,37 @@
+{
+  "audit_sha256": "7d70970ce41b0dc71d59762559ec39f9e9dd298f7e7a456ce95aee881e653014",
+  "audit_file": "../01_研究与依据/data_inventory.json",
+  "source_workbooks_relative_to_workspace": [
+    "outputs/视频内容研究资料/视频内容研究总表.xlsx",
+    "outputs/视频内容研究资料/原始仓库表格/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+    "outputs/视频内容研究资料/原始仓库表格/Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+    "outputs/视频内容研究资料/原始仓库表格/R3补充B_技能与天赋消费者.xlsx"
+  ],
+  "selected_item_count": 14,
+  "selected_talent_count": 11,
+  "source_item_count_is_not_implemented_count": true,
+  "precedence": [
+    "用户确认规则",
+    "balance.json与模块规则",
+    "原始数据适配清单",
+    "旧源码参考"
+  ],
+  "excluded": [
+    "测试/忽略/派生物未指定入口",
+    "胜利果实精核货币",
+    "任意两件融合",
+    "局内随机天赋选择",
+    "原物品附魔石逻辑",
+    "旧永久神像仓库门槛"
+  ],
+  "local_source_copies": [
+    "../01_研究与依据/原始表格/视频内容研究总表.xlsx",
+    "../01_研究与依据/原始表格/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+    "../01_研究与依据/原始表格/Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+    "../01_研究与依据/原始表格/R3补充B_技能与天赋消费者.xlsx"
+  ],
+  "enchant_catalog": "enchants.json",
+  "enchant_catalog_sha256": "25319b8fb3f4cdb999162c36de0ab945dc142aec3000b6e6f61bc562bd52f6f3",
+  "selected_enchant_count": 50,
+  "enchant_runtime_validation": "all_50_design_enabled; adapters_and_combat_validation_required"
+}

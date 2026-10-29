@@ -1,0 +1,6 @@
+/** Source L6160/L6331/L887: only named kill mission nextday grants p1*roundcount 光阴 up to hero心流层上限, refresh reactivates. */
+import{蓝图_效果}from'../../../../../core/ability/effect.ts';import{蓝图_能力}from'../../../../../core/ability/ability.ts';import{蓝图_效果_精神状态_光阴}from'../玩家/精神状态/蓝图_效果_精神状态_光阴.ts';import{函数库_技能}from'../../../../../core/bp/index.ts';import{make效果配置}from'../../../../../core/bp/structs.ts';import{科学数变普通}from'../../../../../core/math/sci.ts';import{获取科学映射词条}from'../../../../../core/math/stats.ts';import{applyEffect}from'../蓝图_效果_可控弹射.ts';import type{AssetPath,Tag}from'../../../../../core/sim/types.ts';
+export class 蓝图_效果_黄金头盔 extends 蓝图_效果{
+ static override readonly path:AssetPath='CatapultHero/BP/Skill/效果/物品/蓝图_效果_黄金头盔';叠加备份=0;触发计数=1;
+ override 持续中触发(t:Tag):void{const s=this.来自技能,o=s?.拥有者,h=this.world.mode.玩家角色,m=this.world.mode.当前任务实例;if(t!=='效果.时机.新一天时'||!s||!o||!h||!this.world.isValid(h)||h.死掉了||!(m instanceof 蓝图_能力)||m.能力名!=='消灭所有敌人')return;const cls=蓝图_效果_精神状态_光阴.path,cfg=make效果配置({效果类:cls,持续时间:-1,触发间隔:1,持续回合:-1,叠加层数:Math.trunc(this.world.mode.回合开始触发数*函数库_技能.获取技能参数(this,s,1,false,'').参数值),唯一:true,检查效果名:false,叠加上限:Math.trunc(科学数变普通(获取科学映射词条(h.词条,'心流层上限').输出值))});const r=applyEffect(this,{cfg,owner:h,释放者:o,来自技能:s,效果名:函数库_技能.获取效果名(this,s,cls).效果名字,classOf:o});r.effect?.激活效果('');}
+}

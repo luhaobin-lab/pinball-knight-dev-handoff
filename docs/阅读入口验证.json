@@ -1,0 +1,71 @@
+{
+  "pass": true,
+  "uiImages": [
+    {
+      "file": "交付原图/01_战斗_装备栏位.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/02_战斗_英雄属性与天赋.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/03_战斗_装备图鉴.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/04_营地_冒险准备.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/05_营地_天赋解锁.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/06_营地_天赋升级.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/07_营地_保险箱存取.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/08_营地_地牢选择.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/09_商店_购买详情.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/10_商店_出售详情.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/11_战利品_宝箱领取.png",
+      "width": 3200,
+      "height": 1440
+    },
+    {
+      "file": "交付原图/12_战斗_装备详情.png",
+      "width": 3200,
+      "height": 1440
+    }
+  ],
+  "modalOpen": true,
+  "nextTitle": "02 / 12 · 战斗 · 英雄属性与天赋 · 本轮精修",
+  "oldWidth": 1600,
+  "errors": [],
+  "portalLinkCount": 18,
+  "scope": "UI离线图库及新交接入口；非游戏/手机运行验证"
+}

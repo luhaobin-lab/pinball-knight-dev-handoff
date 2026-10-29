@@ -1,0 +1,86 @@
+{
+  "id": "T046",
+  "name": "铜墙铁壁",
+  "status": "generated-normalized",
+  "source": "mothers/T046.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T046.png",
+  "motherSha256": "be67ae3f4d53e8c4ab62525e0506c43c1fbaf4e4a5e4c0970fb085708bdbc87d",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T046.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5681,
+      "sha256": "5aaa65106bb27426853defd5802fa7d9b97748ec10003fb73e54a756fb7551f8",
+      "pixelSha256": "e04bc7aa97c71292598678b21044f9caeb3d5273a36aa67c837fca1fd3402420",
+      "alphaBounds": [
+        4,
+        11,
+        123,
+        116
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          27,
+          111,
+          1243,
+          1176
+        ],
+        "fitSize": [
+          120,
+          105
+        ],
+        "position": [
+          4,
+          11
+        ],
+        "scale": 0.09868421052631579
+      }
+    },
+    "256": {
+      "file": "pixels/256/T046.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21281,
+      "sha256": "f6d0529c78f6b020e638ec0baa57528da0ed4207306805b4fe7cdd2a67b314b6",
+      "pixelSha256": "bb3d33ea1140ae9991bfae9406f41f05277f5a73f51c6dc723e29b96123b83da",
+      "alphaBounds": [
+        8,
+        23,
+        247,
+        233
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          27,
+          111,
+          1243,
+          1176
+        ],
+        "fitSize": [
+          240,
+          210
+        ],
+        "position": [
+          8,
+          23
+        ],
+        "scale": 0.19736842105263158
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-2b79043a-ed77-4000-814a-f508c71a43eb.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-2b79043a-ed77-4000-814a-f508c71a43eb"
+  }
+}

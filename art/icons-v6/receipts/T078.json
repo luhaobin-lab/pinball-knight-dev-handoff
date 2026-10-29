@@ -1,0 +1,93 @@
+{
+  "id": "T078",
+  "name": "守护恩泽",
+  "status": "generated-normalized",
+  "source": "mothers/T078.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T078.png",
+  "motherSha256": "ebb39f66394eae660663d3c5baf9ce560883d0eb8a73bbf9cca0e1108c659f4c",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T078.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 7165,
+      "sha256": "315840a42f844b0e1478c08f60f430f135e8c25e1a81a5bae9fd6671dca63f02",
+      "pixelSha256": "55e82bd9d734146064d94c4ecebeb2ebfba40fb0a8e4b97d4c65caf8e3e4c5c1",
+      "alphaBounds": [
+        6,
+        4,
+        122,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          60,
+          34,
+          1205,
+          1216
+        ],
+        "fitSize": [
+          116,
+          120
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.10152284263959391
+      }
+    },
+    "256": {
+      "file": "pixels/256/T078.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 26513,
+      "sha256": "1be5a38bd6fc63b82f8ea93d5941c107febd6b240580208320bd0214a5af252c",
+      "pixelSha256": "db48703198825c62cc697130df32c100924e0b171b902eac56f728d144bf82fc",
+      "alphaBounds": [
+        12,
+        8,
+        244,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          60,
+          34,
+          1205,
+          1216
+        ],
+        "fitSize": [
+          232,
+          240
+        ],
+        "position": [
+          12,
+          8
+        ],
+        "scale": 0.20304568527918782
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-02.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-02.png",
+    "pixelSha256": "db48703198825c62cc697130df32c100924e0b171b902eac56f728d144bf82fc",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-e7d01fe0-c35d-4245-8dac-85f681e00878.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-e7d01fe0-c35d-4245-8dac-85f681e00878"
+  }
+}

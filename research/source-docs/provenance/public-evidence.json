@@ -1,0 +1,13 @@
+{
+  "kind": "public-derivative",
+  "originalArchiveSha256": "ca232bdbe6e0065fddb461ef6e165bc2ddb7c0f5c84cc9e708f6b0eb15df7319",
+  "excludedPrefix": "source/pak/",
+  "excludedFiles": 4545,
+  "includedFiles": 7176,
+  "retained": "All source/dump decoded records, Blueprints, pseudo-code, config/localization, package inventories, numeric code evidence and independent reviews",
+  "frozenLocalArchiveModified": false,
+  "publicArchive": "D:\\TAPTAPGAME_rebound_20261027\\publish\\github-public-20261028\\release-assets\\abyss-r3-public-research-evidence.zip",
+  "publicBytes": 41402035,
+  "publicSha256": "a36d3434cff6564b37992f2c1ea3dc65693e4bd252a67af9daef920ac15a522f",
+  "allRetainedMemberHashesVerified": true
+}

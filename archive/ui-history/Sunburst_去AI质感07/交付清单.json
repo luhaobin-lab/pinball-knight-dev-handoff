@@ -1,0 +1,60 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "quality": "max",
+  "date": "2026-10-29",
+  "files": [
+    {
+      "file": "archive/ui-history/Sunburst_去AI质感07/交付原图/01_战斗.png",
+      "source": "03_战斗_前景细化.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5693578,
+      "sha256": "ba2ab825594ce0d46e4fd757ca8bf11a376a0123e25bcb888d8fac65c5e983fc",
+      "jobId": "6ae2cb26f5157103dedcc624",
+      "fileId": "6ae2cb84f5157103dedcc63b",
+      "unalteredCopy": true
+    },
+    {
+      "file": "archive/ui-history/Sunburst_去AI质感07/交付原图/04_营地.png",
+      "source": "04_营地_卡框统一.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5176432,
+      "sha256": "cb679e7dbb1d8e5ea4b92afbe88f1069b1559cbd262a51fbca1cd0743342377d",
+      "jobId": "6ae2cb2cf5157103dedcc626",
+      "fileId": "6ae2cc9bf5157103dedcc662",
+      "unalteredCopy": true
+    },
+    {
+      "file": "archive/ui-history/Sunburst_去AI质感07/交付原图/09_商店.png",
+      "source": "09_商店_重绘质感.png",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5372165,
+      "sha256": "b3ed0c8a6321f1ff9c62211fc30dfbb22f1eda34ea7b594de95ba55b63308c59",
+      "jobId": "6ae2ca5d98d303820bdcb4ed",
+      "fileId": "6ae2cbd598d303820bdcb4f8",
+      "unalteredCopy": true
+    }
+  ],
+  "staticContentReview": "页签、资源、装备角标、整宽背包、营地层数与按钮、商店商品效果与按钮已静态目视核对。",
+  "observedChanges": [
+    "收敛连续银亮包边",
+    "地面和植物改为较连贯色块",
+    "移除模糊前景烛光",
+    "修正战斗前景过粗阶梯轮廓",
+    "营地卡框与按钮局部统一"
+  ],
+  "limitations": [
+    "物品与场景的绘制语言仍未完全统一",
+    "生成图不是每像素一致的生产组件",
+    "未进行真机触控和新用户测试",
+    "尚未获用户对第七轮美术的认可"
+  ]
+}

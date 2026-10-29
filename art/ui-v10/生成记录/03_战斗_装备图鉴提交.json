@@ -1,0 +1,59 @@
+{
+  "input": {
+    "prompt": "Create ONE COMPLETE 3200x1440 finished game UI screenshot, in the newly refined PASS THE FEAR / 风暴怕死队 hand-drawn visual system. Repaint the entire screen as one coherent image.\n\nREFERENCE ROLES:\nImage1 = NEW refined master. Use its flatter inked rendering, muted copper/wood, calm blue-violet stone, dark plum card interiors, simpler icon planes and bigger legible resource numbers as the visual-system authority.\nImage2 = THIS PAGE from the previous accepted batch. It is the authority for the page's exact layout, content, texts, numbers, object identities, selection and ownership state. Match all panel boundaries and positions from Image2. Only improve their DRAWING and internal typography; do not copy its old glossy rendering.\nAny further images are official drawing references or an explicitly named companion master; they only reinforce the drawing system, never transfer their gameplay content.\n\nFIXED COMMON GEOMETRY / CONTENT:\nKeep the three hanging-page tabs at their established coordinates: 装备栏位 / 英雄属性 / 装备图鉴. Preserve the selected tab from Image2. Keep large top-right icons with values 生命180/180, 体力100/100, 腐化0/100 with EMPTY bar, 金币4. Match Image1's icon size and number weight; never shrink to fit ornament.\nLeft and right sidebars, if present, keep identical widths, title baselines and four aligned full-width card rows. Normal left is teal vial8/1, pale mushroom4 with no damage badge, silver dagger30/2 with ONE purple enchantment and EMPTY0/100, then a locked row. Normal right is THREE EMPTY ROWS and ONE bottom LOCKED ROW. Ownership exceptions below override only the specified cards. No two-column grids. Wide attribute/codex pages replace left+middle exactly as Image2 does.\nNever place scenery, columns, foreground masonry, frames or decorations over any UI panel. Keep the whole UI foreground frame visible and unobstructed, especially bottom-right backpack corner. No new blank button or fourth item-list row. Retain all existing meaningful scene objects, but no extra props, characters, icons, functions or data.\n\nCOHERENT HAND-DRAWN FINISH:\nDraw like Image1 and the official sources: clean confident black/dark ink silhouettes, controlled thick/thin changes at structural edges, large flat local-color areas with two or three hard value planes, selective fine strokes. Timber uses a few long structural grain strokes; bronze uses muted ochre planes and short dull edge accents. Reduce repetitive nested shiny bevels; not every border shines. Keep dark card interiors visually quiet. Roughness is sparse purposeful line variation, never a grain overlay or random dirt on every edge.\nAll repeated bottle/mushroom/dagger icons match Image1's newly simplified drawing exactly. Green-teal liquid with one reflection, pale cap with limited directional gill strokes, silver blade with a broad face and thin edge. No realistic glass refraction, gem-like polygon facets, microtexture, airbrushed 3D gloss or toy plastic shading.\nBackground scenery keeps the exact footprint and prop positions of Image2, but its internal detail is grouped into broad blue/violet shapes. Background outlines and contrast are subordinate to current items/text. Light stays localized. Do not use a dark filter as a substitute for redrawing, and do not make the screen muddy or all-black.\nPreserve material character and finish quality; do not turn this into a rough sketch or minimalist wireframe.\n\nTYPE AND STATE SYSTEM:\nUse stable compact hand-drawn Chinese display headings only for main titles and tab labels, matching the official tab example. Supporting item names are less heavy; effect prose and prices use clean solid cream/off-white Chinese letterforms without gilded bevel/shadow. Keep exact Chinese wording and numbers. Improve the small prose and top numbers INSIDE their existing rectangles: generally target body text around48-56 source pixels, stronger strokes and comfortable line breaks rather than tiny long lines. Do not move panel boundaries or delete a price/effect to fit.\nGreen corner brackets mark the CURRENT SELECTED item, talent or floor, even if that talent is locked (also retain the padlock and 未解锁). Do not put the same selection brackets on action buttons. All primary actions share one consistent dark warm-brown face, clear thin warm-copper edge and large cream bold lettering; secondary actions have a darker purple-brown face and weaker edge. Avoid multicolor button skins and multiple luminous outlines. Locked slots use the same clear gray closed-padlock as Image1. Read-only state text is readable gray-white, not near-invisible gray.\nOnly use the exact actions and state supplied below. Do not invent numeric talent costs, levels, balances, prerequisites, stock counts, extra floors, keyboard hints, developer explanations or placeholders. The result is a full finished screen, never a contact sheet, mockup with annotations or comparison.\n\nPAGE03 EQUIPMENT CODEX. Third global tab selected; location 遗迹. Keep Image2's wide codex left+middle and separate right backpack. Exactly3 collected list entries 淬毒利刃 / 凝血毒剂 / 灵魂香菇, each 已收集; first selected. Plain quiet empty space below third item, NO extra outlined row. Detail 淬毒利刃, 青铜. Exact3 effects: 充能后：下3次攻击造成15剧毒伤害。 / 剧毒持续3回合 · 会心几率30%。 / 每8次剧毒伤害，施加1层易伤。 One 返回 action. No 30poison/2vulnerability/+20%HP, no sale/buy price or action. Right backpack THREE EMPTY plus BOTTOM LOCKED, lock must stay visible. Redraw dagger as flat inked item matching master but keep bronze catalogue effects. Hide battle aiming instruction.",
+    "images": [
+      "art/ui-v10/原始生成图/01_战斗_装备栏位.png",
+      "archive/ui-v09-approved/交付原图/03_战斗_装备图鉴.png",
+      "art/ui-v10/参考原图/PTF_原生中文TAB与图鉴_官方.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2ef60f5157103dedcca6c\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2ef60f5157103dedcca6c",
+      "raw": {
+        "id": "6ae2ef60f5157103dedcca6c",
+        "object_id": "6ae2ef60f5157103dedcca6c",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T15:01:52.470000+08:00",
+        "updateTime": "2026-10-29T15:01:52.492000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

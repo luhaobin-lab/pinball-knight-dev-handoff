@@ -1,0 +1,95 @@
+{
+  "id": "I120",
+  "name": "魔力石",
+  "status": "generated-normalized",
+  "source": "mothers/I120.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I120.png",
+  "motherSha256": "7bd30bc6917e6e8378c129a979b3b8b96e229df288b53f487177381bbc42b8db",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I120.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2875,
+      "sha256": "9bd9d124f1e03d2eb25f236112231978f8ba7b5bed27c898fbbdb4c91e2bcf40",
+      "pixelSha256": "e086e11d65ecbbfec4d27b417d5e7c285b480137956c106de684d89e10afd7f6",
+      "alphaBounds": [
+        4,
+        7,
+        124,
+        57
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          123,
+          146,
+          1662,
+          791
+        ],
+        "fitSize": [
+          120,
+          50
+        ],
+        "position": [
+          4,
+          7
+        ],
+        "scale": 0.07797270955165692
+      }
+    },
+    "256": {
+      "file": "pixels/256/I120.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10139,
+      "sha256": "cd728d311fec7d719921c789f439bd303f2bb29b46aeb86d86ff7470366f3ad6",
+      "pixelSha256": "097c7be1a921b57e701c0e90be23011e4010b6c35499945e96a7ee19a8f46ea0",
+      "alphaBounds": [
+        8,
+        13,
+        248,
+        114
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          123,
+          146,
+          1662,
+          791
+        ],
+        "fitSize": [
+          240,
+          101
+        ],
+        "position": [
+          8,
+          13
+        ],
+        "scale": 0.15594541910331383
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "单枚晶石、折叠节肢、带眼骨刺异化肉主体可读且完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-a856c301-d350-496c-bc86-e532b54b85d4.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-a856c301-d350-496c-bc86-e532b54b85d4"
+  }
+}

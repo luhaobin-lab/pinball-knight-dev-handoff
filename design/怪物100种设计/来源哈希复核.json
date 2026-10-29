@@ -1,0 +1,26 @@
+{
+  "source_files_rechecked": 5,
+  "all_match": true,
+  "files": [
+    {
+      "path": "battle-scene/src/content/demo/data/数据表_敌人_普通.ts",
+      "match": true
+    },
+    {
+      "path": "地牢搜打撤_GDD_2026-10-29/01_研究与依据/data_inventory.json",
+      "match": true
+    },
+    {
+      "path": "battle-scene/src/core/math/stats.ts",
+      "match": true
+    },
+    {
+      "path": "battle-scene/src/core/sys/damage/incoming.ts",
+      "match": true
+    },
+    {
+      "path": "battle-scene/src/core/sys/damage/heal.ts",
+      "match": true
+    }
+  ]
+}

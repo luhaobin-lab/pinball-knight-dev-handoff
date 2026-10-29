@@ -1,0 +1,7 @@
+PAGE09 MERCHANT PURCHASE, BEFORE TRANSACTION. First global tab selected. Title 行商. Both equipped sidebar and empty backpack remain unchanged. Compact original hooded merchant above the central task; draw him in the same simple black-ink flat-color language as the approved game, not a realistic oil portrait. The merchant is supporting art, leaving generous room for stock and details. Local tabs 购买 / 出售, 购买 selected.
+Central left stock list has THREE clearly separated merchandise cards with exact name and VISIBLE PRICE: 淬毒利刃 — 2金币; 凝血毒剂 — 2金币; 灵魂香菇 — 2金币. The prices are beside the original game's gold coin icon and easy to distinguish from the equipped damage/recycle badges. Select the merchant's BRONZE dagger, distinct from the silver equipped instance.
+Central right large detail: 淬毒利刃, 青铜, matching bronze dagger art. Full effects in clear large text:
+充能后：下3次攻击造成15剧毒伤害。
+剧毒持续3回合 · 会心几率30%
+每8次剧毒伤害，施加1层易伤。
+Below the effects, a clear price row 购买价格 2金币. Main bottom action is 购买 · 2金币, visibly enabled because current top gold is4. Secondary 离开商店. Do not deduct gold or put the item in the backpack yet. No discount, stock count, taxes, sale price or extra currency. These are authorized visual-example prices for this batch; DO NOT print 示例/待定/developer notes inside the image. The current gold4, price2 and enabled purchase state must all agree.

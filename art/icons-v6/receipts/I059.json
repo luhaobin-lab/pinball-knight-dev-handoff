@@ -1,0 +1,86 @@
+{
+  "id": "I059",
+  "name": "肢体袋",
+  "status": "generated-normalized",
+  "source": "mothers/I059.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I059.png",
+  "motherSha256": "2baa3be5325377fc744d4a1c3d62951b6cd411fbb67f7b4eb7be3985ad96d84d",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I059.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 7365,
+      "sha256": "ae3920b1685541b58be75b11c134dc4f9b6733472876dc118aaf310e7777b594",
+      "pixelSha256": "a061afa21d6640dd882603703036fd831564f28650c30237d5da415c7de59783",
+      "alphaBounds": [
+        4,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          60,
+          39,
+          1224,
+          1216
+        ],
+        "fitSize": [
+          119,
+          120
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.10195412064570943
+      }
+    },
+    "256": {
+      "file": "pixels/256/I059.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 27534,
+      "sha256": "bffb17e381daa55d8e7f48bee9cf2d45627719b49c6f931c0dee917ed0b69449",
+      "pixelSha256": "5e3343bd742b029c1b76c6a1debbcbc02ebf531b61815f0595ba12b1325029f0",
+      "alphaBounds": [
+        9,
+        8,
+        246,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          60,
+          39,
+          1224,
+          1216
+        ],
+        "fitSize": [
+          237,
+          240
+        ],
+        "position": [
+          9,
+          8
+        ],
+        "scale": 0.20390824129141885
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; charge axe / stitched limb bag / biological shield fungus correctly distinct and complete",
+  "sourceProvenance": {
+    "sourceFilename": "exec-62290489-2b1f-44b3-8012-c8bda5835147.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-62290489-2b1f-44b3-8012-c8bda5835147"
+  }
+}

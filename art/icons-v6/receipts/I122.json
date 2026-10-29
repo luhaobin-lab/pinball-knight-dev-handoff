@@ -1,0 +1,95 @@
+{
+  "id": "I122",
+  "name": "异化肉",
+  "status": "generated-normalized",
+  "source": "mothers/I122.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I122.png",
+  "motherSha256": "27164944380ae1867f69169e0fca8114ee55dbd07be696a59b621916a2e15bee",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I122.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3292,
+      "sha256": "d17c68d9ff00873ac2cd3351fb8c232b8b292ee1104875d36de31bb5919a97a1",
+      "pixelSha256": "23bcd2351d9ff2eed998becfc900a6267a694b8eb224d04c634fabc763f2e38e",
+      "alphaBounds": [
+        5,
+        4,
+        122,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          87,
+          66,
+          1705,
+          840
+        ],
+        "fitSize": [
+          117,
+          56
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.07235142118863049
+      }
+    },
+    "256": {
+      "file": "pixels/256/I122.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 12216,
+      "sha256": "3c6b6f639983ad8df002cbf27a93d2ba07f0bc82a8a14626f5edd5e704fbd926",
+      "pixelSha256": "f5c4d7cd118fe2580ff479c53fcd524e356510c01bf0806242bcb9b91a6194b0",
+      "alphaBounds": [
+        11,
+        8,
+        245,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          87,
+          66,
+          1705,
+          840
+        ],
+        "fitSize": [
+          234,
+          112
+        ],
+        "position": [
+          11,
+          8
+        ],
+        "scale": 0.14470284237726097
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "单枚晶石、折叠节肢、带眼骨刺异化肉主体可读且完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-22ff0574-64d5-46f9-8efa-36e23043e982.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-22ff0574-64d5-46f9-8efa-36e23043e982"
+  }
+}

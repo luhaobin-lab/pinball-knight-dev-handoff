@@ -1,0 +1,86 @@
+{
+  "id": "I031",
+  "name": "玄岩锤",
+  "status": "generated-normalized",
+  "source": "mothers/I031.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I031.png",
+  "motherSha256": "022508971fceecf0e3f98ba9f27559c130e92eec2fc003b88490cb5e114843cc",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I031.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4705,
+      "sha256": "e96609e164ec9436ecd9c6d2791af16b6708b8c35ac7d0803c5ed2ac19e7e6d9",
+      "pixelSha256": "6dac01a9db44591bb1af6af3d71da970159ec20d17863ef8d84e50b147e3e5cd",
+      "alphaBounds": [
+        5,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          15,
+          1221,
+          1226
+        ],
+        "fitSize": [
+          118,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.0990916597853014
+      }
+    },
+    "256": {
+      "file": "pixels/256/I031.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 17493,
+      "sha256": "52944ce16b4834a2fa73cf25f6f4121756db235d55f04b198a8ef7648bd6c0b4",
+      "pixelSha256": "84a6954c49aced2d5781931bf70af483c4acbb05362495b9e963b956a94f56d1",
+      "alphaBounds": [
+        10,
+        8,
+        245,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          15,
+          1221,
+          1226
+        ],
+        "fitSize": [
+          235,
+          240
+        ],
+        "position": [
+          10,
+          8
+        ],
+        "scale": 0.1981833195706028
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; distinct correct subject, complete contour, clean normalized transparency",
+  "sourceProvenance": {
+    "sourceFilename": "exec-75f29762-5332-4cca-a82d-37726e34f012.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-75f29762-5332-4cca-a82d-37726e34f012"
+  }
+}

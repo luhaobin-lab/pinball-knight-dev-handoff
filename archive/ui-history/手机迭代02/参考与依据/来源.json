@@ -1,0 +1,166 @@
+{
+  "verified_on": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "Touch target size — Android Accessibility Help",
+      "url": "https://support.google.com/accessibility/android/answer/7101858?hl=en",
+      "source_type": "official_guidance",
+      "retrieval": "web open full body",
+      "verified_facts": [
+        "Recommended touch target at least 48x48 dp",
+        "Recommended separation at least 8 dp",
+        "Visible icon and touch target can differ; enlarged targets must not overlap"
+      ]
+    },
+    {
+      "id": "S02",
+      "title": "Playables design best practices — Google for Developers",
+      "url": "https://developers.google.com/youtube/gaming/playables/certification/best_practices_design",
+      "source_type": "official_game_platform_guidance",
+      "retrieval": "web open full body",
+      "verified_facts": [
+        "48x48 dp target with 8 dp spacing",
+        "Differentiate button states and hierarchy",
+        "Small text contrast 4.5:1; larger text contrast 3:1",
+        "Adapt canvas and UI across sizes"
+      ]
+    },
+    {
+      "id": "S03",
+      "title": "Layout — Apple Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/layout",
+      "retrieved_url": "https://developer.apple.com/design/human-interface-guidelines/layout.md",
+      "source_type": "official_guidance",
+      "retrieval": "official markdown using HTTPS curl after HTML linked it",
+      "verified_facts": [
+        "Group and align content by importance",
+        "Use progressive disclosure",
+        "Landscape-only games still need adaptable layouts",
+        "System/hardware safe areas must protect important content and controls"
+      ]
+    },
+    {
+      "id": "S04",
+      "title": "Accessibility — Apple Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/accessibility",
+      "retrieved_url": "https://developer.apple.com/design/human-interface-guidelines/accessibility.md",
+      "source_type": "official_guidance",
+      "retrieval": "official markdown using HTTPS curl",
+      "verified_facts": [
+        "Current iOS/iPadOS control size table: recommended default 44x44 pt; minimum 28x28 pt",
+        "Current iOS/iPadOS text table: default 17 pt; minimum 11 pt"
+      ],
+      "caveat": "These are current source table labels, not a recommendation to use minimum sizes for dense Chinese game UI."
+    },
+    {
+      "id": "S05",
+      "title": "Support different pixel densities — Android Developers",
+      "url": "https://developer.android.com/training/multiscreen/screendensities",
+      "source_type": "official_implementation_guidance",
+      "retrieval": "web open full body",
+      "verified_facts": [
+        "Use density-independent layout units",
+        "Text sp responds to font preferences",
+        "Raster pixels and physical/control sizes are different"
+      ]
+    },
+    {
+      "id": "S06",
+      "title": "Dead Cells — Playdigious App Store listing",
+      "url": "https://apps.apple.com/us/app/dead-cells/id1389752090",
+      "source_type": "first_party_publisher_listing",
+      "retrieval": "web open; developer description paragraph at line 55",
+      "verified_facts": [
+        "Mobile interface redesigned",
+        "Players can change control button position and size"
+      ],
+      "design_inference": "Learn touch-first adaptation; do not import Dead Cells action buttons or combat systems."
+    },
+    {
+      "id": "S06b",
+      "title": "Settings — Dead Cells Help Center",
+      "url": "https://playdigious.helpshift.com/hc/en/7-dead-cells/section/35-settings/?p=android",
+      "source_type": "first_party_support",
+      "retrieval": "web open full body",
+      "verified_facts": [
+        "Settings includes accessibility and Assist mode help"
+      ]
+    },
+    {
+      "id": "S07",
+      "title": "Darkest Dungeon Media — Red Hook Studios",
+      "url": "https://www.darkestdungeon.com/darkest-dungeon/media/",
+      "source_type": "official_media",
+      "retrieval": "web open full body",
+      "verified_facts": [
+        "Official media gallery has screenshot category"
+      ],
+      "caveat": "Specific visual analysis below comes from the preserved official Steam screenshot, not text claims by the studio."
+    },
+    {
+      "id": "S07a",
+      "title": "Darkest Dungeon official provisioning screenshot",
+      "url": "https://store.steampowered.com/app/262060/",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/ss_0513e7921787b61192ac356580f1d4c66a236092.1920x1080.jpg?t=1789168187",
+      "source_type": "official_screenshot",
+      "retrieval": "Existing unmodified local original; visually inspected this turn and SHA-256 freshly computed",
+      "local_path": "archive/ui-history/全集01/参考图/R2_暗黑地牢_商人与物品格.jpg",
+      "bytes": 395558,
+      "sha256": "77b357c3f2119b0a6726c54d9c635ece904191df1affb1be189bb3b5bcf3c70c",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "observations": [
+        "Large dark fields isolate content",
+        "Merchant has a strong silhouette",
+        "Item prices align consistently",
+        "Empty slots are visually quieter than occupied or selected slots"
+      ],
+      "interpretation_boundary": "These observations do not establish mobile usability or a universal aesthetic rule; do not copy original assets or PC density."
+    }
+  ],
+  "retrieval_failures": [
+    {
+      "url": "https://playdigious.com/games/dead-cells/",
+      "result": "Game Not Found",
+      "fallback": "First-party App Store description and Playdigious support used instead"
+    },
+    {
+      "url": "https://developer.apple.com/design/human-interface-guidelines/layout.md",
+      "web_tool_result": "Unsupported content-type text/markdown",
+      "resolution": "Normal HTTPS curl succeeded; no certificate bypass"
+    },
+    {
+      "url": "https://www.gamedeveloper.com/design/porting-i-dead-cells-i-to-mobile-an-in-depth-breakdown",
+      "result": "Initial partial retrieval then repeated timeout",
+      "use": "Not relied on for final recommendations"
+    }
+  ],
+  "project_decisions_not_source_claims": {
+    "logical_canvas": [
+      800,
+      360
+    ],
+    "export_size": [
+      3200,
+      1440
+    ],
+    "export_scale": 4,
+    "logical_target": 48,
+    "logical_gap": 8,
+    "type_scale": [
+      12,
+      14,
+      16,
+      20,
+      24,
+      32
+    ],
+    "body_type": 16,
+    "minimum_touch_assertion": "48 logical CSS units in this prototype; revalidate native dp/pt mapping and any final canvas scale"
+  },
+  "validation_boundary": "Source research and proposed constraints only; no physical device or novice usability validation."
+}

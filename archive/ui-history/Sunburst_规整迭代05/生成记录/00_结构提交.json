@@ -1,0 +1,44 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2b598f5157103dedcc215\") 统一轮询任务结果。"
+    }
+  ],
+  "structuredContent": {
+    "capabilityId": "image.gpt",
+    "execution": "message.create",
+    "jobId": "6ae2b598f5157103dedcc215",
+    "raw": {
+      "id": "6ae2b598f5157103dedcc215",
+      "object_id": "6ae2b598f5157103dedcc215",
+      "title": "生成图片",
+      "content": {
+        "status": "pending",
+        "error": null,
+        "extra": null,
+        "buttons": null,
+        "favorites": [],
+        "progress": null,
+        "final_prompt": null,
+        "images": [],
+        "image_names": [],
+        "layer_decomposition": null,
+        "videos": [],
+        "audios": [],
+        "model_files": null
+      },
+      "role": "cli",
+      "createTime": "2026-10-29T10:55:20.031000+08:00",
+      "updateTime": "2026-10-29T10:55:20.093000+08:00",
+      "isFavorite": false,
+      "modelType": "GPT",
+      "messageType": "image",
+      "action": "modal",
+      "modelFormat": {
+        "version": "gpt-image-2.5-sunburst"
+      },
+      "spendTimeSeconds": null
+    }
+  }
+}

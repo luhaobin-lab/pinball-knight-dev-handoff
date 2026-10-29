@@ -1,0 +1,86 @@
+{
+  "id": "I053",
+  "name": "皮革",
+  "status": "generated-normalized",
+  "source": "mothers/I053.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I053.png",
+  "motherSha256": "684cd0aaf315188bb077c5fc3177a5674fd21d45065cd1759d4e6820b5b0fafd",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I053.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2920,
+      "sha256": "b3fbc94739b05c0e713ac3bfe859269e64da72df00e9d1917d7f05a9292bfd66",
+      "pixelSha256": "58c52c9334ebef145896e35ff32ae8c5a507330e73ab3b88d23c834382c1311c",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        58
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          52,
+          91,
+          1728,
+          835
+        ],
+        "fitSize": [
+          120,
+          53
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.07159904534606205
+      }
+    },
+    "256": {
+      "file": "pixels/256/I053.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10540,
+      "sha256": "1154164d9ec485b828b8bc12a93db0319ac1f12d06e43b0814668f5a6c7e8bb4",
+      "pixelSha256": "7322a976547fcab86774041590961a816486677a2f54df216980e3fbe3dd316a",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        117
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          52,
+          91,
+          1728,
+          835
+        ],
+        "fitSize": [
+          240,
+          107
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.1431980906921241
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; living armor / leather scrap / magic boots remain distinct and complete",
+  "sourceProvenance": {
+    "sourceFilename": "exec-685bebb8-1562-4658-bd22-e4aef03531d9.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-685bebb8-1562-4658-bd22-e4aef03531d9"
+  }
+}

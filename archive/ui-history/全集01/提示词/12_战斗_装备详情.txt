@@ -1,0 +1,23 @@
+Use case: ui-mockup. Produce ONE finished 3200x1440 image, exactly 20:9, showing our pixel-art dungeon game's battle HUD after selecting an equipped item. Straight-on playable-screen composition, not a poster, diagram, webpage, or inventory redesign. All visible text is clear Chinese.
+
+INPUT: Image 1 is the battle master and the authority for the complete room, characters, panel footprints, tabs, fonts, item icons, materials, and lighting. Preserve that screen. Add only the blade's selected state and one compact, fixed item-detail window. Keep almost all of the battlefield visible. Do not enlarge the detail into a full-screen inventory page.
+
+PRESERVE THE SHARED FRAME: retain the top status strip, left equipment pane, and right carried inventory. Top copy remains “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Life and stamina are full; the zero-corruption track is empty. Keep exactly three left tabs: “装备栏位”, “英雄属性”, “装备图鉴”. “装备栏位” remains selected with subtle fill and an underline. Do not open the hero page or codex.
+
+Keep the left equipment order: locked two-row block, empty row with two underlying cells, “凝血毒剂”, “灵魂香菇”, “淬毒利刃”. Each equipped item occupies ONE uninterrupted full-width rectangle spanning both base cells; never draw a vertical divider through an occupied item. Preserve the empty two-column “随身背包” and its scrollbar. Do not restore the deleted narrow tool strip, book, helmet, back-arrow column, or old information icons.
+
+SELECTED STATE: highlight only the existing “淬毒利刃” row using a thin aged-brass border and restrained corner marks. Retain its silver blade and gold hilt. No glowing halo, drag ghost, arrows, or second owned blade. The matching icon inside the detail is another view of this same equipped instance.
+
+DETAIL WINDOW: place one compact opaque charcoal window in the upper-central gameplay region, horizontally centered and fixed rather than following the cursor. Aim for roughly 800x460 pixels around x1200, y176, adjusting minimally to avoid the knight and all three red-hooded enemies. Leave both sidebars, the status strip, and the great majority of the room unobscured. No full-screen darkening. Use one frame, generous text padding, and a small close “×” at its upper-right corner.
+
+Display the exact title “淬毒利刃”, subtitle “品质 2 · 小型”, and state “已装备”. Show “充能 0 / 100” beside an empty charge track. Below, use these exact current-instance descriptions as separate, comfortably wrapped paragraphs:
+“下 3 次攻击将会在3回合内造成 30 剧毒伤害。”
+“每当敌人受到 8 次剧毒伤害，获得 2 层易伤。”
+“提升 20% 生命上限。”
+
+These are the real quality-2 battle-instance values. Do not import the bronze catalogue variant's 15 damage or 1 vulnerability, or add its critical-chance and bounce-charge numbers. The life bonus is an existing effect, not permission to add an enchanting service. Do not invent rarity names, recipes, prices, selling values, or comparison statistics.
+
+This is inspection during combat. Footer: “战斗中仅可查看”. No equip, unequip, move, sell, purchase, upgrade, forge, or enchant button. Closing returns to the unchanged battle view without moving an item or launching the hero.
+
+Match Image 1's crisp pixel edges, matte near-black surfaces, thin oxidized-metal frames, bone-white Chinese font, and restrained brass. Keep text roles consistent and effects legible. No excessive filigree, realistic characters, new enemies, extra currencies, production notes, watermarks, or fabricated interface features.
+

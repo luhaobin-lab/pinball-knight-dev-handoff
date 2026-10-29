@@ -1,0 +1,95 @@
+{
+  "id": "I084",
+  "name": "附魔-吸血",
+  "status": "generated-normalized",
+  "source": "mothers/I084.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I084.png",
+  "motherSha256": "b62499f1c42e005d45036975be0b72f8edfd90ae4b967035a69e5460a609952c",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I084.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2616,
+      "sha256": "3da794a5824b0e096775842c8d6e25ef922219e088e8d0eea1d1f3706bf8093f",
+      "pixelSha256": "841b904d411136b1afa7ec8b5c81cfba524d7007e6db0639c9490dd63fae00de",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          35,
+          67,
+          1745,
+          836
+        ],
+        "fitSize": [
+          120,
+          54
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.07017543859649122
+      }
+    },
+    "256": {
+      "file": "pixels/256/I084.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9189,
+      "sha256": "32975f5497927af3fe5ff29b78c6255b1c14085bd51148c26b82cb397cf84150",
+      "pixelSha256": "68842cdb76260bb3520be6fcd3c9a1d194f7c3de0260f7a85c6b60b67261643f",
+      "alphaBounds": [
+        9,
+        10,
+        248,
+        118
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          35,
+          67,
+          1745,
+          836
+        ],
+        "fitSize": [
+          240,
+          108
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.14035087719298245
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "已目视核对请求主体、完整轮廓与单图标构图，无背景、无文字。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-77c948a1-dd81-42de-9789-92266784de9a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-77c948a1-dd81-42de-9789-92266784de9a"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I086",
+  "name": "附魔-裂伤",
+  "status": "generated-normalized",
+  "source": "mothers/I086.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I086.png",
+  "motherSha256": "953227c4d294239366cea3f1a02968cf0bca566016a2a5a46198c6e17111c07d",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I086.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2756,
+      "sha256": "75dad4ed1174eb7319a806f7900b405d978b78f10b30e9c045cd6a69d420d44d",
+      "pixelSha256": "dcb9700bd6ec357cea1fd2004ad2d36c37de863e22537ce93b37ceb2a1e6e22a",
+      "alphaBounds": [
+        11,
+        4,
+        117,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          140,
+          29,
+          1720,
+          863
+        ],
+        "fitSize": [
+          106,
+          56
+        ],
+        "position": [
+          11,
+          4
+        ],
+        "scale": 0.0671462829736211
+      }
+    },
+    "256": {
+      "file": "pixels/256/I086.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9797,
+      "sha256": "67c88e52cba9c2f8dfb80d0999a81af20edbcf7cb2d3b797dd0f582f430ab18f",
+      "pixelSha256": "f5840169e935c8425be647af1966d9ad1568162b6e9e84781fd57264c7c20d0a",
+      "alphaBounds": [
+        22,
+        8,
+        234,
+        119
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          140,
+          29,
+          1720,
+          863
+        ],
+        "fitSize": [
+          212,
+          112
+        ],
+        "position": [
+          22,
+          8
+        ],
+        "scale": 0.1342925659472422
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "已目视核对附魔刻印主体、完整轮廓与单图标构图，无文字、无裁切。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-92221c1c-62e4-47de-b9ef-aab9bb1e5e5f.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-92221c1c-62e4-47de-b9ef-aab9bb1e5e5f"
+  }
+}

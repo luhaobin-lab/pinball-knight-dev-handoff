@@ -1,0 +1,86 @@
+{
+  "id": "T006",
+  "name": "重力冲刺",
+  "status": "generated-normalized",
+  "source": "mothers/T006.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T006.png",
+  "motherSha256": "fc4e4289eb087b3699f630af41182b753426de84342735cab0a5aa05b27d3c0d",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T006.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6749,
+      "sha256": "f352f0399a50b6dfb33aa325d08745da542743ce38c8dac8be4ad9ace9dc4a7a",
+      "pixelSha256": "06549ce580230a66a41989c0e401f894581db5ecd54c36bf8d4f537e2faceb7b",
+      "alphaBounds": [
+        5,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          48,
+          34,
+          1214,
+          1218
+        ],
+        "fitSize": [
+          118,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.10135135135135136
+      }
+    },
+    "256": {
+      "file": "pixels/256/T006.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 24635,
+      "sha256": "ad263bc81417d2c317de529587deda01b787caf6690d06f0905692d6ecd4c774",
+      "pixelSha256": "da91e65c66defcfacaa7eec61fb28141ec0bd82d1e42de4dc47e056f102d787b",
+      "alphaBounds": [
+        10,
+        8,
+        246,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          48,
+          34,
+          1214,
+          1218
+        ],
+        "fitSize": [
+          236,
+          240
+        ],
+        "position": [
+          10,
+          8
+        ],
+        "scale": 0.20270270270270271
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-4309780f-0da2-4506-ac42-be2c690fab45.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-4309780f-0da2-4506-ac42-be2c690fab45"
+  }
+}

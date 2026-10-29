@@ -1,0 +1,86 @@
+{
+  "id": "I020",
+  "name": "雷云法袍",
+  "status": "generated-normalized",
+  "source": "mothers/I020.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I020.png",
+  "motherSha256": "3ad57882526ced51155f1fd5caf97df45bebb44fff5a02545eec1d6b6ac88cc1",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I020.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 10238,
+      "sha256": "ed1ba5b9f62cea3f29ced0c7e0c7daa60ca99b59ff268781a8334796edddb52b",
+      "pixelSha256": "24499316bcd89a0c95fb53e2c74f63539074b169b4590401e6e1bef732b656b0",
+      "alphaBounds": [
+        4,
+        7,
+        123,
+        184
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          51,
+          76,
+          1002,
+          1478
+        ],
+        "fitSize": [
+          120,
+          177
+        ],
+        "position": [
+          4,
+          7
+        ],
+        "scale": 0.12618296529968454
+      }
+    },
+    "256": {
+      "file": "pixels/256/I020.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 37761,
+      "sha256": "975f439584f48ab83b32a1d39e9e0e4ef49cc7fcaf43caa3b846e8e5fc424426",
+      "pixelSha256": "85390a9c85d2713c99dd83275c9ca56015c6b3cb0504bd99bf185ff2985bc438",
+      "alphaBounds": [
+        9,
+        16,
+        247,
+        368
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          51,
+          76,
+          1002,
+          1478
+        ],
+        "fitSize": [
+          240,
+          354
+        ],
+        "position": [
+          8,
+          15
+        ],
+        "scale": 0.25236593059936907
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and normalized PNG viewed; correct complete single subject; I017 is now contiguous functional bow with continuous taut string",
+  "sourceProvenance": {
+    "sourceFilename": "exec-45019606-4f16-43d0-bd83-8cb73c2235c3.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-45019606-4f16-43d0-bd83-8cb73c2235c3"
+  }
+}

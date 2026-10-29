@@ -1,0 +1,59 @@
+{
+  "input": {
+    "prompt": "Edit the complete game screen in Image2, output ONE finished 3200x1440 image. Image1 is the user's NEW highest-priority EQUIPMENT CARD REFERENCE. Rebuild the LEFT equipment lane to faithfully use this card visual structure. Keep the rest of Image2's geometry, shared header, resource positions, right backpack, central room and four actors unchanged. Image3 is the real room reference, to preserve its architecture and actors.\n\nLEFT LANE CORRECTION:\nThe user wants a contiguous vertical strip of pixel-art item CARDS like Image1. Each card spans the lane's full width, with NO internal vertical split. The item illustration occupies the card itself, not a tiny icon in a boxed thumbnail. REMOVE all the item name labels and horizontal icon+text list layouts from Image2. No permanent descriptive prose inside the equipment cards.\nRead Image1 carefully: strong designed silhouette on a quiet dark inset, a stepped pixel border with restrained metallic rarity color, small badges attached at consistent corners, and small marks integrated in the right edge. The border is part of the slot, not an ornate frame or floating jewel. Preserve this authored, low-color pixel treatment. NO painterly semi-realistic objects, no smooth bottle highlight gradients.\nInside the same existing left panel boundary and below its same “战斗装备” title, stack:\n1. One short full-width card with a large recognizable single corked green vial (凝血毒剂). Red damage badge “8” at upper-right; compact green recycle-value badge “1” at lower-left.\n2. One short full-width card with one large pale mushroom cap and stem (灵魂香菇). Lower-left green recycle-value badge “4”. NO upper-right damage badge, no made-up damage number.\n3. One short full-width card with one large diagonal silver dagger, dark leather grip and small brass crossguard (淬毒利刃). Upper-right damage badge “30”, lower-left green recycle-value badge “2”, ONE small right-edge enchantment diamond. Its empty charge track “0 / 100” is a thin legible inset along the bottom edge, not a name column.\n4. A visibly taller full-width LOCKED SLOT beneath the three short cards, approximately TWO short-card heights. Deep recessed dark surface with a plain big central padlock, as in Image1. No cross-split into two small squares.\nThese three real equipped items each occupy one vertical row. Do not stretch any item into two rows merely to make variation. The locked region shows the taller slot structure. The three short cards plus tall lock must fit this lane; equal narrow vertical gaps, aligned outer edges, no scrolling the whole game screen. Card art takes about two-thirds of card width; not oversized enough to collide with corner badges. No “x2” or other counts: none are confirmed. Do NOT copy Image1's items, numbers or gameplay effects.\n\nOTHER REGIONS ARE LOCKED:\nKeep EXACTLY the three same top tabs: 装备栏位 / 英雄属性 / 装备图鉴. Keep 生命180/180, 体力100/100, 腐化0/100, 金币4. Corruption empty. Keep central title 遗迹 and cue 按住瞄准 · 松手弹射. The right backpack remains EMPTY, exactly two columns, same outer width as left, with small scroll indicator. Do not copy the left card damage/recycle badges into the backpack.\nKeep the original top-down room footprint, one small round white/brass helmet knight and exactly three red-robed enemies. No extra actors, new architecture around the scene, fantasy statues, candles around UI, chains, crests or flourishes. The world has restrained GOTHIC/CULT tone; the functional UI uses quiet dark iron, bone text and muted red with clear straight alignments.\n\nThe output must be a cohesive complete game screen generated entirely by you. Make the new equipment lane look like the user's reference belongs to this same game, while keeping all public components of Image2 fixed. No explanation captions, comparison grid or process labels.",
+    "images": [
+      "archive/ui-history/Sunburst_规整迭代05/参考原图/用户指定_纵向装备卡槽.png",
+      "archive/ui-history/Sunburst_规整迭代05/结构母版/01_旧卡行美术母版_被新参考覆盖.png",
+      "archive/ui-history/Sunburst_规整迭代05/参考原图/目标游戏_真实战斗无UI.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2ba5df5157103dedcc342\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2ba5df5157103dedcc342",
+      "raw": {
+        "id": "6ae2ba5df5157103dedcc342",
+        "object_id": "6ae2ba5df5157103dedcc342",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T11:15:41.201000+08:00",
+        "updateTime": "2026-10-29T11:15:41.253000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

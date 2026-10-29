@@ -1,0 +1,15 @@
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/.DS_Store
+**/dist/
+**/.env
+**/.env.*
+*.zip
+# The complete release ZIP and icon-mothers.zip contain these production inputs.
+art/icons-v6/mothers/
+**/.venv/
+**/.pytest_cache/
+**/.ruff_cache/
+**/.vite/
+**/coverage/

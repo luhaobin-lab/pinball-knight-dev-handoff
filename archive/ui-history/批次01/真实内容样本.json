@@ -1,0 +1,341 @@
+{
+  "purpose": "Sunburst UI概念图的真实中文与数值样本。只提供证据充分的内容；新经济/节点配置仍需设计，不能把本文件视为其定稿。",
+  "provenance": {
+    "researchJson": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/视频提取数据.json",
+    "researchSha256": "17804bfa315e3bc7b17fb2894d821d33b92ba7e48136c293ffec417767e34fdf",
+    "runtimeCapture": "archive/ui-history/批次01/底图/捕获状态与验证.json",
+    "runtimeJsonPointer": "/before/view",
+    "runtimeEntry": "game/delivery/独立战斗场景.html",
+    "runtimePriceRead": "本轮Chrome file://只读读取window.__shell.game.world.cult.已装备牌的当前价格、原始价格、品质、等级、尺寸；未发送游戏命令。",
+    "visuallyRechecked": [
+      "I150",
+      "I156",
+      "I165",
+      "T002",
+      "T003",
+      "T004",
+      "T015",
+      "T016",
+      "T017",
+      "U013"
+    ]
+  },
+  "heroSample": {
+    "name": "幽冥骑士",
+    "scope": "旧版独立战斗seed=1的真实状态；不是新设计的初始平衡。视频为150/150，与此180/180样本不同。",
+    "hp": 180,
+    "maxHp": 180,
+    "stamina": 100,
+    "maxStamina": 100,
+    "armor": 0,
+    "level": 1,
+    "baseDamage": 30,
+    "baseMaxHp": 150,
+    "extraMaxHpPercent": 20.0,
+    "extraDamagePercent": 0,
+    "criticalChancePercent": 0,
+    "launchDistance": 500,
+    "cooldownAccelerationPercent": 0,
+    "copy": [
+      "幽冥骑士",
+      "生命 180 / 180",
+      "体力 100 / 100",
+      "护甲 0",
+      "基础伤害 30",
+      "弹射距离 500"
+    ],
+    "maxHpExplanation": "运行时基础生命150、额外生命20%、实际最大生命180；当前淬毒利刃tooltip包含提升20%生命上限的附魔。",
+    "oldRunContext": {
+      "chapter": "遗迹",
+      "floor": 4,
+      "turn": 1,
+      "goldField": 4,
+      "experience": 42.373424461111426,
+      "nextLevelExperience": 150
+    },
+    "newDesignWarning": "不要把旧floor=4/floors=12或旧金币4直接写成新5-6战+BOSS层结构和新局外经济。"
+  },
+  "items": [
+    {
+      "name": "凝血毒剂",
+      "source": {
+        "recordId": "I150",
+        "time": "07:04.5",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/I150_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第76行 / ROW-338b9a3093f4",
+        "verification": "文字已核对"
+      },
+      "videoCatalogueSample": {
+        "quality": "青铜 (0/1)",
+        "description": "相邻物品造成伤害时，将会额外在3回合内造成8流血伤害。\n相邻物品被认为是流血物品。",
+        "sizeLabel": "小型",
+        "chargePerBounce": null,
+        "purchasePrice": null,
+        "recycleReturn": 1,
+        "recipe": "生命药剂（1）"
+      },
+      "currentBattleSample": {
+        "instanceId": 342,
+        "qualityCode": 1,
+        "description": [
+          "相邻物品造成伤害时，将会额外在3回合内造成 8 流血伤害。",
+          "相邻物品被认为是流血物品。"
+        ],
+        "verticalRows": 1,
+        "gridColumn": 0,
+        "zeroBasedRow": 7,
+        "charge": 0,
+        "chargeMax": 100,
+        "showChargeGauge": false,
+        "effectBadges": {
+          "damage": 8
+        },
+        "enchants": [],
+        "price": {
+          "currentOwnedRecyclePrice": 1,
+          "rawOriginalPrice": 2,
+          "level": 1,
+          "purchasePrice": null,
+          "currencyLegacy": "精核（程序字段名金币）",
+          "scope": "本次只读打开独立HTML后读取已拥有实例的当前价格/原始价格；当前价格可用于既有分解语义，不是已核验商店购买价。"
+        }
+      },
+      "useForVisuals": "本场HUD与当前物品详情使用currentBattleSample；青铜图鉴可用videoCatalogueSample。不可混合不同品质的数值。"
+    },
+    {
+      "name": "灵魂香菇",
+      "source": {
+        "recordId": "I156",
+        "time": "07:13.0",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/I156_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第83行 / ROW-036ced536d84",
+        "verification": "文字已核对"
+      },
+      "videoCatalogueSample": {
+        "quality": "青铜 (0/1)",
+        "description": "每搜寻过一次物品，增加2价值。最多不超过8。",
+        "sizeLabel": "小型",
+        "chargePerBounce": null,
+        "purchasePrice": null,
+        "recycleReturn": 1,
+        "recipe": "未知种子（1）"
+      },
+      "currentBattleSample": {
+        "instanceId": 338,
+        "qualityCode": 2,
+        "description": [
+          "每搜寻过一次物品，增加 4 价值。最多不超过 16 。"
+        ],
+        "verticalRows": 1,
+        "gridColumn": 0,
+        "zeroBasedRow": 8,
+        "charge": 0,
+        "chargeMax": 100,
+        "showChargeGauge": false,
+        "effectBadges": {},
+        "enchants": [],
+        "price": {
+          "currentOwnedRecyclePrice": 4,
+          "rawOriginalPrice": 4,
+          "level": 2,
+          "purchasePrice": null,
+          "currencyLegacy": "精核（程序字段名金币）",
+          "scope": "本次只读打开独立HTML后读取已拥有实例的当前价格/原始价格；当前价格可用于既有分解语义，不是已核验商店购买价。"
+        }
+      },
+      "useForVisuals": "本场HUD与当前物品详情使用currentBattleSample；青铜图鉴可用videoCatalogueSample。不可混合不同品质的数值。"
+    },
+    {
+      "name": "淬毒利刃",
+      "source": {
+        "recordId": "I165",
+        "time": "07:24.0",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/I165_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第58行 / ROW-71c26f42d5b8",
+        "verification": "文字已核对"
+      },
+      "videoCatalogueSample": {
+        "quality": "青铜 (0/1)",
+        "description": "完成充能时：下3次攻击将会在3回合内造成15剧毒伤害。\n会心几率30%。\n每当敌人受到8次剧毒伤害，获得1层易伤。",
+        "sizeLabel": "小型",
+        "chargePerBounce": 12.0,
+        "purchasePrice": null,
+        "recycleReturn": 1,
+        "recipe": "旧匕首（1）"
+      },
+      "currentBattleSample": {
+        "instanceId": 235,
+        "qualityCode": 2,
+        "description": [
+          "下 3 次攻击将会在3回合内造成 30 剧毒伤害。",
+          "每当敌人受到 8 次剧毒伤害，获得 2 层易伤。",
+          "提升 20% 生命上限。"
+        ],
+        "verticalRows": 1,
+        "gridColumn": 0,
+        "zeroBasedRow": 9,
+        "charge": 0,
+        "chargeMax": 100,
+        "showChargeGauge": true,
+        "effectBadges": {
+          "damage": 30
+        },
+        "enchants": [
+          "英雄附魔_1"
+        ],
+        "price": {
+          "currentOwnedRecyclePrice": 2,
+          "rawOriginalPrice": 4,
+          "level": 2,
+          "purchasePrice": null,
+          "currencyLegacy": "精核（程序字段名金币）",
+          "scope": "本次只读打开独立HTML后读取已拥有实例的当前价格/原始价格；当前价格可用于既有分解语义，不是已核验商店购买价。"
+        }
+      },
+      "useForVisuals": "本场HUD与当前物品详情使用currentBattleSample；青铜图鉴可用videoCatalogueSample。不可混合不同品质的数值。"
+    }
+  ],
+  "talents": [
+    {
+      "name": "药剂师",
+      "effectText": "使用生命药剂时，额外治愈5%生命。",
+      "source": {
+        "recordId": "T002",
+        "time": "00:36.5",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/T002_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第125行 / ROW-a4b3438463ad",
+        "verification": "文字已核对"
+      },
+      "scope": "视频天赋说明的真实展示值，用作内容样本；不代表新设计节点等级/解锁状态/升级曲线。",
+      "unlockSkillPointCost": null,
+      "upgradeGoldCost": null,
+      "maxLevel": null,
+      "currentlyLearned": null,
+      "versionNote": "文字与展示参数相容"
+    },
+    {
+      "name": "博学",
+      "effectText": "获得的经验值提升12.5%。",
+      "source": {
+        "recordId": "T003",
+        "time": "00:37.5",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/T003_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第126行 / ROW-9ba965dc881a",
+        "verification": "文字已核对"
+      },
+      "scope": "视频天赋说明的真实展示值，用作内容样本；不代表新设计节点等级/解锁状态/升级曲线。",
+      "unlockSkillPointCost": null,
+      "upgradeGoldCost": null,
+      "maxLevel": null,
+      "currentlyLearned": null,
+      "versionNote": "文字与展示参数相容"
+    },
+    {
+      "name": "上肢力量",
+      "effectText": "最上方伤害物品提升6伤害。",
+      "source": {
+        "recordId": "T004",
+        "time": "00:38.5",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/T004_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第127行 / ROW-93ca62f997bc",
+        "verification": "文字已核对"
+      },
+      "scope": "视频天赋说明的真实展示值，用作内容样本；不代表新设计节点等级/解锁状态/升级曲线。",
+      "unlockSkillPointCost": null,
+      "upgradeGoldCost": null,
+      "maxLevel": null,
+      "currentlyLearned": null,
+      "versionNote": "文字与展示参数相容"
+    },
+    {
+      "name": "强韧",
+      "effectText": "受到的伤害减少5%。",
+      "source": {
+        "recordId": "T015",
+        "time": "00:49.5",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/T015_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第138行 / ROW-cc7f2f2dd718",
+        "verification": "文字已核对"
+      },
+      "scope": "视频天赋说明的真实展示值，用作内容样本；不代表新设计节点等级/解锁状态/升级曲线。",
+      "unlockSkillPointCost": null,
+      "upgradeGoldCost": null,
+      "maxLevel": null,
+      "currentlyLearned": null,
+      "versionNote": "同名多版本；文字与展示参数相容"
+    },
+    {
+      "name": "体质",
+      "effectText": "提升10%生命上限。",
+      "source": {
+        "recordId": "T016",
+        "time": "00:50.5",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/T016_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第139行 / ROW-26eb6ddba4d0",
+        "verification": "文字已核对"
+      },
+      "scope": "视频天赋说明的真实展示值，用作内容样本；不代表新设计节点等级/解锁状态/升级曲线。",
+      "unlockSkillPointCost": null,
+      "upgradeGoldCost": null,
+      "maxLevel": null,
+      "currentlyLearned": null,
+      "versionNote": "文字与展示参数相容"
+    },
+    {
+      "name": "敏捷",
+      "effectText": "提升25弹射距离。",
+      "source": {
+        "recordId": "T017",
+        "time": "00:51.5",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/T017_提示.jpg",
+        "repoReference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第140行 / ROW-fb2346e956b9",
+        "verification": "文字已核对"
+      },
+      "scope": "视频天赋说明的真实展示值，用作内容样本；不代表新设计节点等级/解锁状态/升级曲线。",
+      "unlockSkillPointCost": null,
+      "upgradeGoldCost": null,
+      "maxLevel": null,
+      "currentlyLearned": null,
+      "versionNote": "文字与展示参数相容"
+    }
+  ],
+  "oldInterfaceEvidence": {
+    "loot": {
+      "screenshotVerified": true,
+      "screenshot": "game/artifacts/battle-outcome/settlement-2-before.png",
+      "observation": "实机截图为战斗上方的“战利品”模态窗，有右上关闭X、7×5浅线格与一张已显示物品卡；背景压暗，左侧装备和额外背包栏仍可见。",
+      "codeSource": "battle-scene/src/ui/pages/loot/model.ts:8; page.ts:60",
+      "gridSemantics": "旧战利品卡视觉宽2小格、高1-3行。它不是左侧装备的一列逻辑地址。",
+      "boundary": "不把这个旧窗的卡数或尺寸当作新宝箱配置。"
+    },
+    "shop": {
+      "screenshotVerified": false,
+      "observation": "本轮在研究记录与已存实机图中未找到可确认的商店界面图。视频数据集中没有商店布局记录。",
+      "codeEvidence": "battle-scene/src/core/sys/shop/index.ts:12-18 为场景商人/商品交互、价格检查与扣金币；src/game/room/stage.ts:395-399 绘制场上商品价格。",
+      "boundary": "代码证据支持旧版为场景商品交互，不能声称已看过完整商店面板。三个物品的视频price均null，分解所得1不是购买价。"
+    },
+    "safeStorage": {
+      "screenshotVerified": false,
+      "videoEvidence": {
+        "recordId": "U013",
+        "time": "03:11.0",
+        "screenshot": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/证据截图/U013_提示.jpg",
+        "repoReference": "",
+        "verification": "仅名称可见"
+      },
+      "observation": "U013只在文档目录看到“永恒神像”，右侧正在展示合成说明；没有打开仓库/保险箱内容。",
+      "codeEvidence": "battle-scene/src/core/sys/camp/stash.ts:15,51-61,97-124 支持独立持久仓库；旧逻辑10×14地址，实体牌占横向2地址、纵向1-3行，存储品质/附魔/词条/种子。",
+      "boundary": "旧仓库不等于新个人保险箱成品。不得将旁边战斗背包两半格画法误认为已存在安全保险箱。新安全存取规则与外观以已确认新设计为准。"
+    }
+  },
+  "doNotInvent": [
+    "三个物品的购买价格",
+    "天赋节点技能点消耗与金币升级价格",
+    "天赋最大等级及树形前置关系",
+    "当前样本已经学会这6个天赋",
+    "视频中的未解锁标签等同新玩家状态",
+    "将物品伤害角标8/30当成价格或数量",
+    "将全部CardView.chargeMax=100解释为所有物品都有充能效果"
+  ],
+  "priceSourceBoundary": "当前owned价格凝血毒剂1、灵魂香菇4、淬毒利刃2来自实际实例，只适合旧分解/回收语义。rawOriginalPrice2/4/4是程序计算基础值，不是已展示的商店售价；新商店价格和新天赋升级成本未定。"
+}

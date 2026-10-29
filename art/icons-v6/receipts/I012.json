@@ -1,0 +1,86 @@
+{
+  "id": "I012",
+  "name": "骨刺",
+  "status": "generated-normalized",
+  "source": "mothers/I012.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I012.png",
+  "motherSha256": "c78bb67f63b21c6aa6095e62b915d22968feb1a83edca5e69799d48575e9e743",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I012.png",
+      "width": 128,
+      "height": 64,
+      "colors": 63,
+      "bytes": 2359,
+      "sha256": "1cbd40b4600d71a6a04e5bafa5ee6bcad6db7d4f8a2d5d998d28826ab888c3e0",
+      "pixelSha256": "098da5fdbb9124665e6be089fac6866a9ab48fe93b8b29a95881500a30b8f7eb",
+      "alphaBounds": [
+        4,
+        6,
+        124,
+        58
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          123,
+          104,
+          1654,
+          783
+        ],
+        "fitSize": [
+          120,
+          53
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.07838014369693011
+      }
+    },
+    "256": {
+      "file": "pixels/256/I012.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 8530,
+      "sha256": "13abca6495e96543934c273d884ef440b1514eceb20359e9fa901535f6826081",
+      "pixelSha256": "4ae53acb25a47cb787c0ca09a74699456dbe37307884ecc72e29c96facc577ca",
+      "alphaBounds": [
+        8,
+        12,
+        248,
+        117
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          123,
+          104,
+          1654,
+          783
+        ],
+        "fitSize": [
+          240,
+          106
+        ],
+        "position": [
+          8,
+          11
+        ],
+        "scale": 0.15676028739386022
+      }
+    }
+  },
+  "visualReview": "passed: original generated subject visually inspected; correct single asset and complete silhouette; normalized PNG also viewed",
+  "sourceProvenance": {
+    "sourceFilename": "exec-7c51ff02-ea07-4287-8e5f-6634bad945ba.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-7c51ff02-ea07-4287-8e5f-6634bad945ba"
+  }
+}

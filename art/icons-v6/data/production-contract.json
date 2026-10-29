@@ -1,0 +1,37 @@
+{
+  "edition": "v6-handdrawn-production",
+  "status": "complete-production-qa",
+  "total": 308,
+  "approvedAnchors": [
+    "I005",
+    "I047",
+    "I106"
+  ],
+  "approval": "User approved V5 reference-conditioned hand-drawn pixelization and PNG delivery on 2026-10-29",
+  "method": "Individual built-in image_gen generation or correction calls for each asset; approved mothers or style board plus official reference crops; approved V5 algorithmic pixelization",
+  "style": "Expressive black ink, designed broad cel-shadow shapes, deliberately asymmetric dark fantasy objects; no photoreal PBR or surface noise. Hand-drawn aesthetic, not a claim of manual human authorship.",
+  "png": {
+    "mainWidth": 256,
+    "compatibilityWidth": 128,
+    "alpha": "binary",
+    "palette": {
+      "128": 64,
+      "256": 96
+    },
+    "filter": "nearest",
+    "margin": {
+      "128": 4,
+      "256": 8
+    }
+  },
+  "data": "Preserve IDs, names, descriptions, slot assignments and unknown-source flags exactly. No reinterpreted game mechanics.",
+  "review": "305 production assets have recorded agent visual review; 3 approved anchors remain byte-identical. 616 PNGs, 308 atlas crops, 308 original mother hashes and full Chrome catalogue checks passed. Target game integration and player recognition not tested.",
+  "deliverables": {
+    "icons": 308,
+    "items": 175,
+    "talents": 133,
+    "pngFiles": 616,
+    "atlasPages": 7,
+    "runtimeZip": "dist/pinball-knight-handdrawn-v6-runtime.zip"
+  }
+}

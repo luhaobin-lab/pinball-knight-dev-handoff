@@ -1,0 +1,59 @@
+{
+  "input": {
+    "prompt": "Create a radically re-art-directed version of Image1 at 3200x1440. The approved UI GEOMETRY and game state must remain, but ALL visual assets are to be newly designed. Image1 is a placement map only. Replace its cute characters, ordinary merchandise, tidy cathedral decoration, bevelled fantasy-kit frames and safe evenly described surfaces. Images2 and3 are art-language studies from a contemporary gothic horror game: learn their shaped masses of black, harsh graphic cuts, mature figures and specific unsettling objects. Do not reproduce their characters, objects, lettering, logos, camera, UI or composition.\n\nDESIGN THESIS: THE ERODED VOW. A sanctum where penitents have erased their own identities. Every original object belongs to this one idea: worn ivory, cold iron, oxblood cloth, scraped-away faces, constricting bindings and interrupted halo shapes. Strange, severe, psychologically hostile, with a few precise unexpected distortions. No random assortment of skulls, tentacles, sigils and candle piles.\n\nMEDIUM: contemporary high-definition pixel artwork informed by forceful ink drawing. Fine native pixel clusters, complex silhouettes and sophisticated materials at full resolution. Broad designed black shapes and angular ivory highlights, directional chisel-like strokes translated into tiny connected pixel clusters. Sharply edited detail, selective lost edges and visible decisions. No nostalgic low-resolution sprite scaling, posterization filter, noisy pixel overlay, smooth 3D product rendering or soft airbrush. Keep the HUD's functional Chinese typography clean.\n\nNEW CHARACTER DESIGN, at the same foot positions and approximately the same total screen footprints: the one WHITE/BRASS KNIGHT is a weary adult figure, narrower elongated visor, lowered head, heavy asymmetrical shoulders, slender waist and planted legs, ivory armor cut by deep black shadows. Retain a small brass helmet crest as identity. Mature compact comic proportions, no spherical toy body or smiling face. Exactly THREE RED-ROBED CULTISTS in the same positions: gaunt figures with concealed faces, taut folds, long knuckles, one slightly crooked neck and an uneasy forward lean. Their faces are black voids interrupted by a narrow pale mask fragment; no grinning mouths, glowing cartoon eyes or identical cute hoods. Original silhouettes, do not copy a reference-game hero. No extra actors or enemies.\n\nNEW EQUIPMENT ART, same three card positions and approximate illustration footprints:\n- Green vial: an uneven dark apothecary vessel with thick glass, settled clot-like dark sediment, a black wax closure and one narrow reflection. Still instantly a green potion bottle, not a treasure jewel.\n- Pale mushroom: an irregular collapsed cap, deeply carved fanlike gills, a fibrous twisted stalk and one dry torn edge. Uncanny biological form, matte ivory over dense black. Still one recognizable mushroom, no literal eyes or teeth.\n- Silver dagger: a tense narrow blade with one unusual angled facet, offset iron guard, compressed dark leather bindings and a localized dried poison stain. Used ritual implement, clearly still a dagger. Strong silhouette and a few deliberate light cuts, not ornate jewellery.\nThese are redesigns of the same items; keep all gameplay values.\n\nNEW ENVIRONMENT: keep the top-down camera, original room footprint, walkable floor, obstacle footprints and actor positions from Image1. Within those boundaries replace the cheerful teal/purple fan-flowers with dark radial reliquary forms, lush greenery with wiry dead roots, tidy flags with stretched oxblood strips, busy brick texture with large connected charcoal planes. On the existing upper wall, an off-center scraped-away ivory devotional face and broken halo are carved into the architecture, visibly inert background relief. Do not make a new giant enemy. Repeated nearby forms echo the same erasure motif sparingly. Break decorative symmetry while leaving UI alignment and gameplay map unchanged. One slant of pale light exposes the knight and portions of the floor; concentrated red gives the enemy group focus. Surrounding architecture drops into shaped black. No uniform teal-orange glow, evenly spaced tiny lights, foreground bokeh, decorative blur, full-screen red filter or gore clutter.\n\nUI ART: keep ALL outer panel/card bounds, widths, row heights and anchors exactly as Image1. Rebuild surfaces as flat blackened iron, few incisive bone-gray corner cuts and quiet insets; remove thick stacked bevel rails and fancy corner jewels. Preserve the thin muted brass mushroom-card emphasis. Left equipment and right backpack are the SAME full-width ONE-COLUMN card design: three item/empty cards and a bottom locked card. Right bag entirely empty. Use a simple heavy iron lock plate with a readable keyhole. Keep functional badge/status colors and exact text anchors, no decorative typography experiments.\n\nExact visible content: 装备栏位 / 英雄属性 / 装备图鉴; 战斗装备; 背包; 遗迹; 生命180/180; 体力100/100; 腐化0/100 EMPTY; 金币4. Vial damage8 and recycle1; mushroom recycle4 only; dagger damage30, recycle2, one small purple enchantment diamond, EMPTY charge0/100. Bottom cue 按住瞄准 · 松手弹射. No item-name prose on equipped cards, no new labels, prices, currencies or controls.\n\nDeliver ONE complete finished game screenshot. The change must be obvious in the silhouettes, objects, light shapes and visual character while the approved layout remains recognizable.",
+    "images": [
+      "archive/ui-history/Sunburst_去AI质感07/交付原图/01_战斗.png",
+      "archive/ui-history/Sunburst_现代暗黑08/参考原图/DD2_官方_攻击与黑块.png",
+      "archive/ui-history/Sunburst_现代暗黑08/参考原图/DD2_官方_物件造型.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2d5baf5157103dedcc6c5\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2d5baf5157103dedcc6c5",
+      "raw": {
+        "id": "6ae2d5baf5157103dedcc6c5",
+        "object_id": "6ae2d5baf5157103dedcc6c5",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T13:12:26.007000+08:00",
+        "updateTime": "2026-10-29T13:12:26.089000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

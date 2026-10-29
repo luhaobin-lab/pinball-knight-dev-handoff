@@ -1,0 +1,168 @@
+{
+  "batch": "批次01",
+  "target": "20:9 战斗HUD与准备界面",
+  "created_at_utc": "2026-10-28T11:15:36.857747+00:00",
+  "reference_count": 4,
+  "all_five_existing_originals_verified": [
+    {
+      "file": "01_神之亵渎_战斗HUD与旧金属边框.jpg",
+      "sha256_matches": true,
+      "dimensions_match": true
+    },
+    {
+      "file": "02_神之亵渎_BOSS血条与装饰层级.jpg",
+      "sha256_matches": true,
+      "dimensions_match": true
+    },
+    {
+      "file": "03_暗黑地牢_战斗HUD与黑色分区.jpg",
+      "sha256_matches": true,
+      "dimensions_match": true
+    },
+    {
+      "file": "04_暗黑地牢_物品格与补给面板.jpg",
+      "sha256_matches": true,
+      "dimensions_match": true
+    },
+    {
+      "file": "05_暗黑地牢_角色属性与技能面板.jpg",
+      "sha256_matches": true,
+      "dimensions_match": true
+    }
+  ],
+  "policy": "仅复制已取得的官方原始参考图；未生图，未修改游戏。R1-R3用于风格；R4仅组织参考。",
+  "references": [
+    {
+      "game": "Blasphemous",
+      "app_id": "774361",
+      "steam_screenshot_id": 1,
+      "file": "R1_神之亵渎_金属细边与HUD.jpg",
+      "source_page_url": "https://store.steampowered.com/app/774361/",
+      "source_metadata_url": "https://store.steampowered.com/api/appdetails?appids=774361&l=english",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/774361/ss_b74f57919e88283fac75389e76ead2fed73997e5.1920x1080.jpg?t=1780479368",
+      "purpose": "左侧战斗HUD的头像框、资源条、紧凑图标和旧金属细边。",
+      "visual_notes": "参考暗底、少量暗金、骨白文字与有限红蓝状态色的层级；装饰集中在头像和条端，数据条保持清晰。",
+      "coverage": "官方实机战斗截图；只覆盖战斗HUD，不覆盖背包或菜单。",
+      "do_not_inherit": "不照搬横版布局、原作头像/图标/花纹，不新增原作资源或药瓶系统。",
+      "focus_regions": [
+        {
+          "x": 0,
+          "y": 0,
+          "w": 650,
+          "h": 245,
+          "label": "头像、生命/资源条和消耗品图标"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "bytes": 372639,
+      "sha256": "31410e8e649b76bb432c2a11826f12e4831f810bec9677d99c5703400079db0a",
+      "file_is_unmodified_download": true,
+      "visually_reviewed": true,
+      "absolute_path": "archive/ui-history/批次01/参考图/R1_神之亵渎_金属细边与HUD.jpg",
+      "source_local_file": "/Users/haobinlu/Desktop/提取过程/outputs/HUD重构_AI交接包/参考图/01_神之亵渎_战斗HUD与旧金属边框.jpg",
+      "batch_role": "视觉主参考：旧金属细边、端点装饰、头像框、暗底与低比例金色；为战斗HUD提供边框语言。",
+      "batch_boundary": "不继承横版构图、原作头像、药瓶数量或资源规则。",
+      "copy_sha256_matches_source": true
+    },
+    {
+      "game": "Darkest Dungeon®",
+      "app_id": "262060",
+      "steam_screenshot_id": 12,
+      "file": "R2_暗黑地牢_商人与物品格.jpg",
+      "source_page_url": "https://store.steampowered.com/app/262060/",
+      "source_metadata_url": "https://store.steampowered.com/api/appdetails?appids=262060&l=english",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/ss_0513e7921787b61192ac356580f1d4c66a236092.1920x1080.jpg?t=1789168187",
+      "purpose": "右侧总背包的物品格、堆叠数字、空格、选中边框与分组。",
+      "visual_notes": "参考图标识别度、数字位置统一、空槽弱化、选中框强化；可迁移到屏幕右侧纵向面板。",
+      "coverage": "官方补给界面；包含真实物品格与库存区域。",
+      "do_not_inherit": "这不是目标游戏的商店需求；不新增购买/出售/货币/队伍，不照搬人物插画占位。",
+      "focus_regions": [
+        {
+          "x": 825,
+          "y": 545,
+          "w": 685,
+          "h": 335,
+          "label": "库存格与数量角标"
+        },
+        {
+          "x": 935,
+          "y": 157,
+          "w": 475,
+          "h": 355,
+          "label": "商品图标与数量排版，仅参考格位视觉"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "bytes": 395558,
+      "sha256": "77b357c3f2119b0a6726c54d9c635ece904191df1affb1be189bb3b5bcf3c70c",
+      "file_is_unmodified_download": true,
+      "visually_reviewed": true,
+      "absolute_path": "archive/ui-history/批次01/参考图/R2_暗黑地牢_商人与物品格.jpg",
+      "source_local_file": "/Users/haobinlu/Desktop/提取过程/outputs/HUD重构_AI交接包/参考图/04_暗黑地牢_物品格与补给面板.jpg",
+      "batch_role": "视觉主参考：商人冷峻气质、粗黑阴影与刻画笔触；准备界面物品格、统一数量角标、空槽与选中框。",
+      "batch_boundary": "只参考商人气质与格子视觉，不复制人物，不引入原作商店经济、货币、队伍或购买规则。",
+      "copy_sha256_matches_source": true
+    },
+    {
+      "game": "Darkest Dungeon®",
+      "app_id": "262060",
+      "steam_screenshot_id": 22,
+      "file": "R3_暗黑地牢_属性窗与信息层级.jpg",
+      "source_page_url": "https://store.steampowered.com/app/262060/",
+      "source_metadata_url": "https://store.steampowered.com/api/appdetails?appids=262060&l=english",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/ss_29888feb5adb6924ffb7e83997fcd0430dc4ca56.1920x1080.jpg?t=1789168187",
+      "purpose": "角色属性弹窗、分组标题、装备区、技能已选/未选/锁定状态。",
+      "visual_notes": "参考左右分组、细分隔线、标题与数值层级、统一图标底框；弹窗中保留足够留白。",
+      "coverage": "官方角色详情界面；包含属性、装备与技能，但不是目标游戏的天赋树或装备图鉴。",
+      "do_not_inherit": "不移植原作职业、属性、抗性、怪癖、疾病、技能点或多角色列表；只使用我们已核实的数据。",
+      "focus_regions": [
+        {
+          "x": 160,
+          "y": 128,
+          "w": 1370,
+          "h": 777,
+          "label": "角色详情主体"
+        },
+        {
+          "x": 955,
+          "y": 178,
+          "w": 548,
+          "h": 415,
+          "label": "技能组与锁定状态"
+        }
+      ],
+      "width": 1920,
+      "height": 1080,
+      "bytes": 421617,
+      "sha256": "8d34643bf3248deac0fd7379a677ea4222c01b318f2eda773080afefdace9c56",
+      "file_is_unmodified_download": true,
+      "visually_reviewed": true,
+      "absolute_path": "archive/ui-history/批次01/参考图/R3_暗黑地牢_属性窗与信息层级.jpg",
+      "source_local_file": "/Users/haobinlu/Desktop/提取过程/outputs/HUD重构_AI交接包/参考图/05_暗黑地牢_角色属性与技能面板.jpg",
+      "batch_role": "视觉主参考：黑色属性窗、清晰分组标题、装备框、技能锁定与选中状态、骨白文字和少量功能色。",
+      "batch_boundary": "不移植怪癖、疾病、抗性、队伍管理或原作技能体系；内容使用本项目数据。",
+      "copy_sha256_matches_source": true
+    },
+    {
+      "game": "Dungeonbound",
+      "app_id": "5200620",
+      "steam_screenshot_id": 3,
+      "file": "R4_Dungeonbound_仅准备页组织.jpg",
+      "absolute_path": "archive/ui-history/批次01/参考图/R4_Dungeonbound_仅准备页组织.jpg",
+      "source_local_file": "/tmp/dungeonbound_reference_review/full_3.jpg",
+      "source_page_url": "https://store.steampowered.com/app/5200620/Dungeonbound/",
+      "source_metadata_url": "https://store.steampowered.com/api/appdetails?appids=5200620",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5200620/f24a4e88cf1efb46c54f9387537928a8a2485f10/ss_f24a4e88cf1efb46c54f9387537928a8a2485f10.1920x1080.jpg?t=1792931934",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 1304006,
+      "sha256": "8ecb1622e271e0d4935766c8a19ded485940b2c698ec6f01d26efa6cf534e361",
+      "file_is_unmodified_download": true,
+      "copy_sha256_matches_source": true,
+      "batch_role": "仅组织参考：准备界面中的战斗装备/背包/备选内容之间的分区与操作路径。",
+      "batch_boundary": "不作为美术风格、配色、材质、文字、图标、格子规则或战斗规则参考；20:9布局与当前用户要求优先。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I051",
+  "name": "巨人盾斧",
+  "status": "generated-normalized",
+  "source": "mothers/I051.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I051.png",
+  "motherSha256": "45454fb2ba366effe4ab731cb1abf7284b2fc7898a4a319c4ed2f29562396899",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I051.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5811,
+      "sha256": "9675764d65743aa69e6d5c6b64f0e3403be9656f4d702efd295ee7c0f8cbce1e",
+      "pixelSha256": "b43293811a29f534e06020e040f58ea93175a2f0b950bf97ee4aec1b4df21604",
+      "alphaBounds": [
+        6,
+        4,
+        122,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          77,
+          38,
+          1201,
+          1204
+        ],
+        "fitSize": [
+          116,
+          120
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.10291595197255575
+      }
+    },
+    "256": {
+      "file": "pixels/256/I051.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21683,
+      "sha256": "cfa66e337bf785d552fe07cd1883d197ecc3487aac695f28d2b813c37f9f6b42",
+      "pixelSha256": "ab192deaebb2606f43d6f1f372e26e37d71cd522e4b93b318ad3f591514c317d",
+      "alphaBounds": [
+        12,
+        8,
+        242,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          77,
+          38,
+          1201,
+          1204
+        ],
+        "fitSize": [
+          231,
+          240
+        ],
+        "position": [
+          12,
+          8
+        ],
+        "scale": 0.2058319039451115
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; coherent core shield / forging hammer / shield axe, clear joined functional parts",
+  "sourceProvenance": {
+    "sourceFilename": "exec-5ae8ead8-6676-4942-bad6-86c452c267f0.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-5ae8ead8-6676-4942-bad6-86c452c267f0"
+  }
+}

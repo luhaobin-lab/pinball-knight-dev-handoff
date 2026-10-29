@@ -1,0 +1,60 @@
+{
+  "input": {
+    "prompt": "Create ONE exceptional finished game screenshot, 3200x1440, landscape mobile, all art and ALL Chinese UI generated as one coherent image. Art direction: contemporary premium DARK OCCULT high-definition pixel art. It should feel like an ambitious current-generation indie game with bespoke art direction and sophisticated lighting.\n\nREFERENCES, each has one distinct purpose:\nImage1: The Last Faith official screenshot. Learn precise high-density pixel craftsmanship, designed gothic shapes, rich dark material and tonal depth; do not copy its characters or side-scrolling camera.\nImage2: REPLACED official screenshot. Learn cinematic local light, atmospheric depth and fine pixel forms; do not copy sci-fi content, film letterboxing or grain filters.\nImage3: user's equipment lane. Follow the FULL-WIDTH VERTICAL CARD STRUCTURE, image-led item cards, attached corner values and integrated locks. This is a structure reference, NOT a low-resolution style target.\nImage4: our real game room. Preserve its walkable footprint, top-down oblique camera, one small round white/brass-helmet knight and exactly THREE red-robed enemies. Keep actor identity while rendering them with the new high-density pixel craftsmanship.\n\nCRITICAL CORRECTION: BACKPACK AND EQUIPMENT USE THE SAME CARD SYSTEM. Left and right are matching single vertical lanes. EVERY right-hand empty slot is a full-width horizontal card, the SAME width, row height, surface, border and inset as a left-hand item card. Align every row across the screen. No vertical dividers, no two-column bag, no square inventory grid. Do not fill the backpack with duplicated equipment. Right inventory is empty.\n\nA clearly authored modern composition: safe margin64; header y48..232; left lane x64..608; central world x656..2544; right lane x2592..3136; body y272..1376. These zones have stable aligned edges. Slim material boundaries, a few deliberately cut corners, restrained dark silver edge light; broad quiet dark surfaces. The cards feel like a single crafted equipment case. Do not draw thick bevel stacks, stone-wallpaper panels or boxes inside boxes. The world gets the central visual focus. Use central space efficiently without adding giant statues or enclosing the world in a stage set.\n\nHeader: three text tabs in one aligned group, 装备栏位 / 英雄属性 / 装备图鉴, first selected with a fine blood-red rule and bone text. No giant red rectangular sign. To their right, four concise status groups: 生命180/180, 体力100/100, 腐化0/100, 金币4. Full red health, full subdued teal stamina, EMPTY corruption track. Clean narrow Chinese sans-serif lettering with deliberate spacing, crisp medium-weight numerals. Readable 64px principal text and values, 56px supporting text, 48px smallest labels. Refined display treatment only on central title 遗迹. No old-fashioned huge Song/Ming serif text, calligraphy, fake runic body fonts or tiny decorative copy.\n\nThe lane headers 战斗装备 and 背包 share a baseline. Under them, three single-height full-width card rows followed by one taller dark locked recess, all matching across both sides. Left three cards contain NO permanent names or paragraphs. The item image dominates each card:\n1 single green glass vial: thick transparent rim, deep layered liquid, a cork and controlled cyan reflection. Upper-right damage8, lower-left recycle1.\n2 single pale mushroom cap and stem: fine gill structure, damp shaded underside and sculpted cap silhouette. Lower-left recycle4, no damage number.\n3 diagonal silver dagger with dark leather grip and small brass guard: cold honed blade facet and one warm edge reflection. Upper-right damage30, lower-left recycle2, one small right-edge enchantment diamond; EMPTY charge0/100 clearly readable along bottom edge.\nUse the same light direction, perspective treatment and level of detail for all three. Compact badges are attached to the card edge, with muted functional colors and bright readable numerals, never huge retro plaques. Right side has THREE empty full-width counterparts and a matching locked recess; no values or arbitrary icons in empty slots. Empty panels must visibly share the same construction as occupied cards, with lower contrast interiors. Lock layout is a concept state.\n\nPIXEL QUALITY: fine purposeful pixel clusters and carefully stepped silhouettes, high internal detail, local hue shifts and rich but organized ramps. Metal, glass, leather, flesh and stone each respond differently to one coherent light environment. Native high-resolution pixel craftsmanship; NOT enlarged 16-bit sprites, chunky stair-step borders, an 8-bit palette, CRT effects or a pixelation filter over a smooth painting. No random speckle pretending to be handmade. Material and lighting supply sophistication, not extra ornaments.\n\nCULT mood: ink-black stone, desaturated petrol/navy shadows, bone highlights, deep clotted wine accents and sparse warm ritual light. One controlled supernatural glint is enough. Important shapes remain legible in dark areas; don't crush the image into black or smear it with fog. The chamber's own original gothic details and unsettling red-robed silhouettes carry the setting. No decorative crosses, skulls, candle forests or emblems attached to every UI corner. No science-fiction holograms or neon dashboard.\n\nRetain the real battle room and all four actors. Small concise bottom cue 按住瞄准 · 松手弹射, readable. No new game functions, weapons, actors, resources, minimaps, interaction buttons or branding. Output ONE complete highly finished modern dark occult HD-pixel game screen, not an annotated styleboard, comparison sheet or generic retro interface.",
+    "images": [
+      "archive/ui-history/Sunburst_现代CULT06/参考原图/TheLastFaith_01_冷暗哥特场景_官方.jpg",
+      "archive/ui-history/Sunburst_现代CULT06/参考原图/REPLACED_02_细节层次_官方.png",
+      "archive/ui-history/Sunburst_现代CULT06/参考原图/用户指定_纵向装备卡槽.png",
+      "archive/ui-history/Sunburst_现代CULT06/参考原图/目标游戏_真实战斗无UI.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2c22198d303820bdcb4b0\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2c22198d303820bdcb4b0",
+      "raw": {
+        "id": "6ae2c22198d303820bdcb4b0",
+        "object_id": "6ae2c22198d303820bdcb4b0",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T11:48:49.032000+08:00",
+        "updateTime": "2026-10-29T11:48:49.111000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "title": "HUD 美术重设计与迭代方案",
+  "date": "2026-10-27",
+  "status": "invalidated-by-user-content-not-established",
+  "target": {
+    "scope": "交付完整角色／背包两态静态视觉合成与迭代方案；完整SUNBURST美术底图和图标裁片保留，以可编辑文字／真实格子保证手机可读性和内容准确性，运行代码尚未接入。",
+    "sources": [
+      "content-audit.json",
+      "references.json",
+      "a14ffb1真实游戏状态"
+    ],
+    "reference": "Castlevania: Belmont’s Curse官方实机材质、光色及形体层次；采集图未验证其角色／背包菜单布局。",
+    "forbidden": [
+      "不改本轮运行代码",
+      "不编造数值、物品、敌人和格子规则",
+      "不把静态图、提示词字号或浏览器模拟称为真机验收",
+      "不把3A目标称为已经达成的品质事实"
+    ]
+  },
+  "decision": {
+    "rejected": "旧左侧圣龛样板的视觉和占屏效果已被明确否定，保留为技术基线。",
+    "newDirection": "完整SUNBURST贴图主导美术。当前静态候选复用同一无侧栏文字的整幅底图，叠加SUNBURST头像／药剂／旧剑裁片，以及可编辑的准确文字、资源条、TAB和真实装备格。它不是生成器输出的整帧原图，也不是已接入游戏的HUD。",
+    "qualityMeaning": "3A质感拆成画面占比、形体与材质层次、文字可读性、内容准确性、双态一致性和实现还原度，不用一句提示词代替验收。"
+  },
+  "layout": {
+    "designPixels": [
+      1200,
+      540
+    ],
+    "nativeConceptPixels": [
+      3840,
+      1728
+    ],
+    "ratios": {
+      "left": 0.28,
+      "battlefield": 0.55,
+      "rightEquipment": 0.17
+    },
+    "ratiosStatus": "候选布局，实际图稿测量和手机观察后锁定",
+    "phoneReadabilityTargets": {
+      "referenceViewportCssPixels": [
+        800,
+        360
+      ],
+      "bodyFontCssPixels": [
+        17.5,
+        18
+      ],
+      "keyNumbersCssPixels": [
+        20,
+        22
+      ],
+      "tabLabelCssPixels": [
+        20,
+        22
+      ],
+      "interactiveTargetCssPixels": 48,
+      "firstScreenStatRows": 6
+    },
+    "measurementStatus": "已测量静态合成的DOM字号与边界；母版提示词本身不算证明。运行版的真实手指命中、动态内容和真机性能仍未验证。",
+    "compositionRules": [
+      "中央房间按同一比例放大／构图，保持原房间轮廓、相对位置和可行动区域；美术背景不新增可玩格子。",
+      "头像、核心状态、物品及正文优先占空间；装饰只在结构节点加深厚度，不靠高冠、细雕像和大片黑边填充。",
+      "800×360不缩放查看时能读出生命／体力、当前TAB及物品名称；任何边角和安全区不能切掉数字。"
+    ],
+    "measuredStaticCompositionAt800": {
+      "bodyAndResourceFontCssPx": 18,
+      "attributeValuesFontCssPx": 20,
+      "tabsAndActionFontCssPx": 22,
+      "tabTargetHeightCssPx": 48,
+      "actionTargetHeightCssPx": 48,
+      "resourceBarValues": {
+        "hp": "80%",
+        "stamina": "100%",
+        "corruption": "0%",
+        "experience": "16.87531153361003%"
+      },
+      "state": "已通过独立800×360静态内容、字号、边界与48px操作高度复核；证据review/composition-independent.json。",
+      "exclusions": "中央章节、金币和底部提示仍烤在SUNBURST底图中，不包含在18px及以上的侧栏排版声明内。"
+    }
+  },
+  "sharedState": {
+    "fixedAcrossTabs": [
+      "同一头像与角色身份",
+      "生命／体力／腐化／经验／等级",
+      "同一场景、英雄和敌人位置",
+      "金币与章节",
+      "右侧装备与充能",
+      "外框、材质、光色、尺度及底部操作提示"
+    ],
+    "changes": [
+      "角色／背包选中状态",
+      "左侧TAB以下内容"
+    ],
+    "character": "首屏6项主要属性，更多属性向下滚动；不存在第三个属性TAB。",
+    "backpack": "当前只有1瓶药剂，使用次数3；采用大图物品卡＋真实详情，可读性来自放大而非添加虚构物品。",
+    "equipment": "当前为1逻辑列×10行：上6行锁定，中2行空，底2行由旧剑占用。它不是新增的2×5格规则。",
+    "consistencyGate": "两态复用完全相同的源底图、共享元素与布局，只切换左侧内容及TAB。共享区按内容、位置和素材来源复核；浏览器触摸高亮或栅格化微差单独记录，不将其称为整帧逐像素一致。"
+  },
+  "truthSnapshot": {
+    "hero": "甲壳虫骑士",
+    "level": 1,
+    "hp": [
+      120,
+      150
+    ],
+    "stamina": [
+      100,
+      100
+    ],
+    "corruption": [
+      0,
+      100
+    ],
+    "experienceDisplayed": [
+      25.3,
+      150
+    ],
+    "coins": 8,
+    "chapter": "序幕 · 新手关02",
+    "stats": [
+      {
+        "label": "基础伤害",
+        "value": "30"
+      },
+      {
+        "label": "会心率",
+        "value": "0%"
+      },
+      {
+        "label": "会心倍率",
+        "value": "×2"
+      },
+      {
+        "label": "基础治愈",
+        "value": "0"
+      },
+      {
+        "label": "治愈加成",
+        "value": "0%"
+      },
+      {
+        "label": "伤害减免",
+        "value": "0%"
+      }
+    ],
+    "bag": {
+      "item": "生命药剂",
+      "count": 1,
+      "remainingUses": 3,
+      "healing": 22.5
+    },
+    "equipment": {
+      "item": "旧剑",
+      "count": 1,
+      "rowZeroBased": 8,
+      "heightRows": 2,
+      "charge": [
+        0,
+        100
+      ],
+      "effect": "下3次攻击额外造成20伤害。"
+    },
+    "enemy": "只有1个当前红烛敌人；源行眼球。头顶32是攻击意图伤害，不是HP；最终敌人名称尚未锁定。"
+  },
+  "stages": [
+    {
+      "id": "G0",
+      "name": "内容与参考锁定",
+      "deliverable": "真实状态清单、官方垫图及来源／哈希、禁止新增内容表。",
+      "acceptance": "每个数字、物品、格子状态和角色身份能追溯到当前状态；明确参考图用于美术而非原作菜单证据。",
+      "reworkTrigger": "出现假装备、假属性、错误物品数量、意图伤害被当作生命。",
+      "status": "已完成内容与官方参考核对"
+    },
+    {
+      "id": "G1",
+      "name": "完整角色页母版",
+      "deliverable": "完整SUNBURST无侧栏字底图、角色／物品裁片、可编辑侧栏排版的角色页静态合成；原尺寸手机检查与问题记录。",
+      "acceptance": "角色／资源／属性／右装备／战场同时形成完整画面；六项正文可读；同一角色和房间内容准确；装饰不吞掉可用区域。",
+      "reworkTrigger": "战场仍像小图贴黑底、字小、厚框挤内容、人物身份或数据错；先定点修，再决定是否换构图。",
+      "status": "静态方案与独立复核完成；等待G4用户视觉反馈"
+    },
+    {
+      "id": "G2",
+      "name": "从同一母版派生背包页",
+      "deliverable": "同一底图和布局派生的背包页静态合成，及角色／背包切换审阅页；共享区域核对。",
+      "acceptance": "只改变左侧TAB选中和其下内容；真实药剂卡与详情足够大；其余状态、比例及光色保持一致。",
+      "reworkTrigger": "两页像不同游戏、场景／血量／装备发生漂移，或凭空填满背包。",
+      "status": "静态方案与独立复核完成；等待G4用户视觉反馈"
+    },
+    {
+      "id": "G3",
+      "name": "内容与手机静态复核",
+      "deliverable": "逐项内容复核、实际字号／边界测量、800×360与1000×450展示、缩小后问题表。",
+      "acceptance": "实际测量侧栏正文／资源18px、属性值20px、TAB／操作文字22px及48px操作高度；两态真实内容正确且无裁切。中央烤字大小、画风偏差和非真机边界单列，不作全画面达标声明。",
+      "reworkTrigger": "任一核心数值／物品错误、正文读不清或装饰盖住文字。",
+      "status": "静态方案与独立复核完成；等待G4用户视觉反馈"
+    },
+    {
+      "id": "G4",
+      "name": "用户确认视觉基线",
+      "deliverable": "同一批次完整两态、源图及差距说明，供用户判断整体美术与手机观看体验。",
+      "acceptance": "用户明确认可具体母版与布局；仅认可单页时不自动视为整套通过。",
+      "reworkTrigger": "用户不认可时返回G1或G2，保留上一版本，不继续把未批准图接进游戏。",
+      "status": "待用户对完整静态两态给出视觉反馈"
+    },
+    {
+      "id": "G5",
+      "name": "SUNBURST模块化贴图生产",
+      "deliverable": "已批准母版对应的无字底板、固定边角／边条、装饰、TAB状态、资源槽、物品图标与头像，以及命名／尺寸／透明边／来源清单。",
+      "acceptance": "清除烤进贴图的文本和数值；固定装饰不拉伸；边条可延展、边角有真实透明通道；把资产重新拼回母版并核对。",
+      "reworkTrigger": "拆件后风格、厚度或材质走样；文字残影；接缝、透明脏边、拉长雕饰；回到单件修图，不用简陋CSS替代。",
+      "status": "视觉批准后"
+    },
+    {
+      "id": "G6",
+      "name": "真实运行接入",
+      "deliverable": "独立工作树中的完整HUD；程序文字／资源值／列表／物品选择；与批准稿同状态的运行截图。",
+      "acceptance": "沿用实际规则和核心状态；场景、UI和手指坐标一致；切TAB不移动世界；美术按母版还原，不重画成细线框；7项全局属性问题单独处理后再显示。",
+      "reworkTrigger": "漂亮静态图在运行中缩水、布局漂移、文字被整屏降采样，或UI读状态改变模拟／随机数。",
+      "status": "资产复核后"
+    },
+    {
+      "id": "G7",
+      "name": "交互、真机与交付",
+      "deliverable": "切页／滚动／选中／用药／发射／多指／横竖屏切换／安全区检查，至少一个真实目标手机的实拍与帧时记录，绑定提交和包哈希的可玩包。",
+      "acceptance": "UI操作不误发射；预览等于实际落点；横屏阅读、触控和连续运行可用；视觉批准、功能通过、手机性能分别记录。",
+      "reworkTrigger": "真机字小、按钮难点、遮挡／模糊、明显卡顿或坐标错位；按问题所属层回退，不以桌面截图代替。",
+      "status": "运行接入后"
+    }
+  ],
+  "iterationPolicy": {
+    "perRound": [
+      "保留上轮图、提示词、输入参考和任务ID。",
+      "每轮先列必须改的少数问题，并标出保持不变的区域。",
+      "先核实已有任务状态再重提，避免超时或回执错误造成重复生成。",
+      "内容错误与手机不可读是阻塞项；审美候选保留给用户比较。"
+    ],
+    "scopeAfterApproval": "先把本HUD两态完整落地，再复用组件到详情、弹窗和商店；右栏拖放／旋转及新规则另立任务。"
+  },
+  "gapLedger": [
+    {
+      "id": "global-stats",
+      "status": "继承问题未修复",
+      "detail": "当前33项可读取属性；7项全局修正受计算类型表示不一致影响，不能编造0补齐。",
+      "next": "独立核心修复与来源验证，之后进入属性页。"
+    },
+    {
+      "id": "runtime-look",
+      "status": "目标画风待实现",
+      "detail": "当前场景为SUNBURST美术目标稿，使用本游戏已有角色／物件类型；精确房间几何、障碍和装饰位置未通过运行等价验证，不能把静态绘制当成已完成游戏美术。",
+      "next": "批准后将HUD和场景分层接入，以相同核心状态验证实际房间构图、物件位置与可行动区域。"
+    },
+    {
+      "id": "cross-tab-drift",
+      "status": "已转为共享底图合成",
+      "detail": "两个TAB使用同一完整底图及共享布局，消除独立生成带来的场景和资源漂移；截图仍可能有浏览器抗锯齿或触摸高亮微差。",
+      "next": "保留截图差异统计，分别判断内容一致和严格像素一致。"
+    },
+    {
+      "id": "phone",
+      "status": "未进行真机验收",
+      "detail": "800像素展示是阅读检查，不等于特定手机上的安全区、触控或性能证明。",
+      "next": "运行版在真实目标机验收。"
+    },
+    {
+      "id": "reference-hud",
+      "status": "参考范围已限定",
+      "detail": "所采集官方截图隐藏常驻HUD，未证实其角色／背包菜单。",
+      "next": "仅引用美术语言；我们的布局以本游戏数据和手机目标设计。"
+    },
+    {
+      "id": "aaa",
+      "status": "品质目标",
+      "detail": "3A质感作为制作目标，不代表已达到商业成品或整款游戏品质。",
+      "next": "用各关卡的可见结果与用户反馈评估。"
+    },
+    {
+      "id": "style-distance",
+      "status": "画风仍是待审候选",
+      "detail": "当前候选比Belmont’s Curse参考更偏密集纹饰、细材质和厚外框；参考的大块图形明暗与克制细节尚未严格对齐。",
+      "next": "由用户判断此方向；若仍过重，减少碎纹饰和局部高光，放大明确的明暗面，而不是只增加细节。"
+    },
+    {
+      "id": "baked-center-text",
+      "status": "中央烤字不在侧栏字号验收内",
+      "detail": "章节／金币与底部提示仍属于SUNBURST底图，其可见文字不保证18px以上；本轮字号改善和可编辑保证限于侧栏操作与数据。",
+      "next": "进入资产生产时移除这些烤字并按同一文字规范重新排版。"
+    }
+  ],
+  "proposals": [],
+  "needs": [
+    "用户审阅完整两态后确认视觉基线",
+    "后续运行版的真实手机验收"
+  ],
+  "compositionMethod": {
+    "entry": "composition.html",
+    "cleanArtPlate": "concepts/03-clean-art-plate.png",
+    "artCrops": {
+      "portrait": "concepts/01-character-r2.png",
+      "potion": "concepts/02-backpack-r1.png",
+      "sword": "concepts/01-character-r2.png"
+    },
+    "editableLayers": [
+      "角色名和等级",
+      "四项资源标签、数值和填充",
+      "角色／背包TAB及选中态",
+      "六项真实属性",
+      "药剂详情和使用按钮",
+      "六个锁格、两个空格与旧剑两行占位",
+      "装备名称和充能"
+    ],
+    "preservedAsWholeArt": [
+      "完整外框、石材／皮革底材、菌类装饰、场景绘制及局部光色"
+    ],
+    "bakedTextStillPresent": [
+      "中央章节／金币标题",
+      "底部发射提示"
+    ],
+    "scope": "静态设计合成；读的是已核验的同一状态快照，不是运行中的游戏数据绑定。",
+    "providerOutputClaim": false,
+    "sourceFileMetadata": "裁片来源、原图坐标、DOM字号和边界可从window.__hudComposition读取。"
+  },
+  "validationEvidence": {
+    "independent": "review/composition-independent.json",
+    "character": "review/composition-independent-final-character.png",
+    "backpack": "review/composition-independent-final-backpack.png",
+    "scope": "静态内容／字号／边界／目标尺寸；不是运行接入或真机证据",
+    "sharedRegions": "相同图源与DOM几何；捕获中336个中央像素有1/255色阶微差，未声称严格逐像素相同"
+  },
+  "userDecision": "2026-10-27: Entire approach rejected. ThisHUDplan is superseded; game content must be agreed first."
+}

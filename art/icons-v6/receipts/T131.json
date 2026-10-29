@@ -1,0 +1,86 @@
+{
+  "id": "T131",
+  "name": "化身烈阳",
+  "status": "generated-normalized",
+  "source": "mothers/T131.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T131.png",
+  "motherSha256": "d4908a68fbdbd127847db8a068c1cc7988181a157c1f7c6cd9a9e8ca246ad1f2",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T131.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6420,
+      "sha256": "5f956f116a6df4c30b8508d93d61658560ecc5160bee1f6fa52ceae3f6b268fe",
+      "pixelSha256": "fe4727764fdfe175c9246ee59312e18582edf5d7b2355582c1b2f4c8eaff787b",
+      "alphaBounds": [
+        4,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          48,
+          43,
+          1239,
+          1243
+        ],
+        "fitSize": [
+          119,
+          120
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.1
+      }
+    },
+    "256": {
+      "file": "pixels/256/T131.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23747,
+      "sha256": "d0ec3b1f0cbbde6abb112fd54f36d2a47eb21ecf6183fd80d9c50d5f0592d72e",
+      "pixelSha256": "a602bf5d0c8f51a0d8817334a855686b7a709ec1a82eeabd3c1916b71920e53d",
+      "alphaBounds": [
+        9,
+        8,
+        247,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          48,
+          43,
+          1239,
+          1243
+        ],
+        "fitSize": [
+          238,
+          240
+        ],
+        "position": [
+          9,
+          8
+        ],
+        "scale": 0.2
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-088a3b76-1b4c-466d-a454-26b4ebfa05e3.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-088a3b76-1b4c-466d-a454-26b4ebfa05e3"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I099",
+  "name": "附魔-体质",
+  "status": "generated-normalized",
+  "source": "mothers/I099.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I099.png",
+  "motherSha256": "4972d3a7ae93cc7d9d1322113a70557d78afd36e2c2252d10c7de949b7ef5f57",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I099.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3070,
+      "sha256": "12ce496bd558d424470234fe04416d88974f4d1c50ebc12d832730e079728700",
+      "pixelSha256": "734ff460036f6d5c351bc369a8a76d659043c090ddd886807d8bd79bc216f57a",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        58
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          58,
+          86,
+          1725,
+          817
+        ],
+        "fitSize": [
+          120,
+          53
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.07198560287942411
+      }
+    },
+    "256": {
+      "file": "pixels/256/I099.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 11011,
+      "sha256": "236b079deb2d7433983ce110af7b3dc8e54321871ec25eb72bbda1d75a48ba12",
+      "pixelSha256": "4738e2323cea920e9d8855d124ecc87f4ce5dfb0fe8880fddcd887df3b72ad1a",
+      "alphaBounds": [
+        8,
+        11,
+        248,
+        116
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          58,
+          86,
+          1725,
+          817
+        ],
+        "fitSize": [
+          240,
+          105
+        ],
+        "position": [
+          8,
+          11
+        ],
+        "scale": 0.14397120575884823
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "已目视核对请求主体、完整轮廓与单图标构图。I097重做后已移除容器。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-7f93f2e8-82ed-4801-bd44-6d801243edac.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-7f93f2e8-82ed-4801-bd44-6d801243edac"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I145",
+  "name": "袖剑",
+  "status": "generated-normalized",
+  "source": "mothers/I145.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I145.png",
+  "motherSha256": "12fae81017182762fc3f2e51e0eb868e0004a3edca3656d74cb6810e54eb812a",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I145.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2405,
+      "sha256": "2919d85c96bfe23c5fcba9afdf1aed84d5dd3434b0b6e901e64a220b55be0136",
+      "pixelSha256": "c31842a9328b9899b9dbec501480129e5450bf02e50c014803b92509d25d140d",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          69,
+          83,
+          1724,
+          828
+        ],
+        "fitSize": [
+          120,
+          54
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.07250755287009064
+      }
+    },
+    "256": {
+      "file": "pixels/256/I145.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 8624,
+      "sha256": "2266ef2fa1153ddc573ebd41b40bafe9841a61aa5d99894b31b9766d9dc11307",
+      "pixelSha256": "c9af56a8643d3512c70031963c014bbb48f368a89a2d29dba944e947a424877c",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        117
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          69,
+          83,
+          1724,
+          828
+        ],
+        "fitSize": [
+          240,
+          108
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.14501510574018128
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "分身双弓、护腕伸出剑刃、双卷黏藤主体核对通过；黏藤无容器。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-33af8142-bf5c-4a1d-abd3-f1865d281ef7.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-33af8142-bf5c-4a1d-abd3-f1865d281ef7"
+  }
+}

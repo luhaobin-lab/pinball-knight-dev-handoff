@@ -1,0 +1,95 @@
+{
+  "id": "I079",
+  "name": "蕴育石冠",
+  "status": "generated-normalized",
+  "source": "mothers/I079.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I079.png",
+  "motherSha256": "3752f3f0a4873854c133e5b8b5a6b700b2674dd979d94c13da1583724fc601ef",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I079.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5855,
+      "sha256": "4bb2e3107ccc058236ee438bf63f1c2c1180a8e463b1d8a64236bca378232885",
+      "pixelSha256": "e2a0faccc5f52f5886e6776cba85f10e44df5bb270ac19656b199c62daf55eed",
+      "alphaBounds": [
+        4,
+        8,
+        124,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          75,
+          1227,
+          1185
+        ],
+        "fitSize": [
+          120,
+          112
+        ],
+        "position": [
+          4,
+          8
+        ],
+        "scale": 0.10050251256281408
+      }
+    },
+    "256": {
+      "file": "pixels/256/I079.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21999,
+      "sha256": "d5f03ddb32f34f7aea311a1e28a6121668e3daf710944cf189ba84a9b9995981",
+      "pixelSha256": "2db242646c2dbe655ad0c6788ef84455a9e74d96513f5f26ee404331a02ccc97",
+      "alphaBounds": [
+        8,
+        16,
+        248,
+        239
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          75,
+          1227,
+          1185
+        ],
+        "fitSize": [
+          240,
+          223
+        ],
+        "position": [
+          8,
+          16
+        ],
+        "scale": 0.20100502512562815
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "完整石卵皇冠，主体及边界通过"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-cc9ce02e-02bb-48c8-9c8c-4757bd9feb6d.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-cc9ce02e-02bb-48c8-9c8c-4757bd9feb6d"
+  }
+}

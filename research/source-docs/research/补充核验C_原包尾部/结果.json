@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "status": "supplementary-tail-decoding-complete-awaiting-independent-review",
+  "target": {
+    "scope": "两处157字节未读尾部的实际保存、原UCAS重解压、字段解释和剩余边界",
+    "sourceBuild": "3910830/25684533",
+    "acceptance": [
+      "精确记录导出范围与原解析停止位置",
+      "当前原UCAS块再次解压匹配全包及尾部SHA256",
+      "153字节37字段消费与重编码完全一致",
+      "4字节nullindex及原生继承/CUE漏读条件定位",
+      "版本假设不冒充游戏确切源码",
+      "R3/旧提取报告保持不动"
+    ],
+    "forbidden": [
+      "游戏运行",
+      "原生游戏代码执行",
+      "旧资料和安装目录写入",
+      "把未读尾部直接判无关或padding"
+    ]
+  },
+  "facts": {
+    "tails": [
+      {
+        "slug": "dynamicmesh",
+        "bytes": 153,
+        "sha256": "319e9db1da2786df401b71b14ff3df34109107cc44cb0e6ca3b713bbb12d1aac"
+      },
+      {
+        "slug": "paperzd-cdo",
+        "bytes": 4,
+        "sha256": "df3f619804a92fdb4057192dc43dd748ea778adc52bc498ce80524c014b81119"
+      }
+    ],
+    "dynamicMeshFieldCount": 37,
+    "supplementaryConsumedBytes": 157,
+    "remainingOpaqueBytesInTwoTails": 0,
+    "dynamicMeshRoundTrip": true,
+    "originalUCASCrosscheck": true,
+    "sourceInstall41HashesUnchanged": true,
+    "R3ReportsChanged": false
+  },
+  "interpretation": {
+    "dynamicMesh": "空动态网格+空属性容器；含1UV、1法线层及None材质ID属性，不是填充，也不代表运行时没有几何",
+    "paperZD": "4字节0值FPackageIndex，与BlueprintGeneratedClass继承路径的空SerializedSparseClassDataStruct引用相符；CUE基于类名后缀判断漏过PaperZD派生名"
+  },
+  "confidenceBoundary": "原字节与PE继承事实直接来自当前包；序列化语法参照本机UE5.7.4，未认证为游戏确切编译源码，未独立验证PaperZD虚表无覆盖。",
+  "attempts": [
+    {
+      "lead": 1,
+      "action": "隔离诊断工具重复原CUE Deserialize，保存包/导出/停止偏移/尾部",
+      "result": "精准提取153+4，未改CUE库"
+    },
+    {
+      "lead": 2,
+      "action": "读CUE UDynamicMesh/UObject源码及当前PE类继承",
+      "result": "网格主体未实现；PaperZD派生类名不通过EndsWith判断"
+    },
+    {
+      "lead": 3,
+      "action": "本机UE5.7.4序列化语法对照与独立原UCAS解压",
+      "result": "37字段完整消费153并roundtrip；4字节空对象引用；保留版本边界"
+    }
+  ],
+  "umg": "bounded-unresolved-original-binary-chain",
+  "files": {
+    "sheets": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\tail-sheets.json",
+    "note": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\尾部157字节补充核对.md",
+    "summary": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\tail-decoding-summary.json",
+    "tails": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\evidence\\tails.json",
+    "fields": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\evidence\\dynamicmesh-tail-fields.json",
+    "originalUCAS": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\evidence\\original-ucas-crosscheck.json",
+    "paperZD": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\evidence\\paperzd-tail-interpretation.json",
+    "reproScript": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\decode_tails.py",
+    "sourceEvidence": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\evidence\\serializer-source-evidence.json",
+    "umg": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\provenance\\tail-followup\\evidence\\umg-zero-default-followup.json"
+  },
+  "proposals": [],
+  "needs": [
+    "主协调者独立审核后作为补充发布",
+    "保留当前Shipping序列化虚表链与UMG完整初始化链未闭合说明"
+  ],
+  "allOwnedProcessesFinished": true,
+  "createdAt": "2026-10-27T17:40:51.394563+00:00"
+}

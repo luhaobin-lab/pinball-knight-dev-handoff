@@ -1,0 +1,218 @@
+[
+  {
+    "id": "I073",
+    "name": "底力面具",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "饰品",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "饰品"
+    ],
+    "description": "完成充能时：\n治愈10。\n英雄基础伤害增加等同12.5%生命上限。",
+    "charge": "20.0",
+    "recycle": "2",
+    "recipe": "旧盾 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "mask",
+      "motif": "底力缝眼面具",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I074",
+    "name": "蛛后毒囊",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "工具",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "剧毒",
+      "投射",
+      "工具",
+      "中型"
+    ],
+    "description": "完成充能时：\n下4次反弹时投射毒气，在3回合内造成35剧毒伤害。\n每拥有250点生命上限，此物品提升100%伤害。",
+    "charge": "10.0",
+    "recycle": "2",
+    "recipe": "旧鞋 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "organ",
+      "motif": "蛛后八足毒囊",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I075",
+    "name": "药丸蜗牛",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "工具",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "工具"
+    ],
+    "description": "每通过0/3层，消耗1精核，获得1个药丸。",
+    "charge": "",
+    "recycle": "2",
+    "recipe": "旧鞋 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "creature",
+      "motif": "药丸蜗牛",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I076",
+    "name": "浴火拳套",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "饰品",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "火系",
+      "饰品"
+    ],
+    "description": "完成充能时：\n强固15。\n下2次碰撞敌人时，使其点燃，在3回合内造成25燃烧伤害。",
+    "charge": "16.0",
+    "recycle": "2",
+    "recipe": "旧皮衣 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "gauntlet",
+      "motif": "浴火关节拳套",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I077",
+    "name": "爆裂圆盾",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "工具",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "工具",
+      "地系",
+      "火系"
+    ],
+    "description": "完成充能时：\n强固10。\n下2次碰撞敌人时，引起爆炸，造成0伤害。\n获得1层格挡。\n此物品的伤害等同英雄当前的强固。",
+    "charge": "14.0",
+    "recycle": "2",
+    "recipe": "旧盾 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "shield",
+      "motif": "爆裂裂缝圆盾",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  },
+  {
+    "id": "I078",
+    "name": "超载十字架",
+    "category": "装备物品",
+    "subtype": "中型",
+    "kind": "工具",
+    "size": "中型",
+    "quality": "青铜 (0/1)",
+    "tags": [
+      "中型",
+      "电系",
+      "工具"
+    ],
+    "description": "完成充能时：\n强固5。\n每当物品生成强固，储存6伤害，回合开始时电击周围敌人，并释放这些伤害。",
+    "charge": "25.0",
+    "recycle": "2",
+    "recipe": "旧鞋 (1)",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "cross",
+      "motif": "超载铜十字",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "item",
+    "slot": {
+      "columns": 2,
+      "rows": 2
+    },
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "视频尺寸标签 + 用户指定占格映射"
+  }
+]

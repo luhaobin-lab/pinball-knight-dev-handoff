@@ -1,0 +1,80 @@
+{
+  "id": "I017",
+  "name": "双生长弓",
+  "status": "generated-normalized",
+  "source": "[original-local-file]/exec-877ca898-de39-44c0-83a9-5e4e308b101e.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I017.png",
+  "motherSha256": "2162114fe14fb5a6e68189590fd0f5d6b144971ebec4798fb4599c88f8b86a9b",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I017.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 6235,
+      "sha256": "d6ffa0274cb5db1dbd9a00151982328aba8479a76dd616e60511eace325580ae",
+      "pixelSha256": "5f8cb09847ef3de1575048bb55829df85ad10aaad473966d6544aadcccdb6e4c",
+      "alphaBounds": [
+        4,
+        4,
+        124,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          41,
+          21,
+          1013,
+          1515
+        ],
+        "fitSize": [
+          120,
+          184
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.12315930388219545
+      }
+    },
+    "256": {
+      "file": "pixels/256/I017.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 22573,
+      "sha256": "d4259f6905450c23604c12413117cc1ca02b8982d8190a05def2977823a6cdd1",
+      "pixelSha256": "9996082dae45617e11f1612ee78b723e4ebb958de61fef86f58831cd55c94eca",
+      "alphaBounds": [
+        8,
+        8,
+        246,
+        375
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          41,
+          21,
+          1013,
+          1515
+        ],
+        "fitSize": [
+          239,
+          368
+        ],
+        "position": [
+          8,
+          8
+        ],
+        "scale": 0.2463186077643909
+      }
+    }
+  },
+  "visualReview": "pending"
+}

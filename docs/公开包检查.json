@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-29",
+  "scannedTextFiles": 2584,
+  "commonCredentialPatternsFound": 0,
+  "checks": [
+    "常见API/GitHub令牌格式",
+    "私钥块",
+    "Bearer字面量",
+    "生成回执会话与账户字段"
+  ],
+  "scope": "规则扫描仅用于排除常见明文凭据，不代表完整安全审计；不输出凭据值",
+  "uiV10GenerationInputs": {
+    "checked": 51,
+    "allExistInPackage": true
+  },
+  "symlinks": 0,
+  "largestFile": {
+    "path": "game/spec/parity/catalog/catalog.json",
+    "bytes": 50622475
+  }
+}

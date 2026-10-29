@@ -1,0 +1,14 @@
+{
+  "galleryImages": 12,
+  "allOriginalsLoaded": true,
+  "beforeAfterTogglePassed": true,
+  "beforeImagesWidth": 1600,
+  "phonePreview": {
+    "width": 800,
+    "height": 360
+  },
+  "navigationPassed": true,
+  "mobileGalleryOverflow": false,
+  "pageErrors": [],
+  "scope": "仅图库切换、图片加载及静态预览；不是游戏或手机实机交互验证"
+}

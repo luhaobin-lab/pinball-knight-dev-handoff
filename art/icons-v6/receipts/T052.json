@@ -1,0 +1,86 @@
+{
+  "id": "T052",
+  "name": "不屈之魂",
+  "status": "generated-normalized",
+  "source": "mothers/T052.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T052.png",
+  "motherSha256": "44d2f453f097e803980a58bd563ff03b1bb3e688c1cdaddea238e073d19bdae3",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T052.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6448,
+      "sha256": "9e1ab6433ad4d1559fc5a0b6a7f0a6b65d01dd449d0c96ea0e4b1073542cfe13",
+      "pixelSha256": "b5c4052c16fba053d29adc4bd1091be5c7e7127759e18b45f91825d8843f91d2",
+      "alphaBounds": [
+        5,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          29,
+          12,
+          1242,
+          1243
+        ],
+        "fitSize": [
+          118,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.09748172217709179
+      }
+    },
+    "256": {
+      "file": "pixels/256/T052.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 22882,
+      "sha256": "532d78c8a56867a55aeee6de5068643c15caa377d1e26d1948e1e5bc2da95249",
+      "pixelSha256": "e39a0171e49ef1a29aa2f93ef32fde35eb53f74d350c598deca7e397d7ef7400",
+      "alphaBounds": [
+        10,
+        8,
+        246,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          29,
+          12,
+          1242,
+          1243
+        ],
+        "fitSize": [
+          236,
+          240
+        ],
+        "position": [
+          10,
+          8
+        ],
+        "scale": 0.19496344435418358
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-b5f5859b-5286-4d14-b147-fc449df6a0b2.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b5f5859b-5286-4d14-b147-fc449df6a0b2"
+  }
+}

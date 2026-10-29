@@ -1,0 +1,93 @@
+{
+  "id": "I174",
+  "name": "熔岩坚果",
+  "status": "generated-normalized",
+  "source": "mothers/I174.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I174.png",
+  "motherSha256": "3a78dc3bd2b9d16c9c6aa4b6773b15cc3a636f654465c0082c4a6317d4651a3e",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I174.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3292,
+      "sha256": "ff1513a34f306d6a14b716773aa99753c4e9c19aaedaf377385cdc0107c490c8",
+      "pixelSha256": "c1136334ed15e4fcab352ed6cf188f44e33fecab7e936591d56b8b5bafa684b7",
+      "alphaBounds": [
+        10,
+        4,
+        118,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          236,
+          87,
+          1656,
+          825
+        ],
+        "fitSize": [
+          108,
+          56
+        ],
+        "position": [
+          10,
+          4
+        ],
+        "scale": 0.07588075880758807
+      }
+    },
+    "256": {
+      "file": "pixels/256/I174.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 12025,
+      "sha256": "7fbd9d49b5ecea6d648b0f9c2bb477ea0194b57e94ed64b49bb0c0895919c0ca",
+      "pixelSha256": "600c8625f08fc8aec3a68ad70bcdfb273d88ec32fc31c883aaab6d4136a2dc35",
+      "alphaBounds": [
+        20,
+        8,
+        236,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          236,
+          87,
+          1656,
+          825
+        ],
+        "fitSize": [
+          216,
+          112
+        ],
+        "position": [
+          20,
+          8
+        ],
+        "scale": 0.15176151761517614
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-02.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-02.png",
+    "pixelSha256": "600c8625f08fc8aec3a68ad70bcdfb273d88ec32fc31c883aaab6d4136a2dc35",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-98cba05a-e5fd-44ad-bad1-fb6fe0525a7a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-98cba05a-e5fd-44ad-bad1-fb6fe0525a7a"
+  }
+}

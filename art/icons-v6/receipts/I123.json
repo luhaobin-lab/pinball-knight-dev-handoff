@@ -1,0 +1,95 @@
+{
+  "id": "I123",
+  "name": "毒囊",
+  "status": "generated-normalized",
+  "source": "mothers/I123.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I123.png",
+  "motherSha256": "614a269eaf76dd01e0b5dce62c6dd80fa97a32b0f0bfa036e9cf093707da7294",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I123.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2677,
+      "sha256": "212e8fa5ca05900ebb53a7813b8a42ca18b56f996b6ff1691a65304a2a52429c",
+      "pixelSha256": "df28e4f49370057830de69625cbff878a854bb5a9b592723130e0fb906fb44c0",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          60,
+          73,
+          1731,
+          826
+        ],
+        "fitSize": [
+          120,
+          54
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.0718132854578097
+      }
+    },
+    "256": {
+      "file": "pixels/256/I123.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9490,
+      "sha256": "41e0ff26515cf4947e1b1923652834502356a440e7568c7836416fe31c77099f",
+      "pixelSha256": "802269b16e438139b97e50fdae09c29d78fc34d60a7678560de972e62386bd90",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        118
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          60,
+          73,
+          1731,
+          826
+        ],
+        "fitSize": [
+          240,
+          108
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.1436265709156194
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "双导管毒囊、染毒弯牙、三色宝石主体核对通过，无裁切无文字。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-47928a04-2f5f-4ae5-b4d9-234916ddc471.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-47928a04-2f5f-4ae5-b4d9-234916ddc471"
+  }
+}

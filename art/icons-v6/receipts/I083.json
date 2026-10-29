@@ -1,0 +1,95 @@
+{
+  "id": "I083",
+  "name": "震雷木",
+  "status": "generated-normalized",
+  "source": "mothers/I083.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I083.png",
+  "motherSha256": "d32a08f8e075a13f7087eaf0616383eb5c5e1c2150b3dcfad3447c61bbc5517d",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I083.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5219,
+      "sha256": "6e6b819b6819a9306b712d7d72b3dd7be4b799e8b8a80216922aff38da8584fe",
+      "pixelSha256": "731b1be09a7f660da58bec16041781a880ce7bdbd1e9a0f5d74baaaed856d90e",
+      "alphaBounds": [
+        10,
+        4,
+        117,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          135,
+          46,
+          1178,
+          1214
+        ],
+        "fitSize": [
+          107,
+          120
+        ],
+        "position": [
+          10,
+          4
+        ],
+        "scale": 0.10273972602739725
+      }
+    },
+    "256": {
+      "file": "pixels/256/I083.png",
+      "width": 256,
+      "height": 256,
+      "colors": 95,
+      "bytes": 19247,
+      "sha256": "8c79e4b62a86c8adff4e10cde75f32025d9ea9cbda660acd3c6554dff2798941",
+      "pixelSha256": "c4fa8ac21dad344259c92fa0f953bdb5102a541e4bbe605dafafa506f2ee1fb3",
+      "alphaBounds": [
+        22,
+        8,
+        235,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          135,
+          46,
+          1178,
+          1214
+        ],
+        "fitSize": [
+          214,
+          240
+        ],
+        "position": [
+          21,
+          8
+        ],
+        "scale": 0.2054794520547945
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "已目视核对请求主体、完整轮廓与单图标构图，无背景、无文字。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-f3bb5de2-4c69-4bbb-9c1c-347a75febacc.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f3bb5de2-4c69-4bbb-9c1c-347a75febacc"
+  }
+}

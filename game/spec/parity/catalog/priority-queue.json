@@ -1,0 +1,3212 @@
+{
+  "sourceCommit": "fd68057af7b4ba58459f306c78b042c12f4d1830",
+  "priority": [
+    {
+      "rank": 0,
+      "id": "feel-native-reference",
+      "reason": "Producer explicitly rejected roll/ricochet/effect/environment behaviour; establish exact original capture and restore existing approved presentation before another thin-loop claim.",
+      "owners": [
+        "root-reference",
+        "parity-launch",
+        "parity-presentation"
+      ],
+      "evidence": [
+        "studio/control/USER-REVISION-20261027.md",
+        "nativeInventory.criticalGaps"
+      ]
+    },
+    {
+      "rank": 1,
+      "id": "gatekeeper-complete",
+      "owners": [
+        "boss-gatekeeper"
+      ],
+      "reason": "Final boss source7 fixed skills are reduced to meat-tank by current stage projection; full phase/telegraphs/attacks are a direct playable mismatch.",
+      "prerequisites": [
+        "hazard/projectile render bridge",
+        "original boss replay"
+      ],
+      "rows": [
+        "数据表_敌人_普通#守门人"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "room-tutorial-enemy-admission",
+      "owners": [
+        "core-room",
+        "sys-tutorial",
+        "enemy-eyeball-ghost",
+        "enemy-crystal-brain",
+        "env-hazards"
+      ],
+      "reason": "Current rectangle/no-fog, skipped tutorial and4enemy whitelist exclude reachable source routes and shared projectile/spawn mechanics.",
+      "prerequisites": [
+        "source shape/collision traces",
+        "real UI input and projectile presentation"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "inventory-economy-state",
+      "owners": [
+        "sys-craft",
+        "sys-enchant",
+        "sys-shop-events",
+        "sys-camp-meta",
+        "sys-save"
+      ],
+      "reason": "Reachable recipes/enchant/event/reward/save lifecycle are not optional under the revised complete-Demo target. They unlock broad item routes; implement before counting content admission."
+    },
+    {
+      "rank": 4,
+      "id": "hero-and-passive-content",
+      "owners": [
+        "bp-hero-knight",
+        "bp-hero-hunter",
+        "bp-items-1",
+        "bp-items-2",
+        "bp-items-3",
+        "bp-items-4",
+        "bp-items-5",
+        "bp-items-6",
+        "bp-talents-1",
+        "bp-talents-2",
+        "bp-talents-3"
+      ],
+      "reason": "Port by shared missing dependency fan-out, not by number of empty registrations. Test trigger/cost/target/duration/cleanup and original runtime comparison per mechanism."
+    },
+    {
+      "rank": 5,
+      "id": "full-filter-reference-acceptance",
+      "owners": [
+        "integration",
+        "verify-items",
+        "verify-talents"
+      ],
+      "reason": "Remove G2 stage exclusions only after each natural source route has working dependencies. All-mode alone currently permits fallback stubs; bot self-consistency alone is not parity."
+    }
+  ],
+  "batches": [
+    {
+      "owner": "core-turn",
+      "sourceClasses": 7,
+      "missingClasses": 0,
+      "registeredClasses": 7,
+      "sourcePseudoLines": 1125,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/Ability/Mission/BP_Mission",
+        "CatapultHero/BP/Skill/效果/任务/蓝图_任务目标_完成交互",
+        "CatapultHero/BP/Skill/效果/任务/蓝图_任务目标_抵达层数",
+        "CatapultHero/BP/Skill/效果/任务/蓝图_任务目标_新手关通关",
+        "CatapultHero/BP/Skill/效果/任务/蓝图_任务目标_清理房间",
+        "CatapultHero/BP/Skill/效果/任务/蓝图_任务目标_空",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_退出回合开始检查"
+      ]
+    },
+    {
+      "owner": "core-talents",
+      "sourceClasses": 10,
+      "missingClasses": 0,
+      "registeredClasses": 10,
+      "sourcePseudoLines": 1549,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/Ability/天赋/蓝图_能力_修改全局词条",
+        "CatapultHero/BP/Skill/Ability/天赋/蓝图_能力_基于初始修改加算属性",
+        "CatapultHero/BP/Skill/Ability/天赋/蓝图_能力_基于当前参数加算属性",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_获取天赋",
+        "CatapultHero/BP/Skill/Ability/诅咒/蓝图_诅咒_额外经验",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_天赋卷轴",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_光环修改物品词条",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_光环修改玩家词条",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_升级获取天赋",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_首领天赋获取"
+      ]
+    },
+    {
+      "owner": "bp-talents-3",
+      "sourceClasses": 18,
+      "missingClasses": 18,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2474,
+      "affectedReachableRows": [
+        "数据表_天赋_boss专属#癫狂",
+        "数据表_天赋_专属#重伤",
+        "数据表_天赋_专属#战斗怒吼",
+        "数据表_天赋_专属#百磨之刃",
+        "数据表_天赋_专属#甲之吐息",
+        "数据表_天赋_专属#不屈之魂",
+        "数据表_天赋_专属#穿透射击",
+        "数据表_天赋_专属#短兵相接",
+        "数据表_天赋_专属#血铸壁垒",
+        "数据表_天赋_专属#稳固射击",
+        "数据表_天赋_专属#追风",
+        "数据表_天赋_专属#连锁打击",
+        "数据表_天赋_专属#神速力",
+        "数据表_天赋_新新通用#药剂师",
+        "数据表_天赋_新新通用#重力冲刺",
+        "数据表_天赋_新新通用#绝地反击",
+        "数据表_天赋_新新通用#连锁反应",
+        "数据表_天赋_新新通用#蓄势待发",
+        "数据表_修炼物品_专属_幽冥骑士#蓄势战甲"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/天赋/蓝图_能力_穿透投射",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_癫狂",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_百磨之刃",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_短兵相接",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_稳固射击",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_筛选新回合灌注",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_绝地反击",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_药剂师",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_蓄势待发",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_蓄势战甲",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_血铸壁垒",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_评分获得效果",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_连锁反应",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_连锁打击",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_追风",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_重伤",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_重力冲刺",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_铠甲大师"
+      ],
+      "present": []
+    },
+    {
+      "owner": "sys-shop-events",
+      "sourceClasses": 10,
+      "missingClasses": 10,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 969,
+      "affectedReachableRows": [
+        "数据表_地图格#属性房",
+        "数据表_修炼物品_通用#祝福之灵",
+        "数据表_修炼物品_通用#远古兽肉"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_修改英雄和物品属性",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_感知精核经验",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_随机增精",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_随机生命",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_额外经验",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_能力_事件抉择",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_能力_升级所有物品",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_给英雄附加效果",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_修改玩家属性",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_祝福奖励"
+      ],
+      "present": []
+    },
+    {
+      "owner": "core-rewards",
+      "sourceClasses": 14,
+      "missingClasses": 0,
+      "registeredClasses": 14,
+      "sourcePseudoLines": 2506,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_初始奖励A",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_复合奖励",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_无",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_获取物品",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_获取经验",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_能力_创建物品到侧栏",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_点击交互",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_点击交互_任务宝箱",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_点击交互_打开盒子",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_精核矿",
+        "CatapultHero/BP/Skill/效果/可拾取物/蓝图_货币",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_获取地图宝藏",
+        "CatapultHero/BP/Skill/效果/道具/蓝图_效果_交互物被动",
+        "CatapultHero/BP/Skill/效果/道具/蓝图_效果_物品被使用"
+      ]
+    },
+    {
+      "owner": "sys-tutorial",
+      "sourceClasses": 3,
+      "missingClasses": 3,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 566,
+      "affectedReachableRows": [
+        "数据表_地图格#新手关02",
+        "数据表_地图格#新手关04"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_复合奖励_新手关",
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_解锁任务",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_获取轮回宝藏"
+      ],
+      "present": []
+    },
+    {
+      "owner": "sys-craft",
+      "sourceClasses": 3,
+      "missingClasses": 3,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 607,
+      "affectedReachableRows": [],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/奖励/蓝图_能力_兑换物品",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_锻造锤_品质",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_锻造锤_标签"
+      ],
+      "present": []
+    },
+    {
+      "owner": "enemy-crystal-brain",
+      "sourceClasses": 9,
+      "missingClasses": 9,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 1384,
+      "affectedReachableRows": [
+        "数据表_敌人_普通#大肠团",
+        "数据表_敌人_普通#结晶",
+        "数据表_敌人_普通#结晶簇",
+        "数据表_敌人_普通#水母脑",
+        "数据表_敌人_普通#章鱼脑"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_八面散射",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_电场",
+        "CatapultHero/BP/Skill/Ability/蓝图_能力_召唤",
+        "CatapultHero/BP/Skill/Ability/蓝图_能力_给自身附加效果",
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_晶刺",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_反击状态",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_反弹创建地形",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_死亡创建尖刺",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_电网"
+      ],
+      "present": []
+    },
+    {
+      "owner": "core-ai",
+      "sourceClasses": 7,
+      "missingClasses": 0,
+      "registeredClasses": 7,
+      "sourcePseudoLines": 1129,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_大肠酸液",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_弹射",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_治愈_强固",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_意图",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_肉弹战车",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_血卵孵化",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_弹射"
+      ]
+    },
+    {
+      "owner": "boss-gatekeeper",
+      "sourceClasses": 9,
+      "missingClasses": 9,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2385,
+      "affectedReachableRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_撕咬搜寻",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_熔岩道",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_目视",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_连环重锤",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_重锤",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_岩浆地板",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_连环重锤",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_飞跃重击",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_首领_守门人"
+      ],
+      "present": []
+    },
+    {
+      "owner": "enemy-eyeball-ghost",
+      "sourceClasses": 10,
+      "missingClasses": 10,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 1705,
+      "affectedReachableRows": [
+        "数据表_敌人_普通#新手关眼球包2",
+        "数据表_敌人_普通#眼球包",
+        "数据表_敌人_普通#盗宝黏菌",
+        "数据表_敌人_普通#齐刘海",
+        "数据表_敌人_普通#眼球_融合"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_投射",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_融合弹射",
+        "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_闪现",
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_齐刘海飞弹",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_幽魂池",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_死亡创建地形",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_眼球包打开",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_眼球抛出",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_黏菌逃跑",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_反弹时融合"
+      ],
+      "present": []
+    },
+    {
+      "owner": "bp-hero-knight",
+      "sourceClasses": 12,
+      "missingClasses": 12,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2230,
+      "affectedReachableRows": [
+        "数据表_天赋_boss专属#蓄力击",
+        "数据表_天赋_专属#野蛮冲撞",
+        "数据表_天赋_专属#幻影斩",
+        "数据表_天赋_专属#血祭之力",
+        "数据表_天赋_专属#举盾",
+        "数据表_天赋_专属#钩锁",
+        "数据表_天赋_专属#弹跳连射",
+        "数据表_天赋_专属#腾跃",
+        "数据表_天赋_专属#打磨",
+        "数据表_天赋_专属#专注",
+        "数据表_天赋_专属#自然之力"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_举盾",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_幻影斩",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_瞄准射击",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_给英雄和物品附加效果",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_血祭之力",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_野蛮冲撞",
+        "CatapultHero/BP/Skill/Ability/蓝图_能力_给自身加主动",
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_抓钩",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_临时属性_预算（结束层销毁）",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_举盾",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_幻影斩",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_野蛮冲撞"
+      ],
+      "present": []
+    },
+    {
+      "owner": "bp-hero-hunter",
+      "sourceClasses": 9,
+      "missingClasses": 9,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2366,
+      "affectedReachableRows": [
+        "数据表_天赋_boss专属#蓄力击",
+        "数据表_天赋_专属#弹跳连射",
+        "数据表_天赋_专属#腾跃",
+        "数据表_天赋_专属#打磨",
+        "数据表_天赋_专属#专注",
+        "数据表_天赋_专属#自然之力",
+        "数据表_修炼物品_专属_灵魂猎手#分身短弓",
+        "数据表_修炼物品_专属_灵魂猎手#凝神连弩",
+        "数据表_修炼物品_专属_灵魂猎手#双生长弓",
+        "数据表_修炼物品_专属_灵魂猎手#幻影轻弩",
+        "数据表_修炼物品_专属_灵魂猎手#蝮蛇弓",
+        "数据表_修炼物品_专属_灵魂猎手#炸弹弓",
+        "数据表_修炼物品_专属_灵魂猎手#闪鸣弓",
+        "数据表_修炼物品_通用#旧弓",
+        "数据表_玩家#灵魂猎手"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_弹跳连射",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_投掷_地形区域",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_给物品附加效果",
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_腾跃",
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_弹跳箭",
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_箭矢",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_临时属性_不预算（结束层销毁）",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_必定会心",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_腾跃"
+      ],
+      "present": []
+    },
+    {
+      "owner": "core-launch-sys",
+      "sourceClasses": 14,
+      "missingClasses": 0,
+      "registeredClasses": 14,
+      "sourcePseudoLines": 2187,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_挥击",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_灌注",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蓄能造成持续伤害",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蓄能造成额外伤害",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_反弹中",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_反弹时攻击",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_可控反弹动画",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_可控反弹时交互",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_可控弹射",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_时间变速",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_残影",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_蓄能攻击时XX",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_蓄能碰撞XX时XX",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_闪烁"
+      ]
+    },
+    {
+      "owner": "core-stamina",
+      "sourceClasses": 13,
+      "missingClasses": 0,
+      "registeredClasses": 13,
+      "sourcePseudoLines": 2084,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_获得精神状态",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_恢复体力",
+        "CatapultHero/BP/Skill/效果/玩家/精神状态/蓝图_效果_精神状态",
+        "CatapultHero/BP/Skill/效果/玩家/精神状态/蓝图_效果_精神状态_光阴",
+        "CatapultHero/BP/Skill/效果/玩家/精神状态/蓝图_效果_精神状态_幸运",
+        "CatapultHero/BP/Skill/效果/玩家/精神状态/蓝图_效果_精神状态_格挡",
+        "CatapultHero/BP/Skill/效果/玩家/精神状态/蓝图_效果_精神状态_疼痛",
+        "CatapultHero/BP/Skill/效果/玩家/精神状态/蓝图_效果_精神状态_迷​茫",
+        "CatapultHero/BP/Skill/效果/玩家/精神状态/蓝图_效果_精神状态_闪避",
+        "CatapultHero/BP/Skill/效果/玩家/精神状态/蓝图_效果_精神状态_饥饱",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_临时属性（精神）",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_玩家被动",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_终级抉择"
+      ]
+    },
+    {
+      "owner": "core-ability",
+      "sourceClasses": 8,
+      "missingClasses": 0,
+      "registeredClasses": 8,
+      "sourcePseudoLines": 2103,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/Ability/蓝图_能力_给自身加被动",
+        "CatapultHero/BP/Skill/Ability/蓝图_能力_给自身加被动_多个",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_冷却",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_吟唱",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_玩家不可交互",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_空",
+        "CatapultHero/BP/Skill/蓝图_效果",
+        "CatapultHero/BP/Skill/蓝图_能力"
+      ]
+    },
+    {
+      "owner": "bp-items-1",
+      "sourceClasses": 24,
+      "missingClasses": 24,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2432,
+      "affectedReachableRows": [
+        "数据表_天赋_专属#自然之力",
+        "数据表_天赋_专属#心流原力",
+        "数据表_天赋_专属#神速力",
+        "数据表_天赋_新新通用#嗜血本能",
+        "数据表_修炼物品_专属_元素祭司#火山药水",
+        "数据表_修炼物品_专属_元素祭司#焚天兜帽",
+        "数据表_修炼物品_专属_元素祭司#璀璨结晶",
+        "数据表_修炼物品_专属_元素祭司#雷神匕首",
+        "数据表_修炼物品_专属_元素祭司#爆裂圆盾",
+        "数据表_修炼物品_专属_元素祭司#熔岩坚果",
+        "数据表_修炼物品_专属_元素祭司#震雷木",
+        "数据表_修炼物品_专属_幽冥骑士#导能护符",
+        "数据表_修炼物品_专属_幽冥骑士#回旋盔甲",
+        "数据表_修炼物品_专属_幽冥骑士#打磨器",
+        "数据表_修炼物品_专属_幽冥骑士#激素腰带",
+        "数据表_修炼物品_专属_恶疫旅人#无尽水壶",
+        "数据表_修炼物品_专属_恶疫旅人#瘟疫花",
+        "数据表_修炼物品_专属_灵魂猎手#利齿骨鞭",
+        "数据表_修炼物品_专属_灵魂猎手#分身短弓",
+        "数据表_修炼物品_专属_灵魂猎手#共鸣结晶",
+        "数据表_修炼物品_专属_灵魂猎手#虚空工具盒",
+        "数据表_修炼物品_通用#传奇附魔A",
+        "数据表_修炼物品_通用#传奇附魔E",
+        "数据表_修炼物品_通用#旧绷带",
+        "数据表_修炼物品_通用#精矿",
+        "数据表_修炼物品_通用#旧长袍",
+        "数据表_修炼物品_通用#骨刺",
+        "数据表_修炼物品_通用#魔力石",
+        "数据表_修炼物品_通用#淬炼宝石",
+        "数据表_修炼物品_通用#优质兽皮",
+        "数据表_修炼物品_通用#黄色药丸",
+        "数据表_修炼物品_通用#蓝色药丸",
+        "数据表_修炼物品_通用#红色药丸",
+        "数据表_修炼物品_通用#绿色药丸",
+        "数据表_修炼物品_通用#紫色药丸",
+        "数据表_修炼物品_通用#蕨叶",
+        "数据表_修炼物品_通用#毒囊",
+        "数据表_修炼物品_通用#增生肉瘤",
+        "数据表_修炼物品_通用#异变种子",
+        "数据表_修炼物品_通用#多彩宝石",
+        "数据表_修炼物品_通用#克隆触手",
+        "数据表_修炼物品_通用#亡者之息",
+        "数据表_修炼物品_通用#晶核剑"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/蓝图_能力_给自身加被动_特殊描述",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_XX等于玩家精矿",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_下一场属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_临时弹性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_会心时灌注自己",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_伤害等于总护甲",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_伤害等于英雄基础伤害",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_充能修改物品词条",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_克隆触手",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解修改所有物品",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解修改物品属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解修改玩家属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解后复制",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解得额外精核",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解移除腐化",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分身弓",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_利齿骨鞭",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_反弹灌注",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_反弹灌注物品",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_吸血",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_嗜血本能",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_回合开始恢复",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_回合开始格挡闪避",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_回旋大剑"
+      ],
+      "present": []
+    },
+    {
+      "owner": "core-inventory",
+      "sourceClasses": 6,
+      "missingClasses": 0,
+      "registeredClasses": 6,
+      "sourcePseudoLines": 777,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_恢复生命和强固",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_空",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_充能闪避格挡",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_XX等于XX",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蓄能获得生命or护甲",
+        "CatapultHero/BP/Skill/效果/道具/蓝图_效果_死亡创建物品"
+      ]
+    },
+    {
+      "owner": "sys-camp-meta",
+      "sourceClasses": 2,
+      "missingClasses": 2,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 210,
+      "affectedReachableRows": [
+        "数据表_修炼物品_通用#破损的神像",
+        "数据表_玩家#神像"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_破损的神像",
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_神像"
+      ],
+      "present": []
+    },
+    {
+      "owner": "bp-items-5",
+      "sourceClasses": 20,
+      "missingClasses": 20,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2393,
+      "affectedReachableRows": [
+        "数据表_天赋_专属#苦痛转化",
+        "数据表_修炼物品_专属_元素祭司#蕴育石像",
+        "数据表_修炼物品_专属_元素祭司#超载十字架",
+        "数据表_修炼物品_专属_幽冥骑士#血契战盾",
+        "数据表_修炼物品_专属_幽冥骑士#导能护符",
+        "数据表_修炼物品_专属_幽冥骑士#蓄能手斧",
+        "数据表_修炼物品_专属_恶疫旅人#鲜血教母",
+        "数据表_修炼物品_专属_恶疫旅人#猩红壁垒",
+        "数据表_修炼物品_专属_恶疫旅人#混沌大剑",
+        "数据表_修炼物品_专属_恶疫旅人#汲取藤蔓",
+        "数据表_修炼物品_专属_恶疫旅人#花冠",
+        "数据表_修炼物品_专属_恶疫旅人#增生触手",
+        "数据表_修炼物品_专属_恶疫旅人#噬毒护符",
+        "数据表_修炼物品_专属_恶疫旅人#饮血宝石",
+        "数据表_修炼物品_专属_恶疫旅人#蛛后毒囊",
+        "数据表_修炼物品_专属_灵魂猎手#利齿骨鞭",
+        "数据表_修炼物品_专属_灵魂猎手#血舞斗篷",
+        "数据表_修炼物品_专属_灵魂猎手#凝神连弩",
+        "数据表_修炼物品_专属_灵魂猎手#魅影长靴",
+        "数据表_修炼物品_专属_灵魂猎手#守护之戒",
+        "数据表_修炼物品_专属_灵魂猎手#泣血指环",
+        "数据表_修炼物品_通用#绷带",
+        "数据表_修炼物品_通用#旧皮衣",
+        "数据表_修炼物品_通用#旧手套",
+        "数据表_修炼物品_通用#巨神兵大剑",
+        "数据表_修炼物品_通用#不可撼动之甲",
+        "数据表_修炼物品_通用#万里追风靴",
+        "数据表_修炼物品_通用#有机核心",
+        "数据表_修炼物品_通用#超载神经",
+        "数据表_修炼物品_通用#记忆珠",
+        "数据表_修炼物品_通用#贪婪手套"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_移除持续伤害",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_自身会心修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_花冠",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_花冠加成",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_英雄受治疗修改物品词条",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_英雄失去生命修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_英雄失去生命灌注物品",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_获取物品修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_获得灌注修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蓄能自伤",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蕴育石像",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蛛后毒囊",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蛛后毒囊加成",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_血契战盾",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_血舞斗篷",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_装卸修改英雄属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_记忆珠",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_贪婪手套",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_超载十字架",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_超载神经"
+      ],
+      "present": []
+    },
+    {
+      "owner": "bp-items-6",
+      "sourceClasses": 18,
+      "missingClasses": 18,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2366,
+      "affectedReachableRows": [
+        "数据表_修炼物品_专属_元素祭司#风火权杖",
+        "数据表_修炼物品_专属_元素祭司#雷神匕首",
+        "数据表_修炼物品_专属_元素祭司#雷云精灵",
+        "数据表_修炼物品_专属_元素祭司#黑洞法杖",
+        "数据表_修炼物品_专属_幽冥骑士#铸甲重锤",
+        "数据表_修炼物品_专属_幽冥骑士#魔力皮靴",
+        "数据表_修炼物品_专属_幽冥骑士#再生腰带",
+        "数据表_修炼物品_专属_恶疫旅人#花冠",
+        "数据表_修炼物品_专属_灵魂猎手#血舞斗篷",
+        "数据表_修炼物品_专属_灵魂猎手#凝血毒剂",
+        "数据表_修炼物品_专属_灵魂猎手#速效药剂",
+        "数据表_修炼物品_通用#传奇附魔F",
+        "数据表_修炼物品_通用#灼热眼珠",
+        "数据表_修炼物品_通用#黄金头盔",
+        "数据表_修炼物品_通用#纳气石锤",
+        "数据表_修炼物品_通用#酸性血液",
+        "数据表_修炼物品_通用#魂珠"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_魂珠",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_速效药剂加成",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_造成伤害恢复",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_闪避修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_雷云精灵",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_雷神匕首",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_额外持续加成",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_风火场",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_高温眼珠",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_魂珠A",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_魂珠_炼尸",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_魔力头冠",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_魔力皮靴",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_黄金头盔",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_黑洞",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_黑洞法杖A",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_黑洞法杖B加成",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_物品类型数修改自身属性"
+      ],
+      "present": []
+    },
+    {
+      "owner": "bp-items-4",
+      "sourceClasses": 21,
+      "missingClasses": 21,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2503,
+      "affectedReachableRows": [
+        "数据表_天赋_专属#甲之吐息",
+        "数据表_修炼物品_专属_元素祭司#浴火长袍",
+        "数据表_修炼物品_专属_元素祭司#追风短剑",
+        "数据表_修炼物品_专属_元素祭司#璀璨结晶",
+        "数据表_修炼物品_专属_元素祭司#雷云精灵",
+        "数据表_修炼物品_专属_元素祭司#秘银鳞片",
+        "数据表_修炼物品_专属_幽冥骑士#回旋盔甲",
+        "数据表_修炼物品_专属_幽冥骑士#巨人盾斧",
+        "数据表_修炼物品_专属_幽冥骑士#寄生犄角",
+        "数据表_修炼物品_专属_幽冥骑士#活体软甲",
+        "数据表_修炼物品_专属_幽冥骑士#尖角头盔",
+        "数据表_修炼物品_专属_幽冥骑士#寻宝锄",
+        "数据表_修炼物品_专属_幽冥骑士#聚气果",
+        "数据表_修炼物品_专属_幽冥骑士#护盾孢子",
+        "数据表_修炼物品_专属_恶疫旅人#瘟疫花",
+        "数据表_修炼物品_专属_恶疫旅人#女妖长袍",
+        "数据表_修炼物品_专属_恶疫旅人#增生触手",
+        "数据表_修炼物品_专属_恶疫旅人#疫病虫巢",
+        "数据表_修炼物品_专属_恶疫旅人#月光蕨",
+        "数据表_修炼物品_专属_恶疫旅人#蛛后毒囊",
+        "数据表_修炼物品_专属_恶疫旅人#药丸蜗牛",
+        "数据表_修炼物品_专属_灵魂猎手#利齿骨鞭",
+        "数据表_修炼物品_专属_灵魂猎手#虚空工具盒",
+        "数据表_修炼物品_通用#万里追风靴",
+        "数据表_修炼物品_通用#粘稠体液",
+        "数据表_修炼物品_通用#眼球杖",
+        "数据表_修炼物品_通用#纳气石锤",
+        "数据表_修炼物品_通用#毒囊",
+        "数据表_修炼物品_通用#腥臭尖牙",
+        "数据表_修炼物品_通用#女王石",
+        "数据表_修炼物品_通用#克隆触手"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_剑气",
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_毒气",
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_灼热射线",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_电击球",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_疫病虫巢",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_瘟疫花",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_眼球杖",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞XX敌人时灌注",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞XX附加效果",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞投射气刃",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞造成即时伤害",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞造成持续伤害",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_秘银鳞片",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_粘稠体液",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_纳气石锤",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_结束层创建材料",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_结束层创建物品",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_结束层后复制",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_聚气果",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_腥臭尖牙",
+        "CatapultHero/BP/Skill/效果/过期/蓝图_效果_秘银鳞片"
+      ],
+      "present": []
+    },
+    {
+      "owner": "bp-items-2",
+      "sourceClasses": 20,
+      "missingClasses": 20,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2379,
+      "affectedReachableRows": [
+        "数据表_天赋_boss专属#爆裂火星",
+        "数据表_天赋_专属#绝命",
+        "数据表_天赋_专属#铜墙铁壁",
+        "数据表_天赋_专属#生生不息",
+        "数据表_天赋_新新通用#余震",
+        "数据表_修炼物品_专属_元素祭司#风火权杖",
+        "数据表_修炼物品_专属_元素祭司#追风短剑",
+        "数据表_修炼物品_专属_元素祭司#蕴育石像",
+        "数据表_修炼物品_专属_幽冥骑士#振金护腕",
+        "数据表_修炼物品_专属_幽冥骑士#延时护符",
+        "数据表_修炼物品_专属_幽冥骑士#铸甲重锤",
+        "数据表_修炼物品_专属_幽冥骑士#巨人盾斧",
+        "数据表_修炼物品_专属_幽冥骑士#旋风杖",
+        "数据表_修炼物品_专属_幽冥骑士#寄生犄角",
+        "数据表_修炼物品_专属_幽冥骑士#活体软甲",
+        "数据表_修炼物品_专属_幽冥骑士#尖角头盔",
+        "数据表_修炼物品_专属_恶疫旅人#底力面具",
+        "数据表_修炼物品_专属_灵魂猎手#凝神连弩",
+        "数据表_修炼物品_专属_灵魂猎手#双生长弓",
+        "数据表_修炼物品_专属_灵魂猎手#幻影轻弩",
+        "数据表_修炼物品_专属_灵魂猎手#饕餮之刃",
+        "数据表_修炼物品_专属_灵魂猎手#投手之握",
+        "数据表_修炼物品_专属_灵魂猎手#蝮蛇弓",
+        "数据表_修炼物品_专属_灵魂猎手#炸弹弓",
+        "数据表_修炼物品_专属_灵魂猎手#闪鸣弓",
+        "数据表_修炼物品_专属_灵魂猎手#共鸣结晶",
+        "数据表_修炼物品_通用#充能附魔B",
+        "数据表_修炼物品_通用#旧弓",
+        "数据表_修炼物品_通用#黄金头盔",
+        "数据表_修炼物品_通用#寂静法杖"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/发射物/蓝图_发射物_旋风01",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_天赋给敌人附加效果",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_如果唯一",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_寂静法杖",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_寄生尖刺",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_尖角头盔",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_底力面具加成",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_延时护符",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_延时护符加成",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_投手之握",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_抵抗致死",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_振金护腕",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_新回合灌注",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_旋风杖",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有XX物品会心修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有充能完成修改英雄属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有其他分解修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有完成充能修改相邻属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有完成充能修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_朝敌人投射（碰撞）"
+      ],
+      "present": []
+    },
+    {
+      "owner": "env-hazards",
+      "sourceClasses": 4,
+      "missingClasses": 2,
+      "registeredClasses": 2,
+      "sourcePseudoLines": 1131,
+      "affectedReachableRows": [
+        "数据表_敌人_普通#结晶",
+        "数据表_敌人_普通#结晶簇"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/效果/可拾取物/蓝图_可拾取物_保护罩",
+        "CatapultHero/BP/Skill/效果/可拾取物/蓝图_可拾取物_尖刺"
+      ],
+      "present": [
+        "CatapultHero/BP/Skill/效果/可拾取物/蓝图_可拾取物",
+        "CatapultHero/BP/Skill/效果/可拾取物/蓝图_可拾取物_加速点"
+      ]
+    },
+    {
+      "owner": "bp-talents-1",
+      "sourceClasses": 18,
+      "missingClasses": 18,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2530,
+      "affectedReachableRows": [
+        "数据表_天赋_boss专属#大型装甲",
+        "数据表_天赋_专属#重伤",
+        "数据表_天赋_专属#铜墙铁壁",
+        "数据表_天赋_专属#动能吸收",
+        "数据表_天赋_专属#屠戮收割",
+        "数据表_天赋_专属#利钢淬血",
+        "数据表_天赋_专属#猎头",
+        "数据表_天赋_专属#回流",
+        "数据表_天赋_专属#血铸壁垒",
+        "数据表_天赋_专属#稳固射击",
+        "数据表_天赋_专属#连锁打击",
+        "数据表_天赋_专属#创口切割",
+        "数据表_天赋_专属#心流原力",
+        "数据表_天赋_专属#守护恩泽",
+        "数据表_天赋_专属#生生不息",
+        "数据表_天赋_专属#大地之心",
+        "数据表_天赋_新新通用#完美主义",
+        "数据表_天赋_新新通用#临阵强固",
+        "数据表_天赋_新新通用#弱点洞察",
+        "数据表_天赋_新新通用#嗜血本能",
+        "数据表_修炼物品_专属_元素祭司#风火权杖",
+        "数据表_修炼物品_专属_元素祭司#蕴育石像",
+        "数据表_修炼物品_专属_元素祭司#雷云精灵",
+        "数据表_修炼物品_专属_元素祭司#黑洞法杖",
+        "数据表_修炼物品_专属_幽冥骑士#固甲石",
+        "数据表_修炼物品_专属_幽冥骑士#旋风杖",
+        "数据表_修炼物品_专属_幽冥骑士#再生腰带",
+        "数据表_修炼物品_专属_恶疫旅人#女妖长袍",
+        "数据表_修炼物品_专属_灵魂猎手#迷踪披风",
+        "数据表_修炼物品_专属_灵魂猎手#凝血毒剂",
+        "数据表_修炼物品_专属_灵魂猎手#幻影轻弩",
+        "数据表_修炼物品_专属_灵魂猎手#无限箭袋",
+        "数据表_修炼物品_通用#旧长袍",
+        "数据表_修炼物品_通用#旧法杖",
+        "数据表_修炼物品_通用#眼球杖",
+        "数据表_修炼物品_通用#酸性血液",
+        "数据表_修炼物品_通用#有机核心",
+        "数据表_修炼物品_通用#寂静法杖"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_临时词条属性（不预算）",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_临阵磨枪",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_充能获得光阴",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_光环修改标签",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_创口切割",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_利钢萃血",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_医疗格挡",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_反弹治愈",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_回流",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_固甲石",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_大地之心",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_大型装甲",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_天赋修改英雄属性",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_天赋给物品附加效果",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_完美主义",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_屠戮收割",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_幻影之握",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_弱点洞察"
+      ],
+      "present": []
+    },
+    {
+      "owner": "bp-talents-2",
+      "sourceClasses": 16,
+      "missingClasses": 16,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2429,
+      "affectedReachableRows": [
+        "数据表_天赋_boss专属#新生之力",
+        "数据表_天赋_boss专属#爆裂火星",
+        "数据表_天赋_专属#浴血奋战",
+        "数据表_天赋_专属#活力",
+        "数据表_天赋_专属#狂战士",
+        "数据表_天赋_专属#怒火精炼",
+        "数据表_天赋_专属#激素愈合",
+        "数据表_天赋_专属#会心护体",
+        "数据表_天赋_专属#敏锐直觉",
+        "数据表_天赋_专属#火上浇油",
+        "数据表_天赋_专属#元气循环",
+        "数据表_天赋_新新通用#快速愈合",
+        "数据表_天赋_新新通用#溢疗充能",
+        "数据表_天赋_新新通用#胜利果实",
+        "数据表_修炼物品_通用#毒囊",
+        "数据表_修炼物品_通用#晶核盾"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_快速愈合",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_怒火精炼",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_恶臭长裤",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_损失护甲获得精矿",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_敏锐直觉",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_新生之力",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_有XX物品会心增加减伤",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_有XX物品会心恢复生命",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_有XX物品会心灌注相邻",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_根据持续修改敌人属性",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_活力",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_浴血奋战",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_溢疗充能",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_燃烧效能",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_特定层获得精核",
+        "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_狂暴"
+      ],
+      "present": []
+    },
+    {
+      "owner": "enemy-elites",
+      "sourceClasses": 6,
+      "missingClasses": 0,
+      "registeredClasses": 6,
+      "sourcePseudoLines": 1221,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_偏转力场",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_吸血",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_地裂",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_地裂伤害",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_筑墙",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_筑墙地形"
+      ]
+    },
+    {
+      "owner": "core-damage",
+      "sourceClasses": 7,
+      "missingClasses": 0,
+      "registeredClasses": 7,
+      "sourcePseudoLines": 1327,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_弱点",
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_碰撞伤害",
+        "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_死亡特效",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_受伤",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_持续伤害",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_爆炸",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_闪电链"
+      ]
+    },
+    {
+      "owner": "core-physics",
+      "sourceClasses": 5,
+      "missingClasses": 0,
+      "registeredClasses": 5,
+      "sourcePseudoLines": 1116,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_酸液池",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_地形管理组",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_地形",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_跳向目标位置",
+        "CatapultHero/BP/Skill/蓝图_发射物"
+      ]
+    },
+    {
+      "owner": "bp-items-3",
+      "sourceClasses": 15,
+      "missingClasses": 15,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 2272,
+      "affectedReachableRows": [
+        "数据表_天赋_boss专属#暴食",
+        "数据表_天赋_专属#屠戮收割",
+        "数据表_修炼物品_专属_元素祭司#焚天兜帽",
+        "数据表_修炼物品_专属_元素祭司#璀璨结晶",
+        "数据表_修炼物品_专属_元素祭司#爆裂圆盾",
+        "数据表_修炼物品_专属_元素祭司#熔岩坚果",
+        "数据表_修炼物品_专属_元素祭司#震雷木",
+        "数据表_修炼物品_专属_元素祭司#黑洞法杖",
+        "数据表_修炼物品_专属_幽冥骑士#血契战盾",
+        "数据表_修炼物品_专属_幽冥骑士#肢体袋",
+        "数据表_修炼物品_专属_恶疫旅人#淬毒利刃",
+        "数据表_修炼物品_专属_恶疫旅人#底力面具",
+        "数据表_修炼物品_专属_灵魂猎手#血祭匕首",
+        "数据表_修炼物品_专属_灵魂猎手#凝血毒剂",
+        "数据表_修炼物品_专属_灵魂猎手#速效药剂",
+        "数据表_修炼物品_专属_灵魂猎手#灵魂香菇",
+        "数据表_修炼物品_专属_灵魂猎手#投手之握",
+        "数据表_修炼物品_通用#黄金头盔",
+        "数据表_修炼物品_通用#酸性血液",
+        "数据表_修炼物品_通用#活脑",
+        "数据表_修炼物品_通用#死灵布"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_格挡强固",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_格档修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_死灵布A",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_死灵布B",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_活脑",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_流血击杀修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_淬毒利刃",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_溢出治疗变为生命上限",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_烈焰短剑",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_焚天兜帽",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_物品给敌人附加效果",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_物品给物品附加效果",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_物品给英雄附加效果",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_特定层修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_璀璨结晶"
+      ],
+      "present": []
+    },
+    {
+      "owner": "sys-enchant",
+      "sourceClasses": 3,
+      "missingClasses": 3,
+      "registeredClasses": 0,
+      "sourcePseudoLines": 332,
+      "affectedReachableRows": [
+        "数据表_修炼物品_通用#传奇附魔A",
+        "数据表_修炼物品_通用#传奇附魔B",
+        "数据表_修炼物品_通用#传奇附魔C",
+        "数据表_修炼物品_通用#传奇附魔D",
+        "数据表_修炼物品_通用#传奇附魔E",
+        "数据表_修炼物品_通用#传奇附魔F",
+        "数据表_修炼物品_通用#伤害附魔A",
+        "数据表_修炼物品_通用#伤害附魔B",
+        "数据表_修炼物品_通用#治愈附魔A",
+        "数据表_修炼物品_通用#治愈附魔B",
+        "数据表_修炼物品_通用#护甲附魔A",
+        "数据表_修炼物品_通用#护甲附魔B",
+        "数据表_修炼物品_通用#充能附魔A",
+        "数据表_修炼物品_通用#充能附魔B",
+        "数据表_修炼物品_通用#英雄附魔A",
+        "数据表_修炼物品_通用#英雄附魔B",
+        "数据表_修炼物品_通用#英雄附魔C",
+        "数据表_修炼物品_通用#灼热眼珠",
+        "数据表_修炼物品_通用#腥臭尖牙",
+        "数据表_修炼物品_通用#超载神经"
+      ],
+      "missing": [
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_附魔修改自身属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_附魔修改英雄属性",
+        "CatapultHero/BP/Skill/效果/物品/蓝图_效果_附魔悬停物品"
+      ],
+      "present": []
+    },
+    {
+      "owner": "core-status-rating",
+      "sourceClasses": 7,
+      "missingClasses": 0,
+      "registeredClasses": 7,
+      "sourcePseudoLines": 621,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/效果/蓝图_效果_免疫抵消伤害时",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_免疫状态",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_免疫状态_转阶",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_易伤",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_格挡",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_眩晕",
+        "CatapultHero/BP/Skill/效果/蓝图_效果_闪避"
+      ]
+    },
+    {
+      "owner": "core-room",
+      "sourceClasses": 1,
+      "missingClasses": 0,
+      "registeredClasses": 1,
+      "sourcePseudoLines": 147,
+      "affectedReachableRows": [],
+      "missing": [],
+      "present": [
+        "CatapultHero/BP/Skill/效果/蓝图_效果_探索"
+      ]
+    }
+  ],
+  "dependencyFanout": [
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_附魔悬停物品",
+      "owner": "sys-enchant",
+      "affectedRows": [
+        "数据表_修炼物品_通用#传奇附魔A",
+        "数据表_修炼物品_通用#传奇附魔B",
+        "数据表_修炼物品_通用#传奇附魔C",
+        "数据表_修炼物品_通用#传奇附魔D",
+        "数据表_修炼物品_通用#传奇附魔E",
+        "数据表_修炼物品_通用#传奇附魔F",
+        "数据表_修炼物品_通用#伤害附魔A",
+        "数据表_修炼物品_通用#伤害附魔B",
+        "数据表_修炼物品_通用#治愈附魔A",
+        "数据表_修炼物品_通用#治愈附魔B",
+        "数据表_修炼物品_通用#护甲附魔A",
+        "数据表_修炼物品_通用#护甲附魔B",
+        "数据表_修炼物品_通用#充能附魔A",
+        "数据表_修炼物品_通用#充能附魔B",
+        "数据表_修炼物品_通用#英雄附魔A",
+        "数据表_修炼物品_通用#英雄附魔B",
+        "数据表_修炼物品_通用#英雄附魔C",
+        "数据表_修炼物品_通用#灼热眼珠",
+        "数据表_修炼物品_通用#腥臭尖牙",
+        "数据表_修炼物品_通用#超载神经"
+      ],
+      "sourcePseudoLines": 133
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_充能获得光阴",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#风火权杖",
+        "数据表_修炼物品_专属_元素祭司#蕴育石像",
+        "数据表_修炼物品_专属_元素祭司#雷云精灵",
+        "数据表_修炼物品_专属_元素祭司#黑洞法杖",
+        "数据表_修炼物品_专属_幽冥骑士#旋风杖",
+        "数据表_修炼物品_专属_幽冥骑士#再生腰带",
+        "数据表_修炼物品_专属_恶疫旅人#女妖长袍",
+        "数据表_修炼物品_专属_灵魂猎手#迷踪披风",
+        "数据表_修炼物品_专属_灵魂猎手#无限箭袋",
+        "数据表_修炼物品_通用#旧长袍",
+        "数据表_修炼物品_通用#旧法杖",
+        "数据表_修炼物品_通用#眼球杖",
+        "数据表_修炼物品_通用#有机核心",
+        "数据表_修炼物品_通用#寂静法杖"
+      ],
+      "sourcePseudoLines": 253
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/蓝图_能力_给自身加主动",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_boss专属#蓄力击",
+        "数据表_天赋_专属#野蛮冲撞",
+        "数据表_天赋_专属#幻影斩",
+        "数据表_天赋_专属#血祭之力",
+        "数据表_天赋_专属#举盾",
+        "数据表_天赋_专属#钩锁",
+        "数据表_天赋_专属#弹跳连射",
+        "数据表_天赋_专属#腾跃",
+        "数据表_天赋_专属#打磨",
+        "数据表_天赋_专属#专注",
+        "数据表_天赋_专属#自然之力"
+      ],
+      "sourcePseudoLines": 123
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解修改物品属性",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#旧绷带",
+        "数据表_修炼物品_通用#骨刺",
+        "数据表_修炼物品_通用#魔力石",
+        "数据表_修炼物品_通用#优质兽皮",
+        "数据表_修炼物品_通用#黄色药丸",
+        "数据表_修炼物品_通用#蓝色药丸",
+        "数据表_修炼物品_通用#红色药丸",
+        "数据表_修炼物品_通用#绿色药丸",
+        "数据表_修炼物品_通用#紫色药丸",
+        "数据表_修炼物品_通用#蕨叶"
+      ],
+      "sourcePseudoLines": 99
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_反弹灌注物品",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#火山药水",
+        "数据表_修炼物品_专属_元素祭司#焚天兜帽",
+        "数据表_修炼物品_专属_元素祭司#雷神匕首",
+        "数据表_修炼物品_专属_元素祭司#震雷木",
+        "数据表_修炼物品_专属_幽冥骑士#导能护符",
+        "数据表_修炼物品_专属_幽冥骑士#激素腰带",
+        "数据表_修炼物品_专属_恶疫旅人#无尽水壶",
+        "数据表_修炼物品_专属_灵魂猎手#共鸣结晶",
+        "数据表_修炼物品_专属_灵魂猎手#虚空工具盒",
+        "数据表_修炼物品_通用#旧长袍"
+      ],
+      "sourcePseudoLines": 122
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_装卸修改英雄属性",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#噬毒护符",
+        "数据表_修炼物品_专属_灵魂猎手#魅影长靴",
+        "数据表_修炼物品_专属_灵魂猎手#泣血指环",
+        "数据表_修炼物品_通用#旧皮衣",
+        "数据表_修炼物品_通用#旧手套",
+        "数据表_修炼物品_通用#巨神兵大剑",
+        "数据表_修炼物品_通用#不可撼动之甲",
+        "数据表_修炼物品_通用#万里追风靴",
+        "数据表_修炼物品_通用#有机核心"
+      ],
+      "sourcePseudoLines": 118
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_箭矢",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#分身短弓",
+        "数据表_修炼物品_专属_灵魂猎手#凝神连弩",
+        "数据表_修炼物品_专属_灵魂猎手#双生长弓",
+        "数据表_修炼物品_专属_灵魂猎手#幻影轻弩",
+        "数据表_修炼物品_专属_灵魂猎手#蝮蛇弓",
+        "数据表_修炼物品_专属_灵魂猎手#炸弹弓",
+        "数据表_修炼物品_专属_灵魂猎手#闪鸣弓",
+        "数据表_修炼物品_通用#旧弓",
+        "数据表_玩家#灵魂猎手"
+      ],
+      "sourcePseudoLines": 864
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_附魔修改自身属性",
+      "owner": "sys-enchant",
+      "affectedRows": [
+        "数据表_修炼物品_通用#传奇附魔B",
+        "数据表_修炼物品_通用#传奇附魔C",
+        "数据表_修炼物品_通用#传奇附魔D",
+        "数据表_修炼物品_通用#伤害附魔A",
+        "数据表_修炼物品_通用#伤害附魔B",
+        "数据表_修炼物品_通用#治愈附魔B",
+        "数据表_修炼物品_通用#护甲附魔B",
+        "数据表_修炼物品_通用#充能附魔A"
+      ],
+      "sourcePseudoLines": 86
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_天赋给物品附加效果",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#重伤",
+        "数据表_天赋_专属#回流",
+        "数据表_天赋_专属#血铸壁垒",
+        "数据表_天赋_专属#稳固射击",
+        "数据表_天赋_专属#连锁打击",
+        "数据表_天赋_专属#创口切割",
+        "数据表_天赋_专属#心流原力",
+        "数据表_天赋_新新通用#嗜血本能"
+      ],
+      "sourcePseudoLines": 159
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_结束层创建物品",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#活体软甲",
+        "数据表_修炼物品_专属_恶疫旅人#月光蕨",
+        "数据表_修炼物品_专属_恶疫旅人#药丸蜗牛",
+        "数据表_修炼物品_专属_灵魂猎手#利齿骨鞭",
+        "数据表_修炼物品_专属_灵魂猎手#虚空工具盒",
+        "数据表_修炼物品_通用#眼球杖",
+        "数据表_修炼物品_通用#女王石"
+      ],
+      "sourcePseudoLines": 122
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_充能修改物品词条",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#焚天兜帽",
+        "数据表_修炼物品_专属_元素祭司#璀璨结晶",
+        "数据表_修炼物品_专属_元素祭司#熔岩坚果",
+        "数据表_修炼物品_专属_幽冥骑士#回旋盔甲",
+        "数据表_修炼物品_专属_幽冥骑士#打磨器",
+        "数据表_修炼物品_专属_幽冥骑士#激素腰带",
+        "数据表_修炼物品_专属_灵魂猎手#共鸣结晶"
+      ],
+      "sourcePseudoLines": 146
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_朝敌人投射（碰撞）",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#凝神连弩",
+        "数据表_修炼物品_专属_灵魂猎手#双生长弓",
+        "数据表_修炼物品_专属_灵魂猎手#幻影轻弩",
+        "数据表_修炼物品_专属_灵魂猎手#蝮蛇弓",
+        "数据表_修炼物品_专属_灵魂猎手#炸弹弓",
+        "数据表_修炼物品_专属_灵魂猎手#闪鸣弓",
+        "数据表_修炼物品_通用#旧弓"
+      ],
+      "sourcePseudoLines": 146
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞造成即时伤害",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#巨人盾斧",
+        "数据表_修炼物品_专属_幽冥骑士#寄生犄角",
+        "数据表_修炼物品_专属_幽冥骑士#尖角头盔",
+        "数据表_修炼物品_专属_幽冥骑士#寻宝锄",
+        "数据表_修炼物品_专属_幽冥骑士#护盾孢子",
+        "数据表_修炼物品_通用#克隆触手"
+      ],
+      "sourcePseudoLines": 69
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_剑气",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_天赋_专属#甲之吐息",
+        "数据表_修炼物品_专属_元素祭司#追风短剑",
+        "数据表_修炼物品_专属_元素祭司#璀璨结晶",
+        "数据表_修炼物品_专属_幽冥骑士#回旋盔甲",
+        "数据表_修炼物品_通用#万里追风靴"
+      ],
+      "sourcePseudoLines": 80
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_物品给物品附加效果",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#黑洞法杖",
+        "数据表_修炼物品_专属_灵魂猎手#凝血毒剂",
+        "数据表_修炼物品_专属_灵魂猎手#速效药剂",
+        "数据表_修炼物品_专属_灵魂猎手#投手之握",
+        "数据表_修炼物品_通用#酸性血液"
+      ],
+      "sourcePseudoLines": 179
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞投射气刃",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#追风短剑",
+        "数据表_修炼物品_专属_元素祭司#璀璨结晶",
+        "数据表_修炼物品_专属_幽冥骑士#回旋盔甲",
+        "数据表_修炼物品_通用#万里追风靴"
+      ],
+      "sourcePseudoLines": 81
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蓄能自伤",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#导能护符",
+        "数据表_修炼物品_专属_恶疫旅人#混沌大剑",
+        "数据表_修炼物品_专属_恶疫旅人#汲取藤蔓",
+        "数据表_修炼物品_专属_恶疫旅人#增生触手"
+      ],
+      "sourcePseudoLines": 86
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_毒气",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#瘟疫花",
+        "数据表_修炼物品_专属_恶疫旅人#蛛后毒囊",
+        "数据表_修炼物品_通用#毒囊"
+      ],
+      "sourcePseudoLines": 78
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_临时属性_不预算（结束层销毁）",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_天赋_boss专属#蓄力击",
+        "数据表_天赋_专属#打磨",
+        "数据表_天赋_专属#专注"
+      ],
+      "sourcePseudoLines": 96
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有充能完成修改英雄属性",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_天赋_专属#铜墙铁壁",
+        "数据表_天赋_专属#生生不息",
+        "数据表_修炼物品_专属_灵魂猎手#共鸣结晶"
+      ],
+      "sourcePseudoLines": 101
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_英雄失去生命灌注物品",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_天赋_专属#苦痛转化",
+        "数据表_修炼物品_专属_恶疫旅人#汲取藤蔓",
+        "数据表_修炼物品_专属_恶疫旅人#饮血宝石"
+      ],
+      "sourcePseudoLines": 112
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_附魔修改英雄属性",
+      "owner": "sys-enchant",
+      "affectedRows": [
+        "数据表_修炼物品_通用#英雄附魔A",
+        "数据表_修炼物品_通用#英雄附魔B",
+        "数据表_修炼物品_通用#英雄附魔C"
+      ],
+      "sourcePseudoLines": 113
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_烈焰短剑",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#爆裂圆盾",
+        "数据表_修炼物品_专属_元素祭司#熔岩坚果",
+        "数据表_修炼物品_专属_元素祭司#震雷木"
+      ],
+      "sourcePseudoLines": 667
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_临时弹性",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_天赋_专属#自然之力",
+        "数据表_天赋_专属#神速力"
+      ],
+      "sourcePseudoLines": 69
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有其他分解修改自身属性",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#活体软甲",
+        "数据表_修炼物品_专属_灵魂猎手#饕餮之刃"
+      ],
+      "sourcePseudoLines": 70
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_临时词条属性（不预算）",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#铜墙铁壁",
+        "数据表_天赋_专属#生生不息"
+      ],
+      "sourcePseudoLines": 73
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞造成持续伤害",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#浴火长袍",
+        "数据表_修炼物品_专属_恶疫旅人#增生触手"
+      ],
+      "sourcePseudoLines": 76
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_特定层修改自身属性",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#肢体袋",
+        "数据表_修炼物品_专属_灵魂猎手#灵魂香菇"
+      ],
+      "sourcePseudoLines": 82
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_死亡创建尖刺",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#结晶",
+        "数据表_敌人_普通#结晶簇"
+      ],
+      "sourcePseudoLines": 83
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_获得灌注修改自身属性",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#蓄能手斧",
+        "数据表_修炼物品_专属_灵魂猎手#守护之戒"
+      ],
+      "sourcePseudoLines": 84
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_额外持续加成",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#凝血毒剂",
+        "数据表_修炼物品_通用#酸性血液"
+      ],
+      "sourcePseudoLines": 88
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_高温眼珠",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_通用#灼热眼珠",
+        "数据表_修炼物品_通用#纳气石锤"
+      ],
+      "sourcePseudoLines": 92
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_旋风01",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#风火权杖",
+        "数据表_修炼物品_专属_幽冥骑士#旋风杖"
+      ],
+      "sourcePseudoLines": 100
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_新回合灌注",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#旋风杖",
+        "数据表_修炼物品_通用#充能附魔B"
+      ],
+      "sourcePseudoLines": 100
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_获取物品修改自身属性",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#噬毒护符",
+        "数据表_修炼物品_专属_灵魂猎手#利齿骨鞭"
+      ],
+      "sourcePseudoLines": 100
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_英雄失去生命修改自身属性",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#鲜血教母",
+        "数据表_修炼物品_专属_恶疫旅人#猩红壁垒"
+      ],
+      "sourcePseudoLines": 104
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_反击状态",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#结晶",
+        "数据表_敌人_普通#结晶簇"
+      ],
+      "sourcePseudoLines": 108
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/蓝图_效果_物品类型数修改自身属性",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#雷云精灵",
+        "数据表_修炼物品_专属_幽冥骑士#再生腰带"
+      ],
+      "sourcePseudoLines": 113
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_融合弹射",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#眼球包",
+        "数据表_敌人_普通#眼球_融合"
+      ],
+      "sourcePseudoLines": 114
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_振金护腕",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#振金护腕",
+        "数据表_修炼物品_专属_幽冥骑士#巨人盾斧"
+      ],
+      "sourcePseudoLines": 117
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_电场",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#水母脑",
+        "数据表_敌人_普通#章鱼脑"
+      ],
+      "sourcePseudoLines": 118
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_眼球包打开",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#新手关眼球包2",
+        "数据表_敌人_普通#眼球包"
+      ],
+      "sourcePseudoLines": 143
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_光环修改标签",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#凝血毒剂",
+        "数据表_修炼物品_通用#酸性血液"
+      ],
+      "sourcePseudoLines": 146
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/蓝图_能力_给自身附加效果",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#结晶",
+        "数据表_敌人_普通#结晶簇"
+      ],
+      "sourcePseudoLines": 152
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_物品给英雄附加效果",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#底力面具",
+        "数据表_修炼物品_通用#黄金头盔"
+      ],
+      "sourcePseudoLines": 157
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_给物品附加效果",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_天赋_专属#打磨",
+        "数据表_天赋_专属#专注"
+      ],
+      "sourcePseudoLines": 205
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_评分获得效果",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#不屈之魂",
+        "数据表_天赋_专属#神速力"
+      ],
+      "sourcePseudoLines": 218
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_抵抗致死",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_天赋_专属#绝命",
+        "数据表_修炼物品_通用#黄金头盔"
+      ],
+      "sourcePseudoLines": 305
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_复合奖励_新手关",
+      "owner": "sys-tutorial",
+      "affectedRows": [
+        "数据表_地图格#新手关02",
+        "数据表_地图格#新手关04"
+      ],
+      "sourcePseudoLines": 321
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/可拾取物/蓝图_可拾取物_尖刺",
+      "owner": "env-hazards",
+      "affectedRows": [
+        "数据表_敌人_普通#结晶",
+        "数据表_敌人_普通#结晶簇"
+      ],
+      "sourcePseudoLines": 350
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_稳固射击",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#稳固射击"
+      ],
+      "sourcePseudoLines": 45
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_天赋修改英雄属性",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#猎头"
+      ],
+      "sourcePseudoLines": 48
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_血铸壁垒",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#血铸壁垒"
+      ],
+      "sourcePseudoLines": 61
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解移除腐化",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#亡者之息"
+      ],
+      "sourcePseudoLines": 62
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_活脑",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_通用#活脑"
+      ],
+      "sourcePseudoLines": 62
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_流血击杀修改自身属性",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#血祭匕首"
+      ],
+      "sourcePseudoLines": 62
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_XX等于玩家精矿",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#晶核剑"
+      ],
+      "sourcePseudoLines": 63
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_会心时灌注自己",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_天赋_专属#心流原力"
+      ],
+      "sourcePseudoLines": 63
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解得额外精核",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#精矿"
+      ],
+      "sourcePseudoLines": 65
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_回旋大剑",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#回旋盔甲"
+      ],
+      "sourcePseudoLines": 67
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_死灵布B",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_通用#死灵布"
+      ],
+      "sourcePseudoLines": 67
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/天赋/蓝图_能力_穿透投射",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#穿透射击"
+      ],
+      "sourcePseudoLines": 68
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_灼热射线",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_通用#眼球杖"
+      ],
+      "sourcePseudoLines": 68
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_伤害等于总护甲",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#爆裂圆盾"
+      ],
+      "sourcePseudoLines": 68
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_伤害等于英雄基础伤害",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#毒囊"
+      ],
+      "sourcePseudoLines": 68
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_花冠加成",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#花冠"
+      ],
+      "sourcePseudoLines": 68
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_有XX物品会心恢复生命",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#激素愈合"
+      ],
+      "sourcePseudoLines": 69
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_屠戮收割",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#屠戮收割"
+      ],
+      "sourcePseudoLines": 70
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_药剂师",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_新新通用#药剂师"
+      ],
+      "sourcePseudoLines": 70
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_血舞斗篷",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#血舞斗篷"
+      ],
+      "sourcePseudoLines": 70
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_特定层获得精核",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_新新通用#胜利果实"
+      ],
+      "sourcePseudoLines": 71
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_临阵磨枪",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_新新通用#临阵强固"
+      ],
+      "sourcePseudoLines": 72
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_格挡强固",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_天赋_专属#屠戮收割"
+      ],
+      "sourcePseudoLines": 72
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_修改玩家属性",
+      "owner": "sys-shop-events",
+      "affectedRows": [
+        "数据表_修炼物品_通用#远古兽肉"
+      ],
+      "sourcePseudoLines": 73
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_齐刘海飞弹",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#齐刘海"
+      ],
+      "sourcePseudoLines": 73
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解修改玩家属性",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#蕨叶"
+      ],
+      "sourcePseudoLines": 76
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_秘银鳞片",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#秘银鳞片"
+      ],
+      "sourcePseudoLines": 76
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_魂珠",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_通用#魂珠"
+      ],
+      "sourcePseudoLines": 77
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_投手之握",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#投手之握"
+      ],
+      "sourcePseudoLines": 77
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_吸血",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#传奇附魔A"
+      ],
+      "sourcePseudoLines": 78
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_闪避修改自身属性",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#血舞斗篷"
+      ],
+      "sourcePseudoLines": 79
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_魔力头冠",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#花冠"
+      ],
+      "sourcePseudoLines": 79
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_快速愈合",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_新新通用#快速愈合"
+      ],
+      "sourcePseudoLines": 80
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_死灵布A",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_通用#死灵布"
+      ],
+      "sourcePseudoLines": 80
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_速效药剂加成",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#速效药剂"
+      ],
+      "sourcePseudoLines": 80
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_魂珠A",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_通用#传奇附魔F"
+      ],
+      "sourcePseudoLines": 80
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_损失护甲获得精矿",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_修炼物品_通用#晶核盾"
+      ],
+      "sourcePseudoLines": 81
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_底力面具加成",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#底力面具"
+      ],
+      "sourcePseudoLines": 81
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_格档修改自身属性",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#血契战盾"
+      ],
+      "sourcePseudoLines": 81
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_记忆珠",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_通用#记忆珠"
+      ],
+      "sourcePseudoLines": 81
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_反弹治愈",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#守护恩泽"
+      ],
+      "sourcePseudoLines": 82
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解修改所有物品",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#淬炼宝石"
+      ],
+      "sourcePseudoLines": 82
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_魂珠_炼尸",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_通用#魂珠"
+      ],
+      "sourcePseudoLines": 82
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_重力冲刺",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_新新通用#重力冲刺"
+      ],
+      "sourcePseudoLines": 84
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_反弹灌注",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#传奇附魔E"
+      ],
+      "sourcePseudoLines": 84
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_造成伤害恢复",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#铸甲重锤"
+      ],
+      "sourcePseudoLines": 84
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_完美主义",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_新新通用#完美主义"
+      ],
+      "sourcePseudoLines": 85
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_自身会心修改自身属性",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#凝神连弩"
+      ],
+      "sourcePseudoLines": 85
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分解后复制",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#异变种子"
+      ],
+      "sourcePseudoLines": 86
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_尖角头盔",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#尖角头盔"
+      ],
+      "sourcePseudoLines": 86
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_破损的神像",
+      "owner": "sys-camp-meta",
+      "affectedRows": [
+        "数据表_修炼物品_通用#破损的神像"
+      ],
+      "sourcePseudoLines": 87
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_弹跳箭",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_天赋_专属#弹跳连射"
+      ],
+      "sourcePseudoLines": 87
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_延时护符加成",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#延时护符"
+      ],
+      "sourcePseudoLines": 87
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_血契战盾",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#血契战盾"
+      ],
+      "sourcePseudoLines": 87
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_克隆触手",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#克隆触手"
+      ],
+      "sourcePseudoLines": 88
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有XX物品会心修改自身属性",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#追风短剑"
+      ],
+      "sourcePseudoLines": 89
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_有XX物品会心增加减伤",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#会心护体"
+      ],
+      "sourcePseudoLines": 90
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_筛选新回合灌注",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#战斗怒吼"
+      ],
+      "sourcePseudoLines": 90
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有完成充能修改自身属性",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#蕴育石像"
+      ],
+      "sourcePseudoLines": 91
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_创口切割",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#创口切割"
+      ],
+      "sourcePseudoLines": 92
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_活力",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#活力"
+      ],
+      "sourcePseudoLines": 92
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_重伤",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#重伤"
+      ],
+      "sourcePseudoLines": 92
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_连锁打击",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#连锁打击"
+      ],
+      "sourcePseudoLines": 93
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_举盾",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#举盾"
+      ],
+      "sourcePseudoLines": 93
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_利钢萃血",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#利钢淬血"
+      ],
+      "sourcePseudoLines": 94
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_回合开始恢复",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#瘟疫花"
+      ],
+      "sourcePseudoLines": 94
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_必定会心",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_天赋_专属#专注"
+      ],
+      "sourcePseudoLines": 94
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蛛后毒囊加成",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#蛛后毒囊"
+      ],
+      "sourcePseudoLines": 95
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_分身弓",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#分身短弓"
+      ],
+      "sourcePseudoLines": 96
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_绝地反击",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_新新通用#绝地反击"
+      ],
+      "sourcePseudoLines": 97
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_寄生尖刺",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#寄生犄角"
+      ],
+      "sourcePseudoLines": 97
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_医疗格挡",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#动能吸收"
+      ],
+      "sourcePseudoLines": 98
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_黑洞法杖B加成",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#黑洞法杖"
+      ],
+      "sourcePseudoLines": 98
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_临时属性_预算（结束层销毁）",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#血祭之力"
+      ],
+      "sourcePseudoLines": 98
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_嗜血本能",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_天赋_新新通用#嗜血本能"
+      ],
+      "sourcePseudoLines": 99
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞XX敌人时灌注",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#疫病虫巢"
+      ],
+      "sourcePseudoLines": 99
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_粘稠体液",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_通用#粘稠体液"
+      ],
+      "sourcePseudoLines": 100
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_结束层后复制",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_通用#克隆触手"
+      ],
+      "sourcePseudoLines": 100
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蛛后毒囊",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#蛛后毒囊"
+      ],
+      "sourcePseudoLines": 101
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_根据持续修改敌人属性",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#火上浇油"
+      ],
+      "sourcePseudoLines": 102
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_腥臭尖牙",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_通用#腥臭尖牙"
+      ],
+      "sourcePseudoLines": 102
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_寂静法杖",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_通用#寂静法杖"
+      ],
+      "sourcePseudoLines": 104
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_聚气果",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#聚气果"
+      ],
+      "sourcePseudoLines": 104
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_修改英雄和物品属性",
+      "owner": "sys-shop-events",
+      "affectedRows": [
+        "数据表_地图格#属性房"
+      ],
+      "sourcePseudoLines": 105
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_大型装甲",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_boss专属#大型装甲"
+      ],
+      "sourcePseudoLines": 105
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_溢疗充能",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_新新通用#溢疗充能"
+      ],
+      "sourcePseudoLines": 106
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_结束层创建材料",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#寻宝锄"
+      ],
+      "sourcePseudoLines": 106
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_贪婪手套",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_通用#贪婪手套"
+      ],
+      "sourcePseudoLines": 106
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_纳气石锤",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_通用#纳气石锤"
+      ],
+      "sourcePseudoLines": 107
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_百磨之刃",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#百磨之刃"
+      ],
+      "sourcePseudoLines": 110
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_弱点洞察",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_新新通用#弱点洞察"
+      ],
+      "sourcePseudoLines": 111
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_浴血奋战",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#浴血奋战"
+      ],
+      "sourcePseudoLines": 113
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_铠甲大师",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#甲之吐息"
+      ],
+      "sourcePseudoLines": 113
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_溢出治疗变为生命上限",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_天赋_boss专属#暴食"
+      ],
+      "sourcePseudoLines": 114
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_旋风杖",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#旋风杖"
+      ],
+      "sourcePseudoLines": 115
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_利齿骨鞭",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#利齿骨鞭"
+      ],
+      "sourcePseudoLines": 116
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/蓝图_能力_召唤",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#章鱼脑"
+      ],
+      "sourcePseudoLines": 120
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/蓝图_效果_反弹时融合",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#眼球_融合"
+      ],
+      "sourcePseudoLines": 121
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_神像",
+      "owner": "sys-camp-meta",
+      "affectedRows": [
+        "数据表_玩家#神像"
+      ],
+      "sourcePseudoLines": 123
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_蓄势待发",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_新新通用#蓄势待发"
+      ],
+      "sourcePseudoLines": 123
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_下一场属性",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#增生肉瘤"
+      ],
+      "sourcePseudoLines": 123
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_疫病虫巢",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#疫病虫巢"
+      ],
+      "sourcePseudoLines": 125
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_连锁反应",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_新新通用#连锁反应"
+      ],
+      "sourcePseudoLines": 128
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_恶臭长裤",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_修炼物品_通用#毒囊"
+      ],
+      "sourcePseudoLines": 130
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_敏锐直觉",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#敏锐直觉"
+      ],
+      "sourcePseudoLines": 134
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_大地之心",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#大地之心"
+      ],
+      "sourcePseudoLines": 137
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_有完成充能修改相邻属性",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_天赋_新新通用#余震"
+      ],
+      "sourcePseudoLines": 138
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_祝福奖励",
+      "owner": "sys-shop-events",
+      "affectedRows": [
+        "数据表_修炼物品_通用#祝福之灵"
+      ],
+      "sourcePseudoLines": 140
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_晶刺",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#结晶簇"
+      ],
+      "sourcePseudoLines": 140
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_癫狂",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_boss专属#癫狂"
+      ],
+      "sourcePseudoLines": 140
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_如果唯一",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#铸甲重锤"
+      ],
+      "sourcePseudoLines": 140
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_狂暴",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#狂战士"
+      ],
+      "sourcePseudoLines": 142
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_飞跃重击",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 143
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_焚天兜帽",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#焚天兜帽"
+      ],
+      "sourcePseudoLines": 143
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_重锤",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 144
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_瘟疫花",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#瘟疫花"
+      ],
+      "sourcePseudoLines": 144
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_有XX物品会心灌注相邻",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#元气循环"
+      ],
+      "sourcePseudoLines": 148
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_英雄受治疗修改物品词条",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#混沌大剑"
+      ],
+      "sourcePseudoLines": 148
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_新生之力",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_boss专属#新生之力"
+      ],
+      "sourcePseudoLines": 150
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_移除持续伤害",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_通用#绷带"
+      ],
+      "sourcePseudoLines": 151
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_天赋给敌人附加效果",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_天赋_boss专属#爆裂火星"
+      ],
+      "sourcePseudoLines": 152
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_物品给敌人附加效果",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#淬毒利刃"
+      ],
+      "sourcePseudoLines": 152
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_魔力皮靴",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#魔力皮靴"
+      ],
+      "sourcePseudoLines": 153
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_反弹创建地形",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#大肠团"
+      ],
+      "sourcePseudoLines": 156
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_死亡创建地形",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#齐刘海"
+      ],
+      "sourcePseudoLines": 156
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_眼球杖",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_通用#眼球杖"
+      ],
+      "sourcePseudoLines": 164
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_投射",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#齐刘海"
+      ],
+      "sourcePseudoLines": 166
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_举盾",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#举盾"
+      ],
+      "sourcePseudoLines": 166
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_淬毒利刃",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#淬毒利刃"
+      ],
+      "sourcePseudoLines": 171
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_雷神匕首",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#雷神匕首"
+      ],
+      "sourcePseudoLines": 171
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_野蛮冲撞",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#野蛮冲撞"
+      ],
+      "sourcePseudoLines": 176
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_血祭之力",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#血祭之力"
+      ],
+      "sourcePseudoLines": 178
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/蓝图_能力_给自身加被动_特殊描述",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#异变种子"
+      ],
+      "sourcePseudoLines": 178
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_八面散射",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#结晶簇"
+      ],
+      "sourcePseudoLines": 180
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_黑洞",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#黑洞法杖"
+      ],
+      "sourcePseudoLines": 180
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_幽魂池",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#齐刘海"
+      ],
+      "sourcePseudoLines": 183
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_延时护符",
+      "owner": "bp-items-2",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#延时护符"
+      ],
+      "sourcePseudoLines": 183
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_璀璨结晶",
+      "owner": "bp-items-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#璀璨结晶"
+      ],
+      "sourcePseudoLines": 183
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_蕴育石像",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#蕴育石像"
+      ],
+      "sourcePseudoLines": 187
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_黑洞法杖A",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#黑洞法杖"
+      ],
+      "sourcePseudoLines": 190
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_闪现",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#齐刘海"
+      ],
+      "sourcePseudoLines": 191
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_超载十字架",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#超载十字架"
+      ],
+      "sourcePseudoLines": 199
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_超载神经",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_通用#超载神经"
+      ],
+      "sourcePseudoLines": 203
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_给英雄和物品附加效果",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_boss专属#蓄力击"
+      ],
+      "sourcePseudoLines": 206
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_野蛮冲撞",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#野蛮冲撞"
+      ],
+      "sourcePseudoLines": 206
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_目视",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 208
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_怒火精炼",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_专属#怒火精炼"
+      ],
+      "sourcePseudoLines": 208
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_花冠",
+      "owner": "bp-items-5",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#花冠"
+      ],
+      "sourcePseudoLines": 208
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_黄金头盔",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_通用#黄金头盔"
+      ],
+      "sourcePseudoLines": 211
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_撕咬搜寻",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 215
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_眼球抛出",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#眼球包"
+      ],
+      "sourcePseudoLines": 217
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_碰撞XX附加效果",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_恶疫旅人#女妖长袍"
+      ],
+      "sourcePseudoLines": 218
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_腾跃",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_天赋_专属#腾跃"
+      ],
+      "sourcePseudoLines": 220
+    },
+    {
+      "class": "CatapultHero/BP/Skill/发射物/蓝图_发射物_抓钩",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#钩锁"
+      ],
+      "sourcePseudoLines": 222
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_弹跳连射",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_天赋_专属#弹跳连射"
+      ],
+      "sourcePseudoLines": 225
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_雷云精灵",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#雷云精灵"
+      ],
+      "sourcePseudoLines": 233
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_幻影斩",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#幻影斩"
+      ],
+      "sourcePseudoLines": 234
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_瞄准射击",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#钩锁"
+      ],
+      "sourcePseudoLines": 239
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_回流",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_天赋_专属#回流"
+      ],
+      "sourcePseudoLines": 263
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_岩浆地板",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 267
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_熔岩道",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 270
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_电击球",
+      "owner": "bp-items-4",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#雷云精灵"
+      ],
+      "sourcePseudoLines": 276
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_风火场",
+      "owner": "bp-items-6",
+      "affectedRows": [
+        "数据表_修炼物品_专属_元素祭司#风火权杖"
+      ],
+      "sourcePseudoLines": 276
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_投掷_地形区域",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_天赋_专属#自然之力"
+      ],
+      "sourcePseudoLines": 284
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_幻影斩",
+      "owner": "bp-hero-knight",
+      "affectedRows": [
+        "数据表_天赋_专属#幻影斩"
+      ],
+      "sourcePseudoLines": 289
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_腾跃",
+      "owner": "bp-hero-hunter",
+      "affectedRows": [
+        "数据表_天赋_专属#腾跃"
+      ],
+      "sourcePseudoLines": 291
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_首领_守门人",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 297
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_追风",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#追风"
+      ],
+      "sourcePseudoLines": 306
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_幻影之握",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_灵魂猎手#幻影轻弩"
+      ],
+      "sourcePseudoLines": 312
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_短兵相接",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_天赋_专属#短兵相接"
+      ],
+      "sourcePseudoLines": 318
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_蓄势战甲",
+      "owner": "bp-talents-3",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#蓄势战甲"
+      ],
+      "sourcePseudoLines": 318
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_电网",
+      "owner": "enemy-crystal-brain",
+      "affectedRows": [
+        "数据表_敌人_普通#水母脑"
+      ],
+      "sourcePseudoLines": 327
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_固甲石",
+      "owner": "bp-talents-1",
+      "affectedRows": [
+        "数据表_修炼物品_专属_幽冥骑士#固甲石"
+      ],
+      "sourcePseudoLines": 330
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/物品/蓝图_效果_回合开始格挡闪避",
+      "owner": "bp-items-1",
+      "affectedRows": [
+        "数据表_修炼物品_通用#多彩宝石"
+      ],
+      "sourcePseudoLines": 340
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_黏菌逃跑",
+      "owner": "enemy-eyeball-ghost",
+      "affectedRows": [
+        "数据表_敌人_普通#盗宝黏菌"
+      ],
+      "sourcePseudoLines": 341
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/敌人/蓝图_能力_守门人_连环重锤",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 399
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/敌人/蓝图_效果_连环重锤",
+      "owner": "boss-gatekeeper",
+      "affectedRows": [
+        "数据表_敌人_普通#守门人"
+      ],
+      "sourcePseudoLines": 442
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/天赋/蓝图_效果_燃烧效能",
+      "owner": "bp-talents-2",
+      "affectedRows": [
+        "数据表_天赋_boss专属#爆裂火星"
+      ],
+      "sourcePseudoLines": 713
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_随机增精",
+      "owner": "sys-shop-events",
+      "affectedRows": [],
+      "sourcePseudoLines": 59
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_感知精核经验",
+      "owner": "sys-shop-events",
+      "affectedRows": [],
+      "sourcePseudoLines": 60
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_解锁任务",
+      "owner": "sys-tutorial",
+      "affectedRows": [],
+      "sourcePseudoLines": 63
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_随机生命",
+      "owner": "sys-shop-events",
+      "affectedRows": [],
+      "sourcePseudoLines": 64
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_奖励_额外经验",
+      "owner": "sys-shop-events",
+      "affectedRows": [],
+      "sourcePseudoLines": 94
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_能力_升级所有物品",
+      "owner": "sys-shop-events",
+      "affectedRows": [],
+      "sourcePseudoLines": 94
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_能力_事件抉择",
+      "owner": "sys-shop-events",
+      "affectedRows": [],
+      "sourcePseudoLines": 98
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_锻造锤_标签",
+      "owner": "sys-craft",
+      "affectedRows": [],
+      "sourcePseudoLines": 124
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/道具/蓝图_能力_锻造锤_品质",
+      "owner": "sys-craft",
+      "affectedRows": [],
+      "sourcePseudoLines": 132
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/玩家/蓝图_能力_给英雄附加效果",
+      "owner": "sys-shop-events",
+      "affectedRows": [],
+      "sourcePseudoLines": 182
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/玩家/蓝图_效果_获取轮回宝藏",
+      "owner": "sys-tutorial",
+      "affectedRows": [],
+      "sourcePseudoLines": 182
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/过期/蓝图_效果_秘银鳞片",
+      "owner": "bp-items-4",
+      "affectedRows": [],
+      "sourcePseudoLines": 208
+    },
+    {
+      "class": "CatapultHero/BP/Skill/效果/可拾取物/蓝图_可拾取物_保护罩",
+      "owner": "env-hazards",
+      "affectedRows": [],
+      "sourcePseudoLines": 282
+    },
+    {
+      "class": "CatapultHero/BP/Skill/Ability/奖励/蓝图_能力_兑换物品",
+      "owner": "sys-craft",
+      "affectedRows": [],
+      "sourcePseudoLines": 351
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "id": "T090",
+  "name": "易燃易爆",
+  "status": "generated-normalized",
+  "source": "mothers/T090.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T090.png",
+  "motherSha256": "83d36dc1d01fb885727eb963c5f7bcbd2e57c82645daf8ee8f1ad6ec0bcd064a",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T090.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5462,
+      "sha256": "f5d48a4b69ac43ac6e2a35cb6c849a35b9a08543cc64f9f3ad95cc37db01b956",
+      "pixelSha256": "f986ca271cba22d5d1c2454667439ca6dab1726b7a7dd1f3dffc7cc90400ae2b",
+      "alphaBounds": [
+        7,
+        5,
+        120,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          132,
+          99,
+          1168,
+          1196
+        ],
+        "fitSize": [
+          113,
+          120
+        ],
+        "position": [
+          7,
+          4
+        ],
+        "scale": 0.10938924339106655
+      }
+    },
+    "256": {
+      "file": "pixels/256/T090.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 20236,
+      "sha256": "92585456d577a839ef288949ca6201b926545d10b0e09075bb6bf29f1172add2",
+      "pixelSha256": "1fbd43ba25088bb1b89a223f9958b565cdb1364c4459c1a37fc75d9ce37b767b",
+      "alphaBounds": [
+        15,
+        9,
+        241,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          132,
+          99,
+          1168,
+          1196
+        ],
+        "fitSize": [
+          227,
+          240
+        ],
+        "position": [
+          14,
+          8
+        ],
+        "scale": 0.2187784867821331
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-03.png; correct subject and complete readable silhouette, no visible background matte",
+  "repair": {
+    "prompt": "prompts/T090-framing-repair.txt",
+    "source": "qa/rejected/T090-tight-flame-margin.png",
+    "reason": "Move flame tip away from source-canvas edge while preserving subject"
+  },
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-03.png",
+    "pixelSha256": "1fbd43ba25088bb1b89a223f9958b565cdb1364c4459c1a37fc75d9ce37b767b",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-df493c76-4a67-4d1b-900d-95235a856e66.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-df493c76-4a67-4d1b-900d-95235a856e66"
+  }
+}

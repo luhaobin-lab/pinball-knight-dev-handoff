@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "icons": 308,
+  "PNGVariantsVerified": 616,
+  "exactAtlasCropsMatched": 308,
+  "packagedMotherHashesMatched": 308,
+  "optionalMotherFilesMissing": [],
+  "productionVisualReviewsRecorded": 305,
+  "userApprovedAnchors": 3,
+  "atlasPages": 7,
+  "protectedAnchorsUnchanged": {
+    "I005": true,
+    "I047": true,
+    "I106": true
+  },
+  "anchorBaseline": "data/approved-anchor-hashes.json, recorded from the approved V6 delivery",
+  "sourceNamesSlotsDescriptionsFlagsPreserved": true,
+  "atlasOverlap": false,
+  "externalAuthorMachinePathsRequired": false,
+  "boundary": "File and atlas integrity plus previously recorded visual reviews. No target-game import or player recognition validation."
+}

@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-29",
+  "authority": "用户本轮明确纠正，覆盖旧背包两列方格规则",
+  "generation": {
+    "model": "gpt-image-2.5-sunburst",
+    "wholeScreenGenerated": true,
+    "canvas": [
+      3200,
+      1440
+    ]
+  },
+  "navigation": [
+    "装备栏位",
+    "英雄属性",
+    "装备图鉴"
+  ],
+  "equipmentAndBackpack": {
+    "sharedStructure": true,
+    "layout": "整宽物品卡纵向排列；左右同栏宽、同卡高、同间距、同边框与表面",
+    "forbidden": "右背包分成两列独立方格",
+    "empty": "使用完整横向空卡槽，不复制装备或添加角标",
+    "occupied": "物品图像主导，角标贴边，卡面不常驻名称与说明",
+    "verticalSize": "按真实占位变化，不为装饰改变物品尺寸",
+    "locks": "本轮锁槽为视觉样例，不是当前玩家解锁存档"
+  },
+  "artDirection": {
+    "target": "风暴怕死队 Pass the Fear 原生 UI 家族",
+    "authority": "第九轮用户指定；覆盖此前DD2、现代CULT和高清像素方向",
+    "principles": [
+      "深紫棕卡面与铜木边框",
+      "挂环纸页TAB，选中暖黄、未选灰褐",
+      "较大手绘状态图标",
+      "左右整宽单列卡槽尽量对齐",
+      "保留本项目物品、文案与功能状态"
+    ]
+  },
+  "candidateFolder": "art/ui-v10",
+  "acceptance": "只确认生成/文件/静态内容核对；不声称完全消除AI感、顶级品质、像素级几何一致或真实触控验证",
+  "latestUserDirection": "2026-10-29 用户决定保留现有第十版并整理跨电脑交接，取消继续生成新疯狂美术版本。",
+  "layoutStatus": "用户认可当前大方向与排版，后续锁定几何结构",
+  "artAcceptance": "用户接受第十版作为当前继续开发视觉方向；不代表手机实机与真人盲测验收",
+  "layoutSource": "第九轮01战斗母版；用户已认可此方向",
+  "latestCompletedIteration": "第十轮质感精修，12张3200×1440 Sunburst整图、前后对照浏览页及ZIP",
+  "iteration08": {
+    "folder": "archive/ui-history/Sunburst_现代暗黑08",
+    "status": "被用户新方向覆盖，不扩展、不作为交付",
+    "focus": "成熟人物比例、怪诞器物、共用仪式母题、主动设计的大块黑影；保留高清细像素与功能布局",
+    "jobId": "6ae2d5baf5157103dedcc6c5"
+  },
+  "iteration09": {
+    "folder": "archive/ui-v09-approved",
+    "status": "整套方向获用户认可；作为第十轮布局与内容依据",
+    "source": "官方中文Steam截图+官方中文图鉴公告图",
+    "jobId": "6ae2dc867a23e72106dcbce2",
+    "blindTest": "未执行真人盲测，不能声称无差别",
+    "pricePolicy": "示意价经用户授权：青铜商品购买2金币，毒剂出售1金币，最终数值待定",
+    "count": 12,
+    "gallery": "archive/ui-v09-approved/集中审核.html",
+    "manifest": "archive/ui-v09-approved/交付清单.json"
+  },
+  "iteration10": {
+    "folder": "art/ui-v10",
+    "status": "当前正式视觉基线；2026-10-29用户确认保留",
+    "model": "gpt-image-2.5-sunburst",
+    "size": [
+      3200,
+      1440
+    ],
+    "count": 12,
+    "focus": [
+      "物品平涂墨线统一",
+      "框体减少连续亮倒角",
+      "场景细节主次",
+      "文字可读与角色分工",
+      "人物姿态自然"
+    ],
+    "geometry": "沿用第九轮已认可布局",
+    "blindTest": "未执行真人盲测，不能声称无差别",
+    "gallery": "art/ui-v10/集中审核.html",
+    "manifest": "art/ui-v10/交付清单.json"
+  },
+  "safeInventory": {
+    "authority": "用户本轮明确修正",
+    "layout": "可一直向下浏览的多物品保险箱栏位，类似背包整宽卡槽；列表与详情分区",
+    "visible": "多行槽位、部分续行、竖向滚动条，选中物品的详情与取出按钮固定",
+    "content": "目前仅已核验的一件香菇4；不编造新存入物品或容量数字",
+    "supersedes": "此前单物品大宝箱展示页"
+  }
+}

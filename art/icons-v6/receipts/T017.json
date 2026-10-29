@@ -1,0 +1,86 @@
+{
+  "id": "T017",
+  "name": "敏捷",
+  "status": "generated-normalized",
+  "source": "mothers/T017.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T017.png",
+  "motherSha256": "0ccbc7b77d1c3d50fd4df099ccfb1038d207bca3a333fc6efecaadd154ed7ab4",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T017.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6036,
+      "sha256": "69afb5b5790e32be718661aadef0b58a70efbb19d178c006aa2ea4e2f3188800",
+      "pixelSha256": "5393e7d3cb552d40e630f5f92f019497564f544f7dd250f5d0e9d4a86db72722",
+      "alphaBounds": [
+        4,
+        4,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          22,
+          9,
+          1232,
+          1233
+        ],
+        "fitSize": [
+          119,
+          120
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.09803921568627451
+      }
+    },
+    "256": {
+      "file": "pixels/256/T017.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21605,
+      "sha256": "15177008b590e594d5554a1d757e25d6806c9ff25f1ee4f887e62a18cea76b52",
+      "pixelSha256": "f3d41e3ce8627d75efbe90ea956a0c5f681702282bb8a665579e9c911cd4e355",
+      "alphaBounds": [
+        9,
+        8,
+        246,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          22,
+          9,
+          1232,
+          1233
+        ],
+        "fitSize": [
+          237,
+          240
+        ],
+        "position": [
+          9,
+          8
+        ],
+        "scale": 0.19607843137254902
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-276ea634-4b73-450b-88c2-397e6c6b49c3.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-276ea634-4b73-450b-88c2-397e6c6b49c3"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "id": "I067",
+  "name": "汲取之果",
+  "status": "generated-normalized",
+  "source": "mothers/I067.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I067.png",
+  "motherSha256": "b7b784e37ea70cc6396c1d15706fc83cb00dd44ebc2d72d4d89e40e27a5fb09b",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I067.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5217,
+      "sha256": "949f90c0f864517397fc60b775c37c8cee58b057da2bb83d0050560369a0e439",
+      "pixelSha256": "a04a28b25d985c8fd9fdfe57e540b3f44c98a67a4888fd6fe23cfe118a965a74",
+      "alphaBounds": [
+        14,
+        4,
+        114,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          143,
+          30,
+          1145,
+          1227
+        ],
+        "fitSize": [
+          100,
+          120
+        ],
+        "position": [
+          14,
+          4
+        ],
+        "scale": 0.10025062656641603
+      }
+    },
+    "256": {
+      "file": "pixels/256/I067.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 18929,
+      "sha256": "dc2f84fb0c4ffa9cede46828a835fbb26ede1dd0a422c1e136b3b754e43c4215",
+      "pixelSha256": "8fff306341f9386f2a10aabdb9705d42216ca914cc631b1f23a4e88ff027e8e8",
+      "alphaBounds": [
+        27,
+        8,
+        228,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          143,
+          30,
+          1145,
+          1227
+        ],
+        "fitSize": [
+          201,
+          240
+        ],
+        "position": [
+          27,
+          8
+        ],
+        "scale": 0.20050125313283207
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-384f57ff-23fc-48d6-a287-87e9f72ed6f4.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-384f57ff-23fc-48d6-a287-87e9f72ed6f4"
+  }
+}

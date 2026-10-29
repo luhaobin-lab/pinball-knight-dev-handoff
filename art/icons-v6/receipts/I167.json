@@ -1,0 +1,93 @@
+{
+  "id": "I167",
+  "name": "无尽水壶",
+  "status": "generated-normalized",
+  "source": "mothers/I167.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I167.png",
+  "motherSha256": "e8364cd64bd70ec22592d7a09818bb22e62b5b105aa0408e1a4ab860dee611f1",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I167.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2426,
+      "sha256": "e3e9b20540014c6fc0ba9cd29ba21b150f5f3a9ee2ba03d48f0d7bf9e034add8",
+      "pixelSha256": "29b3fd2200df82c1aa31ed0584394c4c067a4f678fea3228ba6b948c22f43ab3",
+      "alphaBounds": [
+        7,
+        5,
+        120,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          16,
+          9,
+          1768,
+          878
+        ],
+        "fitSize": [
+          113,
+          56
+        ],
+        "position": [
+          7,
+          4
+        ],
+        "scale": 0.06444188722669736
+      }
+    },
+    "256": {
+      "file": "pixels/256/I167.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 8527,
+      "sha256": "4028fa81ab6269d5f9618b9efb7488d4e6da89a60c5710353cee9ce20332801f",
+      "pixelSha256": "73ef1d94388cf8906c3498cdfecfdc7a8a4a59c0290ab2214f3d5a2cfc0e472c",
+      "alphaBounds": [
+        15,
+        9,
+        241,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          16,
+          9,
+          1768,
+          878
+        ],
+        "fitSize": [
+          226,
+          112
+        ],
+        "position": [
+          15,
+          8
+        ],
+        "scale": 0.12888377445339472
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-01.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-01.png",
+    "pixelSha256": "73ef1d94388cf8906c3498cdfecfdc7a8a4a59c0290ab2214f3d5a2cfc0e472c",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-b0d0e636-1535-4222-954e-558c78a39d1d.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b0d0e636-1535-4222-954e-558c78a39d1d"
+  }
+}

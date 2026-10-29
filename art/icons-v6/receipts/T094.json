@@ -1,0 +1,93 @@
+{
+  "id": "T094",
+  "name": "大地脉动",
+  "status": "generated-normalized",
+  "source": "mothers/T094.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T094.png",
+  "motherSha256": "3223a5126d1bbe0972f7d34c70b5b2e50309093ad01bee972c8f0ab7f85aedfb",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T094.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6716,
+      "sha256": "eb61a5aff31346d8b72f53b5d7aa0d7da3a8ae3fbdbd5e961d134caadd3956c9",
+      "pixelSha256": "bf72945e8fd8675b7838e815fb77178c0a99cb607bfcff76c4a95046e0003ed2",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        122
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          38,
+          46,
+          1232,
+          1214
+        ],
+        "fitSize": [
+          120,
+          117
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.10050251256281408
+      }
+    },
+    "256": {
+      "file": "pixels/256/T094.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 24971,
+      "sha256": "369b0b9cbb0bbc06ab6db9213b8a24cc59ba9116228b4cb8047b5d08b856c1ab",
+      "pixelSha256": "4489c92ba1cd5252f4f3ed108739710233508e443d8c90744ac37fb4352c3250",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        245
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          38,
+          46,
+          1232,
+          1214
+        ],
+        "fitSize": [
+          240,
+          235
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.20100502512562815
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-03.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-03.png",
+    "pixelSha256": "4489c92ba1cd5252f4f3ed108739710233508e443d8c90744ac37fb4352c3250",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-43684c77-aa11-4d7f-97d0-338f67ceb70f.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-43684c77-aa11-4d7f-97d0-338f67ceb70f"
+  }
+}

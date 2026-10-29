@@ -1,0 +1,95 @@
+{
+  "id": "I136",
+  "name": "亡者之息",
+  "status": "generated-normalized",
+  "source": "mothers/I136.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I136.png",
+  "motherSha256": "9361c5fceee94c2f44579bc616e57619a8003a9c07ad0a9d934cf8310c8c0653",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I136.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3337,
+      "sha256": "02c3686d0df2f3f53ac2e85b90706f898cb70f0d124b218d50be91cf34550ea8",
+      "pixelSha256": "d7fd39d57a304dada8aae8b455b0582ecb17b300ab1a8874184cfddcd5dad84d",
+      "alphaBounds": [
+        6,
+        4,
+        121,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          15,
+          13,
+          1759,
+          865
+        ],
+        "fitSize": [
+          115,
+          56
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.06572769953051644
+      }
+    },
+    "256": {
+      "file": "pixels/256/I136.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 11863,
+      "sha256": "dab15af11d9725b4248017dddfb769759a9644a50cae738b4932b37017d3844b",
+      "pixelSha256": "7fd3bdcc2d5256d08db50676d593804a4c538ab30199cd1d39971ae7d01be70d",
+      "alphaBounds": [
+        13,
+        8,
+        242,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          15,
+          13,
+          1759,
+          865
+        ],
+        "fitSize": [
+          229,
+          112
+        ],
+        "position": [
+          13,
+          8
+        ],
+        "scale": 0.13145539906103287
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "攥金币手套、骨口幽息、铁箍魂珠主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-eb49b477-5bcb-4f7b-a00e-5ef157260c1a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-eb49b477-5bcb-4f7b-a00e-5ef157260c1a"
+  }
+}

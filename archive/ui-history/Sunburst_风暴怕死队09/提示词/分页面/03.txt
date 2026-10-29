@@ -1,0 +1,21 @@
+PAGE 03 — 装备图鉴 / EQUIPMENT CODEX
+
+Generate one COMPLETE equipment-codex screen. Apply the shared style and the approved 风暴怕死队 UI master without inventing another visual system. Preserve its hanging paper PAGE TABS, enlarged status icons, Chinese lettering and all top resource values. The THIRD global tab “装备图鉴” is selected; “装备栏位” and “英雄属性” are inactive. Keep the tabs at their established positions with the same construction and label baselines.
+
+PAGE-SPECIFIC LAYOUT OVERRIDE:
+A single spacious codex occupies the LEFT + CENTRAL area, replacing the ordinary equipped-item column and central playfield for this page. Its upper and lower outer edges align with the corresponding edges of the master side panels. This is the intentional wide-page state, not a small floating tooltip. The RIGHT backpack remains exactly in the master's position and size: title “背包”, THREE EMPTY FULL-WIDTH horizontal cards stacked in ONE column, then ONE bottom locked card. Match the master card widths, heights, gaps and shared horizontal row baselines. No two-column cells. Do not also squeeze a duplicate equipment column into the codex.
+
+The codex has a clear selection area and a larger selected-item explanation area. Show EXACTLY THREE collected equipment choices with their familiar master-image identities:
+“淬毒利刃” — “已收集”
+“凝血毒剂” — “已收集”
+“灵魂香菇” — “已收集”
+Select 淬毒利刃 visibly using the approved selected-component treatment. These are catalogue entries, not additional owned copies placed in the backpack. Do not invent extra entries, mystery items, a collection denominator, a completion percentage or an arbitrary total collection count.
+
+SELECTED BRONZE CATALOGUE ENTRY:
+Large clear item illustration retaining the master's dagger identity, title “淬毒利刃”, quality “青铜”. Set the following Chinese effect text cleanly and exactly, in three readable groups:
+“充能后：下3次攻击造成15剧毒伤害。”
+“剧毒持续3回合 · 会心几率30%。”
+“每8次剧毒伤害，施加1层易伤。”
+This is the BRONZE CATALOGUE VERSION. Its poison is 15 and vulnerability is 1. Do not borrow the equipped instance's 30 poison, 2 vulnerability, +20% maximum HP or enchantment badge. Do not show a fabricated charge amount or purchase price.
+
+Provide one clear secondary control “返回”. The page is exclusively an equipment collection and description view: no talent tree, character upgrades, crafting, recipe actions, equipment activation, purchase, sale, additional currency or commerce button. A subtle view of the existing game world may remain behind the codex, but it must not compete with the readable page. All text, controls and artwork belong inside the fully generated screen; no external annotation, layout labels, diagnostic boxes or explanatory footer.

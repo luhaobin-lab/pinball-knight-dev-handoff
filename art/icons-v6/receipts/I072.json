@@ -1,0 +1,86 @@
+{
+  "id": "I072",
+  "name": "蕨叶",
+  "status": "generated-normalized",
+  "source": "mothers/I072.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I072.png",
+  "motherSha256": "fcff462de798f664facefb057d1994bf0c6239e85f714afaebd58750f2679380",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I072.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2644,
+      "sha256": "75ba50b0409c7c45d10c6aba2239d9106768aaec634b573b196f7d6095e9d804",
+      "pixelSha256": "b2fe785b2f672907a7932fd4af4cc31ccf5bc84fa5ff6ff3a8efdde68be4b143",
+      "alphaBounds": [
+        6,
+        4,
+        122,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          14,
+          18,
+          1759,
+          861
+        ],
+        "fitSize": [
+          116,
+          56
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.066429418742586
+      }
+    },
+    "256": {
+      "file": "pixels/256/I072.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9180,
+      "sha256": "6fcba237d4139dfee36ecced555ece1f2f8802d0a3c04921eb94f53a7a25ef3c",
+      "pixelSha256": "9d6847ed6153f704387e73252a60e2efd851dfa038303a37bab9d79862a710a1",
+      "alphaBounds": [
+        12,
+        8,
+        244,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          14,
+          18,
+          1759,
+          861
+        ],
+        "fitSize": [
+          232,
+          112
+        ],
+        "position": [
+          12,
+          8
+        ],
+        "scale": 0.132858837485172
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-cb16de08-d7f9-4bc4-811f-96bd96e8f552.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-cb16de08-d7f9-4bc4-811f-96bd96e8f552"
+  }
+}

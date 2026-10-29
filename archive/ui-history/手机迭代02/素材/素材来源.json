@@ -1,0 +1,33 @@
+{
+  "营地场景": {
+    "file": "素材/营地场景.png",
+    "bytes": 4293647,
+    "width": 3200,
+    "height": 1440,
+    "sha256": "237fb9bcbe1af8a7c78a3a277376a5c97dcfb69edada50a57afc8c871f9ab1b4",
+    "model": "gpt-image-2.5-sunburst",
+    "jobId": "6ae22b797a23e72106dcb71e",
+    "fileId": "6ae22ba87a23e72106dcb720",
+    "purpose": "原创营地背景；并非实机截图"
+  },
+  "商人场景": {
+    "file": "素材/商人场景.png",
+    "bytes": 2247309,
+    "width": 3200,
+    "height": 1440,
+    "sha256": "f3a8e7f792ea58dd6058e76019e400aec9595a4d612e1231237f342d1195e809",
+    "model": "gpt-image-2.5-sunburst",
+    "jobId": "6ae22b7d98d303820bdcb180",
+    "fileId": "6ae22ba398d303820bdcb182",
+    "purpose": "原创商人背景；并非实机截图"
+  },
+  "真实战斗无UI": {
+    "file": "素材/真实战斗无UI.png",
+    "bytes": 634100,
+    "width": 3200,
+    "height": 1440,
+    "sha256": "57c80a7ba18ead67a739bfcde973bb755862c09da6f8b1c12473b4987400cabe",
+    "source": "../全集01/参考图/实际战斗_完整取景无UI_3200x1440.png",
+    "purpose": "既有实机底图；本轮没有重新生成角色、怪物或房间"
+  }
+}

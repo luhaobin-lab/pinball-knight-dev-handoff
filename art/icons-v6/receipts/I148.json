@@ -1,0 +1,95 @@
+{
+  "id": "I148",
+  "name": "再生腰带",
+  "status": "generated-normalized",
+  "source": "mothers/I148.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I148.png",
+  "motherSha256": "c423c8bc88ce1fea9079e8be49228875cb83fe715e964b32915d3e9b66ce7ddd",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I148.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3094,
+      "sha256": "89d243eaab10cf5d9c35088f4a9a0980a7bbcff592367245eb3d86d22251c11c",
+      "pixelSha256": "638ce2969595bbbfbe2e8e6d33ca8e0d9186b19d86c152949b5058ce3b269b0f",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        59
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          55,
+          70,
+          1752,
+          827
+        ],
+        "fitSize": [
+          120,
+          54
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.07071302298173247
+      }
+    },
+    "256": {
+      "file": "pixels/256/I148.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 11317,
+      "sha256": "8e81ebb944050fde474245ca1c4964aac95eaad9da2f98a145b1e902b38f5094",
+      "pixelSha256": "bc2bfca47d6628bf3f29425c1eb827001ff88bc2f91c0adc713f4a7f2051f4b8",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        117
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          55,
+          70,
+          1752,
+          827
+        ],
+        "fitSize": [
+          240,
+          107
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.14142604596346495
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "交叉裹布、带再生芽腰带、血槽弯匕首主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-d1336536-8efd-4141-ac8c-14c72e659d29.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-d1336536-8efd-4141-ac8c-14c72e659d29"
+  }
+}

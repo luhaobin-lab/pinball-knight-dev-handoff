@@ -1,0 +1,381 @@
+{
+  "status": "nightly-run-closed-with-explicit-research-gaps",
+  "sourceBuild": 25684533,
+  "dataSheets": 115,
+  "workbookSheetsIncludingIndexes": 118,
+  "workbooks": 3,
+  "physicalRows": 1576,
+  "sourceBlueprintFunctions": 5240,
+  "rawSourcesUnchanged": true,
+  "R3Core": {
+    "schemaVersion": 1,
+    "release": "R3",
+    "status": "validated-r3-library-and-supplementA-delivered",
+    "source": {
+      "appid": "3910830",
+      "name": "Ricochet Abyss Demo",
+      "buildid": "25684533",
+      "targetBuildId": "25684533",
+      "depot": "3910831",
+      "depotManifest": "7838975133870510760",
+      "sizeOnDisk": 593640945,
+      "lastUpdatedUTC": "2026-10-21T05:45:25+00:00",
+      "source": "D:\\steam\\steamapps\\appmanifest_3910830.acf",
+      "sourceManifestSha256": "5a2f1d663c1a282c8cc37cc84715eb290171dab9291bc12f4b2dff7b858500e5",
+      "capturedAt": "2026-10-27T15:25:11.236314+00:00",
+      "scope": "Version/depot whitelist only; privateSteamaccountfieldsomitted",
+      "sourceInstallation": "D:/steam/steamapps/common/Ricochet Abyss Demo"
+    },
+    "sourceInstallationUnchanged": true,
+    "scope": "Full packaged records and bounded verified source mechanisms, with explicit remaining engine/dynamic-path gaps; no fullgameparityclaim",
+    "files": [
+      {
+        "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+        "bytes": 5563473,
+        "sha256": "a8633c42977acd06c87cb3321b578fe11330c00be30ec0b5f7269c80aa69e532"
+      },
+      {
+        "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+        "bytes": 6495347,
+        "sha256": "9c3f046320aac0cc47fdc982f5013e48bdc20adc35cbaba9dabd12c8e3e16bdf"
+      },
+      {
+        "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3原始证据与参考算法.zip",
+        "bytes": 226694381,
+        "sha256": "ca232bdbe6e0065fddb461ef6e165bc2ddb7c0f5c84cc9e708f6b0eb15df7319"
+      },
+      {
+        "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\开始阅读.md",
+        "bytes": 2741,
+        "sha256": "fe0e5ff7ec11702c024fe0553dcb7f064acf2bb0d39987a72860ec66c8ce551f"
+      },
+      {
+        "path": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\工作表总目录.csv",
+        "bytes": 7668,
+        "sha256": "93e999c6e47d4f1148b85833975542a7cd55b64516d5121df97af5cde867b970"
+      }
+    ],
+    "counts": {
+      "dataSheets": 101,
+      "workbookVolumes": 2,
+      "workbookSheetsWithIndexes": 103,
+      "verifiedCells": 1893243,
+      "physicalDataTableRows": 1576,
+      "compositeAliases": 970,
+      "itemCards": 202,
+      "talents": 252,
+      "finiteTalentLevels": 951,
+      "symbolicUnboundedRows": 3,
+      "talentParameterRows": 3804,
+      "enemies": 42,
+      "enemyOriginalAttributes": 1428,
+      "originalBlueprintFunctions": 5240,
+      "sourcePackageCount": 4443,
+      "rawDumpFiles": 6412,
+      "PAKFiles": 4545,
+      "archiveMembers": 11722
+    },
+    "verification": {
+      "independentWorkbookAndArchive": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\workbook\\delivery-review.json",
+      "semanticCloseout": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\semantic\\review-closeout.json",
+      "sourceRevalidation": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\prepared\\source-revalidation.json",
+      "nativeRandomVectors": 1017,
+      "blueprintBoundaryVectors": 12,
+      "nativeCurveBitComparisons": 20086,
+      "nativeCurveBitMismatches": 0,
+      "heroThresholdsVerified": 60,
+      "growthInputScenariosVerified": 2440,
+      "calcOriginalFormulas": 10662,
+      "calcExplicitCalculateAll": true,
+      "calcChangedInputExamples": 2,
+      "calcReport": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\native-calc-forced-recalculation.json",
+      "calcInputReport": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\native-calc-input-change-final.json",
+      "finalWorkbookNotReplacedByCalc": true
+    },
+    "knownLimits": [
+      "Two unread serializedexporttails total157bytes retained",
+      "48nativeentries hashed/disassembled doesnotprove everytransitivecallee",
+      "Chaos contact/equal-time ordering/ticklatent/actoriteration exactsemantics incomplete",
+      "Alltalentparamtrajectories are source scalars; dynamicattribute/effectconsumers notallbranch-proven",
+      "GlobalCRTsessionstate/interleaving and nativeMapmutationhistory notfullyreplayed",
+      "UMGmissingserializedrow/column remainsunconfirmed",
+      "Notallhidden/legacyfunctionnaturallyreachable;staticentryevidence stated"
+    ],
+    "ongoing": {
+      "purpose": "Nightlyboundedremaininggaptriage",
+      "automationId": "abyss-demo",
+      "noMoreWorkbookChangesWithoutNewEvidence": true
+    },
+    "runtimeCodeModified": false,
+    "originalGameLaunched": false,
+    "numericNativeFragmentsExecutedInIsolation": true,
+    "paidGenerationJobs": 0,
+    "proposals": [],
+    "needs": [],
+    "createdAt": "2026-10-27T17:10:52.037175+00:00",
+    "supplementA": {
+      "release": "R3补充核验A",
+      "status": "independently-reviewed",
+      "archive": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充核验A_原生CfromP与Calc验证.zip",
+      "bytes": 221787,
+      "sha256": "c1873ee8f14eb8db440dfe56635df626b66adf4a4aeb00587ee986070f21c960",
+      "members": 54,
+      "allMemberHashesVerified": true,
+      "actualCopiedMathExecutions": 1044,
+      "abiGuardOnlyCases": 8,
+      "totalComparisons": 1052,
+      "R3WorkbooksAndMainArchiveUnchanged": true,
+      "cacheWrapperStillNotExecuted": true,
+      "createdAt": "2026-10-27T17:23:51.772599+00:00"
+    }
+  },
+  "supplementA": {
+    "release": "R3补充核验A",
+    "status": "independently-reviewed",
+    "archive": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充核验A_原生CfromP与Calc验证.zip",
+    "bytes": 221787,
+    "sha256": "c1873ee8f14eb8db440dfe56635df626b66adf4a4aeb00587ee986070f21c960",
+    "members": 54,
+    "allMemberHashesVerified": true,
+    "actualCopiedMathExecutions": 1044,
+    "abiGuardOnlyCases": 8,
+    "totalComparisons": 1052,
+    "R3WorkbooksAndMainArchiveUnchanged": true,
+    "cacheWrapperStillNotExecuted": true,
+    "createdAt": "2026-10-27T17:23:51.772599+00:00"
+  },
+  "supplementB": {
+    "release": "R3补充B",
+    "status": "source-and-workbook-independently-reviewed",
+    "xlsx": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充B_技能与天赋消费者.xlsx",
+    "xlsxBytes": 2779534,
+    "xlsxSha256": "021bc2a50f0352423498187abe7bf06a34e9af172f87ddaec22c23c3b4746848",
+    "archive": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充B_消费者映射原始数据与证据.zip",
+    "archiveBytes": 5765238,
+    "archiveSha256": "bcc0d3801630af1a78171617b75140507d6b186c6b2abe341ad6a76edc94f79c",
+    "members": 50,
+    "allArchiveHashesVerified": true,
+    "tables": 14,
+    "sheetsWithIndex": 15,
+    "rows": 27269,
+    "records": 914,
+    "skillRows": 662,
+    "talentRows": 252,
+    "parameterSlots": 3779,
+    "configuredClassReferences": 1667,
+    "semanticReport": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\consumer\\review-final.json",
+    "workbookReport": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\workbook\\consumer-b\\delivery-review.json",
+    "scope": "Complete static binding/availablefunction index and17reviewedpatterns; dynamicexecutionnotuniversallyproven",
+    "R3CoreUnchanged": true,
+    "createdAt": "2026-10-27T17:55:53.582042+00:00"
+  },
+  "supplementC": {
+    "release": "R3补充核验C",
+    "archive": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充核验C_尾部157字节.zip",
+    "bytes": 65921,
+    "sha256": "bb240d882952d4ec4a3192e333db636c4c9589423fd2e5342aa6c39de705275e",
+    "members": 32,
+    "allMemberHashesVerified": true,
+    "independentReview": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\semantic\\tail\\review-final.json",
+    "interpretedBytes": 157,
+    "dynamicMeshFields": 37,
+    "remainingOpaqueBytesUnderSupplementalGrammar": 0,
+    "originalExtractorNotChanged": true,
+    "sameBuildEngineSerializerVtableNotProven": true,
+    "editorialChange": "PublishednumberB→C inChinese note;actualsourcebytes/tablesunchanged",
+    "createdAt": "2026-10-27T17:47:02.179632+00:00"
+  },
+  "files": [
+    {
+      "path": "R3交付与验证记录.json",
+      "bytes": 5595,
+      "sha256": "bbda1bfb18ffdb3f22812d729fd1f935b87834564eb089181c712e8a56f7d21b"
+    },
+    {
+      "path": "R3补充B_技能与天赋消费者.xlsx",
+      "bytes": 2779534,
+      "sha256": "021bc2a50f0352423498187abe7bf06a34e9af172f87ddaec22c23c3b4746848"
+    },
+    {
+      "path": "R3补充B_消费者映射原始数据与证据.zip",
+      "bytes": 5765238,
+      "sha256": "bcc0d3801630af1a78171617b75140507d6b186c6b2abe341ad6a76edc94f79c"
+    },
+    {
+      "path": "R3补充核验A_原生CfromP与Calc验证.zip",
+      "bytes": 221787,
+      "sha256": "c1873ee8f14eb8db440dfe56635df626b66adf4a4aeb00587ee986070f21c960"
+    },
+    {
+      "path": "R3补充核验C_尾部157字节.zip",
+      "bytes": 65921,
+      "sha256": "bb240d882952d4ec4a3192e333db636c4c9589423fd2e5342aa6c39de705275e"
+    },
+    {
+      "path": "Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+      "bytes": 5563473,
+      "sha256": "a8633c42977acd06c87cb3321b578fe11330c00be30ec0b5f7269c80aa69e532"
+    },
+    {
+      "path": "Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+      "bytes": 6495347,
+      "sha256": "9c3f046320aac0cc47fdc982f5013e48bdc20adc35cbaba9dabd12c8e3e16bdf"
+    },
+    {
+      "path": "Ricochet_Abyss_Demo_R3原始证据与参考算法.zip",
+      "bytes": 226694381,
+      "sha256": "ca232bdbe6e0065fddb461ef6e165bc2ddb7c0f5c84cc9e708f6b0eb15df7319"
+    },
+    {
+      "path": "工作表总目录.csv",
+      "bytes": 7668,
+      "sha256": "93e999c6e47d4f1148b85833975542a7cd55b64516d5121df97af5cde867b970"
+    },
+    {
+      "path": "开始阅读.md",
+      "bytes": 2741,
+      "sha256": "fe0e5ff7ec11702c024fe0553dcb7f064acf2bb0d39987a72860ec66c8ce551f"
+    },
+    {
+      "path": "机制文档/01-原版数值与战斗机制.md",
+      "bytes": 30267,
+      "sha256": "6e7c297c71f5c8560cee259a46a81b3f3b6d1e1f36aeb0a7fbc92c6bd0e3bc7e"
+    },
+    {
+      "path": "机制文档/02-天赋与怪物成长.md",
+      "bytes": 14534,
+      "sha256": "53e7c32af48fa85e3622e8d819ab0064cff3660605b91bba348b01fcec9aac54"
+    },
+    {
+      "path": "机制文档/03-宝箱随机与经济.md",
+      "bytes": 11367,
+      "sha256": "1e1aaeef34db2ef37edd133fa7fe596d696a6d2bb2f9178973cd31b6c7983e6c"
+    },
+    {
+      "path": "机制文档/04-随机与经济伪代码.md",
+      "bytes": 6623,
+      "sha256": "475b9b5928d7c83d4691aace9194ceb8961e02d874d42f97e89e475b890a52f8"
+    },
+    {
+      "path": "机制文档/05-原生弹射与回放.md",
+      "bytes": 10897,
+      "sha256": "802793e2acd131d1dbb775d2f8d4a4b631ae180fc26fe8763b4ce56eba671dc2"
+    },
+    {
+      "path": "机制文档/06-R3新增核验与修正.md",
+      "bytes": 3208,
+      "sha256": "75c8c1ef659186d48e153bbc2c363f9b9b27ba14e4e7ea55c4614a6973c8112a"
+    },
+    {
+      "path": "机制文档/07-旧潜能入口追踪.md",
+      "bytes": 4121,
+      "sha256": "c3746e26edd06c1ca379fbbc8183961d6f02320697c6adb6745d97473e23a5ed"
+    },
+    {
+      "path": "机制文档/08-如何从资料定位到实现.md",
+      "bytes": 3364,
+      "sha256": "38c6f111cc1e11979d360aba101ee2a868d786dfe507ba40af2e8155ba575589"
+    },
+    {
+      "path": "机制文档/09-技能与天赋参数消费关系.md",
+      "bytes": 8607,
+      "sha256": "738174a845449d1656ad52d82ea40e51db94fbb5eb4c525136ad41a29ae52e00"
+    },
+    {
+      "path": "补充B发布记录.json",
+      "bytes": 1314,
+      "sha256": "7007877f74a857786c6e8647c3a28724017e4dbc9c77b8b1af685f2aae2f1794"
+    },
+    {
+      "path": "补充B阅读约定.md",
+      "bytes": 1988,
+      "sha256": "ef51f43ecbcd863bf2a8c830e92cb780737751521cdcb467ac0d296998fe186f"
+    },
+    {
+      "path": "补充核验A_CfromP/01-CfromP数学与保护分支.csv",
+      "bytes": 561334,
+      "sha256": "17f89e520438c1cd6ae4c63d0bb5d4fdfb7f3eee832301fbb86583f9992d7b06"
+    },
+    {
+      "path": "补充核验A_CfromP/Calc显式重算验证.json",
+      "bytes": 1407,
+      "sha256": "82af9082304ce5173777bffc2c342f992c8231587abab870b0e743c61af6272a"
+    },
+    {
+      "path": "补充核验A_CfromP/Calc输入变化验证.json",
+      "bytes": 843,
+      "sha256": "64dd092c7b39dfd882593a9d6bebfc450369dab94653afd21cc5046aebef3234"
+    },
+    {
+      "path": "补充核验A_CfromP/CfromP原生数学与缓存边界.md",
+      "bytes": 6743,
+      "sha256": "ba07dffce3da846ff34ad5cb9a26558c7d076a8c5068c88a8ef06a34b4a1e9e5"
+    },
+    {
+      "path": "补充核验A_CfromP/发布记录.json",
+      "bytes": 605,
+      "sha256": "074de8259f54270cadeffedfb353ba5c7cfdde666e69beed2394302527d6ba77"
+    },
+    {
+      "path": "补充核验A_CfromP/独立复核.json",
+      "bytes": 6438,
+      "sha256": "4616a54d8016700299131dfc969cd254fa31ba79f666f2440b556fdb23d9d7fe"
+    },
+    {
+      "path": "补充核验A_CfromP/结果.json",
+      "bytes": 4380,
+      "sha256": "12d3716332a2706b0005ac6077957ad4bbde364f71ab9ac12147c4a83476590a"
+    },
+    {
+      "path": "补充核验C_原包尾部/01-未读尾部补充解析.csv",
+      "bytes": 907,
+      "sha256": "d29d71f793f38988f08ff47d8781bb0936ef451d73557ed0f97db86157813803"
+    },
+    {
+      "path": "补充核验C_原包尾部/02-动态网格尾部37字段.csv",
+      "bytes": 12665,
+      "sha256": "cc1ef6f284a6e1dc6562f61070d8e277f6544c8dc941cfe3b94af0d0fd7e30da"
+    },
+    {
+      "path": "补充核验C_原包尾部/发布记录.json",
+      "bytes": 810,
+      "sha256": "debb625f9bad3cfbca328a1605c31a5d512b034c2b6eefe7bdd8cc77079150f8"
+    },
+    {
+      "path": "补充核验C_原包尾部/尾部157字节补充核对.md",
+      "bytes": 6144,
+      "sha256": "49be749a7669fedaa880e152d33fc2390b926b1e26e64d3d49e931d545bb3fac"
+    },
+    {
+      "path": "补充核验C_原包尾部/独立复核.json",
+      "bytes": 8847,
+      "sha256": "dff61c2d205a7c751f7040c533ec92ed4342e58aa1fc238fd30ac5af66c5fc0f"
+    },
+    {
+      "path": "补充核验C_原包尾部/结果.json",
+      "bytes": 4451,
+      "sha256": "37f2717d57e6d5d2c8690d657060d345693e09c4f54dc8467399ab997162c6bf"
+    },
+    {
+      "path": "资料包内容清单.json",
+      "bytes": 2528224,
+      "sha256": "ae40db4dbb776738235151c867e662098a23f5fdd6a00ca368a9e06eabd927b7"
+    }
+  ],
+  "pendingExactness": [
+    "Whole-session random interleaving",
+    "Original completePRDcache/TLSwrapper execution",
+    "EngineChaoscontact/equal-time/ticklatent/actoriteration precisebehavior",
+    "All dynamic skill paths and owner inputs",
+    "UMGcurrentPEzero/defaultcopychain andexactPaperZDvtable override chain"
+  ],
+  "nightFollowup": {
+    "automationId": "abyss-demo",
+    "status": "deleted",
+    "confirmedAtUTC": "2026-10-28T00:08:35.570036+00:00",
+    "automaticContinuationEnded": true
+  },
+  "createdAt": "2026-10-27T17:57:33.894019+00:00",
+  "morningHandoff": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\早晨交接_20261028.md",
+  "morningCloseout": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\早晨收尾记录.json"
+}

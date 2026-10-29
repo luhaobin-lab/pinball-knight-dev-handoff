@@ -1,0 +1,86 @@
+{
+  "id": "I010",
+  "name": "尖角头盔",
+  "status": "generated-normalized",
+  "source": "mothers/I010.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I010.png",
+  "motherSha256": "9ae16a2b1c04fce802781d73ecb13cd2edf8aa1e17fa97b12eea4cfdb81f6c41",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I010.png",
+      "width": 128,
+      "height": 192,
+      "colors": 62,
+      "bytes": 6747,
+      "sha256": "258a6e136343e4d7ea071bc4ec11177c254b77dee8a2dc6d884b5af0ec7d0f4a",
+      "pixelSha256": "4ea7fcb075ecc947ec86bf52f19f598c34bf377c3ba6c67bf48fc35fb8a81a66",
+      "alphaBounds": [
+        11,
+        4,
+        117,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          72,
+          16,
+          939,
+          1519
+        ],
+        "fitSize": [
+          106,
+          184
+        ],
+        "position": [
+          11,
+          4
+        ],
+        "scale": 0.12242182302062542
+      }
+    },
+    "256": {
+      "file": "pixels/256/I010.png",
+      "width": 256,
+      "height": 384,
+      "colors": 89,
+      "bytes": 24833,
+      "sha256": "905ab59e7c5f9cbac13304b676ab0c6df55df1b47949ce26818a2c4cf9d921b3",
+      "pixelSha256": "353867ebc015a32e7a920f737363f4316f97f3d27de0e912598a7f3c720e7708",
+      "alphaBounds": [
+        23,
+        9,
+        234,
+        376
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          72,
+          16,
+          939,
+          1519
+        ],
+        "fitSize": [
+          212,
+          368
+        ],
+        "position": [
+          22,
+          8
+        ],
+        "scale": 0.24484364604125083
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; distinct correct subject, complete outline, no visible normalized background residue",
+  "sourceProvenance": {
+    "sourceFilename": "exec-2c214ddc-5d10-4300-840a-0fcc1a69d008.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-2c214ddc-5d10-4300-840a-0fcc1a69d008"
+  }
+}

@@ -1,0 +1,29 @@
+[
+  {
+    "file": "参考原图/DD_商人与补给面板.jpg",
+    "source_page_url": "https://store.steampowered.com/app/262060/",
+    "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/ss_0513e7921787b61192ac356580f1d4c66a236092.1920x1080.jpg?t=1789168187",
+    "sha256": "77b357c3f2119b0a6726c54d9c635ece904191df1affb1be189bb3b5bcf3c70c",
+    "role": "Darkest Dungeon style authority"
+  },
+  {
+    "file": "参考原图/DD_角色属性页.jpg",
+    "source_page_url": "https://store.steampowered.com/app/262060/",
+    "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/ss_29888feb5adb6924ffb7e83997fcd0430dc4ca56.1920x1080.jpg?t=1789168187",
+    "sha256": "8d34643bf3248deac0fd7379a677ea4222c01b318f2eda773080afefdace9c56",
+    "role": "Darkest Dungeon style authority"
+  },
+  {
+    "file": "参考原图/DD_战斗与黑墨分区.jpg",
+    "source_page_url": "https://store.steampowered.com/app/262060/",
+    "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/262060/ss_04572edc979601b038756f87861c6f8c6c337806.1920x1080.jpg?t=1789168187",
+    "sha256": "18dde006b5335f6f6f66691296f89962ee89e45f568b46203581aa787c9d0da5",
+    "role": "Darkest Dungeon ink shadow and gothic architecture"
+  },
+  {
+    "file": "参考原图/目标游戏_真实战斗无UI.png",
+    "source": "../全集01/参考图/实际战斗_完整取景无UI_3200x1440.png",
+    "sha256": "57c80a7ba18ead67a739bfcde973bb755862c09da6f8b1c12473b4987400cabe",
+    "role": "Own-game room and actor content reference"
+  }
+]

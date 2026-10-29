@@ -1,0 +1,11 @@
+{
+  "baseline": "ae26447 (source room recovery da5a602 integrated)",
+  "change": "Source manual masks/procedural cell removal, proper UE X/Y axes, decoration tile selection and placement add genuine source level-stream draws. Old rectangle and long natural-seed choices cannot be treated as current snapshots.",
+  "preserved": [
+    {"file":"seed2-boss-corner.json","baseline":"58ad9d8 +70bcad3","use":"Unchanged original coordinates and aim; explicit [-896,896]x[-640,640] collision boundary reinstated only insidefixture, usedforzero-length-chain/cooldown/digest assertions."},
+    {"file":"seed516-failure-panel.json","baseline":"89d332c","use":"Unchanged historical63-command record. Current regression bootsactualcurrentroom, executes realnormaldeath andbarrier lifecycle, thenverifies0.5sreload/RNG/restoration/tworetries."},
+    {"evidence":"studio/logs/g2-ending-review/seed38-order.json","baseline":"0b1a3e7 /89d332c","use":"OriginalpositiveHPcorruptiondouble-panel proofpreserved. Currenttest sets sourcecorruption/killmissionboundary, callsreal增加腐化+新回合后 andrunner; assertsdefeat,1failure,noacceptanceofcoveredpanel."},
+    {"evidence":"studio/logs/g2-final-scope/loot-reachability.json","baseline":"8918652","use":"Originalnatural8itempaidboxretained. Currentnaturalpaidbox/rerollassertionsremain; exactoldsize/price/layoutlisttestedasseparateexplicitrealrewardgenerationboundary."}
+  ],
+  "scope": "Boundaryfixture reconciliation only. No production rule changes, capturefile edits, skip/todo additions or claims that injected states are natural full runs."
+}

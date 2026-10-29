@@ -1,0 +1,1619 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "scope": "E033-E050，高阶18条；只读设计审计，未改最终JSON或工作簿",
+  "audited_design": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+  "audited_sha256": "2a3b5eee4ba52031a75ee728bd969deb1006832578f402c0390f310ecbafed91",
+  "source_counts": {
+    "full_video_items": 175,
+    "full_video_talents": 133,
+    "current_selected_items": 14,
+    "current_selected_talents": 11
+  },
+  "decision_method": [
+    "用户已接受50种扩展与元素调谐/溢疗等方向，不能把旧4符文仅修饰数值的范围机械地当永久禁止。",
+    "允许用已有事件、属性、标签、位置和灌注组成新附魔；不把所有内部计数/储存都说成新造，I139/I078/I016有明确先例。",
+    "独立新资源池、额外手工操作、与原回响语义不同的纯回响独立包、重写DOT时间线必须收敛或移除。",
+    "完整CSV证明源存在；当前03配置证明本prototype选用了什么；两者均不自动证明运行已实现或后续源内容已被批准启用。"
+  ],
+  "overall_counts": {
+    "保留": 7,
+    "改写": 9,
+    "移除": 2
+  },
+  "cross_cutting_findings": [
+    {
+      "id": "HIGH-G08",
+      "finding": "G08纯回响并非K008回响释放，应撤回，不可仅改名字保留全封监听的独立伤害/治疗/强固系统。",
+      "affected": [
+        "E045",
+        "E046",
+        "E047",
+        "E050"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "line_start": 10,
+          "line_end": 10,
+          "id": "K008",
+          "name": "回响释放",
+          "description": "回响释放会提升完成充能时触发效果的次数。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第79行 / 连击"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 35,
+          "line_end": 40,
+          "supports": "沿用伤害桶、强固消费顺序与DOT原时间线"
+        }
+      ]
+    },
+    {
+      "id": "HIGH-G09",
+      "finding": "G09请求治疗减实际HP的余量定义未核清K001治愈移除DOT的作用，可能把已用于清DOT的量重复作为溢疗。需核实际消费者，不能先定公式再声称是原机制。",
+      "affected": [
+        "E035"
+      ],
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "line_start": 2,
+          "line_end": 3,
+          "id": "K001",
+          "name": "治愈",
+          "description": "治愈可以恢复失去的生命，并且可以移除持续伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第61行 / 治愈\ndata/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第63行 / 治疗"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 8,
+          "line_end": 8,
+          "id": "T007",
+          "name": "溢疗充能",
+          "description": "受到治愈时，如果生命值高于50%，随机物品灌注10。每回合只能触发5次。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第135行 / ROW-06eed5c68d28"
+        }
+      ]
+    },
+    {
+      "id": "HIGH-ACTIVATION",
+      "finding": "当前14/11标记只能表示有载体或当前选用范围。全部source_only IDs须单列并注明需接入/未自动启用；源存在不等于当前设计已批准。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 3,
+          "line_end": 6,
+          "supports": "新模式配置优先；来源字段不等于最终输出或运行时已接入"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "id": "E033",
+      "name": "火焰烙印",
+      "verdict": "保留",
+      "classification": "用户已接受的元素调谐；沿用已有元素身份机制",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2198,
+        "record_id": "E033"
+      },
+      "facts": [
+        "I006灼热眼珠、I041幽焰龙头、I042幽焰龙尾都明确存在让物品被认为是火系的效果；T090也能赋予最上方物品火系身份。",
+        "用户已承接元素调谐方向；旧四符文仅数值修饰的限制不能用来否定本次扩展。"
+      ],
+      "issues": [
+        "当前14件物品/11天赋没有I019或T090，只有火系身份而无元素消费者时可能完全无用。",
+        "源物品附魔石被当前source_contract排除；不能连带恢复I006原石头掉落/拖拽附魔流程。"
+      ],
+      "conservative_revision": "保留只附加已有火系runtimeTag、不自动加燃烧或新伤害类型的规则。仅在启用配套火系消费者后入池；离开锚点撤销临时标签，sourceTags不改。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 18,
+          "line_end": 19,
+          "id": "I006",
+          "name": "灼热眼珠",
+          "description": "拖放至任意物品对其附魔：\n此物品被认为是火系物品，造成非持续伤害时点燃敌人，在3回合内造成该伤害值50%的燃烧伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第160行 / ROW-a7286baef3b8"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 138,
+          "line_end": 141,
+          "id": "I041",
+          "name": "幽焰龙头",
+          "description": "完成充能时：\n下2次碰撞敌人时，引起爆炸，造成16伤害。\n下方相邻物品被认为是火系物品。\n每装备一个火系物品，提升1回响释放。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第189行 / ROW-fd08fac57872"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 142,
+          "line_end": 145,
+          "id": "I042",
+          "name": "幽焰龙尾",
+          "description": "完成充能时：\n下2次碰撞敌人时，引起爆炸，造成16伤害。\n上方相邻物品被认为是火系物品。\n每装备一个火系物品，受到的伤害减少2%。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第191行 / ROW-9d2b018ac76b"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 95,
+          "line_end": 95,
+          "id": "T090",
+          "name": "易燃易爆",
+          "description": "火系物品完成充能时下次造成伤害时引起爆炸，造成30伤害（受英雄基础伤害影响）。（装备的最上方物品会被认为是火系物品）",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第120行 / ROW-264e6ea1944c"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 66,
+          "line_end": 70,
+          "id": "I019",
+          "name": "风火权杖",
+          "description": "完成充能时：\n获得1层心流。\n回响释放×3。\n回合开始时，生成旋风和爆炸，对敌人造成38伤害。\n相邻气系和火系物品提升1回响释放。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第7行 / ROW-a950cf97d3ce"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        }
+      ],
+      "activation_boundary": "保留扩展候选，维持需扩内容；不自动把元素装备/职业天赋加入当前prototype。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I114",
+          "I116"
+        ],
+        "source_only_item_ids": [
+          "I019"
+        ],
+        "selected_talent_ids": [],
+        "source_only_talent_ids": [
+          "T090"
+        ]
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E034",
+      "name": "雷电烙印",
+      "verdict": "保留",
+      "classification": "用户已接受的元素调谐；沿用电系身份与灌注条件",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2250,
+        "record_id": "E034"
+      },
+      "facts": [
+        "I129超载神经明确把物品视作电系；T095令最上方物品视作电系并驱动非电系灌注。",
+        "T113并联按电系/非电系身份选择目标；电系赋性可能确实改变接收资格。"
+      ],
+      "issues": [
+        "T095/T113及I175/I171均不属于当前14/11默认选用内容。",
+        "不能把赋予电系身份当成自动得到电击攻击，不能因为源有I129就复活旧物品附魔石逻辑。"
+      ],
+      "conservative_revision": "保留仅附加已有电系runtimeTag。展示非电系目标池的变化；元素消费者接入前不入普通附魔抽池，不改变物品原伤害类型。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 368,
+          "line_end": 368,
+          "id": "I129",
+          "name": "超载神经",
+          "description": "拖放至任意物品对其附魔：此物品被认为是电系物品，战斗回合开始时，电击周围敌人，造成50%英雄基础伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第181行 / ROW-62b02650b128"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 101,
+          "line_end": 102,
+          "id": "T095",
+          "name": "雷霆溢能",
+          "description": "电系物品完成充能时非电系物品灌注5。（装备的最上方物品会被认为是电系物品）",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第122行 / ROW-b534f7b40675\ndata/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第256行 / ROW-31150596398a"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 121,
+          "line_end": 121,
+          "id": "T113",
+          "name": "并联",
+          "description": "每当电系物品获得灌注，同时灌注你最上方的非电系物品。每回合只能触发10次。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第25行 / ROW-f156b2d6a2bc"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 452,
+          "line_end": 454,
+          "id": "I171",
+          "name": "火山药水",
+          "description": "完成充能时：治愈8。\n火系物品提升10伤害。\n每2次反弹，下方相邻电系物品灌注15。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第8行 / ROW-7fa4d04e5332"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        }
+      ],
+      "activation_boundary": "需扩内容与元素标签适配；被接受的是设计方向，不是所有原电系技能已批准启用。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I114"
+        ],
+        "source_only_item_ids": [
+          "I171",
+          "I175"
+        ],
+        "selected_talent_ids": [],
+        "source_only_talent_ids": [
+          "T095",
+          "T113"
+        ]
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E035",
+      "name": "溢疗导管",
+      "verdict": "改写",
+      "classification": "接受的溢疗方向，但溢疗余量定义与源治愈语义尚未闭合",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2309,
+        "record_id": "E035"
+      },
+      "facts": [
+        "K001明确治愈既恢复生命也可移除持续伤害。",
+        "T007名为溢疗充能，正文其实是受到治愈且生命高于50%时随机物品灌注10，不是按真实超额量换能。",
+        "I114和I106是当前14件中的真实治疗来源；T079灌注触发治疗只在完整CSV中。"
+      ],
+      "issues": [
+        "当前全局G09把溢疗一概算成请求治疗减实际HP恢复，没有解释治愈移除DOT是否/如何占用同一治疗量，不能直接把未入HP的量全部拿去换能。",
+        "不能把T007列为1点真实溢疗换2点灌注的原机制证据。",
+        "当前14件可提供载体，不代表T007/T079已被选入新天赋树。"
+      ],
+      "conservative_revision": "保留用户已接受的溢疗附魔方向。先完整执行原治愈消费者（含清DOT），只从经核实的治疗结果取得确实未被消费的余量，再给相邻物品一笔既有灌注；不能复制一次治愈或跳过清DOT。若核心暂不能输出明确余量，暂改成T007式高生命条件下的治愈触发固定灌注，并明确不是按真实溢出量折算。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "line_start": 2,
+          "line_end": 3,
+          "id": "K001",
+          "name": "治愈",
+          "description": "治愈可以恢复失去的生命，并且可以移除持续伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第61行 / 治愈\ndata/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第63行 / 治疗"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 8,
+          "line_end": 8,
+          "id": "T007",
+          "name": "溢疗充能",
+          "description": "受到治愈时，如果生命值高于50%，随机物品灌注10。每回合只能触发5次。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第135行 / ROW-06eed5c68d28"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 81,
+          "line_end": 82,
+          "id": "T079",
+          "name": "复生吐纳",
+          "description": "每当有物品获得灌注，治愈5%。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第113行 / ROW-1d126c9e32e2\ndata/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第251行 / ROW-9d7bc22689cf"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 337,
+          "line_end": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "description": "完成充能时：治愈5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第133行 / ROW-dceacafaf79c"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 319,
+          "line_end": 322,
+          "id": "I106",
+          "name": "生命药剂",
+          "description": "使用时：治愈22。\n此物品的治愈等同15%生命上限。\n耐久：3/3。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第123行 / ROW-0bf3ef881ddd"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 35,
+          "line_end": 40,
+          "supports": "沿用伤害桶、强固消费顺序与DOT原时间线"
+        }
+      ],
+      "activation_boundary": "当前载体有；溢疗账本须先核清，不能用来源天赋名称代替实现证明。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I058",
+          "I106",
+          "I114"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [],
+        "source_only_talent_ids": [
+          "T007",
+          "T079"
+        ]
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E036",
+      "name": "血契引擎",
+      "verdict": "保留",
+      "classification": "既有流血事件与充能/灌注的条件组合",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2368,
+        "record_id": "E036"
+      },
+      "facts": [
+        "I113能产生流血，I058响应灌注，均在当前14件内。",
+        "T066显示流血伤害事件可驱动另一已有效果；I014显示状态/接触条件能触发本件灌注。",
+        "半速自然反弹加外部流血触发灌注是新附魔组合，不新增货币、资源条或独立伤害体系。"
+      ],
+      "issues": [
+        "不能声称血契公式是原游戏已有附魔；50点和每回合限制是新测试参数。",
+        "自然/派生来源只是防回路内部元数据，不应在产品里另造两种充能资源。"
+      ],
+      "conservative_revision": "保留。以已有流血实际伤害事件为输入，调用既有灌注入口；排除本格自供与同根重复触发，保留现有DOT时间线，不添加血契点数或燃料。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 335,
+          "line_end": 336,
+          "id": "I113",
+          "name": "旧匕首",
+          "description": "完成充能时：下3次攻击额外造成10伤害。\n下3次攻击将会在3回合内造成10流血伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第132行 / ROW-eaaaf50a6a73"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 194,
+          "line_end": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "description": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第45行 / ROW-34f002c094f0"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 67,
+          "line_end": 67,
+          "id": "T066",
+          "name": "血铸壁垒",
+          "description": "造成流血伤害时，获得等同1%生命上限的强固。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第94行 / ROW-cccedca6d77e"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 46,
+          "line_end": 49,
+          "id": "I014",
+          "name": "疫病虫巢",
+          "description": "完成充能时：\n释放会自动追踪敌人的虫群，虫群将会在3回合内造成15剧毒伤害。\n碰撞处于剧毒状态的敌人时，此物品灌注20。\n回响释放×5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第60行 / ROW-e817f777b9a4"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        }
+      ],
+      "activation_boundary": "当前14件有启动者和接收者；需要新符文监听适配，不能称已经实现。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I057",
+          "I058",
+          "I113"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [
+          "T059"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E037",
+      "name": "反击蓄电",
+      "verdict": "改写",
+      "classification": "存在源储能模式；需要避免把符文内部计数做成新公共资源",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2427,
+        "record_id": "E037"
+      },
+      "facts": [
+        "I139振金护腕原文明确格挡储存1能量，下次反弹每点分别执行一次随机武器灌注10。",
+        "I078储伤、I016储毒气也证明储存/计数本身并非全无源依据。",
+        "当前I023/I048能提供格挡、I058能接收灌注，但I139不在当前14件。"
+      ],
+      "issues": [
+        "E037的12点可合并待灌注量是新的附魔规则，不能冒充I139的逐点多次灌注。",
+        "若建立可被其他系统消费的角色电量条，则扩大为新公共资源；当前设计没有授权该系统。"
+      ],
+      "conservative_revision": "改写为符文私有的有效格挡次数n，最多3；下一次反弹向本格提交一笔12×n的既有灌注并清零n。该计数仅服务本符文，不显示为角色通用能量、不与I139共享，不改变I139原来每点多次灌注。也可更保守地取消等待，改为格挡直接灌注本格。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 388,
+          "line_end": 389,
+          "id": "I139",
+          "name": "振金护腕",
+          "description": "完成充能时：获得1层格挡。\n格挡时储存1能量，下次反弹时，使一个随机武器灌注10，每拥有1点能量执行一次。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第25行 / ROW-ca18e58e1228"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 254,
+          "line_end": 256,
+          "id": "I078",
+          "name": "超载十字架",
+          "description": "完成充能时：\n强固5。\n每当物品生成强固，储存6伤害，回合开始时电击周围敌人，并释放这些伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第17行 / ROW-a78c15fa9c64"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 54,
+          "line_end": 56,
+          "id": "I016",
+          "name": "瘟疫花",
+          "description": "回合开始时，治愈5。\n每当治愈，储存一股毒气，反弹时释放储存的投射毒气，在3回合内造成30伤害。\n治愈物品提升1回响释放。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第52行 / ROW-d19fca7e6fa5"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 82,
+          "line_end": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "description": "完成充能时：\n强固10。\n获得1层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第135行 / ROW-806808b0598d"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 162,
+          "line_end": 164,
+          "id": "I048",
+          "name": "固甲石",
+          "description": "完成充能时：\n强固5。\n每当强固3次，获得2层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第26行 / ROW-0cd3c1e04650"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        }
+      ],
+      "activation_boundary": "有完整源机制先例，但引入槽位版本仍属新适配；不要因载体在14件中就宣称能量消费者已接好。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I048",
+          "I058"
+        ],
+        "source_only_item_ids": [
+          "I139"
+        ],
+        "selected_talent_ids": [
+          "T040"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E038",
+      "name": "定向供能",
+      "verdict": "改写",
+      "classification": "已有随机灌注的目标筛选可复用；当前多出手工指定操作",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2486,
+        "record_id": "E038"
+      },
+      "facts": [
+        "I175雷神匕首每2次反弹随机物品灌注25；I139限定随机武器灌注10。",
+        "I054已有按上方位置选择武器的灌注，说明位置筛选能作为已有机制组合。"
+      ],
+      "issues": [
+        "战前手动指定一件装备引入新的指定目标UI、持久绑定和目标失效处理；当前装备/附魔交互只要求选符文与整行，没有这个额外操作。",
+        "不能借符文把I139的武器目标扩大成任意装备，或挪用T117等英雄天赋事件。",
+        "I175/I139/T117均未在当前14/11启用。"
+      ],
+      "conservative_revision": "改成自动位置规则：本格原本随机选择一个目标灌注时，改选上方最近且仍满足原技能筛选的合法物品；没有该目标时回退原随机。总量/次数不变，不新增手工指定按钮或跨战目标绑定。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 463,
+          "line_end": 464,
+          "id": "I175",
+          "name": "雷神匕首",
+          "description": "完成充能时：下2次攻击会电击周围敌人，造成3点伤害。\n每2次反弹，随机物品灌注25。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第14行 / ROW-2ca9b8f93338"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 388,
+          "line_end": 389,
+          "id": "I139",
+          "name": "振金护腕",
+          "description": "完成充能时：获得1层格挡。\n格挡时储存1能量，下次反弹时，使一个随机武器灌注10，每拥有1点能量执行一次。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第25行 / ROW-ca18e58e1228"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 183,
+          "line_end": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "description": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第38行 / ROW-9c08dfb75572"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 125,
+          "line_end": 125,
+          "id": "T117",
+          "name": "气电一体",
+          "description": "电系和气系物品每获得20灌注，造成的伤害提升10%，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第32行 / ROW-25ce35dd3c03"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        }
+      ],
+      "activation_boundary": "维持需扩内容；先有已验收的随机灌注载体再入池。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I058"
+        ],
+        "source_only_item_ids": [
+          "I139",
+          "I175"
+        ],
+        "selected_talent_ids": [],
+        "source_only_talent_ids": [
+          "T117"
+        ]
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E039",
+      "name": "余势回收",
+      "verdict": "改写",
+      "classification": "击杀与灌注已有；多来源过量伤害分摊是额外模型",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2538,
+        "record_id": "E039"
+      },
+      "facts": [
+        "当前GDD本来需要击杀归属与收益事件；I149也有基于流血击杀的效果，但其永久加伤不在本候选许可范围。",
+        "I022的附加伤害与英雄基础碰撞来源分开；当前GDD要求保留来源，不能把整次碰撞总伤害都归给武器。"
+      ],
+      "issues": [
+        "当前完整CSV/GDD没有证明多来源过量直接伤害如何分摊的通用入口；30%过杀会额外要求建立分摊模型。",
+        "没有必要为了击杀供能再新造过量伤害资源或缓存；也不能照搬I149永久成长。"
+      ],
+      "conservative_revision": "改为本格已归属的直接伤害击杀敌人时，向下方紧邻可充能物品提供固定灌注（例如15基础点，测试值），每回合限定次数。只用已有击杀和灌注，不计算过量伤害、不修改金币或永久数值。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 411,
+          "line_end": 412,
+          "id": "I149",
+          "name": "血祭匕首",
+          "description": "完成充能时：下3次攻击将会在3回合内造成10流血伤害。\n每当流血伤害击杀1个敌人，此物品永久增加2伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第70行 / ROW-59d36bffd8f4"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 80,
+          "line_end": 81,
+          "id": "I022",
+          "name": "旧剑",
+          "description": "完成充能时：\n下3次攻击额外造成20伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第134行 / ROW-e29aacb57649"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 183,
+          "line_end": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "description": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第38行 / ROW-9c08dfb75572"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 35,
+          "line_end": 40,
+          "supports": "沿用伤害桶、强固消费顺序与DOT原时间线"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        }
+      ],
+      "activation_boundary": "当前14件可提供载体；击杀归属仍须用现有来源字段验证，不能冒领混合伤害的全部击杀收益。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I022",
+          "I023",
+          "I057"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [
+          "T054"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E040",
+      "name": "三拍蓄势",
+      "verdict": "改写",
+      "classification": "次数触发有源依据；新可储存蓄势层应取消",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2590,
+        "record_id": "E040"
+      },
+      "facts": [
+        "I048每3次强固获得格挡，I054每4次反弹灌注，说明内部次数条件是已有设计语言。",
+        "I022已有后续攻击队列，但该队列不证明另一个可储存3次蓄势资源已经存在。"
+      ],
+      "issues": [
+        "目前新增蓄势组、库存上限、获得/消费规则，与现有物品攻击队列并列，增加了一套玩家需要理解的状态。",
+        "原生来源计数可做内部防回路判断，但不能据此把新增蓄势层说成来源字段。"
+      ],
+      "conservative_revision": "保留每3次充能的内部计数；只在第3次充能时提高这一次原能力已有伤害/治疗/强固标量（例如×1.5，测试值）。攻击次数、持续时间和原队列数量不变；取消可存3份、以后再消费的蓄势层及新图标。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 162,
+          "line_end": 164,
+          "id": "I048",
+          "name": "固甲石",
+          "description": "完成充能时：\n强固5。\n每当强固3次，获得2层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第26行 / ROW-0cd3c1e04650"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 183,
+          "line_end": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "description": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第38行 / ROW-9c08dfb75572"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 80,
+          "line_end": 81,
+          "id": "I022",
+          "name": "旧剑",
+          "description": "完成充能时：\n下3次攻击额外造成20伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第134行 / ROW-e29aacb57649"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        }
+      ],
+      "activation_boundary": "当前14件可用既有充能能力试验；修改当次原参数不等同于复制整个能力。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I058",
+          "I113",
+          "I114"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [
+          "T040",
+          "T059"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E041",
+      "name": "攻守夹心",
+      "verdict": "保留",
+      "classification": "已有上/下邻接、角色标签及灌注的组合",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2656,
+        "record_id": "E041"
+      },
+      "facts": [
+        "I054按上方武器灌注，I057按下方相邻武器增伤；上下空间关系已有。",
+        "I058/I114/I023是当前可组成武器—治疗—强固链的选用物品。"
+      ],
+      "issues": [
+        "接收者必须同时能充能；仅有武器/强固标签而无charged时不能凭空获得可触发的能量条。",
+        "此三件夹心条件是新附魔组合，不是原物品I054的原技能。"
+      ],
+      "conservative_revision": "保留攻守夹心。补全上下接收者须charged，仍按真实物品边界判断邻接；只发既有灌注，缺侧不触发，不创造夹心点数。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 183,
+          "line_end": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "description": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第38行 / ROW-9c08dfb75572"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 192,
+          "line_end": 193,
+          "id": "I057",
+          "name": "打磨器",
+          "description": "完成充能时：\n下方相邻武器增加5伤害，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第46行 / ROW-64ff643d3eb7"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 194,
+          "line_end": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "description": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第45行 / ROW-34f002c094f0"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 337,
+          "line_end": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "description": "完成充能时：治愈5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第133行 / ROW-dceacafaf79c"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 82,
+          "line_end": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "description": "完成充能时：\n强固10。\n获得1层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第135行 / ROW-806808b0598d"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        }
+      ],
+      "activation_boundary": "当前14件有完整载体/配套；新增符文监听仍需实现与验证。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I058",
+          "I114"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [
+          "T040"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E042",
+      "name": "双向母线",
+      "verdict": "保留",
+      "classification": "已有灌注转送模式与位置路由的组合",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2708,
+        "record_id": "E042"
+      },
+      "facts": [
+        "T113并联有电系物品获得灌注后再灌注另一物品的明确模式。",
+        "I054提供当前原型内的灌注来源，I058本来会响应灌注。"
+      ],
+      "issues": [
+        "T113不在当前11个天赋内；引用其作为机制先例，不得写成玩家现可解锁。",
+        "转送量50%和双邻居是新的符文参数，不是T113原定义。"
+      ],
+      "conservative_revision": "保留双向母线的既有灌注转送；接收目标限charged、排除本次来源，继承同根已执行集合，不建立母线电量池，也不触发未经适配的元素天赋。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 121,
+          "line_end": 121,
+          "id": "T113",
+          "name": "并联",
+          "description": "每当电系物品获得灌注，同时灌注你最上方的非电系物品。每回合只能触发10次。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第25行 / ROW-f156b2d6a2bc"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 183,
+          "line_end": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "description": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第38行 / ROW-9c08dfb75572"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 194,
+          "line_end": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "description": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第45行 / ROW-34f002c094f0"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        }
+      ],
+      "activation_boundary": "当前14件足以形成例子；T113作为来源证据和未来搭配，不是当前默认天赋。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I054",
+          "I058",
+          "I114"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [],
+        "source_only_talent_ids": [
+          "T113"
+        ]
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E043",
+      "name": "构筑协奏",
+      "verdict": "保留",
+      "classification": "按现有物品能力分类选择灌注目标",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2767,
+        "record_id": "E043"
+      },
+      "facts": [
+        "当前I058/I114/I023分别具武器、治疗、强固能力，且都可充能。",
+        "I054已有多目标灌注；将目标分类选取是新附魔组合，不增加资源类型。"
+      ],
+      "issues": [
+        "类别不能只看shop.category；治疗药剂也可能有healing但没有charged，不能被灌注生成新能力。",
+        "多标签目标去重应继续保持，不能三类都给同一件。"
+      ],
+      "conservative_revision": "保留。目标筛选写成其他charged物品中的weapon/healing/可生成强固三类，各取合法最近者、同物品只领一次；派发已有灌注，不新建协奏层数。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 183,
+          "line_end": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "description": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第38行 / ROW-9c08dfb75572"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 194,
+          "line_end": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "description": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第45行 / ROW-34f002c094f0"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 337,
+          "line_end": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "description": "完成充能时：治愈5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第133行 / ROW-dceacafaf79c"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 82,
+          "line_end": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "description": "完成充能时：\n强固10。\n获得1层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第135行 / ROW-806808b0598d"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 3,
+          "line_end": 6,
+          "supports": "新模式配置优先；来源字段不等于最终输出或运行时已接入"
+        }
+      ],
+      "activation_boundary": "当前14件有三类真实可充能目标；没有哪一类就少一个目标。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I058",
+          "I113",
+          "I114"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [
+          "T040"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E044",
+      "name": "甲血熔炉",
+      "verdict": "改写",
+      "classification": "强固转伤害有源依据；主动消费与独立追加须收敛",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2826,
+        "record_id": "E044"
+      },
+      "facts": [
+        "I077爆裂圆盾伤害等同当前强固；T051甲之吐息也读取英雄当前强固造成伤害。",
+        "这些来源证明按现有强固确定伤害，不证明有主动花强固的玩家操作。"
+      ],
+      "issues": [
+        "“可消耗”不明确是自动还是玩家选择，可能引入新的战斗按钮。",
+        "消费后再读取旧强固快照给源能力和附魔各算一遍，会改变原技能语义。",
+        "I077/T051都不在当前14/11；不能借此默认启用它们的完整能力。"
+      ],
+      "conservative_revision": "最保守改为自动读取英雄当前已有强固，按比例修饰本格原有伤害（例如增加当前强固的25%、最多30，测试值），在同一原伤害事件内结算；不主动消费强固、不新按钮、不另发独立伤害包。若坚持消费，需要单列为尚待确认的规则变更。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 249,
+          "line_end": 253,
+          "id": "I077",
+          "name": "爆裂圆盾",
+          "description": "完成充能时：\n强固10。\n下2次碰撞敌人时，引起爆炸，造成0伤害。\n获得1层格挡。\n此物品的伤害等同英雄当前的强固。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第18行 / ROW-d0f9ff636bf5"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 52,
+          "line_end": 52,
+          "id": "T051",
+          "name": "甲之吐息",
+          "description": "每当强固物品完成充能，向周围投射气刃，造成等同英雄当前强固的伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第77行 / ROW-4095703369f2"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 82,
+          "line_end": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "description": "完成充能时：\n强固10。\n获得1层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第135行 / ROW-806808b0598d"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 35,
+          "line_end": 40,
+          "supports": "沿用伤害桶、强固消费顺序与DOT原时间线"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        }
+      ],
+      "activation_boundary": "当前盾与手斧可测试已有资源到已有伤害的修饰；源圆盾/职业天赋只是旁证或未来内容。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I058"
+        ],
+        "source_only_item_ids": [
+          "I077"
+        ],
+        "selected_talent_ids": [
+          "T024"
+        ],
+        "source_only_talent_ids": [
+          "T051"
+        ]
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E045",
+      "name": "棱镜弹幕",
+      "verdict": "改写",
+      "classification": "已有投射分裂可复用；棱镜纯伤害包不属于原回响机制",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2885,
+        "record_id": "E045"
+      },
+      "facts": [
+        "I017双生长弓明确上方相邻及自身投射物额外分裂1道。",
+        "K008定义回响释放为完成充能时触发效果次数增加，而不是不触发任何监听的独立数值包。"
+      ],
+      "issues": [
+        "当前±15度、40%快照、首次命中后停止并全封监听的棱镜弹建立了自定义投射/伤害契约；不能因I017有分裂就称整套规则已有。",
+        "G08纯回响改变会心、命中、击杀和其他物品响应，不是简单给现有属性加值。",
+        "I017/T075不在当前首批；I116存在只证明有箭矢载体。"
+      ],
+      "conservative_revision": "改为在已验证允许分裂的载体上提升既有投射分裂属性（例如额外1道）；复用源分裂投射物、命中/伤害与触发语义。用既有来源标记阻止同一分裂子弹再次分裂，保留正常监听；取消独立棱镜伤害类型、固定偏转与纯回响包。未适配分裂消费者时标需扩内容/机制，不默认为旧弓已经支持。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 57,
+          "line_end": 60,
+          "id": "I017",
+          "name": "双生长弓",
+          "description": "完成充能时：\n下2次碰撞墙壁时，朝敌人投射箭矢，造成25伤害。\n上方相邻物品生成的投射物会额外分裂1道。\n自身生成的投射物会额外分裂1道。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第75行 / ROW-cdc31dc578a6"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 339,
+          "line_end": 339,
+          "id": "I116",
+          "name": "旧弓",
+          "description": "完成充能时：下2次碰撞墙壁时，朝敌人投射箭矢，造成10伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第141行 / ROW-2dc879a85692"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 76,
+          "line_end": 77,
+          "id": "T075",
+          "name": "多重射击",
+          "description": "投射物品提升2次回响释放。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第103行 / ROW-45d6bc4e0f85\ndata/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第248行 / ROW-26a34ffef5e0"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "line_start": 10,
+          "line_end": 10,
+          "id": "K008",
+          "name": "回响释放",
+          "description": "回响释放会提升完成充能时触发效果的次数。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第79行 / 连击"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 35,
+          "line_end": 40,
+          "supports": "沿用伤害桶、强固消费顺序与DOT原时间线"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        }
+      ],
+      "activation_boundary": "现有箭矢载体可利用，但分裂消费者需扩展验证；源游戏有分裂不等于本prototype已接入。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I116"
+        ],
+        "source_only_item_ids": [
+          "I009",
+          "I017"
+        ],
+        "selected_talent_ids": [],
+        "source_only_talent_ids": [
+          "T075"
+        ]
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E046",
+      "name": "伤口收割",
+      "verdict": "移除",
+      "classification": "当前提前兑现DOT池机制无足够设定依据，且改写旧DOT结算",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2937,
+        "record_id": "E046"
+      },
+      "facts": [
+        "I113与I014确有流血/剧毒；T056及T103提供提高已有DOT强度的先例。",
+        "当前GDD明确沿用原DOT时间线，并提醒源N+1分母与即时/后续tick需真实验证。",
+        "本次检索完整175物品/133天赋CSV和当前GDD，没有找到立即兑现剩余DOT并从未来池扣账的机制证据；这不是对整个源程序绝无该功能的断言。"
+      ],
+      "issues": [
+        "按多来源剩余池比例扣除、提前发纯回响、再应用目标减伤是一套新的DOT账本和结算顺序。",
+        "不能把它仅称为既有伤口联动；当前核心也未提供这种已核实接口。"
+      ],
+      "conservative_revision": "移除当前提前兑现方案。若保留此编号，替换为提高本格本来已有的流血/剧毒效果强度（例如×1.25，测试值），严格保持原tick次数、时间线和伤害来源；目标只允许本来会生成DOT的物品，删去旧剑等无DOT载体示例。不扣别人的DOT池，不产生额外纯回响。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 335,
+          "line_end": 336,
+          "id": "I113",
+          "name": "旧匕首",
+          "description": "完成充能时：下3次攻击额外造成10伤害。\n下3次攻击将会在3回合内造成10流血伤害。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第132行 / ROW-eaaaf50a6a73"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 46,
+          "line_end": 49,
+          "id": "I014",
+          "name": "疫病虫巢",
+          "description": "完成充能时：\n释放会自动追踪敌人的虫群，虫群将会在3回合内造成15剧毒伤害。\n碰撞处于剧毒状态的敌人时，此物品灌注20。\n回响释放×5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第60行 / ROW-e817f777b9a4"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 57,
+          "line_end": 57,
+          "id": "T056",
+          "name": "打磨",
+          "description": "流血物品造成的伤害提升25%，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 技能总表 / 第508行 / ROW-b96bf2f3aee6"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 111,
+          "line_end": 111,
+          "id": "T103",
+          "name": "催化剂",
+          "description": "处于剧毒状态的敌人，受到的持续伤害提升50%。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第17行 / ROW-9731d5bc60a6"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 35,
+          "line_end": 40,
+          "supports": "沿用伤害桶、强固消费顺序与DOT原时间线"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "line_start": 10,
+          "line_end": 10,
+          "id": "K008",
+          "name": "回响释放",
+          "description": "回响释放会提升完成充能时触发效果的次数。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第79行 / 连击"
+        }
+      ],
+      "activation_boundary": "替代版可用当前旧匕首试验；剧毒载体及其天赋需按完整CSV单独接入。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I022",
+          "I113"
+        ],
+        "source_only_item_ids": [
+          "I014"
+        ],
+        "selected_talent_ids": [
+          "T059"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E047",
+      "name": "时序双奏",
+      "verdict": "改写",
+      "classification": "有真实回响释放属性，但当前另造了纯回响和双奏额度",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 2989,
+        "record_id": "E047"
+      },
+      "facts": [
+        "K008明确回响释放提高完成充能时效果触发次数。",
+        "I018/I060等有真实回响释放，I091附魔-回响提升3回响，T075提高投射物品回响。",
+        "原物品附魔石流程被项目排除，不代表这个已有属性永远不能用于格子附魔；但必须使用真实消费者。"
+      ],
+      "issues": [
+        "当前先攒双奏额度再复制下一笔伤害/治疗/强固快照，且封闭所有监听，不是K008的回响释放。",
+        "不能把旧剑下一笔附伤复制解释为旧剑完整充能效果次数增加，两者行为不同。",
+        "当前14件并未在配置中证明这些回响消费者已接通。"
+      ],
+      "conservative_revision": "改为只增强已有且已验证支持回响消费的载体白名单的回响释放属性（例如+1，测试值），按原充能效果触发语义执行；优先I018/I060等明确来源。取消双奏库存、纯回响快照包及全面封监听。不得借名称把所有旧剑、药剂或功能工具变成万能复制器。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "line_start": 10,
+          "line_end": 10,
+          "id": "K008",
+          "name": "回响释放",
+          "description": "回响释放会提升完成充能时触发效果的次数。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第79行 / 连击"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 61,
+          "line_end": 65,
+          "id": "I018",
+          "name": "凝神连弩",
+          "description": "完成充能时：\n下2次碰撞墙壁时，朝敌人投射箭矢，造成8伤害。\n回响释放×3。\n会心几率15%。\n会心时增加8伤害，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第73行 / ROW-167cd4e24799"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 198,
+          "line_end": 201,
+          "id": "I060",
+          "name": "护盾孢子",
+          "description": "完成充能时：\n下3次碰撞敌人时，造成5伤害。\n强固5。\n回响释放×2。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第41行 / ROW-49e7454dbf0b"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 288,
+          "line_end": 289,
+          "id": "I091",
+          "name": "附魔-回响",
+          "description": "使用时：变为空附魔石。\n拖放至任意物品对其附魔：提升3回响释放。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第102行 / ROW-42058811255b"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/天赋.csv",
+          "line_start": 76,
+          "line_end": 77,
+          "id": "T075",
+          "name": "多重射击",
+          "description": "投射物品提升2次回响释放。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第103行 / ROW-45d6bc4e0f85\ndata/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 天赋总表 / 第248行 / ROW-26a34ffef5e0"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/03_数值与配置/source_contract.json",
+          "line_start": 10,
+          "line_end": 25,
+          "supports": "当前选用14物品/11天赋；源存在不等于实现；原物品附魔石逻辑不直接启用"
+        }
+      ],
+      "activation_boundary": "需扩展适配/白名单验收；不能保留当前“只要14件有伤害就可直接实现”的暗示。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I022",
+          "I023",
+          "I058",
+          "I114"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [
+          "T040"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E048",
+      "name": "星核引擎",
+      "verdict": "保留",
+      "classification": "现有充能完成事件、内部去重计数与全队灌注的组合",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 3048,
+        "record_id": "E048"
+      },
+      "facts": [
+        "I009监听其他武器完成充能并有其他武器灌注，I054已有多目标灌注。",
+        "当前已有charge事件、instanceId和按次数触发的物品；三件收集集合可以只作符文内部条件，不是新可消费资源。"
+      ],
+      "issues": [
+        "星核只是附魔名称，不能变成新的星核货币或长期储能条。",
+        "I009是完整CSV的模式旁证，不能因此把其完整旋风能力加入当前物品。"
+      ],
+      "conservative_revision": "保留三件原生充能达成后直接调用既有灌注的组合。收集集合在当回合清除、触发后不继续收集；仅作内部去重条件，UI可显示进度但不建立可跨回合囤积或被其他系统兑换的星核资源。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 28,
+          "line_end": 31,
+          "id": "I009",
+          "name": "旋风杖",
+          "description": "完成充能时：\n获得6层心流。\n每当有武器完成充能，投射一个旋风，旋风会在墙壁间反弹，并对敌人造成10伤害。\n回合开始时，其他武器灌注10。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第33行 / ROW-957cf3255f9f"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 183,
+          "line_end": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "description": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第38行 / ROW-9c08dfb75572"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 162,
+          "line_end": 164,
+          "id": "I048",
+          "name": "固甲石",
+          "description": "完成充能时：\n强固5。\n每当强固3次，获得2层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第26行 / ROW-0cd3c1e04650"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        }
+      ],
+      "activation_boundary": "当前14件可提供三个真实充能节点；全队路由为新符文适配，不新增装备能力本体。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I058",
+          "I113",
+          "I114"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [
+          "T040",
+          "T059"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E049",
+      "name": "铸甲王座",
+      "verdict": "移除",
+      "classification": "新建独立王座护盾池并拦截生命伤害，越出当前既有强固设定",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 3114,
+        "record_id": "E049"
+      },
+      "facts": [
+        "当前已有强固、格挡、闪避和通用减伤，GDD要求沿用它们的消费顺序。",
+        "I139有格挡储能，但它不是一个能额外抵消生命伤害的护盾池。",
+        "I003/I023生成现有强固，不能作为另建王座储备的证据。"
+      ],
+      "issues": [
+        "王座储备与强固并存，有独立容量、伤害吸收时机和消费规则，是新增防御资源。",
+        "其在HP扣除前拦截伤害，还会重新定义承压、吸血和受伤监听看到什么，不只是强固加成。"
+      ],
+      "conservative_revision": "移除现有储备池方案。若保留王座名称，改为本格既有强固生成量提高一定比例，并在已有真实格挡事件发生时给下方紧邻武器一笔灌注（例如强固×1.5、灌注20、每回合1次，均测试值）。只使用现有强固/格挡/灌注，不存第二护盾、不拦截HP扣除。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 388,
+          "line_end": 389,
+          "id": "I139",
+          "name": "振金护腕",
+          "description": "完成充能时：获得1层格挡。\n格挡时储存1能量，下次反弹时，使一个随机武器灌注10，每拥有1点能量执行一次。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第25行 / ROW-ca18e58e1228"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 8,
+          "line_end": 9,
+          "id": "I003",
+          "name": "旧盔甲",
+          "description": "完成充能时：\n强固100。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第140行 / ROW-edda3bfd6659"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 82,
+          "line_end": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "description": "完成充能时：\n强固10。\n获得1层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第135行 / ROW-806808b0598d"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 162,
+          "line_end": 164,
+          "id": "I048",
+          "name": "固甲石",
+          "description": "完成充能时：\n强固5。\n每当强固3次，获得2层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第26行 / ROW-0cd3c1e04650"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 35,
+          "line_end": 40,
+          "supports": "沿用伤害桶、强固消费顺序与DOT原时间线"
+        }
+      ],
+      "activation_boundary": "替代版当前14件有载体。格挡事件必须沿用现有消费语义；不要靠新资源让它看起来配得上传说稀有度。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I048",
+          "I058"
+        ],
+        "source_only_item_ids": [
+          "I003"
+        ],
+        "selected_talent_ids": [
+          "T040"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    },
+    {
+      "id": "E050",
+      "name": "三相共鸣",
+      "verdict": "改写",
+      "classification": "攻疗甲搭配方向成立；共鸣库存与纯回响伤害体系应撤回",
+      "audited_record": {
+        "path": "/Users/haobinlu/Desktop/提取过程/outputs/01a18335/附魔格设计50种/附魔格50种_数据.json",
+        "line_start": 3173,
+        "record_id": "E050"
+      },
+      "facts": [
+        "当前旧项链治疗、旧盾强固、手斧伤害与灌注联动均有真实来源。",
+        "I054/I057证明邻接与按类别选目标是原有设计语言；不需要额外共鸣资源才支撑三件组合。"
+      ],
+      "issues": [
+        "治疗标记池、强固标记池、两两配对的共鸣库存和双目标纯回响，构成新增状态资源及独立伤害体系。",
+        "不能把内部为防重复的eventId集合与这种可储存/兑换的玩家资源混为一谈。",
+        "纯回响不符合K008回响释放语义。"
+      ],
+      "conservative_revision": "改为静态三件阵列：本格为武器，上方紧邻有治疗能力的可充能物品，下方紧邻有强固能力的可充能物品时，增强本格已有伤害与充能，并增强两个邻居的已有充能获取（例如本格各+30%、两邻居各+15%，测试值）。取消全部治疗/强固标记池、共鸣库存、额外伤害目标与纯回响包；没有一侧就不成立。",
+      "evidence": [
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 337,
+          "line_end": 337,
+          "id": "I114",
+          "name": "旧项链",
+          "description": "完成充能时：治愈5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第133行 / ROW-dceacafaf79c"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 82,
+          "line_end": 84,
+          "id": "I023",
+          "name": "旧盾",
+          "description": "完成充能时：\n强固10。\n获得1层格挡。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第135行 / ROW-806808b0598d"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 194,
+          "line_end": 196,
+          "id": "I058",
+          "name": "蓄能手斧",
+          "description": "完成充能时：\n下3次攻击额外造成15伤害。\n此物品获得灌注后，增加15伤害，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第45行 / ROW-34f002c094f0"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 183,
+          "line_end": 185,
+          "id": "I054",
+          "name": "魔力皮靴",
+          "description": "完成充能时：\n强固5。\n每4次反弹，上方所有武器灌注5。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第38行 / ROW-9c08dfb75572"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/装备物品.csv",
+          "line_start": 192,
+          "line_end": 193,
+          "id": "I057",
+          "name": "打磨器",
+          "description": "完成充能时：\n下方相邻武器增加5伤害，直到战斗结束。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 装备物品总表 / 第46行 / ROW-64ff643d3eb7"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/outputs/视频内容研究资料/分类CSV/术语说明.csv",
+          "line_start": 10,
+          "line_end": 10,
+          "id": "K008",
+          "name": "回响释放",
+          "description": "回响释放会提升完成充能时触发效果的次数。",
+          "repo_reference": "data/Ricochet_Abyss_Demo_R3_01数值与机制.xlsx / 属性定义与词条 / 第79行 / 连击"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 27,
+          "line_end": 33,
+          "supports": "充能、灌注、事件来源及原有延后攻击队列"
+        },
+        {
+          "path": "/Users/haobinlu/Desktop/提取过程/地牢搜打撤_GDD_2026-10-29/02_设计文档/05_原数据适配与边界.txt",
+          "line_start": 35,
+          "line_end": 40,
+          "supports": "沿用伤害桶、强固消费顺序与DOT原时间线"
+        }
+      ],
+      "activation_boundary": "替代版可用当前14件验证，属于新条件对既有属性的组合，不新增可兑换的共鸣资源。",
+      "current_selection": {
+        "selected_item_ids": [
+          "I023",
+          "I058",
+          "I114"
+        ],
+        "source_only_item_ids": [],
+        "selected_talent_ids": [
+          "T040"
+        ],
+        "source_only_talent_ids": []
+      },
+      "scope_note": "结论审查设定匹配及来源边界；不等同于数值平衡、运行实现或新增内容已获启用。"
+    }
+  ],
+  "unchanged_files": [
+    "附魔格50种_数据.json",
+    "附魔格50种.xlsx",
+    "所有GDD与原始CSV/JSON配置"
+  ],
+  "validation_scope": "核对18条来源、语义和当前选用范围；不提供战斗胜率、实际性能或完整原游戏行为证明。"
+}

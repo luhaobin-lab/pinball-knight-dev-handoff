@@ -1,0 +1,95 @@
+{
+  "id": "I155",
+  "name": "泣血指环",
+  "status": "generated-normalized",
+  "source": "mothers/I155.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I155.png",
+  "motherSha256": "c85be654053ed738c908b382cb5c1484581d461a71c64500e126a21100e19cc4",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I155.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2213,
+      "sha256": "f8eda641b9095b6ca87f84d51fb0dee8c0b52eb56d9c8e064b1c51e7524f8808",
+      "pixelSha256": "854d8d18eb70dd22c56ede855d155c548084001c6cb31687872a90ade20ab0b7",
+      "alphaBounds": [
+        29,
+        4,
+        99,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          392,
+          19,
+          1444,
+          863
+        ],
+        "fitSize": [
+          70,
+          56
+        ],
+        "position": [
+          29,
+          4
+        ],
+        "scale": 0.06635071090047394
+      }
+    },
+    "256": {
+      "file": "pixels/256/I155.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 7882,
+      "sha256": "36899b9c3248756c4cfeaff0ec4a5a9a94675eebc7100c9aa539c781a4096bfd",
+      "pixelSha256": "cd27c399e95bba4a80d5d3f285d426026a32f9a8d4941e71b35e2c9d39649ebd",
+      "alphaBounds": [
+        58,
+        8,
+        198,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          392,
+          19,
+          1444,
+          863
+        ],
+        "fitSize": [
+          140,
+          112
+        ],
+        "position": [
+          58,
+          8
+        ],
+        "scale": 0.13270142180094788
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "快释药剂、三枚箭羽箭袋、滴血红宝石指环主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-747a9c20-c4fd-4b34-b0e9-e7623c3281b8.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-747a9c20-c4fd-4b34-b0e9-e7623c3281b8"
+  }
+}

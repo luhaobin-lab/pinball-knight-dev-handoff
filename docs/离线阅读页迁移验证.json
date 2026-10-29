@@ -1,0 +1,48 @@
+{
+  "pass": true,
+  "scope": "Offline artifact readers only; not gameplay/device usability validation",
+  "results": [
+    {
+      "file": "index.html",
+      "images": 0,
+      "failedImages": [],
+      "missingLinks": [],
+      "errors": []
+    },
+    {
+      "file": "art/ui-v10/集中审核.html",
+      "images": 12,
+      "failedImages": [],
+      "missingLinks": [],
+      "errors": []
+    },
+    {
+      "file": "art/icons-v6/index.html",
+      "images": 308,
+      "failedImages": [],
+      "missingLinks": [],
+      "errors": []
+    },
+    {
+      "file": "design/GDD_基础规则/阅读入口.html",
+      "images": 2,
+      "failedImages": [],
+      "missingLinks": [],
+      "errors": []
+    },
+    {
+      "file": "design/怪物100种设计/阅读入口.html",
+      "images": 0,
+      "failedImages": [],
+      "missingLinks": [],
+      "errors": []
+    },
+    {
+      "file": "research/video-research/研究说明与证据索引.html",
+      "images": 357,
+      "failedImages": [],
+      "missingLinks": [],
+      "errors": []
+    }
+  ]
+}

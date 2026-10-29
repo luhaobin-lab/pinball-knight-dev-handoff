@@ -1,0 +1,40 @@
+{
+  "updated": "2026-10-26T14:57:42.219Z",
+  "executor": "Codex independent takeover",
+  "authorization": "2026-10-26 producer approved plan and automatic execution after backup",
+  "root": "D:/TAPTAPGAME_codex",
+  "authoritativeControl": "D:/TAPTAPGAME_codex/studio/control/snapshot.json",
+  "continueHere": "D:/TAPTAPGAME_codex/studio/control/CONTINUE-HERE.md",
+  "programme": "D:/TAPTAPGAME_codex/studio/control/programme.json",
+  "historicalState": "D:/TAPTAPGAME_codex/archive/main-snapshot/studio/STATE.json",
+  "originalFrozen": {
+    "main": "0119590",
+    "t2": "e840397",
+    "files": 60304,
+    "bytes": 10110851939,
+    "manifest": "D:/TAPTAPGAME_codex/migration/backup-manifest.json"
+  },
+  "currentStage": "G2 final candidate verification",
+  "candidateBranch": "codex/t2-recovery",
+  "producerGateReached": false,
+  "validation": {
+    "combinedCheck": "8918652:2100passed/6todo; final build must be checked by acceptance.mjs",
+    "browser": "Natural12-floor victory/defeat/restart and real mouse flows proven on preceding candidates; latest loot/backpack/stat fixes independently reviewed",
+    "bot": "8918652:1000realmix,0crash/softlock/timeout,43victories736deaths203abandoned18savedquit;418/500scripted reach12",
+    "determinism": "f64f9bb:20completed20equal; new modal projections require final repeat"
+  },
+  "automation": {
+    "id": "automation-3",
+    "kind": "heartbeat",
+    "intervalMinutes": 15,
+    "status": "Read current state in studio/control/checkpoint.json; heartbeat pauses at ready producer gate",
+    "gatePolicy": "Pause only when G2/G3 ready for producer or user explicitly stops; no unchanged notifications"
+  },
+  "decisions": {
+    "scope": "PROTOTYPE_SCOPE plus WAVE_A G2 subset; all-mode retains full Demo content",
+    "direction": "v4 prototype first; approved Art Bible unchanged",
+    "workers": 3,
+    "runtimeEvidence": "fake/unit/core/browser/perf/producer acceptance reported separately"
+  },
+  "next": "Run node tools/game-g2/acceptance.mjs --expect-commit <HEAD> in the clean candidate. Live gate results/leases remain outside Git in studio/control; ready G2 requires independent review and producer approval."
+}

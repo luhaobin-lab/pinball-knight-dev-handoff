@@ -1,0 +1,100 @@
+{
+  "id": "I168",
+  "name": "汲取拳套",
+  "status": "generated-normalized",
+  "source": "mothers/I168.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I168.png",
+  "motherSha256": "3adf4fc31867cb0d226483ee778ea9063b41c800efbefb85ccb7a882514ce546",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I168.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2697,
+      "sha256": "f59a8410b1450b65ea62a0814737f1e0d8088fb8fc6b366ed369b17f0edd6cb4",
+      "pixelSha256": "e18cffdb2686fc470333fa8bc5fa17f89a29e9f9fbab21039eaa0a58950c37cc",
+      "alphaBounds": [
+        20,
+        4,
+        108,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          224,
+          15,
+          1569,
+          874
+        ],
+        "fitSize": [
+          88,
+          56
+        ],
+        "position": [
+          20,
+          4
+        ],
+        "scale": 0.06519208381839348
+      }
+    },
+    "256": {
+      "file": "pixels/256/I168.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9824,
+      "sha256": "b1c9a67031dc3d9aff9546a0e662016728e0c34b68a8accda2e81573087ae1a8",
+      "pixelSha256": "e13dc739dd20b55caed813605ed837d93fb92dfd73485cc74565f17584705dcd",
+      "alphaBounds": [
+        40,
+        8,
+        215,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          224,
+          15,
+          1569,
+          874
+        ],
+        "fitSize": [
+          175,
+          112
+        ],
+        "position": [
+          40,
+          8
+        ],
+        "scale": 0.13038416763678695
+      }
+    }
+  },
+  "visualReview": "pass: independent mother and native256/native128 review; Replacement viewed as mother plus native 256x128 and 128x64 PNGs. Four curled fingers, a separate thumb, wrist cuff and red palm suction eye are clearly identifiable; the prior gun-barrel ambiguity is resolved. No visible crop, opaque background matte, or broken hand silhouette found.",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "filesViewed": [
+      "mothers/I168.png",
+      "pixels/256/I168.png",
+      "pixels/128/I168.png"
+    ],
+    "pixelSha256": "e13dc739dd20b55caed813605ed837d93fb92dfd73485cc74565f17584705dcd",
+    "pixelSha256128": "e18cffdb2686fc470333fa8bc5fa17f89a29e9f9fbab21039eaa0a58950c37cc",
+    "motherSha256": "3adf4fc31867cb0d226483ee778ea9063b41c800efbefb85ccb7a882514ce546",
+    "note": "Replacement viewed as mother plus native 256x128 and 128x64 PNGs. Four curled fingers, a separate thumb, wrist cuff and red palm suction eye are clearly identifiable; the prior gun-barrel ambiguity is resolved. No visible crop, opaque background matte, or broken hand silhouette found.",
+    "reviewedAt": "2026-10-29T08:42:24.966339+00:00"
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-f5ebdf33-6412-4ea8-9a34-0acf03953e78.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f5ebdf33-6412-4ea8-9a34-0acf03953e78"
+  }
+}

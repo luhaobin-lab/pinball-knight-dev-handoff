@@ -1,0 +1,93 @@
+{
+  "id": "T089",
+  "name": "大地之心",
+  "status": "generated-normalized",
+  "source": "mothers/T089.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T089.png",
+  "motherSha256": "5c1730ba13fc86e782533cde830b343325efc07447ce40b70e608c463c01e232",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T089.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6854,
+      "sha256": "c573320a90c9efff205d551b8757a264b05fc2244b680889d24b93d10e480a1f",
+      "pixelSha256": "cfc1815388bf8ce90ea0c65ce1fefc092bcce435618c38bc0f160d0703b38769",
+      "alphaBounds": [
+        7,
+        4,
+        120,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          82,
+          44,
+          1181,
+          1213
+        ],
+        "fitSize": [
+          113,
+          120
+        ],
+        "position": [
+          7,
+          4
+        ],
+        "scale": 0.10265183917878529
+      }
+    },
+    "256": {
+      "file": "pixels/256/T089.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 25599,
+      "sha256": "91b2f16546c23c4edc3adefd1227fcc5a99ccef9cdb80abba4b99b60ca60b761",
+      "pixelSha256": "d410f42420c1d555a7f7ba1ab180090038c1e41e71feb2dce09a44b70e924888",
+      "alphaBounds": [
+        15,
+        8,
+        240,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          82,
+          44,
+          1181,
+          1213
+        ],
+        "fitSize": [
+          226,
+          240
+        ],
+        "position": [
+          15,
+          8
+        ],
+        "scale": 0.20530367835757057
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-03.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-03.png",
+    "pixelSha256": "d410f42420c1d555a7f7ba1ab180090038c1e41e71feb2dce09a44b70e924888",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-52f81a8c-d656-4be7-b896-b3f685533b4a.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-52f81a8c-d656-4be7-b896-b3f685533b4a"
+  }
+}

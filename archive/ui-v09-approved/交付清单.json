@@ -1,0 +1,188 @@
+{
+  "model": "gpt-image-2.5-sunburst",
+  "count": 12,
+  "rawImagesUnmodified": true,
+  "prices": "用户授权的视觉示意，数值待定",
+  "items": [
+    {
+      "id": "01",
+      "title": "战斗 · 装备栏位",
+      "file": "交付原图/01_战斗_装备栏位.png",
+      "sourceFile": "原始生成图/01_战斗_风暴UI.png",
+      "jobId": "6ae2dc867a23e72106dcbce2",
+      "resource": "mivo://image/6ae2dcf17a23e72106dcbcea",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 6052291,
+      "sha256": "0122d9932612927e7555a9b4ca5f192cef39f74c4a855b9a4b1577705012a6bf",
+      "note": "战斗母版；挂页 TAB、大状态图标、左右整宽卡槽。"
+    },
+    {
+      "id": "02",
+      "title": "战斗 · 英雄属性与天赋",
+      "file": "交付原图/02_战斗_英雄属性与天赋.png",
+      "sourceFile": "原始生成图/02_战斗_英雄属性与天赋_清理空框.png",
+      "jobId": "6ae2e413f5157103dedcc7c7",
+      "resource": "mivo://image/6ae2e587f5157103dedcc817",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5064763,
+      "sha256": "37ba52b10211b0f6146311bc781a3204e9182caf07f4ed0a6225ceef9b20e2e1",
+      "note": "战斗内查看属性和六项天赋；药剂师效果 5%。"
+    },
+    {
+      "id": "03",
+      "title": "战斗 · 装备图鉴",
+      "file": "交付原图/03_战斗_装备图鉴.png",
+      "sourceFile": "原始生成图/03_战斗_装备图鉴_恢复锁槽.png",
+      "jobId": "6ae2e74f7a23e72106dcbda7",
+      "resource": "mivo://image/6ae2e8ca7a23e72106dcbde6",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 4821234,
+      "sha256": "6315ccc3c266b233754d710aa63026efab291be065a6ae2a89c83dcf8ab891bf",
+      "note": "三件已收集装备；青铜淬毒利刃效果 15／1。"
+    },
+    {
+      "id": "04",
+      "title": "营地 · 冒险准备",
+      "file": "交付原图/04_营地_冒险准备.png",
+      "sourceFile": "原始生成图/04_营地_冒险准备.png",
+      "jobId": "6ae2e1b7f5157103dedcc769",
+      "resource": "mivo://image/6ae2e223f5157103dedcc787",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5945653,
+      "sha256": "1e4cfe1cf92ea60b5fb126bfc440a61a5cc3c4ba58fa696b8fca35a501eb7b29",
+      "note": "冒险准备；保险箱、天赋培养、进入第 2 层。"
+    },
+    {
+      "id": "05",
+      "title": "营地 · 天赋解锁",
+      "file": "交付原图/05_营地_天赋解锁.png",
+      "sourceFile": "原始生成图/05_营地_天赋解锁.png",
+      "jobId": "6ae2e40887ada5af0ddcadf6",
+      "resource": "mivo://image/6ae2e58087ada5af0ddcae02",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5107287,
+      "sha256": "2374416e54fcae31fa7587e06866167450a66f63b3c33f5a237bf3e895fbc64e",
+      "note": "药剂师未解锁；解锁消耗技能点，具体费用待定。"
+    },
+    {
+      "id": "06",
+      "title": "营地 · 天赋升级",
+      "file": "交付原图/06_营地_天赋升级.png",
+      "sourceFile": "原始生成图/06_营地_天赋升级.png",
+      "jobId": "6ae2e40ef5157103dedcc7c2",
+      "resource": "mivo://image/6ae2e46df5157103dedcc7d4",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5374944,
+      "sha256": "3d4e54540b146b52e7d182d3ce20498c08fad465bd881898a8adb35bd4dfdaa9",
+      "note": "博学已解锁；经验提高 12.5%，升级消耗金币。"
+    },
+    {
+      "id": "07",
+      "title": "营地 · 保险箱存取",
+      "file": "交付原图/07_营地_保险箱存取.png",
+      "sourceFile": "原始生成图/07_营地_保险箱存取.png",
+      "jobId": "6ae2e2adf5157103dedcc798",
+      "resource": "mivo://image/6ae2e30ef5157103dedcc7a1",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5790886,
+      "sha256": "0d692f983773452a00bfd873ac2c2f10c9dc78cc3cc25656f0bf0ee458147872",
+      "note": "香菇已存入保险箱；原装备槽为空，效果 4／16。"
+    },
+    {
+      "id": "08",
+      "title": "营地 · 地牢选择",
+      "file": "交付原图/08_营地_地牢选择.png",
+      "sourceFile": "原始生成图/08_营地_地牢选择.png",
+      "jobId": "6ae2e1bdf5157103dedcc76b",
+      "resource": "mivo://image/6ae2e33af5157103dedcc7a6",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5775017,
+      "sha256": "88046c05b3e88f1d5b0f66b56ed84dbb95787afaf1a6a5bac67a9c10760d677d",
+      "note": "第 1 层可重打，第 2 层选中，第 3 层锁定。"
+    },
+    {
+      "id": "09",
+      "title": "商店 · 购买详情",
+      "file": "交付原图/09_商店_购买详情.png",
+      "sourceFile": "原始生成图/09_商店_购买详情_图标统一.png",
+      "jobId": "6ae2e2b298d303820bdcb592",
+      "resource": "mivo://image/6ae2e42d98d303820bdcb5af",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5470078,
+      "sha256": "6b9cf677558c0d26abf17e927d4f2fc4a01d4d3e15f3d4d507e957db02284109",
+      "note": "购买前：青铜商品各 2 金币；当前金币 4。"
+    },
+    {
+      "id": "10",
+      "title": "商店 · 出售详情",
+      "file": "交付原图/10_商店_出售详情.png",
+      "sourceFile": "原始生成图/10_商店_出售详情.png",
+      "jobId": "6ae2e45f7a23e72106dcbd60",
+      "resource": "mivo://image/6ae2e5dc7a23e72106dcbd84",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5471012,
+      "sha256": "fb67d4707e21956d65a4d371b9c20b188e29167de3e2c06f1261f981e5079743",
+      "note": "出售前：毒剂位于背包，出售所得 1 金币。"
+    },
+    {
+      "id": "11",
+      "title": "战利品 · 宝箱领取",
+      "file": "交付原图/11_战利品_宝箱领取.png",
+      "sourceFile": "原始生成图/11_战利品_宝箱领取.png",
+      "jobId": "6ae2e1c798d303820bdcb580",
+      "resource": "mivo://image/6ae2e22198d303820bdcb587",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 6117929,
+      "sha256": "ea8d5f722715101dd4fed4ac844771c3dbbd1179689108c6b797da413e408fb4",
+      "note": "领取前：青铜香菇效果 2／8，背包仍为空。"
+    },
+    {
+      "id": "12",
+      "title": "战斗 · 装备详情",
+      "file": "交付原图/12_战斗_装备详情.png",
+      "sourceFile": "原始生成图/12_战斗_装备详情.png",
+      "jobId": "6ae2e1cdf5157103dedcc776",
+      "resource": "mivo://image/6ae2e343f5157103dedcc7aa",
+      "size": [
+        3200,
+        1440
+      ],
+      "bytes": 5459795,
+      "sha256": "65ad52961bc78d7685213cb462b6721c81c15e235b3af16beae5574937986706",
+      "note": "当前利刃只读详情；30 剧毒、2 易伤、生命上限 +20%。"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "T019",
+  "name": "胜利果实",
+  "status": "generated-normalized",
+  "source": "mothers/T019.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T019.png",
+  "motherSha256": "962292b2673863729aa515a51171a3c9b9d5d91506c47f0868a424cbd94a04fd",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T019.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5989,
+      "sha256": "dc2a83d11c4cf2d62c4a2297bd9e562ec0ec2bd7750c469dc2e017696a28518d",
+      "pixelSha256": "79315002c92ca65fe76b3e20f5aaa3a8e71819c5d8b5c3e062ea9534761d6078",
+      "alphaBounds": [
+        6,
+        4,
+        122,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          91,
+          55,
+          1210,
+          1217
+        ],
+        "fitSize": [
+          116,
+          120
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.10327022375215146
+      }
+    },
+    "256": {
+      "file": "pixels/256/T019.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 22095,
+      "sha256": "bb83d809511065994e6a3a5d5d80e02c2f8ba3f66bff34c7f68b2414a68c2a49",
+      "pixelSha256": "5eee6ec8fa28ddeee3e7eceed91bcde849fbd6e8218052c9fbd893366bd2b52c",
+      "alphaBounds": [
+        12,
+        8,
+        243,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          91,
+          55,
+          1210,
+          1217
+        ],
+        "fitSize": [
+          231,
+          240
+        ],
+        "position": [
+          12,
+          8
+        ],
+        "scale": 0.20654044750430292
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-6c1c3592-10db-4033-a312-b62c435fd877.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-6c1c3592-10db-4033-a312-b62c435fd877"
+  }
+}

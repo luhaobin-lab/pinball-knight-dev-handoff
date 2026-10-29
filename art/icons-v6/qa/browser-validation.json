@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "iconsInCatalogue": 308,
+  "PNGVariantsDecodedInChrome": 616,
+  "searchAndCategoryFilters": true,
+  "sourceDetails": true,
+  "downloadBytesMatch": true,
+  "integerScaling1440And390": true,
+  "backgroundControls": true,
+  "motherControlValidated": true,
+  "motherRequiredForDefaultCatalogue": false,
+  "offlineFilePreview": true,
+  "errors": [],
+  "boundary": "Browser library validation, not import into the target game."
+}

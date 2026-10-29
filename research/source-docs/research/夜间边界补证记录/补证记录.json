@@ -1,0 +1,13 @@
+{
+  "status": "bounded-triage-completed-no-whole-gap-closure",
+  "at": "2026-10-27T18:14:04.876074+00:00",
+  "archive": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\夜间边界补证记录\\02时有界补证原始证据.zip",
+  "sha256": "11080ae8fbb8ad46f6c2d546c3f34d7d5c9f7faf8a8d72501b6c27b0327d587d",
+  "files": 77,
+  "allMemberHashesVerified": true,
+  "umg": "Actualzeroinganddefaultcopychainfound;Row/Columnfinaldefaultsremainunknown",
+  "cache": "Bit-preservingkey/valueinsertandconditionalreturninvariant;completeTLSwrapperremainsunexecuted",
+  "frozenR3ABCUnchanged": true,
+  "newUserActionNeeded": false,
+  "next": "Morningrelease/sourcefreezeverificationandhandoff;donotrepeatthreedead-endedleads"
+}

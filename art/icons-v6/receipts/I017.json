@@ -1,0 +1,86 @@
+{
+  "id": "I017",
+  "name": "双生长弓",
+  "status": "generated-normalized",
+  "source": "mothers/I017.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I017.png",
+  "motherSha256": "5835dabb936e9e927a688f98866af0764f7dd44fb3edd1da275bd85eae986788",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I017.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 3631,
+      "sha256": "15ec70adfeb5e90b23d2fb0bd8884ad5d947c1f245ae00a18163b479a9797f95",
+      "pixelSha256": "726b6693d5ae52fe5009f2a9aaa15c0a1a06fd1370ca8b580a4ba61243d7d85f",
+      "alphaBounds": [
+        27,
+        4,
+        101,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          291,
+          15,
+          899,
+          1517
+        ],
+        "fitSize": [
+          74,
+          184
+        ],
+        "position": [
+          27,
+          4
+        ],
+        "scale": 0.12250332889480692
+      }
+    },
+    "256": {
+      "file": "pixels/256/I017.png",
+      "width": 256,
+      "height": 384,
+      "colors": 95,
+      "bytes": 12625,
+      "sha256": "fa4db316ec0ebc574c7b2be31804055c276b2b3d3bb4c1acce7b04781b96b6a2",
+      "pixelSha256": "b2f5fe41033673d6b3b9cc46c1ba7db5706691253dfe1f30b8769fa2dd5120bb",
+      "alphaBounds": [
+        53,
+        8,
+        202,
+        375
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          291,
+          15,
+          899,
+          1517
+        ],
+        "fitSize": [
+          149,
+          368
+        ],
+        "position": [
+          53,
+          8
+        ],
+        "scale": 0.24500665778961384
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and normalized PNG viewed; correct complete single subject; I017 is now contiguous functional bow with continuous taut string",
+  "sourceProvenance": {
+    "sourceFilename": "exec-b4f04751-0829-4e09-8ac1-6de4707dd7bd.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b4f04751-0829-4e09-8ac1-6de4707dd7bd"
+  }
+}

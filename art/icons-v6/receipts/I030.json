@@ -1,0 +1,86 @@
+{
+  "id": "I030",
+  "name": "黄金头盔",
+  "status": "generated-normalized",
+  "source": "mothers/I030.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I030.png",
+  "motherSha256": "587a0ac74877153591eb4aadac938f81d94a770070361a4570d60ebf4e320a54",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I030.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5771,
+      "sha256": "86c97ce7e71d8ccd141eebb146001e1875db06e43273ad649bb8ae4fe13e96cb",
+      "pixelSha256": "17756793394d6bb84b5d63971f90bf123a558fb03d3fa29108b76da2ecfcfd6f",
+      "alphaBounds": [
+        7,
+        5,
+        120,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          55,
+          18,
+          1207,
+          1236
+        ],
+        "fitSize": [
+          113,
+          120
+        ],
+        "position": [
+          7,
+          4
+        ],
+        "scale": 0.09852216748768473
+      }
+    },
+    "256": {
+      "file": "pixels/256/I030.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21121,
+      "sha256": "ecefdac7f60549f1eee9a62ce26761fc746817458f17143d9afb17ded899ff34",
+      "pixelSha256": "0d4b0ffb3e70321e02dc23bb3abfb34e879d5cc5b0abbd013f6b62ec0041510d",
+      "alphaBounds": [
+        14,
+        8,
+        241,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          55,
+          18,
+          1207,
+          1236
+        ],
+        "fitSize": [
+          227,
+          240
+        ],
+        "position": [
+          14,
+          8
+        ],
+        "scale": 0.19704433497536947
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; distinct correct subject, complete contour, clean normalized transparency",
+  "sourceProvenance": {
+    "sourceFilename": "exec-326e0f8a-64c4-46f9-8259-a520e36aa576.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-326e0f8a-64c4-46f9-8259-a520e36aa576"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I078",
+  "name": "超载十字架",
+  "status": "generated-normalized",
+  "source": "mothers/I078.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I078.png",
+  "motherSha256": "eeb6a4ee0a492eb3f06b96f1a8e163c012ac352d269de9b6220575e72db0a19b",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I078.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4730,
+      "sha256": "84505332208a3a48c9213b0aca96bda4494aa821a68634889dd6dec456658bc7",
+      "pixelSha256": "0cfdc8d0dc96544ed5fa178286b096adb72e916edca53a59392765c30d98e3c4",
+      "alphaBounds": [
+        11,
+        4,
+        117,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          101,
+          14,
+          1180,
+          1238
+        ],
+        "fitSize": [
+          106,
+          120
+        ],
+        "position": [
+          11,
+          4
+        ],
+        "scale": 0.09803921568627451
+      }
+    },
+    "256": {
+      "file": "pixels/256/I078.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 17689,
+      "sha256": "82ee0f62bc73f0ef3854012a9819fd908ec5cf3caff5876bdcc965fb8d61fcbf",
+      "pixelSha256": "09a1f4fb7783947ed72a970ba8c2940552ce94c024e8445c769307846e70b965",
+      "alphaBounds": [
+        22,
+        8,
+        234,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          101,
+          14,
+          1180,
+          1238
+        ],
+        "fitSize": [
+          212,
+          240
+        ],
+        "position": [
+          22,
+          8
+        ],
+        "scale": 0.19607843137254902
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "铜十字与超载电弧主体完整清晰，无文字、无裁切。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-b242467d-6989-48a1-8986-755f860d4ec1.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b242467d-6989-48a1-8986-755f860d4ec1"
+  }
+}

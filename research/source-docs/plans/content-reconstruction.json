@@ -1,0 +1,84 @@
+{
+  "status": "reconstructed-from-user-history-awaiting-content-confirmation",
+  "date": "2026-10-27",
+  "sourceThread": "01a1778a-d8a2-7ed3-adaf-bdbc2e30cb22",
+  "target": "Determine the intended NEW game content with the user before drafting a new plan or resuming HUD/implementation",
+  "currentUserDecision": "Entire latestHUDdirection rejected. StopHUD and first agree what game is being made.",
+  "identity": "Mobile landscape20:9 dungeon equipment-looting game with ricochet-driven item activation, spatial build synergies and persistent progression under death-loss risk.",
+  "priorUserDirections": [
+    {
+      "topic": "Core play",
+      "content": "Control ricochet launch; repeated ricochets advance equipment charge/activation; build increasingly powerful equipment synergies. Exact charging formula remains to specify.",
+      "userTurn": "01a17b19-4501-7b12-a5b7-fd9c63cf0923"
+    },
+    {
+      "topic": "Content library",
+      "content": "Use Ricochet Abyss Demo equipment,weapons,attributes,numbers,skills,items,enemies,talents and verified definitions as the source library for recombination; new game loop and spatial/meta rules follow user decisions.",
+      "userTurn": "01a17b44-ea1c-7fc1-8baf-9d3ab0101171"
+    },
+    {
+      "topic": "Equipment space",
+      "content": "User proposed TWO columns for equipment to enable left-right relationships; backpack ONE column. Total rows,unlocking and cell-enchantment details are unresolved. Existing one-column10-row implementation does not define new design.",
+      "userTurn": "01a17b44-ea1c-7fc1-8baf-9d3ab0101171"
+    },
+    {
+      "topic": "Adventure loop",
+      "content": "Battle -> loot/build management -> mandatory shop ->50% chance of extra forge or cell-enchantment service -> next battle; auto progression with no manual route choice is the later direction. Exact weighting and service prices remain to lock.",
+      "userTurn": "01a17b3b-b26d-7f70-8bd8-caefbf05f342"
+    },
+    {
+      "topic": "Level structure",
+      "content": "Random rooms within a LEVEL; final room is aBoss; differentLEVELs have differentBosses. DefeatBoss completesLEVEL andreturns to character-growth/lobby. Death also returns andrequires replayingthatLEVEL.",
+      "userTurn": "01a17b19-4501-7b12-a5b7-fd9c63cf0923"
+    },
+    {
+      "topic": "Risk and extraction",
+      "content": "Deathloses unprotected carried equipment/items; cellswithno-drop enchant protect their contents. Coins remain. Sell valuableequipment to lock incoins atcostofcurrentpower; defeatfinalBoss tobringoutallgear. Safevault permanentlystores items inlobby.",
+      "userTurn": "01a17b31-6653-7ca0-a133-202d77a563bd"
+    },
+    {
+      "topic": "Long term growth",
+      "content": "Coins are the one currency andcanfundadventure purchases orpersistentgrowth. KillsgrantXP; levelinggrants skillpoints to unlocktalentnodes; coins then upgrade unlockednodes/basicstats. Validstatnames/definitions followverifieddictionary,notcasualexamplelabels.",
+      "userTurn": "01a17b31-6653-7ca0-a133-202d77a563bd"
+    },
+    {
+      "topic": "Forge/enchant",
+      "content": "Forge has improvement/failure or damage outcomes,withcoin insurance discussed. Cell enchantments affect equipment andsynergies,includingprotection. Exactrates,lossseverity,prices,andeligiblecells unresolved.",
+      "userTurn": "01a17b31-6653-7ca0-a133-202d77a563bd"
+    },
+    {
+      "topic": "Deferred",
+      "content": "Arbitrarytwo-itemfusion explicitlydeferred. Enemylogic comesafterplayer-side systems.",
+      "userTurn": "01a17b3b-b26d-7f70-8bd8-caefbf05f342"
+    }
+  ],
+  "firstDevelopmentScopePreviouslyRequested": {
+    "content": "Fixed existing testroom; existing complete hero roll/ricochet/animation system; allsourcecharacterattribute definitions; Pdevelopmentmenu tospawn/manageequipment,attributes,talents,cellenchants; staticenemytargetdummies; curate a small genuine synergyequipmentset fromR2dictionary andinspect actualactivationchains.",
+    "userTurns": [
+      "01a17b44-ea1c-7fc1-8baf-9d3ab0101171",
+      "01a17c2c-dcd3-7af2-a376-96ef0841d2cb"
+    ],
+    "status": "Priorrequested scope to reconfirmaftercurrentrejection,not anew implementationauthorization"
+  },
+  "notNewGameRequirements": [
+    "OldtestfixtureHP120/150",
+    "ExactlyoneOldSwordandonepotionstartingloadout",
+    "Onecolumn10equipmentrowswith6locked",
+    "Sourceprologueroom02asmandatorynewgameopening"
+  ],
+  "openContentDecisions": [
+    "Exactequipment/backpackcapacity and cellunlockrules",
+    "Howricochet count/time maps toitemactivation while retaining sourceitemdefinitions",
+    "Whichsourcecontent/attributes are retainedunchanged vs adapted fornew spatial/metarules",
+    "Newstartingloadout and persistentvsrun-only progression boundaries",
+    "Protectionenchantment access/cost/coverage",
+    "LEVELlength,Boss progression,shopavailability,forge/enchantrates",
+    "Firsttestroom synergyset selection after gamecontent agreement"
+  ],
+  "proposals": [],
+  "needs": [
+    "Usercorrection/confirmationofthis reconstructed content definition before anynewformalplanorimplementation"
+  ],
+  "runtimeSourceModified": false,
+  "hudWorkStatus": "stopped; previousHUDplan invalidated,allproviderjobs completed andpreserved; no newgeneration"
+}

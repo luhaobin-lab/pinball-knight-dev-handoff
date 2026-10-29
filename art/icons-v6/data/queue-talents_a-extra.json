@@ -1,0 +1,435 @@
+[
+  {
+    "id": "T120",
+    "name": "天秤",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "获取物品和天赋时，可以额外刷新1次。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "天秤",
+      "motif": "双盘骨金天秤",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T121",
+    "name": "虚化",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "生命上限"
+    ],
+    "description": "累计失去的生命超过30%生命上限后，受到的伤害减少80%，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "虚化",
+      "motif": "身躯缺失的魂影",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T122",
+    "name": "旋风共鸣",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "旋风造成的伤害提升500%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "旋风共鸣",
+      "motif": "相互卷入的双旋风",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T123",
+    "name": "强固扩张",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "强固",
+      "会心"
+    ],
+    "description": "强固物品会心时，自身增加50强固，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "强固扩张",
+      "motif": "从中心盾向外生长的甲片",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T124",
+    "name": "晶刺盔甲",
+    "category": "天赋",
+    "subtype": "主动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "强固",
+      "流血"
+    ],
+    "description": "本回合碰撞敌人时，会在3回合內造成等同拥有物品强固总和的流血伤害。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "6",
+    "stamina": "",
+    "legacyArt": {
+      "family": "晶刺盔甲",
+      "motif": "四角长晶刺的胸甲",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T125",
+    "name": "无极限",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "强固"
+    ],
+    "description": "强固提供的伤害减免效果提升30%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "无极限",
+      "motif": "闭合厚链环护住小盾",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T126",
+    "name": "强固引力",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "强固"
+    ],
+    "description": "最下方的强固物品，获得所有未装备物品的强固。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "强固引力",
+      "motif": "多块矿石沉向下方盾",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T127",
+    "name": "烈焰虚弱",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "燃烧"
+    ],
+    "description": "处于燃烧状态的敌人，造成的伤害减少50%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "烈焰虚弱",
+      "motif": "被低垂火焰侵蚀的骨面",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T128",
+    "name": "震荡波",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "眩晕"
+    ],
+    "description": "敌人受到15次来自爆炸的伤害后，获得眩晕，持续1回合。（首领为150次）",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "震荡",
+      "motif": "锤击后层层扩出的冲波",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T129",
+    "name": "邪眼",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "会心"
+    ],
+    "description": "所有物品会心效果提升150%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "邪眼",
+      "motif": "长角滴血的巨大红瞳",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T130",
+    "name": "幽灵步伐",
+    "category": "天赋",
+    "subtype": "主动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "闪避"
+    ],
+    "description": "本回合闪避时可以避免所有伤害。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "5",
+    "legacyArt": {
+      "family": "幽灵步伐",
+      "motif": "斜置的两枚幽灵足印",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T131",
+    "name": "化身烈阳",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "燃烧",
+      "生命上限"
+    ],
+    "description": "回合开始时，点燃周围的敌人，在3回合内造成等同30%生命上限的燃烧伤害。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "烈阳化身",
+      "motif": "烈日前抬臂的骨躯",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T132",
+    "name": "龙之幸运",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "幸运"
+    ],
+    "description": "幸运状态带来的增益提升100%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "龙之幸运",
+      "motif": "骨龙衔守一枚金币",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T133",
+    "name": "捕捉灵魂",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "基础伤害"
+    ],
+    "description": "当英雄杀死敌人时，永久增加10英雄基础伤害。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "捕捉灵魂",
+      "motif": "骨掌与弯曲拘束线抓住魂灵",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  }
+]

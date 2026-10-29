@@ -1,0 +1,80 @@
+{
+  "id": "I006",
+  "name": "灼热眼珠",
+  "status": "generated-normalized",
+  "source": "[original-local-file]/exec-a0967637-3745-4a38-861d-a29de46dfd07.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I006.png",
+  "motherSha256": "9b3041c6cda007c8dc9f884d810888dbfad11fe4104b500cfa749e549d3cfb53",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I006.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2917,
+      "sha256": "d247b93c505aee9b71853390a8837be4dc96a5c5e39ee39ba90b48032dd2ae7d",
+      "pixelSha256": "d7dd33aa87627d83149261c6601cd36324645ec19682ace7550849bcaba7dd1c",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        58
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          34,
+          72,
+          1741,
+          832
+        ],
+        "fitSize": [
+          120,
+          53
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.070298769771529
+      }
+    },
+    "256": {
+      "file": "pixels/256/I006.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10620,
+      "sha256": "eabb0a69c6591d0a93bb17a190640e11f1265dac77eeebc16c925c0e73f5b395",
+      "pixelSha256": "b4ca2faf0260e389a6abc0f8460a5278b66a8607cd45fc547562fc33e1fcfb40",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        117
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          34,
+          72,
+          1741,
+          832
+        ],
+        "fitSize": [
+          240,
+          107
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.140597539543058
+      }
+    }
+  },
+  "visualReview": "pending"
+}

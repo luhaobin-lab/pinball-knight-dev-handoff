@@ -1,0 +1,12 @@
+{
+  "galleryImages": 12,
+  "allOriginalsLoaded": true,
+  "phonePreview": {
+    "width": 800,
+    "height": 360
+  },
+  "navigationPassed": true,
+  "mobileGalleryOverflow": false,
+  "pageErrors": [],
+  "scope": "仅图库交互与静态图片加载；不是游戏或手机实机测试"
+}

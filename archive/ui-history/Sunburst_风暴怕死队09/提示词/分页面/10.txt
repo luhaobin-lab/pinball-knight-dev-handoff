@@ -1,0 +1,6 @@
+PAGE10 MERCHANT SELL, BEFORE TRANSACTION. Use the GENERATED PURCHASE PAGE as the exact central structure and merchant identity reference. Keep header, tabs, item/detail positions, typography and button baselines. Local 出售 selected, 购买 inactive. First global tab remains selected.
+OWNERSHIP: move the ONE existing 凝血毒剂 from left equipment row1 into RIGHT BACKPACK ROW1. Left row1 becomes EMPTY, with no vial or8/1 badges. Left row2 mushroom4 and row3 dagger30/2/0/100 remain unchanged. Right row1 contains the vial with8/1; right rows2/3 empty, bottom locked. Do not show a second physical vial as merchant stock. Central large icon is only the selected bag item's detail view.
+Show name 凝血毒剂; status 背包物品; exact effects:
+相邻物品造成伤害时，额外在3回合内造成8流血伤害。
+相邻物品被认为是流血物品。
+Clear price row 出售所得 1金币. Main action 出售 · 获得1金币. Secondary 离开商店. Current gold remains4, bag item remains present; no success toast or gold5. The value1 is the authorized visual-example sale price, not a claim that recycle price and sale price are always equal. Do not print this explanation or any placeholder in the screen. No purchase price shown in this sell view.

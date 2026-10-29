@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Image1 is the APPROVED SELL PAGE LAYOUT and exact content. Image2 is the NEW refined PURCHASE PAGE: use its new inked rendering, new merchant hand gesture, flatter bottle illustration, dark frame surfaces, header icons and clean unobstructed right panel. Repaint Image1 in the art style of Image2 while preserving Image1's sell-specific layout and ownership. Do not keep Image2's three merchandise stock cards. Return one complete3200x1440 screenshot.\nPAGE10 MERCHANT SELL BEFORE TRANSACTION. Use Image2's new merchant drawing; Image1 supplies exact sell state and layout. First global tab selected, local出售 selected. Move the ONE existing poison vial from LEFT equipped row1 to RIGHT bag row1. Leftrow1 empty with NO8/1badges; left mushroom4 and dagger30/2/0/100 remain. Rightrow1 vial8/1, nexttwo empty, bottomlocked. No merchant stock copy of vial; central icon is a detail illustration only. Detail 凝血毒剂 / 背包物品. Exact effects 相邻物品造成伤害时，额外在3回合内造成8流血伤害。 / 相邻物品被认为是流血物品。 Price row 出售所得 coin1. Actions 离开商店 and 出售 · 获得1金币. Gold remains4, vial stays in bag before sale. No gold5/success/buyprice. Increase prose legibility inside existing box; retain all effect text.\nThe large bottle is a detailed illustration of the selected bag item, not a second owned copy. Redraw it with the same angular flat teal fill and one highlight as the small bottle in Image2. Rightbackpack outerframe must be fully in front of all scenery, including bottomright corner. Keep all Chinese prose sharp and use sufficient internal margins. No extra currency, tooltip or message.",
+    "images": [
+      "archive/ui-v09-approved/交付原图/10_商店_出售详情.png",
+      "art/ui-v10/原始生成图/09_商店_购买详情_修正.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2f387f5157103dedccb75\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2f387f5157103dedccb75",
+      "raw": {
+        "id": "6ae2f387f5157103dedccb75",
+        "object_id": "6ae2f387f5157103dedccb75",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T15:19:35.084000+08:00",
+        "updateTime": "2026-10-29T15:19:35.107000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I076",
+  "name": "浴火拳套",
+  "status": "generated-normalized",
+  "source": "mothers/I076.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I076.png",
+  "motherSha256": "89a079383bc1dc09b46456e41c2e75a5cc092d74d42f0104e4eae1628917771e",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I076.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6427,
+      "sha256": "7b557e0e86b4116e842b5e0ab65e3609931c39000dc6b6ae2a1e209b8927eb54",
+      "pixelSha256": "4fcf0d54732447a092adc984c2745547e41af3e2e70d7add84dd6a58b389b16f",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          73,
+          45,
+          1230,
+          1185
+        ],
+        "fitSize": [
+          120,
+          118
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.10371650821089023
+      }
+    },
+    "256": {
+      "file": "pixels/256/I076.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 24115,
+      "sha256": "18a2dac1d2bca0d0f0e26790221de5aa2d41a51e71d5d2013f2f20f90225bd82",
+      "pixelSha256": "94e3fb164aae98f5fe14b58220eb4a1d6761a914425deabc874b2406e1ea54dc",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        246
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          73,
+          45,
+          1230,
+          1185
+        ],
+        "fitSize": [
+          240,
+          236
+        ],
+        "position": [
+          8,
+          10
+        ],
+        "scale": 0.20743301642178047
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "I074重做俯视八足清晰可数；成对浴火拳套、裂缝圆盾主体通过。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-3d05b8ce-4307-41bd-b6ef-65d7875ee2b9.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-3d05b8ce-4307-41bd-b6ef-65d7875ee2b9"
+  }
+}

@@ -1,0 +1,661 @@
+{
+  "scope": "queue-root.json 61 items: I156-I175 and T068-T108",
+  "count": 61,
+  "passCount": 61,
+  "issueCount": 0,
+  "status": "review-complete-all-passed",
+  "reviewMethod": "Read each source brief and gameplay summary; viewed all native256 PNGs without resizing in four alternating light/dark contact sheets. I168 original mother inspected for anatomy, rejected, then replacement mother and native256/native128 exports separately inspected. No generation, image changes, or common-script changes performed by this independent review.",
+  "contactSheetsViewed": [
+    "qa/root-independent-contact-01.png",
+    "qa/root-independent-contact-02.png",
+    "qa/root-independent-contact-03.png",
+    "qa/root-independent-contact-04.png"
+  ],
+  "issues": [],
+  "records": [
+    {
+      "id": "I156",
+      "name": "灵魂香菇",
+      "brief": "Primary subject: 灵魂香菇 (I156). Visual motif: 有灵脸的小簇香菇.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "d6a4ea950d6b8cf788e91632c5d60f1e57f854eac5bc1cc44d5c7ba0c57a17ec",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I157",
+      "name": "守护之戒",
+      "brief": "Primary subject: 守护之戒 (I157). Visual motif: 镶盾面的守护戒指.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "7765735827ec0bbdb34ac88f71c97165cfe4ace7ab7e6cad6c5c2ee7a1d600b6",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I158",
+      "name": "幸运护符",
+      "brief": "Primary subject: 幸运护符 (I158). Visual motif: 绑红线的四叶幸运护符.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "66d54182571aa4ac43e7218d58cd18dd5701a0d441762a266eb0f737fb3f7ab9",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I159",
+      "name": "投手之握",
+      "brief": "Primary subject: 投手之握 (I159). Visual motif: 托着箭片的投手之握.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "ccb8efe23f21c9cc5573f917a7e77c1886fe71f0a0c785ec84ef93862fc896c4",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I160",
+      "name": "蝮蛇弓",
+      "brief": "Primary subject: 蝮蛇弓 (I160). Visual motif: 蛇首替代末端弓角的蝮蛇弓.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "d82f35d654862a05430d5a49910bf8875587814639f2afaf8a873960b494dcb3",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I161",
+      "name": "炸弹弓",
+      "brief": "Primary subject: 炸弹弓 (I161). Visual motif: 绑着圆炸弹的爆破弓.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "c76e7e0681a88d2a46977e6374889f18b6f7369a82c0b4242745496cede52b7c",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I162",
+      "name": "闪鸣弓",
+      "brief": "Primary subject: 闪鸣弓 (I162). Visual motif: 导电折角构成的闪鸣弓.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "1bda079a51658bde10e6ecb42dedc22ba8d46527a660f795081652875ff9e588",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I163",
+      "name": "时空水晶",
+      "brief": "Primary subject: 时空水晶 (I163). Visual motif: 双尖时空晶与轨道环.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "1140538943daa842ffd7ed9bd4f6ea783cb473f055c5386f3b3deb284429f0e0",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I164",
+      "name": "噬毒护符",
+      "brief": "Primary subject: 噬毒护符 (I164). Visual motif: 张口咬住毒珠的噬毒护符.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "06376a1f1f6b2437f48559d2d619943c6a43df91155a21b0c31dadd7df7d2bcb",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I165",
+      "name": "淬毒利刃",
+      "brief": "Primary subject: 淬毒利刃 (I165). Visual motif: 带毒槽的弯曲淬毒利刃.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "0b3cb77db86553bccd8029b77bcff04c9a733631bb56c0d5091ee83d99fe6cc4",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I166",
+      "name": "花冠",
+      "brief": "Primary subject: 花冠 (I166). Visual motif: 红花骨枝交织的花冠.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "0361d455ffd2d149740f7632e845ae467a32bc40f55bbb09c42afa20f9da2b8b",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I167",
+      "name": "无尽水壶",
+      "brief": "Primary subject: 无尽水壶 (I167). Visual motif: 带环柄和长嘴的无尽水壶.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "73ef1d94388cf8906c3498cdfecfdc7a8a4a59c0290ab2214f3d5a2cfc0e472c",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I168",
+      "name": "汲取拳套",
+      "brief": "Primary subject: 汲取拳套 (I168). Visual motif: 装着血眼吸盘的汲取拳套.",
+      "status": "pass",
+      "note": "Replacement viewed as mother plus native 256x128 and 128x64 PNGs. Four curled fingers, a separate thumb, wrist cuff and red palm suction eye are clearly identifiable; the prior gun-barrel ambiguity is resolved. No visible crop, opaque background matte, or broken hand silhouette found.",
+      "contactSheet": null,
+      "pixelSha256": "e13dc739dd20b55caed813605ed837d93fb92dfd73485cc74565f17584705dcd",
+      "motherAlsoViewed": true,
+      "previousReview": {
+        "status": "issue",
+        "note": "At native256 the finger-end suction cups read as multiple gun barrels. The palm and thumb are unclear; inspecting the mother confirms the silhouette ambiguity. This weakens the gauntlet identity even though the blood-eye suction motif is present.",
+        "contactSheet": "qa/root-independent-contact-01.png",
+        "pixelSha256": "adebd5ee947024f22ec83dcadcd79c52a8fd82954b90c7905be15d9faa5412ac"
+      },
+      "filesViewed": [
+        "mothers/I168.png",
+        "pixels/256/I168.png",
+        "pixels/128/I168.png"
+      ],
+      "pixelSha256128": "e18cffdb2686fc470333fa8bc5fa17f89a29e9f9fbab21039eaa0a58950c37cc",
+      "motherSha256": "3adf4fc31867cb0d226483ee778ea9063b41c800efbefb85ccb7a882514ce546",
+      "resolvedPreviousIssue": true,
+      "reviewedAt": "2026-10-29T08:42:24.966339+00:00"
+    },
+    {
+      "id": "I169",
+      "name": "饮血宝石",
+      "brief": "Primary subject: 饮血宝石 (I169). Visual motif: 双獠牙夹持的饮血宝石.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "dcf2d731d668a1e80b11ee9a5f898fcd0a651f86c6fa600987c854850cd69067",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I170",
+      "name": "烈焰匕首",
+      "brief": "Primary subject: 烈焰匕首 (I170). Visual motif: 火舌形刀背的烈焰匕首.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "97960c54b176bb1d9e16e9b8c7facd70802a4df826d34565abfd3d2444ad4419",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I171",
+      "name": "火山药水",
+      "brief": "Primary subject: 火山药水 (I171). Visual motif: 裂岩包裹的火山药水.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-01.png",
+      "pixelSha256": "a870e3ab8413be23305b976dc478f146b0f576fb80bc925c42e69c8dcbfe0db1",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I172",
+      "name": "风语草",
+      "brief": "Primary subject: 风语草 (I172). Visual motif: 沿风向弯下的细穗草.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "f3958d00572e106dd3689e6dd9c9266dc094998f2417ac4b2a6f58e57dbb8541",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I173",
+      "name": "璀璨结晶",
+      "brief": "Primary subject: 璀璨结晶 (I173). Visual motif: 放射状的璀璨晶簇.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "e638d47fb7b97e47e4b18d34c322b2b8395bcc3257f41e7be6937d19b7c8fbf1",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I174",
+      "name": "熔岩坚果",
+      "brief": "Primary subject: 熔岩坚果 (I174). Visual motif: 开裂露出熔核的坚果.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "600c8625f08fc8aec3a68ad70bcdfb273d88ec32fc31c883aaab6d4136a2dc35",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "I175",
+      "name": "雷神匕首",
+      "brief": "Primary subject: 雷神匕首 (I175). Visual motif: 叉状雷电刃的雷神匕首.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "63153f58c8283fa3ec7816b671468d13ba2ebd0d4f51f605b5f27fa94920fde6",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T068",
+      "name": "裂心一击",
+      "brief": "Primary subject: 裂心一击 (T068). Visual motif: 开裂的器官心脏.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "02d451ecc28a933b788a752891bd4b8822210bcb9217799f3d3e594d7a560b87",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T069",
+      "name": "灵敏",
+      "brief": "Primary subject: 灵敏 (T069). Visual motif: 轻羽与侧向回旋痕.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "2e08f464c8c89ad71028c31a2f09cd854582a33ee53d35c0856610d405f9bb90",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T070",
+      "name": "会心护体",
+      "brief": "Primary subject: 会心护体 (T070). Visual motif: 盾心睁开的金眼.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "b7cc84c20c9ce85a8e226067e4439d9f408009b2d978a06d9280abeabf573950",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T071",
+      "name": "追风",
+      "brief": "Primary subject: 追风 (T071). Visual motif: 风流前的轻靴.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "a0127664fbe8fb947e8129bc4b9e46dd0c734bd9089c4c14f2f0dc647c5514dc",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T072",
+      "name": "稳固射击",
+      "brief": "Primary subject: 稳固射击 (T072). Visual motif: 石座固定长弓.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "3a0af2c282301f0235625bfaa7a2971772fe6fa97280802272a0140096061a45",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T073",
+      "name": "创口切割",
+      "brief": "Primary subject: 创口切割 (T073). Visual motif: 刀尖扩大缝合伤口.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "35b4a01f97ef1eee4ff3956627fa4a2df7a5a787fa368ef7182de19ea8b6f34b",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T074",
+      "name": "敏锐直觉",
+      "brief": "Primary subject: 敏锐直觉 (T074). Visual motif: 侧面骨耳与听觉波.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "d43b9561920aa1486fce26180ff91db8a9799cc369bd3344e9c5baeabf848dc6",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T075",
+      "name": "多重射击",
+      "brief": "Primary subject: 多重射击 (T075). Visual motif: 并排三支展开箭.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "2573da8be5a62acd27f57509cbc2dbe00df788bb6d5fbe4235f2dc3b0bf1cdc6",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T076",
+      "name": "心流原力",
+      "brief": "Primary subject: 心流原力 (T076). Visual motif: 眼睛流出魂力晶体.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "1268c8cd5eb1bd8228acc55dc686e9ae42f19e2628079685c36b78ded61dfe8d",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T077",
+      "name": "神速力",
+      "brief": "Primary subject: 神速力 (T077). Visual motif: 带羽翼的雷闪.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "2cf5fb0cd484c2068d1f578f995019421d384eafa51d854fd7c310ac737fddc3",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T078",
+      "name": "守护恩泽",
+      "brief": "Primary subject: 守护恩泽 (T078). Visual motif: 双手托护小心脏.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "db48703198825c62cc697130df32c100924e0b171b902eac56f728d144bf82fc",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T079",
+      "name": "复生吐纳",
+      "brief": "Primary subject: 复生吐纳 (T079). Visual motif: 肺叶吸入两侧魂息.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-02.png",
+      "pixelSha256": "7d130372e49d69ef057d610f290d21a83f273a96d7a6a5fd1bb166794d98ae04",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T080",
+      "name": "恶臭长裤",
+      "brief": "Primary subject: 恶臭长裤 (T080). Visual motif: 溢出毒气的破旧长裤.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "814584da4cc313647229f8e703fa93ea2db9be6303d8b59c1462b6471fbcb84e",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T081",
+      "name": "血气强力",
+      "brief": "Primary subject: 血气强力 (T081). Visual motif: 心脏驱动的握拳.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "38f379b63c4c7c7cd0eced0d2859153a27138218338f3375ba20cf4775c5f79a",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T082",
+      "name": "生生不息",
+      "brief": "Primary subject: 生生不息 (T082). Visual motif: 扎根发叶的心脏.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "a432db8541dd1153ba4a39b4f71886a58ac2f3ddc879cf54b6af44572302e4e7",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T083",
+      "name": "毒性加速",
+      "brief": "Primary subject: 毒性加速 (T083). Visual motif: 拖出绿色速度痕的虫.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "49103e11394e6783791cc5939fcd46c89ec58890e7dc610b840e683006aa3318",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T084",
+      "name": "苦痛转化",
+      "brief": "Primary subject: 苦痛转化 (T084). Visual motif: 血滴转入冷色晶体.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "ecb21f9cd8fa4dc5df776cc3236f1a1634d5631b646ce08268f9c171af6380cf",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T085",
+      "name": "疫病寄生",
+      "brief": "Primary subject: 疫病寄生 (T085). Visual motif: 缠在血管上的甲虫.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "276b443fd6f3076f983ad9d33222ef4726d45187b48e4825a4bb082ff633778f",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T086",
+      "name": "火上浇油",
+      "brief": "Primary subject: 火上浇油 (T086). Visual motif: 药瓶滴油喂养火焰.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "d1051bfaf6d24cd51a82e73c8dab63aac7151b4e907c1146e088ce6a5063e255",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T087",
+      "name": "元气循环",
+      "brief": "Primary subject: 元气循环 (T087). Visual motif: 风旋中心的会心眼.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "faf489acb0171f7ced0cbcb1327f913e8a878851f5782d7620b11d27625571b4",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T088",
+      "name": "雷厉风行",
+      "brief": "Primary subject: 雷厉风行 (T088). Visual motif: 带疾行痕的感应线圈.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "aaa8bcccddcef75fe28391771b437c68b358f612d8b9be3ead8ffed39164d209",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T089",
+      "name": "大地之心",
+      "brief": "Primary subject: 大地之心 (T089). Visual motif: 岩石包裹的琥珀心.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "d410f42420c1d555a7f7ba1ab180090038c1e41e71feb2dce09a44b70e924888",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T090",
+      "name": "易燃易爆",
+      "brief": "Primary subject: 易燃易爆 (T090). Visual motif: 燃着引线的黑铁炸弹.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "1fbd43ba25088bb1b89a223f9958b565cdb1364c4459c1a37fc75d9ce37b767b",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T091",
+      "name": "新生之力",
+      "brief": "Primary subject: 新生之力 (T091). Visual motif: 破棺后升起的火焰.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "161a04527c22cc3aeef2c400c2e3485d147a8aa21ef900ce313225c31a7223a0",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T092",
+      "name": "真视",
+      "brief": "Primary subject: 真视 (T092). Visual motif: 手托金瞳与稀有晶光.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "8bf8f5fcf7bd6592807b1c0a31af8b32e204c027b681fefee8d751a8ce393564",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T093",
+      "name": "大型装甲",
+      "brief": "Primary subject: 大型装甲 (T093). Visual motif: 两副重甲共同护心.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "5af974380d7051e2242b1ff2c959bae3f15f85ca2b8add8b434f5e398707896e",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T094",
+      "name": "大地脉动",
+      "brief": "Primary subject: 大地脉动 (T094). Visual motif: 岩体下扩散的地脉.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "4489c92ba1cd5252f4f3ed108739710233508e443d8c90744ac37fb4352c3250",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T095",
+      "name": "雷霆溢能",
+      "brief": "Primary subject: 雷霆溢能 (T095). Visual motif: 线圈分流给两枚魂晶.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-03.png",
+      "pixelSha256": "aeb8d0e719a68c06d93268ec14a933c1d3eec7186a6930b7e5617cefc9ca780e",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T096",
+      "name": "元气锋芒",
+      "brief": "Primary subject: 元气锋芒 (T096). Visual motif: 风流擦亮的刀刃.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "3a68d533d78eefd10dbe23e7c52d9841ee7a7cb3265c4e88befd7d6a640311ed",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T097",
+      "name": "癫狂",
+      "brief": "Primary subject: 癫狂 (T097). Visual motif: 半边染血的破碎面具.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "46014f04f16fcf69fb7aacc79a64d3b109d48dad29895418a00f7d8f2a884984",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T098",
+      "name": "爆裂火星",
+      "brief": "Primary subject: 爆裂火星 (T098). Visual motif: 主燃晶爆出碎火.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "7390be6051e1935456f72c5807fdec04b430b11a11460ba432d95ea4078efabd",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T099",
+      "name": "蓄力",
+      "brief": "Primary subject: 蓄力 (T099). Visual motif: 血环逐层收紧的骨拳.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "7b71c0962b8f627cdd5a73205fcced486effa0154928ece337f4cdf7deefe4bb",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T100",
+      "name": "掠夺",
+      "brief": "Primary subject: 掠夺 (T100). Visual motif: 材料袋中溢出的币与晶.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "8430cfa64ddd295a08d1115e7b81d129959078bfd0805b0060c3eb7ffa1ed244",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T101",
+      "name": "暴食",
+      "brief": "Primary subject: 暴食 (T101). Visual motif: 吞下心脏的巨口.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "a2ca7ab511fdf46ac7e5e31901d21280bcb6ba158b98661559c3639a24dd76d1",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T102",
+      "name": "共难",
+      "brief": "Primary subject: 共难 (T102). Visual motif: 两颗颅骨共享血线.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "0f2db56cd04598a032073bc78d918a3cdba1d8d24c6df9cface682c8f91ac2f1",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T103",
+      "name": "催化剂",
+      "brief": "Primary subject: 催化剂 (T103). Visual motif: 受火加热的毒剂瓶.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "ae27dd3cd1e98fd639520cdd2d6fbf2d9b895a4703e0a3d0deabcdc4ff6cd936",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T104",
+      "name": "侵蚀之握",
+      "brief": "Primary subject: 侵蚀之握 (T104). Visual motif: 被绿蚀浸透的骨爪.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "caeb8edbb8930f3a48b146e114762302c1e32d36dd166c6f7a2ee8644f6eb85a",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T105",
+      "name": "厄疾缠身",
+      "brief": "Primary subject: 厄疾缠身 (T105). Visual motif: 荆棘缠绕的面具.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "33624832ea2ced644a13a6f484b3d4e7b558ae8db6c156310670eec50ad335df",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T106",
+      "name": "恶性传染",
+      "brief": "Primary subject: 恶性传染 (T106). Visual motif: 颅骨死亡后传向毒虫.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "32bc1afaf25977ce7477be587793d0601eddb3ac52f0f08974699f47d14be40a",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T107",
+      "name": "腐蚀精炼",
+      "brief": "Primary subject: 腐蚀精炼 (T107). Visual motif: 酸液中的磨刃铁砧.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "f54f212f9a7c916fa68a6b9039399de0957528e1601661c8e18bcba1afa6558e",
+      "motherAlsoViewed": false
+    },
+    {
+      "id": "T108",
+      "name": "浸泡",
+      "brief": "Primary subject: 浸泡 (T108). Visual motif: 两只小瓶浸在毒槽.",
+      "status": "pass",
+      "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found.",
+      "contactSheet": "qa/root-independent-contact-04.png",
+      "pixelSha256": "e63fccc151d3688d404cbf4fef2b9ebf82c4d679589edf267e70babecc524ba1",
+      "motherAlsoViewed": false
+    }
+  ],
+  "aestheticApproval": "Not asserted; this review checks brief matching, complete shapes, transparency presentation and native256 readability.",
+  "resolvedIssues": [
+    {
+      "id": "I168",
+      "category": "subject readability",
+      "severity": "medium",
+      "note": "At native256 the finger-end suction cups read as multiple gun barrels. The palm and thumb are unclear; inspecting the mother confirms the silhouette ambiguity. This weakens the gauntlet identity even though the blood-eye suction motif is present.",
+      "suggestion": "Regenerate one closed or half-closed glove with four knuckle masses, a clearly separate thumb, and suction eyes on palm/knuckles rather than long barrel fingers.",
+      "resolution": "Replaced mother and both PNG sizes; independent mother/native256/native128 visual review passed.",
+      "rejectedFilesPrefix": "qa/rejected/I168-before-hand-readability",
+      "replacementMotherSha256": "3adf4fc31867cb0d226483ee778ea9063b41c800efbefb85ccb7a882514ce546",
+      "replacementPixelSha256": "e13dc739dd20b55caed813605ed837d93fb92dfd73485cc74565f17584705dcd"
+    }
+  ],
+  "resolvedIssueCount": 1,
+  "finalPixelHashCheck": {
+    "count": 61,
+    "matched": 61
+  }
+}

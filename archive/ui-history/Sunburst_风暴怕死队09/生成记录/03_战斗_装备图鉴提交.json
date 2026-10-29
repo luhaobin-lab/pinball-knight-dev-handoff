@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Create ONE complete finished 3200x1440 game screen in the EXACT approved visual system of Image1. Image1 is our approved 风暴怕死队-style battle master. The user approved this direction: preserve its hanging-page tabs, enlarged hand-drawn resource icons, letterforms, palette, timber/brass frames, slot surfaces, item art, contour weight and spacing. Supporting official screenshots establish the same UI family; do not copy their game text or mechanics.\n\nKeep the shared header pixel positions and scale. Exactly three tabs 装备栏位 / 英雄属性 / 装备图鉴; change only the selected tab as this page requires. Top right remains 生命180/180 full, 体力100/100 full, 腐化0/100 EMPTY, 金币4. Preserve the master's LARGE icons and numbers; never shrink them. All body text must be clear at phone scale: preferably at least56px, important numbers64px. Keep Chinese typography consistent with Image1.\n\nUnless the page explicitly replaces the left+central area with a wide sheet, preserve BOTH side panels from Image1: 战斗装备 and 背包, matching top, bottom, width, title baseline and all four card rows. Both use ONE COLUMN of full-width horizontal cards, never split cells. Default left cards: green vial8/1, pale mushroom4 only, silver dagger30/2 with one purple enchantment mark and EMPTY0/100; fourth locked. Default right: three empty full-width cards and bottom locked. Page-specific ownership changes below override only those stated rows. Names/descriptions do not appear permanently on the equipped side cards.\n\nOnly the central page content, contextual title and authorized states/actions change. Use the approved hand-inked, warm brown/ochre UI with simple colored item art; no new art style, generic dark CSS boxes, photoreal metallic bevels, copied source-game branding, keyboard hints or developer placeholders. Selected controls and buttons should share the official game's warm amber/green-corner visual language and readable cream lettering. One primary task/action; align all bottom actions, with quieter secondary action at the left and primary at right. Remove battle aiming instructions on non-battle pages. Do not invent game features, fees, resources or extra controls beyond the page spec. Render the ENTIRE final screenshot with all art, labels and numbers in the image model.\n\n\nPAGE 03 — 装备图鉴 / EQUIPMENT CODEX\n\nGenerate one COMPLETE equipment-codex screen. Apply the shared style and the approved 风暴怕死队 UI master without inventing another visual system. Preserve its hanging paper PAGE TABS, enlarged status icons, Chinese lettering and all top resource values. The THIRD global tab “装备图鉴” is selected; “装备栏位” and “英雄属性” are inactive. Keep the tabs at their established positions with the same construction and label baselines.\n\nPAGE-SPECIFIC LAYOUT OVERRIDE:\nA single spacious codex occupies the LEFT + CENTRAL area, replacing the ordinary equipped-item column and central playfield for this page. Its upper and lower outer edges align with the corresponding edges of the master side panels. This is the intentional wide-page state, not a small floating tooltip. The RIGHT backpack remains exactly in the master's position and size: title “背包”, THREE EMPTY FULL-WIDTH horizontal cards stacked in ONE column, then ONE bottom locked card. Match the master card widths, heights, gaps and shared horizontal row baselines. No two-column cells. Do not also squeeze a duplicate equipment column into the codex.\n\nThe codex has a clear selection area and a larger selected-item explanation area. Show EXACTLY THREE collected equipment choices with their familiar master-image identities:\n“淬毒利刃” — “已收集”\n“凝血毒剂” — “已收集”\n“灵魂香菇” — “已收集”\nSelect 淬毒利刃 visibly using the approved selected-component treatment. These are catalogue entries, not additional owned copies placed in the backpack. Do not invent extra entries, mystery items, a collection denominator, a completion percentage or an arbitrary total collection count.\n\nSELECTED BRONZE CATALOGUE ENTRY:\nLarge clear item illustration retaining the master's dagger identity, title “淬毒利刃”, quality “青铜”. Set the following Chinese effect text cleanly and exactly, in three readable groups:\n“充能后：下3次攻击造成15剧毒伤害。”\n“剧毒持续3回合 · 会心几率30%。”\n“每8次剧毒伤害，施加1层易伤。”\nThis is the BRONZE CATALOGUE VERSION. Its poison is 15 and vulnerability is 1. Do not borrow the equipped instance's 30 poison, 2 vulnerability, +20% maximum HP or enchantment badge. Do not show a fabricated charge amount or purchase price.\n\nProvide one clear secondary control “返回”. The page is exclusively an equipment collection and description view: no talent tree, character upgrades, crafting, recipe actions, equipment activation, purchase, sale, additional currency or commerce button. A subtle view of the existing game world may remain behind the codex, but it must not compete with the readable page. All text, controls and artwork belong inside the fully generated screen; no external annotation, layout labels, diagnostic boxes or explanatory footer.\n",
+    "images": [
+      "archive/ui-v09-approved/原始生成图/01_战斗_风暴UI.png",
+      "archive/ui-v09-approved/参考原图/PTF_原生中文TAB与图鉴_官方.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2e1b2f5157103dedcc767\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2e1b2f5157103dedcc767",
+      "raw": {
+        "id": "6ae2e1b2f5157103dedcc767",
+        "object_id": "6ae2e1b2f5157103dedcc767",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T14:03:30.933000+08:00",
+        "updateTime": "2026-10-29T14:03:30.967000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I089",
+  "name": "附魔-吞噬",
+  "status": "generated-normalized",
+  "source": "mothers/I089.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I089.png",
+  "motherSha256": "2743ccac013892c0dfe42e50ee4cc064fcc01e6d548138aeda88bd646a069d70",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I089.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2862,
+      "sha256": "71209d99052d9ba9af775b8a81c3ef75b91983b19bb240fbca4d18955e861dcf",
+      "pixelSha256": "7dde19d3e12435d6a680c1d16568937b64248209f6f730f68c995647cd0f0793",
+      "alphaBounds": [
+        8,
+        4,
+        119,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          32,
+          9,
+          1753,
+          877
+        ],
+        "fitSize": [
+          111,
+          56
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.06451612903225806
+      }
+    },
+    "256": {
+      "file": "pixels/256/I089.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 10311,
+      "sha256": "0cd188bb0ef21a1b2a756d2762e704fee1813f4b845d9f4f868740ed7ef06763",
+      "pixelSha256": "02681bd1921f328279dd53cfdbeb1037814d1a83f8bdc5b9cebc8afbdcbd7c70",
+      "alphaBounds": [
+        17,
+        8,
+        239,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          32,
+          9,
+          1753,
+          877
+        ],
+        "fitSize": [
+          222,
+          112
+        ],
+        "position": [
+          17,
+          8
+        ],
+        "scale": 0.12903225806451613
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "已目视核对吞噬齿口、四向能量核或三重回声环主体；完整且无文字。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-dbe0bae0-0cf9-45c4-a116-7e9d9cf1b364.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-dbe0bae0-0cf9-45c4-a116-7e9d9cf1b364"
+  }
+}

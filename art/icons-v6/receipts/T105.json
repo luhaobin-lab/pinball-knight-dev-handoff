@@ -1,0 +1,93 @@
+{
+  "id": "T105",
+  "name": "厄疾缠身",
+  "status": "generated-normalized",
+  "source": "mothers/T105.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T105.png",
+  "motherSha256": "bc581da6ae4b393a6d39a1c525992ef8fa306d3b3a53e2b167cf65e8e85d77be",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T105.png",
+      "width": 128,
+      "height": 128,
+      "colors": 63,
+      "bytes": 6304,
+      "sha256": "acd0d9187a438c9c69fa14449b9bedd2f8d6103c4b5f4c9e3e1998c970591e8b",
+      "pixelSha256": "7d55cd996d76eee8522fde7ad1c5d30e996c93d05e36d2238f31803680c7807e",
+      "alphaBounds": [
+        6,
+        4,
+        121,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          101,
+          54,
+          1221,
+          1208
+        ],
+        "fitSize": [
+          116,
+          120
+        ],
+        "position": [
+          6,
+          4
+        ],
+        "scale": 0.10398613518197573
+      }
+    },
+    "256": {
+      "file": "pixels/256/T105.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 23818,
+      "sha256": "614aa2343bca69013d35ac3daeca3cda39d66dca25ce7c2a5bafd434608f8246",
+      "pixelSha256": "33624832ea2ced644a13a6f484b3d4e7b558ae8db6c156310670eec50ad335df",
+      "alphaBounds": [
+        12,
+        8,
+        243,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          101,
+          54,
+          1221,
+          1208
+        ],
+        "fitSize": [
+          233,
+          240
+        ],
+        "position": [
+          11,
+          8
+        ],
+        "scale": 0.20797227036395147
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-04.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-04.png",
+    "pixelSha256": "33624832ea2ced644a13a6f484b3d4e7b558ae8db6c156310670eec50ad335df",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-64b7c970-e3b5-4618-9de0-38bd2b2c6c68.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-64b7c970-e3b5-4618-9de0-38bd2b2c6c68"
+  }
+}

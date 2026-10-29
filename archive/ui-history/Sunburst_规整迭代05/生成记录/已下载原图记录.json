@@ -1,0 +1,59 @@
+[
+  {
+    "file": "原始生成图/01_战斗_纵向卡槽.png",
+    "jobId": "6ae2ba5df5157103dedcc342",
+    "fileId": "6ae2bbd8f5157103dedcc3a6",
+    "model": "gpt-image-2.5-sunburst",
+    "dimensions": [
+      3200,
+      1440
+    ],
+    "bytes": 4350356,
+    "sha256": "818b2d3df8b570343e54eafb4fbf116d00536910abb2a124a32ffe79f98dd077",
+    "originalUnmodified": true,
+    "status": "visual_candidate"
+  },
+  {
+    "file": "原始生成图/04_营地_纵向卡槽.png",
+    "jobId": "6ae2bc3a7a23e72106dcba5b",
+    "fileId": "6ae2bc997a23e72106dcba84",
+    "model": "gpt-image-2.5-sunburst",
+    "dimensions": [
+      3200,
+      1440
+    ],
+    "bytes": 4732363,
+    "sha256": "1baa16835484727e190831ea73d228305174aa1a3f1757bc75430598cea6a187",
+    "originalUnmodified": true,
+    "status": "visual_candidate"
+  },
+  {
+    "file": "原始生成图/09_商店_纵向卡槽.png",
+    "jobId": "6ae2bc407a23e72106dcba5f",
+    "fileId": "6ae2bdc07a23e72106dcbabb",
+    "model": "gpt-image-2.5-sunburst",
+    "dimensions": [
+      3200,
+      1440
+    ],
+    "bytes": 3958515,
+    "sha256": "1fed542d11b1e0d821cad3e49fd1034d335726224c353b4e4146a47d70e25777",
+    "originalUnmodified": true,
+    "status": "shop_first_draft_pending_empty_button_removal"
+  },
+  {
+    "file": "原始生成图/09_商店_纵向卡槽_修正版.png",
+    "jobId": "6ae2be0bf5157103dedcc423",
+    "fileId": "6ae2bf83f5157103dedcc48d",
+    "model": "gpt-image-2.5-sunburst",
+    "dimensions": [
+      3200,
+      1440
+    ],
+    "bytes": 3947858,
+    "sha256": "f265fdbadc17b9ec68b3d5fc2b0455f33cec92f7731b540a799e68fbb54cb27d",
+    "originalUnmodified": true,
+    "status": "visual_candidate",
+    "correction": "removed unlabelled middle button frame using Sunburst"
+  }
+]

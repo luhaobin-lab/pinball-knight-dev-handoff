@@ -1,0 +1,95 @@
+{
+  "id": "I135",
+  "name": "贪婪手套",
+  "status": "generated-normalized",
+  "source": "mothers/I135.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I135.png",
+  "motherSha256": "16d24fc54d89dd868653eb29110fed7e849547661a1177b8600dc9907d6ccca7",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I135.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 3480,
+      "sha256": "23d3b9b0e16e487ab8cf0a5d513214a10997f4a9d5b6f2a2e6888a3a6478d082",
+      "pixelSha256": "b905d2d0155908c528f93810deeb5ee0eb02025e483ab920f4123b7d1632a960",
+      "alphaBounds": [
+        8,
+        4,
+        120,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          151,
+          54,
+          1664,
+          810
+        ],
+        "fitSize": [
+          112,
+          56
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.07407407407407407
+      }
+    },
+    "256": {
+      "file": "pixels/256/I135.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 12649,
+      "sha256": "8a8ac40c02195e66a62e0be3aff5a2547bbe04f12383baab8a007fb4a80e21c1",
+      "pixelSha256": "9114bc26cd9a240547a830e4e3c3c8d89b1d135ec416cf695b521955cd0af268",
+      "alphaBounds": [
+        16,
+        8,
+        240,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          151,
+          54,
+          1664,
+          810
+        ],
+        "fitSize": [
+          224,
+          112
+        ],
+        "position": [
+          16,
+          8
+        ],
+        "scale": 0.14814814814814814
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "攥金币手套、骨口幽息、铁箍魂珠主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-5b88c2fc-9067-4339-bf5a-267bb242986c.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-5b88c2fc-9067-4339-bf5a-267bb242986c"
+  }
+}

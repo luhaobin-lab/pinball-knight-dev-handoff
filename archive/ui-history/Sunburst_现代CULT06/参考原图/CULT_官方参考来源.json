@@ -1,0 +1,116 @@
+{
+  "retrieved_on": "2026-10-29",
+  "selection_scope": "The Last Faith与Blasphemous 2共4张第一方官方场景截图；用于现代暗黑CULT精细像素外观参考。",
+  "references": [
+    {
+      "game": "The Last Faith",
+      "app_id": "1274600",
+      "steam_screenshot_id": 14,
+      "file": "TheLastFaith_01_冷暗哥特场景_官方.jpg",
+      "absolute_path": "archive/ui-history/Sunburst_现代CULT06/参考原图/TheLastFaith_01_冷暗哥特场景_官方.jpg",
+      "source_page_url": "https://store.steampowered.com/app/1274600/",
+      "source_metadata_url": "https://store.steampowered.com/api/appdetails?appids=1274600&l=english",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1274600/ss_f607b2279406d22c5419c872b0ed4778bfde90fe.1920x1080.jpg?t=1769525842",
+      "source_type": "publisher_uploaded_official_steam_screenshot",
+      "original_unmodified": true,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 290168,
+      "sha256": "cf2562fa4c36c8c3eb7bc3cd6b9b3fd6e1ca38be4df4151e1cc60b6b7beddc91",
+      "visually_reviewed": true,
+      "contains_hud": false,
+      "image_class": "官方游戏场景截图，无HUD",
+      "specific_observations": [
+        "冷蓝灰石墙、拱窗和裂缝使用细密的像素簇表现，不靠统一噪点覆盖。",
+        "前景平台与中景角色较清晰，后方大拱门更暗，纵深通过明度与细节差别建立。",
+        "白色刃光和少量橙色火焰集中成为焦点，环境整体保持低饱和。"
+      ],
+      "intended_use": "母版优先参考：冷暗场景的材质尺度、局部高亮和空间层次。",
+      "limits": "本图不是概念画，也不是生成图；仅作为场景美术参考，不作为手机UI尺寸、菜单或交互的证据。"
+    },
+    {
+      "game": "The Last Faith",
+      "app_id": "1274600",
+      "steam_screenshot_id": 18,
+      "file": "TheLastFaith_02_暗红水面与石像_官方.jpg",
+      "absolute_path": "archive/ui-history/Sunburst_现代CULT06/参考原图/TheLastFaith_02_暗红水面与石像_官方.jpg",
+      "source_page_url": "https://store.steampowered.com/app/1274600/",
+      "source_metadata_url": "https://store.steampowered.com/api/appdetails?appids=1274600&l=english",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1274600/ss_f8bb2b24af1b08bda21f0a92add9959449e28b38.1920x1080.jpg?t=1769525842",
+      "source_type": "publisher_uploaded_official_steam_screenshot",
+      "original_unmodified": true,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 206104,
+      "sha256": "8ec39109b34a36471c5072e74f76e8b6fc6c059d0cb0fe79b9fb7c0313c54d0f",
+      "visually_reviewed": true,
+      "contains_hud": false,
+      "image_class": "官方游戏场景截图，无HUD",
+      "specific_observations": [
+        "蓝灰石像、倾斜建筑残片与暗红水面形成克制的冷暖对比。",
+        "重复拱柱向远处淡化，水面反光只在局部出现，避免整张画面泛亮。",
+        "仪式性与不安感来自石像、巨大空旷空间和低视角角色比例，而非到处堆哥特边框。"
+      ],
+      "intended_use": "营地/仪式环境参考：暗红低饱和区域、石像体积和场景留白；不照搬关卡构图。",
+      "limits": "本图不是概念画，也不是生成图；仅作为场景美术参考，不作为手机UI尺寸、菜单或交互的证据。"
+    },
+    {
+      "game": "Blasphemous 2",
+      "app_id": "2114740",
+      "steam_screenshot_id": 4,
+      "file": "Blasphemous2_01_精细拱廊与布幔_官方.jpg",
+      "absolute_path": "archive/ui-history/Sunburst_现代CULT06/参考原图/Blasphemous2_01_精细拱廊与布幔_官方.jpg",
+      "source_page_url": "https://store.steampowered.com/app/2114740/",
+      "source_metadata_url": "https://store.steampowered.com/api/appdetails?appids=2114740&l=english",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2114740/ss_08bf3eb43590566cc39cde50fff8305026b3d569.1920x1080.jpg?t=1790929406",
+      "source_type": "publisher_uploaded_official_steam_screenshot",
+      "original_unmodified": true,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 293387,
+      "sha256": "898c0876b87a8c9d6f3534a4c850d5ab900bcfc6297628c89ffb26ccf79094e6",
+      "visually_reviewed": true,
+      "contains_hud": false,
+      "image_class": "官方游戏场景截图，无HUD",
+      "specific_observations": [
+        "连续的柱头、拱边雕刻与布幔褶皱表现出不同材质，每一层细节有明确轮廓。",
+        "中央门洞的柔和暖亮面衬出人物，外围紫黑环境仍保留细节而非纯黑涂抹。",
+        "砖石、纹样与金属的高光面积受控，画面精细度来自像素造型而非怀旧滤镜。"
+      ],
+      "intended_use": "现代精细像素的材质层次与宗教空间参考；借形体密度，不复制专有花纹。",
+      "limits": "本图不是概念画，也不是生成图；仅作为场景美术参考，不作为手机UI尺寸、菜单或交互的证据。"
+    },
+    {
+      "game": "Blasphemous 2",
+      "app_id": "2114740",
+      "steam_screenshot_id": 9,
+      "file": "Blasphemous2_02_烛蜡与暗殿材质_官方.jpg",
+      "absolute_path": "archive/ui-history/Sunburst_现代CULT06/参考原图/Blasphemous2_02_烛蜡与暗殿材质_官方.jpg",
+      "source_page_url": "https://store.steampowered.com/app/2114740/",
+      "source_metadata_url": "https://store.steampowered.com/api/appdetails?appids=2114740&l=english",
+      "image_url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2114740/ss_2607e20850da95960677e8ac56ef9a72c1406166.1920x1080.jpg?t=1790929406",
+      "source_type": "publisher_uploaded_official_steam_screenshot",
+      "original_unmodified": true,
+      "width": 1920,
+      "height": 1080,
+      "bytes": 386402,
+      "sha256": "d6d5458cf1a7223de656c4778ef6a0b4cfe5cd29586a1d52b409b008df6a5cf1",
+      "visually_reviewed": true,
+      "contains_hud": false,
+      "image_class": "官方游戏场景截图，无HUD",
+      "specific_observations": [
+        "烛蜡沿石砖、台阶和柱边不规则堆积，材质变化有物理位置和明确原因。",
+        "近黑背景保留宽松暗面，暖黄只集中在烛光与少量武器，暗红动作色为次级焦点。",
+        "石台断面、柱头磨损与衣物采用不同像素轮廓，不是所有物体统一加亮边。"
+      ],
+      "intended_use": "暗黑CULT的具体材质参考：蜡、旧石、暗殿；避免将烛花和金边复制到每个UI格。",
+      "limits": "本图不是概念画，也不是生成图；仅作为场景美术参考，不作为手机UI尺寸、菜单或交互的证据。"
+    }
+  ],
+  "selection_notes": [
+    "本批选图均无HUD，未将场景图冒充清晰UI/物品详情截图。",
+    "可借鉴点为对实际图像的视觉分析，不冒充开发者公开设计原则。",
+    "保留原始1920×1080文件，无裁切、增锐、滤镜或AI重绘。",
+    "不把高像素文件尺寸本身当成高密度像素美术的证明，应观察角色/建筑/材质的具体像素簇与光照层次。"
+  ]
+}

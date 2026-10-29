@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/codex-studio/state.schema.json",
+  "title": "Codex studio ledger state v1",
+  "type": "object",
+  "required": ["version", "revision", "createdAt", "paused", "pauseReason", "maxWorkers", "controller", "controllerRecoveries", "tasks", "requests"],
+  "properties": {
+    "version": {"const": 1},
+    "revision": {"type": "integer", "minimum": 1},
+    "createdAt": {"type": "string", "format": "date-time"},
+    "paused": {"type": "boolean"},
+    "pauseReason": {"type": ["string", "null"]},
+    "maxWorkers": {"const": 3},
+    "controller": {"oneOf": [{"type": "null"}, {"$ref": "task.schema.json#/$defs/lease"}]},
+    "controllerRecoveries": {"type": "array", "items": {"type": "object"}},
+    "tasks": {"type": "object", "additionalProperties": {"$ref": "task.schema.json"}},
+    "requests": {"type": "object", "additionalProperties": {"type": "object", "required": ["fingerprint", "revision"], "properties": {"fingerprint": {"type": "string", "pattern": "^[a-f0-9]{64}$"}, "revision": {"type": "integer", "minimum": 1}}}},
+    "headHash": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}

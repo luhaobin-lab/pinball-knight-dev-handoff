@@ -1,0 +1,24 @@
+REDESIGN PAGE07 according to the user's corrected function. This is a MULTI-ITEM SCROLLABLE SAFE INVENTORY, not a single-item treasure-chest display. Output ONE whole finished3200x1440 screenshot. Image1 is our current safe screen and supplies exact header, sidebars, item identities and text. Image2 is our refined battle master and supplies the hand-inked flat artwork and matching backpack-slot construction. Rebuild ONLY the CENTRAL SAFE interface; preserve header and both outside sidebars.
+
+MAIN TASK: The player browses many stored item slots by VERTICAL SCROLLING, selects one item, and can withdraw it into the backpack. The safe should visually work like a long backpack column. This must be obvious in a static screenshot.
+
+REPLACE THE BIG CHEST:
+Remove the large open chest illustration, the oversized single mushroom card presentation, foreground chest lid/base, the red presentation carpet and the pile of decorative chest props taking up the middle. Replace them with ONE clearly bounded inventory panel filling the central area between the left equipment and right backpack, roughly sourcex780..2410, sourcey240..1350. It has a left storage-list area about60% width and a right selected-item-detail area about40%. Use the same deep plum-brown surfaces, muted timber/copper supports, restrained hand-ink double contour and simple broad value planes as the outer backpack. Keep the central title 保险箱 and subtitle 死亡后保留 visible above the panel.
+
+SCROLLABLE STORAGE LIST:
+Inside the left part, show ONE VERTICAL COLUMN of FULL-WIDTH HORIZONTAL item-slot cards, constructed exactly like the backpack's horizontal slots. Do NOT use a grid of square icons. Show FOUR fully visible rows plus the TOP PART OF A FIFTH row clipped by the lower edge of a fixed scroll viewport. That partial row clearly implies more content continues below. A dedicated VERTICAL SCROLL TRACK sits along the list area's right edge, with a short visible thumb near the TOP and a small downward indicator at the bottom. The content scrolls INSIDE this panel; the title, item detail, top resources and outer backpack remain fixed. The scroll track is separate from the card borders, not a charge bar.
+
+ONLY KNOWN STORED ITEM:
+First storage row contains the single familiar pale mushroom, with green value badge4, selected by green corner brackets. Use a compact item icon like an occupied backpack card, NOT an oversized central trophy illustration. The remaining visible storage rows are EMPTY, matching the dark empty backpack-slot surface. The partially visible fifth row is also empty. No padlocks on these central safe rows; this is a many-item storage list. Do not invent stored weapons, extra copies, filled inventories or named contents. Show no numeric capacity counter, limit, unlock fee or expansion price. A short unobtrusive instruction below the list may read 上下滑动查看. Do not claim a numeric infinite capacity.
+
+SELECTED ITEM DETAIL ON THE RIGHT OF THE CENTRAL PANEL:
+A simple quieter detail column, title 灵魂香菇. Exact effect:
+每搜寻过一次物品，增加4价值。
+最多不超过16。
+No additional mushroom illustration is needed in the detail column, so only the first storage slot owns the displayed item. Keep the detail text readable with solid cream medium-weight Chinese characters and generous line height. Place one primary action 取出到背包 directly beneath the details, within this right detail column. Place one secondary 返回营地 button at the bottom of the central panel aligned to the list side. Exactly one of each action. No buy, sell, discard, add, upgrade, sort or filter controls.
+
+OWNERSHIP AND GLOBAL LOCKS:
+The actual currently owned mushroom is IN THE SAFE. Left equipment row2 is EMPTY with no mushroom and no4badge. Left row1 remains the green-teal vial8/1, leftrow3 silver dagger30/2 plusONEpurplemark and EMPTY0/100bar; leftbottomrow locked. Right backpack is unchanged: three EMPTY full-width rows and bottom LOCKED. Do not put the selected mushroom into the backpack before the withdrawal. Top global tabs exactly 装备栏位 / 英雄属性 / 装备图鉴, FIRSTselected. Top resources remain生命180/180full,体力100/100full,腐化0/100EMPTY,金币4, with the existing large icon scale.
+
+QUALITY AND GEOMETRY:
+Keep both outside panels' positions, size, aligned rows, header and bottom corners identical to Image1. UI always draws IN FRONT OF background; no masonry covers any border. The central scrolling list is the main visual focus, not an environment prop. Background behind it is quiet blue stone only. Match this batch's dark flat hand-inked style, limited hard-edged shadow planes, subtle short material marks, no polished3D glass/wood bevel, no giant chest or trophy display. Render the complete page with exact Chinese labels, no annotations outside UI.

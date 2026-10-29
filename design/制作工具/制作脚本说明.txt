@@ -1,0 +1,48 @@
+设计制作工具说明
+日期：2026-10-29
+本目录只保留由最终设计快照继续工作的必要脚本。原始工程不受影响。
+
+1. 必要阅读
+先读 ../设计权威与进度.txt（本说明在制作工具内，上一级为design）。
+两个正式目录的JSON是内容权威。Excel黄色格推演或手工编辑不会自动回写JSON和游戏。
+
+2. 已有纯Python参考与核查
+从design目录执行（Python3；建议使用-X utf8保障中文跨平台读取）：
+  python3 -X utf8 GDD_基础规则/04_算法参考/systems_reference.py
+  python3 -X utf8 GDD_基础规则/04_算法参考/verify_package.py
+  python3 -X utf8 怪物100种设计/怪物算法参考.py
+  python3 -X utf8 怪物100种设计/核查设计.py
+这些脚本会重新写各自目录中的参考样例/离线检查结果。它们不是游戏运行器，不执行真实战斗。
+GDD参考仍是两层基线；怪物100的参考是普通/精英专项。不要把两者的成长公式重复叠加。
+
+3. 从最终JSON重建怪物阅读页
+  python3 -X utf8 制作工具/怪物100/build_reader.py
+输入来自design/怪物100种设计的最终JSON、规则和检查结果。
+输出更新该正式目录内阅读入口.html和先读我.txt；脚本复制后仅调整了相对数据目录。
+若已人工修改文案，应先比较差异，避免覆盖人工编辑。
+
+4. 重建Excel
+  node 制作工具/怪物100/build_workbook.mjs
+  node 制作工具/附魔50/build_workbook.mjs
+依赖@oai/artifact-tool（原制表使用Codex随附运行库），并非普通游戏npm ci自动包含的依赖。
+在有该运行库的Codex环境中，用load_workspace_dependencies查到运行时/库，再配置模块解析；没有运行库时可以直接使用已交付XLSX/CSV/JSON，不必重建Excel才能开发游戏。
+脚本会覆盖各自正式目录中的XLSX，并在自身目录生成xlsx_previews及检查记录。
+附魔脚本所需audit_low_mid.json、audit_high.json只作为表内来源/修订说明输入保留；最终效果仍来自正式JSON。
+这些制作脚本本次未运行，不能把携带脚本称为跨平台Excel再生成已验证。
+
+5. GDD阅读页
+正式快照里的04_算法参考/build_reader.py需要matplotlib。中文字体默认尝试macOS Hiragino，无该字体会退回默认字体，可能缺汉字；换电脑重生成前应配置可用中文字体。
+check_reader.mjs默认Playwright模块与Chrome路径来自原macOS环境。它是可选历史文档QA，不是游戏启动依赖；换电脑必须使用本机安装的Playwright/Chrome路径。
+现成交付的阅读入口.html和图表可直接离线打开，无需运行这些重建工具。
+build_config.py会覆盖配置；调过JSON后不要运行它回滚成初始配置，尤其不能借它覆盖100怪专项。
+
+6. 没有纳入的旧制作流程
+未复制old refine.py、revise_settings.py、整套assemble草案或before_setting_audit。
+原因：它们从历史输入重建，可能恢复已废弃的纯回响、提前兑现DOT等内容；当前交接应从最终JSON继续。
+无需复制node_modules、Inspect NDJSON、大量中间预览或__pycache__。
+
+7. 交接完整性检查
+  python3 -X utf8 制作工具/verify_delivery.py
+该脚本只读检查design交接清单、正式包原manifest、JSON数量、两份附魔一致和HTML本地链接；不写报告、不运行战斗、不宣称平衡通过。
+制作后若更新了正式内容，应重新生成交接清单并保留修订说明，不要把过期SHA报告继续称为当前验证。
+

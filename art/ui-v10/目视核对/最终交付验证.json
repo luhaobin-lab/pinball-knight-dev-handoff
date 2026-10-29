@@ -1,0 +1,23 @@
+{
+  "count": 12,
+  "originalCopyHashesMatch": true,
+  "zipCrcPassed": true,
+  "zipImageHashesMatch": true,
+  "archive": "art/ui-v10_12张原图与前后对照.zip",
+  "archiveBytes": 71534334,
+  "archiveSha256": "21f54f9da0af2967cc24c7accfd753677f2dcbf2eaa9fffb3189afb21d38978c",
+  "galleryCheck": {
+    "galleryImages": 12,
+    "allOriginalsLoaded": true,
+    "beforeAfterTogglePassed": true,
+    "beforeImagesWidth": 1600,
+    "phonePreview": {
+      "width": 800,
+      "height": 360
+    },
+    "navigationPassed": true,
+    "mobileGalleryOverflow": false,
+    "pageErrors": [],
+    "scope": "仅图库切换、图片加载及静态预览；不是游戏或手机实机交互验证"
+  }
+}

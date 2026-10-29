@@ -1,0 +1,22 @@
+{
+  "target": "Ordinarypre-UIgameentry fromofflineHTML;actualmouseinput",
+  "sourceInjection": false,
+  "scene": null,
+  "errors": [],
+  "checks": [
+    "ordinary title ready",
+    "prologue and tutorial acknowledged via mouse",
+    "firstsource room and hero rendered"
+  ],
+  "state": {
+    "screen": "room",
+    "room": "新手关01",
+    "hero": "幽冥骑士",
+    "sent": 3,
+    "rejected": 0,
+    "scene": null,
+    "error": null
+  },
+  "complete": true,
+  "cleanup": true
+}

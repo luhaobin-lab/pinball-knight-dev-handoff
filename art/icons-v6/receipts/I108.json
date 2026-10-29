@@ -1,0 +1,95 @@
+{
+  "id": "I108",
+  "name": "旧绷带",
+  "status": "generated-normalized",
+  "source": "mothers/I108.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I108.png",
+  "motherSha256": "b2047bf85966a0535503fe40e4180fd77f39a65bb5b16793c06cc5f96e3b9453",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I108.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2748,
+      "sha256": "35442b452e4d1b15ea9523eb7143a8d198bac32991bcf62d4264d91855c8f8b9",
+      "pixelSha256": "752393531fe971890bd26cca7892477dbd1d91e0faa4c14cb8f0d36f5287f0d9",
+      "alphaBounds": [
+        4,
+        8,
+        124,
+        56
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          106,
+          1741,
+          790
+        ],
+        "fitSize": [
+          120,
+          48
+        ],
+        "position": [
+          4,
+          8
+        ],
+        "scale": 0.0702576112412178
+      }
+    },
+    "256": {
+      "file": "pixels/256/I108.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9948,
+      "sha256": "3df1069291c70fc4884ae0c3ea5fa233537ed55bd0b553157f7d69cabfc4a013",
+      "pixelSha256": "48cd2493fec983b8b8415664ca5b4990e6941775c72700c7d37c1e7fe541a569",
+      "alphaBounds": [
+        8,
+        16,
+        248,
+        112
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          33,
+          106,
+          1741,
+          790
+        ],
+        "fitSize": [
+          240,
+          96
+        ],
+        "position": [
+          8,
+          16
+        ],
+        "scale": 0.1405152224824356
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "矿石精核或旧血斑绷带卷主体通过，完整无裁切。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-76257f14-9732-45f4-b1d6-0e4d84f46202.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-76257f14-9732-45f4-b1d6-0e4d84f46202"
+  }
+}

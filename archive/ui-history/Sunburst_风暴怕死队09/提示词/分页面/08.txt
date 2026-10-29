@@ -1,0 +1,19 @@
+PAGE 08 — 营地 · 地牢选择 / DUNGEON SELECTION
+
+Generate one COMPLETE dungeon-selection screen opened from the preparation camp, using the shared style and the approved 风暴怕死队 UI master. Preserve the new hanging paper PAGE TABS, enlarged top-right status icons, exact resource values and established component construction. “装备栏位” remains the selected global tab. The central title is “选择地牢”.
+
+FIXED SHARED COLUMNS:
+LEFT “战斗装备” keeps the normal three-item build in the original order and row positions: 凝血毒剂 in row 1 with damage 8 / recycle 1; 灵魂香菇 in row 2 with recycle 4 and no damage; 淬毒利刃 in row 3 with damage 30 / recycle 2 / one purple enchantment marker / EMPTY charge 0/100; the bottom card remains locked.
+RIGHT “背包” remains THREE EMPTY FULL-WIDTH horizontal cards stacked in ONE column and ONE bottom locked card. Both sides retain the same outer dimensions, title baseline, card widths, card heights and matching row edges as the master. No two-column empty grid and no duplicated equipment in the backpack.
+
+CENTRAL SELECTION TASK:
+Show EXACTLY THREE large, legible floor choices in one coherent sequence, with consistent card geometry and a clear selected state:
+“第1层” — “已通关 · 可重打”. Its treatment remains available and readable, not disabled; completion does not prevent another run.
+“第2层” — “已选择”. This is the sole current selection, distinguished by the approved warm selected outline/surface and the explicit state text.
+“第3层” — “未解锁”. Use the same component family with a clear lock and subdued treatment; do not imply it can currently be entered.
+
+Each floor may have a concise original dungeon doorway or depth illustration from our game's established world, subordinate to its number and state. Keep the illustration inside its choice card. Do not reproduce another game's distinctive scenic composition. These three floor states are a visual concept example, not a claim about an actual player save; do not add explanation text about that distinction inside the game screen.
+
+One prominent main action at the established bottom action area: “进入第2层”.
+One secondary control: “返回营地”.
+Only the second floor is selected. Do not add a separate enter button to every choice. Do not invent branching routes, node maps, star ratings, timers, entry fees, reward amounts, recommended power, boss labels, extra floors or an arbitrary total floor count. No price, skill-point cost or currency deduction is shown. The entire screen remains a cleanly readable generated game UI with the mother screen's hanging tabs, status icon scale and aligned full-width side cards.

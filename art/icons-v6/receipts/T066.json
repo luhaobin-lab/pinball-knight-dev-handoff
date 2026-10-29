@@ -1,0 +1,86 @@
+{
+  "id": "T066",
+  "name": "血铸壁垒",
+  "status": "generated-normalized",
+  "source": "mothers/T066.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T066.png",
+  "motherSha256": "6fff39fc268bca83179558bc1b655361fe923525531859eb294b6fd7f57c1e20",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T066.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 7041,
+      "sha256": "9f84e5b0e7d27b90c5cb1a3022fb98f7f796a2c20a8c9421ca544755abed83c5",
+      "pixelSha256": "0009b2e6c41c66e02135e0a6629493131e3d7c7fdb678814bbf63072b63982fe",
+      "alphaBounds": [
+        4,
+        4,
+        124,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          39,
+          34,
+          1232,
+          1214
+        ],
+        "fitSize": [
+          120,
+          119
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.10058675607711651
+      }
+    },
+    "256": {
+      "file": "pixels/256/T066.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 26320,
+      "sha256": "1efd036806042f094752f5840da4917ee02b753c3eb24cb1a1c9c1edf4e96282",
+      "pixelSha256": "7dd3d0a3b7f4df1d53d65edca3d0409d84ad02b62d32ea32e45addfc7a3d043b",
+      "alphaBounds": [
+        8,
+        9,
+        248,
+        246
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          39,
+          34,
+          1232,
+          1214
+        ],
+        "fitSize": [
+          240,
+          237
+        ],
+        "position": [
+          8,
+          9
+        ],
+        "scale": 0.20117351215423301
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-126d8547-33bd-44c6-ae60-078a28b2b7c0.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-126d8547-33bd-44c6-ae60-078a28b2b7c0"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Precise localized art edit. Image1 is the full CAMP screenshot to edit. Image2 is the approved BATTLE material reference. Keep every object, text, number, panel rectangle, row size, icon, scene pixel and floor-selection thumbnail from Image1. Change ONLY the surface drawing of the functional UI frames:\nRepaint BOTH sidebars' card rims and their outer panel rims to match Image2 exactly: flat matte blue-black iron with a broad quiet dark face, only a few dim gray top-left edge marks. REMOVE the continuous silver/white rails, shiny corner caps and stacked bright bevels inherited from the old camp. Both left and right matching cards must have equally subdued frame contrast. The mushroom's selected brass rim stays muted, never neon or white. Leave the art and numerical badges INSIDE the cards untouched. Repaint the THREE bottom buttons' metal rims in the same matte dark iron style; keep the primary button's dark red fill and all three labels and dimensions. Do not darken any text, icon, bar or number.\nPreserve exactly 装备栏位 / 英雄属性 / 装备图鉴, 出发前准备, 生命180/180,体力100/100,腐化0/100 EMPTY,金币4; card values8/1,4,30/2 and0/100; 第1层 已通关, 第2层 已选择, 第3层 未解锁; 保险箱, 天赋培养, 进入第2层.\nNo other changes, no new elements, no whole-image color grade. One finished 3200x1440 screenshot.",
+    "images": [
+      "archive/ui-history/Sunburst_去AI质感07/原始生成图/04_营地_重绘质感.png",
+      "archive/ui-history/Sunburst_去AI质感07/原始生成图/02_战斗_定向重绘.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2cb2cf5157103dedcc626\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2cb2cf5157103dedcc626",
+      "raw": {
+        "id": "6ae2cb2cf5157103dedcc626",
+        "object_id": "6ae2cb2cf5157103dedcc626",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T12:27:24.717000+08:00",
+        "updateTime": "2026-10-29T12:27:24.743000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

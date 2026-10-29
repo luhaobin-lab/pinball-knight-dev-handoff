@@ -1,0 +1,802 @@
+{
+  "created": "2026-10-28",
+  "model": "gpt-image-2.5-sunburst",
+  "battleInitial": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1e58d98d303820bdcb01a\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae1e58d98d303820bdcb01a",
+      "raw": {
+        "id": "6ae1e58d98d303820bdcb01a",
+        "object_id": "6ae1e58d98d303820bdcb01a",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-28T20:07:41.521000+08:00",
+        "updateTime": "2026-10-28T20:07:41.588000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  },
+  "battleCorrection": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1ee177a23e72106dcb5ae\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae1ee177a23e72106dcb5ae",
+      "raw": {
+        "id": "6ae1ee177a23e72106dcb5ae",
+        "object_id": "6ae1ee177a23e72106dcb5ae",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-28T20:44:07.195000+08:00",
+        "updateTime": "2026-10-28T20:44:07.216000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  },
+  "camp": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1ee1df5157103dedcbbd4\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae1ee1df5157103dedcbbd4",
+      "raw": {
+        "id": "6ae1ee1df5157103dedcbbd4",
+        "object_id": "6ae1ee1df5157103dedcbbd4",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-28T20:44:13.117000+08:00",
+        "updateTime": "2026-10-28T20:44:13.178000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  },
+  "requests": [
+    {
+      "name": "02_战斗_英雄属性与天赋",
+      "input": {
+        "prompt": "Use case: ui-mockup. ONE final-quality 3200x1440 (exact 20:9) full PC pixel-art game screen. A state in the SAME suite, not a poster or wireframe. Input 1 is the corrected battle master, input 2 is the camp master, input 3 is the user's Ricochet Abyss hero pane, input 4 is Darkest Dungeon's attribute panel. Image1 controls shared panel sizes, top status, Chinese font, dark iron edges, quiet brass corners, inventory scale and pixel-art identity. Image2 controls camp architecture only when this screen is in camp. Image3 controls attributes-left and talents-right information organization, not old buttons. Image4 supplies matte dark surfaces and hierarchy, not characters, stats, skills or functions.\nKeep top status “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Full red and cyan bars; EMPTY purple corruption track at zero. Preserve right “随身背包” panel at the same position and size, empty two-base-column inventory with scrollbar. Preserve global tabs at top left in order “装备栏位 / 英雄属性 / 装备图鉴”. These are the ONLY global tabs, no narrow tools strip or bottom icons. Tabs get underline plus subtle light fill when active. Equipment always spans both base cells as one full-width object and only stacks vertically; never put two equipped weapons side by side.\nUse a wide dark information pane expanding from below the tabs across the left + central region, stopping before the right carried bag. Keep the top strip and all three tabs visible and accessible, not hidden behind a popup. The pane is a connected continuation of the selected tab, not a separate window without context. Provide a small clear “关闭” at its upper right returning to equipment. Current background room can be dimly visible along edges. All main content fits inside the screen.\nPixel-art only, high-end shadow and light craft, clean bone-white Chinese typography, readable aligned numbers, regular frames, restrained oxidized iron and aged brass. No huge gothic arches on UI, glossy gold, glowing every slot, smooth painted characters, decorative text, jargon, measurement annotations, watermarks, forging, enchanting services, quests, currencies or invented tabs. Only one main action when applicable. This is a rendered design reference, not a claim of runtime implementation.\nSelect “英雄属性”. Pane title “英雄”. Left approximately 28% of the pane is an orderly attributes table, right 72% is current-character talents and detail. Both are on screen simultaneously; never use a subtab to hide one. The left table reads: “生命 180 / 180”, “体力 100 / 100”, “护甲 0”, “基础伤害 30”, “额外伤害 0%”, “基础生命上限 150”, “额外生命上限 20%”, “弹射距离 500”. Group survival and attack/movement with short headers and thin separators. Do not invent resistances, luck or additional percentages.\nRight title “角色天赋”. Six consistent pixel-icon nodes in a spacious 3-by-2 arrangement, named exactly “药剂师”, “博学”, “上肢力量”, “强韧”, “体质”, “敏捷”. Use small recognizable potion / book / arm / shield / heart / feather motifs, not huge illustrative cards. No invented prerequisite lines or branches: this concept has not defined a dependency graph. Beneath nodes, a selected-node detail area with concise effect copy. Node state is expressed by icon lock and words, not color alone.\nSCREEN STATE: battle read-only. Darken the actual battle room from Image1 behind the wide pane. All six talent nodes are shown as not yet learned in this explicit design example; do not assert an actual save contains these talents. Select locked “体质” with a thin highlight but keep its lock. Detail: “体质”, “尚未解锁”, “提升10%生命上限。” Bottom small note “战斗中仅可查看 · 返回营地培养天赋”. No upgrade button, no skill-point plus control, no unlock action and no spending price. The whole reason for the page is seeing character numbers on the left and talents on the right at the same time. Keep the three global tabs and right bag. Do not show equipment cards underneath the left stats table. Final screen is coherent and readable, not many separate floating dialogs.",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/全集01/参考图/R7_RicochetAbyss_英雄属性与天赋.png",
+          "archive/ui-history/批次01/参考图/R3_暗黑地牢_属性窗与信息层级.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "03_战斗_装备图鉴",
+      "input": {
+        "prompt": "Use case: ui-mockup. ONE final-quality 3200x1440 (exact 20:9) full PC pixel-art game screen. A state in the SAME suite, not a poster or wireframe. Input 1 is the corrected battle master, input 2 is the camp master, input 3 is the user's Ricochet Abyss hero pane, input 4 is Darkest Dungeon's attribute panel. Image1 controls shared panel sizes, top status, Chinese font, dark iron edges, quiet brass corners, inventory scale and pixel-art identity. Image2 controls camp architecture only when this screen is in camp. Image3 controls attributes-left and talents-right information organization, not old buttons. Image4 supplies matte dark surfaces and hierarchy, not characters, stats, skills or functions.\nKeep top status “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Full red and cyan bars; EMPTY purple corruption track at zero. Preserve right “随身背包” panel at the same position and size, empty two-base-column inventory with scrollbar. Preserve global tabs at top left in order “装备栏位 / 英雄属性 / 装备图鉴”. These are the ONLY global tabs, no narrow tools strip or bottom icons. Tabs get underline plus subtle light fill when active. Equipment always spans both base cells as one full-width object and only stacks vertically; never put two equipped weapons side by side.\nUse a wide dark information pane expanding from below the tabs across the left + central region, stopping before the right carried bag. Keep the top strip and all three tabs visible and accessible, not hidden behind a popup. The pane is a connected continuation of the selected tab, not a separate window without context. Provide a small clear “关闭” at its upper right returning to equipment. Current background room can be dimly visible along edges. All main content fits inside the screen.\nPixel-art only, high-end shadow and light craft, clean bone-white Chinese typography, readable aligned numbers, regular frames, restrained oxidized iron and aged brass. No huge gothic arches on UI, glossy gold, glowing every slot, smooth painted characters, decorative text, jargon, measurement annotations, watermarks, forging, enchanting services, quests, currencies or invented tabs. Only one main action when applicable. This is a rendered design reference, not a claim of runtime implementation.\nSelect ONLY “装备图鉴”. This page contains EQUIPMENT ONLY: no talents, skill tree, skill points or upgrade buttons. Title “装备图鉴”; small filter-label “已收集”. Do not display an invented total collection count. Within the wide pane, a left collection area shows exactly three known collected items “凝血毒剂”, “灵魂香菇”, “淬毒利刃”, with the same bottle/mushroom/silver sword icons as the battle master. In this catalogue the item tiles can form a tidy list; they are entries, not actual equipped slots. Mark each “已收集”. Select the sword with restrained brass outline. Plenty of calm dark space is preferable to dozens of invented equipment silhouettes.\nRight larger detail area: title “淬毒利刃”, subline “小型 · 武器 · 剧毒”, prominent enlarged sword icon, then readable description paragraphs: “完成充能时：下3次攻击将会在3回合内造成30剧毒伤害。” and “每当敌人受到8次剧毒伤害，获得2层易伤。” These values describe the observed quality-2 example; do not mix the bronze 15-damage version or invent critical chance. A small separate section “当前样本附加效果” reads “提升20%生命上限。” Do not draw any service for enchanting. No recipe, purchase, equip, sell, upgrade or collection-reward button. The only exit is the shared tabs or close. Background is the dim battle room; bag stays visible on far right. This is a read-only reference entry with visual focus on the selected item's icon and actual effects.",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/全集01/参考图/R7_RicochetAbyss_英雄属性与天赋.png",
+          "archive/ui-history/批次01/参考图/R3_暗黑地牢_属性窗与信息层级.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "05_营地_天赋解锁",
+      "input": {
+        "prompt": "Use case: ui-mockup. ONE final-quality 3200x1440 (exact 20:9) full PC pixel-art game screen. A state in the SAME suite, not a poster or wireframe. Input 1 is the corrected battle master, input 2 is the camp master, input 3 is the user's Ricochet Abyss hero pane, input 4 is Darkest Dungeon's attribute panel. Image1 controls shared panel sizes, top status, Chinese font, dark iron edges, quiet brass corners, inventory scale and pixel-art identity. Image2 controls camp architecture only when this screen is in camp. Image3 controls attributes-left and talents-right information organization, not old buttons. Image4 supplies matte dark surfaces and hierarchy, not characters, stats, skills or functions.\nKeep top status “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Full red and cyan bars; EMPTY purple corruption track at zero. Preserve right “随身背包” panel at the same position and size, empty two-base-column inventory with scrollbar. Preserve global tabs at top left in order “装备栏位 / 英雄属性 / 装备图鉴”. These are the ONLY global tabs, no narrow tools strip or bottom icons. Tabs get underline plus subtle light fill when active. Equipment always spans both base cells as one full-width object and only stacks vertically; never put two equipped weapons side by side.\nUse a wide dark information pane expanding from below the tabs across the left + central region, stopping before the right carried bag. Keep the top strip and all three tabs visible and accessible, not hidden behind a popup. The pane is a connected continuation of the selected tab, not a separate window without context. Provide a small clear “关闭” at its upper right returning to equipment. Current background room can be dimly visible along edges. All main content fits inside the screen.\nPixel-art only, high-end shadow and light craft, clean bone-white Chinese typography, readable aligned numbers, regular frames, restrained oxidized iron and aged brass. No huge gothic arches on UI, glossy gold, glowing every slot, smooth painted characters, decorative text, jargon, measurement annotations, watermarks, forging, enchanting services, quests, currencies or invented tabs. Only one main action when applicable. This is a rendered design reference, not a claim of runtime implementation.\nSelect “英雄属性”. Pane title “英雄”. Left approximately 28% of the pane is an orderly attributes table, right 72% is current-character talents and detail. Both are on screen simultaneously; never use a subtab to hide one. The left table reads: “生命 180 / 180”, “体力 100 / 100”, “护甲 0”, “基础伤害 30”, “额外伤害 0%”, “基础生命上限 150”, “额外生命上限 20%”, “弹射距离 500”. Group survival and attack/movement with short headers and thin separators. Do not invent resistances, luck or additional percentages.\nRight title “角色天赋”. Six consistent pixel-icon nodes in a spacious 3-by-2 arrangement, named exactly “药剂师”, “博学”, “上肢力量”, “强韧”, “体质”, “敏捷”. Use small recognizable potion / book / arm / shield / heart / feather motifs, not huge illustrative cards. No invented prerequisite lines or branches: this concept has not defined a dependency graph. Beneath nodes, a selected-node detail area with concise effect copy. Node state is expressed by icon lock and words, not color alone.\nSCREEN STATE: camp hero page opened through the “天赋培养” entrance; use the SAME hero pane layout as the battle hero screen, not a second unrelated talent page. The camp sanctuary from Image2 appears dimly around its edges. Select locked “体质”; six nodes are still locked in this illustrative pre-unlock state. Its detail reads “体质”, “尚未解锁”, “提升10%生命上限。”. Primary button “解锁天赋”; supporting short line “消耗技能点”. Display “可用技能点 2” as an explicit visual sample only. The numerical unlock price is undecided: omit an amount instead of writing 0 or inventing cost. Do not print development placeholders. No maximum rank or fabricated requirement. Lower note “解锁后可使用金币升级”. No successful unlock checkmark yet, no changed hero health, no talent XP, no random choice reward. Right bag stays visible. The primary interaction is selecting a real talent and understanding that skill points unlock it; exact spending amount will be supplied during implementation.",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/全集01/参考图/R7_RicochetAbyss_英雄属性与天赋.png",
+          "archive/ui-history/批次01/参考图/R3_暗黑地牢_属性窗与信息层级.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "06_营地_天赋升级",
+      "input": {
+        "prompt": "Use case: ui-mockup. ONE final-quality 3200x1440 (exact 20:9) full PC pixel-art game screen. A state in the SAME suite, not a poster or wireframe. Input 1 is the corrected battle master, input 2 is the camp master, input 3 is the user's Ricochet Abyss hero pane, input 4 is Darkest Dungeon's attribute panel. Image1 controls shared panel sizes, top status, Chinese font, dark iron edges, quiet brass corners, inventory scale and pixel-art identity. Image2 controls camp architecture only when this screen is in camp. Image3 controls attributes-left and talents-right information organization, not old buttons. Image4 supplies matte dark surfaces and hierarchy, not characters, stats, skills or functions.\nKeep top status “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Full red and cyan bars; EMPTY purple corruption track at zero. Preserve right “随身背包” panel at the same position and size, empty two-base-column inventory with scrollbar. Preserve global tabs at top left in order “装备栏位 / 英雄属性 / 装备图鉴”. These are the ONLY global tabs, no narrow tools strip or bottom icons. Tabs get underline plus subtle light fill when active. Equipment always spans both base cells as one full-width object and only stacks vertically; never put two equipped weapons side by side.\nUse a wide dark information pane expanding from below the tabs across the left + central region, stopping before the right carried bag. Keep the top strip and all three tabs visible and accessible, not hidden behind a popup. The pane is a connected continuation of the selected tab, not a separate window without context. Provide a small clear “关闭” at its upper right returning to equipment. Current background room can be dimly visible along edges. All main content fits inside the screen.\nPixel-art only, high-end shadow and light craft, clean bone-white Chinese typography, readable aligned numbers, regular frames, restrained oxidized iron and aged brass. No huge gothic arches on UI, glossy gold, glowing every slot, smooth painted characters, decorative text, jargon, measurement annotations, watermarks, forging, enchanting services, quests, currencies or invented tabs. Only one main action when applicable. This is a rendered design reference, not a claim of runtime implementation.\nSelect “英雄属性”. Pane title “英雄”. Left approximately 28% of the pane is an orderly attributes table, right 72% is current-character talents and detail. Both are on screen simultaneously; never use a subtab to hide one. The left table reads: “生命 180 / 180”, “体力 100 / 100”, “护甲 0”, “基础伤害 30”, “额外伤害 0%”, “基础生命上限 150”, “额外生命上限 20%”, “弹射距离 500”. Group survival and attack/movement with short headers and thin separators. Do not invent resistances, luck or additional percentages.\nRight title “角色天赋”. Six consistent pixel-icon nodes in a spacious 3-by-2 arrangement, named exactly “药剂师”, “博学”, “上肢力量”, “强韧”, “体质”, “敏捷”. Use small recognizable potion / book / arm / shield / heart / feather motifs, not huge illustrative cards. No invented prerequisite lines or branches: this concept has not defined a dependency graph. Beneath nodes, a selected-node detail area with concise effect copy. Node state is expressed by icon lock and words, not color alone.\nSCREEN STATE: camp hero page with one learned talent, an illustrative separate state. Select “博学” already unlocked at “等级 1”; other five nodes remain locked. Learned node uses a visible checkmark and modest bright icon; selected outline is separate from learned state. Use the SAME pane geometry, table and node positions as the hero screen. Camp sanctuary from Image2 is dim behind. Detail title “博学”, status “已解锁 · 等级 1”, exact current effect “获得的经验值提升12.5%。”. Primary button “升级天赋”; supporting text “消耗金币”. Keep top money4. Gold cost, next-level effect and maximum rank have not been defined, so omit numerical price and numerical preview; do not create a free upgrade, known affordability, specific growth curve or level cap. No extra skill-point spend button here, no refund/respec. This selected talent only changes XP gain, so keep visible health180 and other baseline attributes unchanged. Focus the page on already-owned talent and its gold upgrade action, visually distinct from the locked skill-point unlock state. No invented connecting prerequisite lines.",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/全集01/参考图/R7_RicochetAbyss_英雄属性与天赋.png",
+          "archive/ui-history/批次01/参考图/R3_暗黑地牢_属性窗与信息层级.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "07_营地_保险箱存取",
+      "input": {
+        "prompt": "Use case: ui-mockup. Produce ONE complete final-quality 3200x1440 image, exactly 20:9, showing a straight-on PC pixel-art dungeon game interface. This is a usable screen in one coherent suite, not a poster, diagram, device mockup, storyboard, or webpage. All visible copy is legible Chinese. The click contracts below define intended affordances; do not print production instructions.\n\nINPUT ROLES, strictly in order:\nImage 1, the generated battle master, controls panel footprints, status strip, tabs, fonts, icons, item scale, merged equipment slots, and the shared visual system.\nImage 2, the generated camp master, controls the actual architecture, existing characters, and shared preparation components. Preserve its small white-and-gold horned knight and recognizable room.\nImage 3, the Darkest Dungeon merchant reference, supplies atmosphere only: sober presence, coarse shadow shapes, object silhouettes, restrained framing. Do not import its characters, features, currencies, prices, or party. Retain any established merchant from Image 2.\n\nLOCKED GEOMETRY: copy Image1's exact panel boundaries, top strip and inventory module. The rendered master uses approximately one-fifth left equipment, three-fifths center, one-fifth right inventory. Shared components stay at identical coordinates. Central service windows never cover side panels or top status; preserve background room cues around them.\n\nTop exact copy: “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. The red and cyan bars are full; the purple corruption track is EMPTY at zero. These are pre-action sample values; do not predict transaction balances. Left top has EXACTLY THREE tabs: “装备栏位”, “英雄属性”, “装备图鉴”. Select “装备栏位” with underline and subtle fill. The shared hero page has attributes left and talents right; the codex contains equipment only. Neither page's contents appear here.\n\nLeft equipment interior width360, base square180. EVERY equipped object spans BOTH base cells as ONE continuous full-width card. NO SIDE-BY-SIDE ITEMS; NO CENTER DIVIDER THROUGH OCCUPIED CARDS. Reordering is vertical only. Baseline visible order: locked two-row block, empty row showing two base cells, then green-bottle “凝血毒剂”, green-mushroom “灵魂香菇”, silver-blade/gold-hilt “淬毒利刃”, each occupying one full-width row. Apply only explicitly stated screen-specific relocations. Right title “随身背包”, exactly two base cells across, six visible rows, identical module and item scale, thin scrollbar. Never restore the removed narrow auxiliary strip, little tool slots, book, helmet, back-arrow column, or old bottom information icons.\n\nSTYLE: crisp pixel art, charcoal surfaces, thin oxidized iron edges, rare aged-brass corners, bone-white Chinese text, aligned numbers. Type roles 24/28/32/40/48/64 pixels; maximum two container layers. Create premium atmosphere through lighting and contrast, not excessive ornament. No smooth painted characters, realistic replacement knight, glossy 3D panels, neon, repeated skulls, jeweled borders, fake text, or watermarks. Decoration must not resemble extra buttons. No crafting, enchanting, processing, multiplayer, daily quests, roulette, or new currency.\n\nSCREEN: CAMP SAFE STORAGE, one selected item ready to withdraw. The visible title is “保险箱”. Place a calm, substantial storage window within the central region, with a clearly labeled safe grid on its left and selected-item detail on its right. Let the existing camp architecture and actual knight remain visible at the window edges. This is secure storage in the camp, visually distinct from the right-side carried bag. The exact rule text “存入保险箱的物品，死亡后不会丢失” is prominent enough to read without becoming a giant banner. This safety rule is explicitly approved; do not weaken it into a speculative tooltip.\n\nFor this deliberate interface example, move the ONE owned green mushroom from its former left equipment row into the safe. Its previous left row becomes empty. The bottle and blade remain equipped in their original rows. The right carried bag is empty. Show the mushroom selected in one full-width safe card, with empty safe rows around it; never depict a duplicate mushroom as still equipped. This relocation demonstrates a prepared storage state, not an extra free item or a verified player save. Use the same 360-pixel two-base-cell merge for this card, centered icon, no dividing line through the item, and restrained selected outline. A modest scrollbar may imply additional storage; do not invent a capacity total or unlockable paid rows.\n\nSelected detail exact title: “灵魂香菇”. Use the current-item text exactly: “每搜寻过一次物品，增加 4 价值。最多不超过 16 。” Show only the familiar green mushroom icon and this concise effect; no price, charge meter, crafting recipe, rarity reward, or new resource.\n\nThe primary visible action is “取出到背包”, next to the selected safe item's detail. The secondary “存入保险箱” action is visibly inactive in this particular state because no carried item is selected. Small helpful text may say “选择背包物品后存入”. A clear “返回营地” control exits the service. Keep controls grouped with their objects instead of placing ambiguous arrows between containers.\n\nCLICK CONTRACT: selecting a safe item exposes its detail; withdrawal transfers that owned instance into available carried space and updates both locations. Selecting a carried item enables deposit; deposit moves it into the safe. Insufficient destination space leaves the source object unchanged. Closing returns to camp while preserving completed transfers. These are semantics for the visual design, not extra onscreen instructions. Do not draw an upgrade, repair, interest, fee, insurance purchase, death penalty, auto-sort, or sell control. The safe's death protection requires no invented payment.\n\nFINAL CHECK: clearly separate equipment, carried inventory, and service contents; preserve shared alignment and one strongest action. Show one pre-action state, never duplicated owned instances or conflicting balances. Omit unknown values. Do not print developer notes, evidence IDs, placeholder variables, or measurements. Preserve the fixed frame before atmosphere.\n",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/批次01/参考图/R2_暗黑地牢_商人与物品格.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "08_营地_地牢选择",
+      "input": {
+        "prompt": "Use case: ui-mockup. Produce ONE complete final-quality 3200x1440 image, exactly 20:9, showing a straight-on PC pixel-art dungeon game interface. This is a usable screen in one coherent suite, not a poster, diagram, device mockup, storyboard, or webpage. All visible copy is legible Chinese. The click contracts below define intended affordances; do not print production instructions.\n\nINPUT ROLES, strictly in order:\nImage 1, the generated battle master, controls panel footprints, status strip, tabs, fonts, icons, item scale, merged equipment slots, and the shared visual system.\nImage 2, the generated camp master, controls the actual architecture, existing characters, and shared preparation components. Preserve its small white-and-gold horned knight and recognizable room.\nImage 3, the Darkest Dungeon merchant reference, supplies atmosphere only: sober presence, coarse shadow shapes, object silhouettes, restrained framing. Do not import its characters, features, currencies, prices, or party. Retain any established merchant from Image 2.\n\nLOCKED GEOMETRY: copy Image1's exact panel boundaries, top strip and inventory module. The rendered master uses approximately one-fifth left equipment, three-fifths center, one-fifth right inventory. Shared components stay at identical coordinates. Central service windows never cover side panels or top status; preserve background room cues around them.\n\nTop exact copy: “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. The red and cyan bars are full; the purple corruption track is EMPTY at zero. These are pre-action sample values; do not predict transaction balances. Left top has EXACTLY THREE tabs: “装备栏位”, “英雄属性”, “装备图鉴”. Select “装备栏位” with underline and subtle fill. The shared hero page has attributes left and talents right; the codex contains equipment only. Neither page's contents appear here.\n\nLeft equipment interior width360, base square180. EVERY equipped object spans BOTH base cells as ONE continuous full-width card. NO SIDE-BY-SIDE ITEMS; NO CENTER DIVIDER THROUGH OCCUPIED CARDS. Reordering is vertical only. Baseline visible order: locked two-row block, empty row showing two base cells, then green-bottle “凝血毒剂”, green-mushroom “灵魂香菇”, silver-blade/gold-hilt “淬毒利刃”, each occupying one full-width row. Apply only explicitly stated screen-specific relocations. Right title “随身背包”, exactly two base cells across, six visible rows, identical module and item scale, thin scrollbar. Never restore the removed narrow auxiliary strip, little tool slots, book, helmet, back-arrow column, or old bottom information icons.\n\nSTYLE: crisp pixel art, charcoal surfaces, thin oxidized iron edges, rare aged-brass corners, bone-white Chinese text, aligned numbers. Type roles 24/28/32/40/48/64 pixels; maximum two container layers. Create premium atmosphere through lighting and contrast, not excessive ornament. No smooth painted characters, realistic replacement knight, glossy 3D panels, neon, repeated skulls, jeweled borders, fake text, or watermarks. Decoration must not resemble extra buttons. No crafting, enchanting, processing, multiplayer, daily quests, roulette, or new currency.\n\nSCREEN: CAMP DUNGEON-FLOOR SELECTION, before entering a floor. The central window is titled “选择地牢”. Preserve the camp from Image 2 behind it, with the actual knight and recognizable entrances. The left equipment order remains the unchanged three-item baseline; the right carried inventory is empty. Organize the central window into an uncluttered list of THREE floors and one spacious selected-floor summary. This is a linear floor selector, NOT a branching route map. Do not draw connecting paths, route nodes, forked choices, random encounters, a world map, or multiple destination branches.\n\nUse exactly this intentionally approved illustrative progression: “第1层” with a clear completion mark and “已通关”, plus the quiet label “可重打”; “第2层” is accessible and currently selected, indicated by an underline, fill, and “已选择”; “第3层” is visibly locked and labeled “未解锁”, with an ordinary functional padlock. Do not replace these states with the old runtime floor 4. Do not add floors 4 through 12, invented chapter names, invented biome names, fixed reward amounts, entry prices, star ratings, timers, or a claim that this sample is the user's saved progress.\n\nThe selected-floor summary clearly repeats “第2层”. Show a restrained in-world vignette based on the same actual dungeon materials and architecture already established by Image 1, without suggesting an additional new level layout. Keep informational text sparse: the exact phrase “选择地牢层后进入” is enough. The primary action is “进入第2层”. A lower-emphasis “返回营地” control sits nearby. The current selection should read more strongly than the previously completed floor; the locked floor remains legible but visually subordinate.\n\nCLICK CONTRACT: clicking floor 1 selects it for replay and would change the primary action to entering floor 1; clicking floor 2 selects it and shows the current depicted entry action. Clicking the locked floor does not enter it. No specific unlock cost or prerequisite has been established, so do not invent a condition line. Pressing the primary entry action transitions into the selected floor's real game flow. Returning to camp preserves equipment and inventory. Selection is a reversible browse state and must not look like an irreversible purchase confirmation.\n\nKeep the list and detail column visually connected through alignment, not ornate frames around every row. There is one active selected floor, one obvious entry action, and no oversized fantasy parchment scroll. Use sober dark stone and limited warm accents to unify the selection with the camp. The central scene should feel like choosing the next expedition while physically remaining in the same camp, not opening an unrelated mobile-game level menu.\n\nFINAL CHECK: clearly separate equipment, carried inventory, and service contents; preserve shared alignment and one strongest action. Show one pre-action state, never duplicated owned instances or conflicting balances. Omit unknown values. Do not print developer notes, evidence IDs, placeholder variables, or measurements. Preserve the fixed frame before atmosphere.\n",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/批次01/参考图/R2_暗黑地牢_商人与物品格.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "09_商店_购买详情",
+      "input": {
+        "prompt": "Use case: ui-mockup. Produce ONE complete final-quality 3200x1440 image, exactly 20:9, showing a straight-on PC pixel-art dungeon game interface. This is a usable screen in one coherent suite, not a poster, diagram, device mockup, storyboard, or webpage. All visible copy is legible Chinese. The click contracts below define intended affordances; do not print production instructions.\n\nINPUT ROLES, strictly in order:\nImage 1, the generated battle master, controls panel footprints, status strip, tabs, fonts, icons, item scale, merged equipment slots, and the shared visual system.\nImage 2, the generated camp master, controls the actual architecture, existing characters, and shared preparation components. Preserve its small white-and-gold horned knight and recognizable room.\nImage 3, the Darkest Dungeon merchant reference, supplies atmosphere only: sober presence, coarse shadow shapes, object silhouettes, restrained framing. Do not import its characters, features, currencies, prices, or party. Retain any established merchant from Image 2.\n\nLOCKED GEOMETRY: copy Image1's exact panel boundaries, top strip and inventory module. The rendered master uses approximately one-fifth left equipment, three-fifths center, one-fifth right inventory. Shared components stay at identical coordinates. Central service windows never cover side panels or top status; preserve background room cues around them.\n\nTop exact copy: “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. The red and cyan bars are full; the purple corruption track is EMPTY at zero. These are pre-action sample values; do not predict transaction balances. Left top has EXACTLY THREE tabs: “装备栏位”, “英雄属性”, “装备图鉴”. Select “装备栏位” with underline and subtle fill. The shared hero page has attributes left and talents right; the codex contains equipment only. Neither page's contents appear here.\n\nLeft equipment interior width360, base square180. EVERY equipped object spans BOTH base cells as ONE continuous full-width card. NO SIDE-BY-SIDE ITEMS; NO CENTER DIVIDER THROUGH OCCUPIED CARDS. Reordering is vertical only. Baseline visible order: locked two-row block, empty row showing two base cells, then green-bottle “凝血毒剂”, green-mushroom “灵魂香菇”, silver-blade/gold-hilt “淬毒利刃”, each occupying one full-width row. Apply only explicitly stated screen-specific relocations. Right title “随身背包”, exactly two base cells across, six visible rows, identical module and item scale, thin scrollbar. Never restore the removed narrow auxiliary strip, little tool slots, book, helmet, back-arrow column, or old bottom information icons.\n\nSTYLE: crisp pixel art, charcoal surfaces, thin oxidized iron edges, rare aged-brass corners, bone-white Chinese text, aligned numbers. Type roles 24/28/32/40/48/64 pixels; maximum two container layers. Create premium atmosphere through lighting and contrast, not excessive ornament. No smooth painted characters, realistic replacement knight, glossy 3D panels, neon, repeated skulls, jeweled borders, fake text, or watermarks. Decoration must not resemble extra buttons. No crafting, enchanting, processing, multiplayer, daily quests, roulette, or new currency.\n\nSCREEN: SHOP PURCHASE DETAIL, immediately before a purchase decision. The central service title is “商店”. Within the shop only, use two functional tabs “购买” and “出售”; select “购买”. These are local shop modes, not a fourth or fifth global left tab. Preserve the actual room and hero from Image 2, and retain any existing merchant there. Image 3 only informs shadow, mood, and item presentation. A central shop pane contains a modest stock area and a larger selected-item detail, with the right carried bag clearly separate. Do not fill the display with invented stock, potion packs, promotions, currencies, or category tabs.\n\nShow ONE selected merchant-owned “淬毒利刃” as the shop's illustrated stock example. It is a separate stock instance, not the blade already equipped on the left. Preserve the unchanged three equipped baseline items and an empty carried bag; the transaction has not happened. Match the blade icon's silhouette and scale to Image 1: silver blade, gold hilt, restrained pixel edges. Present this merchant example as the documented bronze catalogue variant, with the concise category copy “青铜 · 小型 · 武器 · 剧毒”. Do not borrow the currently equipped blade's higher-quality values or its maximum-life enchantment.\n\nSelected detail uses this exact verified catalogue text, cleanly wrapped into separate paragraphs: “完成充能时：下3次攻击将会在3回合内造成15剧毒伤害。” Then “会心几率30%。” Then “每当敌人受到8次剧毒伤害，获得1层易伤。” Give the object name and primary effect hierarchy over decoration. Do not add damage-per-second estimates, level requirements, recipe ingredients, comparison arrows with invented numbers, a stock count, or a discount.\n\nThe primary control is simply “购买”. Secondary controls are “出售” through the local mode tab and “离开商店”. Current money remains exactly “金币 4” in the shared top strip. The purchase price has NOT been verified: omit the numerical price row and every price badge completely. Never turn the recycle value 1, raw base value 4, effect value 15, or owned blade value 2 into a purchase price. Do not display “免费”, zero, “价格待核对”, invented affordability, red insufficient-funds text, or a success toast. This reference shows the decision layout before a quote is supplied, without asserting whether 4 coins can buy the item.\n\nCLICK CONTRACT: selecting stock shows its accurate detail; pressing purchase eventually checks the actual quote and available inventory space before any debit or transfer. A valid completed transaction adds the bought instance to the bag and updates stock and gold together. Failure preserves both money and items. This image depicts none of those future outcomes. Selecting the local sell tab opens the matching selling screen; leaving restores the underlying room. Avoid a second confirmation overlay, buy-all, refresh, bargain, forge, or buyback action.\n\nFINAL CHECK: clearly separate equipment, carried inventory, and service contents; preserve shared alignment and one strongest action. Show one pre-action state, never duplicated owned instances or conflicting balances. Omit unknown values. Do not print developer notes, evidence IDs, placeholder variables, or measurements. Preserve the fixed frame before atmosphere.\n",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/批次01/参考图/R2_暗黑地牢_商人与物品格.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "10_商店_出售详情",
+      "input": {
+        "prompt": "Use case: ui-mockup. Produce ONE complete final-quality 3200x1440 image, exactly 20:9, showing a straight-on PC pixel-art dungeon game interface. This is a usable screen in one coherent suite, not a poster, diagram, device mockup, storyboard, or webpage. All visible copy is legible Chinese. The click contracts below define intended affordances; do not print production instructions.\n\nINPUT ROLES, strictly in order:\nImage 1, the generated battle master, controls panel footprints, status strip, tabs, fonts, icons, item scale, merged equipment slots, and the shared visual system.\nImage 2, the generated camp master, controls the actual architecture, existing characters, and shared preparation components. Preserve its small white-and-gold horned knight and recognizable room.\nImage 3, the Darkest Dungeon merchant reference, supplies atmosphere only: sober presence, coarse shadow shapes, object silhouettes, restrained framing. Do not import its characters, features, currencies, prices, or party. Retain any established merchant from Image 2.\n\nLOCKED GEOMETRY: copy Image1's exact panel boundaries, top strip and inventory module. The rendered master uses approximately one-fifth left equipment, three-fifths center, one-fifth right inventory. Shared components stay at identical coordinates. Central service windows never cover side panels or top status; preserve background room cues around them.\n\nTop exact copy: “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. The red and cyan bars are full; the purple corruption track is EMPTY at zero. These are pre-action sample values; do not predict transaction balances. Left top has EXACTLY THREE tabs: “装备栏位”, “英雄属性”, “装备图鉴”. Select “装备栏位” with underline and subtle fill. The shared hero page has attributes left and talents right; the codex contains equipment only. Neither page's contents appear here.\n\nLeft equipment interior width360, base square180. EVERY equipped object spans BOTH base cells as ONE continuous full-width card. NO SIDE-BY-SIDE ITEMS; NO CENTER DIVIDER THROUGH OCCUPIED CARDS. Reordering is vertical only. Baseline visible order: locked two-row block, empty row showing two base cells, then green-bottle “凝血毒剂”, green-mushroom “灵魂香菇”, silver-blade/gold-hilt “淬毒利刃”, each occupying one full-width row. Apply only explicitly stated screen-specific relocations. Right title “随身背包”, exactly two base cells across, six visible rows, identical module and item scale, thin scrollbar. Never restore the removed narrow auxiliary strip, little tool slots, book, helmet, back-arrow column, or old bottom information icons.\n\nSTYLE: crisp pixel art, charcoal surfaces, thin oxidized iron edges, rare aged-brass corners, bone-white Chinese text, aligned numbers. Type roles 24/28/32/40/48/64 pixels; maximum two container layers. Create premium atmosphere through lighting and contrast, not excessive ornament. No smooth painted characters, realistic replacement knight, glossy 3D panels, neon, repeated skulls, jeweled borders, fake text, or watermarks. Decoration must not resemble extra buttons. No crafting, enchanting, processing, multiplayer, daily quests, roulette, or new currency.\n\nSCREEN: SHOP SALE DETAIL, immediately before selling one owned carried item. The central service title is “商店”, using the identical merchant pane and spacing established for the purchase screen. The only local shop tabs are “购买” and “出售”; select “出售”. Preserve the actual room, knight, and any established merchant from Image 2. Image 3 is mood only. Do not draw a new cast of traders or a copied Darkest Dungeon portrait. The visible emphasis is an owned object, its true effect, and the consequence of selling it.\n\nFor this deliberate preparation-state example, the ONE green bottle “凝血毒剂” has already been moved out of its left equipped row and into the FIRST ROW of the right carried bag. Its former left slot is visibly empty. “灵魂香菇” and “淬毒利刃” remain equipped in their existing rows. The carried bottle spans both base cells as one continuous 360-pixel-wide card, with the same familiar green icon and a clear selected outline. Never duplicate this owned bottle as still equipped or as merchant stock. This preparation transfer changes no base health benefit, so the shared top status remains the approved pre-action sample.\n\nThe central detail name is “凝血毒剂”, with short category text “小型 · 工具 · 流血”. Use the verified current-item description exactly: “相邻物品造成伤害时，将会额外在3回合内造成 8 流血伤害。” Follow with “相邻物品被认为是流血物品。” Keep the numeral 8 within effect prose; do not turn it into a stack count, price, or damage badge elsewhere. This item has no visible charge gauge in the verified sample, so do not draw one. No recipe, new resource, random enchantment, or fabricated rarity progression is needed.\n\nThe primary action is “出售”. A concise consequence line says “出售后，该物品将移出随身背包”. Keep this selected-object action separate from the left equipment area so the viewer understands which object is being sold. “离开商店” is secondary. The top still reads “金币 4”; no completed transaction is shown. The NEW shop sale quote is not verified. Omit the sale amount and expected resulting balance entirely. The old owned recycle value 1 is evidence for legacy dismantling, not authorization to claim the new sale pays 1 coin. Do not draw a zero price, free disposal, “价格待核对”, bonus, multiplier, or invented sell-all return.\n\nCLICK CONTRACT: clicking a carried item selects that owned instance; selling checks the actual sale rules, removes the selected object, and grants the actual quoted proceeds atomically. Closing or switching to purchase changes no inventory. Do not imply that clicking the object itself already sells it. Do not offer sell-all, automatic sale, auto-dismantle, buyback, or sorting through decorative icons. Use a single clear action and restrained danger/consequence treatment, without a large irreversible-warning modal on top of the detail screen. The entire screenshot represents the state before the sale.\n\nFINAL CHECK: clearly separate equipment, carried inventory, and service contents; preserve shared alignment and one strongest action. Show one pre-action state, never duplicated owned instances or conflicting balances. Omit unknown values. Do not print developer notes, evidence IDs, placeholder variables, or measurements. Preserve the fixed frame before atmosphere.\n",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/批次01/参考图/R2_暗黑地牢_商人与物品格.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "11_战利品_宝箱领取",
+      "input": {
+        "prompt": "Use case: ui-mockup. Produce ONE complete final-quality 3200x1440 image, exactly 20:9, showing a straight-on PC pixel-art dungeon game interface. This is a usable screen in one coherent suite, not a poster, diagram, device mockup, storyboard, or webpage. All visible copy is legible Chinese. The click contracts below define intended affordances; do not print production instructions.\n\nINPUT ROLES, strictly in order:\nImage 1, the generated battle master, controls panel footprints, status strip, tabs, fonts, icons, item scale, merged equipment slots, and the shared visual system.\nImage 2, the generated camp master, controls the actual architecture, existing characters, and shared preparation components. Preserve its small white-and-gold horned knight and recognizable room.\nImage 3, the Darkest Dungeon merchant reference, supplies atmosphere only: sober presence, coarse shadow shapes, object silhouettes, restrained framing. Do not import its characters, features, currencies, prices, or party. Retain any established merchant from Image 2.\n\nLOCKED GEOMETRY: copy Image1's exact panel boundaries, top strip and inventory module. The rendered master uses approximately one-fifth left equipment, three-fifths center, one-fifth right inventory. Shared components stay at identical coordinates. Central service windows never cover side panels or top status; preserve background room cues around them.\n\nTop exact copy: “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. The red and cyan bars are full; the purple corruption track is EMPTY at zero. These are pre-action sample values; do not predict transaction balances. Left top has EXACTLY THREE tabs: “装备栏位”, “英雄属性”, “装备图鉴”. Select “装备栏位” with underline and subtle fill. The shared hero page has attributes left and talents right; the codex contains equipment only. Neither page's contents appear here.\n\nLeft equipment interior width360, base square180. EVERY equipped object spans BOTH base cells as ONE continuous full-width card. NO SIDE-BY-SIDE ITEMS; NO CENTER DIVIDER THROUGH OCCUPIED CARDS. Reordering is vertical only. Baseline visible order: locked two-row block, empty row showing two base cells, then green-bottle “凝血毒剂”, green-mushroom “灵魂香菇”, silver-blade/gold-hilt “淬毒利刃”, each occupying one full-width row. Apply only explicitly stated screen-specific relocations. Right title “随身背包”, exactly two base cells across, six visible rows, identical module and item scale, thin scrollbar. Never restore the removed narrow auxiliary strip, little tool slots, book, helmet, back-arrow column, or old bottom information icons.\n\nSTYLE: crisp pixel art, charcoal surfaces, thin oxidized iron edges, rare aged-brass corners, bone-white Chinese text, aligned numbers. Type roles 24/28/32/40/48/64 pixels; maximum two container layers. Create premium atmosphere through lighting and contrast, not excessive ornament. No smooth painted characters, realistic replacement knight, glossy 3D panels, neon, repeated skulls, jeweled borders, fake text, or watermarks. Decoration must not resemble extra buttons. No crafting, enchanting, processing, multiplayer, daily quests, roulette, or new currency.\n\nSCREEN: OPEN CHEST / LOOT CLAIM, after the room's battle has ended and before the reward has been taken. The central window title is “战利品”. Use the actual dungeon room geometry and actual knight from Image 1 behind a gentle dimming layer; retain its stone shapes, teal corruption, purple obstacles, and candle positions. Remove live enemies, active attacks, and aiming trajectory for this completed-room visual state. Do not replace the room with a new fantasy hall. If the room reference has no visible physical chest, express the open chest through a small panel emblem rather than inventing a large blocking prop or new walkable geometry.\n\nKeep both side panels fully visible and readable. Left equipment stays at the unchanged three-item baseline, and the right carried bag remains empty in this pre-claim state. In the central service window, separate a compact “待领取” area from the selected-object description. Show ONE illustrated reward card, “灵魂香菇”, using the known green mushroom icon and the documented bronze catalogue variant. It is a new reward example, distinct from the higher-quality mushroom already equipped. A single full-width card spans two underlying base cells, with no center seam. Do not invent additional reward cards, random rarity banners, gold rewards, experience values, drop probabilities, or container capacity counts merely to fill space.\n\nThe selected detail title is “灵魂香菇”. Use category copy “青铜 · 小型 · 工具” and this exact verified catalogue effect: “每搜寻过一次物品，增加2价值。最多不超过8。” This is the bronze reward variant, so do not copy the equipped current-instance effect of 4 and 16. Do not present the 2 or 8 as a purchase price, reward currency, quantity, or charge amount. Keep a restrained selection frame, ample text breathing room, and ordinary clear icon scale. The reward object is the focus, not a giant explosion of gold light.\n\nThe primary action is “领取到背包”. A lower-emphasis “关闭” control exits the open loot window. A subtle empty destination highlight on the first carried row may preview where this single reward would go, but it must not already contain the mushroom, because the claim has not happened. Never render a ghost object that looks like an extra owned copy. Current gold remains exactly 4 and all top status values stay unchanged. This sample shows no fee or currency reward.\n\nCLICK CONTRACT: selecting the pending reward shows its detail. Claiming transfers that reward instance into legal carried space and removes it from pending rewards. If space is insufficient, nothing disappears and no automatic dismantling occurs; the player must be able to resolve storage first. Closing follows the game's approved remaining-loot behavior, which is not defined by this mockup, so do not print a fabricated discard penalty or promise indefinite persistence. Do not add reroll, paid refresh, dismantle, merge, equip-all, next-floor, or chest-key purchase buttons. One pending reward and one clear claim action are sufficient. Keep the background quiet enough for the claim task while preserving this game's actual spatial identity.\n\nFINAL CHECK: clearly separate equipment, carried inventory, and service contents; preserve shared alignment and one strongest action. Show one pre-action state, never duplicated owned instances or conflicting balances. Omit unknown values. Do not print developer notes, evidence IDs, placeholder variables, or measurements. Preserve the fixed frame before atmosphere.\n",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png",
+          "archive/ui-history/全集01/渲染图/04_营地_冒险准备.png",
+          "archive/ui-history/批次01/参考图/R2_暗黑地牢_商人与物品格.jpg"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    },
+    {
+      "name": "12_战斗_装备详情",
+      "input": {
+        "prompt": "Use case: ui-mockup. Produce ONE finished 3200x1440 image, exactly 20:9, showing our pixel-art dungeon game's battle HUD after selecting an equipped item. Straight-on playable-screen composition, not a poster, diagram, webpage, or inventory redesign. All visible text is clear Chinese.\n\nINPUT: Image 1 is the battle master and the authority for the complete room, characters, panel footprints, tabs, fonts, item icons, materials, and lighting. Preserve that screen. Add only the blade's selected state and one compact, fixed item-detail window. Keep almost all of the battlefield visible. Do not enlarge the detail into a full-screen inventory page.\n\nPRESERVE THE SHARED FRAME: retain the top status strip, left equipment pane, and right carried inventory. Top copy remains “幽冥骑士”, “生命 180 / 180”, “体力 100 / 100”, “腐化 0 / 100”, “金币 4”. Life and stamina are full; the zero-corruption track is empty. Keep exactly three left tabs: “装备栏位”, “英雄属性”, “装备图鉴”. “装备栏位” remains selected with subtle fill and an underline. Do not open the hero page or codex.\n\nKeep the left equipment order: locked two-row block, empty row with two underlying cells, “凝血毒剂”, “灵魂香菇”, “淬毒利刃”. Each equipped item occupies ONE uninterrupted full-width rectangle spanning both base cells; never draw a vertical divider through an occupied item. Preserve the empty two-column “随身背包” and its scrollbar. Do not restore the deleted narrow tool strip, book, helmet, back-arrow column, or old information icons.\n\nSELECTED STATE: highlight only the existing “淬毒利刃” row using a thin aged-brass border and restrained corner marks. Retain its silver blade and gold hilt. No glowing halo, drag ghost, arrows, or second owned blade. The matching icon inside the detail is another view of this same equipped instance.\n\nDETAIL WINDOW: place one compact opaque charcoal window in the upper-central gameplay region, horizontally centered and fixed rather than following the cursor. Aim for roughly 800x460 pixels around x1200, y176, adjusting minimally to avoid the knight and all three red-hooded enemies. Leave both sidebars, the status strip, and the great majority of the room unobscured. No full-screen darkening. Use one frame, generous text padding, and a small close “×” at its upper-right corner.\n\nDisplay the exact title “淬毒利刃”, subtitle “品质 2 · 小型”, and state “已装备”. Show “充能 0 / 100” beside an empty charge track. Below, use these exact current-instance descriptions as separate, comfortably wrapped paragraphs:\n“下 3 次攻击将会在3回合内造成 30 剧毒伤害。”\n“每当敌人受到 8 次剧毒伤害，获得 2 层易伤。”\n“提升 20% 生命上限。”\n\nThese are the real quality-2 battle-instance values. Do not import the bronze catalogue variant's 15 damage or 1 vulnerability, or add its critical-chance and bounce-charge numbers. The life bonus is an existing effect, not permission to add an enchanting service. Do not invent rarity names, recipes, prices, selling values, or comparison statistics.\n\nThis is inspection during combat. Footer: “战斗中仅可查看”. No equip, unequip, move, sell, purchase, upgrade, forge, or enchant button. Closing returns to the unchanged battle view without moving an item or launching the hero.\n\nMatch Image 1's crisp pixel edges, matte near-black surfaces, thin oxidized-metal frames, bone-white Chinese font, and restrained brass. Keep text roles consistent and effects legible. No excessive filigree, realistic characters, new enemies, extra currencies, production notes, watermarks, or fabricated interface features.\n\n",
+        "images": [
+          "archive/ui-history/全集01/渲染图/01_战斗_装备栏位.png"
+        ],
+        "modelVersion": "gpt-image-2.5-sunburst",
+        "size": "3200x1440",
+        "n": 1,
+        "quality": "high",
+        "action": "modal"
+      }
+    }
+  ],
+  "submissions": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "02_战斗_英雄属性与天赋",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd7a98d303820bdcb130\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd7a98d303820bdcb130",
+            "raw": {
+              "id": "6ae1fd7a98d303820bdcb130",
+              "object_id": "6ae1fd7a98d303820bdcb130",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:49:46.297000+08:00",
+              "updateTime": "2026-10-28T21:49:46.355000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "03_战斗_装备图鉴",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd8487ada5af0ddcab51\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd8487ada5af0ddcab51",
+            "raw": {
+              "id": "6ae1fd8487ada5af0ddcab51",
+              "object_id": "6ae1fd8487ada5af0ddcab51",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:49:56.573000+08:00",
+              "updateTime": "2026-10-28T21:49:56.599000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "05_营地_天赋解锁",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd7e98d303820bdcb132\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd7e98d303820bdcb132",
+            "raw": {
+              "id": "6ae1fd7e98d303820bdcb132",
+              "object_id": "6ae1fd7e98d303820bdcb132",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:49:50.903000+08:00",
+              "updateTime": "2026-10-28T21:49:50.925000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "06_营地_天赋升级",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd9287ada5af0ddcab5a\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd9287ada5af0ddcab5a",
+            "raw": {
+              "id": "6ae1fd9287ada5af0ddcab5a",
+              "object_id": "6ae1fd9287ada5af0ddcab5a",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:50:10.153000+08:00",
+              "updateTime": "2026-10-28T21:50:10.169000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "07_营地_保险箱存取",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd8887ada5af0ddcab54\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd8887ada5af0ddcab54",
+            "raw": {
+              "id": "6ae1fd8887ada5af0ddcab54",
+              "object_id": "6ae1fd8887ada5af0ddcab54",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:50:00.531000+08:00",
+              "updateTime": "2026-10-28T21:50:00.582000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "08_营地_地牢选择",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd8c87ada5af0ddcab58\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd8c87ada5af0ddcab58",
+            "raw": {
+              "id": "6ae1fd8c87ada5af0ddcab58",
+              "object_id": "6ae1fd8c87ada5af0ddcab58",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:50:04.765000+08:00",
+              "updateTime": "2026-10-28T21:50:04.796000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "09_商店_购买详情",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd9b87ada5af0ddcab5e\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd9b87ada5af0ddcab5e",
+            "raw": {
+              "id": "6ae1fd9b87ada5af0ddcab5e",
+              "object_id": "6ae1fd9b87ada5af0ddcab5e",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:50:19.342000+08:00",
+              "updateTime": "2026-10-28T21:50:19.363000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "10_商店_出售详情",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd9787ada5af0ddcab5c\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd9787ada5af0ddcab5c",
+            "raw": {
+              "id": "6ae1fd9787ada5af0ddcab5c",
+              "object_id": "6ae1fd9787ada5af0ddcab5c",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:50:15.029000+08:00",
+              "updateTime": "2026-10-28T21:50:15.054000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "11_战利品_宝箱领取",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fd9f87ada5af0ddcab60\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fd9f87ada5af0ddcab60",
+            "raw": {
+              "id": "6ae1fd9f87ada5af0ddcab60",
+              "object_id": "6ae1fd9f87ada5af0ddcab60",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:50:23.963000+08:00",
+              "updateTime": "2026-10-28T21:50:23.987000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "name": "12_战斗_装备详情",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae1fda7f5157103dedcbdbb\") 统一轮询任务结果。"
+            }
+          ],
+          "structuredContent": {
+            "capabilityId": "image.gpt",
+            "execution": "message.create",
+            "jobId": "6ae1fda7f5157103dedcbdbb",
+            "raw": {
+              "id": "6ae1fda7f5157103dedcbdbb",
+              "object_id": "6ae1fda7f5157103dedcbdbb",
+              "title": "生成图片",
+              "content": {
+                "status": "pending",
+                "error": null,
+                "extra": null,
+                "buttons": null,
+                "favorites": [],
+                "progress": null,
+                "final_prompt": null,
+                "images": [],
+                "image_names": [],
+                "layer_decomposition": null,
+                "videos": [],
+                "audios": [],
+                "model_files": null
+              },
+              "role": "cli",
+              "createTime": "2026-10-28T21:50:31.381000+08:00",
+              "updateTime": "2026-10-28T21:50:31.407000+08:00",
+              "isFavorite": false,
+              "modelType": "GPT",
+              "messageType": "image",
+              "action": "modal",
+              "modelFormat": {
+                "version": "gpt-image-2.5-sunburst"
+              },
+              "spendTimeSeconds": null
+            }
+          }
+        }
+      }
+    }
+  ]
+}

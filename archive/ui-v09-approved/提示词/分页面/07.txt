@@ -1,0 +1,20 @@
+PAGE 07 — 营地 · 保险箱存取 / CAMP SAFE STORAGE
+
+Generate one COMPLETE safe-storage screen using the shared style and approved 风暴怕死队 UI master. Preserve the hanging paper PAGE TABS and large status icons, their positions, all top resource values, the left and right panel bounds, titles and card baselines. “装备栏位” remains the selected global tab. The central page title is “保险箱”; show the concise protection text “死亡后保留”.
+
+EXACT OWNERSHIP STATE — ONE MUSHROOM IN THE SAFE:
+The sole current 灵魂香菇 has ALREADY BEEN DEPOSITED in the safe. Show this state consistently across the entire screen:
+LEFT “战斗装备”: row 1 contains 凝血毒剂 with damage 8 and recycle 1; row 2 is EMPTY and has no mushroom and no value-4 badge; row 3 contains 淬毒利刃 with damage 30, recycle 2, one purple enchantment marker and EMPTY charge 0/100; row 4 is the existing locked card. Do not slide the dagger upward into the emptied middle row.
+RIGHT “背包”: THREE EMPTY FULL-WIDTH horizontal cards in ONE column, plus the existing bottom locked card. No carried mushroom or other object.
+CENTRAL SAFE: exactly ONE stored-item card containing the selected 灵魂香菇, using the same mushroom identity and full-width card language as the master. Give this stored card the recycle/value badge 4 and no damage badge. The selected item is held by the safe, not the equipment panel and not the backpack. Never depict another owned mushroom copy, a drag ghost or a second reward card elsewhere. Use text-only selected details beside or below this one card to keep the single-copy state unambiguous.
+
+The central safe is visibly distinct from the carried backpack through its “保险箱” heading, protection text and position within the camp chest interface. It may show a restrained camp-chest backdrop within the existing central content area. Do not turn the safe into another two-column backpack or invent its total capacity, expansion state, extra locks or additional stored possessions.
+
+SELECTED CURRENT-INSTANCE TEXT:
+“灵魂香菇”
+“每搜寻过一次物品，增加4价值。最多不超过16。”
+Use the CURRENT INSTANCE values 4 and 16. Do not substitute the bronze catalogue's 2 and 8, and do not label this item with an unsupported quality or level.
+
+One prominent main action: “取出到背包”.
+One secondary action: “返回营地”.
+These controls share a tidy action baseline and the approved master button family. The depicted state is BEFORE withdrawal: the card is still in the safe and the backpack is empty. No sale, upgrade, crafting, interest, deposit charge, withdrawal fee or invented currency cost. Keep all corresponding left/right card edges aligned and preserve the full-width single-column structure. Render the complete screen with all text and controls, without notes about the concept, implementation or generation process inside the game UI.

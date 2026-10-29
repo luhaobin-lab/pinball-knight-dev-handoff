@@ -1,0 +1,546 @@
+{
+  "created": "2026-10-29",
+  "status": "视觉候选，待用户审阅；未接入真实游戏",
+  "screens": 12,
+  "exports": {
+    "high": [
+      3200,
+      1440
+    ],
+    "mobile": [
+      800,
+      360
+    ],
+    "count": 24
+  },
+  "method": "真实文字组件+2张Sunburst场景+已有程序化图标+实机底图",
+  "unknown": "买卖与培养费用未确定，对应动作禁用；层进度和天赋状态是独立样例",
+  "checks": "22组布局扫描+2项针对性语义回归+36个下载链接；未做真机或新用户测试",
+  "files": [
+    {
+      "file": "先读我.txt",
+      "bytes": 2574,
+      "sha256": "2a4ae2dc24c39208df683f968436c9bf587102dc74c46fa58791461b7ae02ef3"
+    },
+    {
+      "file": "十二页总览.png",
+      "bytes": 903896,
+      "sha256": "ef960930d10d86aae468a1fbcecb3c643667083d79838a0f83fc3b4e112eb597"
+    },
+    {
+      "file": "参考与依据/卡住原因.txt",
+      "bytes": 1132,
+      "sha256": "81195fa6749a37335b0d434b7f8350acfe63bc31e4f8028abd0fff2e983e81b7"
+    },
+    {
+      "file": "参考与依据/本轮评审结论.txt",
+      "bytes": 2221,
+      "sha256": "40eb4a5cc8d170c9940f8c630a8d2ce384cba97f5a6b98cdb8a689ae099772a9"
+    },
+    {
+      "file": "参考与依据/来源.json",
+      "bytes": 6864,
+      "sha256": "a2858037169fd320d0451443db228494c908db5063d3880ed58656d16c5e4f14"
+    },
+    {
+      "file": "参考与依据/移动端依据.txt",
+      "bytes": 6320,
+      "sha256": "e2e1bbb22a5344926cceb0b4163136d5cc234605adad1ed6ee56eb5aa105d4ea"
+    },
+    {
+      "file": "参考与依据/视觉评估标准.txt",
+      "bytes": 10436,
+      "sha256": "e1ac6de8c204666118f9a8c30ff673e0923f7d9a4084a3d8ae8bee4b844152c4"
+    },
+    {
+      "file": "参考与依据/需求与数据边界.txt",
+      "bytes": 10268,
+      "sha256": "0e963ad9ac56c903ce1b3dd0a2b90e2d6a1411c084d16197ca88b20f432ff54c"
+    },
+    {
+      "file": "参考与依据/页面契约与状态.md",
+      "bytes": 13145,
+      "sha256": "c8be59fa3959dc2c18b2e9644744f97587fb6bfa9bc64bb61d0fdfa2f910c2b5"
+    },
+    {
+      "file": "参考与依据/项目UI宪法.md",
+      "bytes": 11367,
+      "sha256": "72306db3d83e85466ffc602baef8dad7501ff7b4c12687033cddc971eff76ea9"
+    },
+    {
+      "file": "总览.html",
+      "bytes": 3542,
+      "sha256": "5840a17d0285d7aa50fe02d3d84e65ec5206579d81b20930a636465662554f04"
+    },
+    {
+      "file": "手机尺寸/01_战斗_装备栏位.png",
+      "bytes": 202971,
+      "sha256": "6ba8e901090238b62d9183c4609caa34d1494432e1fc66a9d8772c4151f594ee"
+    },
+    {
+      "file": "手机尺寸/02_战斗_英雄属性与天赋.png",
+      "bytes": 64355,
+      "sha256": "a12be98933f0f618f679895b1e9c02554b88489d6b5be2106e325246653b87d4"
+    },
+    {
+      "file": "手机尺寸/03_战斗_装备图鉴.png",
+      "bytes": 60274,
+      "sha256": "5f43d5edc88e2574e4efef52e98d8c11d0b7d7368557ff730861956dd1f19186"
+    },
+    {
+      "file": "手机尺寸/04_营地_冒险准备.png",
+      "bytes": 239874,
+      "sha256": "56d28e22a986a1493ddd03aba0b2ae5831c41aced5b01727fdd6b19802b7fda3"
+    },
+    {
+      "file": "手机尺寸/05_营地_天赋解锁.png",
+      "bytes": 122017,
+      "sha256": "a49df6576df270175bc8dbb5025da7de75ba002833a0a1979f4fab2cc9f2286a"
+    },
+    {
+      "file": "手机尺寸/06_营地_天赋升级.png",
+      "bytes": 120167,
+      "sha256": "5320f777059c90cc6ede819e8fe336ff3ff9780baa77932cf89a4ffd4b9d5bb2"
+    },
+    {
+      "file": "手机尺寸/07_营地_保险箱存取.png",
+      "bytes": 177699,
+      "sha256": "62fd4cb12863f1aa0c9e0c6f7dc52238272825be613f85cd77402010ec28f2bc"
+    },
+    {
+      "file": "手机尺寸/08_营地_地牢选择.png",
+      "bytes": 158828,
+      "sha256": "02e9e401aa3c573247af4d10f6a431caca19fc01d18cf194f5e8ece63393259c"
+    },
+    {
+      "file": "手机尺寸/09_商店_购买详情.png",
+      "bytes": 154505,
+      "sha256": "d24559977fc21bee8acb2e8e837ec6dade0fa4728474f4bb614f56ffcd8d98a9"
+    },
+    {
+      "file": "手机尺寸/10_商店_出售详情.png",
+      "bytes": 160621,
+      "sha256": "430302721ee4a8a039fcf4c2e4a95287d841cb3c771c09b2bec9fd17eb0ffa1a"
+    },
+    {
+      "file": "手机尺寸/11_战利品_宝箱领取.png",
+      "bytes": 80031,
+      "sha256": "16fe60ad207b7dda9a157c492a8e441bb64e52484dc69203a0f6e437e0cc016b"
+    },
+    {
+      "file": "手机尺寸/12_战斗_装备详情.png",
+      "bytes": 132340,
+      "sha256": "ab3b32b6e3ee586e2cfc107a833703e4f08f9e2aab884de829b563de7d27d194"
+    },
+    {
+      "file": "提示词/商人场景.txt",
+      "bytes": 2102,
+      "sha256": "84641323065b992ce839b9c7ce5d1bfa893c82bb5019d02f8fade663dbeb5094"
+    },
+    {
+      "file": "提示词/生成提交记录.json",
+      "bytes": 8357,
+      "sha256": "7f7f10e7ac5ebaed6c27b63dec3a76eceedbb67e44edc0d70531b010b227c31d"
+    },
+    {
+      "file": "提示词/营地场景.txt",
+      "bytes": 2262,
+      "sha256": "815799e448801fc33f0083686e2e9084f844837e43f1800030b9e43411a7b223"
+    },
+    {
+      "file": "核对/final-issue-06-locked-talent.png",
+      "bytes": 118492,
+      "sha256": "236b8db4a6bb1954f46a749b57794f0c63f73a0c57e7c98747e94ef237ef0e22"
+    },
+    {
+      "file": "核对/qa-01.png",
+      "bytes": 199863,
+      "sha256": "25afc157be7ef9dc1c8bc64129824174d8ac3bc0db37710da6a58362701711e7"
+    },
+    {
+      "file": "核对/qa-02-color.png",
+      "bytes": 64795,
+      "sha256": "65e265b46a9930e5a428e9e20af269b64ec38c8fb762d1c94a32caa2c9dc6579"
+    },
+    {
+      "file": "核对/qa-02.png",
+      "bytes": 64795,
+      "sha256": "65e265b46a9930e5a428e9e20af269b64ec38c8fb762d1c94a32caa2c9dc6579"
+    },
+    {
+      "file": "核对/qa-03.png",
+      "bytes": 60603,
+      "sha256": "137d2d834f73c67b1e52ac9217ca83ff90aa792729b63b4481e4ceda22a22118"
+    },
+    {
+      "file": "核对/qa-04-color.png",
+      "bytes": 240705,
+      "sha256": "f21aa5c94b071a1eb6e528980d7e14736f72ab4d736d40e859a2d6b0f3e6310d"
+    },
+    {
+      "file": "核对/qa-04.png",
+      "bytes": 82157,
+      "sha256": "34f69e4d5b7cc63e7ff0771629bbfb4d08dfb8b899172b3540748d9ef18620be"
+    },
+    {
+      "file": "核对/qa-05.png",
+      "bytes": 71064,
+      "sha256": "6f94c7462650e968dbd7ab3837211bc2d1ac722f85b8039b7da94c452f0048ed"
+    },
+    {
+      "file": "核对/qa-06-color.png",
+      "bytes": 130282,
+      "sha256": "087089be65b09ec78a9a1770f0aa48103eb27d8d4ca08274cac79c19e101522a"
+    },
+    {
+      "file": "核对/qa-06.png",
+      "bytes": 69135,
+      "sha256": "5e1d26c38704701adfe278e23ea9ceacc2eaf563c39c3a246bd573b5800bf021"
+    },
+    {
+      "file": "核对/qa-07.png",
+      "bytes": 72188,
+      "sha256": "414ad2ec318f3eaba05dba09ccfe11f5a7dfc4e7753288ac8d7c4da3bfe0053d"
+    },
+    {
+      "file": "核对/qa-08.png",
+      "bytes": 76884,
+      "sha256": "24d604483dcfc077f9b6bf43ab9b0048a7d513d3aa0ab5c22aee032bc54d9b65"
+    },
+    {
+      "file": "核对/qa-09-color.png",
+      "bytes": 152044,
+      "sha256": "00f624221e02e711b2d589c13e1a772d04add099569d28138310cdf48e7094b6"
+    },
+    {
+      "file": "核对/qa-09-scrolled.png",
+      "bytes": 153719,
+      "sha256": "a92ea76b42ecc2246089413ab5db66353b8ca7b16f0daf7e6927933a26b8b62f"
+    },
+    {
+      "file": "核对/qa-09.png",
+      "bytes": 78255,
+      "sha256": "4f66a6e9f80c387db12861230f893b831b2cc26214d03346a1886aa98d238c4f"
+    },
+    {
+      "file": "核对/qa-10-color.png",
+      "bytes": 158956,
+      "sha256": "d5adf9f9e89d240ce88c9a0aeb83417d2b80b2af7f84f86b623e7ea14156f5db"
+    },
+    {
+      "file": "核对/qa-10-scrolled.png",
+      "bytes": 159785,
+      "sha256": "13efeddef49263740f8b3262585bbe6b2ac283437dec59038a1fd3c3a8e9b2d9"
+    },
+    {
+      "file": "核对/qa-10.png",
+      "bytes": 80821,
+      "sha256": "a0af442518fc4cdc1957d387fc33f176f55c61725aff5795723ea79c7e28c08f"
+    },
+    {
+      "file": "核对/qa-11-color.png",
+      "bytes": 78196,
+      "sha256": "b77814291c857a5362e00c87079295316f6d2b2e82a58122ab13accfedd3b9e1"
+    },
+    {
+      "file": "核对/qa-11-scrolled.png",
+      "bytes": 77942,
+      "sha256": "7051a43a7dcae1b3ad68aec98c2013b4442cb4e7b8c2c385d370392b986f2ce3"
+    },
+    {
+      "file": "核对/qa-11.png",
+      "bytes": 78196,
+      "sha256": "b77814291c857a5362e00c87079295316f6d2b2e82a58122ab13accfedd3b9e1"
+    },
+    {
+      "file": "核对/qa-12-color.png",
+      "bytes": 75372,
+      "sha256": "ad479d48e248add37c892533c2131c0ab5d284e211ee5c67ac5750f5da7ec008"
+    },
+    {
+      "file": "核对/qa-12-scrolled.png",
+      "bytes": 75222,
+      "sha256": "6fe32c479a5f37fb9d43767680f79e6d8ee10481c50f1bbfdf923d82f7736d2d"
+    },
+    {
+      "file": "核对/qa-12.png",
+      "bytes": 75372,
+      "sha256": "ad479d48e248add37c892533c2131c0ab5d284e211ee5c67ac5750f5da7ec008"
+    },
+    {
+      "file": "核对/交付页检查.json",
+      "bytes": 235,
+      "sha256": "d5f473cc4d86c1b0ae26515ef1b159a4c6c433f11578fb0701104942082c9734"
+    },
+    {
+      "file": "核对/修正_05.png",
+      "bytes": 121692,
+      "sha256": "c76a92b72f3dcac3bc853f177b3f10d0412f452acfdb3027795f26f829ede6bb"
+    },
+    {
+      "file": "核对/修正_06.png",
+      "bytes": 119842,
+      "sha256": "43739e739b7aa5deeff8d652ebd90bc8408b4854605861b888765185f91305f6"
+    },
+    {
+      "file": "核对/修正_07.png",
+      "bytes": 175520,
+      "sha256": "2ed68a1b4de8ba8b8431c8f3ad74478414acb2f11d756fe3f8286a636129ece0"
+    },
+    {
+      "file": "核对/修正_09.png",
+      "bytes": 152224,
+      "sha256": "75dd9a25a1b7f88876bc7ec83af5b86bbdf0a7955f35aa7fb7be50ad7d92c8a0"
+    },
+    {
+      "file": "核对/修正_12.png",
+      "bytes": 132390,
+      "sha256": "d25e3aa64688cbc02673f15c91698e80083f17d2c7b81a90cb011a86ecd3f80b"
+    },
+    {
+      "file": "核对/初轮QA.json",
+      "bytes": 86478,
+      "sha256": "d278b9c21cd9bb3de2a75cde7e7fe620fde299abcf9bb998ea376704a01311e9"
+    },
+    {
+      "file": "核对/导出记录.json",
+      "bytes": 9116,
+      "sha256": "e68882ad7c2149c87faf9a21ae491e526f2b77acd1964ac7a09df5d9310bda03"
+    },
+    {
+      "file": "核对/最终布局QA.json",
+      "bytes": 146750,
+      "sha256": "e4c3ad83918dfc1c52279090b32703a64f33494764f5c04620af1d9cf173879e"
+    },
+    {
+      "file": "核对/最终布局QA.txt",
+      "bytes": 3171,
+      "sha256": "6507e096cb0f6c349cf07e3e5dc619b8db35ec163708a71292a029a70f9ea280"
+    },
+    {
+      "file": "核对/灰度_01.png",
+      "bytes": 72436,
+      "sha256": "c6d33ef4ce0df7b1ef0dcc908b627200584da5d032cd0428874cd98ff0475b4c"
+    },
+    {
+      "file": "核对/灰度_02.png",
+      "bytes": 48507,
+      "sha256": "e8c213a481b8b4d3275d5c7dad6fa641ceb8a25e0bae16e105a8530d82e995e3"
+    },
+    {
+      "file": "核对/灰度_04.png",
+      "bytes": 49216,
+      "sha256": "0f2d868086fbe910186e81554aa43e8ce1df79594a506c89762c2190a6e2203b"
+    },
+    {
+      "file": "核对/灰度_09.png",
+      "bytes": 49119,
+      "sha256": "33975ba1483f6cf079df0816f23656fd131c7386c903c67c174046ed95d4df53"
+    },
+    {
+      "file": "核对/灰度结构检查.json",
+      "bytes": 1948,
+      "sha256": "734d2562e6675bbc620959896c507affdc02ee4f39ab3bc56c93e1d0e937e1c9"
+    },
+    {
+      "file": "核对/色稿_01.png",
+      "bytes": 199863,
+      "sha256": "25afc157be7ef9dc1c8bc64129824174d8ac3bc0db37710da6a58362701711e7"
+    },
+    {
+      "file": "核对/色稿_02.png",
+      "bytes": 64795,
+      "sha256": "65e265b46a9930e5a428e9e20af269b64ec38c8fb762d1c94a32caa2c9dc6579"
+    },
+    {
+      "file": "核对/色稿_04.png",
+      "bytes": 240705,
+      "sha256": "f21aa5c94b071a1eb6e528980d7e14736f72ab4d736d40e859a2d6b0f3e6310d"
+    },
+    {
+      "file": "核对/色稿_08.png",
+      "bytes": 164706,
+      "sha256": "2c15df287b3e61a8258227a9874d8b155b8c423286ab6113014b733229919366"
+    },
+    {
+      "file": "核对/色稿_09.png",
+      "bytes": 152044,
+      "sha256": "00f624221e02e711b2d589c13e1a772d04add099569d28138310cdf48e7094b6"
+    },
+    {
+      "file": "核对/评审页最终预览.png",
+      "bytes": 507083,
+      "sha256": "8672feb0d7da94f23cb5195da269c33ebc242df648e93aae0007ecf6680f10f4"
+    },
+    {
+      "file": "渲染图/01_战斗_装备栏位.png",
+      "bytes": 997884,
+      "sha256": "4e32c4f2c9b949feac801cf1582eedcd0d034fe0e07cab8bae9557edb7359a23"
+    },
+    {
+      "file": "渲染图/02_战斗_英雄属性与天赋.png",
+      "bytes": 341205,
+      "sha256": "22867b7c67659f15a6de8b817f96edfc49443b878b6d07e61ef6e4fb956dfde8"
+    },
+    {
+      "file": "渲染图/03_战斗_装备图鉴.png",
+      "bytes": 328776,
+      "sha256": "375366c2821250145ca50fd45819af09d8a29a4ce99696c22dc690555f816b1e"
+    },
+    {
+      "file": "渲染图/04_营地_冒险准备.png",
+      "bytes": 2406801,
+      "sha256": "27e016c06f6d069786bc73dbc383e91606b1ca05726ef8e53daec5cdefbf81dd"
+    },
+    {
+      "file": "渲染图/05_营地_天赋解锁.png",
+      "bytes": 960511,
+      "sha256": "8c68c94725754c7f3d3517da6735b63cad8a99a821b435088c689f36fe923cd8"
+    },
+    {
+      "file": "渲染图/06_营地_天赋升级.png",
+      "bytes": 952586,
+      "sha256": "cb5702f3e53679fe7d0347dceeed98512527f0ce69dc0d291a864fe673299839"
+    },
+    {
+      "file": "渲染图/07_营地_保险箱存取.png",
+      "bytes": 1621088,
+      "sha256": "f9115235ff45d5d1305fe2be550c75bec6aabb1fedcc0d315d66378143545ec3"
+    },
+    {
+      "file": "渲染图/08_营地_地牢选择.png",
+      "bytes": 1464974,
+      "sha256": "2d96bebed9e6dd9f9ee72659a3803b5cc8c74b29a9fff549b6000d18483c6403"
+    },
+    {
+      "file": "渲染图/09_商店_购买详情.png",
+      "bytes": 1267942,
+      "sha256": "e58fca7c50beb17ef086663667750a11743be537c4477e2610e158c02f1cc971"
+    },
+    {
+      "file": "渲染图/10_商店_出售详情.png",
+      "bytes": 1308267,
+      "sha256": "2f43aa62d0ebe1b1e94dce3901a81eb57fdaff7ed0979f530c6b6ad4be0d4824"
+    },
+    {
+      "file": "渲染图/11_战利品_宝箱领取.png",
+      "bytes": 527411,
+      "sha256": "cc73e2ea17df2996a146ac8f9c594eae997b1ec2f20c28f73fb8ae641de079f5"
+    },
+    {
+      "file": "渲染图/12_战斗_装备详情.png",
+      "bytes": 669513,
+      "sha256": "fe28e0c1cbd87fda360ee8dff5466cddac9529cd2cf4847e646545794f75206b"
+    },
+    {
+      "file": "源文件/export.mjs",
+      "bytes": 5009,
+      "sha256": "39bb20e35ba4078a9da1e3c5be8f82b521c20d395c98c25ec454a3d5869e94ce"
+    },
+    {
+      "file": "源文件/gallery.css",
+      "bytes": 8472,
+      "sha256": "321b97c10fa9ee64473b77dd721ca480a187b58cf662519a73e1d7e265ab85ff"
+    },
+    {
+      "file": "源文件/gallery.js",
+      "bytes": 7843,
+      "sha256": "119bb578ae37b5b55a327b8b3c672649f261845d827843015d3dfd209e79f510"
+    },
+    {
+      "file": "源文件/ui.css",
+      "bytes": 20136,
+      "sha256": "8a3bbdfb9fafbfe6d98afe4e101219a63a6f645b22a3f4dbd69d2327c5d24c5c"
+    },
+    {
+      "file": "源文件/ui.js",
+      "bytes": 18190,
+      "sha256": "815250d0b1e0e452369d0d26d6e80b8cefd9b038fd5518612a6dc89b45d8e8da"
+    },
+    {
+      "file": "源文件/提取原有图标.bundle.mjs",
+      "bytes": 1619434,
+      "sha256": "7d5ad09ee6037185a71beb687858bf351b91c4ab9f6c84181ef5fe80009c0cd5"
+    },
+    {
+      "file": "源文件/提取原有图标.ts",
+      "bytes": 3740,
+      "sha256": "343265a162f0ff53d17b0718cc2710ddfc337e99538276743ff3cd802df63c0b"
+    },
+    {
+      "file": "界面预览.html",
+      "bytes": 388,
+      "sha256": "20847204efcb214bdb222ff16869d45e836b9824706ff8b81b96c18645c51591"
+    },
+    {
+      "file": "素材/原有图标/helm_armor.png",
+      "bytes": 488,
+      "sha256": "a789961180b1bc83c6a4d5ea630b6b69ccaaaa17e19e056d5b9691f59a9c8920"
+    },
+    {
+      "file": "素材/原有图标/herb_tool.png",
+      "bytes": 742,
+      "sha256": "d8d229d5a5f873aa2a327fae31654ccba4178c413cc5b19c5131fef3aba13815"
+    },
+    {
+      "file": "素材/原有图标/ring_accessory.png",
+      "bytes": 762,
+      "sha256": "bc20e806cb2cc64ef9702bc10dedd70a75cc4c8c9f3700f618db2d0a3d0a69aa"
+    },
+    {
+      "file": "素材/原有图标/scroll_tool.png",
+      "bytes": 440,
+      "sha256": "7d2d07142b1269a81b6eb861ccea92df17fddc47fcc08f3f47d1fc5620e2459a"
+    },
+    {
+      "file": "素材/原有图标/shield_armor.png",
+      "bytes": 554,
+      "sha256": "cbeb325d6ab30fe2d0377aa7dbc44791f578d0fdab14b368cf1648709859debe"
+    },
+    {
+      "file": "素材/原有图标/凝血毒剂.png",
+      "bytes": 615,
+      "sha256": "c6f00bbda31ec06dff0edde640dae386b111cd5feb896f8b813b8fe4fe5fb583"
+    },
+    {
+      "file": "素材/原有图标/来源.json",
+      "bytes": 5953,
+      "sha256": "e7a9f7795cc1242738ecfebcd9d315b3cd53adf0a561a4f18e12d72634230448"
+    },
+    {
+      "file": "素材/原有图标/淬毒利刃.png",
+      "bytes": 709,
+      "sha256": "516def5f1d46f116b41209ab12f92efc3bc05de3dd6bf91dd8e4b0722355e4c7"
+    },
+    {
+      "file": "素材/原有图标/灵魂香菇.png",
+      "bytes": 479,
+      "sha256": "47d652cd851bd54e384d9e2ea2c3c19c25e7ca542761b1d19d3b43c1cfd203d2"
+    },
+    {
+      "file": "素材/商人场景.png",
+      "bytes": 2247309,
+      "sha256": "f3a8e7f792ea58dd6058e76019e400aec9595a4d612e1231237f342d1195e809"
+    },
+    {
+      "file": "素材/真实战斗无UI.png",
+      "bytes": 634100,
+      "sha256": "57c80a7ba18ead67a739bfcde973bb755862c09da6f8b1c12473b4987400cabe"
+    },
+    {
+      "file": "素材/素材来源.json",
+      "bytes": 1161,
+      "sha256": "432e89d3ce33162e05d4765269ac47277574dd8f9d41326ea86bda782356ca55"
+    },
+    {
+      "file": "素材/营地场景.png",
+      "bytes": 4293647,
+      "sha256": "237fb9bcbe1af8a7c78a3a277376a5c97dcfb69edada50a57afc8c871f9ab1b4"
+    },
+    {
+      "file": "集中审核.html",
+      "bytes": 5923,
+      "sha256": "8e3ea904033c557dcf2a5f9519589c59fd43defc50b316415ceccfacc8beb9ef"
+    }
+  ]
+}

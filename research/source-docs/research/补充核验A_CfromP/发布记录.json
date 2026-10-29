@@ -1,0 +1,15 @@
+{
+  "release": "R3补充核验A",
+  "status": "independently-reviewed",
+  "archive": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充核验A_原生CfromP与Calc验证.zip",
+  "bytes": 221787,
+  "sha256": "c1873ee8f14eb8db440dfe56635df626b66adf4a4aeb00587ee986070f21c960",
+  "members": 54,
+  "allMemberHashesVerified": true,
+  "actualCopiedMathExecutions": 1044,
+  "abiGuardOnlyCases": 8,
+  "totalComparisons": 1052,
+  "R3WorkbooksAndMainArchiveUnchanged": true,
+  "cacheWrapperStillNotExecuted": true,
+  "createdAt": "2026-10-27T17:23:51.772599+00:00"
+}

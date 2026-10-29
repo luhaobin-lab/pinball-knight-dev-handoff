@@ -1,0 +1,13 @@
+Command: npm run package:battle
+
+> abyss-battle-scene@0.1.0 package:battle
+> node tools/package.mjs --out delivery --name 独立战斗场景.html
+
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 4000 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[tools] built game (package) in 1.3 s -> /var/folders/1j/z08q39h53nn1h_qgdt819ctc0000gn/T/taptap-studio/tmp/builds/game/package-1793265265656-54377
+[tools] packaged index-qvwcUnGL.js into <LOCAL_HOME>/Desktop/提取过程/outputs/项目交接_2026-10-29/game/delivery/独立战斗场景.html
+{"file":"<LOCAL_HOME>/Desktop/提取过程/outputs/项目交接_2026-10-29/game/delivery/独立战斗场景.html","bytes":6327018,"scene":null}

@@ -1,0 +1,98 @@
+V6 items_a: 76 assigned. Built-in imagegen only; one call per asset; references inspected.
+I001 generated, normalized; subject is rib armor, complete isolated silhouette; pixel QA pending.
+I002 generated, normalized; subject is torn robe, complete silhouette; background/alpha check pending.
+Next I003. Do not touch approved I005/I047/I106.
+I001/I002: mother and 256px PNG visually checked, accepted. 2/76 complete.
+I004: generated and normalized; review pending.
+I003: generated and normalized; review pending.
+I003/I004: mother and 256px PNG visually checked, accepted. 4/76 complete. Parent requested replacing single mother with combined style board for future calls; waiting on board.
+I006: generated and normalized; review pending.
+I007: generated and normalized; review pending.
+I006 rejected: metal frame/chain changed a detached eye ingredient into a weapon. Draft archived qa/rejected/I006-chain-weapon. Prompt strengthened; retry needed.
+I007 visually accepted. 5/76 complete; I006 retry pending.
+I006: generated and normalized; review pending.
+I008: generated and normalized; review pending.
+I006 retry accepted: detached burning eyeball with optic nerve, no metal weapon. I008 spinning armor accepted. 7/76 complete. Next I009/I010/I011.
+I009: generated and normalized; review pending.
+I010: generated and normalized; review pending.
+I011: generated and normalized; review pending.
+I009/I010/I011 visually accepted. 10/76 complete. Next I012/I013/I014. Only rejection so far I006 first draft, corrected.
+I012: generated and normalized; review pending.
+I014: generated and normalized; review pending.
+I013: generated and normalized; review pending.
+I012 bone spike / I013 cloak / I014 hive visually accepted. 13/76 complete. Next I015/I016/I017.
+I016: generated and normalized; review pending.
+I017: generated and normalized; review pending.
+I015: generated and normalized; review pending.
+I016 rejected: unwanted-bottle-base. archived; retry pending.
+I017 rejected: ambiguous-bowstring-topology. archived; retry pending.
+I015 accepted. 14/76 complete; I016/I017 retries pending.
+I017: generated and normalized; review pending.
+I018: generated and normalized; review pending.
+I016: generated and normalized; review pending.
+I016 retry and I018 accepted. 16/76 complete. I017 second draft rejected for detached second limb; archived separately, prompt simplified to one contiguous bow with intertwined bones and one taut string. Next I017 retry/I019/I020.
+I017: generated and normalized; review pending.
+I019: generated and normalized; review pending.
+I020: generated and normalized; review pending.
+I017 third draft accepted, I019/I020 accepted. 19/76 complete. Next I021/I022/I023.
+I022: generated and normalized; review pending.
+I021: generated and normalized; review pending.
+I023: generated and normalized; review pending.
+I021/I022/I023 accepted. 22/76 complete. Next I024/I025/I026.
+I025: generated and normalized; review pending.
+I024: generated and normalized; review pending.
+I026: generated and normalized; review pending.
+I024/I025/I026 accepted. 25/76 complete. All I001-I026 except immutable I005 done. Next I027/I028/I029.
+I027: generated and normalized; review pending.
+I028: generated and normalized; review pending.
+I029: generated and normalized; review pending.
+I027/I028/I029 accepted. 28/76 complete. Next I030/I031/I032.
+I030: generated and normalized; review pending.
+I031: generated and normalized; review pending.
+I032: generated and normalized; review pending.
+I030/I031/I032 accepted. 31/76 complete. Next I033/I034/I035.
+I034: generated and normalized; review pending.
+I033: generated and normalized; review pending.
+I035: generated and normalized; review pending.
+I033/I034/I035 accepted. 34/76 complete. Next I036/I037/I038.
+I037: generated and normalized; review pending.
+I036: generated and normalized; review pending.
+I038: generated and normalized; review pending.
+I036/I037/I038 accepted. 37/76 complete. Next I039/I040/I041.
+I039: generated and normalized; review pending.
+I040: generated and normalized; review pending.
+I041: generated and normalized; review pending.
+I039/I040/I041 accepted. 40/76 complete. Next I042/I043/I044.
+I043: generated and normalized; review pending.
+I042: generated and normalized; review pending.
+I044: generated and normalized; review pending.
+I042/I043/I044 accepted. 43/76 complete. Next I045/I046/I048 (I047 immutable).
+I048: generated and normalized; review pending.
+I046: generated and normalized; review pending.
+I045: generated and normalized; review pending.
+SCOPE UPDATE by root: items_a reduced to64 IDs ending I066; I067-I078 reassigned to talents_production, do not generate them. I045/I046/I048 accepted;46/64 complete. Next I049/I050/I051.
+I050: generated and normalized; review pending.
+I049: generated and normalized; review pending.
+I051: generated and normalized; review pending.
+I049/I050/I051 accepted. 49/64 complete. Next I052/I053/I054.
+I053: generated and normalized; review pending.
+I054: generated and normalized; review pending.
+I052: generated and normalized; review pending.
+I052/I053/I054 accepted. 52/64 complete. Next I055/I056/I057.
+I055: generated and normalized; review pending.
+I056: generated and normalized; review pending.
+I057: generated and normalized; review pending.
+I055/I056/I057 accepted. 55/64 complete. Next I058/I059/I060.
+I058: generated and normalized; review pending.
+I059: generated and normalized; review pending.
+I060: generated and normalized; review pending.
+I058/I059/I060 accepted. 58/64 complete. Last six I061-I066. Next I061/I062/I063.
+I063: generated and normalized; review pending.
+I061: generated and normalized; review pending.
+I062: generated and normalized; review pending.
+I061/I062/I063 accepted. 61/64 complete. Final generation I064/I065/I066; then QA.
+I064: generated and normalized; review pending.
+I066: generated and normalized; review pending.
+I065: generated and normalized; review pending.
+I064/I065/I066 accepted. 64/64 generated and individually reviewed. Final inventory, hashes, transparency and contact-sheet QA pending.
+FINAL:64/64 complete. Mother-source hashes identical; both pixel sizes correct; binary alpha and >=4/8px margins; all receipts reviewed; no duplicates; four native256 alternating-background contact sheets actually viewed with no additional issues. Evidence qa/items_a-validation.json.

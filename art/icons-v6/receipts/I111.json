@@ -1,0 +1,95 @@
+{
+  "id": "I111",
+  "name": "体力药剂",
+  "status": "generated-normalized",
+  "source": "mothers/I111.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I111.png",
+  "motherSha256": "87c097030a31821b7c278fe3f7326ac5eca143959d515a692833cf46c6ae4184",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I111.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2655,
+      "sha256": "16f53a5d5a64d54caf71ba7d82b81dc01c7ad3d0525b0b09c3b6f805bf915fd9",
+      "pixelSha256": "9abfe03b21b467fa4271037ed3bdb1fa14ae1a475468b8c497eac9e985aac6ee",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        58
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          35,
+          58,
+          1738,
+          811
+        ],
+        "fitSize": [
+          120,
+          53
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.07046388725778038
+      }
+    },
+    "256": {
+      "file": "pixels/256/I111.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 9648,
+      "sha256": "4843a8248870a42b289672864b12ceff7b02352d5346a954e6820d2603096678",
+      "pixelSha256": "7beae9c61991286cffe53bb9ea1ee08bfa95b9ae4dc15cfcdff642155aff1f9b",
+      "alphaBounds": [
+        8,
+        11,
+        248,
+        117
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          35,
+          58,
+          1738,
+          811
+        ],
+        "fitSize": [
+          240,
+          106
+        ],
+        "position": [
+          8,
+          11
+        ],
+        "scale": 0.14092777451556077
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "I109重做为无血无破洞干净绷带；魔力菱晶瓶和体力锯齿瓶分别核对通过。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-cf02099e-e558-40da-9724-701149b3f677.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-cf02099e-e558-40da-9724-701149b3f677"
+  }
+}

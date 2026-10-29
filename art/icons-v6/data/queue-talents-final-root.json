@@ -1,0 +1,349 @@
+[
+  {
+    "id": "T109",
+    "name": "红线?蓝线?",
+    "category": "天赋",
+    "subtype": "主动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "反弹"
+    ],
+    "description": "本回合提升4反弹次数上限，或增加10体力。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "7",
+    "stamina": "",
+    "legacyArt": {
+      "family": "抉择线路",
+      "motif": "红蓝双引线的封口装置",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T110",
+    "name": "温故知新",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "经验"
+    ],
+    "description": "升级会恢复你全部的生命值和体力。获得的经验值提升100%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "知识复原",
+      "motif": "书页复生的心脏",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T111",
+    "name": "电能缠绕",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "电系",
+      "基础伤害",
+      "反弹"
+    ],
+    "description": "电系物品每完成10次充能，召唤一个电击球，当英雄反弹时电击球会电击周围敌人，造成1伤害（受英雄基础伤害影响）。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "电能缠绕",
+      "motif": "铜导线绕魂球",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T112",
+    "name": "元素辐射",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "电系",
+      "火系",
+      "气系"
+    ],
+    "description": "每装备一个电系，火系，气系物品，电击，爆炸，气刃造成的伤害提升25%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "元素辐射",
+      "motif": "火雷风围绕骨晶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T113",
+    "name": "并联",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "电系",
+      "灌注"
+    ],
+    "description": "每当电系物品获得灌注，同时灌注你最上方的非电系物品。每回合只能触发10次。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "并联",
+      "motif": "共接两端的双线圈",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T114",
+    "name": "融合",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "剧毒",
+      "生命上限"
+    ],
+    "description": "敌人因为剧毒伤害死亡时，永久增加20生命上限。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "融合成长",
+      "motif": "毒虫融进心脏",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T115",
+    "name": "电击增幅",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [],
+    "description": "电击会额外触发1次。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "电击增幅",
+      "motif": "前后错位的双闪电",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T116",
+    "name": "高压电",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "眩晕"
+    ],
+    "description": "电击有5%几率使敌人获得眩晕，持续1回合。（首领为0.5%几率）",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "高压眩晕",
+      "motif": "雷电压向颅顶",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T117",
+    "name": "气电一体",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "电系",
+      "气系",
+      "灌注"
+    ],
+    "description": "电系和气系物品每获得20灌注，造成的伤害提升10%，直到战斗结束。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "气电一体",
+      "motif": "风旋贯穿雷电",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T118",
+    "name": "血痂",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "格挡"
+    ],
+    "description": "受到2次非格挡的伤害后，获得10层格挡。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "血痂格挡",
+      "motif": "血盾上的粗糙凝结块",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  },
+  {
+    "id": "T119",
+    "name": "凝神",
+    "category": "天赋",
+    "subtype": "被动天赋",
+    "kind": "",
+    "size": "",
+    "quality": "",
+    "tags": [
+      "反弹"
+    ],
+    "description": "当一回合内反弹次数未超过2时，下回合造成的伤害提升200%。",
+    "charge": "",
+    "recycle": "",
+    "recipe": "",
+    "cooldown": "",
+    "stamina": "",
+    "legacyArt": {
+      "family": "凝神",
+      "motif": "闭目面具与静烛",
+      "direction": "modern-ritual-relics-v1"
+    },
+    "categoryKey": "talent",
+    "slot": null,
+    "canvas": {
+      "width": 128,
+      "height": 128
+    },
+    "sourceFlags": [],
+    "sizeAuthority": "天赋图标，不占装备格"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "desktop": {
+    "width": 1440,
+    "scrollWidth": 1440,
+    "sections": 11,
+    "images": [
+      {
+        "src": "05_验证与评审/图表/两层生命节奏.png",
+        "loaded": true
+      },
+      {
+        "src": "05_验证与评审/图表/失败成长账本.png",
+        "loaded": true
+      }
+    ]
+  },
+  "narrow": {
+    "width": 800,
+    "scrollWidth": 800
+  },
+  "errors": [],
+  "status": "pass",
+  "scope": "Document rendering only, not game QA"
+}

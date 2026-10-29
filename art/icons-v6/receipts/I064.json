@@ -1,0 +1,86 @@
+{
+  "id": "I064",
+  "name": "共鸣结晶",
+  "status": "generated-normalized",
+  "source": "mothers/I064.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I064.png",
+  "motherSha256": "4f0bae245558d72068b06ca6f003be9c8829c18ea2f643008641c6236751e649",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I064.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5126,
+      "sha256": "76624b0631ceab7c9e31cb8a84f2d82f7fa8593f5439798ea8a03f1fd18f815a",
+      "pixelSha256": "945374c9c5b3d2623fb2a4680e495227011afc2aa39f34d3c9f86b2455460f8e",
+      "alphaBounds": [
+        17,
+        4,
+        111,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          193,
+          15,
+          1146,
+          1238
+        ],
+        "fitSize": [
+          94,
+          120
+        ],
+        "position": [
+          17,
+          4
+        ],
+        "scale": 0.09811937857726902
+      }
+    },
+    "256": {
+      "file": "pixels/256/I064.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 18901,
+      "sha256": "e4db9cc8464051c022c3ed2d3302e6f2af75ff5a32aaf3fd4d1239347d1b4874",
+      "pixelSha256": "08763196aaca817d24270d5c40a0f2b19d087ac82434523efec7d1878c180fde",
+      "alphaBounds": [
+        34,
+        8,
+        221,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          193,
+          15,
+          1146,
+          1238
+        ],
+        "fitSize": [
+          187,
+          240
+        ],
+        "position": [
+          34,
+          8
+        ],
+        "scale": 0.19623875715453803
+      }
+    }
+  },
+  "visualReview": "passed: mother and normalized PNG viewed; twin crystal cluster / populated tool box / bent cloth hat correctly distinct and complete",
+  "sourceProvenance": {
+    "sourceFilename": "exec-c3db619d-1b5e-4add-8210-ac14b402f5e0.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-c3db619d-1b5e-4add-8210-ac14b402f5e0"
+  }
+}

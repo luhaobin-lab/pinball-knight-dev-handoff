@@ -1,0 +1,2569 @@
+[
+  {
+    "version": "monster100-v1",
+    "floor": 1,
+    "theme": "血肉",
+    "elite_waves": 0,
+    "waves": [
+      {
+        "seed": 42,
+        "run_id": "sample-1",
+        "floor": 1,
+        "wave": 1,
+        "theme": "血肉",
+        "budget": 4,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-1/F1/W1/M0",
+            "stats": {
+              "hp": 24,
+              "attack": 4,
+              "action_damage_before_target_reduction": 4,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-1/F1/W1/M1",
+            "stats": {
+              "hp": 36,
+              "attack": 5,
+              "action_damage_before_target_reduction": 5,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          }
+        ],
+        "rng_states": {
+          "composition": 2563857583,
+          "elite": 3249992019
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-1",
+        "floor": 1,
+        "wave": 2,
+        "theme": "血肉",
+        "budget": 5,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-1/F1/W2/M0",
+            "stats": {
+              "hp": 27,
+              "attack": 4,
+              "action_damage_before_target_reduction": 4,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-1/F1/W2/M1",
+            "stats": {
+              "hp": 41,
+              "attack": 5,
+              "action_damage_before_target_reduction": 5,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          }
+        ],
+        "rng_states": {
+          "composition": 373271716,
+          "elite": 262734951
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-1",
+        "floor": 1,
+        "wave": 3,
+        "theme": "血肉",
+        "budget": 6,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-1/F1/W3/M0",
+            "stats": {
+              "hp": 30,
+              "attack": 5,
+              "action_damage_before_target_reduction": 5,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-1/F1/W3/M1",
+            "stats": {
+              "hp": 45,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          }
+        ],
+        "rng_states": {
+          "composition": 3077284774,
+          "elite": 937851602
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-1",
+        "floor": 1,
+        "wave": 4,
+        "theme": "血肉",
+        "budget": 7.5,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": true,
+        "elite_present": false,
+        "elite_request_skip_reason": "no_legal_elite_with_second_member",
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-1/F1/W4/M0",
+            "stats": {
+              "hp": 33,
+              "attack": 5,
+              "action_damage_before_target_reduction": 5,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-1/F1/W4/M1",
+            "stats": {
+              "hp": 50,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          }
+        ],
+        "rng_states": {
+          "composition": 3047961201,
+          "elite": 184994358
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-1",
+        "floor": 1,
+        "wave": 5,
+        "theme": "血肉",
+        "budget": 9,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-1/F1/W5/M0",
+            "stats": {
+              "hp": 54,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-1/F1/W5/M1",
+            "stats": {
+              "hp": 36,
+              "attack": 5,
+              "action_damage_before_target_reduction": 5,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 610797258,
+          "elite": 2959892395
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-1",
+        "floor": 1,
+        "wave": 6,
+        "theme": "血肉",
+        "budget": 11,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-1/F1/W6/M0",
+            "stats": {
+              "hp": 59,
+              "attack": 7,
+              "action_damage_before_target_reduction": 7,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-1/F1/W6/M1",
+            "stats": {
+              "hp": 40,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 3796786004,
+          "elite": 4232004419
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      }
+    ],
+    "boss": "use separate Boss module"
+  },
+  {
+    "version": "monster100-v1",
+    "floor": 2,
+    "theme": "血肉",
+    "elite_waves": 0,
+    "waves": [
+      {
+        "seed": 42,
+        "run_id": "sample-2",
+        "floor": 2,
+        "wave": 1,
+        "theme": "血肉",
+        "budget": 4,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-2/F2/W1/M0",
+            "stats": {
+              "hp": 52,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-2/F2/W1/M1",
+            "stats": {
+              "hp": 35,
+              "attack": 5,
+              "action_damage_before_target_reduction": 5,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 262381519,
+          "elite": 1694287
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-2",
+        "floor": 2,
+        "wave": 2,
+        "theme": "血肉",
+        "budget": 5,
+        "spent": 4.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N005",
+            "instance_id": "sample-2/F2/W2/M0",
+            "stats": {
+              "hp": 72,
+              "attack": 8,
+              "action_damage_before_target_reduction": 8,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5555555555555556,
+            "behavior_pattern": "locked_straight_charge"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-2/F2/W2/M1",
+            "stats": {
+              "hp": 46,
+              "attack": 7,
+              "action_damage_before_target_reduction": 7,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.4444444444444444,
+            "behavior_pattern": "locked_single_ray"
+          }
+        ],
+        "rng_states": {
+          "composition": 2703951406,
+          "elite": 2090116316
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-2",
+        "floor": 2,
+        "wave": 3,
+        "theme": "血肉",
+        "budget": 6,
+        "spent": 5.5,
+        "reserved_actor_slots": 3,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-2/F2/W3/M0",
+            "stats": {
+              "hp": 44,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2727272727272727,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-2/F2/W3/M1",
+            "stats": {
+              "hp": 65,
+              "attack": 7,
+              "action_damage_before_target_reduction": 7,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.36363636363636365,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-2/F2/W3/M2",
+            "stats": {
+              "hp": 51,
+              "attack": 8,
+              "action_damage_before_target_reduction": 8,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.36363636363636365,
+            "behavior_pattern": "locked_single_ray"
+          }
+        ],
+        "rng_states": {
+          "composition": 1154951645,
+          "elite": 3128202805
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-2",
+        "floor": 2,
+        "wave": 4,
+        "theme": "血肉",
+        "budget": 7.5,
+        "spent": 6.5,
+        "reserved_actor_slots": 3,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N005",
+            "instance_id": "sample-2/F2/W4/M0",
+            "stats": {
+              "hp": 88,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.38461538461538464,
+            "behavior_pattern": "locked_straight_charge"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-2/F2/W4/M1",
+            "stats": {
+              "hp": 72,
+              "attack": 7,
+              "action_damage_before_target_reduction": 7,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3076923076923077,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-2/F2/W4/M2",
+            "stats": {
+              "hp": 56,
+              "attack": 9,
+              "action_damage_before_target_reduction": 9,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3076923076923077,
+            "behavior_pattern": "locked_single_ray"
+          }
+        ],
+        "rng_states": {
+          "composition": 3767665740,
+          "elite": 2398638073
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-2",
+        "floor": 2,
+        "wave": 5,
+        "theme": "血肉",
+        "budget": 9,
+        "spent": 8.0,
+        "reserved_actor_slots": 4,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-2/F2/W5/M0",
+            "stats": {
+              "hp": 52,
+              "attack": 7,
+              "action_damage_before_target_reduction": 7,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.1875,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N005",
+            "instance_id": "sample-2/F2/W5/M1",
+            "stats": {
+              "hp": 96,
+              "attack": 11,
+              "action_damage_before_target_reduction": 11,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3125,
+            "behavior_pattern": "locked_straight_charge"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-2/F2/W5/M2",
+            "stats": {
+              "hp": 61,
+              "attack": 9,
+              "action_damage_before_target_reduction": 9,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.25,
+            "behavior_pattern": "locked_single_ray"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-2/F2/W5/M3",
+            "stats": {
+              "hp": 78,
+              "attack": 8,
+              "action_damage_before_target_reduction": 8,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.25,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          }
+        ],
+        "rng_states": {
+          "composition": 3154550717,
+          "elite": 3235839614
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-2",
+        "floor": 2,
+        "wave": 6,
+        "theme": "血肉",
+        "budget": 11,
+        "spent": 8.0,
+        "reserved_actor_slots": 4,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-2/F2/W6/M0",
+            "stats": {
+              "hp": 57,
+              "attack": 7,
+              "action_damage_before_target_reduction": 7,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.1875,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N005",
+            "instance_id": "sample-2/F2/W6/M1",
+            "stats": {
+              "hp": 105,
+              "attack": 11,
+              "action_damage_before_target_reduction": 11,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3125,
+            "behavior_pattern": "locked_straight_charge"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-2/F2/W6/M2",
+            "stats": {
+              "hp": 67,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.25,
+            "behavior_pattern": "locked_single_ray"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-2/F2/W6/M3",
+            "stats": {
+              "hp": 86,
+              "attack": 8,
+              "action_damage_before_target_reduction": 8,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.25,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          }
+        ],
+        "rng_states": {
+          "composition": 4103723654,
+          "elite": 2206666757
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      }
+    ],
+    "boss": "use separate Boss module"
+  },
+  {
+    "version": "monster100-v1",
+    "floor": 5,
+    "theme": "结晶",
+    "elite_waves": 1,
+    "waves": [
+      {
+        "seed": 42,
+        "run_id": "sample-5",
+        "floor": 5,
+        "wave": 1,
+        "theme": "结晶",
+        "budget": 4,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-5/F5/W1/M0",
+            "stats": {
+              "hp": 39,
+              "attack": 5,
+              "action_damage_before_target_reduction": 5,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-5/F5/W1/M1",
+            "stats": {
+              "hp": 58,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          }
+        ],
+        "rng_states": {
+          "composition": 1679737815,
+          "elite": 950266472
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-5",
+        "floor": 5,
+        "wave": 2,
+        "theme": "结晶",
+        "budget": 5,
+        "spent": 5.0,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N037",
+            "instance_id": "sample-5/F5/W2/M0",
+            "stats": {
+              "hp": 116,
+              "attack": 9,
+              "action_damage_before_target_reduction": 9,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.7,
+            "behavior_pattern": "closed_guard_open_disk_cycle"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-5/F5/W2/M1",
+            "stats": {
+              "hp": 44,
+              "attack": 5,
+              "action_damage_before_target_reduction": 5,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 1059901985,
+          "elite": 2631174633
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-5",
+        "floor": 5,
+        "wave": 3,
+        "theme": "结晶",
+        "budget": 6,
+        "spent": 5.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N006",
+            "instance_id": "sample-5/F5/W3/M0",
+            "stats": {
+              "hp": 73,
+              "attack": 11,
+              "action_damage_before_target_reduction": 11,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.45454545454545453,
+            "behavior_pattern": "horizontal_axis_charge"
+          },
+          {
+            "id": "MON_N041",
+            "instance_id": "sample-5/F5/W3/M1",
+            "stats": {
+              "hp": 68,
+              "attack": 5,
+              "action_damage_before_target_reduction": 0,
+              "heal": 16,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5454545454545454,
+            "behavior_pattern": "heal_lowest_ratio_locked_single"
+          }
+        ],
+        "rng_states": {
+          "composition": 411890119,
+          "elite": 3439281329
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-5",
+        "floor": 5,
+        "wave": 4,
+        "theme": "结晶",
+        "budget": 7.5,
+        "spent": 7.5,
+        "reserved_actor_slots": 3,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N005",
+            "instance_id": "sample-5/F5/W4/M0",
+            "stats": {
+              "hp": 98,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3333333333333333,
+            "behavior_pattern": "locked_straight_charge"
+          },
+          {
+            "id": "MON_N021",
+            "instance_id": "sample-5/F5/W4/M1",
+            "stats": {
+              "hp": 71,
+              "attack": 13,
+              "action_damage_before_target_reduction": 13,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.4,
+            "behavior_pattern": "locked_point_bomb"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-5/F5/W4/M2",
+            "stats": {
+              "hp": 62,
+              "attack": 9,
+              "action_damage_before_target_reduction": 9,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.26666666666666666,
+            "behavior_pattern": "locked_single_ray"
+          }
+        ],
+        "rng_states": {
+          "composition": 1600388537,
+          "elite": 1818591293
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-5",
+        "floor": 5,
+        "wave": 5,
+        "theme": "结晶",
+        "budget": 9,
+        "spent": 9.0,
+        "reserved_actor_slots": 4,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N006",
+            "instance_id": "sample-5/F5/W5/M0",
+            "stats": {
+              "hp": 87,
+              "attack": 12,
+              "action_damage_before_target_reduction": 12,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2777777777777778,
+            "behavior_pattern": "horizontal_axis_charge"
+          },
+          {
+            "id": "MON_N014",
+            "instance_id": "sample-5/F5/W5/M1",
+            "stats": {
+              "hp": 78,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2777777777777778,
+            "behavior_pattern": "parallel_two_lane_shot"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-5/F5/W5/M2",
+            "stats": {
+              "hp": 87,
+              "attack": 8,
+              "action_damage_before_target_reduction": 8,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2222222222222222,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-5/F5/W5/M3",
+            "stats": {
+              "hp": 68,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2222222222222222,
+            "behavior_pattern": "locked_single_ray"
+          }
+        ],
+        "rng_states": {
+          "composition": 3784256500,
+          "elite": 2351684287
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-5",
+        "floor": 5,
+        "wave": 6,
+        "theme": "结晶",
+        "budget": 11,
+        "spent": 10.3,
+        "reserved_actor_slots": 3,
+        "elite_requested": true,
+        "elite_present": true,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_E011",
+            "instance_id": "sample-5/F5/W6/M0",
+            "stats": {
+              "hp": 143,
+              "attack": 7,
+              "action_damage_before_target_reduction": 0,
+              "heal": 16,
+              "fortify": 0,
+              "budget_cost": 4.800000000000001,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.46601941747572817,
+            "behavior_pattern": "elite_split_total_heal"
+          },
+          {
+            "id": "MON_N034",
+            "instance_id": "sample-5/F5/W6/M1",
+            "stats": {
+              "hp": 139,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2912621359223301,
+            "behavior_pattern": "sidestep_with_fixed_guard_heading"
+          },
+          {
+            "id": "MON_N014",
+            "instance_id": "sample-5/F5/W6/M2",
+            "stats": {
+              "hp": 85,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.24271844660194172,
+            "behavior_pattern": "parallel_two_lane_shot"
+          }
+        ],
+        "rng_states": {
+          "composition": 2757882375,
+          "elite": 68383037
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      }
+    ],
+    "boss": "use separate Boss module"
+  },
+  {
+    "version": "monster100-v1",
+    "floor": 10,
+    "theme": "血肉",
+    "elite_waves": 0,
+    "waves": [
+      {
+        "seed": 42,
+        "run_id": "sample-10",
+        "floor": 10,
+        "wave": 1,
+        "theme": "血肉",
+        "budget": 4,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-10/F10/W1/M0",
+            "stats": {
+              "hp": 70,
+              "attack": 7,
+              "action_damage_before_target_reduction": 7,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-10/F10/W1/M1",
+            "stats": {
+              "hp": 47,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 4076826181,
+          "elite": 3845432956
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-10",
+        "floor": 10,
+        "wave": 2,
+        "theme": "血肉",
+        "budget": 5,
+        "spent": 5.0,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N037",
+            "instance_id": "sample-10/F10/W2/M0",
+            "stats": {
+              "hp": 140,
+              "attack": 9,
+              "action_damage_before_target_reduction": 9,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.7,
+            "behavior_pattern": "closed_guard_open_disk_cycle"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-10/F10/W2/M1",
+            "stats": {
+              "hp": 52,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 928585877,
+          "elite": 1331567461
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-10",
+        "floor": 10,
+        "wave": 3,
+        "theme": "血肉",
+        "budget": 6,
+        "spent": 6,
+        "reserved_actor_slots": 4,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N057",
+            "instance_id": "sample-10/F10/W3/M0",
+            "stats": {
+              "hp": 93,
+              "attack": 8,
+              "action_damage_before_target_reduction": 8,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4,
+              "slot_reservation": 3,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.6666666666666666,
+            "behavior_pattern": "split_on_lethal_fixed_horizontal_pair"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-10/F10/W3/M1",
+            "stats": {
+              "hp": 68,
+              "attack": 9,
+              "action_damage_before_target_reduction": 9,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3333333333333333,
+            "behavior_pattern": "locked_single_ray"
+          }
+        ],
+        "rng_states": {
+          "composition": 1456940096,
+          "elite": 1787241535
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-10",
+        "floor": 10,
+        "wave": 4,
+        "theme": "血肉",
+        "budget": 7.5,
+        "spent": 6.5,
+        "reserved_actor_slots": 4,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N003",
+            "instance_id": "sample-10/F10/W4/M0",
+            "stats": {
+              "hp": 90,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.38461538461538464,
+            "behavior_pattern": "alternating_flank_melee"
+          },
+          {
+            "id": "MON_N057",
+            "instance_id": "sample-10/F10/W4/M1",
+            "stats": {
+              "hp": 102,
+              "attack": 8,
+              "action_damage_before_target_reduction": 8,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4,
+              "slot_reservation": 3,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.6153846153846154,
+            "behavior_pattern": "split_on_lethal_fixed_horizontal_pair"
+          }
+        ],
+        "rng_states": {
+          "composition": 543646712,
+          "elite": 2357231195
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-10",
+        "floor": 10,
+        "wave": 5,
+        "theme": "血肉",
+        "budget": 9,
+        "spent": 9.0,
+        "reserved_actor_slots": 3,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N034",
+            "instance_id": "sample-10/F10/W5/M0",
+            "stats": {
+              "hp": 151,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3333333333333333,
+            "behavior_pattern": "sidestep_with_fixed_guard_heading"
+          },
+          {
+            "id": "MON_N037",
+            "instance_id": "sample-10/F10/W5/M1",
+            "stats": {
+              "hp": 186,
+              "attack": 12,
+              "action_damage_before_target_reduction": 12,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3888888888888889,
+            "behavior_pattern": "closed_guard_open_disk_cycle"
+          },
+          {
+            "id": "MON_N014",
+            "instance_id": "sample-10/F10/W5/M2",
+            "stats": {
+              "hp": 93,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2777777777777778,
+            "behavior_pattern": "parallel_two_lane_shot"
+          }
+        ],
+        "rng_states": {
+          "composition": 2317282080,
+          "elite": 2197440249
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-10",
+        "floor": 10,
+        "wave": 6,
+        "theme": "血肉",
+        "budget": 11,
+        "spent": 10.0,
+        "reserved_actor_slots": 5,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N009",
+            "instance_id": "sample-10/F10/W6/M0",
+            "stats": {
+              "hp": 205,
+              "attack": 16,
+              "action_damage_before_target_reduction": 24,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.35,
+            "behavior_pattern": "stationary_disk_heavy"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-10/F10/W6/M1",
+            "stats": {
+              "hp": 90,
+              "attack": 11,
+              "action_damage_before_target_reduction": 11,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2,
+            "behavior_pattern": "locked_single_ray"
+          },
+          {
+            "id": "MON_N054",
+            "instance_id": "sample-10/F10/W6/M2",
+            "stats": {
+              "hp": 133,
+              "attack": 6,
+              "action_damage_before_target_reduction": 0,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4.5,
+              "slot_reservation": 3,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.45,
+            "behavior_pattern": "brood_proximity_reentry_single"
+          }
+        ],
+        "rng_states": {
+          "composition": 2170829918,
+          "elite": 2321276635
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      }
+    ],
+    "boss": "use separate Boss module"
+  },
+  {
+    "version": "monster100-v1",
+    "floor": 20,
+    "theme": "血肉",
+    "elite_waves": 1,
+    "waves": [
+      {
+        "seed": 42,
+        "run_id": "sample-20",
+        "floor": 20,
+        "wave": 1,
+        "theme": "血肉",
+        "budget": 4,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-20/F20/W1/M0",
+            "stats": {
+              "hp": 101,
+              "attack": 8,
+              "action_damage_before_target_reduction": 8,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-20/F20/W1/M1",
+            "stats": {
+              "hp": 67,
+              "attack": 6,
+              "action_damage_before_target_reduction": 6,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 3610406054,
+          "elite": 1599377685
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-20",
+        "floor": 20,
+        "wave": 2,
+        "theme": "血肉",
+        "budget": 5,
+        "spent": 5.0,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N005",
+            "instance_id": "sample-20/F20/W2/M0",
+            "stats": {
+              "hp": 138,
+              "attack": 11,
+              "action_damage_before_target_reduction": 11,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5,
+            "behavior_pattern": "locked_straight_charge"
+          },
+          {
+            "id": "MON_N006",
+            "instance_id": "sample-20/F20/W2/M1",
+            "stats": {
+              "hp": 113,
+              "attack": 12,
+              "action_damage_before_target_reduction": 12,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5,
+            "behavior_pattern": "horizontal_axis_charge"
+          }
+        ],
+        "rng_states": {
+          "composition": 1732528679,
+          "elite": 1968829473
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-20",
+        "floor": 20,
+        "wave": 3,
+        "theme": "血肉",
+        "budget": 6,
+        "spent": 6.0,
+        "reserved_actor_slots": 4,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N060",
+            "instance_id": "sample-20/F20/W3/M0",
+            "stats": {
+              "hp": 129,
+              "attack": 9,
+              "action_damage_before_target_reduction": 9,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4.5,
+              "slot_reservation": 3,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.75,
+            "behavior_pattern": "split_lethal_second_requires_first_survival"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-20/F20/W3/M1",
+            "stats": {
+              "hp": 84,
+              "attack": 7,
+              "action_damage_before_target_reduction": 7,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.25,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 1070213176,
+          "elite": 1846147558
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-20",
+        "floor": 20,
+        "wave": 4,
+        "theme": "血肉",
+        "budget": 7.5,
+        "spent": 7.0,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N009",
+            "instance_id": "sample-20/F20/W4/M0",
+            "stats": {
+              "hp": 246,
+              "attack": 16,
+              "action_damage_before_target_reduction": 24,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5,
+            "behavior_pattern": "stationary_disk_heavy"
+          },
+          {
+            "id": "MON_N036",
+            "instance_id": "sample-20/F20/W4/M1",
+            "stats": {
+              "hp": 184,
+              "attack": 13,
+              "action_damage_before_target_reduction": 13,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5,
+            "behavior_pattern": "two_side_guards_forward_stab"
+          }
+        ],
+        "rng_states": {
+          "composition": 3615130738,
+          "elite": 2136521302
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-20",
+        "floor": 20,
+        "wave": 5,
+        "theme": "血肉",
+        "budget": 9,
+        "spent": 7.800000000000001,
+        "reserved_actor_slots": 2,
+        "elite_requested": true,
+        "elite_present": true,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_E011",
+            "instance_id": "sample-20/F20/W5/M0",
+            "stats": {
+              "hp": 225,
+              "attack": 8,
+              "action_damage_before_target_reduction": 0,
+              "heal": 28,
+              "fortify": 0,
+              "budget_cost": 4.800000000000001,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.6153846153846154,
+            "behavior_pattern": "elite_split_total_heal"
+          },
+          {
+            "id": "MON_N039",
+            "instance_id": "sample-20/F20/W5/M1",
+            "stats": {
+              "hp": 174,
+              "attack": 17,
+              "action_damage_before_target_reduction": 17,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3846153846153846,
+            "behavior_pattern": "open_melee_then_closed_retreat"
+          }
+        ],
+        "rng_states": {
+          "composition": 2087788655,
+          "elite": 711253624
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-20",
+        "floor": 20,
+        "wave": 6,
+        "theme": "血肉",
+        "budget": 11,
+        "spent": 11.0,
+        "reserved_actor_slots": 6,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N059",
+            "instance_id": "sample-20/F20/W6/M0",
+            "stats": {
+              "hp": 184,
+              "attack": 11,
+              "action_damage_before_target_reduction": 11,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4.5,
+              "slot_reservation": 3,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.4090909090909091,
+            "behavior_pattern": "split_on_lethal_frozen_forward_rear_axis"
+          },
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-20/F20/W6/M1",
+            "stats": {
+              "hp": 166,
+              "attack": 11,
+              "action_damage_before_target_reduction": 11,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.18181818181818182,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N034",
+            "instance_id": "sample-20/F20/W6/M2",
+            "stats": {
+              "hp": 240,
+              "attack": 13,
+              "action_damage_before_target_reduction": 13,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2727272727272727,
+            "behavior_pattern": "sidestep_with_fixed_guard_heading"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-20/F20/W6/M3",
+            "stats": {
+              "hp": 111,
+              "attack": 9,
+              "action_damage_before_target_reduction": 9,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.13636363636363635,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 952626231,
+          "elite": 1496673910
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      }
+    ],
+    "boss": "use separate Boss module"
+  },
+  {
+    "version": "monster100-v1",
+    "floor": 50,
+    "theme": "结晶",
+    "elite_waves": 1,
+    "waves": [
+      {
+        "seed": 42,
+        "run_id": "sample-50",
+        "floor": 50,
+        "wave": 1,
+        "theme": "结晶",
+        "budget": 4,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-50/F50/W1/M0",
+            "stats": {
+              "hp": 300,
+              "attack": 12,
+              "action_damage_before_target_reduction": 12,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-50/F50/W1/M1",
+            "stats": {
+              "hp": 200,
+              "attack": 10,
+              "action_damage_before_target_reduction": 10,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 2594523810,
+          "elite": 1051551859
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-50",
+        "floor": 50,
+        "wave": 2,
+        "theme": "结晶",
+        "budget": 5,
+        "spent": 5.0,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N006",
+            "instance_id": "sample-50/F50/W2/M0",
+            "stats": {
+              "hp": 338,
+              "attack": 20,
+              "action_damage_before_target_reduction": 20,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5,
+            "behavior_pattern": "horizontal_axis_charge"
+          },
+          {
+            "id": "MON_N017",
+            "instance_id": "sample-50/F50/W2/M1",
+            "stats": {
+              "hp": 338,
+              "attack": 15,
+              "action_damage_before_target_reduction": 15,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5,
+            "behavior_pattern": "forward_solid_cone"
+          }
+        ],
+        "rng_states": {
+          "composition": 1789573019,
+          "elite": 2787120670
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-50",
+        "floor": 50,
+        "wave": 3,
+        "theme": "结晶",
+        "budget": 6,
+        "spent": 6,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N040",
+            "instance_id": "sample-50/F50/W3/M0",
+            "stats": {
+              "hp": 626,
+              "attack": 21,
+              "action_damage_before_target_reduction": 21,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.6666666666666666,
+            "behavior_pattern": "front_closed_guard_rear_open_sweep"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-50/F50/W3/M1",
+            "stats": {
+              "hp": 292,
+              "attack": 16,
+              "action_damage_before_target_reduction": 16,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3333333333333333,
+            "behavior_pattern": "locked_single_ray"
+          }
+        ],
+        "rng_states": {
+          "composition": 22555185,
+          "elite": 682897957
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-50",
+        "floor": 50,
+        "wave": 4,
+        "theme": "结晶",
+        "budget": 7.5,
+        "spent": 7.300000000000001,
+        "reserved_actor_slots": 2,
+        "elite_requested": true,
+        "elite_present": true,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_E009",
+            "instance_id": "sample-50/F50/W4/M0",
+            "stats": {
+              "hp": 955,
+              "attack": 18,
+              "action_damage_before_target_reduction": 18,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4.800000000000001,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.6575342465753425,
+            "behavior_pattern": "elite_quarter_turn_shield"
+          },
+          {
+            "id": "MON_N014",
+            "instance_id": "sample-50/F50/W4/M1",
+            "stats": {
+              "hp": 367,
+              "attack": 18,
+              "action_damage_before_target_reduction": 18,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3424657534246575,
+            "behavior_pattern": "parallel_two_lane_shot"
+          }
+        ],
+        "rng_states": {
+          "composition": 1458006193,
+          "elite": 789253225
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-50",
+        "floor": 50,
+        "wave": 5,
+        "theme": "结晶",
+        "budget": 9,
+        "spent": 9.0,
+        "reserved_actor_slots": 3,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N003",
+            "instance_id": "sample-50/F50/W5/M0",
+            "stats": {
+              "hp": 421,
+              "attack": 19,
+              "action_damage_before_target_reduction": 19,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2777777777777778,
+            "behavior_pattern": "alternating_flank_melee"
+          },
+          {
+            "id": "MON_N024",
+            "instance_id": "sample-50/F50/W5/M1",
+            "stats": {
+              "hp": 601,
+              "attack": 25,
+              "action_damage_before_target_reduction": 25,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.4444444444444444,
+            "behavior_pattern": "ordered_two_point_bombs"
+          },
+          {
+            "id": "MON_N005",
+            "instance_id": "sample-50/F50/W5/M2",
+            "stats": {
+              "hp": 551,
+              "attack": 22,
+              "action_damage_before_target_reduction": 22,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2777777777777778,
+            "behavior_pattern": "locked_straight_charge"
+          }
+        ],
+        "rng_states": {
+          "composition": 979459622,
+          "elite": 2681928963
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-50",
+        "floor": 50,
+        "wave": 6,
+        "theme": "结晶",
+        "budget": 11,
+        "spent": 11,
+        "reserved_actor_slots": 3,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N033",
+            "instance_id": "sample-50/F50/W6/M0",
+            "stats": {
+              "hp": 716,
+              "attack": 18,
+              "action_damage_before_target_reduction": 18,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2727272727272727,
+            "behavior_pattern": "front_guard_then_stab"
+          },
+          {
+            "id": "MON_N039",
+            "instance_id": "sample-50/F50/W6/M1",
+            "stats": {
+              "hp": 573,
+              "attack": 30,
+              "action_damage_before_target_reduction": 30,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2727272727272727,
+            "behavior_pattern": "open_melee_then_closed_retreat"
+          },
+          {
+            "id": "MON_N079",
+            "instance_id": "sample-50/F50/W6/M2",
+            "stats": {
+              "hp": 859,
+              "attack": 33,
+              "action_damage_before_target_reduction": 53,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.45454545454545453,
+            "behavior_pattern": "artillery_locked_annulus_safe_center"
+          }
+        ],
+        "rng_states": {
+          "composition": 2263588929,
+          "elite": 1905795440
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      }
+    ],
+    "boss": "use separate Boss module"
+  },
+  {
+    "version": "monster100-v1",
+    "floor": 100,
+    "theme": "血肉",
+    "elite_waves": 0,
+    "waves": [
+      {
+        "seed": 42,
+        "run_id": "sample-100",
+        "floor": 100,
+        "wave": 1,
+        "theme": "血肉",
+        "budget": 4,
+        "spent": 3.5,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N001",
+            "instance_id": "sample-100/F100/W1/M0",
+            "stats": {
+              "hp": 1860,
+              "attack": 26,
+              "action_damage_before_target_reduction": 26,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5714285714285714,
+            "behavior_pattern": "pursue_then_endpoint_melee"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-100/F100/W1/M1",
+            "stats": {
+              "hp": 1240,
+              "attack": 22,
+              "action_damage_before_target_reduction": 22,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 2133439678,
+          "elite": 3782104544
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-100",
+        "floor": 100,
+        "wave": 2,
+        "theme": "血肉",
+        "budget": 5,
+        "spent": 5.0,
+        "reserved_actor_slots": 2,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N006",
+            "instance_id": "sample-100/F100/W2/M0",
+            "stats": {
+              "hp": 2093,
+              "attack": 42,
+              "action_damage_before_target_reduction": 42,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5,
+            "behavior_pattern": "horizontal_axis_charge"
+          },
+          {
+            "id": "MON_N005",
+            "instance_id": "sample-100/F100/W2/M1",
+            "stats": {
+              "hp": 2558,
+              "attack": 37,
+              "action_damage_before_target_reduction": 37,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5,
+            "behavior_pattern": "locked_straight_charge"
+          }
+        ],
+        "rng_states": {
+          "composition": 2151201572,
+          "elite": 2341226591
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-100",
+        "floor": 100,
+        "wave": 3,
+        "theme": "血肉",
+        "budget": 6,
+        "spent": 6.0,
+        "reserved_actor_slots": 3,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-100/F100/W3/M0",
+            "stats": {
+              "hp": 1550,
+              "attack": 25,
+              "action_damage_before_target_reduction": 25,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.25,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          },
+          {
+            "id": "MON_N013",
+            "instance_id": "sample-100/F100/W3/M1",
+            "stats": {
+              "hp": 1809,
+              "attack": 36,
+              "action_damage_before_target_reduction": 36,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3333333333333333,
+            "behavior_pattern": "locked_single_ray"
+          },
+          {
+            "id": "MON_N017",
+            "instance_id": "sample-100/F100/W3/M2",
+            "stats": {
+              "hp": 2326,
+              "attack": 36,
+              "action_damage_before_target_reduction": 36,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.4166666666666667,
+            "behavior_pattern": "forward_solid_cone"
+          }
+        ],
+        "rng_states": {
+          "composition": 846198572,
+          "elite": 1385766229
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-100",
+        "floor": 100,
+        "wave": 4,
+        "theme": "血肉",
+        "budget": 7.5,
+        "spent": 7.0,
+        "reserved_actor_slots": 3,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N004",
+            "instance_id": "sample-100/F100/W4/M0",
+            "stats": {
+              "hp": 3127,
+              "attack": 44,
+              "action_damage_before_target_reduction": 44,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.35714285714285715,
+            "behavior_pattern": "origin_melee_then_pursue"
+          },
+          {
+            "id": "MON_N044",
+            "instance_id": "sample-100/F100/W4/M1",
+            "stats": {
+              "hp": 2274,
+              "attack": 22,
+              "action_damage_before_target_reduction": 0,
+              "heal": 258,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.42857142857142855,
+            "behavior_pattern": "heal_single_target_two_warned_pulses"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-100/F100/W4/M2",
+            "stats": {
+              "hp": 1705,
+              "attack": 28,
+              "action_damage_before_target_reduction": 28,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.21428571428571427,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 4251803457,
+          "elite": 899065689
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-100",
+        "floor": 100,
+        "wave": 5,
+        "theme": "血肉",
+        "budget": 9,
+        "spent": 9.0,
+        "reserved_actor_slots": 5,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N006",
+            "instance_id": "sample-100/F100/W5/M0",
+            "stats": {
+              "hp": 2791,
+              "attack": 54,
+              "action_damage_before_target_reduction": 54,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 2.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2777777777777778,
+            "behavior_pattern": "horizontal_axis_charge"
+          },
+          {
+            "id": "MON_N055",
+            "instance_id": "sample-100/F100/W5/M1",
+            "stats": {
+              "hp": 3969,
+              "attack": 30,
+              "action_damage_before_target_reduction": 30,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 5,
+              "slot_reservation": 3,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.5555555555555556,
+            "behavior_pattern": "brood_first_low_hp_pair"
+          },
+          {
+            "id": "MON_N002",
+            "instance_id": "sample-100/F100/W5/M2",
+            "stats": {
+              "hp": 1860,
+              "attack": 30,
+              "action_damage_before_target_reduction": 30,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 1.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.16666666666666666,
+            "behavior_pattern": "retreat_if_close_else_bite"
+          }
+        ],
+        "rng_states": {
+          "composition": 3329657260,
+          "elite": 3883841727
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      },
+      {
+        "seed": 42,
+        "run_id": "sample-100",
+        "floor": 100,
+        "wave": 6,
+        "theme": "血肉",
+        "budget": 11,
+        "spent": 11.0,
+        "reserved_actor_slots": 5,
+        "elite_requested": false,
+        "elite_present": false,
+        "elite_request_skip_reason": null,
+        "members": [
+          {
+            "id": "MON_N059",
+            "instance_id": "sample-100/F100/W6/M0",
+            "stats": {
+              "hp": 3411,
+              "attack": 38,
+              "action_damage_before_target_reduction": 38,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 4.5,
+              "slot_reservation": 3,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.4090909090909091,
+            "behavior_pattern": "split_on_lethal_frozen_forward_rear_axis"
+          },
+          {
+            "id": "MON_N028",
+            "instance_id": "sample-100/F100/W6/M1",
+            "stats": {
+              "hp": 3957,
+              "attack": 51,
+              "action_damage_before_target_reduction": 51,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3.5,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.3181818181818182,
+            "behavior_pattern": "alternating_half_annuli"
+          },
+          {
+            "id": "MON_N022",
+            "instance_id": "sample-100/F100/W6/M2",
+            "stats": {
+              "hp": 3070,
+              "attack": 58,
+              "action_damage_before_target_reduction": 58,
+              "heal": 0,
+              "fortify": 0,
+              "budget_cost": 3,
+              "slot_reservation": 1,
+              "eligible_by_unlock": true
+            },
+            "reward_weight": 0.2727272727272727,
+            "behavior_pattern": "offset_point_bomb"
+          }
+        ],
+        "rng_states": {
+          "composition": 3072259318,
+          "elite": 3903050374
+        },
+        "validation_boundary": "composition only; no real collision or safe-trajectory test"
+      }
+    ],
+    "boss": "use separate Boss module"
+  }
+]

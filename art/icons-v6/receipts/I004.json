@@ -1,0 +1,86 @@
+{
+  "id": "I004",
+  "name": "旧法杖",
+  "status": "generated-normalized",
+  "source": "mothers/I004.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I004.png",
+  "motherSha256": "28b77acf63d02979d898b0134f1cc3ec97c2bb1c9d3798d12dc7a06fd0f793e1",
+  "motherSize": [
+    1024,
+    1536
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I004.png",
+      "width": 128,
+      "height": 192,
+      "colors": 64,
+      "bytes": 5976,
+      "sha256": "093757564299fcfec155c298cc0e7210f9ab78849003c00d4b1820c5ae3341d6",
+      "pixelSha256": "061d0401eece11b58fb66cc6ab081fe623cf0563da74be44880ac4f4abb1f265",
+      "alphaBounds": [
+        17,
+        4,
+        110,
+        188
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          134,
+          11,
+          901,
+          1526
+        ],
+        "fitSize": [
+          93,
+          184
+        ],
+        "position": [
+          17,
+          4
+        ],
+        "scale": 0.12145214521452145
+      }
+    },
+    "256": {
+      "file": "pixels/256/I004.png",
+      "width": 256,
+      "height": 384,
+      "colors": 96,
+      "bytes": 21548,
+      "sha256": "8eace560bc71b1929f0a61d8d127488b36db98494f9b5b1983a19f17c8d1286a",
+      "pixelSha256": "0e9f934d7301834d6d7111abb2196f6fc02a30c444f884714e78ab5b549d3f16",
+      "alphaBounds": [
+        35,
+        9,
+        221,
+        376
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          134,
+          11,
+          901,
+          1526
+        ],
+        "fitSize": [
+          186,
+          368
+        ],
+        "position": [
+          35,
+          8
+        ],
+        "scale": 0.2429042904290429
+      }
+    }
+  },
+  "visualReview": "passed: generated mother and 256px PNG viewed; correct recognizable single subject; complete silhouette; no visible background residue in normalized PNG",
+  "sourceProvenance": {
+    "sourceFilename": "exec-f03be907-e3ec-44bf-8178-5bab3010f327.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-f03be907-e3ec-44bf-8178-5bab3010f327"
+  }
+}

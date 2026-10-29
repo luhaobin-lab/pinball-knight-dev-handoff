@@ -1,0 +1,86 @@
+{
+  "id": "I040",
+  "name": "弑神枝条",
+  "status": "generated-normalized",
+  "source": "mothers/I040.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I040.png",
+  "motherSha256": "c28d1273f52eed99f12b46d81445d70dd786a0ecdaa6c4a90f8221d03bba0ac0",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I040.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 4104,
+      "sha256": "45181f7a63abfbfbe356287078b01da670bc0a38f16dff224e036474725d8542",
+      "pixelSha256": "c6c7d5d6d8c03207b7c51d2d6b9cdafb058621e815e350b28b8253f45a0b4f79",
+      "alphaBounds": [
+        5,
+        5,
+        123,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          68,
+          34,
+          1228,
+          1218
+        ],
+        "fitSize": [
+          118,
+          120
+        ],
+        "position": [
+          5,
+          4
+        ],
+        "scale": 0.10135135135135136
+      }
+    },
+    "256": {
+      "file": "pixels/256/I040.png",
+      "width": 256,
+      "height": 256,
+      "colors": 95,
+      "bytes": 14671,
+      "sha256": "a6a9285863da9386fbab4aae525dab81a5cb851f50558840d8f0893418c2b34e",
+      "pixelSha256": "92dacb83f6bc7a570652c86f9c124ffd6fffc8d754a46234a72c5b8aeec46d5c",
+      "alphaBounds": [
+        10,
+        9,
+        245,
+        248
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          68,
+          34,
+          1228,
+          1218
+        ],
+        "fitSize": [
+          235,
+          240
+        ],
+        "position": [
+          10,
+          8
+        ],
+        "scale": 0.20270270270270271
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; recognizable rock / detached branch / dragon head, complete single asset",
+  "sourceProvenance": {
+    "sourceFilename": "exec-c3d1452a-b08f-47c3-85b4-829112efe039.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-c3d1452a-b08f-47c3-85b4-829112efe039"
+  }
+}

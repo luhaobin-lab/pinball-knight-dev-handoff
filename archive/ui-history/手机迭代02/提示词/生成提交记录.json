@@ -1,0 +1,120 @@
+[
+  {
+    "name": "营地场景",
+    "input": {
+      "prompt": "Production game background art ONLY. Exact output 3200x1440, 20:9. A restrained, premium, gothic pixel-art camp before entering the abyss. This artwork will be placed BEHIND a separately built mobile interface. Do NOT draw interface panels, frames, borders, text, symbols resembling text, labels, meters, buttons, item grids, cursors, logos, watermarks, or UI ornament.\nREFERENCE 1 is our real game screenshot: retain the charming tiny white-and-brass round-helmet knight identity and the restrained dark teal pixel dungeon language, without copying the dungeon layout. REFERENCE 2 supplies only purposeful gothic stone silhouette, pixel light clustering and limited warm candle highlights. Create an ORIGINAL resting chamber.\nCOMPOSITION in normalized coordinates: nearly black low-contrast sides x0-.20 and x.80-1; main scene x.21-.79. A tall broken pointed stone arch and hanging weathered cloth recede into darkness above the center; one tiny white-helmet knight, full body, at x.50 y.62, calm and upright. A modest closed iron-bound chest at x.29 y.53. On the right x.67 y.51, a stone memorial with a few carved branches and one candle, suggesting a talent altar, not a glowing magical skill tree. Floor in warm charcoal stone, a subdued desaturated moss-green wall, a thread of pale cold window light. Top 18% and bottom 19% remain very quiet and dark for interface overlay; do not put the character at the bottom edge.\nART DIRECTION: deliberate hand-authored pixel clusters, strong readable silhouettes, economical texture, hard pixel edges at an apparent 800x360 native canvas, exported 4x nearest-neighbour appearance. Almost black negative shapes, aged bone highlights and dusty muted green midtones; only 2-3 warm amber pinpoints. Asymmetrical, believable stone architecture, no ornamental symmetry. Flat illustrative lighting with strong shadow shapes. Atmospheric but not blurry or painterly, not 3D, not realistic, no photographic grain or artificial filigree. Do not make everything equally detailed. Large quiet areas are intentional. No shiny gold, bloom, lens flares, neon borders or generic fantasy paladin. The knight is a small in-world sprite, not a giant hero portrait.\nThe final image is a background asset, NOT a complete UI screenshot.",
+      "images": [
+        "archive/ui-history/手机迭代02/素材/真实战斗无UI.png",
+        "archive/ui-history/全集01/参考图/R1_神之亵渎_金属细边与HUD.jpg"
+      ],
+      "modelVersion": "gpt-image-2.5-sunburst",
+      "size": "3200x1440",
+      "n": 1,
+      "quality": "high",
+      "action": "modal"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae22b797a23e72106dcb71e\") 统一轮询任务结果。"
+        }
+      ],
+      "structuredContent": {
+        "capabilityId": "image.gpt",
+        "execution": "message.create",
+        "jobId": "6ae22b797a23e72106dcb71e",
+        "raw": {
+          "id": "6ae22b797a23e72106dcb71e",
+          "object_id": "6ae22b797a23e72106dcb71e",
+          "title": "生成图片",
+          "content": {
+            "status": "pending",
+            "error": null,
+            "extra": null,
+            "buttons": null,
+            "favorites": [],
+            "progress": null,
+            "final_prompt": null,
+            "images": [],
+            "image_names": [],
+            "layer_decomposition": null,
+            "videos": [],
+            "audios": [],
+            "model_files": null
+          },
+          "role": "cli",
+          "createTime": "2026-10-29T01:06:01.295000+08:00",
+          "updateTime": "2026-10-29T01:06:01.338000+08:00",
+          "isFavorite": false,
+          "modelType": "GPT",
+          "messageType": "image",
+          "action": "modal",
+          "modelFormat": {
+            "version": "gpt-image-2.5-sunburst"
+          },
+          "spendTimeSeconds": null
+        }
+      }
+    }
+  },
+  {
+    "name": "商人场景",
+    "input": {
+      "prompt": "Production background art ONLY for a 20:9 mobile gothic pixel-art merchant screen. Exact output 3200x1440. NO UI, NO text, NO text-like glyphs, NO grids, NO panels, NO borders, NO buttons, NO icons, NO resource bars. A separately authored interface will cover the right 78% of the image.\nREFERENCE 1 is for the visual principle of powerful black masses, asymmetric merchant silhouette, and selective warm highlights, NOT to copy any character, props, clothing, artwork or screen layout. REFERENCE 2 supplies the pixel-cluster rendering discipline of a gothic game.\nCreate an ORIGINAL elderly woman itinerant merchant. Weathered face half in shadow, distinctive long hood folded to one side, dark moss cloak over a simple iron key ring, one cloth-wrapped hand resting on a rough counter. No floppy brimmed hat, no jester, no skull mask, no copy of the referenced merchant. The face reads as a strong small sprite silhouette, not a detailed realistic portrait. She looks toward the items to the right.\nCRITICAL COMPOSITION: the complete visible woman sits within x.025-.215 and y.27-.84. Her face center x.12 y.40, head and shoulders occupy the left 17% of the canvas. A dim candle and small bottles behind her at far left. She must NOT drift into the center. Fade to nearly black flat color from x.23 rightward. Center and right 75% are deliberately empty charcoal-black with a subtle suggestion of a wooden counter along the very bottom. Top 20% dark empty. Bottom-left 16% dark enough for a large exit button.\nAESTHETICS: purposeful hand-made pixel clusters, apparent 800x360 base pixel grid enlarged 4x; disciplined 24-40 color palette, crisp edges, ink-black silhouette, dusty olive cloth, dry parchment-colored skin, dull reddish-brown counter. A single warm candle edge light. No gradients that blur pixel edges, no photorealism, no 3D, no shiny metal, no gold filigree, no repeated decorative curls, no smooth AI illustration face. Use sparse asymmetrical human choices, limited texture and large blacks. The only visual focus is the merchant's face on the left. Understated, dark, characterful.",
+      "images": [
+        "archive/ui-history/全集01/参考图/R2_暗黑地牢_商人与物品格.jpg",
+        "archive/ui-history/全集01/参考图/R1_神之亵渎_金属细边与HUD.jpg"
+      ],
+      "modelVersion": "gpt-image-2.5-sunburst",
+      "size": "3200x1440",
+      "n": 1,
+      "quality": "high",
+      "action": "modal"
+    },
+    "result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae22b7d98d303820bdcb180\") 统一轮询任务结果。"
+        }
+      ],
+      "structuredContent": {
+        "capabilityId": "image.gpt",
+        "execution": "message.create",
+        "jobId": "6ae22b7d98d303820bdcb180",
+        "raw": {
+          "id": "6ae22b7d98d303820bdcb180",
+          "object_id": "6ae22b7d98d303820bdcb180",
+          "title": "生成图片",
+          "content": {
+            "status": "pending",
+            "error": null,
+            "extra": null,
+            "buttons": null,
+            "favorites": [],
+            "progress": null,
+            "final_prompt": null,
+            "images": [],
+            "image_names": [],
+            "layer_decomposition": null,
+            "videos": [],
+            "audios": [],
+            "model_files": null
+          },
+          "role": "cli",
+          "createTime": "2026-10-29T01:06:05.800000+08:00",
+          "updateTime": "2026-10-29T01:06:05.829000+08:00",
+          "isFavorite": false,
+          "modelType": "GPT",
+          "messageType": "image",
+          "action": "modal",
+          "modelFormat": {
+            "version": "gpt-image-2.5-sunburst"
+          },
+          "spendTimeSeconds": null
+        }
+      }
+    }
+  }
+]

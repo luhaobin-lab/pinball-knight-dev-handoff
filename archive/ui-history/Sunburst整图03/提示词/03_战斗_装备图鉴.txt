@@ -1,0 +1,7 @@
+Open “装备图鉴”, the third global tab. Generate a COMPLETE beautiful equipment-codex screen, using the battle master as the game's style identity. A spacious codex occupies the left+middle, with the two-cell backpack still distinct on the right. Current top status unchanged.
+This is ONLY an equipment catalogue: no talent tree, mutations, crafting, buy/sell/upgrade functions. Show the three known collected objects in a visually authored selection library: 淬毒利刃, 凝血毒剂, 灵魂香菇. Collected state reads “已收集”; additional mystery slots can be subdued silhouettes without names or a fabricated total collection count.
+Selected item: bronze catalogue 淬毒利刃, an exquisitely readable pixel-art silver dagger with brass hilt. Large title, “青铜”, and full concise effects:
+“充能后，下3次攻击造成15剧毒伤害。”
+“剧毒持续3回合 · 会心几率30%”
+“每8次剧毒伤害，施加1层易伤。”
+No 30 poison or +20% HP in this bronze catalogue entry. Include a clear “返回” control, but no commerce button. Give the page the visual richness, jewel-like icon precision and typographic confidence of a premium authored indie game menu; do not imitate an office grid.

@@ -1,0 +1,40 @@
+游戏交接验证｜2026-10-29
+
+结论：新交接包的独立战斗入口、离线HTML和实际鼠标smoke通过；全量测试存在已复现的基线失败，不能称为全绿。
+
+环境：macOS arm64，Node v24.22.1；实际浏览器为CHROME_PATH选择的已安装Google Chrome。未在Windows/Linux实际运行。
+安装：npm ci完成，新增48个依赖包。默认浏览器为Playwright Chromium；新电脑若未安装，先npx playwright install chromium，也可设置CHROME_PATH或BATTLE_CHROME_PATH。包中不保存测试机Node/Chrome绝对路径。
+
+改动范围：只修工具浏览器选择、临时目录策略、跨平台GPU参数、smoke输出目录，更新说明并允许Git收录delivery。943个src文件与原battle-scene逐项SHA256一致，没有核心游戏代码改动。
+核心源码清单哈希：ef591e06f5ffef6a7a420574c39cd7a0691ce7aa3bb51424f1df38c4a1448c24
+
+全量npm run check：
+- 两次TypeScript检查均通过。
+- 294个测试文件：285通过、6失败、3跳过。
+- 2834个测试：2775通过、6失败、47跳过、6待办。
+- 用时97.92秒；完整失败诊断见game-validation-npm-check.log。
+- 外部原包伪码缺失：content-bpkit加载失败1个suite；projectiles与coverage共3个测试失败。它们依赖旧D盘reference/dump/blueprints-pseudo，不在本次运行包中；未运行data:import。
+- seed516：期待abandoned，得到defeat，原项目同样复现。
+- tools-bot CLI：JSON在65536位置解析失败，原项目同样复现；未擅自修核心/工具既有逻辑。
+- 教程：全量中5000ms超时；原项目与交接包定点复跑均通过，表现为执行负载敏感，不能称稳定复现的迁移回归。
+
+原项目基线复跑：同一Node24，对6个失败文件复跑；5文件失败、1通过，22测试中17通过、5失败，另有1个suite加载失败。日志见game-validation-baseline-rerun.log。
+当前独立战斗定点检查：battle-start、battle-pause及教程3文件16测试全部通过；见game-validation-targeted-tests.log。
+
+离线打包：npm run package:battle通过。
+产物：game/delivery/独立战斗场景.html
+字节数：6327018
+SHA256：f235193b40af35bc71965004f727efc355cf83eed6ef92376ccb66e5158d651a
+新HTML与原独立战斗HTML字节完全一致。单文件超过4000kB只是体量警告；构建工具已检查无外部src/href引用。
+
+实际鼠标smoke：通过。
+- 离线打开、装备提示/菜单、暂停恢复、墙体发射、敌人/墙体发射、重开与1280×720缩窗、全屏进出、原生失败路径、结束后重开。
+- 页面错误0，HTTP外部请求0；两类发射的预览终点偏差均为0。
+- 新证据：game/artifacts/migration-validation/mouse-smoke；历史battle-smoke/battle-outcome证据未覆盖。
+- 已实际查看01-opening、03-item-menu、09-resized、11-result四张截图，确认对应场景可见，未出现空白画面。
+- 这是带debug测量的自动化鼠标测试，不是盲测、手机实机测试或游戏平衡验证。
+
+边界：运行时仍是原有独立战斗UI；art/ui-v10是单独的设计资产，尚未集成游戏。未证明原作完整行为1:1，也未测试Windows/Linux。
+旧SOURCE_AND_VALIDATION.json及原artifacts为历史来源证据，不代表本次全量检查通过。
+
+收尾：六个离线阅读入口已全部核对通过；新包node_modules/dist已移除，保留lockfile及离线HTML。原battle-scene依赖和原始视频仍保留。

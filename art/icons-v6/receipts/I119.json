@@ -1,0 +1,95 @@
+{
+  "id": "I119",
+  "name": "远古兽肉",
+  "status": "generated-normalized",
+  "source": "mothers/I119.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I119.png",
+  "motherSha256": "449844baedc69191eb8c07fe6f3426e677e37ef2fd487f6e2fc457b7aaaefff0",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I119.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2955,
+      "sha256": "359aeab46632842eebfb5e719bd80d9c0e58228f97a21ad450a9dd1f7fde9443",
+      "pixelSha256": "816a4e4a4c6d4afa650af392144aac608f01faf156de62b309c43e45ce43f119",
+      "alphaBounds": [
+        4,
+        8,
+        124,
+        55
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          82,
+          127,
+          1718,
+          773
+        ],
+        "fitSize": [
+          120,
+          47
+        ],
+        "position": [
+          4,
+          8
+        ],
+        "scale": 0.07334963325183375
+      }
+    },
+    "256": {
+      "file": "pixels/256/I119.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 11044,
+      "sha256": "e90752d25b1934feb4ba6d796fbcc14844ea9f36a540b52f44bc3f9f700d1000",
+      "pixelSha256": "a0eea2d6ead2e846e54a0cffcf563c816512b885ecbe0f069656cd74306991e3",
+      "alphaBounds": [
+        8,
+        16,
+        248,
+        111
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          82,
+          127,
+          1718,
+          773
+        ],
+        "fitSize": [
+          240,
+          95
+        ],
+        "position": [
+          8,
+          16
+        ],
+        "scale": 0.1466992665036675
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "I117重做为纯胶状拉丝体液；锻造锤和带骨兽肉主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-cd8d0d2e-829f-453f-8e0b-e448bddf42c6.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-cd8d0d2e-829f-453f-8e0b-e448bddf42c6"
+  }
+}

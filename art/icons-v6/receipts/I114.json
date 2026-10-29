@@ -1,0 +1,95 @@
+{
+  "id": "I114",
+  "name": "旧项链",
+  "status": "generated-normalized",
+  "source": "mothers/I114.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I114.png",
+  "motherSha256": "e9d2fd123d83f82acd9642d81a8f5ee7c3add762c2d9b21bdcff89a553649c58",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I114.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2310,
+      "sha256": "ee10ba331d6ad2ed72a5aaddb48859b8a69e07b5a9813c3652975899fd8147cb",
+      "pixelSha256": "a2acaf0b79b05e62d99cc68bee84ce7ad6a4242ec9b4004af27aeb2995610f6a",
+      "alphaBounds": [
+        4,
+        4,
+        124,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          50,
+          73,
+          1735,
+          853
+        ],
+        "fitSize": [
+          120,
+          56
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.0712166172106825
+      }
+    },
+    "256": {
+      "file": "pixels/256/I114.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 7864,
+      "sha256": "49bb20f873d8215f0552d889a88e5de09b687cbdda226f85f1b69a3673ffbece",
+      "pixelSha256": "823210c59066d2317e67cf0e76cd30cfe1f2049a455983808a28b002df38b3db",
+      "alphaBounds": [
+        8,
+        8,
+        248,
+        119
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          50,
+          73,
+          1735,
+          853
+        ],
+        "fitSize": [
+          240,
+          111
+        ],
+        "position": [
+          8,
+          8
+        ],
+        "scale": 0.142433234421365
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "三枚种子数量、旧匕首缺口、项链闭合链条及骨坠主体核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-5eee3102-66a1-451a-9959-c58eddf49c60.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-5eee3102-66a1-451a-9959-c58eddf49c60"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "id": "I082",
+  "name": "秘银鳞片",
+  "status": "generated-normalized",
+  "source": "mothers/I082.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I082.png",
+  "motherSha256": "50bdb6914cda262e9f44f414da0ea21d17cc751e3f37b30b28a0e5d55ad4ae18",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I082.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6006,
+      "sha256": "806eebd7cb471313c9c7979ad357ae841f69168cac7dad9c0517fa92c6cef3b2",
+      "pixelSha256": "d47d7da431f0e6b3b3f5f1c39c3ed1028ce443ebeab471be3637aeee0f72a9f6",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        122
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          55,
+          53,
+          1227,
+          1193
+        ],
+        "fitSize": [
+          120,
+          117
+        ],
+        "position": [
+          4,
+          5
+        ],
+        "scale": 0.10238907849829351
+      }
+    },
+    "256": {
+      "file": "pixels/256/I082.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21464,
+      "sha256": "45347ec2be5f27f9f5ec83ad1f98b0836c4755c324dabd33102f82ee79ec999b",
+      "pixelSha256": "1ff9834ad75b12152dcdd2011d2d5bedd5fb2e90e710a8ae0ae83f3d8060be79",
+      "alphaBounds": [
+        8,
+        12,
+        248,
+        244
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          55,
+          53,
+          1227,
+          1193
+        ],
+        "fitSize": [
+          240,
+          233
+        ],
+        "position": [
+          8,
+          11
+        ],
+        "scale": 0.20477815699658702
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "一组连接的秘银鳞片，主体可读，无裁切；装饰重复红布尖环，记为风格风险"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-b5c53650-9839-4220-9717-33327071a214.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b5c53650-9839-4220-9717-33327071a214"
+  }
+}

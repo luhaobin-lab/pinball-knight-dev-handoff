@@ -1,0 +1,86 @@
+{
+  "id": "I068",
+  "name": "混沌大剑",
+  "status": "generated-normalized",
+  "source": "mothers/I068.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I068.png",
+  "motherSha256": "6de99576e53e52aa4a348a9fb4369032321ce722159099e47602f2cedf0afeb4",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I068.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 3933,
+      "sha256": "d43437ecfcb4ffd3e84a4cc26068362433451fbd4b9af59d3a6bb45089526f2e",
+      "pixelSha256": "5581d210a7ec7a95e26b95db4b2dd62eecf6e124dcfd610ce8d22ea0a154b8bd",
+      "alphaBounds": [
+        4,
+        5,
+        124,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          13,
+          18,
+          1240,
+          1234
+        ],
+        "fitSize": [
+          120,
+          119
+        ],
+        "position": [
+          4,
+          4
+        ],
+        "scale": 0.097799511002445
+      }
+    },
+    "256": {
+      "file": "pixels/256/I068.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 14342,
+      "sha256": "c32527956fcb60ecf1bf1ffd7269b2cf8d2676aa33a97e79fe1cbb99b9dd2fef",
+      "pixelSha256": "8f302229c4bf15e7a6ffc063aa07b22b2350e65aac0c1b5fc450e3d459b7f4c7",
+      "alphaBounds": [
+        8,
+        10,
+        248,
+        246
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          13,
+          18,
+          1240,
+          1234
+        ],
+        "fitSize": [
+          240,
+          238
+        ],
+        "position": [
+          8,
+          9
+        ],
+        "scale": 0.19559902200489
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-0b1d4163-51cf-41c2-915a-37fcf03fb631.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-0b1d4163-51cf-41c2-915a-37fcf03fb631"
+  }
+}

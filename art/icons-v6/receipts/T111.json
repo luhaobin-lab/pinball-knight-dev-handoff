@@ -1,0 +1,86 @@
+{
+  "id": "T111",
+  "name": "电能缠绕",
+  "status": "generated-normalized",
+  "source": "mothers/T111.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T111.png",
+  "motherSha256": "06888d6bbe9277be5c592c4483c2a9f3a29a8ad0823e29d12a8cbeb77747846f",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T111.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 6934,
+      "sha256": "5f118adc1d4c3849902db2dd291003d512b993dfcc58b0f9d8ce3290940d453f",
+      "pixelSha256": "2dee31520853fa6cd9e56c231a1c5a4bc1c7d9673e3ec1c7d04f3e40a413fe8d",
+      "alphaBounds": [
+        8,
+        4,
+        120,
+        124
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          92,
+          35,
+          1192,
+          1209
+        ],
+        "fitSize": [
+          112,
+          120
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.10221465076660988
+      }
+    },
+    "256": {
+      "file": "pixels/256/T111.png",
+      "width": 256,
+      "height": 256,
+      "colors": 95,
+      "bytes": 25972,
+      "sha256": "8ace808c3f94c4e963bbfd4f9bea671c3debd7cf8e99c4633308bc8c3cc72fd7",
+      "pixelSha256": "0a30a7339094b09aafe828a7903119a10667611a8bba13a0f350bd8e1d25f67a",
+      "alphaBounds": [
+        15,
+        8,
+        240,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          92,
+          35,
+          1192,
+          1209
+        ],
+        "fitSize": [
+          225,
+          240
+        ],
+        "position": [
+          15,
+          8
+        ],
+        "scale": 0.20442930153321975
+      }
+    }
+  },
+  "visualReview": "pass: mother and 256px contact inspected, correct subject and complete silhouette",
+  "sourceProvenance": {
+    "sourceFilename": "exec-b479c63b-b7c2-4c95-923a-b13ebca95a68.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-b479c63b-b7c2-4c95-923a-b13ebca95a68"
+  }
+}

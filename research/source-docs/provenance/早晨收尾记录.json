@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "status": "nightly-run-closed-with-explicit-research-gaps",
+  "closedAtAsiaShanghai": "2026-10-28T08:07:35.541984+08:00",
+  "sourceBuild": 25684533,
+  "target": "Morningread-onlyverificationandhandoffofauthorizednightreferencework",
+  "verification": {
+    "frozenDeliverableFiles": 10,
+    "frozenDeliverablesUnchanged": true,
+    "installationFiles": 41,
+    "installationBytes": 593640945,
+    "installationUnchanged": true,
+    "sourceReport": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\morning-source-verification-20261028.json",
+    "independentReport": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\morning-independent-20261028.json"
+  },
+  "handoff": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\早晨交接_20261028.md",
+  "handoffSha256": "14d178edfe2b565d2b6120947c18fcc00f2fb1a42a164e009f9c792a6868a1d2",
+  "workbooks": {
+    "数值与机制卷": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3_01数值与机制.xlsx",
+    "原始字段与证据卷": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\Ricochet_Abyss_Demo_R3_02原始字段与证据.xlsx",
+    "技能与天赋消费者卷": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充B_技能与天赋消费者.xlsx"
+  },
+  "dataSheets": 115,
+  "sheetsWithIndexes": 118,
+  "frozenR3RebuiltOrModified": false,
+  "gameOrUIChanged": false,
+  "originalGameLaunched": false,
+  "exactWholeGameParityProven": false,
+  "openResearchBoundaries": [
+    "FullsessionRNGinterleavinganddynamicpaths",
+    "Chaoscontacts/equaltime/ticklatent/actorordering",
+    "FullPRDTLS/cachewrapperandallocatorbehavior",
+    "UMGCDO/virtualdefaults andexactPaperZDoverridechain"
+  ],
+  "automation": {
+    "id": "abyss-demo",
+    "deletionConfirmed": true,
+    "deleteStatus": "deleted",
+    "confirmedAtUTC": "2026-10-28T00:08:35.570036+00:00",
+    "evidence": "automation_update mode=delete returned Deleted automation in the app."
+  },
+  "proposals": [],
+  "needs": []
+}

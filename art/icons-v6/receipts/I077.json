@@ -1,0 +1,95 @@
+{
+  "id": "I077",
+  "name": "爆裂圆盾",
+  "status": "generated-normalized",
+  "source": "mothers/I077.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I077.png",
+  "motherSha256": "a06ecec887dbd03c8b7a7d0eee44881c691ac9f2df75018284c2cda778669ab8",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I077.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 7133,
+      "sha256": "eac7aeb4a61c38e6add5b91ace98cb9e7350418025209e9020b0fa0e7e122040",
+      "pixelSha256": "54ef853c7016f5f97d6d02b6259224dc7a88ac452c4ad18d64a67a9e8c24988a",
+      "alphaBounds": [
+        4,
+        6,
+        124,
+        122
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          50,
+          72,
+          1198,
+          1186
+        ],
+        "fitSize": [
+          120,
+          116
+        ],
+        "position": [
+          4,
+          6
+        ],
+        "scale": 0.10452961672473868
+      }
+    },
+    "256": {
+      "file": "pixels/256/I077.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 27146,
+      "sha256": "d7bff8f75aba91bae00dc4c5574f11066ec34918fc5c84df05e36ac731b3642e",
+      "pixelSha256": "ecbf4f375ed55fbc8de750f5bc3e7d33170e770c8f15137644e9c744cd96dddc",
+      "alphaBounds": [
+        9,
+        11,
+        248,
+        243
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          50,
+          72,
+          1198,
+          1186
+        ],
+        "fitSize": [
+          240,
+          233
+        ],
+        "position": [
+          8,
+          11
+        ],
+        "scale": 0.20905923344947736
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "I074重做俯视八足清晰可数；成对浴火拳套、裂缝圆盾主体通过。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-caaf4e04-8ed7-4e11-842d-b7335bdcf773.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-caaf4e04-8ed7-4e11-842d-b7335bdcf773"
+  }
+}

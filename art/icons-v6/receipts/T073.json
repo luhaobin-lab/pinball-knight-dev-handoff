@@ -1,0 +1,93 @@
+{
+  "id": "T073",
+  "name": "创口切割",
+  "status": "generated-normalized",
+  "source": "mothers/T073.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/T073.png",
+  "motherSha256": "2a743827a6cf6b21bd74e2c0d095d448c492ac74742e530f9697253afc72a133",
+  "motherSize": [
+    1254,
+    1254
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/T073.png",
+      "width": 128,
+      "height": 128,
+      "colors": 64,
+      "bytes": 5727,
+      "sha256": "c404f91eb50da2bdf75314a0d10c72be5c3ddc29f30e0b050e7ad03722bd570d",
+      "pixelSha256": "1b0dfb7ef9a1bb800bc67da803f95c2400dcc3150f190bac2d7fd5ee96f4bbba",
+      "alphaBounds": [
+        7,
+        4,
+        121,
+        123
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          72,
+          31,
+          1208,
+          1228
+        ],
+        "fitSize": [
+          114,
+          120
+        ],
+        "position": [
+          7,
+          4
+        ],
+        "scale": 0.10025062656641603
+      }
+    },
+    "256": {
+      "file": "pixels/256/T073.png",
+      "width": 256,
+      "height": 256,
+      "colors": 96,
+      "bytes": 21104,
+      "sha256": "19dccb8ae7b2320504c40071f1d19baee972ae71dc796ca5a24ef8ca23ff8d57",
+      "pixelSha256": "35b4a01f97ef1eee4ff3956627fa4a2df7a5a787fa368ef7182de19ea8b6f34b",
+      "alphaBounds": [
+        14,
+        8,
+        242,
+        247
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          72,
+          31,
+          1208,
+          1228
+        ],
+        "fitSize": [
+          228,
+          240
+        ],
+        "position": [
+          14,
+          8
+        ],
+        "scale": 0.20050125313283207
+      }
+    }
+  },
+  "visualReview": "passed: independent native256 PNG review against source brief on qa/root-independent-contact-02.png; correct subject and complete readable silhouette, no visible background matte",
+  "independentVisualReview": {
+    "reviewer": "audit_workshop",
+    "status": "pass",
+    "contactSheet": "qa/root-independent-contact-02.png",
+    "pixelSha256": "35b4a01f97ef1eee4ff3956627fa4a2df7a5a787fa368ef7182de19ea8b6f34b",
+    "note": "Named subject and authored visual metaphor are readable at native256; no obvious crop, wrong container, unrelated subject, background matte, or major structural distortion found."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-ee7cc82e-0523-4bb1-b8ee-b0f50a22332f.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-ee7cc82e-0523-4bb1-b8ee-b0f50a22332f"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "createdAgainst": "36eaa86 (explicit G2 reward projection and gravity-pickup lifecycle)",
+  "purpose": "Stable source-boundary regression inputs, separate from natural full-run acceptance.",
+  "historicalCapturesPreservedUnchanged": [
+    { "file": "seed2-boss-corner.json", "baseline": "58ad9d8 + 70bcad3", "sha256": "411B6B3E43837F5CBA04E6D3BEB76118E6E7E5A73B73F0DBC8F1069AFCA1EF84" },
+    { "file": "seed1-frame-boundary.json", "baseline": "2ba90eb", "sha256": "D7811E4AAFDC358C7DF08A1FF7E3950CA65A3B9390C7FBC62436CC848FA37C46" },
+    { "file": "seed16-modal-boundary.json", "baseline": "894c73a", "sha256": "855B5583A7C8500022072294BB961E1FB5E6A0B0F3540E96E954895A25740CE8" }
+  ],
+  "whyHistoricalRunsAreNotCurrentFixtures": "Explicit G2 reward projection removes undeclared item creation and downstream RNG draws; real vortex pickup also changes subsequent trajectories. Hardcoded actor/item IDs and fixed victory outcomes no longer identify the intended source boundary.",
+  "fixtures": {
+    "naturalSmoke": "Current createGame title -> newRun -> hero.start -> first room -> real loot -> return map, commands derived from legal(), compared before/after each command using full digest, scheduler and RNG state.",
+    "corner": "Current real first room uses the same rectangle [-896,896]x[-640,640] as captured seed2 corner. Extract captured hero position from old +4096 cursor sample and explicitly place hero there. Hide unrelated neutral chest to isolate release/cooldown decisions. Real preview/playback/cooldown/commands remain unchanged. This is not boss progression proof.",
+    "modal": "Current real first room advanced to captured non-frame timestamp minus source multi-choice0.2s timer. Invoke real multi-choice with one source talent row, then reroll/pick through real API. Verify the old1e-9 replay loop actually stops before modal callback; exact-time replay matches full digest without rounding.",
+    "distantProp": "Current real first room; replace its neutral prop using actual 交互宝箱_废品 row and generation/field facades, reveal it at x=-600 or600,y=256. Preserve TooFar rejection, then real bot preview/launch approach and loot interaction. These are controlled spatial fixtures, not claims that arbitrary seeds always encounter distant props.",
+    "lootCapacityNaturalRun": "Seed7/index6 still must end normally and exercise loot.close; its victory/death outcome is allowed to follow current source mechanics. Full-capacity legality/purity/payment/space assertions remain in dedicated tests."
+  },
+  "notChanged": ["production source", "registry", "reward pools", "gravity behavior", "historical JSON bytes", "assertions for zero-length chains, cooldown timing, full digest or original distance rejection"]
+}

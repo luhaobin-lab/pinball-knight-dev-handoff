@@ -1,0 +1,86 @@
+{
+  "id": "I039",
+  "name": "厚重石块",
+  "status": "generated-normalized",
+  "source": "mothers/I039.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I039.png",
+  "motherSha256": "9453af9ed1436dbc5cd6ee11e91d337555ce6c70acf256ce2ed011d36e986260",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I039.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2965,
+      "sha256": "1ca08975af01f49f5fa47d122070dfa533eb4db1cf14f05a18c78891062cb09d",
+      "pixelSha256": "0d1daef31e3b5e7d4b60e4b6b430da56c1cc5aaeb9f75a37ada497e9c6d07460",
+      "alphaBounds": [
+        16,
+        4,
+        111,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          177,
+          26,
+          1597,
+          867
+        ],
+        "fitSize": [
+          95,
+          56
+        ],
+        "position": [
+          16,
+          4
+        ],
+        "scale": 0.06658739595719382
+      }
+    },
+    "256": {
+      "file": "pixels/256/I039.png",
+      "width": 256,
+      "height": 128,
+      "colors": 95,
+      "bytes": 10822,
+      "sha256": "724e3c2b38c869b694af466b6a2129c3c4cc69edcf5dd7cfbf4e99a1ca1628d8",
+      "pixelSha256": "1a58dda35b4793ce7401a5d6812dcf051aff8dc429b9e39689230e3c8e77abfb",
+      "alphaBounds": [
+        33,
+        8,
+        222,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          177,
+          26,
+          1597,
+          867
+        ],
+        "fitSize": [
+          189,
+          112
+        ],
+        "position": [
+          33,
+          8
+        ],
+        "scale": 0.13317479191438764
+      }
+    }
+  },
+  "visualReview": "passed: mother and 256px PNG viewed; recognizable rock / detached branch / dragon head, complete single asset",
+  "sourceProvenance": {
+    "sourceFilename": "exec-36734928-99e7-494d-9d38-9f21dbe4644b.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-36734928-99e7-494d-9d38-9f21dbe4644b"
+  }
+}

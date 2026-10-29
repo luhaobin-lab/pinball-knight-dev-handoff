@@ -1,0 +1,359 @@
+{
+  "source": "D:/TAPTAPGAME_codex/studio/logs/g2-boss-lock/seed2-callback/report.json",
+  "baseline": "58ad9d8 + 70bcad3",
+  "seed": 2,
+  "runIndex": 0,
+  "note": "First 69 commands from the pre-fix real seed2 boss softlock, at the corner with a 0.05s cooldown. No state is fabricated.",
+  "commands": [
+    {
+      "type": "title.newRun"
+    },
+    {
+      "type": "hero.start"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r1c0"
+    },
+    {
+      "type": "interact",
+      "actor": 210
+    },
+    {
+      "type": "loot.take",
+      "item": 223
+    },
+    {
+      "type": "map.enter",
+      "cell": "r2c0"
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -781.5536450623275,
+        "y": 4020.7449434016316
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -2661.7029878081457,
+        "y": -3069.681077434631
+      }
+    },
+    {
+      "type": "modal.pick",
+      "option": 0
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -2077.8088339069072,
+        "y": 3671.580925388132
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -3955.287426440951,
+        "y": 2407.407821460285
+      }
+    },
+    {
+      "type": "panel.continue"
+    },
+    {
+      "type": "loot.take",
+      "item": 421
+    },
+    {
+      "type": "map.enter",
+      "cell": "r3c1"
+    },
+    {
+      "type": "interact",
+      "actor": 498
+    },
+    {
+      "type": "loot.take",
+      "item": 511
+    },
+    {
+      "type": "loot.take",
+      "item": 516
+    },
+    {
+      "type": "loot.take",
+      "item": 521
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r4c1"
+    },
+    {
+      "type": "interact",
+      "actor": 604
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r5c0"
+    },
+    {
+      "type": "interact",
+      "actor": 693
+    },
+    {
+      "type": "loot.take",
+      "item": 706
+    },
+    {
+      "type": "map.enter",
+      "cell": "r6c0"
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3313.7336089597848,
+        "y": 2407.56839338997
+      }
+    },
+    {
+      "type": "modal.pick",
+      "option": 0
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3837.756507909435,
+        "y": 1616.077825705082
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3429.9188044544626,
+        "y": -2261.320685400054
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 2953.298171045975,
+        "y": -3378.5936175222905
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 2180.763774780286,
+        "y": 3896.3801833169723
+      }
+    },
+    {
+      "type": "panel.continue"
+    },
+    {
+      "type": "loot.take",
+      "item": 917
+    },
+    {
+      "type": "map.enter",
+      "cell": "r7c1"
+    },
+    {
+      "type": "interact",
+      "actor": 995
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r8c0"
+    },
+    {
+      "type": "interact",
+      "actor": 1084
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r9c0"
+    },
+    {
+      "type": "interact",
+      "actor": 1173
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "map.enter",
+      "cell": "r10c0"
+    },
+    {
+      "type": "interact",
+      "actor": 1260
+    },
+    {
+      "type": "loot.close"
+    },
+    {
+      "type": "item.move",
+      "item": 917,
+      "to": {
+        "grid": "equip",
+        "row": 4,
+        "col": 0
+      }
+    },
+    {
+      "type": "item.move",
+      "item": 521,
+      "to": {
+        "grid": "equip",
+        "row": 5,
+        "col": 0
+      }
+    },
+    {
+      "type": "map.enter",
+      "cell": "r11c0"
+    },
+    {
+      "type": "modal.pick",
+      "option": 0
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -71.48505676711312,
+        "y": 4095.3761593605786
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3606.3289939857345,
+        "y": 2252.899999033092
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 4069.415499358589,
+        "y": 1862.929314669113
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3566.620005040019,
+        "y": 2085.404329575009
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 4056.5673567523836,
+        "y": 1856.938127378772
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 3566.620005040019,
+        "y": 2085.404329575009
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": 4056.5673567523836,
+        "y": 1856.938127378772
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -2436.0708232782777,
+        "y": 3750.0978266705547
+      }
+    },
+    {
+      "type": "panel.continue"
+    },
+    {
+      "type": "loot.take",
+      "item": 1488
+    },
+    {
+      "type": "map.enter",
+      "cell": "r12c1"
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -3853.6050018567207,
+        "y": 2170.5493062992073
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -4471.749653950858,
+        "y": 652.1302200259803
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -914.2850560041736,
+        "y": 4680.189489652981
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -842.8008718573822,
+        "y": 4681.0133226771595
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -842.8008718573822,
+        "y": 4681.213322677159
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -842.8008718573822,
+        "y": 4681.413322677159
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -842.8008718573822,
+        "y": 4681.613322677159
+      }
+    },
+    {
+      "type": "aim.release",
+      "aim": {
+        "x": -842.8008718573822,
+        "y": 4681.813322677159
+      }
+    }
+  ]
+}

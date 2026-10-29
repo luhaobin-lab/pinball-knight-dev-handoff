@@ -1,0 +1,390 @@
+{
+  "createdAt": "2026-10-28T17:38:59.368Z",
+  "logicalCanvas": [
+    800,
+    360
+  ],
+  "exportScale": 4,
+  "method": "Chrome renders local HTML/CSS with real text; high resolution uses deviceScaleFactor 4, not post-upscaling.",
+  "pages": [
+    {
+      "file": "手机尺寸/01_战斗_装备栏位.png",
+      "bytes": 202971,
+      "width": 800,
+      "height": 360,
+      "sha256": "6ba8e901090238b62d9183c4609caa34d1494432e1fc66a9d8772c4151f594ee",
+      "screen": "01",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/02_战斗_英雄属性与天赋.png",
+      "bytes": 64355,
+      "width": 800,
+      "height": 360,
+      "sha256": "a12be98933f0f618f679895b1e9c02554b88489d6b5be2106e325246653b87d4",
+      "screen": "02",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/03_战斗_装备图鉴.png",
+      "bytes": 60274,
+      "width": 800,
+      "height": 360,
+      "sha256": "5f43d5edc88e2574e4efef52e98d8c11d0b7d7368557ff730861956dd1f19186",
+      "screen": "03",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "24px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/04_营地_冒险准备.png",
+      "bytes": 239874,
+      "width": 800,
+      "height": 360,
+      "sha256": "56d28e22a986a1493ddd03aba0b2ae5831c41aced5b01727fdd6b19802b7fda3",
+      "screen": "04",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/05_营地_天赋解锁.png",
+      "bytes": 122017,
+      "width": 800,
+      "height": 360,
+      "sha256": "a49df6576df270175bc8dbb5025da7de75ba002833a0a1979f4fab2cc9f2286a",
+      "screen": "05",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/06_营地_天赋升级.png",
+      "bytes": 120167,
+      "width": 800,
+      "height": 360,
+      "sha256": "5320f777059c90cc6ede819e8fe336ff3ff9780baa77932cf89a4ffd4b9d5bb2",
+      "screen": "06",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/07_营地_保险箱存取.png",
+      "bytes": 177699,
+      "width": 800,
+      "height": 360,
+      "sha256": "62fd4cb12863f1aa0c9e0c6f7dc52238272825be613f85cd77402010ec28f2bc",
+      "screen": "07",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/08_营地_地牢选择.png",
+      "bytes": 158828,
+      "width": 800,
+      "height": 360,
+      "sha256": "02e9e401aa3c573247af4d10f6a431caca19fc01d18cf194f5e8ece63393259c",
+      "screen": "08",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px",
+        "32px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/09_商店_购买详情.png",
+      "bytes": 154505,
+      "width": 800,
+      "height": 360,
+      "sha256": "d24559977fc21bee8acb2e8e837ec6dade0fa4728474f4bb614f56ffcd8d98a9",
+      "screen": "09",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "24px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/10_商店_出售详情.png",
+      "bytes": 160621,
+      "width": 800,
+      "height": 360,
+      "sha256": "430302721ee4a8a039fcf4c2e4a95287d841cb3c771c09b2bec9fd17eb0ffa1a",
+      "screen": "10",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "24px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/11_战利品_宝箱领取.png",
+      "bytes": 80031,
+      "width": 800,
+      "height": 360,
+      "sha256": "16fe60ad207b7dda9a157c492a8e441bb64e52484dc69203a0f6e437e0cc016b",
+      "screen": "11",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "手机尺寸/12_战斗_装备详情.png",
+      "bytes": 132340,
+      "width": 800,
+      "height": 360,
+      "sha256": "ab3b32b6e3ee586e2cfc107a833703e4f08f9e2aab884de829b563de7d27d194",
+      "screen": "12",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/01_战斗_装备栏位.png",
+      "bytes": 997884,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "4e32c4f2c9b949feac801cf1582eedcd0d034fe0e07cab8bae9557edb7359a23",
+      "screen": "01",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/02_战斗_英雄属性与天赋.png",
+      "bytes": 341205,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "22867b7c67659f15a6de8b817f96edfc49443b878b6d07e61ef6e4fb956dfde8",
+      "screen": "02",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/03_战斗_装备图鉴.png",
+      "bytes": 328776,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "375366c2821250145ca50fd45819af09d8a29a4ce99696c22dc690555f816b1e",
+      "screen": "03",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "24px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/04_营地_冒险准备.png",
+      "bytes": 2406801,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "27e016c06f6d069786bc73dbc383e91606b1ca05726ef8e53daec5cdefbf81dd",
+      "screen": "04",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/05_营地_天赋解锁.png",
+      "bytes": 960511,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "8c68c94725754c7f3d3517da6735b63cad8a99a821b435088c689f36fe923cd8",
+      "screen": "05",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/06_营地_天赋升级.png",
+      "bytes": 952586,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "cb5702f3e53679fe7d0347dceeed98512527f0ce69dc0d291a864fe673299839",
+      "screen": "06",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/07_营地_保险箱存取.png",
+      "bytes": 1621088,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "f9115235ff45d5d1305fe2be550c75bec6aabb1fedcc0d315d66378143545ec3",
+      "screen": "07",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/08_营地_地牢选择.png",
+      "bytes": 1464974,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "2d96bebed9e6dd9f9ee72659a3803b5cc8c74b29a9fff549b6000d18483c6403",
+      "screen": "08",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px",
+        "32px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/09_商店_购买详情.png",
+      "bytes": 1267942,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "e58fca7c50beb17ef086663667750a11743be537c4477e2610e158c02f1cc971",
+      "screen": "09",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "24px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/10_商店_出售详情.png",
+      "bytes": 1308267,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "2f43aa62d0ebe1b1e94dce3901a81eb57fdaff7ed0979f530c6b6ad4be0d4824",
+      "screen": "10",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "24px",
+        "14px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/11_战利品_宝箱领取.png",
+      "bytes": 527411,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "cc73e2ea17df2996a146ac8f9c594eae997b1ec2f20c28f73fb8ae641de079f5",
+      "screen": "11",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px"
+      ],
+      "loadedImages": true
+    },
+    {
+      "file": "渲染图/12_战斗_装备详情.png",
+      "bytes": 669513,
+      "width": 3200,
+      "height": 1440,
+      "sha256": "fe28e0c1cbd87fda360ee8dff5466cddac9529cd2cf4847e646545794f75206b",
+      "screen": "12",
+      "fonts": [
+        "16px",
+        "12px",
+        "20px",
+        "14px",
+        "24px"
+      ],
+      "loadedImages": true
+    }
+  ],
+  "errors": []
+}

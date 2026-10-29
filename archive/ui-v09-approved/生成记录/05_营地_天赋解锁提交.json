@@ -1,0 +1,58 @@
+{
+  "input": {
+    "prompt": "Create ONE complete finished 3200x1440 game screen in the EXACT approved visual system of Image1. Image1 is our approved 风暴怕死队-style battle master. The user approved this direction: preserve its hanging-page tabs, enlarged hand-drawn resource icons, letterforms, palette, timber/brass frames, slot surfaces, item art, contour weight and spacing. Supporting official screenshots establish the same UI family; do not copy their game text or mechanics.\n\nKeep the shared header pixel positions and scale. Exactly three tabs 装备栏位 / 英雄属性 / 装备图鉴; change only the selected tab as this page requires. Top right remains 生命180/180 full, 体力100/100 full, 腐化0/100 EMPTY, 金币4. Preserve the master's LARGE icons and numbers; never shrink them. All body text must be clear at phone scale: preferably at least56px, important numbers64px. Keep Chinese typography consistent with Image1.\n\nUnless the page explicitly replaces the left+central area with a wide sheet, preserve BOTH side panels from Image1: 战斗装备 and 背包, matching top, bottom, width, title baseline and all four card rows. Both use ONE COLUMN of full-width horizontal cards, never split cells. Default left cards: green vial8/1, pale mushroom4 only, silver dagger30/2 with one purple enchantment mark and EMPTY0/100; fourth locked. Default right: three empty full-width cards and bottom locked. Page-specific ownership changes below override only those stated rows. Names/descriptions do not appear permanently on the equipped side cards.\n\nOnly the central page content, contextual title and authorized states/actions change. Use the approved hand-inked, warm brown/ochre UI with simple colored item art; no new art style, generic dark CSS boxes, photoreal metallic bevels, copied source-game branding, keyboard hints or developer placeholders. Selected controls and buttons should share the official game's warm amber/green-corner visual language and readable cream lettering. One primary task/action; align all bottom actions, with quieter secondary action at the left and primary at right. Remove battle aiming instructions on non-battle pages. Do not invent game features, fees, resources or extra controls beyond the page spec. Render the ENTIRE final screenshot with all art, labels and numbers in the image model.\n\n\nPAGE 05 — CAMP / UNLOCK AN UNLEARNED TALENT, BEFORE CONFIRMATION.\nUse the GENERATED PAGE 02 “战斗_英雄属性与天赋” as the exact STRUCTURAL reference. Use “原始生成图/01_战斗_风暴UI.png” only to preserve the approved common frame. Match page 02's character-sheet bounds, left portrait and statistics, divider, all six talent positions, detail area, footer, backpack and header one for one. Change only the camp context and selected talent's state/copy/actions; do not redesign or zoom the page.\n\nFIXED HERO-PAGE STRUCTURE — IDENTICAL FOR SCREENS 02, 05 AND 06:\nKeep the approved battle master's canvas, top header and separate RIGHT backpack. Open ONE wide character sheet across the existing LEFT equipment region AND CENTRAL playfield; its right edge stops before the backpack with a clear gap. Align the sheet's top and bottom with the backpack panel. The character sheet replaces the left equipment list and covers the central battlefield; do not retain a second equipment sidebar inside it.\nWithin this wide sheet, character ATTRIBUTES occupy the LEFT approximately one-third; TALENTS occupy the RIGHT approximately two-thirds. Both remain fully visible at the same time. Use one quiet vertical division, no secondary tabs or page switching between attributes and talents.\nLEFT: heading “幽冥骑士”, a compact portrait of the same white/brass-helmet knight from the approved master, then five generously spaced label/value rows: “生命上限 180”, “基础伤害 30”, “护甲 0”, “会心几率 0%”, “弹射距离 500”. Keep the portrait subordinate to the information; no giant new character illustration.\nRIGHT: heading “角色天赋”; exactly SIX talent tiles in a stable 3-column by 2-row arrangement. First row left to right: “药剂师”, “博学”, “上肢力量”. Second row: “强韧”, “体质”, “敏捷”. Each tile has one readable icon and its exact name. Below the six tiles reserve a fixed full-width selected-talent detail area, then a fixed status/resource line, then one fixed bottom action row. Keep these regions, their dimensions, and every tile position identical across all three screens. Do not invent connecting prerequisite lines, extra talents, numeric levels or learned-state badges for the other five talents.\nTOP NAVIGATION: keep exactly the master's three hanging-page tabs “装备栏位 / 英雄属性 / 装备图鉴” in the same positions and sizes. SECOND tab “英雄属性” is selected; first and third are inactive. Preserve the hanging loops and paper-tab construction already established by the approved master and official Chinese tab reference. Do not copy the reference game's tab labels or side categories.\nRIGHT BACKPACK: preserve the approved master's entire outer frame, title “背包”, exact position and size. Inside it retain one VERTICAL column of FOUR full-width slots: top three EMPTY, bottom one LOCKED. No split cells, no two-column item grid, no extra items. The wide character sheet never covers or narrows this backpack.\nUPPER-RIGHT STATUS: keep the master's large icons, scale, positions and values: “生命 180/180”, “体力 100/100”, “腐化 0/100” with EMPTY corruption bar, “金币 4”. Do not add a skill-point balance or another currency group.\nKeep all final labels and actions inside their allocated page regions. Remove the underlying “按住瞄准 · 松手弹射” instruction while this sheet is open. Do not add keyboard prompts, developer notes, question marks, placeholder numbers or a second popup. The old numeric talent costs and level progression are unspecified and must not be invented.\n\nPAGE 05 STATE AND EXACT COPY:\nChange the location plate text to “营地”, preserving its size and position. Keep “药剂师” selected in the SAME tile position used in page 02. It is UNLEARNED: show “未解锁” clearly in the existing selected-detail/status region; use the existing tile's locked treatment without moving it.\nIn the fixed detail area show “药剂师” and exactly: “使用生命药剂时，额外治愈5%生命。”\nIn the fixed status/resource line show “未解锁 · 消耗技能点”. Show the resource TYPE only: no numeric skill-point cost and no available-point balance. Do not show “?” or “待定” in place of a number.\nIn the same primary action position used by page 02 place one large “解锁天赋” button. The reserved secondary position contains “返回营地”. Keep the footer and both action positions fixed for page 06.\nThis is the pre-unlock state, not a success screen. Do not show a level, upgrade preview, “升级天赋”, gold unlock cost, a confirmation dialog, success flare or a newly learned result. The other five talent tiles remain in the same neutral presentation as page 02, with no invented prerequisites or state changes.\n",
+    "images": [
+      "archive/ui-v09-approved/原始生成图/01_战斗_风暴UI.png",
+      "archive/ui-v09-approved/原始生成图/02_战斗_英雄属性与天赋.png"
+    ],
+    "modelVersion": "gpt-image-2.5-sunburst",
+    "size": "3200x1440",
+    "n": 1,
+    "quality": "max",
+    "action": "modal"
+  },
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "能力 image.gpt 已提交。下一步请使用 poll_result(jobId: \"6ae2e40887ada5af0ddcadf6\") 统一轮询任务结果。"
+      }
+    ],
+    "structuredContent": {
+      "capabilityId": "image.gpt",
+      "execution": "message.create",
+      "jobId": "6ae2e40887ada5af0ddcadf6",
+      "raw": {
+        "id": "6ae2e40887ada5af0ddcadf6",
+        "object_id": "6ae2e40887ada5af0ddcadf6",
+        "title": "生成图片",
+        "content": {
+          "status": "pending",
+          "error": null,
+          "extra": null,
+          "buttons": null,
+          "favorites": [],
+          "progress": null,
+          "final_prompt": null,
+          "images": [],
+          "image_names": [],
+          "layer_decomposition": null,
+          "videos": [],
+          "audios": [],
+          "model_files": null
+        },
+        "role": "cli",
+        "createTime": "2026-10-29T14:13:28.290000+08:00",
+        "updateTime": "2026-10-29T14:13:28.334000+08:00",
+        "isFavorite": false,
+        "modelType": "GPT",
+        "messageType": "image",
+        "action": "modal",
+        "modelFormat": {
+          "version": "gpt-image-2.5-sunburst"
+        },
+        "spendTimeSeconds": null
+      }
+    }
+  }
+}

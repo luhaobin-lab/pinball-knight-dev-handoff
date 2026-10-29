@@ -1,0 +1,95 @@
+{
+  "id": "I144",
+  "name": "分身短弓",
+  "status": "generated-normalized",
+  "source": "mothers/I144.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I144.png",
+  "motherSha256": "9538906140c3950283725222ad6394e93968e4a7e72aa502bebbbabf6ddc9deb",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I144.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2492,
+      "sha256": "5ec69836a64d3b7d95bcc51e6e61ce6ef80c77e7aa9aa634309805730d954798",
+      "pixelSha256": "bdc03908f7e890730d7eb8e050e1d1219f7e7140e18c039e75e6d1a068c9bb85",
+      "alphaBounds": [
+        8,
+        5,
+        120,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          78,
+          18,
+          1747,
+          851
+        ],
+        "fitSize": [
+          112,
+          56
+        ],
+        "position": [
+          8,
+          4
+        ],
+        "scale": 0.06722689075630252
+      }
+    },
+    "256": {
+      "file": "pixels/256/I144.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 8593,
+      "sha256": "a4e0396c4f9ceec9a07364d5e45b3e0fcbd5440b28b3cfcff1b2ebe85226dc0c",
+      "pixelSha256": "723a5074fceb751f0a1a9b041bc84c124b5cfe631a5eb23ed58a51740a0e0a75",
+      "alphaBounds": [
+        16,
+        9,
+        239,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          78,
+          18,
+          1747,
+          851
+        ],
+        "fitSize": [
+          224,
+          112
+        ],
+        "position": [
+          16,
+          8
+        ],
+        "scale": 0.13445378151260504
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "分身双弓、护腕伸出剑刃、双卷黏藤主体核对通过；黏藤无容器。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-7a53a107-67f8-4f10-8308-17730cdcf781.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-7a53a107-67f8-4f10-8308-17730cdcf781"
+  }
+}

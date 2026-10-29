@@ -1,0 +1,95 @@
+{
+  "id": "I127",
+  "name": "结晶碎片",
+  "status": "generated-normalized",
+  "source": "mothers/I127.png",
+  "method": "built-in image_gen, reference-conditioned mother; approved V5 algorithmic pixelization",
+  "mother": "mothers/I127.png",
+  "motherSha256": "e0c90f97831a3cf86288eb88ef19168d543f926c63f492fc5b8524af329c200c",
+  "motherSize": [
+    1774,
+    887
+  ],
+  "variants": {
+    "128": {
+      "file": "pixels/128/I127.png",
+      "width": 128,
+      "height": 64,
+      "colors": 64,
+      "bytes": 2288,
+      "sha256": "b1af1f1a3602cd9acbfc263468589b1b1ae24ff3a669ed2d0dd5db1cf880d26d",
+      "pixelSha256": "bc78e5c3bf490dbc5f8784acb34d7ac4d2c6eb44d0da3f5917a430d85b2ddd39",
+      "alphaBounds": [
+        12,
+        4,
+        116,
+        60
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          133,
+          6,
+          1742,
+          873
+        ],
+        "fitSize": [
+          104,
+          56
+        ],
+        "position": [
+          12,
+          4
+        ],
+        "scale": 0.06459054209919261
+      }
+    },
+    "256": {
+      "file": "pixels/256/I127.png",
+      "width": 256,
+      "height": 128,
+      "colors": 96,
+      "bytes": 8148,
+      "sha256": "4512ba062b8c99f055a713a7c7498fb7f2bc4f4974169389d5d8398dc9c567d0",
+      "pixelSha256": "b30cdf351a3dce429e52d87adb5e66f37beb49cc46c1173c331f5e0878361611",
+      "alphaBounds": [
+        24,
+        8,
+        232,
+        120
+      ],
+      "fit": {
+        "sourceAlphaBounds": [
+          133,
+          6,
+          1742,
+          873
+        ],
+        "fitSize": [
+          208,
+          112
+        ],
+        "position": [
+          24,
+          8
+        ],
+        "scale": 0.12918108419838523
+      }
+    }
+  },
+  "visualReview": {
+    "status": "pass",
+    "notes": "有机核心血管、三枚晶片数量、酸液瓶滴液分别核对通过，轮廓完整。"
+  },
+  "pixelVisualReview": {
+    "status": "pass",
+    "method": "Inspected native-size 128 and 256 contact sheets on dark background",
+    "scope": "silhouette completeness, transparency edge artifacts, subject retention after normalization",
+    "limitations": "Does not establish in-game readability or player recognition; tier I/II notch counts are not a validated semantic label."
+  },
+  "sourceProvenance": {
+    "sourceFilename": "exec-1c286c2f-8973-48d4-9084-1ae69b444c1b.png",
+    "origin": "built-in image_gen",
+    "localCachePathRemoved": true,
+    "generationJobId": "exec-1c286c2f-8973-48d4-9084-1ae69b444c1b"
+  }
+}

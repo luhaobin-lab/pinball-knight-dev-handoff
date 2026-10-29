@@ -1,0 +1,16 @@
+{
+  "release": "R3补充核验C",
+  "archive": "D:\\TAPTAPGAME_rebound_20261027\\outputs\\abyss-complete-reference-20261028\\R3补充核验C_尾部157字节.zip",
+  "bytes": 65921,
+  "sha256": "bb240d882952d4ec4a3192e333db636c4c9589423fd2e5342aa6c39de705275e",
+  "members": 32,
+  "allMemberHashesVerified": true,
+  "independentReview": "D:\\TAPTAPGAME_rebound_20261027\\studio\\abyss-reverse-night-20261027\\review\\semantic\\tail\\review-final.json",
+  "interpretedBytes": 157,
+  "dynamicMeshFields": 37,
+  "remainingOpaqueBytesUnderSupplementalGrammar": 0,
+  "originalExtractorNotChanged": true,
+  "sameBuildEngineSerializerVtableNotProven": true,
+  "editorialChange": "PublishednumberB→C inChinese note;actualsourcebytes/tablesunchanged",
+  "createdAt": "2026-10-27T17:47:02.179632+00:00"
+}
